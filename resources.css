@@ -1,0 +1,102 @@
+/* ===== Resources Section ===== */
+.resources-section {
+  padding: 3rem 1rem;
+  background-color: #fff;
+  color: #111;
+  text-align: center;
+}
+
+.section-title {
+  color: crimson;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.resource-filter {
+  margin-bottom: 1.5rem;
+}
+
+.resource-filter button {
+  background-color: white;
+  color: crimson;
+  border: 1px solid crimson;
+  padding: 0.5rem 1rem;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.resource-filter button:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.resource-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.resource-card:hover {
+  transform: scale(1.03);
+}
+
+.resource-card img,
+.resource-card video {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.resource-info {
+  padding: 1rem;
+  text-align: left;
+}
+
+.resource-info h3 {
+  color: crimson;
+  margin-bottom: 0.3rem;
+}
+
+.resource-actions {
+  margin-top: 0.7rem;
+}
+
+.resource-actions a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+a.download {
+  background-color: crimson;
+  color: white;
+}
+
+a.download:hover {
+  background-color: black;
+}
+
+a.whatsapp {
+  background-color: black;
+  color: white;
+}
+
+a.whatsapp:hover {
+  background-color: crimson;
+}

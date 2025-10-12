@@ -1,0 +1,789 @@
+/* CSS Variables */
+:root {
+  --primary: crimson;
+  --secondary: black;
+  --light: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--light);
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 70px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: var(--light);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: var(--primary);
+}
+
+/* Hamburger menu (hidden by default) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: black;
+  border-radius: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: var(--secondary);
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: var(--light);
+  max-width: 500px;
+  animation: slideIn 1.2s ease forwards;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: var(--primary);
+  color: var(--light);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: darkred;
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50%) translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0);
+  }
+}
+
+
+
+
+/* About Section */
+.about {
+  padding: 4rem 2rem;
+  background: #f9f9f9;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-text .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background: var(--primary);
+  color: var(--light);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.about-text .btn:hover {
+  background: black;
+}
+
+/* Services Section */
+.services {
+  padding: 4rem 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.section-header p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 3rem;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.service-card {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.service-card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  color: black;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.service-card p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+    /* ----------------------------------------
+     * Custom CSS for Our Team Section (Index Page)
+     * ----------------------------------------
+     */
+    #team-hero {
+        background-color: var(--color-secondary); /* Black background */
+        color: var(--color-light-text);
+        padding: 80px 30px;
+        text-align: center;
+    }
+
+    .team-hero h2 {
+        color: var(--color-primary); /* Crimson heading */
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color:crimson;
+    }
+    
+    .team-hero p {
+        font-size:18px;
+        margin-top: 5px;
+        color:black;
+    }
+    
+    /* Team Grid Container */
+    #team-container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 0 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+    }
+
+    /* Team Card Styling (Modern, Clean, Themed) */
+    .team-card {
+        background-color: var(--color-background); /* White card */
+        border: 1px solid #eee;
+        border-top: 5px solid var(--color-primary); /* Crimson accent */
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+        text-align: center;
+        padding-bottom: 25px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .team-card:hover {
+        transform: translateY(-5px); /* Lift effect */
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .team-card img {
+        width: 100%;
+        border-radius: 50%;
+        height: 300px;
+        object-fit: cover;
+        object-position: top center;
+        display: block;
+        padding: 20px;
+    }
+
+    .team-card h3 {
+        color: var(--color-secondary);
+        font-size: 1.5em;
+        margin-bottom: 5px;
+    }
+
+    .team-card .role {
+        color:crimson;
+        font-style: italic;
+        font-weight: 600;
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .team-card .specialty {
+        font-size: 0.9em;
+        color: #777;
+        margin-bottom: 5px;
+    }
+
+    .team-card .bio {
+        padding: 0 20px;
+        font-size: 0.95em;
+        color: var(--color-text);
+    }
+
+    /* Social Link Styling */
+    .social-buttons {
+        margin-top: 15px;
+        padding: 0 15px;
+    }
+
+    .team-card .whatsapp-link,
+    .team-card .linkedin-link {
+        display: inline-block;
+        padding: 8px 18px;
+        border-radius: 5px;
+        font-weight: bold;
+        margin: 0 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .team-card .linkedin-link {
+        background-color: var(--color-accent); 
+        color: var(--color-secondary);
+    }
+    .team-card .linkedin-link:hover {
+        background-color: var(--color-primary);
+        color: var(--color-background);
+    }
+
+    .team-card .whatsapp-link {
+        background-color: var(--color-primary); 
+        color: var(--color-background); 
+    }
+    .team-card .whatsapp-link:hover {
+        background-color: #075E54;
+        color: var(--color-background);
+    }
+
+    /* Message Area for No Data */
+    #team-message-area {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 30px;
+        text-align: center;
+        border: 2px solid var(--color-primary);
+        border-radius: 8px;
+        background-color: #fffafa;
+    }
+
+/* testimonial section */
+
+
+
+
+
+
+
+
+.testimonials {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: #DC143C; /* crimson */
+  margin-bottom: 20px;
+}
+
+.testimonial-slider {
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.testimonial-track {
+  position: relative;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.testimonial {
+  flex: 0 0 100%;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  animation: slide-in 1s;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.testimonial p {
+  font-size: 18px;
+  color: #333;
+}
+
+.testimonial h3 {
+  font-size: 20px;
+  color: #DC143C; /* crimson */
+  margin-top: 10px;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+    /* ----------------------------------------
+     * Spiced-Up Custom CSS for Contact Section
+     * ----------------------------------------
+     */
+
+    /* Contact Content Layout */
+    #contact-hero {
+        text-align: center;
+        padding: 100px 30px 60px; /* More vertical space */
+        background-color: var(--color-background);
+    }
+    
+    #contact-hero h2 {
+        font-size: 2em;
+        color: var(--primary); /* Black */
+    }
+
+    #contact-content {
+        display: flex;
+        justify-content: space-between;
+        gap: 60px; /* Increased gap */
+        max-width: 1100px;
+        margin: 0 auto 100px;
+        padding: 0 30px;
+    }
+
+    /* Contact Form Styles (Enhanced Focus and Shadow) */
+    .contact-form-container {
+        flex: 2;
+        /* Using a subtle gradient and a stronger box shadow for depth */
+        background: linear-gradient(145deg, var(--color-background), #fafafa);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+    }
+
+    .contact-form-container:hover {
+        box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15); /* Lift effect on hover */
+    }
+    
+    .contact-form h2 {
+        color: var(--color-primary); /* Crimson header */
+        font-size: 2em;
+        margin-bottom: 30px;
+        border-bottom: 3px solid var(--color-accent); /* Accent underline */
+        padding-bottom: 10px;
+        display: inline-block;
+    }
+
+    /* Input Field Styling */
+    .form-group {
+        margin-bottom: 25px;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 700; /* Bolder label */
+        color: var(--color-secondary);
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea {
+        width: 100%;
+        padding: 14px 15px; /* More padding */
+        border: 1px solid #ddd;
+        border-radius: 8px; /* Rounded corners */
+        font-size: 1em;
+        /* Subtle inner shadow for depth */
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05); 
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .form-group input:focus,
+    .form-group textarea:focus {
+        border-color: var(--color-primary); /* Crimson border on focus */
+        box-shadow: 0 0 0 4px rgba(220, 20, 60, 0.2); /* Soft crimson glow */
+        outline: none;
+    }
+
+    /* Submit Button (Uses existing .cta-button, but ensure it's styled nicely) */
+    .submit-button {
+        /* Inherits styles from .cta-button, but forces better margin */
+        margin-top: 15px;
+        letter-spacing: 0.1em; /* Slight letter spacing */
+    }
+
+    /* Contact Info Styles (Sharper look) */
+    .contact-info-container {
+        flex: 1;
+        padding: 40px;
+        /* Inverted background for strong contrast */
+        background-color: var(--color-secondary); 
+        color: var(--color-light-text);
+        border-radius: 12px;
+    }
+    
+    .contact-info-container h2 {
+        color: var(--color-accent); /* Accent color for title */
+        font-size: 1.8em;
+        margin-bottom: 30px;
+    }
+
+    .info-item {
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Lighter dashed line */
+    }
+
+    .info-item h3 {
+        font-size: 1.2em;
+        color: var(--color-primary); /* Crimson highlights */
+        margin-bottom: 8px;
+    }
+    
+    .contact-info-container a {
+        color: var(--color-accent); /* Accent link color on dark background */
+    }
+
+    /* Media Queries for Responsiveness */
+    @media (max-width: 768px) {
+        #contact-content {
+            flex-direction: column;
+            gap: 30px;
+            padding: 20px;
+        }
+        
+        .contact-form-container,
+        .contact-info-container {
+            flex: none;
+            width: 100%;
+            padding: 30px;
+        }
+    }
+    
+    /*
+ * ----------------------------------------
+ * 6. FOOTER STYLES (Modern Multi-Column)
+ * ----------------------------------------
+ */
+#main-footer {
+    background-color: var(--secondary); /* Black background */
+    color: var(--light); /* Light text on black */
+    padding-top: 50px;
+    font-size: 0.95em;
+    border-top: 5px solid var(--primary); /* Crimson accent line */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px 40px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px; /* Ensure columns don't get too squeezed */
+    margin: 20px 10px;
+}
+
+.footer-column img {
+    width: 60px; 
+    margin-bottom: 10px; 
+    padding: 5px; 
+    background-color: white;
+}
+
+.footer-column h3 {
+    color: var(--primary); /* Crimson headings */
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+/* List/Link Styles */
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: var(--color-light-text); /* Default link color is white/light */
+    transition: color 0.3s ease;
+    border-bottom: 1px dotted transparent;
+}
+
+.footer-column a:hover {
+    color: var(--color-accent); /* Accent color on hover */
+    border-bottom: 1px dotted var(--color-accent);
+}
+
+/* Brand Column (Social Icons) */
+.brand-column p {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--color-light-text);
+    margin-right: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: var(--color-primary); /* Crimson on hover */
+    transform: translateY(-2px);
+}
+
+/* Contact Column */
+.contact-column p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-column .icon {
+    font-style: normal;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin-right: 10px;
+    width: 15px; /* Alignment fix */
+}
+
+.footer-cta {
+    /* Uses the global .cta-button style, making it stand out */
+    margin-top: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 0.9em;
+}
+
+/* Footer Bottom (Copyright Bar) */
+.footer-bottom {
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #111111; /* Even darker shade for the bottom bar */
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-bottom p,
+.footer-bottom a {
+    color: #999;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        padding: 0 20px 30px;
+    }
+    
+    .footer-column {
+        min-width: 100%;
+        margin: 15px 0;
+        padding-bottom: 15px;
+        border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    }
+
+    .brand-column {
+        border-bottom: none;
+    }
+
+    .footer-column:last-of-type {
+        border-bottom: none;
+    }
+}

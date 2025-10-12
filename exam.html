@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="stylesheet" href="exam.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Aplus Tutors | Exam prep</title>
+    
+    
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="./logo Aplus tutors.JPG" alt="Aplus Tutors Logo">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="subject.html">Subjects</a></li>
+        <li><a href="quizzes.html">Quizzes</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="#contact">Contact </a></li>
+      </ul>
+      <!-- Hamburger button -->
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+  
+  
+    <main>
+        <section id="waec-hero" class="waec-hero">
+            <h1>Exam Mastery Program</h1>
+            <p>Targeted lessons and resources focused 100% on exams like WAEC, NECO and JAMB. Start preparing today!</p>
+        </section>
+
+        <div id="dynamic-content-area">
+            </div>
+    </main>
+    
+    
+    <!--footer section-->
+    
+            <footer id="main-footer">
+    <div class="footer-container">
+        
+        <div class="footer-column brand-column">
+            <img style="width: 70px; margin-bottom: 10px;" src="./logo Aplus tutors.JPG" alt="Aplus Tutors Logo">
+            
+            <p>Empowering the next generation of learners with personalized, data-driven online education. Your fastest path to exam mastery.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon" aria-label="Connect on Facebook">F</a>
+                <a href="#" class="social-icon" aria-label="Follow on Twitter">T</a>
+                <a href="#" class="social-icon" aria-label="Watch on YouTube">Y</a>
+                <a href="#" class="social-icon" aria-label="Connect on Instagram">I</a>
+            </div>
+        </div>
+        
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="subject.html">Our Subjects</a></li>
+                <li><a href="resources.html">Free Resources</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+        
+        
+        <div style="align-items: center; text-align: center;" class="footer-column contact-column">
+            <h3>Contact</h3>
+            <p><i class="icon">E</i> <a href="mailto:support@aplustutor.com">support@aplustutor.com</a></p>
+            <p><i class="icon">P</i> <a href="tel:+2348012345678">(+234) 915-276-9294</a></p>
+            <p><i class="icon">L</i> Lagos, Nigeria</p>
+            
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2021 Aplus Tutor. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+</footer>
+
+
+
+    <script src="data.js"></script> 
+    <script src="script.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const dynamicArea = document.getElementById('dynamic-content-area');
+            const data = typeof WAEC_PREP_DATA !== 'undefined' ? WAEC_PREP_DATA : [];
+            
+            // 1. SAFETY CHECK: Display message if no data is present
+            if (data.length === 0) {
+                dynamicArea.innerHTML = `
+                    <div id="message-area">
+                        <h2>🚧 Content Preparation In Progress 🚧</h2>
+                        <p style="font-size: 1.1em;">We are currently finalizing the latest batch of WAEC mastery videos and resources.</p>
+                        <p style="font-size: 1.1em; font-weight: bold; color: var(--color-primary);">Please check back soon! Our team is working hard to bring you the best prep materials.</p>
+                    </div>
+                `;
+                return; // Stop execution if no data
+            }
+
+            // 2. FUNCTIONALITY: If data exists, build the lesson player and list
+            
+            dynamicArea.innerHTML = `
+                <div id="waec-player-area">
+                    <h2>Current Lesson:</h2>
+                    <div id="video-player-display">
+                        </div>
+                </div>
+
+                <div id="waec-lessons-container">
+                    <h2 style="text-align: center; margin-bottom: 30px;">Available Exam Prep Topics</h2>
+                    <div id="lesson-list">
+                        </div>
+                </div>
+            `;
+
+            const playerDisplay = document.getElementById('video-player-display');
+            const lessonList = document.getElementById('lesson-list');
+
+
+            // Function to load the video and associated details
+            function loadVideoPlayer(lesson) {
+                // Determine if we show the video player or just a download option
+                const mediaElement = lesson.type === "Video Lesson" ? 
+                    `<video width="100%" height="450" controls autoplay>
+                        <source src="${lesson.videoSource}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>` :
+                    `<div style="text-align: center; padding: 50px; border: 1px dashed var(--color-accent);">
+                        <h3 style="color: var(--color-accent);">This is a Downloadable Resource Guide.</h3>
+                        <p>Click the button below to get the full PDF or document.</p>
+                    </div>`;
+
+                playerDisplay.innerHTML = `
+                    <div class="video-player">
+                        ${mediaElement}
+                    </div>
+
+                    <div class="video-details">
+                        <h3 style="color: var(--secondary);">${lesson.subject}: ${lesson.subTopic}</h3>
+                        <p>${lesson.description}</p>
+                        
+                        <a href="${lesson.downloadLink}" download class="download-button">
+                            Download ${lesson.type}
+                        </a>
+                    </div>
+                `;
+                
+                playerDisplay.scrollIntoView({ behavior: 'smooth' });
+            }
+
+            // Function to render the lesson list
+            data.forEach(lesson => {
+                const lessonCard = document.createElement('div');
+                lessonCard.classList.add('lesson-card');
+                
+                lessonCard.addEventListener('click', () => {
+                    loadVideoPlayer(lesson);
+                });
+
+                lessonCard.innerHTML = `
+                    <h3 class="lesson-subject">${lesson.subject}</h3>
+                    <h4 class="lesson-topic">${lesson.topic}: ${lesson.subTopic}</h4>
+                    <p class="lesson-description">${lesson.description}</p>
+                    <div style="margin-top: 10px; font-weight: bold; color: ${lesson.type === 'Video Lesson' ? 'var(--color-secondary)' : 'var(--color-accent)'};">
+                        Content Type: ${lesson.type}
+                    </div>
+                    <div style="font-size: 0.9em; margin-top: 5px; color: var(--color-primary);">
+                        Exam Focus: ${lesson.examType} 
+                    </div>
+                `;
+                lessonList.appendChild(lessonCard);
+            });
+
+            // Load the first lesson by default on page load
+            loadVideoPlayer(data[0]);
+        });
+    </script>
+
+</body>
+</html>

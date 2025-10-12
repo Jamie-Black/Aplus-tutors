@@ -1,0 +1,169 @@
+/* style.css */
+
+/* Define the color palette */
+:root {
+    --color-primary: #DC143C; /* Crimson */
+    --color-secondary: #000000; /* Black */
+    --color-background: #FFFFFF; /* White */
+    --color-text: #333333; /* Dark Gray for better readability */
+    --color-light-text: #FFFFFF;
+}
+
+
+/* Header */
+.subject-header {
+    background-color: var(--color-secondary);
+    color: var(--color-light-text);
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid var(--primary);
+}
+
+.subject-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+/* Main Container for Subjects */
+.subjects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    max-width: 1400px; /* Slightly wider layout */
+    margin: 40px auto;
+}
+
+/* Individual Subject Card */
+.subject-card {
+    background-color: var(--text);
+    border: 1px solid #ddd;
+    border-top: 5px solid var(--primary); /* Crimson Accent */
+    border-radius: 8px;
+    width: 100%;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.subject-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.subject-title {
+    color: var(--primary);
+    margin-top: 0;
+    font-size: 1.8em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.subject-instructor {
+    font-weight: bold;
+    color: var(--secondary);
+    margin-bottom: 15px;
+}
+
+.subject-instructor span {
+    font-weight: normal;
+    font-style: italic;
+    color: var(--text);
+}
+
+.subject-description {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.subject-card p {
+    margin-bottom: 7px;
+}
+
+/* Topics Section */
+.topics-section h3 {
+    color: var(--secondary);
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.topics-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0;
+}
+
+.topics-list li {
+    padding: 5px 0;
+    border-bottom: 1px dotted #ccc;
+    position: relative;
+    padding-left: 20px;
+}
+
+.topics-list li::before {
+    content: "•"; /* Custom bullet */
+    color: var(--primary);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Registration Form Styles */
+.registration-form {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px dashed #ccc;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--secondary);
+}
+
+.form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+
+/* Register Button */
+.register-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    border: none; /* Changed from anchor to button, so remove border */
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #A30F2A; /* Darker Crimson on hover */
+}
+
+/* Error Message (if data fails to load) */
+.error-message {
+    grid-column: 1 / -1; /* Span across all columns */
+    text-align: center;
+    padding: 50px;
+    color: var(--primary);
+    font-size: 1.5em;
+    font-weight: bold;
+}

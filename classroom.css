@@ -1,0 +1,241 @@
+/*
+ * ----------------------------------------
+ * Aplus Tutor Main Stylesheet (styles.css)
+ * Theme: Crimson, Black, and White
+ * ----------------------------------------
+ */
+ 
+         /* * ----------------------------------------
+         * Custom CSS for Classroom Page
+         * ----------------------------------------
+         */
+        #classroom-player-section {
+            padding: 50px 30px;
+            background-color: #f0f0f0;
+        }
+
+        .video-player {
+            margin-bottom: 20px;
+        }
+
+        .video-details h2 {
+            color: var(--color-secondary);
+            margin-bottom: 5px;
+        }
+        
+        .video-details h3 {
+            color: var(--color-primary);
+            margin-bottom: 15px;
+        }
+
+        .download-button {
+            display: inline-block;
+            background-color: var(--color-accent); 
+            color: var(--color-secondary);
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-button:hover {
+            background-color: var(--color-primary);
+            color: var(--color-background);
+        }
+
+        /* Lesson List Styling */
+        #lesson-list-section {
+            padding: 50px 30px;
+        }
+        
+        .lesson-card {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            border-left: 5px solid var(--color-primary);
+            transition: background-color 0.2s ease, box-shadow 0.3s ease;
+        }
+
+        .lesson-card:hover {
+            background-color: #fffafb; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .lesson-card h4 {
+            color: var(--color-primary);
+            font-weight: normal;
+            margin: 5px 0 10px 0;
+        }
+
+        .lesson-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 10px;
+        }
+
+/* 1. COLOR VARIABLES & GLOBAL RESETS */
+:root {
+    /* Primary Theme Colors (Using variables for easy control) */
+    --color-primary: #DC143C; /* Crimson */
+    --color-secondary: #1a1a1a; /* Near Black */
+    --color-background: #ffffff; /* Pure White */
+    --color-text: #333333; /* Dark Grey for body text */
+    --color-light-text: #f0f0f0; /* Off-white for dark backgrounds */
+    --color-accent: #ffae42; /* A warm gold/orange for highlight actions */
+
+    /* Typography */
+    --font-primary: 'Arial', sans-serif;
+    --font-heading: 'Georgia', serif;
+}
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+    color: var(--color-secondary);
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primary);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-accent);
+}
+
+/* 2. NAVBAR SECTION (STICKY & MODERN) */
+#navbar-section {
+    position: sticky; /* Makes the navbar sticky */
+    top: 0; /* Sticks it to the top */
+    z-index: 1000; /* Ensures it's above other content */
+    background-color: var(--color-secondary); /* Black background */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow for modern depth */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 30px;
+}
+
+.logo img {
+    height: 40px; /* Adjust as needed */
+    vertical-align: middle;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: var(--color-light-text); /* White/Off-white text */
+    font-weight: 600;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent; /* Base for hover effect */
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--color-primary); /* Crimson on hover/active */
+    border-bottom: 2px solid var(--color-primary); /* Underline effect */
+}
+
+/* 3. GENERAL LAYOUT & SECTION STYLES */
+main {
+    padding-top: 20px; /* Space below the sticky header */
+}
+
+.hero-section,
+.content-section,
+.pillars-section,
+.cta-section {
+    padding: 80px 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid #eee; /* Light separator between sections */
+}
+
+.content-section:last-child {
+    border-bottom: none;
+}
+
+/* Base CTA Button Style */
+.cta-button {
+    display: inline-block;
+    background-color: var(--color-primary); /* Crimson button */
+    color: var(--color-background); /* White text */
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--color-accent); /* Accent color on hover */
+    transform: scale(1.05);
+}
+
+/* 4. FOOTER STYLES */
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #222; /* Darker black for contrast */
+    color: #999;
+    font-size: 0.9em;
+}
+
+/* 5. MEDIA QUERIES (RESPONSIVENESS) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+    
+    .nav-links {
+        margin-top: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nav-links li {
+        margin: 5px 0;
+    }
+    
+    .hero-section,
+    .content-section,
+    .pillars-section,
+    .cta-section {
+        padding: 40px 20px;
+    }
+}

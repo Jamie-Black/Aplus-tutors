@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplus Tutors | Subjects</title>
+    <link rel="stylesheet" href="subject.css">
+    <link rel="stylesheet" href="quizzes.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="./logo Aplus tutors.JPG" alt="Aplus Tutors Logo">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="subject.html">Subjects</a></li>
+        <li><a href="quizzes.html">Quizzes</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="#contact">Contact </a></li>
+      </ul>
+      <!-- Hamburger button -->
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+<!-- subject starts here-->
+    <div class="subject-header">
+        <h2>Our Subject Catalog</h2>
+    </div>
+
+    <main class="subjects-container" id="subjects-container">
+        </main>
+        
+      <div class="quiz-register">
+    <h2>Register for Quizzes and Computer Based Testing</h2>
+    <h3>Prepare for Success in Science Subjects</h3>
+    <img class="quiz-image" src="./20251004_201133.jpg" alt="girl doing online quiz" />
+    <p>Our quizzes and computer-based testing platform is designed to help you prepare for success in various science subjects. Choose a package that suits your needs and register now!</p>
+    
+    <div class="packages">
+        <div class="package">
+            <h3>Basic Package</h3>
+            <p>Access to all quizzes in Mathematics, Physics, Chemistry and Biology for a month.</p>
+            <p>Price: ₦4,000</p>
+            <input type="radio" id="basic" name="package" value="Basic Package - ₦5,000">
+        </div>
+        <div class="package">
+            <h3>Premium Package</h3>
+            <p>Access to quizzes and computer based tests on all science subjects. Available for month</p>
+            <p>Price: ₦6,000</p>
+            <input type="radio" id="premium" name="package" value="Premium Package - ₦1">
+        </div>
+        <div class="package">
+            <h3>Ultimate Package</h3>
+            <p>Access to unlimited quizzes and computer-based tests</p>
+            <p>Price: ₦1,000</p>
+            <input type="radio" id="ultimate" name="package" value="Ultimate Package - ₦30,000">
+        </div>
+    </div>
+    
+    <form id="quiz-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <button type="submit">Register Now</button>
+        <a class="take-quiz" href="quiz.html">Take Quiz</a>
+        <a class="cbt-test" href="cbt.html">Take CBT Test</a>
+        
+    </form>
+</div>  
+
+    <footer id="main-footer">
+    <div class="footer-container">
+        
+        <div class="footer-column brand-column">
+            <img style="width: 70px; margin-bottom: 10px;" src="./logo Aplus tutors.JPG" alt="Aplus Tutors Logo">
+            
+            <p>Empowering the next generation of learners with personalized, data-driven online education. Your fastest path to exam mastery.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon" aria-label="Connect on Facebook">F</a>
+                <a href="#" class="social-icon" aria-label="Follow on Twitter">T</a>
+                <a href="#" class="social-icon" aria-label="Watch on YouTube">Y</a>
+                <a href="#" class="social-icon" aria-label="Connect on Instagram">I</a>
+            </div>
+        </div>
+        
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="subject.html">Our Subjects</a></li>
+                <li><a href="resources.html">Free Resources</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h3>Exam Prep</h3>
+            <ul>
+                <li><a href="exam.html">WAEC Prep</a></li>
+                <li><a href="exam.html">NECO Mastery</a></li>
+                <li><a href="exam.html">JAMB Tutorials</a></li>
+            </ul>
+        </div>
+        
+        <div style="align-items: center; text-align: center;" class="footer-column contact-column">
+            <h3>Contact</h3>
+            <p><i class="icon">E</i> <a href="mailto:support@aplustutor.com">support@aplustutor.com</a></p>
+            <p><i class="icon">P</i> <a href="tel:+2348012345678">(+234) 915-276-9294</a></p>
+            <p><i class="icon">L</i> Lagos, Nigeria</p>
+            
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2021 Aplus Tutor. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+</footer>
+
+    <script src="data.js"></script>
+    <script>
+        const form = document.getElementById('quiz-form');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const phone = document.getElementById('phone').value;
+  const package = document.querySelector('input[name="package"]:checked').value;
+  const message = `Name: ${name}%0AEmail: ${email}%0APhone: ${phone}%0APackage: ${package}`;
+  const whatsappNumber = '2349152769294'; // replace with your WhatsApp number
+  const url = `https://wa.me/${whatsappNumber}?text=${message}`;
+  window.open(url, '_blank');
+});
+    </script>
+    
+<script>
+    // index.html Script (Pure JavaScript)
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const container = document.getElementById('subjects-container');
+
+        // Function to generate the HTML for a single subject card
+        const createSubjectCard = (subject) => {
+            // Generate the HTML for the list of topics
+            const topicsList = subject.topics.map(topic => 
+                `<li>${topic}</li>`
+            ).join(''); 
+
+            // The full HTML structure for the card, including the form
+            return `
+                <div class="subject-card">
+                    <h2 class="subject-title">${subject.title}</h2>
+                    <p class="subject-instructor">Instructor: <span>${subject.instructor}</span></p>
+                    <p class="subject-description">${subject.description}</p>
+                    
+                    <p class="subject-price">Price: <strong>${subject.price}</strong></p>
+                    
+                    <div class="topics-section">
+                        <h3>Key Topics:</h3>
+                        <ul class="topics-list">
+                            ${topicsList}
+                        </ul>
+                    </div>
+                    
+                    <form class="registration-form" 
+                          data-subject-title="${subject.title}" 
+                          data-whatsapp-number="${subject.whatsappNumber}"
+                          data-subject-price="${subject.price}" >
+                        <div class="form-group">
+                            <label for="name-${subject.id}">Your Full Name:</label>
+                            <input type="text" id="name-${subject.id}" name="fullName" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone-${subject.id}">Your Phone Number:</label>
+                            <input type="tel" id="phone-${subject.id}" name="phoneNumber" required placeholder="080xxxxxxx">
+                        </div>
+                        <button type="submit" class="register-button">
+                            Register via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            `;
+        };
+
+        // Loop through the subjectsData (from data.js) and render them
+        if (typeof subjectsData !== 'undefined' && subjectsData.length > 0) {
+            const cardsHTML = subjectsData.map(createSubjectCard).join('');
+            container.innerHTML = cardsHTML;
+            
+            // Add event listeners AFTER the cards are rendered
+            document.querySelectorAll('.registration-form').forEach(form => {
+                form.addEventListener('submit', handleRegistration);
+            });
+        } else {
+            container.innerHTML = '<p class="error-message">No subjects found in the data file.</p>';
+        }
+
+        // Function to handle the form submission
+        function handleRegistration(event) {
+            event.preventDefault(); // Stop the default form submission (page reload)
+
+            const form = event.target;
+            const subjectTitle = form.getAttribute('data-subject-title');
+            const whatsappNumber = form.getAttribute('data-whatsapp-number');
+            const subjectPrice = form.getAttribute('data-subject-price'); // <--- CHANGE 2: GET THE PRICE HERE
+            
+            // Get form values
+            const fullName = form.elements.fullName.value.trim();
+            const phoneNumber = form.elements.phoneNumber.value.trim();
+
+            if (!fullName || !phoneNumber) {
+                alert("Please fill out all fields.");
+                return;
+            }
+
+            // Construct the prepared WhatsApp message with form data
+            const message = encodeURIComponent(
+                `*SUBJECT REGISTRATION REQUEST*\n\n` +
+                `Subject: ${subjectTitle}\n` +
+                `Price: ${subjectPrice}\n` + // <--- CHANGE 3: INSERT THE PRICE HERE
+                `Full Name: ${fullName}\n` +
+                `Contact Number: ${phoneNumber}\n\n` + 
+                `Please proceed with the registration process for the course.`
+            );
+
+            
+            // Construct the final WhatsApp link
+            // NOTE: I've included the original hardcoded WhatsApp number you had, 
+            // but you might want to use the 'whatsappNumber' variable from the form.
+            const waLink = `https://wa.me/+2349034499225?text=${message}`; 
+
+            // Open the WhatsApp link
+            window.open(waLink, '_blank');
+        }
+    });
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

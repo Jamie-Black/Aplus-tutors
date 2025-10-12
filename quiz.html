@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplus tutors | Quizzes</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Subject Quizzes</h1>
+    </header>
+
+    <main class="quiz-container">
+        
+        <div id="start-screen" class="screen active">
+            <h2>Start Your Quiz</h2>
+            <form id="start-form" class="main-form">
+                <div class="form-group">
+                    <label for="student-name">Full Name:</label>
+                    <input type="text" id="student-name" required placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="student-email">Email Address:</label>
+                    <input type="email" id="student-email" required placeholder="your.email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="subject-select">Select Subject:</label>
+                    <select id="subject-select" required>
+                        <option value="" disabled selected>--- Choose a Subject ---</option>
+                        </select>
+                </div>
+                <button type="submit" class="primary-button">Start Quiz</button>
+            </form>
+        </div>
+
+        <div id="quiz-screen" class="screen">
+            <h2 id="quiz-subject-title"></h2>
+            <div id="questions-area">
+                </div>
+            <button id="submit-quiz" class="primary-button" style="display: none;">Submit Quiz & Get Results</button>
+        </div>
+
+        <div id="result-screen" class="screen">
+            <h2>Quiz Results</h2>
+            <p>Well done, <span id="result-name"></span>!</p>
+            <div class="result-summary">
+                <p>Subject: <span id="result-subject"></span></p>
+                <p>Score: <span id="result-score"></span></p>
+                <p>Percentage: <span id="result-percentage"></span></p>
+            </div>
+            
+            <p class="final-instruction">To automatically save your results, please click the button below and **manually send the email** that opens in your mail client.</p>
+
+            <a id="email-button" href="#" class="primary-button email-button" target="_blank">
+                Email My Results to instructor
+            </a>
+            
+            <button class="secondary-button" onclick="window.location.reload();">Take Another Quiz</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2021 Aplus Tutors</p>
+    </footer>
+
+    <script src="data.js"></script>
+    
+<script src="data.js"></script>
+
+<script>
+    // Global state variables
+    let studentInfo = { name: '', email: '', subject: '' };
+    let activeQuestions = [];
+    let score = 0;
+
+    // DOM elements
+    const startScreen = document.getElementById('start-screen');
+    const quizScreen = document.getElementById('quiz-screen');
+    const resultScreen = document.getElementById('result-screen');
+    const subjectSelect = document.getElementById('subject-select');
+    const questionsArea = document.getElementById('questions-area');
+    const submitButton = document.getElementById('submit-quiz');
+
+    // --- Initialization and Subject Population ---
+    document.addEventListener('DOMContentLoaded', () => {
+        populateSubjectDropdown();
+        document.getElementById('start-form').addEventListener('submit', handleStartQuiz);
+        submitButton.addEventListener('click', handleSubmitQuiz);
+    });
+
+    function populateSubjectDropdown() {
+        // Use the keys of the quizQuestions object for subjects
+        const subjects = Object.keys(quizQuestions);
+        subjects.forEach(subject => {
+            const option = document.createElement('option');
+            option.value = subject;
+            option.textContent = subject;
+            subjectSelect.appendChild(option);
+        });
+    }
+
+    // --- Step 1: Handle Start Quiz Form ---
+    function handleStartQuiz(event) {
+        event.preventDefault();
+
+        // Collect student info
+        studentInfo.name = document.getElementById('student-name').value.trim();
+        studentInfo.email = document.getElementById('student-email').value.trim();
+        studentInfo.subject = subjectSelect.value;
+
+        // Validate if user exists in data.js
+        const userFound = allowedUsers.some(
+            user => user.name.toLowerCase() === studentInfo.name.toLowerCase() &&
+                    user.email.toLowerCase() === studentInfo.email.toLowerCase()
+        );
+
+        if (!userFound) {
+            alert("Sorry, your name and email are not registered. Redirecting...");
+            window.location.href = "subject.html";
+            return;
+        }
+
+        // Proceed if user exists
+        if (studentInfo.subject && quizQuestions[studentInfo.subject]) {
+            activeQuestions = quizQuestions[studentInfo.subject];
+
+            // Switch screens
+            startScreen.classList.remove('active');
+            quizScreen.classList.add('active');
+
+            // Render the quiz
+            renderQuiz(activeQuestions);
+        } else {
+            alert("Please select a valid subject.");
+        }
+    }
+
+    // --- Step 2: Render Quiz Questions ---
+    function renderQuiz(questions) {
+        document.getElementById('quiz-subject-title').textContent = `${studentInfo.subject} Quiz`;
+        questionsArea.innerHTML = ''; // Clear previous questions
+
+        questions.forEach((qData, index) => {
+            const questionElement = document.createElement('div');
+            questionElement.classList.add('question-block');
+            questionElement.innerHTML = `
+                <p class="question-number">Question ${index + 1} of ${questions.length}</p>
+                <p class="question-text">${qData.q}</p>
+                <div class="options-group" data-question-index="${index}">
+                    ${qData.options.map(option => `
+                        <label class="option-label">
+                            <input type="radio" name="question-${index}" value="${option}">
+                            <span class="option-text">${option}</span>
+                        </label>
+                    `).join('')}
+                </div>
+            `;
+            questionsArea.appendChild(questionElement);
+        });
+
+        // Re-render MathJax to process any new LaTeX math
+        if (typeof MathJax !== 'undefined') {
+            MathJax.typesetPromise([questionsArea]);
+        }
+
+        submitButton.style.display = 'block';
+    }
+
+    // --- Step 3: Handle Quiz Submission and Scoring ---
+    function handleSubmitQuiz() {
+        score = 0;
+        const totalQuestions = activeQuestions.length;
+        let allAnswered = true;
+
+        activeQuestions.forEach((qData, index) => {
+            const selector = `input[name="question-${index}"]:checked`;
+            const selectedInput = questionsArea.querySelector(selector);
+
+            if (!selectedInput) {
+                allAnswered = false;
+            } else if (selectedInput.value === qData.answer) {
+                score++;
+            }
+        });
+
+        if (!allAnswered) {
+            alert("Please answer all questions before submitting.");
+            return;
+        }
+
+        // Calculate results
+        const percentage = ((score / totalQuestions) * 100).toFixed(0) + '%';
+        const scoreText = `${score} / ${totalQuestions}`;
+
+        // Pass results to the final screen
+        displayResults(scoreText, percentage, totalQuestions);
+    }
+
+    // --- Step 4: Display Results and Prepare Email ---
+    function displayResults(scoreText, percentage, totalQuestions) {
+        // Update Result Screen
+        document.getElementById('result-name').textContent = studentInfo.name;
+        document.getElementById('result-subject').textContent = studentInfo.subject;
+        document.getElementById('result-score').textContent = scoreText;
+        document.getElementById('result-percentage').textContent = percentage;
+
+        // Prepare the Email Link (mailto:)
+        const recipientEmail = studentInfo.email;
+        const adminEmail = "your.admin.email@example.com"; // change to your real email
+
+        const emailSubject = `Quiz Results: ${studentInfo.subject} for ${studentInfo.name}`;
+
+        const emailBody = `
+Dear ${studentInfo.name},
+
+Thank you for taking the ${studentInfo.subject} quiz!
+
+--- QUIZ RESULTS SUMMARY ---
+Full Name: ${studentInfo.name}
+Subject: ${studentInfo.subject}
+Total Questions: ${totalQuestions}
+Correct Answers: ${score}
+Final Score: ${scoreText}
+Percentage: ${percentage}
+------------------------------
+
+Please save this email for your records.
+
+Best regards,
+Aplus Tutors
+        `.trim();
+
+        const mailtoLink = `mailto:${recipientEmail}?cc=${adminEmail}&subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+        document.getElementById('email-button').href = mailtoLink;
+
+        // Switch screens
+        quizScreen.classList.remove('active');
+        resultScreen.classList.add('active');
+    }
+</script>
+</body>
+</html>

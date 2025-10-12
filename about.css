@@ -1,0 +1,166 @@
+body 
+:root {
+    /* Primary Theme Colors */
+    --color-primary: #DC143C; /* Crimson */
+    --color-secondary: #1a1a1a; /* Near Black */
+    --color-background: #ffffff; /* Pure White */
+    --color-text: #333333; /* Dark Grey for body text */
+    --color-light-text: #f0f0f0; /* Off-white for dark backgrounds */
+    --color-accent: #ffae42; /* A warm gold/orange for highlights */
+
+    /* Typography */
+    --font-primary: 'Arial', sans-serif;
+    --font-heading: 'Georgia', serif;
+}
+
+
+.about-holder {
+    padding: 10px;
+}
+
+/* Hero Section */
+#about-hero {
+    text-align: center;
+    background-color: var(--background);
+    padding: 20px 20px;
+}
+
+#about-hero h1 {
+    font-size: 3em;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+#about-hero p {
+    font-size: 1.3em;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+#about-hero img {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius:30px;
+    box-shadow: 5px 5px 10px #00000057;
+}
+
+.content-section {
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content-section h2 {
+    font-size: 28px;
+}
+
+
+/* Pillars Section (What We Offer) */
+.pillars-section {
+    padding: 20px;
+} 
+
+.pillars-section h2 {
+    font-size: 28px;
+    margin-top: 40px;
+}
+#core-pillars {
+    text-align: center;
+    background-color: #f8f8f8; /* Light grey background for contrast */
+}
+
+#core-pillars h2 {
+    margin-bottom: 40px;
+}
+
+.pillar-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows pillars to wrap on smaller screens */
+    gap: 30px;
+    justify-content: center;
+}
+
+.pillar-item {
+    flex: 1;
+    min-width: 250px; /* Ensures a good minimum size */
+    padding: 30px;
+    background: var(--background);
+    border: 1px solid #ddd;
+    border-top: 5px solid var(--primary); /* Crimson accent line */
+    border-radius: 8px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pillar-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pillar-item h3 {
+    color: var(--secondary);
+    margin-bottom: 10px;
+}
+
+/* The Difference Section (List Styling) */
+#the-difference ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+#the-difference ul li {
+    padding: 10px 0;
+    border-bottom: 1px dotted #ccc;
+}
+
+#the-difference ul li::before {
+    content: '★'; /* Star bullet point, can be customized */
+    color: var(--primary);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* CTA Section */
+.cta-section {
+    text-align: center;
+    background-color: var(--secondary);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    padding:40px;
+    margin-bottom: 80px;
+}
+
+.cta-section h2 {
+    color: var(--primary); /* Crimson heading on black background */
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--primary); /* Crimson button */
+    color: var(--background); /* White text */
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--accent); /* Accent color on hover */
+    transform: scale(1.05);
+}

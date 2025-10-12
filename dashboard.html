@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aplus Tutors | Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="dashboard-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Aplus Tutors</h2>
+      <ul>
+        <li class="active">🏠 Dashboard</li>
+        <li>📚 Subjects</li>
+        <li>🧪 Quizzes</li>
+        <li>📈 Progress</li>
+        <li>⚙️ Settings</li>
+      </ul>
+      <button id="logoutBtn">Logout</button>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header>
+        <h2>Welcome, <span id="userName">Student</span></h2>
+      </header>
+
+      <section class="stats">
+        <div class="card">
+          <h3>Subjects</h3>
+          <p id="subjectsCount">5</p>
+        </div>
+        <div class="card">
+          <h3>Completed Tests</h3>
+          <p id="testsCount">3</p>
+        </div>
+        <div class="card">
+          <h3>Average Score</h3>
+          <p id="averageScore">82%</p>
+        </div>
+      </section>
+
+      <section class="chart-section">
+        <h3>Your Weekly Progress</h3>
+        <canvas id="progressChart"></canvas>
+      </section>
+    </main>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
