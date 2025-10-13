@@ -5,19 +5,19 @@ const subjectsData = [
         id: 1,
         title: "Mathematics",
         instructor: "Olaborede James",
-        description: "Comprehensive coverage of Algebra, Geometry, and introductory Calculus concepts, statistics and matrices.",
+        description: "Comprehensive coverage of Algebra, Geometry, and introductory Calculus concepts, statistics, matrices and much more.",
         price: "₦" + 7000,
         topics: [
-            "Quadratic Equations",
-            "Trigonometric Identities",
-            "Vectors and Scalars",
+            "Surds",
+            "Trigonometry",
+            "Vectors",
             "Basic Differentiation",
             "Calculus",
             "Algebra",
             "Statistics",
             "Matrices and determinants"
         ],
-        whatsappNumber: "08063721835" // Replace with your actual WhatsApp number (no + or spaces)
+        whatsappNumber: "2349152769294" // Replace with your actual WhatsApp number (no + or spaces)
     },
     {
         id: 2,
@@ -41,14 +41,17 @@ const subjectsData = [
         title: "Chemistry",
         instructor: "Mr. Olaborede James",
         description: "Fundamentals of atomic structure, chemical bonding, and reaction kinetics.",
-        price: "₦" + 4500,
+        price: "₦" + 5000,
         topics: [
             "Atomic Structure",
             "Stoichiometry",
             "Acids, Bases, and Salts",
-            "Organic Chemistry Basics"
+            "Organic Chemistry",
+            "Descriptive Chemistry",
+            "Electrochemistry",
+            "Nuclear Chemistry and Radioactivity"
         ],
-        whatsappNumber: "2348012345678" 
+        whatsappNumber: "2349152769294" 
     },
     {
         id: 4,
@@ -62,23 +65,27 @@ const subjectsData = [
             "Ecosystem Dynamics",
             "Human Physiology",
             "Genetics",
-            "Classification of living things"
+            "Classification of living things",
+            "The cell and its properties",
+            "Homeostasis and regulation of internal environment."
         ],
-        whatsappNumber: "2348012345678" 
+        whatsappNumber: "2349152769294" 
     },
     {
         id: 5,
         title: "English Language",
-        instructor: "Mrs. Virginia Woolf",
-        description: "Improving grammar, composition, comprehension, and literary analysis skills.",
+        instructor: "Mrs. Olaborede Kehinde",
+        description: "Improving grammar, composition, lexis and structure, comprehension, and literary analysis skills.",
         price: "₦" + 5000,
         topics: [
             "Tenses and Concord",
             "Essay Writing Techniques",
             "Verbal Reasoning",
-            "Poetic Devices"
+            "Poetic Devices",
+            "Comprehension",
+            "Summary"
         ],
-        whatsappNumber: "2348012345678" 
+        whatsappNumber: "2349034499225" 
     },
     {
     id: 6 ,
@@ -87,16 +94,9 @@ const subjectsData = [
     description: "Comprehensive coverage of all science subjects including mathematics, chemistry, biology, physics, further mathematics and technical drawing.",
     price: "₦" + 20000 + " Monthly",
     topics: [
-        "Quadratic Equations",
-        "Trigonometric Identities",
-        "Vectors and Scalars",
-        "Basic Differentiation",
-        "Organic chemistry",
-        "Metals and non metals",
-        "Ecology",
-        "Classification of living things"
+        "All prominent topics in Mathematics, Physics, Chemistry and Biology.",
     ],
-    whatsappNumber: "08063721835" // Replace with your actual WhatsApp number (no + or spaces)
+    whatsappNumber: "2349152769294" // Replace with your actual WhatsApp number (no + or spaces)
 }
 ];
 
@@ -116,7 +116,7 @@ const TEAM_DATA = [
         bio: "He is focused on exam mastery, implementing strategic teaching methodologies to ensure students gain foundational competence and achieve top scores in challenging national exams like WAEC and JAMB.",
         image: "./IMG_20250720_162824_145.jpg",
         whatsapp: "2349152769294", 
-        linkedin: "#"
+        Email: "olaboredejames2021@gmail.com"
     },
     {
         id: 2,
@@ -125,7 +125,7 @@ const TEAM_DATA = [
         specialty: "Lexis & Structure, Comprehension, Essay Writing and Oral",
         bio: "A highly experienced English Language specialist dedicated to high-stakes exam success. She employs analytical and structural methods to build advanced literacy.",
         image: "/BackgroundEraser_20251005_215502512.png",
-        whatsapp: "2348033334444", 
+        whatsapp: "2349034499225", 
         linkedin: "#"
     },
     {
