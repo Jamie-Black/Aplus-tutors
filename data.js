@@ -5,19 +5,19 @@ const subjectsData = [
         id: 1,
         title: "Mathematics",
         instructor: "Olaborede James",
-        description: "Comprehensive coverage of Algebra, Geometry, and introductory Calculus concepts, statistics, matrices and much more.",
+        description: "Comprehensive coverage of Algebra, Geometry, and introductory Calculus concepts, statistics and matrices.",
         price: "₦" + 7000,
         topics: [
-            "Surds",
-            "Trigonometry",
-            "Vectors",
+            "Quadratic Equations",
+            "Trigonometric Identities",
+            "Vectors and Scalars",
             "Basic Differentiation",
             "Calculus",
             "Algebra",
             "Statistics",
             "Matrices and determinants"
         ],
-        whatsappNumber: "2349152769294" // Replace with your actual WhatsApp number (no + or spaces)
+        whatsappNumber: "08063721835" // Replace with your actual WhatsApp number (no + or spaces)
     },
     {
         id: 2,
@@ -35,6 +35,479 @@ const subjectsData = [
             "Radioactivity"
         ],
         whatsappNumber: "+2349152769294" 
+    },
+    {
+        id: 3,
+        title: "Chemistry",
+        instructor: "Mr. Olaborede James",
+        description: "Fundamentals of atomic structure, chemical bonding, and reaction kinetics.",
+        price: "₦" + 4500,
+        topics: [
+            "Atomic Structure",
+            "Stoichiometry",
+            "Acids, Bases, and Salts",
+            "Organic Chemistry Basics"
+        ],
+        whatsappNumber: "2348012345678" 
+    },
+    {
+        id: 4,
+        title: "Biology",
+        instructor: "Mr. Adeleke Adeniran",
+        description: "Study of life, including cell biology, genetics, and ecology.",
+        price: "₦" + 5000,
+        topics: [
+            "Cell Structure and Function",
+            "Inheritance and Variation",
+            "Ecosystem Dynamics",
+            "Human Physiology",
+            "Genetics",
+            "Classification of living things"
+        ],
+        whatsappNumber: "2348012345678" 
+    },
+    {
+        id: 5,
+        title: "English Language",
+        instructor: "Mrs. Virginia Woolf",
+        description: "Improving grammar, composition, comprehension, and literary analysis skills.",
+        price: "₦" + 5000,
+        topics: [
+            "Tenses and Concord",
+            "Essay Writing Techniques",
+            "Verbal Reasoning",
+            "Poetic Devices"
+        ],
+        whatsappNumber: "2348012345678" 
+    },
+    {
+    id: 6 ,
+    title: "Full Science Package",
+    instructor: "Olaborede James",
+    description: "Comprehensive coverage of all science subjects including mathematics, chemistry, biology, physics, further mathematics and technical drawing.",
+    price: "₦" + 20000 + " Monthly",
+    topics: [
+        "Quadratic Equations",
+        "Trigonometric Identities",
+        "Vectors and Scalars",
+        "Basic Differentiation",
+        "Organic chemistry",
+        "Metals and non metals",
+        "Ecology",
+        "Classification of living things"
+    ],
+    whatsappNumber: "08063721835" // Replace with your actual WhatsApp number (no + or spaces)
+}
+];
+
+
+// js/data.js (UPDATED TEAM_DATA array with professional biographies)
+
+/**
+ * Aplus Tutor Team Member Data
+ * Updated biographies for enhanced professional presentation.
+ */
+const TEAM_DATA = [
+    {
+        id: 1,
+        name: "Olaborede James",
+        role: "Lead Science Teacher",
+        specialty: "Mathematics, Physics, Chemistry, and Biology",
+        bio: "He is focused on exam mastery, implementing strategic teaching methodologies to ensure students gain foundational competence and achieve top scores in challenging national exams like WAEC and JAMB.",
+        image: "./IMG_20250720_162824_145.jpg",
+        whatsapp: "2349152769294", 
+        linkedin: "#"
+    },
+    {
+        id: 2,
+        name: "Olaborede Kehinde",
+        role: "Lead English Teacher",
+        specialty: "Lexis & Structure, Comprehension, Essay Writing and Oral",
+        bio: "A highly experienced English Language specialist dedicated to high-stakes exam success. She employs analytical and structural methods to build advanced literacy.",
+        image: "/BackgroundEraser_20251005_215502512.png",
+        whatsapp: "2348033334444", 
+        linkedin: "#"
+    },
+    {
+        id: 3,
+        name: "Mrs. Oyewole Fausat",
+        role: "Administrator",
+        specialty: "Administrative role, Payment and Customer relations",
+        bio: "Holding a ND. in banking and finance, She oversees all administrative governance. Her mandate is to create a link between clients/parents and our team, disseminating information and creating deadlines.",
+        image: "images/team/alani.jpg",
+        whatsapp: "2349049196679",
+        linkedin: "#"
+    }
+];
+
+
+const testimonials = [
+  {
+    name: "Precious A.",
+    role: "WAEC Candidate",
+    message:
+      "Aplus Tutors helped me pass my WAEC with distinction! The tutors made each topic easy to understand.",
+    image: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg"
+  },
+  {
+    name: "Chinedu K.",
+    role: "University Student",
+    message:
+      "I joined Aplus Tutors to prepare for JAMB. The lessons were detailed and the quizzes improved my speed.",
+    image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg"
+  },
+  {
+    name: "Aisha M.",
+    role: "Secondary School Student",
+    message:
+      "Learning online has never been this fun. The teachers are patient and the platform is easy to use!",
+    image: "https://images.pexels.com/photos/901935/pexels-photo-901935.jpeg"
+  },
+  {
+    name: "Tunde O.",
+    role: "Parent",
+    message:
+      "My daughter’s grades improved remarkably since joining Aplus Tutors. I recommend it to every parent.",
+    image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+  }
+];
+
+
+
+
+const blogPosts = [
+      {
+    id: 1,
+    title: "How Virtual Reality is Changing Classroom Learning",
+    author: "Olaborede James",
+    date: "2023-06-15",
+    content: "Virtual Reality (VR) is revolutionizing education by transforming how students experience lessons. Instead of reading about ancient Egypt, students can explore virtual pyramids and temples. Science students can simulate complex lab experiments in a risk-free environment. VR creates immersive experiences that enhance engagement, retention, and understanding. With affordable headsets becoming more available, schools around the world are gradually adopting VR-based learning. Teachers are finding new ways to integrate VR into subjects like history, biology, and geography, helping students visualize and interact with concepts in ways that traditional teaching cannot offer.",
+    category: "Education Technology",
+    image: "https://images.pexels.com/photos/4145032/pexels-photo-4145032.jpeg"
+},
+{
+    id: 2,
+    title: "5 Ways Artificial Intelligence is Transforming Education",
+    author: "Olaborede James",
+    date: "2022-02-01",
+    content: "Artificial intelligence is changing the way we learn and teach. From personalized learning platforms to intelligent tutoring systems, AI is being used in a variety of ways to improve educational outcomes. One of the most significant benefits of AI in education is its ability to analyze large amounts of data and provide insights that can inform instruction. For example, AI-powered learning analytics can help teachers identify areas where students are struggling and provide targeted support. AI can also help to automate administrative tasks, freeing up teachers to focus on more important tasks. Additionally, AI-powered chatbots can provide students with instant support and feedback, helping to improve their learning experience. As AI continues to evolve, it's likely that we'll see even more innovative applications in the education sector. Some potential future developments include the use of AI-powered virtual reality and augmented reality in education, which could provide students with immersive and interactive learning experiences. Overall, AI has the potential to revolutionize the way we learn and teach, and it's exciting to think about the possibilities.",
+    category: "Technology",
+    image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg"
+},
+{
+    id: 3,
+    title: "The Rise of Online Learning Platforms in Africa",
+    author: "Olaborede James",
+    date: "2024-04-10",
+    content: "The rapid growth of online learning platforms is reshaping education across Africa. With internet access expanding and mobile devices becoming more affordable, students from rural and urban areas alike can now access high-quality educational resources. Platforms like uLesson, EduTech, and Aplus Tutors are leading the charge by offering localized content, practice tests, and interactive sessions. Online learning bridges gaps created by poor infrastructure and limited access to teachers, allowing learners to study at their own pace. The future of African education looks promising as technology continues to democratize learning and empower millions of students.",
+    category: "E-Learning",
+    image: "https://images.pexels.com/photos/4145195/pexels-photo-4145195.jpeg"
+},
+{
+    id: 4,
+    title: "Gamification in Education: Learning Through Play",
+    author: "Olaborede James",
+    date: "2023-11-02",
+    content: "Gamification—the integration of game elements into learning—has become one of the most effective strategies for improving student motivation. By introducing elements such as points, badges, leaderboards, and challenges, teachers are transforming ordinary lessons into interactive experiences. Gamification not only makes learning fun but also improves memory retention and participation. For instance, apps like Kahoot and ClassDojo use friendly competition to keep students engaged. As education continues to evolve, gamified systems will likely play a crucial role in shaping the classrooms of the future.",
+    category: "Learning Innovation",
+    image: "https://images.pexels.com/photos/3862630/pexels-photo-3862630.jpeg"
+},
+{
+    id: 5,
+    title: "The Importance of Digital Literacy for 21st Century Students",
+    author: "Olaborede James",
+    date: "2024-09-20",
+    content: "In today’s technology-driven world, digital literacy has become as essential as reading and writing. Students need to know not only how to use technology but also how to navigate online spaces responsibly. Digital literacy includes understanding how to verify information, protect privacy, and use productivity tools effectively. Schools that teach digital skills prepare students for future careers in science, business, and technology. Encouraging critical thinking, coding, and responsible internet use are now vital components of modern education. As the digital divide narrows, fostering digital literacy will ensure no learner is left behind.",
+    category: "Digital Skills",
+    image: "https://images.pexels.com/photos/4144093/pexels-photo-4144093.jpeg"
+}
+// add blog posts here
+];
+
+
+const resources = [
+  {
+    title: "WAEC Physics Past Questions 2024",
+    description: "Complete WAEC Physics solved past questions (PDF).",
+    type: "free",
+    format: "pdf",
+    link: "resources/waec_physics_2024.pdf",
+    preview: "",
+  },
+  {
+    title: "Mathematics Video Lecture: Algebra Simplified",
+    description: "Step-by-step explanation of algebraic equations.",
+    type: "paid",
+    format: "video",
+    price: 1500,
+    preview: "videos/algebra_intro.mp4",
+    whatsapp: "2348012345678",
+  },
+  {
+    title: "English Literature Notes",
+    description: "Comprehensive WAEC Literature notes and summaries.",
+    type: "free",
+    format: "pdf",
+    link: "resources/lit_notes.pdf",
+    preview: "",
+  },
+  {
+    title: "Chemistry Diagrams Pack",
+    description: "High-quality Chemistry illustrations for revision.",
+    type: "paid",
+    format: "image",
+    price: 1000,
+    preview: "images/chemistry_pack.jpg",
+    whatsapp: "2348012345678",
+  }
+];
+
+
+
+
+// --- List of Registered Users ---
+const allowedUsers = [
+  { name: "John Doe", email: "john@example.com" },
+  { name: "Mary James", email: "mary@example.com" },
+  { name: "Olaborede James", email: "olaboredejames2021@gmail.com" }
+];
+
+
+// --- Multi-Subject Quiz Data ---
+const quizData = {
+
+  Mathematics: [
+    {
+      topic: "Algebra",
+      questions: [
+        {
+          q: "Simplify: 2x + 3x − 5",
+          options: ["5x − 5", "5x + 5", "x − 5", "x + 5"],
+          answer: "5x − 5"
+        },
+        {
+          q: "Solve for x: 3x = 12",
+          options: ["x = 3", "x = 4", "x = 6", "x = 12"],
+          answer: "x = 4"
+        },
+        {
+          q: "What is the value of x if 2x + 5 = 11?",
+          options: ["x = 3", "x = 2", "x = 4", "x = 6"],
+          answer: "x = 3"
+        }
+      ]
+    },
+    {
+      topic: "Geometry",
+      questions: [
+        {
+          q: "What is the sum of angles in a triangle?",
+          options: ["90°", "180°", "270°", "360°"],
+          answer: "180°"
+        },
+        {
+          q: "A square has sides of 6 cm. What is its area?",
+          options: ["12 cm²", "18 cm²", "24 cm²", "36 cm²"],
+          answer: "36 cm²"
+        },
+        {
+          q: "What is the perimeter of a rectangle 4 cm long and 3 cm wide?",
+          options: ["7 cm", "12 cm", "14 cm", "24 cm"],
+          answer: "14 cm"
+        }
+      ]
+    }
+  ],
+
+  Physics: [
+    {
+      topic: "Mechanics",
+      questions: [
+        {
+          q: "What is the SI unit of force?",
+          options: ["Joule", "Watt", "Newton", "Pascal"],
+          answer: "Newton"
+        },
+        {
+          q: "A body of mass 2kg is accelerated at 3m/s². What is the force?",
+          options: ["6N", "1.5N", "0.67N", "9.8N"],
+          answer: "6N"
+        },
+        {
+          q: "What is the acceleration due to gravity on Earth?",
+          options: ["9.8 m/s²", "10.8 m/s²", "8.8 m/s²", "9.2 m/s²"],
+          answer: "9.8 m/s²"
+        }
+      ]
+    },
+    {
+      topic: "Electricity",
+      questions: [
+        {
+          q: "What is the unit of electric current?",
+          options: ["Coulomb", "Ampere", "Ohm", "Volt"],
+          answer: "Ampere"
+        },
+        {
+          q: "If V = 12V and R = 6Ω, find I.",
+          options: ["1A", "2A", "4A", "6A"],
+          answer: "2A"
+        },
+        {
+          q: "The resistance of a wire depends on its ___?",
+          options: ["Color", "Length", "Weight", "Brightness"],
+          answer: "Length"
+        }
+      ]
+    }
+  ],
+
+  Chemistry: [
+    {
+  topic: "Separation Techniques",
+  questions: [
+    {
+      q: "Which of the following methods is used to separate an insoluble solid from a liquid?",
+      options: ["Evaporation", "Filtration", "Distillation", "Crystallization"],
+      answer: "Filtration"
+    },
+    {
+      q: "What method is used to obtain pure water from sea water?",
+      options: ["Decantation", "Distillation", "Evaporation", "Filtration"],
+      answer: "Distillation"
+    },
+    {
+      q: "Which technique separates mixtures based on the difference in boiling points?",
+      options: ["Chromatography", "Distillation", "Filtration", "Sieving"],
+      answer: "Distillation"
+    },
+    {
+      q: "The process of heating a solution to dryness to obtain the solute is called?",
+      options: ["Evaporation", "Filtration", "Crystallization", "Condensation"],
+      answer: "Evaporation"
+    },
+    {
+      q: "Which separation method is used to separate two immiscible liquids?",
+      options: ["Filtration", "Using a separating funnel", "Evaporation", "Distillation"],
+      answer: "Using a separating funnel"
+    },
+    {
+      q: "What apparatus is used in simple distillation?",
+      options: ["Separating funnel", "Condenser", "Chromatography paper", "Funnel"],
+      answer: "Condenser"
+    },
+    {
+      q: "In paper chromatography, the stationary phase is?",
+      options: ["Solvent", "Paper", "Mixture", "Water"],
+      answer: "Paper"
+    },
+    {
+      q: "Which technique separates colored pigments in ink?",
+      options: ["Filtration", "Chromatography", "Distillation", "Crystallization"],
+      answer: "Chromatography"
+    },
+    {
+      q: "The process of pouring off a liquid from a sediment is called?",
+      options: ["Filtration", "Decantation", "Evaporation", "Distillation"],
+      answer: "Decantation"
+    },
+    {
+      q: "Which method is suitable for separating sand and salt mixture?",
+      options: ["Distillation", "Filtration and evaporation", "Chromatography", "Sublimation"],
+      answer: "Filtration and evaporation"
+    },
+    {
+      q: "What physical property is used in filtration?",
+      options: ["Density", "Solubility", "Particle size", "Boiling point"],
+      answer: "Particle size"
+    },
+    {
+      q: "Which method is used to obtain pure salt from a salt solution?",
+      options: ["Distillation", "Crystallization", "Chromatography", "Filtration"],
+      answer: "Crystallization"
+    },
+    {
+      q: "In fractional distillation, separation is based on difference in?",
+      options: ["Density", "Boiling point", "Color", "Solubility"],
+      answer: "Boiling point"
+    },
+    {
+      q: "Which separation technique involves heating a substance to change it directly from solid to gas?",
+      options: ["Sublimation", "Evaporation", "Filtration", "Condensation"],
+      answer: "Sublimation"
+    },
+    {
+      q: "Which of the following substances can be purified by sublimation?",
+      options: ["Salt", "Sand", "Iodine", "Water"],
+      answer: "Iodine"
+    },
+    {
+      q: "The separation of petroleum into fractions is achieved by?",
+      options: ["Simple distillation", "Fractional distillation", "Chromatography", "Crystallization"],
+      answer: "Fractional distillation"
+    },
+    {
+      q: "Which method would you use to separate iron fillings from sulphur?",
+      options: ["Filtration", "Magnetism", "Evaporation", "Crystallization"],
+      answer: "Magnetism"
+    },
+    {
+      q: "Which of the following mixtures can be separated by filtration?",
+      options: ["Salt and water", "Sand and water", "Alcohol and water", "Sugar solution"],
+      answer: "Sand and water"
+    },
+    {
+      q: "In distillation, what happens to the vapor after it rises?",
+      options: ["It burns", "It condenses", "It freezes", "It dissolves"],
+      answer: "It condenses"
+    },
+    {
+      q: "Which of these is NOT a separation technique?",
+      options: ["Chromatography", "Filtration", "Combustion", "Decantation"],
+      answer: "Combustion"
+    }
+  ]
+},
+{
+  topic: "Compounds and Mixtures",
+  questions: [
+    {
+      q: "What is a mixture?",
+      options: [
+        "A pure substance made of one kind of atom",
+        "A combination of two or more substances not chemically combined",
+        "A compound formed by chemical reaction",
+        "A substance with fixed composition"
+      ],
+      answer: "A combination of two or more substances not chemically combined"
+    },
+    {
+      q: "Which of the following is a compound?",
+      options: ["Air", "Salt (NaCl)", "Brass", "Soil"],
+      answer: "Salt (NaCl)"
+    },
+    {
+      q: "Which of the following statements is TRUE of mixtures?",
+      options: [
+        "They have fixed melting and boiling points",
+        "They can be separated by physical means",
+        "They are chemically combined",
+        "Their composition is fixed"
+      ],
+      answer: "They can be separated by physical means"
+    },
+    {
+      q: "Which of the following is NOT a mixture?",
+      options: ["Air", "Milk", "Water", "Brine"],
+      answer: "Water"
+    },
+    {
+      q: "Which of the following is a homogeneous mixture?",
+      options: ["Sand and water", "Salt solution", "Oil and water", "Flour and water"],
+      answer: "Salt solution"
+    },
+    {
+      q: "Which of the following is hete        whatsappNumber: "+2349152769294" 
     },
     {
         id: 3,
