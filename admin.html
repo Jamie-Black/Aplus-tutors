@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aplus Tutors | Admin Panel</title>
+
+  <link rel="stylesheet" href="cbt.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <style>
+    body { font-family: Arial, sans-serif; background:#fff; color:#111; margin:20px; }
+    header { display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; }
+    h1 { color:crimson; margin:0; }
+    .card-row { display:flex; gap:12px; margin-bottom:18px; flex-wrap:wrap; }
+    .card { background:black; color:white; padding:12px 16px; border-radius:8px; min-width:160px; box-shadow:0 2px 8px rgba(0,0,0,0.12); }
+    .card strong { display:block; font-size:18px; color:crimson; }
+    #table-wrap { margin-top:10px; }
+    table { width:100%; border-collapse:collapse; }
+    th, td { padding:8px 10px; border:1px solid #ddd; text-align:left; }
+    th { background:crimson; color:white; }
+    #controls { margin-top:12px; display:flex; gap:10px; align-items:center; }
+    button { padding:8px 12px; border-radius:6px; border:none; cursor:pointer; }
+    .btn-primary { background:crimson; color:white; }
+    .btn-danger { background:#333; color:white; }
+    .small { padding:6px 8px; font-size:13px; }
+    #login-panel { max-width:480px; margin:120px auto; padding:20px; border-radius:8px; box-shadow:0 4px 18px rgba(0,0,0,0.12); }
+    label{display:block;margin:8px 0 6px;}
+    input[type="password"]{width:100%;padding:8px;border-radius:5px;border:1px solid #ccc;}
+    .hidden { display:none; }
+    footer { margin-top:30px; color:#666; font-size:13px; }
+  </style>
+</head>
+<body>
+
+  <div id="login-panel">
+    <h2 style="color:crimson">Aplus Tutors — Admin Access</h2>
+    <p>Enter admin key to view attempts and reports.</p>
+    <label for="admin-key">Admin Key</label>
+    <input id="admin-key" type="password" placeholder="Enter admin key">
+    <div style="margin-top:10px;">
+      <button id="admin-login" class="btn-primary">Unlock Admin Panel</button>
+    </div>
+    <p id="login-error" style="color:red; display:none; margin-top:8px;"></p>
+  </div>
+
+  <div id="admin-app" class="hidden">
+    <header>
+      <h1>Aplus Tutors — Admin</h1>
+      <div>
+        <button id="download-report" class="btn-primary">Download PDF</button>
+        <button id="download-csv" class="small">Download CSV</button>
+        <button id="clear-data" class="btn-danger">Clear All Attempts</button>
+      </div>
+    </header>
+
+    <div class="card-row">
+      <div class="card">
+        <div>Total Attempts</div>
+        <strong id="total-attempts">0</strong>
+        <div style="font-size:12px;color:#eee">All recorded tests</div>
+      </div>
+      <div class="card">
+        <div>Average Score</div>
+        <strong id="avg-score">0%</strong>
+        <div style="font-size:12px;color:#eee">Across all attempts</div>
+      </div>
+      <div class="card">
+        <div>Best Score</div>
+        <strong id="best-score">0%</strong>
+        <div style="font-size:12px;color:#eee">Top attempt</div>
+      </div>
+    </div>
+
+    <section id="charts">
+      <canvas id="subjectChart" style="max-width:800px;"></canvas>
+    </section>
+
+    <div id="table-wrap">
+      <h3 style="color:crimson">Attempts</h3>
+      <table id="attempts-table">
+        <thead>
+          <tr><th>Date</th><th>Name</th><th>Email</th><th>Subjects</th><th>Score (%)</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <footer>Local admin panel — data comes from users' browsers (localStorage). Clearing data removes it for this browser only.</footer>
+  </div>
+
+  <script>
+    // Admin key that you requested:
+    const ADMIN_KEY = "@lordkronos4045";
+
+    const loginPanel = document.getElementById("login-panel");
+    const adminApp = document.getElementById("admin-app");
+    const adminLoginBtn = document.getElementById("admin-login");
+    const adminKeyInput = document.getElementById("admin-key");
+    const loginError = document.getElementById("login-error");
+
+    adminLoginBtn.onclick = () => {
+      const key = adminKeyInput.value;
+      if (key === ADMIN_KEY) {
+        loginPanel.classList.add("hidden");
+        adminApp.classList.remove("hidden");
+        loadAndRender();
+      } else {
+        loginError.style.display = "block";
+        loginError.textContent = "Incorrect key.";
+      }
+    };
+
+    // Load attempts from localStorage key 'cbtAttempts'
+    function loadAttempts() {
+      const raw = localStorage.getItem("cbtAttempts");
+      if (!raw) return [];
+      try { return JSON.parse(raw); } catch (e) { console.error("Invalid cbtAttempts JSON", e); return []; }
+    }
+
+    function loadAndRender() {
+      const attempts = loadAttempts();
+      // Summary
+      document.getElementById("total-attempts").textContent = attempts.length;
+
+      let overallSum = 0;
+      let best = 0;
+      attempts.forEach(a => {
+        const p = parseFloat(a.overallPercent) || 0;
+        overallSum += p;
+        if (p > best) best = p;
+      });
+      const avg = attempts.length ? (overallSum / attempts.length).toFixed(1) : 0;
+      document.getElementById("avg-score").textContent = `${avg}%`;
+      document.getElementById("best-score").textContent = `${best}%`;
+
+      // Table
+      const tbody = document.querySelector("#attempts-table tbody");
+      tbody.innerHTML = "";
+      attempts.slice().reverse().forEach(a => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `<td>${a.date}</td>
+                        <td>${escapeHtml(a.name)}</td>
+                        <td>${escapeHtml(a.email || "")}</td>
+                        <td>${a.subjectStats ? a.subjectStats.map(s=>s.subject).join(", ") : ""}</td>
+                        <td>${a.overallPercent}%</td>`;
+        tbody.appendChild(tr);
+      });
+
+      // Chart: average percent by subject
+      const subjectAgg = {}; // { subj: {sum: x, count: y} }
+      attempts.forEach(a => {
+        if (!a.subjectStats) return;
+        a.subjectStats.forEach(s => {
+          if (!subjectAgg[s.subject]) subjectAgg[s.subject] = { sum: 0, count: 0 };
+          subjectAgg[s.subject].sum += parseFloat(s.percent) || 0;
+          subjectAgg[s.subject].count += 1;
+        });
+      });
+      const labels = [];
+      const data = [];
+      for (const subj in subjectAgg) {
+        labels.push(subj);
+        const avgSub = subjectAgg[subj].count ? (subjectAgg[subj].sum / subjectAgg[subj].count) : 0;
+        data.push(parseFloat(avgSub.toFixed(1)));
+      }
+
+      renderSubjectChart(labels, data);
+    }
+
+    let subjectChartInstance = null;
+    function renderSubjectChart(labels, data) {
+      const ctx = document.getElementById("subjectChart").getContext("2d");
+      if (subjectChartInstance) subjectChartInstance.destroy();
+      subjectChartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [{ label: 'Average % by Subject', data, backgroundColor: labels.map(()=> 'rgba(220,20,60,0.8)') }]
+        },
+        options: {
+          scales: { y: { beginAtZero: true, max: 100 } }
+        }
+      });
+    }
+
+    // Download PDF
+    document.getElementById("download-report").onclick = () => {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF();
+      const attempts = loadAttempts();
+      doc.setFontSize(16);
+      doc.text("Aplus Tutors — Attempts Report", 14, 16);
+      doc.setFontSize(11);
+      let y = 26;
+      if (!attempts.length) {
+        doc.text("No attempts found.", 14, y);
+      } else {
+        attempts.forEach((a, i) => {
+          if (y > 270) { doc.addPage(); y = 20; }
+          doc.text(`${i+1}. ${a.date} — ${a.name} — ${a.overallPercent}%`, 14, y);
+          y += 6;
+          if (a.subjectStats && a.subjectStats.length) {
+            a.subjectStats.forEach(s => {
+              if (y > 270) { doc.addPage(); y = 20; }
+              doc.text(`   • ${s.subject}: ${s.correct}/${s.total} (${s.percent}%)`, 18, y);
+              y += 6;
+            });
+          }
+          y += 6;
+        });
+      }
+      doc.save("AplusTutors_Attempts_Report.pdf");
+    };
+
+    // Download CSV
+    document.getElementById("download-csv").onclick = () => {
+      const attempts = loadAttempts();
+      const rows = [["date","name","email","subject","subject_correct","subject_total","subject_percent","overallPercent"]];
+      attempts.forEach(a => {
+        if (a.subjectStats && a.subjectStats.length) {
+          a.subjectStats.forEach(s => {
+            rows.push([a.date, a.name, a.email || "", s.subject, s.correct, s.total, s.percent, a.overallPercent]);
+          });
+        } else {
+          rows.push([a.date, a.name, a.email || "", "", "","","", a.overallPercent]);
+        }
+      });
+      const csv = rows.map(r => r.map(v => `"${String(v).replace(/"/g,'""')}"`).join(",")).join("\n");
+      const blob = new Blob([csv], { type: "text/csv" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "aplus_attempts.csv";
+      a.click();
+    };
+
+    // Clear data (confirm)
+    document.getElementById("clear-data").onclick = () => {
+      if (!confirm("This will remove all attempts stored in localStorage for this browser. Continue?")) return;
+      localStorage.removeItem("cbtAttempts");
+      loadAndRender();
+      alert("All attempts cleared (for this browser).");
+    };
+
+    function escapeHtml(str) {
+      return String(str || "").replace(/[&<>"'`=\/]/g, function(s) {
+        return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;','/':'\\/','=':'&#61;','`':'&#96;'} )[s];
+      });
+    }
+  </script>
+</body>
+</html>

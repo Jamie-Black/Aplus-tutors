@@ -285,181 +285,55 @@ body.dark header {
 body.dark .topic-card {
   background: #222;
   border-color: #333;
-    }    letter-spacing: 2px;
 }
 
-/* Main Quiz Container */
-.quiz-container {
-    flex-grow: 1;
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background: var(--color-card-bg);
-    border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
+    /* === Correction Section Styles === */
+    #correction-area {
+      margin-top: 20px;
+    }
 
-/* Screen Management */
-.screen {
-    display: none;
-    padding: 20px;
-}
+    .correction-question {
+      display:flex;
+      flex-direction:column;
+      gap:20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+      background: #fff;
+    }
 
-.screen.active {
-    display: block;
-}
+    .correct {
+      background-color: #d4edda;
+      color: #155724;
+      font-weight: 600;
+      padding: 4px 6px;
+      border-radius: 4px;
+    }
 
-.screen h2 {
-    color: var(--color-primary);
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
-    margin-bottom: 25px;
-}
+    .wrong {
+      background-color: #f8d7da;
+      color: #721c24;
+      font-weight: 600;
+      padding: 4px 6px;
+      border-radius: 4px;
+    }
 
-/* Form Styles */
-.main-form {
-    padding: 10px 0;
-}
+    .user-choice {
+      border: 1px dashed #000;
+      padding: 3px 6px;
+      border-radius: 5px;
+    }
 
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: var(--color-secondary);
-}
-
-.form-group input, .form-group select {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 1em;
-}
-
-/* Question Block */
-.question-block {
-    margin-bottom: 30px;
-    padding: 15px;
-    border: 1px solid #f0f0f0;
-    border-left: 5px solid var(--color-primary);
-    border-radius: 4px;
-    background-color: #fff;
-}
-
-.question-number {
-    font-size: 0.9em;
-    color: #888;
-    margin: 0 0 5px 0;
-}
-
-.question-text {
-    font-weight: bold;
-    font-size: 1.1em;
-    margin-top: 0;
-}
-
-/* Options Styles */
-.options-group {
-    display: flex;
-    flex-direction: column;
-}
-
-.option-label {
-    display: block;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-
-.option-label:hover {
-    background-color: #fce4e4; /* Light crimson hover */
-}
-
-.option-label input[type="radio"] {
-    margin-right: 10px;
-}
-
-/* Button Styles */
-.primary-button, .secondary-button {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 1.1em;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-}
-
-.primary-button {
-    background-color: var(--color-primary);
-    color: var(--color-light-text);
-    border: none;
-    transition: background-color 0.3s ease;
-}
-
-.primary-button:hover {
-    background-color: #A30F2A; /* Darker Crimson */
-}
-
-.secondary-button {
-    background-color: var(--color-secondary);
-    color: var(--color-light-text);
-    border: 1px solid var(--color-secondary);
-    transition: background-color 0.3s ease;
-}
-
-.secondary-button:hover {
-    background-color: #333;
-}
-
-.email-button {
-    margin-bottom: 20px;
-}
-
-/* Result Screen Styles */
-.result-summary {
-    background-color: #fff8f8; /* Very light crimson background */
-    border: 1px solid var(--color-primary);
-    padding: 20px;
-    border-radius: 6px;
-    margin-bottom: 25px;
-}
-
-.result-summary p {
-    font-size: 1.2em;
-    margin: 8px 0;
-}
-
-.result-summary span {
-    font-weight: bold;
-    color: var(--color-secondary);
-}
-
-.final-instruction {
-    font-style: italic;
-    color: #555;
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px dashed #ccc;
-    background-color: #fcfcfc;
-}
-
-/* Footer */
-footer {
-    background-color: var(--color-secondary);
-    color: #999;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: auto; /* Push footer to the bottom */
-}
+    .show-correction-btn {
+      background: crimson;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .show-correction-btn:hover {
+      background: #b30000;
+    }

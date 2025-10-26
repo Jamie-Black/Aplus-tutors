@@ -61,6 +61,15 @@
     <label>Set Test Duration (minutes):</label>
     <input type="number" id="duration" placeholder="e.g. 45" min="1" max="180">
 
+    <!-- NEW SECTION -->
+    <label>Number of Questions per Subject:</label>
+    <input type="number" id="num-questions" placeholder="e.g. 20" min="1">
+
+    <div style="margin-top: 10px;">
+      <label><input type="checkbox" id="randomize"> Randomize Questions</label>
+    </div>
+    <!-- END NEW SECTION -->
+
     <button id="login-btn">Start Test</button>
     <p id="login-error" class="error"></p>
   </div>
@@ -109,6 +118,7 @@
     let currentUser, selectedSubjects = [], currentSubject, currentQuestionIndex = 0;
     let userAnswers = {};
     let timerInterval;
+    let activeQuestions = {}; // NEW: holds per-subject active question sets
 
     const loginBtn = document.getElementById("login-btn");
     const loginError = document.getElementById("login-error");
@@ -127,6 +137,9 @@
       const name = document.getElementById("name").value.trim();
       const email = document.getElementById("email").value.trim();
       const duration = parseInt(document.getElementById("duration").value);
+      const numQuestions = parseInt(document.getElementById("num-questions").value);
+      const randomize = document.getElementById("randomize").checked;
+
       const validUser = users.find(u => u.name === name && u.email === email);
 
       if (!validUser) {
@@ -145,12 +158,25 @@
         return;
       }
 
+      if (isNaN(numQuestions) || numQuestions <= 0) {
+        loginError.textContent = "Please enter how many questions to attempt per subject.";
+        return;
+      }
+
       currentUser = validUser;
       document.getElementById("login-section").classList.add("hidden");
       document.getElementById("cbt-section").classList.remove("hidden");
 
       const subjectNav = document.getElementById("subject-nav");
+      subjectNav.innerHTML = "";
+
+      // Prepare questions for each subject
       selectedSubjects.forEach(sub => {
+        let qList = [...questions[sub]];
+        if (randomize) qList = shuffleArray(qList);
+        if (numQuestions < qList.length) qList = qList.slice(0, numQuestions);
+        activeQuestions[sub] = qList;
+
         const btn = document.createElement("button");
         btn.textContent = sub;
         btn.classList.add("subject-btn");
@@ -162,6 +188,16 @@
       startTimer(duration);
       loadQuestion();
     };
+
+    // SHUFFLE HELPER
+    function shuffleArray(array) {
+      let arr = [...array];
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    }
 
     // TIMER
     function startTimer(minutes) {
@@ -187,7 +223,7 @@
 
     // LOAD QUESTION
     function loadQuestion() {
-      const q = questions[currentSubject][currentQuestionIndex];
+      const q = activeQuestions[currentSubject][currentQuestionIndex];
       document.getElementById("question-number").textContent = `${currentSubject}: Question ${currentQuestionIndex + 1}`;
       document.getElementById("question-text").textContent = q.question;
 
@@ -229,7 +265,7 @@
     }
 
     document.getElementById("next-btn").onclick = () => {
-      if (currentQuestionIndex < questions[currentSubject].length - 1) currentQuestionIndex++;
+      if (currentQuestionIndex < activeQuestions[currentSubject].length - 1) currentQuestionIndex++;
       loadQuestion();
     };
     document.getElementById("prev-btn").onclick = () => {
@@ -245,7 +281,7 @@
     function updateQuestionNav() {
       const nav = document.getElementById("question-nav");
       nav.innerHTML = "";
-      questions[currentSubject].forEach((_, i) => {
+      activeQuestions[currentSubject].forEach((_, i) => {
         const btn = document.createElement("button");
         btn.textContent = i + 1;
         btn.classList.add("nav-btn");
@@ -259,8 +295,7 @@
     function countUnanswered() {
       let count = 0;
       selectedSubjects.forEach(sub => {
-        const qList = questions[sub];
-        qList.forEach((_, i) => {
+        activeQuestions[sub].forEach((_, i) => {
           if (userAnswers[sub]?.[i] === undefined) count++;
         });
       });
@@ -278,8 +313,8 @@
 
       selectedSubjects.forEach(sub => {
         let correct = 0;
-        const total = questions[sub].length;
-        questions[sub].forEach((q, i) => {
+        const total = activeQuestions[sub].length;
+        activeQuestions[sub].forEach((q, i) => {
           if (userAnswers[sub]?.[i] === q.answer) correct++;
         });
         totalCorrect += correct;
@@ -290,7 +325,6 @@
       const overallPercent = ((totalCorrect / totalQuestions) * 100).toFixed(1);
       document.getElementById("score-text").textContent = `Overall Score: ${totalCorrect}/${totalQuestions} (${overallPercent}%)`;
 
-      // Subject table
       const statsDiv = document.getElementById("subject-stats");
       statsDiv.innerHTML = `
         <h3>Subject Breakdown</h3>
@@ -306,7 +340,6 @@
         </table>
       `;
 
-      // Pie chart
       new Chart(document.getElementById("resultChart"), {
         type: "pie",
         data: {
@@ -345,7 +378,7 @@
         subHeader.textContent = sub;
         container.appendChild(subHeader);
 
-        questions[sub].forEach((q, i) => {
+        activeQuestions[sub].forEach((q, i) => {
           const div = document.createElement("div");
           div.classList.add("correction-item");
 
@@ -384,6 +417,57 @@
         document.getElementById("result-section").classList.remove("hidden");
       };
     }
+
+    /* =======================
+       INSERTION: save attempt to localStorage
+       (only addition — nothing else changed)
+       ======================= */
+
+    // We'll wrap the original showResult so we can save attempts without modifying the core logic above
+    (function() {
+      const originalShowResult = showResult;
+      showResult = function() {
+        // Call the original behavior (computes stats and shows results)
+        originalShowResult();
+
+        // Now create and save the attempt record for Admin page to read
+        try {
+          // compute totals again (safe, small cost)
+          let totalCorrect = 0, totalQuestions = 0;
+          const subjectStats = [];
+
+          selectedSubjects.forEach(sub => {
+            let correct = 0;
+            const total = activeQuestions[sub].length;
+            activeQuestions[sub].forEach((q, i) => {
+              if (userAnswers[sub]?.[i] === q.answer) correct++;
+            });
+            totalCorrect += correct;
+            totalQuestions += total;
+            subjectStats.push({ subject: sub, correct, total, percent: ((correct / total) * 100).toFixed(1) });
+          });
+
+          const overallPercent = ((totalCorrect / totalQuestions) * 100).toFixed(1);
+
+          const attempts = JSON.parse(localStorage.getItem("cbtAttempts")) || [];
+          attempts.push({
+            name: currentUser?.name || "Unknown",
+            email: currentUser?.email || "",
+            date: new Date().toLocaleString(),
+            overallPercent,
+            totalCorrect,
+            totalQuestions,
+            subjectStats
+          });
+          localStorage.setItem("cbtAttempts", JSON.stringify(attempts));
+        } catch (err) {
+          console.error("Saving attempt failed:", err);
+        }
+      };
+    })();
+    // end insertion
+
   </script>
+
 </body>
 </html>

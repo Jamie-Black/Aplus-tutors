@@ -21,6 +21,9 @@
         <li><a href="blog.html">Blog</a></li>
         <li><a href="resources.html">Resources</a></li>
         <li><a href="#contact">Contact </a></li>
+        <li >
+          <button><a style="background-color: white; color: black; padding: 7px 12px; border: none; border-radius: 5px;" href="admin.html">Admin Login</a></button>
+        </li>
       </ul>
       <!-- Hamburger button -->
       <div class="hamburger">
@@ -43,7 +46,7 @@
         </div>
       </div>
       <div class="slide">
-        <img src="/20251004_203906.jpg" alt="Learning 2">
+        <img src="./20251004_203906.jpg" alt="Learning 2">
         <div class="hero-content">
           <h2>Personalized Tutoring</h2>
           <p>Get one-on-one sessions with expert tutors to guide your studies.</p>
@@ -91,25 +94,66 @@
     <div class="service-card">
       <img src="./20251004_200853.jpg" alt="Exam Preparation">
       <h3>WAEC & JAMB Prep</h3>
-      <p>Comprehensive lessons, past questions, and practice tests designed to help you excel in national exams.</p>
+      <p>Comprehensive Online classes, past questions, and practice tests designed to help you excel in national exams.</p>
+      <a style="margin-top:10px;" class="btn" href="exam.html">Learn More</a>
     </div>
 
     <div class="service-card">
       <img src="./20251004_201133.jpg" alt="Personalized Tutoring">
       <h3>Personalized Tutoring</h3>
-      <p>One-on-one tutoring sessions tailored to each student’s learning style and academic goals.</p>
+      <p>One-on-one online tutoring sessions tailored to each student’s learning style and academic goals.</p>
+      <a style="margin-top:10px;" class="btn" href="subject.html">Learn More</a>
     </div>
 
     <div class="service-card">
       <img src="./20251004_201240.jpg" alt="Assignments">
-      <h3>Assignments & Resources</h3>
-      <p>Upload assignments, access study materials, and receive guided solutions from experts.</p>
+      <h3>Free Resources</h3>
+      <p>Get notes, access study materials, and receive guided solutions from experts.</p>
+      <a style="margin-top:10px;" class="btn" href="resources.html">Learn More</a>
     </div>
 
     <div class="service-card">
       <img src="./20251004_201705.jpg" alt="Quizzes">
       <h3>Quizzes & Progress Tracking</h3>
       <p>Interactive quizzes and detailed progress tracking to ensure steady academic improvement.</p>
+      <a style="margin-top:10px;" class="btn" href="quizzes.html">Learn More</a>
+    </div>
+        <div class="service-card">
+      <img src="./20251004_201705.jpg" alt="Quizzes">
+      <h3>Exam CBT testing platform</h3>
+      <p>CBT tests with timer and corrections to help prepare you for exams like Jamb, WAEC and NECO.</p>
+      <a style="margin-top:10px;" class="btn" href="quizzes.html">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US SECTION -->
+<section id="why-choose-us">
+  <h2 class="section-title">Why Choose <span>Aplus Tutors</span>?</h2>
+
+  <div class="reasons">
+    <div class="reason-card">
+      <i class="fas fa-user-graduate"></i>
+      <h3>Expert Tutors</h3>
+      <p>Learn from experienced teachers dedicated to helping you excel in your exams and understand core concepts deeply.</p>
+    </div>
+
+    <div class="reason-card">
+      <i class="fas fa-laptop-code"></i>
+      <h3>Interactive Learning</h3>
+      <p>Experience modern, tech-driven learning with interactive quizzes, visual lessons, and real-time assessments.</p>
+    </div>
+
+    <div class="reason-card">
+      <i class="fas fa-chart-line"></i>
+      <h3>Progress Tracking</h3>
+      <p>Track your academic growth with detailed performance reports and personalized recommendations.</p>
+    </div>
+
+    <div class="reason-card">
+      <i class="fas fa-award"></i>
+      <h3>Exam Excellence</h3>
+      <p>Prepare effectively for WAEC, JAMB, and other exams with curated resources and targeted practice tests.</p>
     </div>
   </div>
 </section>
@@ -123,17 +167,15 @@
     </div>
 
 <!-- Testimonials Section -->
-<section class="testimonials" id="testimonials">
-  <h2>What Our Students Say</h2>
-  <p class="subtext">Hear from learners and parents who have experienced success with Aplus Tutors</p>
-  <div class="testimonial-container" id="testimonialContainer">
-    <!-- Testimonials will be dynamically loaded from data.js -->
+
+<section id="testimonials" class="testimonial-section">
+  <h2>What Our Students & Parents Say</h2>
+  <div class="testimonial-slider">
+    <button id="prevTestimonial" class="slider-btn">&#10094;</button>
+    <div id="testimonial-container" class="testimonial-container"></div>
+    <button id="nextTestimonial" class="slider-btn">&#10095;</button>
   </div>
 </section>
-
-<script src="data.js"></script>
-<script src="script.js"></script>
-
 
     <footer id="main-footer">
     <div class="footer-container">

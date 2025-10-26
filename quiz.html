@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aplus Tutors | Quizzes</title>
   <link rel="stylesheet" href="quiz.css">
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6">
-    
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async 
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 </head>
 
 <body>
@@ -63,10 +64,17 @@
       <button class="secondary-button" onclick="window.location.reload();">Take Another Quiz</button>
     </div>
 
+    <!-- Step 5: Correction Screen -->
+    <div id="correction-screen" class="screen">
+      <h2>Quiz Correction</h2>
+      <div id="correction-area"></div>
+      <button class="secondary-button" onclick="window.location.reload();">Take Another Quiz</button>
+    </div>
+
   </main>
 
   <footer>
-    <p>&copy; 2025 Aplus Tutors</p>
+    <p>&copy; 2021 Aplus Tutors</p>
   </footer>
 
   <script src="data.js"></script>
@@ -97,7 +105,6 @@
       studentInfo.name = document.getElementById('student-name').value.trim();
       studentInfo.email = document.getElementById('student-email').value.trim();
 
-      // Check if user exists (from data.js)
       const userFound = allowedUsers.some(
         user => user.name.toLowerCase() === studentInfo.name.toLowerCase() &&
                 user.email.toLowerCase() === studentInfo.email.toLowerCase()
@@ -113,15 +120,22 @@
       loadTopics();
     }
 
-    // Step 2: Load Topics
+    // Step 2: Load Topics (Modified to Collapse by Subject)
     function loadTopics() {
       topicList.innerHTML = '';
+
       for (const subject in quizData) {
         const subjectDiv = document.createElement('div');
         subjectDiv.classList.add('subject-section');
-        const subjectTitle = document.createElement('h3');
-        subjectTitle.textContent = subject;
-        subjectDiv.appendChild(subjectTitle);
+
+        const subjectHeader = document.createElement('div');
+        subjectHeader.classList.add('subject-header');
+        subjectHeader.innerHTML = `<h3>${subject}</h3><span class="toggle-icon">+</span>`;
+        subjectDiv.appendChild(subjectHeader);
+
+        const topicsContainer = document.createElement('div');
+        topicsContainer.classList.add('topics-container');
+        topicsContainer.style.display = 'none';
 
         quizData[subject].forEach(topicObj => {
           const topicCard = document.createElement('div');
@@ -132,9 +146,16 @@
             <p><strong>Questions:</strong> ${topicObj.questions.length}</p>
             <button class="primary-button" onclick="startQuiz('${subject}','${topicObj.topic}')">Start Quiz</button>
           `;
-          subjectDiv.appendChild(topicCard);
+          topicsContainer.appendChild(topicCard);
         });
 
+        subjectHeader.addEventListener('click', () => {
+          const isVisible = topicsContainer.style.display === 'block';
+          topicsContainer.style.display = isVisible ? 'none' : 'block';
+          subjectHeader.querySelector('.toggle-icon').textContent = isVisible ? '+' : '−';
+        });
+
+        subjectDiv.appendChild(topicsContainer);
         topicList.appendChild(subjectDiv);
       }
     }
@@ -226,7 +247,48 @@ Regards,
 
       quizScreen.classList.remove('active');
       resultScreen.classList.add('active');
+
+      if (!document.querySelector('.show-correction-btn')) {
+        const correctionBtn = document.createElement('button');
+        correctionBtn.textContent = "View Correction";
+        correctionBtn.className = "show-correction-btn";
+        correctionBtn.onclick = showCorrection;
+        resultScreen.appendChild(correctionBtn);
+      }
+    }
+
+    // Step 7: Show Correction
+    function showCorrection() {
+      resultScreen.classList.remove('active');
+      const correctionScreen = document.getElementById('correction-screen');
+      const correctionArea = document.getElementById('correction-area');
+      correctionScreen.classList.add('active');
+      correctionArea.innerHTML = '';
+
+      activeQuestions.forEach((q, i) => {
+        const selected = document.querySelector(`input[name="question-${i}"]:checked`).value;
+        const questionDiv = document.createElement('div');
+        questionDiv.classList.add('correction-question');
+        let optionsHTML = '';
+
+        q.options.forEach(opt => {
+          let className = '';
+          if (opt === q.answer) className = 'correct';
+          else if (opt === selected && opt !== q.answer) className = 'wrong';
+          optionsHTML += `<p class="${className}">${opt}</p>`;
+        });
+
+        questionDiv.innerHTML = `
+          <p><strong>Q${i + 1}:</strong> ${q.q}</p>
+          ${optionsHTML}
+          <p><em>Your Answer:</em> <span class="user-choice">${selected}</span></p>
+          <p><em>Correct Answer:</em> <span class="user-choice">${q.answer}</span></p>
+        `;
+        correctionArea.appendChild(questionDiv);
+      });
+
+      if (typeof MathJax !== 'undefined') MathJax.typesetPromise([correctionArea]);
     }
   </script>
 </body>
-    </html>
+</html>

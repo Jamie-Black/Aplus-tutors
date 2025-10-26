@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Login | Aplus Tutors</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-container">
+    <h2>Aplus Tutors | Student dashboard</h2>
+    <input type="email" id="email" placeholder="Email" />
+    <input type="password" id="password" placeholder="Password" />
+    <button id="loginBtn">Login</button>
+    <p id="error" class="error"></p>
+  </div>
+
+  <script src="data.js"></script>
+  <script>
+    const emailInput = document.getElementById("email");
+const passwordInput = document.getElementById("password");
+const loginBtn = document.getElementById("loginBtn");
+const errorMsg = document.getElementById("error");
+
+// Auto-login if already saved
+const savedStudent = JSON.parse(localStorage.getItem("loggedStudent"));
+if (savedStudent) {
+  window.location.href = "student.html";
+}
+
+loginBtn.addEventListener("click", () => {
+  const email = emailInput.value.trim();
+  const password = passwordInput.value.trim();
+  
+  const student = students.find(
+    (s) => s.email === email && s.password === password
+  );
+  
+  if (student) {
+    localStorage.setItem("loggedStudent", JSON.stringify(student));
+    window.location.href = "student.html";
+  } else {
+    errorMsg.textContent = "Invalid email or password.";
+  }
+});
+  </script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Dashboard | Aplus Tutors</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="dashboard-container">
+    <h2>Welcome, <span id="studentName"></span></h2>
+    <button id="logoutBtn">Logout</button>
+
+    <section id="overview">
+      <h3>Performance Summary</h3>
+      <div class="summary">
+        <p>CBT Attempts: <span id="cbtCount">0</span></p>
+        <p>Quiz Attempts: <span id="quizCount">0</span></p>
+        <p>Average CBT Score: <span id="cbtAvg">0%</span></p>
+        <p>Average Quiz Score: <span id="quizAvg">0%</span></p>
+      </div>
+    </section>
+
+    <section id="progressCharts">
+      <canvas id="cbtChart"></canvas>
+      <canvas id="quizChart"></canvas>
+    </section>
+
+    <section id="records">
+      <h3>CBT Records</h3>
+      <table id="cbtTable">
+        <thead><tr><th>Subject</th><th>Score</th><th>Total</th><th>Date</th></tr></thead>
+        <tbody></tbody>
+      </table>
+
+      <h3>Quiz Records</h3>
+      <table id="quizTable">
+        <thead><tr><th>Topic</th><th>Score</th><th>Total</th><th>Date</th></tr></thead>
+        <tbody></tbody>
+      </table>
+
+      <button id="downloadPDF">Download Result as PDF</button>
+    </section>
+  </div>
+
+  <script>
+    // Get logged student
+const student = JSON.parse(localStorage.getItem("loggedStudent"));
+if (!student) window.location.href = "student-login.html";
+
+document.getElementById("studentName").textContent = student.name;
+
+// Load attempts
+const cbtAttempts = JSON.parse(localStorage.getItem("cbtAttempts")) || [];
+const quizAttempts = JSON.parse(localStorage.getItem("quizAttempts")) || [];
+
+// Filter by student if you store IDs later
+// For now, we assume one active user at a time
+
+// Display overview
+document.getElementById("cbtCount").textContent = cbtAttempts.length;
+document.getElementById("quizCount").textContent = quizAttempts.length;
+
+function avg(arr) {
+  if (!arr.length) return 0;
+  const total = arr.reduce((a, b) => a + (b.score / b.total) * 100, 0);
+  return (total / arr.length).toFixed(1);
+}
+document.getElementById("cbtAvg").textContent = avg(cbtAttempts) + "%";
+document.getElementById("quizAvg").textContent = avg(quizAttempts) + "%";
+
+// Populate tables
+const cbtBody = document.querySelector("#cbtTable tbody");
+cbtAttempts.forEach(a => {
+  const row = `<tr><td>${a.subject}</td><td>${a.score}</td><td>${a.total}</td><td>${a.date}</td></tr>`;
+  cbtBody.innerHTML += row;
+});
+
+const quizBody = document.querySelector("#quizTable tbody");
+quizAttempts.forEach(a => {
+  const row = `<tr><td>${a.topic}</td><td>${a.score}</td><td>${a.total}</td><td>${a.date}</td></tr>`;
+  quizBody.innerHTML += row;
+});
+
+// Charts
+new Chart(document.getElementById("cbtChart"), {
+  type: "line",
+  data: {
+    labels: cbtAttempts.map(a => a.date),
+    datasets: [{
+      label: "CBT Scores",
+      data: cbtAttempts.map(a => ((a.score / a.total) * 100).toFixed(1))
+    }]
+  }
+});
+
+new Chart(document.getElementById("quizChart"), {
+  type: "bar",
+  data: {
+    labels: quizAttempts.map(a => a.date),
+    datasets: [{
+      label: "Quiz Scores",
+      data: quizAttempts.map(a => ((a.score / a.total) * 100).toFixed(1))
+    }]
+  }
+});
+
+// Logout
+document.getElementById("logoutBtn").addEventListener("click", () => {
+  localStorage.removeItem("loggedStudent");
+  window.location.href = "student-login.html";
+});
+
+// Download PDF
+document.getElementById("downloadPDF").addEventListener("click", () => {
+  const element = document.querySelector(".dashboard-container");
+  const opt = {
+    margin: 1,
+    filename: `${student.name}_Aplus_Result.pdf`,
+    html2canvas: { scale: 2 },
+    jsPDF: { unit: "in", format: "A4", orientation: "portrait" }
+  };
+  html2pdf().set(opt).from(element).save();
+});
+  </script>
+</body>
+</html>

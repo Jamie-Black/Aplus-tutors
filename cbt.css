@@ -57,8 +57,16 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-button:hover { background: black; }
-.hidden { display: none; }
+button:hover { 
+  background: black; 
+  
+}
+
+.hidden { 
+  display: none; 
+  
+}
+
 .option {
   display: block;
   width: 100%;
@@ -69,25 +77,97 @@ button:hover { background: black; }
   text-align: left;
   padding: 10px;
 }
+
 .option.selected {
   background: crimson;
   color: white;
 }
+
 .nav-btn {
   border-radius: 50%;
   width: 30px;
   height: 30px;
   margin: 2px;
 }
+
 .nav-btn.answered { background: green; color: white; }
-.nav-btn.active { border: 2px solid black; }
+.nav-btn.active { 
+  border: 2px solid black; 
+  
+}
+
 .error { color: red; }
 .controls {
   margin-top: 10px;
 }
+
 @media (min-width: 768px) {
   main {
     width: 60%;
     margin: auto;
   }
 }
+
+/* ====== Progress Summary Style ====== */
+.result-box {
+  text-align: center;
+  background: white;
+  color: black;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+}
+
+.result-box h2 {
+  color: crimson;
+  margin-bottom: 10px;
+}
+
+.view-history-btn {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.view-history-btn:hover {
+  background: black;
+}
+
+.progress-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-table th, .progress-table td {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+.progress-table th {
+  background: crimson;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+#progress-history {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
