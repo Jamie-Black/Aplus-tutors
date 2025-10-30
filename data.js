@@ -1,3 +1,31 @@
+
+// data.js
+const registeredUsers = [
+  { 
+    fullName: "Olaborede James", 
+    email: "olaboredejames2021@gmail.com" 
+  },
+  { 
+    fullName: "Sarah Adeola", 
+    email: "sarah.adeola@gmail.com" 
+    
+  },
+  { 
+    fullName: "Tunde Akin", 
+    email: "tundeakin@yahoo.com" 
+    
+  },
+  {
+    fullName: "Olaborede Kehinde",
+    email: "kennyblack@gmail.com"
+  }
+];
+
+
+
+
+
+
 // subject data
 
 const subjectsData = [
@@ -119,7 +147,7 @@ const TEAM_DATA = [
         specialty: "Lexis & Structure, Comprehension, Essay Writing and Oral",
         bio: "A highly experienced English Language specialist dedicated to high-stakes exam success. She employs analytical and structural methods to build advanced literacy.",
         image: "/BackgroundEraser_20251005_215502512.png",
-        whatsapp: "2348033334444", 
+        whatsapp: "2349034499225", 
         linkedin: "#"
     }
 ];

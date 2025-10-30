@@ -1,173 +1,335 @@
-body {
-  font-family: "Segoe UI", sans-serif;
-  background: white;
-  color: black;
+/* ====== General Reset ====== */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-
-.cbt-header {
-  background-color: white;
-  display:flex;
+body {
+  background: linear-gradient(to bottom right, #8B1414, #111);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  
+  overflow: hidden;
 }
+
+/* ====== Section Containers ====== */
+#login-section,
+#cbt-section,
+#result-section,
+#correction-section {
+  width: 100%;
+  max-width: 800px;
+  background: #fff;
+  color: #111;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Hidden State with Animation */
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.9);
+}
+
+/* ====== Login Section ====== */
+#login-section h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #8B1414;
+}
+
+#login-section label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: 600;
+}
+
+#login-section input,
+#login-section select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+#login-section button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #8B1414;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+#login-section button:hover {
+  background: #a91d1d;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* ====== CBT Section ====== */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: crimson;
-  color: white;
-  padding: 10px;
+  background: #8B1414;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
 }
-.subject-btn {
-  margin-right: 5px;
-  background: white;
-  color: crimson;
-  border: 1px solid crimson;
-  padding: 6px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.subject-btn:hover, .subject-btn.active {
-  background: crimson;
-  color: white;
-}
-.timer {
-  font-weight: bold;
-}
-#login-section {
-  text-align: center;
-  margin-top: 60px;
-}
-#login-section input, select {
-  display: block;
-  margin: 10px auto;
-  padding: 8px;
-  width: 80%;
-  max-width: 300px;
-}
-button {
-  background: crimson;
-  color: white;
+
+#subject-nav button {
+  background: #fff;
   border: none;
   padding: 8px 14px;
-  margin: 4px;
-  border-radius: 5px;
+  margin-right: 6px;
+  border-radius: 8px;
   cursor: pointer;
-}
-button:hover { 
-  background: black; 
-  
-}
-
-.hidden { 
-  display: none; 
-  
+  font-weight: 600;
+  color: #8B1414;
+  transition: background 0.3s, color 0.3s;
 }
 
-.option {
-  display: block;
-  width: 100%;
-  margin: 6px 0;
-  border: 1px solid crimson;
-  background: white;
-  color: black;
+#subject-nav button:hover,
+#subject-nav button.active {
+  background: #8B1414;
+  color: #fff;
+}
+
+#timer {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ====== Question Area ====== */
+#question-area {
   text-align: left;
-  padding: 10px;
+  animation: fadeIn 0.5s ease;
 }
 
-.option.selected {
-  background: crimson;
-  color: white;
+#question-number {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #8B1414;
 }
 
-.nav-btn {
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  margin: 2px;
-}
-
-.nav-btn.answered { background: green; color: white; }
-.nav-btn.active { 
-  border: 2px solid black; 
-  
-}
-
-.error { color: red; }
-.controls {
-  margin-top: 10px;
-}
-
-@media (min-width: 768px) {
-  main {
-    width: 60%;
-    margin: auto;
-  }
-}
-
-/* ====== Progress Summary Style ====== */
-.result-box {
-  text-align: center;
-  background: white;
-  color: black;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+#question-text {
+  font-size: 16px;
   margin-bottom: 15px;
 }
 
-.result-box h2 {
-  color: crimson;
-  margin-bottom: 10px;
+#question-image {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 10px;
 }
 
-.view-history-btn {
-  background: crimson;
-  color: white;
-  border: none;
-  padding: 8px 15px;
-  border-radius: 6px;
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  background: #f5f5f5;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: left;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: all 0.3s;
 }
 
-.view-history-btn:hover {
-  background: black;
+.option:hover {
+  background: #8B1414;
+  color: #fff;
+  border-color: #8B1414;
 }
 
-.progress-table {
+.option.selected {
+  background: #8B1414;
+  color: #fff;
+  border-color: #8B1414;
+}
+
+/* ====== Controls ====== */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.controls button {
+  background: #8B1414;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background: #a91d1d;
+}
+
+/* ====== Question Navigation ====== */
+#question-nav {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+
+.nav-btn {
+  background: #f0f0f0;
+  color: #111;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.nav-btn.active {
+  background: #8B1414;
+  color: #fff;
+}
+
+.nav-btn.answered {
+  background: #3CB043;
+  color: #fff;
+}
+
+/* ====== Result Section ====== */
+#result-section h2 {
+  text-align: center;
+  color: #8B1414;
+}
+
+#resultChart {
+  width: 250px !important;
+  height: 250px !important;
+  margin: 20px auto;
+  display: block;
+}
+
+#score-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+#subject-stats {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+#subject-stats table {
   width: 100%;
   border-collapse: collapse;
-  background: #fff;
-  margin-top: 10px;
-  border-radius: 10px;
-  overflow: hidden;
 }
 
-.progress-table th, .progress-table td {
+#subject-stats th,
+#subject-stats td {
   border: 1px solid #ccc;
-  padding: 8px 10px;
+  padding: 8px;
   text-align: center;
 }
 
-.progress-table th {
-  background: crimson;
-  color: white;
+#subject-stats th {
+  background: #8B1414;
+  color: #fff;
 }
 
-.hidden {
-  display: none;
+#result-section button {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 20px;
+  background: #8B1414;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
-#progress-history {
-  animation: fadeIn 0.4s ease-in-out;
+#result-section button:hover {
+  background: #a91d1d;
 }
 
+/* ====== Correction Section ====== */
+#corrections-container {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.correction-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.correction-item img {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.user-answer.correct {
+  color: green;
+  font-weight: 600;
+}
+
+.user-answer.wrong {
+  color: red;
+  font-weight: 600;
+}
+
+.user-answer.unanswered {
+  color: gray;
+  font-style: italic;
+}
+
+.correct {
+  color: green;
+  font-weight: 600;
+}
+
+/* ====== Animations ====== */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(5px); }
-  to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
 }
-

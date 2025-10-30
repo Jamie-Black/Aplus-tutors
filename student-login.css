@@ -1,0 +1,141 @@
+/* ===== APLUS TUTORS LOGIN PAGE (LIGHT THEME) ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  --crimson: #8B0000;
+  --light-crimson: #b22222;
+  --black: #111;
+  --white: #ffffff;
+  --soft-gray: #f8f8f8;
+  --mid-gray: #ddd;
+}
+
+/* ===== GLOBAL STYLES ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body.login-body {
+  background: linear-gradient(135deg, var(--white), #f3f3f3);
+  color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* ===== LOGIN CONTAINER ===== */
+.login-container {
+  background: var(--white);
+  border-radius: 20px;
+  padding: 50px 35px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--mid-gray);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* ===== HEADINGS ===== */
+.title {
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  color: var(--black);
+}
+
+.title span {
+  color: var(--crimson);
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* ===== FORM ===== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+input {
+  padding: 13px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  font-size: 0.95rem;
+  background: var(--soft-gray);
+  color: var(--black);
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  background: var(--white);
+  border-color: var(--crimson);
+  box-shadow: 0 0 10px rgba(139, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+/* ===== BUTTON ===== */
+.btn {
+  background: var(--crimson);
+  border: none;
+  color: var(--white);
+  padding: 13px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: var(--light-crimson);
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(139, 0, 0, 0.3);
+}
+
+/* ===== ERROR MESSAGE ===== */
+#errorMessage {
+  color: var(--light-crimson);
+  font-size: 0.9rem;
+  margin-top: 15px;
+  min-height: 20px;
+}
+
+/* ===== ANIMATION ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== MOBILE FIRST ===== */
+@media (max-width: 480px) {
+  .login-container {
+    padding: 35px 25px;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  input, .btn {
+    font-size: 0.9rem;
+  }
+}

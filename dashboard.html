@@ -1,55 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aplus Tutors | Dashboard</title>
-  <link rel="stylesheet" href="dashboard.css" />
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplus Tutors | Student Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
 </head>
-<body>
-  <div class="dashboard-container">
-    <!-- Sidebar -->
-    <aside class="sidebar">
-      <h2>Aplus Tutors</h2>
-      <ul>
-        <li class="active">🏠 Dashboard</li>
-        <li>📚 Subjects</li>
-        <li>🧪 Quizzes</li>
-        <li>📈 Progress</li>
-        <li>⚙️ Settings</li>
-      </ul>
-      <button id="logoutBtn">Logout</button>
-    </aside>
+<body class="dashboard-body">
+  <header>
+    <h1>Welcome, <span id="studentName"></span></h1>
+    <p id="studentEmail"></p>
+  </header>
 
-    <!-- Main Content -->
-    <main class="main-content">
-      <header>
-        <h2>Welcome, <span id="userName">Student</span></h2>
-      </header>
+<section class="motivation">
+  <h2>Keep Going!</h2>
+  <p id="motivationText">Loading inspiration...</p>
+</section>
 
-      <section class="stats">
-        <div class="card">
-          <h3>Subjects</h3>
-          <p id="subjectsCount">5</p>
-        </div>
-        <div class="card">
-          <h3>Completed Tests</h3>
-          <p id="testsCount">3</p>
-        </div>
-        <div class="card">
-          <h3>Average Score</h3>
-          <p id="averageScore">82%</p>
-        </div>
-      </section>
+  <section class="card-container">
+    <div class="card" onclick="goTo('studentquiz.html')">
+      <h3>My Quizzes</h3>
+      <p>Test your knowledge and boost confidence</p>
+    </div>
 
-      <section class="chart-section">
-        <h3>Your Weekly Progress</h3>
-        <canvas id="progressChart"></canvas>
-      </section>
-    </main>
-  </div>
+    <div class="card" onclick="goTo('studentcbt.html')">
+      <h3>My CBT</h3>
+      <p>Take timed tests and prepare for CBT exams</p>
+    </div>
 
-  <script src="dashboard.js"></script>
+    <div class="card" onclick="goTo('videos.html')">
+      <h3>Video Lessons</h3>
+      <p>Comprehensive topics explained clearly</p>
+    </div>
+
+    <div class="card" onclick="goTo('resources.html')">
+      <h3>My Resources</h3>
+      <p>Access notes, past questions, and materials</p>
+    </div>
+
+    <div class="card" onclick="goTo('progress.html')">
+      <h3>My Progress</h3>
+      <p>Track your academic growth and performance</p>
+    </div>
+  </section>
+
+  <button class="logout-btn" onclick="logout()">Logout</button>
+
+  <script>
+    // ✅ Display user info from localStorage
+    const storedUser = JSON.parse(localStorage.getItem("loggedInUser"));
+    if (!storedUser) {
+      // If no user logged in, redirect to login page
+      window.location.href = "login.html";
+    } else {
+      document.getElementById("studentName").textContent = storedUser.fullName;
+      document.getElementById("studentEmail").textContent = storedUser.email;
+    }
+
+    // ✅ Navigation function
+    function goTo(page) {
+      window.location.href = page; // This properly redirects to the target page
+    }
+
+    // ✅ Logout function
+    function logout() {
+      localStorage.removeItem("loggedInUser");
+      window.location.href = "login.html";
+    }
+  </script>
+  <script>
+  // 🌟 Array of motivational quotes
+  const motivationQuotes = [
+    `"Learning is not attained by chance, it must be sought for with ardor and diligence."`,
+    `"Success doesn’t come from what you do occasionally, it comes from what you do consistently."`,
+    `"The expert in anything was once a beginner."`,
+    `"Discipline is the bridge between goals and accomplishment."`,
+    `"It always seems impossible until it’s done."`,
+    `"Small steps every day lead to big results."`,
+    `"Education is the most powerful weapon which you can use to change the world."`,
+    `"Dream big. Work hard. Stay humble."`,
+    `"Push yourself, because no one else is going to do it for you."`,
+    `"Your only limit is your mind."`,
+    `"Don’t watch the clock; do what it does — keep going."`,
+    `"Study hard, for the well is deep, and our brains are shallow."`
+  ];
+
+  // 🎲 Pick a random quote
+  const randomQuote = motivationQuotes[Math.floor(Math.random() * motivationQuotes.length)];
+
+  // 🪄 Display it inside the section
+  document.getElementById("motivationText").textContent = randomQuote;
+</script>
 </body>
 </html>

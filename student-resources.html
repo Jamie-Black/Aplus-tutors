@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aplus Tutors | Resources</title>
+  <link rel="stylesheet" href="resources.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  
+  <!--Resources section here -->
+  
+  <section id="resources" class="resources-section">
+    <h2 class="section-title">My Learning Resources</h2>
+    
+    <div class="resource-filter">
+      <button onclick="filterResources('all')">All</button>
+      <button onclick="filterResources('free')">Free</button>
+      <button onclick="filterResources('paid')">Paid</button>
+    </div>
+    
+    <div id="resources-container" class="resources-grid"></div>
+  </section>
+  
+  <script src="data.js"></script>
+  
+  <script src="data.js"></script>
+  <script>
+    let currentFilter = "all";
+    
+    function filterResources(type) {
+      currentFilter = type;
+      displayResources();
+    }
+    
+    function displayResources() {
+      const container = document.getElementById('resources-container');
+      container.innerHTML = '';
+      
+      const filtered = currentFilter === 'all' ?
+        resources :
+        resources.filter(r => r.type === currentFilter);
+      
+      if (filtered.length === 0) {
+        container.innerHTML = '<p>No resources available at the moment.</p>';
+        return;
+      }
+      
+      filtered.forEach(res => {
+        const card = document.createElement('div');
+        card.classList.add('resource-card');
+        
+        let media = '';
+        if (res.format === 'image') {
+          media = `<img src="${res.preview}" alt="${res.title}">`;
+        } else if (res.format === 'video') {
+          media = `<video src="${res.preview}" controls></video>`;
+        } else {
+          media = `<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">`;
+        }
+        
+        const actions = res.type === 'free' ?
+          `<a href="${res.link}" download class="download">Download</a>` :
+          `<a href="https://wa.me/${res.whatsapp}?text=Hi, I want to pay for ${res.title}" class="whatsapp">₦${res.price} | Pay</a>`;
+        
+        card.innerHTML = `
+      ${media}
+      <div class="resource-info">
+        <h3>${res.title}</h3>
+        <p>${res.description}</p>
+        <div class="resource-actions">${actions}</div>
+      </div>
+    `;
+        
+        container.appendChild(card);
+      });
+    }
+    
+    document.addEventListener("DOMContentLoaded", displayResources);
+  </script>
+  
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 /* ====== GLOBAL STYLES ====== */
 :root {
-  --primary: #d10028;
+  --primary: #8B0000;
   --accent: #ff3860;
   --bg: #f9f9f9;
   --text: #222;
@@ -265,6 +265,7 @@ footer {
   .primary-button,
   .secondary-button {
     width: 100%;
+    margin-bottom: 5px;
   }
 }
 
