@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aplus Tutors — Study</title>
+  <style>
+    /* ===== MOBILE-FIRST THEME & LAYOUT ===== */
+    :root {
+      --crimson: #8B0000;
+      --accent: #b22222;
+      --bg: #fff;
+      --muted: #f6f6f6;
+      --text: #111;
+      --card-shadow: 0 8px 20px rgba(11,11,11,0.06);
+    }
+    * {
+      box-sizing: border-box;
+      font-family: Inter, system-ui, Segoe UI, Roboto, Arial;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: linear-gradient(180deg, var(--bg), #fbfbfb);
+      color: var(--text);
+    }
+    header {
+      background: var(--crimson);
+      color: white;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header h1 { font-size: 16px; margin: 0; font-weight: 600 }
+    header .sub { font-size: 12px; opacity: 0.95 }
+    main {
+      padding: 12px;
+      max-width: 900px;
+      margin: 0 auto 36px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .subjects-row {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 6px;
+    }
+    .subject-pill {
+      white-space: nowrap;
+      background: var(--muted);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 13px;
+      border: 1px solid rgba(0,0,0,0.04);
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+    .subject-pill.active {
+      background: var(--crimson);
+      color: white;
+      box-shadow: var(--card-shadow);
+    }
+    .topics-panel {
+      background: white;
+      border-radius: 12px;
+      padding: 10px;
+      box-shadow: var(--card-shadow);
+    }
+    .topic-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 6px 0;
+      cursor: pointer;
+    }
+    .topic-left { display: flex; flex-direction: column; }
+    .topic-title { font-weight: 600; font-size: 14px; }
+    .topic-meta { font-size: 12px; color: #666; margin-top: 4px; }
+    .badge-completed {
+      background: #0a8f3f;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+    }
+    .open-btn {
+      background: transparent;
+      border: 1px solid var(--crimson);
+      color: var(--crimson);
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .notes-card {
+      background: white;
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: var(--card-shadow);
+      min-height: 260px;
+      overflow: auto;
+      position: relative;
+      transform: translateX(0);
+      transition: transform 280ms cubic-bezier(.2,.9,.25,1);
+    }
+    .notes-card.enter-from-right {
+      transform: translateX(12px);
+      opacity: 0;
+    }
+    .notes-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+    .breadcrumb { font-size: 13px; color: #444; }
+    .note-title { margin: 6px 0 12px 0; font-size: 18px; }
+    .note-block { margin-bottom: 14px; line-height: 1.6; font-size: 15px; }
+    .note-block img {
+      max-width: 100%;
+      border-radius: 8px;
+      display: block;
+      margin: 8px 0;
+    }
+    .progress-row { display: flex; gap: 10px; align-items: center; }
+    .progress-bar {
+      flex: 1;
+      height: 10px;
+      background: #eee;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .progress-inner {
+      height: 100%;
+      width: 0;
+      background: linear-gradient(90deg, var(--crimson), var(--accent));
+      transition: width 200ms ease;
+    }
+    .progress-label { min-width: 44px; text-align: right; font-size: 13px; }
+    .controls {
+      display: flex;
+      gap: 8px;
+      justify-content: flex-end;
+      margin-top: 8px;
+    }
+    .btn { padding: 8px 12px; border-radius: 10px; border: 0; cursor: pointer; font-weight: 600; }
+    .btn.primary { background: var(--crimson); color: white; }
+    .btn.ghost { background: transparent; border: 1px solid #ddd; }
+    @media (min-width: 720px) {
+      main { padding: 20px; gap: 16px; }
+      .subjects-row { gap: 12px; }
+      .notes-card { min-height: 360px; }
+      .note-title { font-size: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display:flex;flex-direction:column;">
+      <h1>Aplus Tutors</h1>
+      <div class="sub">Study — Biology & Chemistry</div>
+    </div>
+    <div style="margin-left:auto;font-size:13px;color:#fff;opacity:0.95">
+      <div id="studentName">Student</div>
+      <div style="font-size:12px;margin-top:4px">Completion: <span id="overallPct">0%</span></div>
+    </div>
+  </header>
+
+  <main>
+    <div>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+        <div style="font-weight:700">Subjects</div>
+        <div style="font-size:13px;color:#666">Tap a subject to view topics</div>
+      </div>
+      <div class="subjects-row" id="subjectsRow" role="tablist" aria-label="Subjects"></div>
+    </div>
+
+    <div class="topics-panel" id="topicsPanel" aria-live="polite"></div>
+
+    <div class="notes-card" id="notesCard" tabindex="0" aria-live="polite">
+      <div id="notesPlaceholder" style="text-align:center;color:#888;padding:36px 10px">
+        <div style="font-weight:700">No topic selected</div>
+        <div style="margin-top:6px">Pick a subject and a topic to start studying.</div>
+      </div>
+
+      <div id="notesContent" style="display:none">
+        <div class="notes-header">
+          <div>
+            <div class="breadcrumb" id="breadcrumb">—</div>
+            <div class="note-title" id="noteTitle"></div>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end">
+            <div style="font-size:12px;color:#666">Reading progress</div>
+            <div style="display:flex;align-items:center;gap:8px;margin-top:6px">
+              <div class="progress-bar" style="width:160px">
+                <div id="noteProgress" class="progress-inner"></div>
+              </div>
+              <div class="progress-label" id="notePct">0%</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="noteBody"></div>
+
+        <div class="controls">
+          <button id="markDoneBtn" class="btn primary">Mark as Done</button>
+          <button id="backToTopics" class="btn ghost">Back to Topics</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer style="text-align:center;padding:12px;color:#666;font-size:13px">&copy; 2025 Aplus Tutors</footer>
+
+  <!-- Load external data file -->
+  <script src="data.js"></script>
+
+  <!-- Main Logic -->
+  <script>
+    const LS_COMPLETED = 'aplus_completed_topics_v2';
+    const LS_PROGRESS = 'aplus_topic_progress_v2';
+    const subjectsRow = document.getElementById('subjectsRow');
+    const topicsPanel = document.getElementById('topicsPanel');
+    const notesCard = document.getElementById('notesCard');
+    const notesPlaceholder = document.getElementById('notesPlaceholder');
+    const notesContent = document.getElementById('notesContent');
+    const noteTitle = document.getElementById('noteTitle');
+    const noteBody = document.getElementById('noteBody');
+    const breadcrumb = document.getElementById('breadcrumb');
+    const noteProgressEl = document.getElementById('noteProgress');
+    const notePct = document.getElementById('notePct');
+    const overallPct = document.getElementById('overallPct');
+    const markDoneBtn = document.getElementById('markDoneBtn');
+    const backToTopics = document.getElementById('backToTopics');
+    const studentNameEl = document.getElementById('studentName');
+
+    let completed = JSON.parse(localStorage.getItem(LS_COMPLETED) || '{}');
+    let progressStore = JSON.parse(localStorage.getItem(LS_PROGRESS) || '{}');
+    let currentSubject = null;
+    let currentTopic = null;
+
+    const loggedUser = JSON.parse(localStorage.getItem('loggedInUser') || 'null');
+    if (loggedUser && loggedUser.fullName) studentNameEl.textContent = loggedUser.fullName;
+
+    const keyFor = (subject, topic) => `${subject}||${topic}`;
+
+    function renderSubjects() {
+      subjectsRow.innerHTML = '';
+      const subjects = Object.keys(studyData || {});
+      subjects.forEach((s, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'subject-pill' + (i === 0 ? ' active' : '');
+        btn.textContent = s;
+        btn.onclick = () => selectSubject(s, btn);
+        subjectsRow.appendChild(btn);
+      });
+      if (subjects.length) selectSubject(subjects[0], subjectsRow.children[0]);
+      updateOverall();
+    }
+
+    function selectSubject(subject, el) {
+      Array.from(subjectsRow.children).forEach(b => b.classList.remove('active'));
+      if (el && el.classList) el.classList.add('active');
+      currentSubject = subject;
+      renderTopics(subject);
+      notesPlaceholder.style.display = 'block';
+      notesContent.style.display = 'none';
+    }
+
+    function renderTopics(subject) {
+      topicsPanel.innerHTML = '';
+      const topics = studyData[subject] || [];
+      topics.forEach(t => {
+        const row = document.createElement('div');
+        row.className = 'topic-row';
+        const left = document.createElement('div');
+        left.className = 'topic-left';
+        left.innerHTML = `<div class="topic-title">${t.topic}</div><div class="topic-meta">${(t.notes.content||[]).length} blocks</div>`;
+        const right = document.createElement('div');
+        const key = keyFor(subject, t.topic);
+        const done = !!completed[key];
+        if (done) {
+          const badge = document.createElement('span');
+          badge.className = 'badge-completed';
+          badge.textContent = 'Completed';
+          right.appendChild(badge);
+        }
+        const open = document.createElement('button');
+        open.className = 'open-btn';
+        open.textContent = 'Open';
+        open.onclick = () => openTopic(subject, t);
+        right.appendChild(open);
+        row.appendChild(left);
+        row.appendChild(right);
+        topicsPanel.appendChild(row);
+      });
+    }
+
+    function openTopic(subject, topicObj) {
+      currentSubject = subject;
+      currentTopic = topicObj;
+      breadcrumb.textContent = `${subject} → ${topicObj.topic}`;
+      noteTitle.textContent = topicObj.notes.title || topicObj.topic;
+      noteBody.innerHTML = '';
+      (topicObj.notes.content || []).forEach((block, i) => {
+        const b = document.createElement('div');
+        b.className = 'note-block';
+        if (block.type === 'text') {
+          const p = document.createElement('p');
+          p.innerHTML = block.data.replace(/\n/g, '<br>');
+          b.appendChild(p);
+        } else if (block.type === 'image') {
+          const img = document.createElement('img');
+          img.src = block.data;
+          img.alt = topicObj.topic + ' image ' + (i + 1);
+          b.appendChild(img);
+        }
+        noteBody.appendChild(b);
+      });
+
+      notesPlaceholder.style.display = 'none';
+      notesContent.style.display = 'block';
+      notesCard.classList.add('enter-from-right');
+      requestAnimationFrame(() => notesCard.classList.remove('enter-from-right'));
+
+      const k = keyFor(subject, topicObj.topic);
+      setNoteProgress(progressStore[k] || 0);
+      notesCard.scrollTop = 0;
+      notesCard.removeEventListener('scroll', onNotesScroll);
+      notesCard.addEventListener('scroll', onNotesScroll);
+      markDoneBtn.onclick = () => markAsDone(k);
+      backToTopics.onclick = () => {
+        notesContent.style.display = 'none';
+        notesPlaceholder.style.display = 'block';
+        currentTopic = null;
+      };
+      renderTopics(currentSubject);
+    }
+
+    function onNotesScroll() {
+      if (!currentTopic || !currentSubject) return;
+      const el = notesCard;
+      const max = el.scrollHeight - el.clientHeight;
+      const val = max > 0 ? Math.round((el.scrollTop / max) * 100) : 100;
+      setNoteProgress(val);
+      const k = keyFor(currentSubject, currentTopic.topic);
+      progressStore[k] = val;
+      localStorage.setItem(LS_PROGRESS, JSON.stringify(progressStore));
+      if (val >= 95) markAsDone(k);
+    }
+
+    function setNoteProgress(pct) {
+      noteProgressEl.style.width = pct + '%';
+      notePct.textContent = pct + '%';
+    }
+
+    function markAsDone(key) {
+      completed[key] = true;
+      progressStore[key] = 100;
+      localStorage.setItem(LS_COMPLETED, JSON.stringify(completed));
+      localStorage.setItem(LS_PROGRESS, JSON.stringify(progressStore));
+      renderTopics(currentSubject);
+      updateOverall();
+      setNoteProgress(100);
+      setTimeout(() => alert('Marked as completed ✅'), 80);
+    }
+
+    function updateOverall() {
+      const subjects = Object.keys(studyData || {});
+      let total = 0, done = 0;
+      subjects.forEach(s => {
+        (studyData[s] || []).forEach(t => {
+          total++;
+          if (completed[keyFor(s, t.topic)]) done++;
+        });
+      });
+      overallPct.textContent = total ? Math.round((done / total) * 100) + '%' : '0%';
+    }
+
+    if (window.studyData) renderSubjects();
+    else topicsPanel.innerHTML = '<div style="padding:12px;color:#666">No study data found. Add data.js with a `studyData` object.</div>';
+  </script>
+</body>
+</html>

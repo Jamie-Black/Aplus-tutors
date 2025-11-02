@@ -29,26 +29,9 @@ const registeredUsers = [
 // subject data
 
 const subjectsData = [
+  /*
     {
         id: 1,
-        title: "Mathematics",
-        instructor: "Olaborede James",
-        description: "Comprehensive coverage of Algebra, Geometry, and introductory Calculus concepts, statistics and matrices.",
-        price: "₦" + 7000,
-        topics: [
-            "Quadratic Equations",
-            "Trigonometric Identities",
-            "Vectors and Scalars",
-            "Basic Differentiation",
-            "Calculus",
-            "Algebra",
-            "Statistics",
-            "Matrices and determinants"
-        ],
-        whatsappNumber: "2349152769294" // Replace with your actual WhatsApp number (no + or spaces)
-    },
-    {
-        id: 2,
         title: "Physics",
         instructor: "Mr. James Olaborede",
         description: "Exploring classical mechanics, thermodynamics, and introductory electromagnetism, electricity and other fundamental concepts",
@@ -64,68 +47,7 @@ const subjectsData = [
         ],
         whatsappNumber: "2349152769294" 
     },
-    {
-        id: 3,
-        title: "Chemistry",
-        instructor: "Mr. Olaborede James",
-        description: "Fundamentals of atomic structure, chemical bonding, and reaction kinetics.",
-        price: "₦" + 4500,
-        topics: [
-            "Atomic Structure",
-            "Stoichiometry",
-            "Acids, Bases, and Salts",
-            "Organic Chemistry Basics"
-        ],
-        whatsappNumber: "2348012345678"
-    },
-    {
-        id: 4,
-        title: "Biology",
-        instructor: "Mr. Adeleke Adeniran",
-        description: "Study of life, including cell biology, genetics, and ecology.",
-        price: "₦" + 5000,
-        topics: [
-            "Cell Structure and Function",
-            "Inheritance and Variation",
-            "Ecosystem Dynamics",
-            "Human Physiology",
-            "Genetics",
-            "Classification of living things"
-        ],
-        whatsappNumber: "2348012345678" 
-    },
-    {
-        id: 5,
-        title: "English Language",
-        instructor: "Mrs. Virginia Woolf",
-        description: "Improving grammar, composition, comprehension, and literary analysis skills.",
-        price: "₦" + 5000,
-        topics: [
-            "Tenses and Concord",
-            "Essay Writing Techniques",
-            "Verbal Reasoning",
-            "Poetic Devices"
-        ],
-        whatsappNumber: "2348012345678" 
-    },
-    {
-    id: 6 ,
-    title: "Full Science Package",
-    instructor: "Olaborede James",
-    description: "Comprehensive coverage of all science subjects including mathematics, chemistry, biology, physics, further mathematics and technical drawing.",
-    price: "₦" + 20000 + " Monthly",
-    topics: [
-        "Quadratic Equations",
-        "Trigonometric Identities",
-        "Vectors and Scalars",
-        "Basic Differentiation",
-        "Organic chemistry",
-        "Metals and non metals",
-        "Ecology",
-        "Classification of living things"
-    ],
-    whatsappNumber: "08063721835" // Replace with your actual WhatsApp number (no + or spaces)
-}
+    */
 ];
 
 
@@ -261,14 +183,14 @@ const blogPosts = [
 // reasources data here
 
 const resources = [
-  {
+ /* {
     title: "WAEC Physics Past Questions 2024",
     description: "Complete WAEC Physics solved past questions (PDF).",
     type: "free",
     format: "pdf",
     link: "resources/waec_physics_2024.pdf",
     preview: "",
-  },
+  }, 
   {
     title: "Mathematics Video Lecture: Algebra Simplified",
     description: "Step-by-step explanation of algebraic equations.",
@@ -294,7 +216,7 @@ const resources = [
     price: 1000,
     preview: "images/chemistry_pack.jpg",
     whatsapp: "2348012345678",
-  }
+  } */
 ];
 
 
@@ -3803,6 +3725,7 @@ answer: "Perfectly inelastic demand"
 // Exam prep data
 
 const WAEC_PREP_DATA = [
+  /*
     {
         id: 101,
         subject: "General Mathematics",
@@ -3815,36 +3738,17 @@ const WAEC_PREP_DATA = [
         duration: "18:45"
     },
     
-    {
-        id: 102,
-        subject: "English Language",
-        topic: "Essay Writing",
-        subTopic: "Tips for Argumentative Essays (WAEC Standard)",
-        description: "Downloadable guide and video focusing on structure, grammar, and vocabulary needed to score high in the WAEC essay section.",
-        type: "Resource Guide",
-        videoSource: "videos/waec/english_essay_tips.mp4",
-        downloadLink: "downloads/waec/argumentative_essay_guide.pdf",
-        duration: "10:30"
-    },
+    */
     
-    {
-        id: 102,
-        subject: "Biology",
-        topic: "The cell and its environment",
-        subTopic: "Functions of the cell",
-        description: "Downloadable guide and video focusing on the cell theory, components of the cell and properties.",
-        type: "Resource Guide",
-        videoSource: "videos/waec/english_essay_tips.mp4",
-        downloadLink: "downloads/waec/argumentative_essay_guide.pdf",
-        duration: "10:30"
-    }
     // Add more WAEC specific lessons here
 ];
 
 
-// Classroom lesson data 
+
+// Classroom video lesson data 
 
 const COURSE_DATA = [
+  /*
     {
         id: 1,
         subject: "Mathematics",
@@ -3857,31 +3761,9 @@ const COURSE_DATA = [
         downloadLink: "/VID_20250929_075727.mp4", // Link to a downloadable resource
         duration: "15:30"
     },
-    {
-        id: 2,
-        subject: "English Language",
-        topic: "Lexis and Structure",
-        subTopic: "Identifying Figurative Speech",
-        description: "Mastering Simile, Metaphor, and Personification for comprehension and literary analysis. Key concepts for exam success.",
-        videoTitle: "Understanding Figurative Language",
-        // !!! IMPORTANT: Update this path to your actual video file location !!!
-        videoSource: "videos/english/figurative_speech.mp4",
-        downloadLink: "downloads/english/figurative_speech.pdf",
-        duration: "12:05"
-    },
-    {
-        id: 3,
-        subject: "Biology",
-        topic: "Cell Structure",
-        subTopic: "The Mitochondrion and Respiration",
-        description: "Detailed video on the structure and function of the 'powerhouse' of the cell, linking structure to function.",
-        videoTitle: "Mitochondria: The Powerhouse",
-        // !!! IMPORTANT: Update this path to your actual video file location !!!
-        videoSource: "videos/biology/cell_respiration.mp4",
-        downloadLink: "downloads/biology/cell_respiration_guide.mp4",
-        duration: "20:15"
-    }
-    // Add more lessons here for control and management
+    */
+    
+    // Add more video lessons here for control and management
 ];
 
 
@@ -8487,5 +8369,483 @@ const questions = {
   //data processing questions here
   Data_Processing: [
     
+  ]
+};
+
+
+
+
+
+
+
+
+
+//assignments data here
+
+const assignments = [
+/* 
+  {
+    subject: "Mathematics",
+    topic: "Simultaneous Equations",
+    content: [
+      "Solve the equations: 2x + y = 10 and 3x - y = 5.",
+      "Find the point of intersection of the lines represented by the equations.",
+      "Verify your solution by substitution.",
+      "Use graph to show the point of intersection of the two equations."
+    ],
+    deadline: "2025-11-05"
+  }
+  */
+];
+
+
+
+
+
+
+
+
+window.studyData = {
+// data.js
+"Biology": [
+  {
+    topic: "Introduction to Biology",
+    notes: {
+      title: "Biology — Meaning, Branches, and Importance",
+      content: [
+        { 
+          type: "text", 
+          data: "Biology is the branch of science that deals with the study of living organisms and their interactions with one another and their environment. The term 'biology' comes from two Greek words: 'bios' (life) and 'logos' (study). Biology helps us understand how living things function, reproduce, and adapt to their surroundings." 
+        },
+        { 
+          type: "text", 
+          data: "Branches of Biology:\n1. Botany – study of plants.\n2. Zoology – study of animals.\n3. Microbiology – study of microscopic organisms.\n4. Genetics – study of heredity and variation.\n5. Ecology – study of relationships between organisms and their environment.\n6. Anatomy – study of the structure of organisms.\n7. Physiology – study of how living systems function." 
+        },
+        { 
+          type: "text", 
+          data: "Importance of Biology:\n• Helps in understanding diseases and developing medicines.\n• Contributes to agriculture through crop improvement and pest control.\n• Promotes environmental conservation and biodiversity protection.\n• Provides knowledge for biotechnology, genetic engineering, and food science.\n• Helps in solving global problems such as hunger, pollution, and health crises." 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Tree_of_life_SVG.svg/640px-Tree_of_life_SVG.svg.png" 
+        }
+      ]
+    }
+  },
+  {
+    topic: "Characteristics of Living Things",
+    notes: {
+      title: "Characteristics of Living Organisms — What Makes Something Alive?",
+      content: [
+        { 
+          type: "text", 
+          data: "Living things possess certain characteristics that distinguish them from non-living things. These characteristics are often summarized by the acronym **MRS GREN** (Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition)." 
+        },
+        { 
+          type: "text", 
+          data: "1. Movement — the ability of an organism to change position or move parts of its body. Plants show slow movement like bending toward light, while animals move freely in search of food or safety." 
+        },
+        { 
+          type: "text", 
+          data: "2. Respiration — the process by which organisms break down food to release energy for activities. It can be aerobic (using oxygen) or anaerobic (without oxygen)." 
+        },
+        { 
+          type: "text", 
+          data: "3. Sensitivity (Irritability) — the ability to detect and respond to changes in the environment (stimuli). For example, humans react to touch and temperature; plants respond to light and gravity." 
+        },
+        { 
+          type: "text", 
+          data: "4. Growth — an irreversible increase in size and mass resulting from cell division and enlargement." 
+        },
+        { 
+          type: "text", 
+          data: "5. Reproduction — the ability to produce offspring, ensuring the survival of a species. It can be sexual or asexual." 
+        },
+        { 
+          type: "text", 
+          data: "6. Excretion — removal of metabolic waste products from the body, such as carbon dioxide, urea, and excess water." 
+        },
+        { 
+          type: "text", 
+          data: "7. Nutrition — the process by which organisms obtain food for energy and growth. Plants make their food through photosynthesis (autotrophic nutrition), while animals feed on other organisms (heterotrophic nutrition)." 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/MRS_GREN_characteristics.svg/640px-MRS_GREN_characteristics.svg.png" 
+        }
+      ]
+    }
+  },
+  {
+    topic: "Cell as a Living Unit",
+    notes: {
+      title: "The Cell — Structure, Functions, and Types",
+      content: [
+        { 
+          type: "text", 
+          data: "The cell is the basic structural, functional, and biological unit of life. All living organisms are made up of cells — some are unicellular (single-celled), while others are multicellular (many-celled)." 
+        },
+        { 
+          type: "text", 
+          data: "The Cell Theory states that:\n1. All living things are made up of cells.\n2. The cell is the basic unit of structure and function in living things.\n3. All cells arise from pre-existing cells (proposed by Rudolf Virchow)." 
+        },
+        { 
+          type: "text", 
+          data: "Cell Structure:\nA typical cell consists of:\n• **Cell membrane** – controls the movement of substances in and out.\n• **Cytoplasm** – jelly-like substance where metabolic reactions occur.\n• **Nucleus** – controls cell activities and contains DNA.\n• **Mitochondria** – site of respiration and energy production.\n• **Ribosomes** – site of protein synthesis.\n• **Endoplasmic Reticulum (ER)** – transports materials within the cell.\n• **Golgi Body** – modifies and packages proteins.\n• **Vacuole** – stores food and water (large in plant cells).\n• **Cell wall** – provides support and protection (only in plants)." 
+        },
+        { 
+          type: "text", 
+          data: "Types of Cells:\n• Plant Cells – have a cell wall, large vacuole, and chloroplasts for photosynthesis.\n• Animal Cells – lack a cell wall and chloroplasts, usually have small vacuoles." 
+        },
+        { 
+          type: "text", 
+          data: "Microscopes are used to view cells. The light microscope uses lenses and light, while the electron microscope provides higher magnification and resolution using electron beams." 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Animal_Cell.svg/640px-Animal_Cell.svg.png" 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Plant_cell_structure_en.svg/640px-Plant_cell_structure_en.svg.png" 
+        }
+      ]
+    }
+  },
+  {
+    topic: "Cell Organization",
+    notes: {
+      title: "Cell Organization — From Cells to Systems",
+      content: [
+        { 
+          type: "text", 
+          data: "In multicellular organisms, cells are organized into higher levels of structure to perform specific functions efficiently. This hierarchy of organization ensures coordination and survival." 
+        },
+        { 
+          type: "text", 
+          data: "Levels of Organization:\n1. **Cell** – the basic unit of life (e.g., red blood cell, nerve cell).\n2. **Tissue** – a group of similar cells performing a common function (e.g., muscle tissue, xylem tissue).\n3. **Organ** – made up of different tissues working together (e.g., heart, leaf, kidney).\n4. **System** – a group of organs performing related functions (e.g., circulatory system, digestive system).\n5. **Organism** – a complete living being capable of independent existence." 
+        },
+        { 
+          type: "text", 
+          data: "Examples:\n• In plants: root cells form root tissue, tissues form the root organ, and together with the stem and leaves form the shoot system.\n• In animals: muscle cells form muscle tissue, which combines with bones to form organs like limbs, and systems like the skeletal or muscular system." 
+        },
+        { 
+          type: "text", 
+          data: "Specialization (cell differentiation) occurs when cells develop structures suited to their specific functions. For instance, nerve cells transmit impulses, while xylem cells conduct water in plants." 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Biological_organization_levels_en.svg/640px-Biological_organization_levels_en.svg.png" 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Tissues%2C_organs%2C_systems.svg/640px-Tissues%2C_organs%2C_systems.svg.png" 
+        }
+      ]
+    }
+  }
+],
+
+"Chemistry": [
+  {
+    topic: "Introduction to Chemistry",
+    notes: {
+      title: "Chemistry — Meaning, Branches, and Importance",
+      content: [
+        { 
+          type: "text", 
+          data: "Chemistry is the branch of science that studies the composition, structure, properties, and transformation of matter. It explains what substances are made of, how they interact, and how new substances can be formed through chemical reactions. The term 'chemistry' comes from the ancient practice of alchemy, which involved the search for ways to transform materials (like turning base metals into gold)." 
+        },
+        { 
+          type: "text", 
+          data: "Chemistry connects other branches of science — it explains how biological systems function at the molecular level (in biochemistry), and how physical changes in matter relate to energy (in physical chemistry). It is often called 'the central science' because it bridges physics, biology, and geology." 
+        },
+        { 
+          type: "text", 
+          data: "Major Branches of Chemistry:\n1. Physical Chemistry – studies energy changes and physical properties of matter.\n2. Organic Chemistry – focuses on compounds that contain carbon.\n3. Inorganic Chemistry – deals with elements and compounds that are not carbon-based.\n4. Analytical Chemistry – involves identifying and measuring the composition of substances.\n5. Biochemistry – studies the chemical processes within living organisms." 
+        },
+        { 
+          type: "text", 
+          data: "Importance of Chemistry:\n• Medicine – development of drugs and vaccines.\n• Agriculture – production of fertilizers, pesticides, and preservatives.\n• Industry – manufacturing of plastics, fuels, cosmetics, and detergents.\n• Environment – understanding pollution and developing eco-friendly materials.\n• Daily life – cooking, cleaning, and preservation all involve chemical processes." 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Chemistry_flasks.svg/640px-Chemistry_flasks.svg.png" 
+        }
+      ]
+    }
+  },
+  {
+    topic: "States of Matter",
+    notes: {
+      title: "States of Matter — Solids, Liquids, and Gases",
+      content: [
+        { 
+          type: "text", 
+          data: "Matter is anything that has mass and occupies space. It exists mainly in three physical states: solid, liquid, and gas. Each state has distinct particle arrangements and energy levels that determine its properties." 
+        },
+        { 
+          type: "text", 
+          data: "Solids: Particles are closely packed in fixed positions, giving solids a definite shape and volume. The particles vibrate about fixed points but do not move freely. Solids are usually incompressible and have high density. Examples: ice, salt, iron." 
+        },
+        { 
+          type: "text", 
+          data: "Liquids: Particles are close together but not in fixed positions, allowing them to slide over one another. Liquids have definite volume but take the shape of their container. They are slightly compressible and flow easily. Examples: water, oil, alcohol." 
+        },
+        { 
+          type: "text", 
+          data: "Gases: Particles are far apart and move rapidly in all directions. Gases have neither definite shape nor volume. They fill their containers completely and are easily compressed. Examples: air, carbon dioxide, nitrogen." 
+        },
+        { 
+          type: "text", 
+          data: "Changes of State: Matter can change from one state to another through heating or cooling — melting (solid → liquid), freezing (liquid → solid), evaporation (liquid → gas), condensation (gas → liquid), sublimation (solid → gas), and deposition (gas → solid)." 
+        },
+        { 
+          type: "text", 
+          data: "The Kinetic Theory of Matter explains these states by describing matter as composed of tiny particles in constant motion. The energy and spacing between particles determine the state of matter." 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/States_of_matter.svg/640px-States_of_matter.svg.png" 
+        }
+      ]
+    }
+  },
+  {
+    topic: "Atomic Structure",
+    notes: {
+      title: "Atomic Structure — Protons, Neutrons, and Electrons",
+      content: [
+        { 
+          type: "text", 
+          data: "All matter is made up of atoms — the smallest particles that can take part in chemical reactions. An atom consists of a dense central nucleus surrounded by electrons moving in energy levels or shells." 
+        },
+        { 
+          type: "text", 
+          data: "The nucleus contains positively charged protons and neutral neutrons, giving it most of the atom’s mass. Electrons are negatively charged and occupy specific energy levels around the nucleus. The number of protons equals the number of electrons in a neutral atom." 
+        },
+        { 
+          type: "text", 
+          data: "Subatomic particles:\n• Proton — positive charge (+1), mass ≈ 1 atomic mass unit (amu).\n• Neutron — no charge (0), mass ≈ 1 amu.\n• Electron — negative charge (−1), mass ≈ 1/1836 amu.\nThe atomic number (Z) is the number of protons, while the mass number (A) is the sum of protons and neutrons (A = Z + N)." 
+        },
+        { 
+          type: "text", 
+          data: "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons. For example, carbon-12, carbon-13, and carbon-14 are isotopes of carbon." 
+        },
+        { 
+          type: "text", 
+          data: "Electron Arrangement: Electrons occupy energy levels (shells) in increasing order of energy — K, L, M, N, etc. The maximum number of electrons in a shell is given by 2n², where n is the shell number. Example: Sodium (Na, atomic number 11) has the configuration 2, 8, 1." 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Atomic_structure.svg/640px-Atomic_structure.svg.png" 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Electron_shell_011_Sodium.svg/512px-Electron_shell_011_Sodium.svg.png" 
+        }
+      ]
+    }
+  },
+  {
+    topic: "Periodi Periodic Trends",
+    notes: {
+      title: "Periodic Table — Arrangement and Trends",
+      content: [
+        { 
+          type: "text", 
+          data: "The periodic table is a systematic arrangement of elements based on increasing atomic number. It helps predict the properties and behaviors of elements. Elements are placed in periods (horizontal rows) and groups (vertical columns) according to their electron configurations." 
+        },
+        { 
+          type: "text", 
+          data: "Each group contains elements with similar chemical properties because they have the same number of valence electrons. Metals are found on the left and center, non-metals on the right, and metalloids between them. The table is divided into s, p, d, and f blocks based on the outermost electron sub-shell." 
+        },
+        { 
+          type: "text", 
+          data: "Periodic Law: The chemical and physical properties of elements are periodic functions of their atomic numbers. This means that properties repeat at regular intervals when elements are arranged by atomic number." 
+        },
+        { 
+          type: "text", 
+          data: "Periodic Trends:\n1. **Atomic Size (Radius)** — decreases across a period (due to increasing nuclear charge) and increases down a group (due to additional energy levels).\n2. **Ionization Energy** — increases across a period and decreases down a group.\n3. **Electronegativity** — increases across a period and decreases down a group.\n4. **Metallic Character** — decreases across a period and increases down a group." 
+        },
+        { 
+          type: "text", 
+          data: "The periodic table helps chemists understand and predict how elements form compounds, their reactivity, and the types of bonds they form. For example, Group 1 (Alkali metals) are highly reactive, while Group 18 (Noble gases) are inert." 
+        },
+        { 
+          type: "image", 
+          data: "https://chem.libretexts.org/@api/deki/files/5531/Periodic_trends.png" 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Periodic_table_large.svg/640px-Periodic_table_large.svg.png" 
+        }
+      ]
+    }
+  }
+],
+
+"Physics": [
+  {
+    topic: "Introduction to Physics",
+    notes: {
+      title: "Physics — Meaning, Branches, and Importance",
+      content: [
+        { 
+          type: "text", 
+          data: "Physics is the branch of science that deals with the study of matter, energy, and their interactions. It explains natural phenomena such as motion, heat, light, sound, electricity, magnetism, and atomic structure. The word 'physics' originates from the Greek word 'physis' meaning nature." 
+        },
+        { 
+          type: "text", 
+          data: "Branches of Physics:\n1. Mechanics – studies motion, forces, and energy.\n2. Heat (Thermodynamics) – deals with heat, temperature, and energy transfer.\n3. Waves and Optics – explains light, sound, and wave motion.\n4. Electricity and Magnetism – deals with electric charges, fields, and magnetism.\n5. Modern Physics – studies atomic and nuclear processes, relativity, and quantum mechanics." 
+        },
+        { 
+          type: "text", 
+          data: "Importance of Physics:\n• It forms the foundation for other sciences and engineering.\n• Explains the operation of machines, vehicles, and communication systems.\n• Aids in the development of technologies like computers, lasers, medical imaging, and satellites.\n• Promotes logical and problem-solving thinking through scientific methods." 
+        },
+        { 
+          type: "text", 
+          data: "Physics uses two key methods: (1) Observation and experimentation — to discover and verify laws of nature; (2) Measurement and analysis — to quantify results and make predictions." 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Physics_equations.svg/640px-Physics_equations.svg.png" 
+        }
+      ]
+    }
+  },
+  {
+    topic: "Physical Quantities and Units",
+    notes: {
+      title: "Physical Quantities — Fundamental, Derived, and Units of Measurement",
+      content: [
+        { 
+          type: "text", 
+          data: "A physical quantity is any quantity that can be measured and expressed in numbers with units. Examples include length, mass, time, velocity, and force." 
+        },
+        { 
+          type: "text", 
+          data: "There are two types of physical quantities:\n1. Fundamental Quantities – cannot be defined in terms of other quantities. Examples: length (metre), mass (kilogram), time (second), electric current (ampere), temperature (kelvin), luminous intensity (candela), and amount of substance (mole).\n2. Derived Quantities – obtained by combining fundamental quantities. Examples: area (m²), volume (m³), velocity (m/s), acceleration (m/s²), force (newton = kg·m/s²)." 
+        },
+        { 
+          type: "text", 
+          data: "The SI (Systeme Internationale) system is the internationally accepted system of units. It ensures uniformity in scientific communication." 
+        },
+        { 
+          type: "text", 
+          data: "Prefixes are used to express very large or very small quantities conveniently. For example: kilo (10³), mega (10⁶), centi (10⁻²), milli (10⁻³), micro (10⁻⁶), and nano (10⁻⁹)." 
+        },
+        { 
+          type: "text", 
+          data: "Measurement is the process of comparing an unknown quantity with a known standard. Errors can occur due to limitations of instruments, human reaction, or environmental factors, and should be minimized using proper techniques and calibrations." 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/SI_base_units.svg/640px-SI_base_units.svg.png" 
+        }
+      ]
+    }
+  },
+  {
+    topic: "Scalars and Vectors",
+    notes: {
+      title: "Scalars and Vectors — Direction and Magnitude",
+      content: [
+        { 
+          type: "text", 
+          data: "Physical quantities can be classified as scalars or vectors based on whether they have direction." 
+        },
+        { 
+          type: "text", 
+          data: "Scalar quantities have magnitude only. Examples include distance, speed, mass, time, energy, and temperature." 
+        },
+        { 
+          type: "text", 
+          data: "Vector quantities have both magnitude and direction. Examples include displacement, velocity, acceleration, force, and momentum." 
+        },
+        { 
+          type: "text", 
+          data: "Vector Representation: A vector is represented by an arrow — the length of the arrow shows its magnitude, and the arrowhead shows direction. Vectors are denoted in bold or with an arrow sign (e.g., **v** or →v)." 
+        },
+        { 
+          type: "text", 
+          data: "Vector Addition:\n1. Triangle Law — place vectors head-to-tail; the resultant vector is drawn from the start of the first to the end of the last.\n2. Parallelogram Law — two vectors from a common point form adjacent sides of a parallelogram; the diagonal gives the resultant.\n3. Resolution — a vector can be broken into horizontal and vertical components using trigonometry." 
+        },
+        { 
+          type: "text", 
+          data: "Vector subtraction, multiplication by a scalar, and dot/cross products are also used in physics to determine resultant forces, work done, and torque." 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Vector_addition_parallelogram_law.svg/640px-Vector_addition_parallelogram_law.svg.png" 
+        }
+      ]
+    }
+  },
+  {
+    topic: "Motion",
+    notes: {
+      title: "Motion — Speed, Velocity, Acceleration, and Graphical Analysis",
+      content: [
+        { 
+          type: "text", 
+          data: "Motion is the change in position of an object with time. It can be uniform (constant speed) or non-uniform (changing speed). Motion is described in terms of distance, displacement, speed, velocity, and acceleration." 
+        },
+        { 
+          type: "text", 
+          data: "Key terms:\n• Distance — total path covered (scalar).\n• Displacement — shortest path between initial and final points (vector).\n• Speed — rate of change of distance (scalar).\n• Velocity — rate of change of displacement (vector).\n• Acceleration — rate of change of velocity with time." 
+        },
+        { 
+          type: "text", 
+          data: "Equations of Uniformly Accelerated Motion:\n1. v = u + at\n2. s = ut + ½at²\n3. v² = u² + 2as\nwhere u = initial velocity, v = final velocity, a = acceleration, s = displacement, and t = time." 
+        },
+        { 
+          type: "text", 
+          data: "Graphs of motion:\n• Displacement–time graph: slope = velocity.\n• Velocity–time graph: slope = acceleration, area under the curve = distance or displacement.\nThese graphs help visualize motion relationships." 
+        },
+        { 
+          type: "text", 
+          data: "Uniform motion occurs when velocity remains constant (zero acceleration). Non-uniform motion involves changing velocity (acceleration or deceleration). Examples include free fall, car acceleration, and projectile motion." 
+        },
+        { 
+          type: "text", 
+          data: "Newton’s Laws of Motion (introduced later) explain how forces cause motion. The study of motion forms the foundation of mechanics and engineering physics." 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Velocity_vs_time_graph.png/640px-Velocity_vs_time_graph.png" 
+        },
+        { 
+          type: "image", 
+          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Displacement_time_graphs.png/640px-Displacement_time_graphs.png" 
+        }
+      ]
+    }
+  }
+],
+
+  "Mathematics": [
+    {
+      topic: "Quadratic Equations",
+      notes: {
+        title: "Quadratic Equations — Factorization and Formula Method",
+        content: [
+          { type: "text", data: "A quadratic equation is of the form ax² + bx + c = 0. It can be solved by factorization, completing the square, or using the quadratic formula: x = (-b ± √(b² - 4ac)) / 2a." },
+          { type: "text", data: "The discriminant (b² - 4ac) determines the nature of the roots: real and distinct, real and equal, or complex." },
+          { type: "image", data: "https://upload.wikimedia.org/wikipedia/commons/8/8c/Quadratic_formula_graph.svg" }
+        ]
+      }
+    },
+    {
+      topic: "Trigonometric Ratios",
+      notes: {
+        title: "Trigonometric Ratios — Sine, Cosine, and Tangent",
+        content: [
+          { type: "text", data: "In a right-angled triangle, trigonometric ratios relate the angles to the lengths of sides: sin(θ) = opposite/hypotenuse, cos(θ) = adjacent/hypotenuse, and tan(θ) = opposite/adjacent." },
+          { type: "text", data: "These ratios are used to solve problems involving heights, distances, and angles in geometry and physics." },
+          { type: "image", data: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Trigonometric_functions.svg" }
+        ]
+      }
+    }
   ]
 };
