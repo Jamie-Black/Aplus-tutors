@@ -13,7 +13,6 @@
   <div id="login-section">
     <h2>CBT Access</h2>
 
-    <!-- DISPLAY LOGGED-IN STUDENT INFO -->
     <div class="student-info">
       <p><strong>Name:</strong> <span id="student-name"></span></p>
       <p><strong>Email:</strong> <span id="student-email"></span></p>
@@ -44,8 +43,9 @@
 
     <main style="padding: 20px;" id="question-area">
       <h3 id="question-number"></h3>
-      <p id="question-text"></p>
+      <!-- Image now after question number -->
       <img id="question-image" class="hidden" alt="Question image">
+      <p id="question-text"></p>
       <div id="options"></div>
 
       <div class="controls">
@@ -77,310 +77,342 @@
 
 <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
 <script>
-  let currentUser, selectedSubjects = [], currentSubject, currentQuestionIndex = 0;
-  let userAnswers = {}, timerInterval, activeQuestions = {};
+let currentUser, selectedSubjects = [], currentSubject, currentQuestionIndex = 0;
+let userAnswers = {}, timerInterval, activeQuestions = {};
 
-  const loginBtn = document.getElementById("login-btn");
-  const loginError = document.getElementById("login-error");
-  const subjectSelect = document.getElementById("subject-select");
+// DOM Elements
+const loginBtn = document.getElementById("login-btn");
+const loginError = document.getElementById("login-error");
+const subjectSelect = document.getElementById("subject-select");
 
-  // ✅ Load student info
-  window.addEventListener("load", () => {
-    const storedUser = JSON.parse(localStorage.getItem("loggedInUser"));
-    if (!storedUser) {
-      alert("You must log in first!");
-      window.location.href = "index.html";
-      return;
+// ✅ Load student info and subjects
+window.addEventListener("load", () => {
+  const storedUser = JSON.parse(localStorage.getItem("loggedInUser"));
+  if (!storedUser) {
+    alert("You must log in first!");
+    window.location.href = "index.html";
+    return;
+  }
+  currentUser = storedUser;
+  document.getElementById("student-name").textContent = currentUser.fullName;
+  document.getElementById("student-email").textContent = currentUser.email;
+
+  subjects.forEach(sub => {
+    const opt = document.createElement("option");
+    opt.textContent = sub;
+    subjectSelect.appendChild(opt);
+  });
+});
+
+// ✅ Start Test
+loginBtn.onclick = () => {
+  const duration = parseInt(document.getElementById("duration").value);
+  const numQuestions = parseInt(document.getElementById("num-questions").value);
+  const randomize = document.getElementById("randomize").checked;
+  selectedSubjects = Array.from(subjectSelect.selectedOptions).map(o => o.value);
+
+  if (selectedSubjects.length === 0 || selectedSubjects.length > 4) {
+    loginError.textContent = "Select between 1 and 4 subjects.";
+    return;
+  }
+  if (isNaN(duration) || duration <= 0) {
+    loginError.textContent = "Please enter a valid duration.";
+    return;
+  }
+  if (isNaN(numQuestions) || numQuestions <= 0) {
+    loginError.textContent = "Please enter valid number of questions.";
+    return;
+  }
+
+  document.getElementById("login-section").classList.add("hidden");
+  document.getElementById("cbt-section").classList.remove("hidden");
+
+  const subjectNav = document.getElementById("subject-nav");
+  subjectNav.innerHTML = "";
+
+  selectedSubjects.forEach(sub => {
+    let qList = [...questions[sub]];
+    if (randomize) qList = shuffleArray(qList);
+    if (numQuestions < qList.length) qList = qList.slice(0, numQuestions);
+    activeQuestions[sub] = qList;
+
+    const btn = document.createElement("button");
+    btn.textContent = sub;
+    btn.classList.add("subject-btn");
+    btn.onclick = () => switchSubject(sub);
+    subjectNav.appendChild(btn);
+
+    if (!userAnswers[sub]) userAnswers[sub] = {}; // Initialize answers
+  });
+
+  currentSubject = selectedSubjects[0];
+  currentQuestionIndex = 0;
+  startTimer(duration);
+  loadQuestion();
+};
+
+// ✅ Shuffle helper
+function shuffleArray(array) {
+  let arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+// ✅ Timer
+function startTimer(minutes) {
+  let time = minutes * 60;
+  timerInterval = setInterval(() => {
+    const mins = Math.floor(time / 60);
+    const secs = time % 60;
+    document.getElementById("timer").textContent = `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+    if (time <= 0) {
+      clearInterval(timerInterval);
+      alert("Time up! Submitting test...");
+      showResult();
     }
-    currentUser = storedUser;
-    document.getElementById("student-name").textContent = currentUser.fullName;
-    document.getElementById("student-email").textContent = currentUser.email;
+    time--;
+  }, 1000);
+}
 
-    subjects.forEach(sub => {
-      const opt = document.createElement("option");
-      opt.textContent = sub;
-      subjectSelect.appendChild(opt);
+// ✅ Switch subjects
+function switchSubject(sub) {
+  currentSubject = sub;
+  currentQuestionIndex = 0;
+  loadQuestion();
+}
+
+// ✅ Load question with proper image handling
+function loadQuestion() {
+  const q = activeQuestions[currentSubject][currentQuestionIndex];
+  document.getElementById("question-number").textContent = `${currentSubject}: Question ${currentQuestionIndex + 1}`;
+  document.getElementById("question-text").textContent = q.question;
+
+  const qImg = document.getElementById("question-image");
+  if (q.image) {
+    qImg.src = q.image;
+    qImg.alt = q.imageAlt || "Question image";
+    qImg.classList.remove("hidden");
+  } else {
+    qImg.classList.add("hidden");
+    qImg.removeAttribute("src");
+  }
+
+  // ✅ Options
+  const optionsDiv = document.getElementById("options");
+  optionsDiv.innerHTML = "";
+  q.options.forEach((opt, i) => {
+    const btn = document.createElement("button");
+    btn.textContent = opt;
+    btn.classList.add("option");
+    btn.onclick = () => selectAnswer(i);
+    if (userAnswers[currentSubject]?.[currentQuestionIndex] === i) btn.classList.add("selected");
+    optionsDiv.appendChild(btn);
+  });
+
+  updateQuestionNav();
+}
+
+// ✅ Select answer
+function selectAnswer(i) {
+  if (!userAnswers[currentSubject]) userAnswers[currentSubject] = {};
+  userAnswers[currentSubject][currentQuestionIndex] = i;
+
+  const buttons = document.querySelectorAll("#options button");
+  buttons.forEach((btn, idx) => btn.classList.toggle("selected", idx === i));
+}
+
+// ✅ Next / Previous
+document.getElementById("next-btn").onclick = () => {
+  if (currentQuestionIndex < activeQuestions[currentSubject].length - 1) currentQuestionIndex++;
+  loadQuestion();
+};
+document.getElementById("prev-btn").onclick = () => {
+  if (currentQuestionIndex > 0) currentQuestionIndex--;
+  loadQuestion();
+};
+document.getElementById("submit-btn").onclick = () => {
+  const unanswered = countUnanswered();
+  if (unanswered > 0 && !confirm(`${unanswered} unanswered. Submit anyway?`)) return;
+  showResult();
+};
+
+// ✅ Question navigation
+function updateQuestionNav() {
+  const nav = document.getElementById("question-nav");
+  nav.innerHTML = "";
+  activeQuestions[currentSubject].forEach((_, i) => {
+    const btn = document.createElement("button");
+    btn.textContent = i + 1;
+    btn.classList.add("nav-btn");
+    if (userAnswers[currentSubject]?.[i] !== undefined) btn.classList.add("answered");
+    if (i === currentQuestionIndex) btn.classList.add("active");
+    btn.onclick = () => { currentQuestionIndex = i; loadQuestion(); };
+    nav.appendChild(btn);
+  });
+}
+
+// ✅ Count unanswered
+function countUnanswered() {
+  let count = 0;
+  selectedSubjects.forEach(sub => {
+    activeQuestions[sub].forEach((_, i) => {
+      if (userAnswers[sub]?.[i] === undefined) count++;
+    });
+  });
+  return count;
+}
+
+// ✅ Show Results + Download + Email + Corrections
+function showResult() {
+  clearInterval(timerInterval);
+  document.getElementById("question-area").classList.add("hidden");
+  document.getElementById("result-section").classList.remove("hidden");
+
+  let totalCorrect = 0, totalQuestions = 0;
+  const subjectStats = [];
+
+  selectedSubjects.forEach(sub => {
+    let correct = 0;
+    const total = activeQuestions[sub].length;
+    activeQuestions[sub].forEach((q, i) => {
+      if (userAnswers[sub]?.[i] === q.answer) correct++;
+    });
+    totalCorrect += correct;
+    totalQuestions += total;
+    subjectStats.push({ subject: sub, correct, total, percent: ((correct / total) * 100).toFixed(1) });
+  });
+
+  const overallPercent = ((totalCorrect / totalQuestions) * 100).toFixed(1);
+  document.getElementById("score-text").textContent =
+    `Overall Score: ${totalCorrect}/${totalQuestions} (${overallPercent}%)`;
+
+  const statsDiv = document.getElementById("subject-stats");
+  statsDiv.innerHTML = `
+    <h3>Subject Breakdown</h3>
+    <table>
+      <tr><th>Subject</th><th>Correct</th><th>Total</th><th>Percentage</th></tr>
+      ${subjectStats.map(s => `
+        <tr><td>${s.subject}</td><td>${s.correct}</td><td>${s.total}</td><td>${s.percent}%</td></tr>`).join("")}
+    </table>`;
+
+  new Chart(document.getElementById("resultChart"), {
+    type: "pie",
+    data: {
+      labels: ["Correct", "Incorrect"],
+      datasets: [{ data: [totalCorrect, totalQuestions - totalCorrect], backgroundColor: ["green", "red"] }],
+    },
+  });
+
+  // ✅ Save result to localStorage
+  const date = new Date().toLocaleString();
+  const cbtRecords = JSON.parse(localStorage.getItem("cbtResults")) || [];
+  cbtRecords.push({
+    name: currentUser.fullName,
+    email: currentUser.email,
+    subjects: selectedSubjects.join(", "),
+    score: totalCorrect,
+    total: totalQuestions,
+    percentage: overallPercent,
+    date
+  });
+  localStorage.setItem("cbtResults", JSON.stringify(cbtRecords));
+
+  // ✅ Download PDF
+  document.getElementById("download-btn").onclick = () => {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    doc.setFont("helvetica", "bold");
+    doc.setTextColor(139, 20, 20);
+    doc.setFontSize(18);
+    doc.text("Aplus Tutors", 105, 15, { align: "center" });
+    doc.setDrawColor(139, 20, 20);
+    doc.line(20, 20, 190, 20);
+
+    doc.setFontSize(12);
+    doc.setTextColor(0, 0, 0);
+    doc.text(`Name: ${currentUser.fullName}`, 20, 35);
+    doc.text(`Email: ${currentUser.email}`, 20, 42);
+    doc.text(`Date: ${date}`, 20, 49);
+
+    doc.setFont("helvetica", "bold");
+    doc.setTextColor(139, 20, 20);
+    doc.text("CBT Test Summary", 105, 60, { align: "center" });
+    doc.setTextColor(0, 0, 0);
+    doc.setFont("helvetica", "normal");
+
+    let y = 70;
+    subjectStats.forEach(s => {
+      if (y > 280) { doc.addPage(); y = 20; }
+      doc.text(`${s.subject}: ${s.correct}/${s.total} (${s.percent}%)`, 25, y);
+      y += 7;
+    });
+
+    doc.setFont("helvetica", "bold");
+    doc.setTextColor(139, 20, 20);
+    doc.text(`Overall Score: ${overallPercent}%`, 25, y + 5);
+    doc.setTextColor(0, 0, 0);
+
+    doc.setFontSize(10);
+    doc.text("Thank you for learning with Aplus Tutors!", 105, 285, { align: "center" });
+
+    doc.save(`${currentUser.fullName}_CBT_Result.pdf`);
+  };
+
+  // ✅ Send email
+  document.getElementById("email-btn").onclick = () => {
+    const subject = encodeURIComponent("CBT Result");
+    const body = encodeURIComponent(`Name: ${currentUser.fullName}\nEmail: ${currentUser.email}\nOverall: ${overallPercent}%`);
+    window.location.href = `mailto: olaboredejames2021@gmail.com?subject=${subject}&body=${body}`;
+  };
+
+  // ✅ Corrections
+  document.getElementById("view-corrections-btn").onclick = showCorrections;
+}
+
+// ✅ Show Corrections
+function showCorrections() {
+  document.getElementById("result-section").classList.add("hidden");
+  document.getElementById("correction-section").classList.remove("hidden");
+  const container = document.getElementById("corrections-container");
+  container.innerHTML = "";
+
+  selectedSubjects.forEach(sub => {
+    const subHeader = document.createElement("h3");
+    subHeader.textContent = sub;
+    container.appendChild(subHeader);
+
+    activeQuestions[sub].forEach((q, i) => {
+      const div = document.createElement("div");
+      div.classList.add("correction-item");
+
+      let imgHTML = "";
+      if (q.image) {
+        imgHTML = `<img src="${q.image}" class="question-image" alt="Question image">`;
+      }
+
+      const userAns = userAnswers[sub]?.[i];
+      const correctAns = q.answer;
+      const userAnswerText = userAns !== undefined ? q.options[userAns] : "No answer selected";
+      const correctAnswerText = q.options[correctAns];
+
+      div.innerHTML = `
+        <p><strong>Q${i + 1}:</strong> ${q.question}</p>
+        ${imgHTML}
+        <p>Your Answer: <span class="user-answer ${userAns === undefined ? 'unanswered' : (userAns === correctAns ? 'correct' : 'wrong')}">${userAnswerText}</span></p>
+        <p>Correct Answer: <span class="correct">${correctAnswerText}</span></p>
+      `;
+      container.appendChild(div);
     });
   });
 
-  // ✅ Start Test
-  loginBtn.onclick = () => {
-    const duration = parseInt(document.getElementById("duration").value);
-    const numQuestions = parseInt(document.getElementById("num-questions").value);
-    const randomize = document.getElementById("randomize").checked;
-    selectedSubjects = Array.from(subjectSelect.selectedOptions).map(o => o.value);
-
-    if (selectedSubjects.length === 0 || selectedSubjects.length > 4) {
-      loginError.textContent = "Select between 1 and 4 subjects.";
-      return;
-    }
-    if (isNaN(duration) || duration <= 0) {
-      loginError.textContent = "Please enter a valid duration.";
-      return;
-    }
-    if (isNaN(numQuestions) || numQuestions <= 0) {
-      loginError.textContent = "Please enter valid number of questions.";
-      return;
-    }
-
-    document.getElementById("login-section").classList.add("hidden");
-    document.getElementById("cbt-section").classList.remove("hidden");
-
-    const subjectNav = document.getElementById("subject-nav");
-    subjectNav.innerHTML = "";
-
-    selectedSubjects.forEach(sub => {
-      let qList = [...questions[sub]];
-      if (randomize) qList = shuffleArray(qList);
-      if (numQuestions < qList.length) qList = qList.slice(0, numQuestions);
-      activeQuestions[sub] = qList;
-
-      const btn = document.createElement("button");
-      btn.textContent = sub;
-      btn.classList.add("subject-btn");
-      btn.onclick = () => switchSubject(sub);
-      subjectNav.appendChild(btn);
-    });
-
-    currentSubject = selectedSubjects[0];
-    startTimer(duration);
-    loadQuestion();
-  };
-
-  function shuffleArray(array) {
-    let arr = [...array];
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
-    }
-    return arr;
-  }
-
-  function startTimer(minutes) {
-    let time = minutes * 60;
-    timerInterval = setInterval(() => {
-      const mins = Math.floor(time / 60);
-      const secs = time % 60;
-      document.getElementById("timer").textContent = `${mins}:${secs < 10 ? '0' : ''}${secs}`;
-      if (--time < 0) {
-        clearInterval(timerInterval);
-        alert("Time up! Submitting test...");
-        showResult();
-      }
-    }, 1000);
-  }
-
-  function switchSubject(sub) {
-    currentSubject = sub;
-    currentQuestionIndex = 0;
-    loadQuestion();
-  }
-
-  function loadQuestion() {
-    const q = activeQuestions[currentSubject][currentQuestionIndex];
-    document.getElementById("question-number").textContent = `${currentSubject}: Question ${currentQuestionIndex + 1}`;
-    document.getElementById("question-text").textContent = q.question;
-
-    const qImg = document.getElementById("question-image");
-    if (q.image) {
-      qImg.src = q.image;
-      qImg.alt = q.imageAlt || 'Question image';
-      qImg.classList.remove("hidden");
-      qImg.onerror = () => { qImg.src = ''; qImg.classList.add("hidden"); };
-    } else qImg.classList.add("hidden");
-
-    const optionsDiv = document.getElementById("options");
-    optionsDiv.innerHTML = "";
-    q.options.forEach((opt, i) => {
-      const btn = document.createElement("button");
-      btn.textContent = opt;
-      btn.classList.add("option");
-      btn.onclick = () => selectAnswer(i);
-      if (userAnswers[currentSubject]?.[currentQuestionIndex] === i) btn.classList.add("selected");
-      optionsDiv.appendChild(btn);
-    });
-    updateQuestionNav();
-  }
-
-  function selectAnswer(i) {
-    if (!userAnswers[currentSubject]) userAnswers[currentSubject] = {};
-    userAnswers[currentSubject][currentQuestionIndex] = i;
-    loadQuestion();
-  }
-
-  document.getElementById("next-btn").onclick = () => {
-    if (currentQuestionIndex < activeQuestions[currentSubject].length - 1) currentQuestionIndex++;
-    loadQuestion();
-  };
-  document.getElementById("prev-btn").onclick = () => {
-    if (currentQuestionIndex > 0) currentQuestionIndex--;
-    loadQuestion();
-  };
-  document.getElementById("submit-btn").onclick = () => {
-    const unanswered = countUnanswered();
-    if (unanswered > 0 && !confirm(`${unanswered} unanswered. Submit anyway?`)) return;
-    showResult();
-  };
-
-  function updateQuestionNav() {
-    const nav = document.getElementById("question-nav");
-    nav.innerHTML = "";
-    activeQuestions[currentSubject].forEach((_, i) => {
-      const btn = document.createElement("button");
-      btn.textContent = i + 1;
-      btn.classList.add("nav-btn");
-      if (userAnswers[currentSubject]?.[i] !== undefined) btn.classList.add("answered");
-      if (i === currentQuestionIndex) btn.classList.add("active");
-      btn.onclick = () => { currentQuestionIndex = i; loadQuestion(); };
-      nav.appendChild(btn);
-    });
-  }
-
-  function countUnanswered() {
-    let count = 0;
-    selectedSubjects.forEach(sub => {
-      activeQuestions[sub].forEach((_, i) => {
-        if (userAnswers[sub]?.[i] === undefined) count++;
-      });
-    });
-    return count;
-  }
-
-  // ✅ Results + Save + PDF
-  function showResult() {
-    clearInterval(timerInterval);
-    document.getElementById("question-area").classList.add("hidden");
+  document.getElementById("back-to-result-btn").onclick = () => {
+    document.getElementById("correction-section").classList.add("hidden");
     document.getElementById("result-section").classList.remove("hidden");
-
-    let totalCorrect = 0, totalQuestions = 0;
-    const subjectStats = [];
-
-    selectedSubjects.forEach(sub => {
-      let correct = 0;
-      const total = activeQuestions[sub].length;
-      activeQuestions[sub].forEach((q, i) => {
-        if (userAnswers[sub]?.[i] === q.answer) correct++;
-      });
-      totalCorrect += correct;
-      totalQuestions += total;
-      subjectStats.push({ subject: sub, correct, total, percent: ((correct / total) * 100).toFixed(1) });
-    });
-
-    const overallPercent = ((totalCorrect / totalQuestions) * 100).toFixed(1);
-    document.getElementById("score-text").textContent =
-      `Overall Score: ${totalCorrect}/${totalQuestions} (${overallPercent}%)`;
-
-    const statsDiv = document.getElementById("subject-stats");
-    statsDiv.innerHTML = `
-      <h3>Subject Breakdown</h3>
-      <table>
-        <tr><th>Subject</th><th>Correct</th><th>Total</th><th>Percentage</th></tr>
-        ${subjectStats.map(s => `
-          <tr><td>${s.subject}</td><td>${s.correct}</td><td>${s.total}</td><td>${s.percent}%</td></tr>`).join("")}
-      </table>`;
-
-    new Chart(document.getElementById("resultChart"), {
-      type: "pie",
-      data: {
-        labels: ["Correct", "Incorrect"],
-        datasets: [{ data: [totalCorrect, totalQuestions - totalCorrect], backgroundColor: ["green", "red"] }],
-      },
-    });
-
-    // ✅ Save results locally
-    const date = new Date().toLocaleString();
-    const cbtRecords = JSON.parse(localStorage.getItem("cbtResults")) || [];
-    cbtRecords.push({
-      name: currentUser.fullName,
-      email: currentUser.email,
-      subjects: selectedSubjects.join(", "),
-      score: totalCorrect,
-      total: totalQuestions,
-      percentage: overallPercent,
-      date
-    });
-    localStorage.setItem("cbtResults", JSON.stringify(cbtRecords));
-
-    // ✅ PDF Download
-    document.getElementById("download-btn").onclick = () => {
-      const { jsPDF } = window.jspdf;
-      const doc = new jsPDF();
-      doc.setFont("helvetica", "bold");
-      doc.setTextColor(139, 20, 20);
-      doc.setFontSize(18);
-      doc.text("Aplus Tutors", 105, 15, { align: "center" });
-      doc.setDrawColor(139, 20, 20);
-      doc.line(20, 20, 190, 20);
-
-      doc.setFontSize(12);
-      doc.setTextColor(0, 0, 0);
-      doc.text(`Name: ${currentUser.fullName}`, 20, 35);
-      doc.text(`Email: ${currentUser.email}`, 20, 42);
-      doc.text(`Date: ${date}`, 20, 49);
-
-      doc.setFont("helvetica", "bold");
-      doc.setTextColor(139, 20, 20);
-      doc.text("CBT Test Summary", 105, 60, { align: "center" });
-      doc.setTextColor(0, 0, 0);
-      doc.setFont("helvetica", "normal");
-
-      let y = 70;
-      subjectStats.forEach(s => {
-        doc.text(`${s.subject}: ${s.correct}/${s.total} (${s.percent}%)`, 25, y);
-        y += 7;
-      });
-
-      doc.setFont("helvetica", "bold");
-      doc.setTextColor(139, 20, 20);
-      doc.text(`Overall Score: ${overallPercent}%`, 25, y + 5);
-      doc.setTextColor(0, 0, 0);
-
-      doc.setFontSize(10);
-      doc.text("Thank you for learning with Aplus Tutors!", 105, 285, { align: "center" });
-
-      doc.save(`${currentUser.fullName}_CBT_Result.pdf`);
-    };
-
-    document.getElementById("email-btn").onclick = () => {
-      const subject = encodeURIComponent("CBT Result");
-      const body = encodeURIComponent(`Name: ${currentUser.fullName}\nEmail: ${currentUser.email}\nOverall: ${overallPercent}%`);
-      window.location.href = `mailto:instructor@example.com?subject=${subject}&body=${body}`;
-    };
-
-    document.getElementById("view-corrections-btn").onclick = showCorrections;
-  }
-
-  // ✅ Corrections
-  function showCorrections() {
-    document.getElementById("result-section").classList.add("hidden");
-    document.getElementById("correction-section").classList.remove("hidden");
-    const container = document.getElementById("corrections-container");
-    container.innerHTML = "";
-    selectedSubjects.forEach(sub => {
-      const subHeader = document.createElement("h3");
-      subHeader.textContent = sub;
-      container.appendChild(subHeader);
-      activeQuestions[sub].forEach((q, i) => {
-        const div = document.createElement("div");
-        div.classList.add("correction-item");
-        const userAns = userAnswers[sub]?.[i];
-        const correctAns = q.answer;
-        const userAnswerText = userAns !== undefined ? q.options[userAns] : "No answer selected";
-        const correctAnswerText = q.options[correctAns];
-        div.innerHTML = `
-          <p><strong>Q${i + 1}:</strong> ${q.question}</p>
-          ${q.image ? `<img src="${q.image}" class="question-image" alt="Question image" onerror="this.remove()">` : ""}
-          <p>Your Answer: <span class="user-answer ${userAns === undefined ? 'unanswered' : (userAns === correctAns ? 'correct' : 'wrong')}">${userAnswerText}</span></p>
-          <p>Correct Answer: <span class="correct">${correctAnswerText}</span></p>`;
-        container.appendChild(div);
-      });
-    });
-
-    document.getElementById("back-to-result-btn").onclick = () => {
-      document.getElementById("correction-section").classList.add("hidden");
-      document.getElementById("result-section").classList.remove("hidden");
-    };
-  }
+  };
+}
 </script>
 </body>
 </html>

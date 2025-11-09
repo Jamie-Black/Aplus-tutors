@@ -438,6 +438,7 @@ body {
     text-align: center;
     transition: all 0.35s ease;
     position: relative;
+    padding: 0 20px;
 }
 
 .team-card:hover {

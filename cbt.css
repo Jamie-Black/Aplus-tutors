@@ -1,4 +1,14 @@
-/* ====== General Reset ====== */
+/* ===== APLUS TUTORS CBT STYLE ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+  --crimson: #b22222;
+  --light-crimson: #e45c5c;
+  --black: #1a1a1a;
+  --gray: #f8f8f8;
+  --shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,328 +17,336 @@
 }
 
 body {
-  background: linear-gradient(to bottom right, #8B1414, #111);
-  color: #fff;
-  height:100%;
+  background: var(--gray);
+  color: var(--black);
+  min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 30px 10px;
+  overflow-y: auto;
 }
 
-/* ====== Section Containers ====== */
-#login-section,
-#cbt-section,
-#result-section,
-#correction-section {
-  width: 100%;
-  max-width: 800px;
+/* ===== LOGIN SECTION ===== */
+#login-section {
   background: #fff;
-  color: #111;
-  border-radius: 20px;
-  padding: 10px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  padding: 30px 25px;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  animation: fadeIn 0.5s ease;
 }
 
-/* Hidden State with Animation */
-.hidden {
-  opacity: 0;
-  pointer-events: none;
-  transform: translate(-50%, -50%) scale(0.9);
-}
-
-/* ====== Login Section ====== */
 #login-section h2 {
   text-align: center;
-  margin-bottom: 25px;
-  color: #8B1414;
+  color: var(--crimson);
+  margin-bottom: 20px;
 }
 
-#login-section label {
+.student-info {
+  background: var(--gray);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+label {
   display: block;
-  margin: 15px 0 5px;
-  font-weight: 600;
+  margin: 10px 0 5px;
+  font-weight: 500;
 }
 
-#login-section input,
-#login-section select {
+input[type="number"],
+select {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  font-size: 15px;
   outline: none;
+  transition: 0.3s;
 }
 
-#login-section button {
-  width: 100%;
-  margin-top: 20px;
-  padding: 12px;
-  background: #8B1414;
+input:focus,
+select:focus {
+  border-color: var(--crimson);
+  box-shadow: 0 0 0 2px rgba(178,34,34,0.2);
+}
+
+button {
+  background: var(--crimson);
   color: #fff;
   border: none;
+  padding: 10px 15px;
   border-radius: 10px;
-  font-weight: 600;
-  font-size: 16px;
-  transition: background 0.3s;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-#login-section button:hover {
-  background: #a91d1d;
+button:hover {
+  background: var(--light-crimson);
+  transform: translateY(-1px);
 }
 
 .error {
   color: red;
+  font-size: 14px;
   margin-top: 10px;
   text-align: center;
 }
 
-/* ====== CBT Section ====== */
+/* ===== CBT SECTION ===== */
+#cbt-section {
+  width: 100%;
+  max-width: 1000px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding-bottom: 30px;
+  animation: fadeIn 0.5s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* HEADER */
 header {
+  background: var(--crimson);
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #8B1414;
-  color: #fff;
-  padding: 15px 20px;
-  border-radius: 12px;
-  margin-bottom: 20px;
+  padding: 15px 25px;
+  border-radius: 16px 16px 0 0;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 20;
 }
 
-#subject-nav button {
+#subject-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.subject-btn {
   background: #fff;
-  border: none;
-  padding: 8px 14px;
-  margin-right: 6px;
+  color: var(--crimson);
+  border: 1px solid #fff;
   border-radius: 8px;
-  cursor: pointer;
-  font-weight: 600;
-  color: #8B1414;
-  transition: background 0.3s, color 0.3s;
+  padding: 6px 10px;
+  font-size: 14px;
 }
 
-#subject-nav button:hover,
-#subject-nav button.active {
-  background: #8B1414;
+.subject-btn:hover,
+.subject-btn.active {
+  background: var(--light-crimson);
   color: #fff;
 }
 
-#timer {
-  font-size: 18px;
-  font-weight: bold;
+/* FIXED TIMER BADGE */
+.timer {
+  background: #fff;
+  color: var(--crimson);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  z-index: 100;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* ====== Question Area ====== */
-#question-area {
-  text-align: left;
-  animation: fadeIn 0.5s ease;
+.timer.warning {
+  background: var(--light-crimson);
+  color: #fff;
+}
+
+/* MAIN QUESTIONS */
+main {
+  padding: 20px;
 }
 
 #question-number {
-  font-size: 18px;
   font-weight: 600;
-  margin-bottom: 10px;
-  color: #8B1414;
+  color: var(--crimson);
+  margin-bottom: 8px;
 }
 
 #question-text {
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 #question-image {
-  width: 100%;
-  max-width: 400px;
   display: block;
-  margin: 0 auto 15px;
-  border-radius: 10px;
+  margin: 10px auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
 }
 
 #options {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 15px;
 }
 
 .option {
-  background: #f5f5f5;
-  border: 2px solid #ddd;
-  border-radius: 8px;
+  border: 1px solid var(--crimson);
+  background: #fff;
+  color: var(--crimson);
   padding: 10px;
+  border-radius: 8px;
   text-align: left;
-  cursor: pointer;
-  transition: all 0.3s;
 }
 
 .option:hover {
-  background: #8B1414;
+  background: var(--light-crimson);
   color: #fff;
-  border-color: #8B1414;
 }
 
 .option.selected {
-  background: #8B1414;
+  background: var(--crimson);
   color: #fff;
-  border-color: #8B1414;
 }
 
-/* ====== Controls ====== */
 .controls {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .controls button {
-  background: #8B1414;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  padding: 10px 16px;
-  font-weight: 600;
-  transition: background 0.3s;
+  width: 32%;
 }
 
-.controls button:hover {
-  background: #a91d1d;
-}
-
-/* ====== Question Navigation ====== */
-#question-nav {
-  margin-top: 25px;
+/* Question Navigation */
+.question-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 5px;
   justify-content: center;
+  margin-top: 15px;
 }
 
 .nav-btn {
-  background: #f0f0f0;
-  color: #111;
-  border: none;
-  border-radius: 6px;
-  padding: 6px 10px;
-  cursor: pointer;
-  font-weight: 600;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.nav-btn:hover {
+  background: var(--gray);
 }
 
 .nav-btn.active {
-  background: #8B1414;
+  background: var(--crimson);
   color: #fff;
 }
 
 .nav-btn.answered {
-  background: #3CB043;
+  background: #1dbf73;
   color: #fff;
 }
 
-/* ====== Result Section ====== */
-#result-section h2 {
+/* ===== RESULT SECTION ===== */
+#result-section, #correction-section {
   text-align: center;
-  color: #8B1414;
+  padding-top: 20px;
 }
 
-#resultChart {
-  width: 250px !important;
-  height: 250px !important;
-  margin: 20px auto;
-  display: block;
-}
-
-#score-text {
-  text-align: center;
-  font-weight: bold;
-  font-size: 17px;
-  margin-top: 10px;
-}
-
-#subject-stats {
-  margin-top: 20px;
-  overflow-x: auto;
+#result-section h2,
+#correction-section h2 {
+  color: var(--crimson);
+  margin-bottom: 15px;
 }
 
 #subject-stats table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 15px;
 }
 
-#subject-stats th,
-#subject-stats td {
+#subject-stats th, #subject-stats td {
   border: 1px solid #ccc;
   padding: 8px;
-  text-align: center;
+  font-size: 14px;
 }
 
 #subject-stats th {
-  background: #8B1414;
+  background: var(--crimson);
   color: #fff;
 }
 
-#result-section button {
-  display: block;
-  margin: 15px auto;
-  padding: 10px 20px;
-  background: #8B1414;
-  border: none;
-  border-radius: 8px;
-  color: #fff;
+#score-text {
   font-weight: 600;
-  cursor: pointer;
-  transition: background 0.3s;
+  margin-top: 15px;
 }
 
-#result-section button:hover {
-  background: #a91d1d;
+#download-btn, #email-btn, #view-corrections-btn, #back-to-result-btn {
+  margin: 10px 5px;
+  width: auto;
 }
 
-/* ====== Correction Section ====== */
-#corrections-container {
-  max-height: 70vh;
-  overflow-y: auto;
-  padding-right: 10px;
-}
-
+/* CORRECTIONS */
 .correction-item {
-  border: 1px solid #ccc;
+  background: var(--gray);
   padding: 15px;
-  margin-bottom: 10px;
   border-radius: 10px;
-  background: #f9f9f9;
-}
-
-.correction-item img {
-  width: 100%;
-  max-width: 300px;
   margin: 10px 0;
-  border-radius: 8px;
+  text-align: left;
 }
 
-.user-answer.correct {
-  color: green;
-  font-weight: 600;
-}
+.user-answer.correct { color: green; }
+.user-answer.wrong { color: red; }
+.user-answer.unanswered { color: gray; }
 
-.user-answer.wrong {
-  color: red;
-  font-weight: 600;
-}
+/* UTILITIES */
+.hidden { display: none; }
 
-.user-answer.unanswered {
-  color: gray;
-  font-style: italic;
-}
-
-.correct {
-  color: green;
-  font-weight: 600;
-}
-
-/* ====== Animations ====== */
 @keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.96); }
-  to { opacity: 1; transform: scale(1); }
+  from {opacity: 0; transform: translateY(10px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .timer {
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+  }
+
+  .controls {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .controls button {
+    width: 100%;
+  }
+
+  #cbt-section {
+    max-width: 100%;
+  }
 }

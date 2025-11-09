@@ -6,18 +6,12 @@ const registeredUsers = [
     email: "olaboredejames2021@gmail.com" 
   },
   { 
-    fullName: "Sarah Adeola", 
-    email: "sarah.adeola@gmail.com" 
-    
-  },
-  { 
-    fullName: "Tunde Akin", 
-    email: "tundeakin@yahoo.com" 
-    
+    fullName: "Dahunsi Opemipo", 
+    email: "solabomidahunsi@gmail.com" 
   },
   {
-    fullName: "Olaborede Kehinde",
-    email: "kennyblack@gmail.com"
+    fullName: "Oluwalade Mary",
+    email: "maryoluwalade48@gmail.com"
   }
 ];
 
@@ -82,28 +76,28 @@ const testimonials = [
     role: "Parent of JSS 2 Student",
     message:
       "Aplus Tutors has been a blessing! My daughter’s confidence and grades have improved tremendously.",
-    image: "images/sarah.jpg",
+    image: "./BackgroundEraser_20231102_035359819.png",
   },
     {
     name: "Michael Adeyemi",
     role: "SS3 Student",
     message:
       "The CBT practice tests and lessons really prepared me for WAEC. I scored higher than I imagined!",
-    image: "images/michael.jpg",
+    image: "./BackgroundEraser_20231102_035846684.png",
   },
     {
     name: "Mrs. Okafor",
     role: "Parent",
     message:
       "I love the way Aplus Tutors combines discipline and encouragement. My son now enjoys studying.",
-    image: "images/okafor.jpg",
+    image: "./BackgroundEraser_20231102_035749901.png",
   },
     {
     name: "Tolu Adebayo",
     role: "JAMB Candidate",
     message:
       "Aplus Tutors made learning fun and interactive. I passed my exams on my first attempt!",
-    image: "images/tolu.jpg",
+    image: "./BackgroundEraser_20231102_035749901.png",
   }
 ];
 
@@ -183,7 +177,7 @@ const blogPosts = [
 // reasources data here
 
 const resources = [
- /* {
+ {
     title: "WAEC Physics Past Questions 2024",
     description: "Complete WAEC Physics solved past questions (PDF).",
     type: "free",
@@ -216,7 +210,7 @@ const resources = [
     price: 1000,
     preview: "images/chemistry_pack.jpg",
     whatsapp: "2348012345678",
-  } */
+  }
 ];
 
 
@@ -237,434 +231,1159 @@ const allowedUsers = [
     email: "olaboredejames2021@gmail.com" 
     
   }
-];
+]
 
 
 // --- Multi-Subject Quiz Data ---
 const quizData = {
 
   Mathematics: [
-    {
-      // Algebra quiz
-      topic: "Algebra",
-      questions: [
 {
-  q: "Simplify: 2x + 3x − 5",
-  options: ["5x − 5", "5x + 5", "x − 5", "x + 5"],
-  answer: "5x − 5"
+  topic: "Numbers and Basic Arithmetic Operations",
+  questions: [
+{
+  q: "What is the value of 15 × 12 ÷ 3?",
+  options: ["45", "50", "55", "60"],
+  answer: "60"
 },
 {
-  q: "Solve for x: 3x + 5 = 14",
-  options: ["x = 3", "x = 4", "x = 5", "x = 6"],
-  answer: "x = 3"
+  q: "Evaluate: (24 ÷ 3) + (18 ÷ 2).",
+  options: ["15", "18", "20", "21"],
+  answer: "21"
 },
 {
-  q: "Simplify: (2x² + 3x + 1) − (x² + x − 2)",
-  options: ["x² + 2x + 3", "x² + 4x + 1", "x² + 2x + 2", "2x² + 4x + 3"],
-  answer: "x² + 2x + 3"
+  q: "Find the LCM of 12 and 15.",
+  options: ["45", "50", "60", "75"],
+  answer: "60"
 },
 {
-  q: "Factorize: x² − 9",
-  options: ["(x + 3)(x − 3)", "(x + 9)(x − 9)", "(x − 3)²", "(x + 3)²"],
-  answer: "(x + 3)(x − 3)"
+  q: "Simplify: 72 ÷ (6 × 2).",
+  options: ["3", "4", "5", "6"],
+  answer: "6"
 },
 {
-  q: "Simplify: 4(x + 2) − 3(x − 5)",
-  options: ["x + 23", "x − 23", "7x + 1", "x + 17"],
-  answer: "x + 23"
+  q: "Find the HCF of 42 and 56.",
+  options: ["7", "8", "12", "14"],
+  answer: "14"
 },
 {
-  q: "Solve for x: 5x − 7 = 3x + 9",
-  options: ["x = 8", "x = −8", "x = 16", "x = −16"],
-  answer: "x = 8"
+  q: "Simplify: (2/3) + (4/9).",
+  options: ["6/9", "10/9", "12/9", "14/9"],
+  answer: "10/9"
 },
 {
-  q: "If 2x + 3 = 9, find x.",
-  options: ["x = 2", "x = 3", "x = 4", "x = 5"],
-  answer: "x = 3"
+  q: "Evaluate: (0.25 × 0.4) ÷ 0.1.",
+  options: ["0.1", "0.4", "1.0", "1.25"],
+  answer: "1.0"
 },
 {
-  q: "Factorize completely: 2x² + 4x",
-  options: ["2x(x + 2)", "x(2x + 4)", "2(x + 2)", "x²(2 + 4)"],
-  answer: "2x(x + 2)"
+  q: "Simplify: 3⅔ − 1½.",
+  options: ["1⅓", "2⅙", "2⅛", "1½"],
+  answer: "2⅙"
 },
 {
-  q: "Simplify: (x + 2)(x − 5)",
-  options: ["x² − 3x − 10", "x² + 3x − 10", "x² − 7x + 10", "x² + 7x − 10"],
-  answer: "x² − 3x − 10"
+  q: "Express 0.375 as a fraction in simplest form.",
+  options: ["3/8", "5/8", "3/10", "7/10"],
+  answer: "3/8"
 },
 {
-  q: "Solve for x: 7x = 35",
-  options: ["x = 4", "x = 5", "x = 6", "x = 7"],
-  answer: "x = 5"
+  q: "Find 15% of 240.",
+  options: ["24", "30", "32", "36"],
+  answer: "36"
 },
 {
-  q: "Simplify: (3x² − 2x + 5) + (x² + 4x − 3)",
-  options: ["4x² + 2x + 2", "4x² + 6x + 2", "2x² + 2x + 2", "3x² + 6x + 8"],
-  answer: "4x² + 2x + 2"
+  q: "Simplify: 5² − 3².",
+  options: ["9", "10", "16", "20"],
+  answer: "16"
 },
 {
-  q: "If 4x − 2 = 10, find x.",
-  options: ["x = 2", "x = 3", "x = 4", "x = 5"],
-  answer: "x = 3"
+  q: "Divide ₦6,000 in the ratio 2:3.",
+  options: ["₦2,000 and ₦4,000", "₦2,400 and ₦3,600", "₦3,000 each", "₦1,500 and ₦4,500"],
+  answer: "₦2,400 and ₦3,600"
 },
 {
-  q: "Simplify: 5(x − 2) + 3(x + 4)",
-  options: ["8x + 2", "8x − 2", "8x + 14", "8x − 14"],
-  answer: "8x + 2"
+  q: "Find the square root of 196.",
+  options: ["12", "13", "14", "15"],
+  answer: "14"
 },
 {
-  q: "Expand and simplify: (2x − 3)(x + 4)",
-  options: ["2x² + 5x − 12", "2x² − 5x − 12", "2x² + 8x − 3", "2x² − 8x + 12"],
-  answer: "2x² + 5x − 12"
+  q: "Simplify: (−3) × (−5) × 2.",
+  options: ["−30", "15", "30", "−15"],
+  answer: "30"
 },
 {
-  q: "Solve for x: x/3 = 6",
-  options: ["x = 12", "x = 15", "x = 18", "x = 20"],
-  answer: "x = 18"
+  q: "Evaluate: 8³ ÷ 4².",
+  options: ["8", "16", "32", "64"],
+  answer: "8"
 },
 {
-  q: "Factorize: x² + 6x + 8",
-  options: ["(x + 2)(x + 4)", "(x − 2)(x − 4)", "(x + 1)(x + 8)", "(x + 3)(x + 3)"],
-  answer: "(x + 2)(x + 4)"
+  q: "Simplify: 2.5 × 0.04.",
+  options: ["0.001", "0.01", "0.1", "1"],
+  answer: "0.1"
 },
 {
-  q: "Simplify: (3x² − 5x + 2) − (x² − 2x − 1)",
-  options: ["2x² − 3x + 3", "2x² − 7x + 3", "4x² − 3x + 3", "2x² − 3x − 3"],
-  answer: "2x² − 3x + 3"
+  q: "If a man spends ₦1,200 from ₦4,800, find the fraction of his money remaining.",
+  options: ["1/2", "3/4", "1/3", "2/3"],
+  answer: "3/4"
 },
 {
-  q: "Solve for x: 2(x + 3) = 4x − 2",
-  options: ["x = 4", "x = 5", "x = 3", "x = 2"],
-  answer: "x = 4"
+  q: "Express 250 as a product of its prime factors.",
+  options: ["2 × 5³", "2 × 5²", "2² × 5³", "2 × 5⁴"],
+  answer: "2 × 5³"
 },
 {
-  q: "Simplify: (x² − 16) ÷ (x − 4)",
-  options: ["x + 4", "x − 4", "x² + 4", "x² − 4"],
-  answer: "x + 4"
+  q: "Find the value of (2 + 3)² − (4 × 2).",
+  options: ["9", "17", "21", "25"],
+  answer: "17"
 },
 {
-  q: "If 3x − 7 = 2x + 1, find x.",
-  options: ["x = 6", "x = 7", "x = 8", "x = 9"],
-  answer: "x = 8"
+  q: "Evaluate: |−9 + 5|.",
+  options: ["−4", "0", "3", "4"],
+  answer: "4"
 }
-      ]
-    },
-    {
-      topic: "Geometry",
-      questions: [
-        {
-  q: "Find the sum of interior angles of a triangle.",
-  options: ["90°", "120°", "180°", "360°"],
-  answer: "180°"
+  ]
 },
 {
-  q: "Find the sum of interior angles of a pentagon.",
-  options: ["360°", "540°", "720°", "900°"],
-  answer: "540°"
+  topic: "Ratio, Proportion and Averages",
+  questions: [
+{
+  q: "Divide ₦9,000 among A, B, and C in the ratio 2:3:4.",
+  options: ["₦1,800, ₦2,700, ₦4,500", "₦2,000, ₦3,000, ₦4,000", "₦1,500, ₦3,000, ₦4,500", "₦2,200, ₦2,800, ₦4,000"],
+  answer: "₦2,000, ₦3,000, ₦4,000"
 },
 {
-  q: "Each interior angle of a regular hexagon is:",
-  options: ["100°", "120°", "135°", "140°"],
-  answer: "120°"
+  q: "If 6 men complete a work in 8 days, how many days will 4 men take to complete it?",
+  options: ["10", "11", "12", "16"],
+  answer: "12"
 },
 {
-  q: "The sum of exterior angles of any polygon is:",
-  options: ["90°", "180°", "270°", "360°"],
-  answer: "360°"
+  q: "A recipe requires 2 kg of flour for 5 loaves. How much flour is needed for 15 loaves?",
+  options: ["4 kg", "5 kg", "6 kg", "7 kg"],
+  answer: "6 kg"
 },
 {
-  q: "In a right-angled triangle, if one angle is 30°, the other acute angle is:",
-  options: ["30°", "45°", "60°", "90°"],
-  answer: "60°"
+  q: "Find the mean of 6, 8, 10, 12, 14.",
+  options: ["8", "9", "10", "11"],
+  answer: "10"
 },
 {
-  q: "A triangle with all sides equal is called:",
-  options: ["Scalene triangle", "Isosceles triangle", "Equilateral triangle", "Right triangle"],
-  answer: "Equilateral triangle"
+  q: "The ratio of boys to girls in a class is 3:2. If there are 25 students, how many are girls?",
+  options: ["10", "12", "15", "20"],
+  answer: "10"
 },
 {
-  q: "Find the area of a rectangle with length 10 cm and width 5 cm.",
-  options: ["15 cm²", "25 cm²", "50 cm²", "100 cm²"],
-  answer: "50 cm²"
+  q: "If ₦5,000 is shared between two people in the ratio 4:1, how much does the smaller share receive?",
+  options: ["₦800", "₦900", "₦1,000", "₦1,200"],
+  answer: "₦1,000"
 },
 {
-  q: "Find the perimeter of a square with side 8 cm.",
-  options: ["16 cm", "24 cm", "32 cm", "64 cm"],
-  answer: "32 cm"
+  q: "A car travels 240 km in 4 hours. Find its average speed.",
+  options: ["40 km/h", "50 km/h", "60 km/h", "70 km/h"],
+  answer: "60 km/h"
 },
 {
-  q: "The perpendicular distance from the center of a circle to a chord bisects the chord. True or False?",
-  options: ["True", "False"],
-  answer: "True"
+  q: "The sides of two similar triangles are in the ratio 2:3. What is the ratio of their areas?",
+  options: ["2:3", "3:2", "4:9", "9:4"],
+  answer: "4:9"
 },
 {
-  q: "The radius of a circle is half of its:",
-  options: ["Circumference", "Diameter", "Area", "Chord"],
-  answer: "Diameter"
-},
-{
-  q: "Find the area of a circle with radius 7 cm. (Take π = 22/7)",
-  options: ["49 cm²", "77 cm²", "154 cm²", "308 cm²"],
-  answer: "154 cm²"
-},
-{
-  q: "In a parallelogram, opposite angles are:",
-  options: ["Equal", "Complementary", "Right angles", "None of these"],
-  answer: "Equal"
-},
-{
-  q: "The line joining the center of a circle to any point on the circle is the:",
-  options: ["Chord", "Diameter", "Radius", "Tangent"],
-  answer: "Radius"
-},
-{
-  q: "The distance around a circle is called the:",
-  options: ["Diameter", "Area", "Circumference", "Arc"],
-  answer: "Circumference"
-},
-{
-  q: "Find the number of sides of a polygon whose sum of interior angles is 900°.",
-  options: ["5", "6", "7", "8"],
+  q: "Find the average of 4, 9, 7, 10, and 5.",
+  options: ["6", "7", "8", "9"],
   answer: "7"
 },
 {
-  q: "In a cyclic quadrilateral, opposite angles are:",
-  options: ["Equal", "Supplementary", "Complementary", "Right angles"],
-  answer: "Supplementary"
+  q: "The ratio of sugar to flour is 1:4. If 12 kg of flour is used, how much sugar is needed?",
+  options: ["2 kg", "3 kg", "4 kg", "5 kg"],
+  answer: "3 kg"
 },
 {
-  q: "Find the area of a triangle with base 12 cm and height 8 cm.",
-  options: ["48 cm²", "96 cm²", "24 cm²", "60 cm²"],
-  answer: "48 cm²"
+  q: "If 10 workers earn ₦20,000, how much will 15 workers earn at the same rate?",
+  options: ["₦25,000", "₦30,000", "₦35,000", "₦40,000"],
+  answer: "₦30,000"
 },
 {
-  q: "The diagonals of a rhombus:",
-  options: ["Are equal", "Bisect each other at right angles", "Are parallel", "Are unequal and non-bisecting"],
-  answer: "Bisect each other at right angles"
+  q: "If 5 pens cost ₦250, what is the cost of 8 pens?",
+  options: ["₦350", "₦380", "₦400", "₦420"],
+  answer: "₦400"
 },
 {
-  q: "A line that touches a circle at only one point is called a:",
-  options: ["Chord", "Secant", "Tangent", "Radius"],
-  answer: "Tangent"
+  q: "The mean of five numbers is 18. If four of them are 15, 16, 17, and 19, find the fifth.",
+  options: ["20", "21", "22", "23"],
+  answer: "23"
 },
 {
-  q: "Find the volume of a cube with edge 4 cm.",
-  options: ["8 cm³", "16 cm³", "32 cm³", "64 cm³"],
-  answer: "64 cm³"
-}
-      ]
-    },
-    {
-      topic: "Set",
-      questions: [
-        {
-  q: "If A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, find A ∩ B.",
-  options: ["{1, 2}", "{3, 4}", "{5, 6}", "{1, 2, 3, 4, 5, 6}"],
-  answer: "{3, 4}"
+  q: "If 3 oranges cost ₦90, how many can be bought with ₦300?",
+  options: ["8", "9", "10", "11"],
+  answer: "10"
 },
 {
-  q: "If A = {2, 4, 6, 8} and B = {1, 2, 3, 4, 5}, find A ∪ B.",
-  options: ["{1, 2, 3, 4, 5, 6, 8}", "{2, 4, 6, 8}", "{1, 3, 5}", "{6, 8}"],
-  answer: "{1, 2, 3, 4, 5, 6, 8}"
+  q: "If x : y = 2 : 5, find y when x = 12.",
+  options: ["20", "25", "30", "35"],
+  answer: "30"
 },
 {
-  q: "If U = {1,2,3,4,5,6,7,8,9,10} and A = {2,4,6,8,10}, find A′.",
-  options: ["{1,3,5,7,9}", "{2,4,6,8,10}", "{1,2,3,4,5}", "{3,6,9}"],
-  answer: "{1,3,5,7,9}"
+  q: "A car uses 5 litres of fuel to cover 60 km. How much fuel will it need for 180 km?",
+  options: ["10 litres", "12 litres", "15 litres", "18 litres"],
+  answer: "15 litres"
 },
 {
-  q: "If n(U) = 20, n(A) = 12 and n(A′) = ?, find n(A′).",
-  options: ["8", "12", "10", "20"],
-  answer: "8"
-},
-{
-  q: "If A = {x | x is an even number less than 10}, find A.",
-  options: ["{2,4,6,8}", "{1,2,3,4,5}", "{2,3,5,7}", "{1,3,5,7,9}"],
-  answer: "{2,4,6,8}"
-},
-{
-  q: "If A = {a, b, c} and B = {b, c, d, e}, find A − B.",
-  options: ["{a}", "{b, c}", "{d, e}", "{a, b, c, d, e}"],
-  answer: "{a}"
-},
-{
-  q: "If A ⊆ B, then which of the following is true?",
-  options: ["Every element of A is in B", "Every element of B is in A", "A and B are disjoint", "A ∩ B = ∅"],
-  answer: "Every element of A is in B"
-},
-{
-  q: "If A ∩ B = ∅, then A and B are:",
-  options: ["Equal sets", "Disjoint sets", "Universal sets", "Empty sets"],
-  answer: "Disjoint sets"
-},
-{
-  q: "The number of subsets of a set with 3 elements is:",
-  options: ["3", "6", "8", "9"],
-  answer: "8"
-},
-{
-  q: "The universal set is the set that:",
-  options: ["Contains all subsets", "Contains all possible elements under consideration", "Contains no element", "Is empty"],
-  answer: "Contains all possible elements under consideration"
-},
-{
-  q: "If A = {1,2,3} and B = {3,4,5}, find n(A ∪ B).",
-  options: ["3", "5", "6", "7"],
-  answer: "5"
-},
-{
-  q: "If n(U) = 50, n(A) = 30, n(B) = 25, and n(A ∩ B) = 10, find n(A ∪ B).",
-  options: ["45", "50", "55", "60"],
-  answer: "45"
-},
-{
-  q: "If A = {x | x is a vowel in the English alphabet}, find A.",
-  options: ["{a, e, i, o, u}", "{b, c, d, f, g}", "{a, e, i, o}", "{e, i, o, u}"],
-  answer: "{a, e, i, o, u}"
-},
-{
-  q: "What is the complement of the universal set U?",
-  options: ["∅", "U", "A′", "{0}", "None"],
-  answer: "∅"
-},
-{
-  q: "The empty set is also called:",
-  options: ["Null set", "Subset", "Complement set", "Universal set"],
-  answer: "Null set"
-},
-{
-  q: "If A = {1,2,3} and B = {2,3,4}, find A Δ B (symmetric difference).",
-  options: ["{1,4}", "{2,3}", "{1,2,3,4}", "{1,2,4}"],
-  answer: "{1,4}"
-},
-{
-  q: "If n(A) = 5, how many subsets can be formed from A?",
-  options: ["10", "25", "30", "32"],
-  answer: "32"
-},
-{
-  q: "If A ⊂ B and B ⊂ C, then:",
-  options: ["A ⊂ C", "C ⊂ A", "A = B", "B = C"],
-  answer: "A ⊂ C"
-},
-{
-  q: "The intersection of a set with the universal set U is:",
-  options: ["∅", "U", "The set itself", "Complement of the set"],
-  answer: "The set itself"
-},
-{
-  q: "Which of the following sets is finite?",
-  options: ["Set of even numbers", "Set of natural numbers", "Set of prime numbers", "Set of months in a year"],
-  answer: "Set of months in a year"
-}
-      ]
-    },
-    {
-      topic: "Variation",
-      questions: [
-        {
-  q: "If y varies directly as x and y = 12 when x = 4, find y when x = 6.",
+  q: "The average of two numbers is 24. If one number is 30, find the other.",
   options: ["16", "18", "20", "22"],
   answer: "18"
 },
 {
-  q: "If y varies inversely as x and y = 8 when x = 3, find y when x = 6.",
-  options: ["2", "3", "4", "6"],
-  answer: "4"
+  q: "If the ratio of boys to girls is 5:3 and there are 40 students, how many are boys?",
+  options: ["20", "25", "30", "35"],
+  answer: "25"
 },
 {
-  q: "If y varies jointly as x and z, and y = 24 when x = 3 and z = 4, find y when x = 2 and z = 5.",
-  options: ["15", "20", "25", "30"],
-  answer: "20"
+  q: "Two pipes can fill a tank in 6 hours and 9 hours respectively. How long will both take together?",
+  options: ["3.5 hours", "3.6 hours", "4 hours", "4.5 hours"],
+  answer: "3.6 hours"
 },
 {
-  q: "If y varies directly as the square of x and y = 50 when x = 5, find y when x = 7.",
-  options: ["80", "90", "98", "100"],
-  answer: "98"
-},
-{
-  q: "If y varies inversely as the square of x and y = 9 when x = 2, find y when x = 3.",
-  options: ["3", "4", "5", "6"],
-  answer: "4"
-},
-{
-  q: "If y varies directly as x and inversely as z, and y = 6 when x = 2 and z = 4, find y when x = 3 and z = 6.",
-  options: ["2", "3", "4", "5"],
-  answer: "3"
-},
-{
-  q: "If y varies directly as the cube of x and y = 64 when x = 2, find y when x = 3.",
-  options: ["96", "192", "216", "324"],
-  answer: "216"
-},
-{
-  q: "If y varies inversely as x and y = 15 when x = 8, find x when y = 10.",
-  options: ["10", "12", "15", "20"],
-  answer: "12"
-},
-{
-  q: "If y varies directly as x and y = 14 when x = 7, find y when x = 21.",
-  options: ["28", "35", "42", "49"],
-  answer: "42"
-},
-{
-  q: "If y varies inversely as the square of x, and y = 16 when x = 2, find y when x = 4.",
-  options: ["2", "3", "4", "8"],
-  answer: "4"
-},
-{
-  q: "If y varies directly as x and y = 30 when x = 5, find x when y = 18.",
-  options: ["2", "3", "4", "6"],
-  answer: "3"
-},
-{
-  q: "If y varies jointly as x and the square root of z, and y = 24 when x = 4 and z = 9, find y when x = 6 and z = 16.",
-  options: ["32", "36", "48", "64"],
-  answer: "48"
-},
-{
-  q: "If y varies inversely as x and y = 20 when x = 3, find the constant of variation.",
-  options: ["20", "23", "50", "60"],
-  answer: "60"
-},
-{
-  q: "If y varies directly as x and inversely as the square of z, and y = 8 when x = 4 and z = 2, find y when x = 9 and z = 3.",
-  options: ["6", "8", "10", "12"],
+  q: "Find the mean of the first five even numbers.",
+  options: ["4", "5", "6", "7"],
   answer: "6"
-},
-{
-  q: "If y varies directly as x² and inversely as z, and y = 10 when x = 2 and z = 4, find y when x = 3 and z = 6.",
-  options: ["12", "13.5", "14", "15"],
-  answer: "13.5"
-},
-{
-  q: "If y varies directly as the square root of x, and y = 12 when x = 9, find y when x = 16.",
-  options: ["13", "14", "15", "16"],
-  answer: "16"
-},
-{
-  q: "If y varies inversely as x and y = 25 when x = 8, find y when x = 10.",
-  options: ["18", "19", "20", "21"],
-  answer: "20"
-},
-{
-  q: "If y varies directly as x and y = 24 when x = 8, find x when y = 9.",
-  options: ["2", "3", "4", "5"],
-  answer: "3"
-},
-{
-  q: "If y varies inversely as the square root of x and y = 20 when x = 9, find y when x = 16.",
-  options: ["10", "12", "15", "18"],
-  answer: "15"
-},
-{
-  q: "If y varies jointly as x and z and inversely as w, and y = 24 when x = 3, z = 4, and w = 2, find y when x = 2, z = 5, and w = 1.",
-  options: ["40", "45", "48", "50"],
-  answer: "40"
 }
-      ]
+  ]
+},
+{
+  topic: "Indices",
+  questions: [
+    { q: "Simplify: 2³ × 2⁴.", options: ["2⁷", "2¹²", "8⁴", "2⁸"], answer: "2⁷" },
+    { q: "Simplify: (3²)³.", options: ["3⁵", "3⁶", "9³", "6³"], answer: "3⁶" },
+    { q: "If 5ˣ = 125, find x.", options: ["2", "3", "4", "5"], answer: "3" },
+    { q: "Simplify: (4⁵ ÷ 4²).", options: ["4³", "4⁷", "8³", "2³"], answer: "4³" },
+    { q: "Evaluate: (2³ × 3²).", options: ["36", "24", "18", "12"], answer: "36" },
+    { q: "Simplify: (10²)⁰.", options: ["0", "1", "10", "100"], answer: "1" },
+    { q: "If 2ˣ = 8, find x.", options: ["1", "2", "3", "4"], answer: "3" },
+    { q: "Simplify: (x³)² × x.", options: ["x⁵", "x⁶", "x⁷", "x⁸"], answer: "x⁷" },
+    { q: "Simplify: (9⁰).", options: ["0", "1", "9", "∞"], answer: "1" },
+    { q: "Evaluate: 5⁻².", options: ["25", "1/25", "1/5", "1/10"], answer: "1/25" },
+    { q: "Simplify: (a²b³)².", options: ["a²b⁵", "a⁴b⁶", "a⁶b⁴", "a³b⁶"], answer: "a⁴b⁶" },
+    { q: "Simplify: (3⁴ ÷ 3²).", options: ["3²", "3⁴", "3⁶", "9"], answer: "3²" },
+    { q: "Simplify: (16)^(1/2).", options: ["2", "3", "4", "5"], answer: "4" },
+    { q: "Simplify: (8)^(2/3).", options: ["2", "4", "6", "8"], answer: "4" },
+    { q: "If 9ˣ = 81, find x.", options: ["1", "2", "3", "4"], answer: "2" },
+    { q: "Simplify: (x⁵ ÷ x²).", options: ["x²", "x³", "x⁵", "x⁷"], answer: "x³" },
+    { q: "Simplify: (2⁴ × 4²).", options: ["2⁶", "2⁸", "2¹⁰", "2¹²"], answer: "2⁸" },
+    { q: "Simplify: (a⁻³b²)⁻¹.", options: ["a³/b²", "b²/a³", "a²b³", "1/(a³b²)"], answer: "a³/b²" },
+    { q: "Simplify: (27)^(1/3).", options: ["2", "3", "4", "9"], answer: "3" },
+    { q: "Simplify: (5⁰ × 7⁰).", options: ["0", "1", "5", "7"], answer: "1" }
+  ]
+},
+{
+  topic: "Logarithms",
+  questions: [
+    { q: "Evaluate log₁₀(1000).", options: ["1", "2", "3", "4"], answer: "3" },
+    { q: "Find log₂(8).", options: ["2", "3", "4", "5"], answer: "3" },
+    { q: "If log₃(x) = 2, find x.", options: ["6", "9", "12", "18"], answer: "9" },
+    { q: "Simplify: log₅(25) + log₅(4).", options: ["log₅(29)", "log₅(100)", "log₅(20)", "log₅(9)"], answer: "log₅(100)" },
+    { q: "Evaluate log₄(64).", options: ["2", "3", "4", "5"], answer: "3" },
+    { q: "If log₁₀(x) = 2, find x.", options: ["10", "50", "100", "1000"], answer: "100" },
+    { q: "Simplify: log₂(32) − log₂(8).", options: ["1", "2", "3", "4"], answer: "2" },
+    { q: "Find log₃(1/9).", options: ["−2", "−1", "1", "2"], answer: "−2" },
+    { q: "Evaluate log₁₀(1).", options: ["0", "1", "10", "100"], answer: "0" },
+    { q: "If log₅(x) = 0, find x.", options: ["0", "1", "5", "10"], answer: "1" },
+    { q: "Simplify log₂(8) + log₂(4).", options: ["log₂(12)", "log₂(32)", "log₂(64)", "log₂(16)"], answer: "log₂(32)" },
+    { q: "Find x if log₁₀(x) = 1.5.", options: ["15", "25", "30", "31.6"], answer: "31.6" },
+    { q: "Simplify: 2log₁₀(5).", options: ["log₁₀(25)", "log₁₀(10)", "log₁₀(20)", "2.5"], answer: "log₁₀(25)" },
+    { q: "Simplify: log₇(49).", options: ["1", "2", "3", "4"], answer: "2" },
+    { q: "Simplify: log₂(1/4).", options: ["−1", "−2", "2", "4"], answer: "−2" },
+    { q: "Evaluate: log₁₀(10⁴).", options: ["1", "2", "3", "4"], answer: "4" },
+    { q: "Simplify: log₅(125) − log₅(5).", options: ["1", "2", "3", "4"], answer: "2" },
+    { q: "If log₂(x) = 6, find x.", options: ["32", "64", "128", "256"], answer: "64" },
+    { q: "Simplify: log₃(27) + log₃(9).", options: ["log₃(36)", "log₃(81)", "log₃(243)", "log₃(9)"], answer: "log₃(243)" },
+    { q: "Evaluate: log₁₀(0.01).", options: ["−1", "−2", "1", "2"], answer: "−2" }
+  ]
+},
+{
+  topic: "Surds",
+  questions: [
+    { q: "Simplify √50.", options: ["5√2", "10√5", "25√2", "2√5"], answer: "5√2" },
+    { q: "Simplify √18.", options: ["3√2", "3√3", "2√3", "6√2"], answer: "3√2" },
+    { q: "Simplify √12 + √27.", options: ["5√3", "6√3", "7√3", "8√3"], answer: "6√3" },
+    { q: "Rationalize 1/√3.", options: ["√3/3", "√3", "1/3√3", "3√3"], answer: "√3/3" },
+    { q: "Simplify √72.", options: ["6√2", "3√8", "4√3", "8√3"], answer: "6√2" },
+    { q: "Simplify 2√5 × 3√2.", options: ["5√6", "6√10", "6√2", "10√6"], answer: "6√10" },
+    { q: "Simplify (√5)².", options: ["2√5", "5", "√10", "10"], answer: "5" },
+    { q: "Simplify √8 ÷ √2.", options: ["2", "√2", "√4", "4"], answer: "2" },
+    { q: "Simplify (√3 + √2)².", options: ["5 + 2√6", "5 + √6", "7 + 2√3", "3 + 2√2"], answer: "5 + 2√6" },
+    { q: "Simplify 3√7 − √7.", options: ["2√7", "4√7", "√7", "3√7"], answer: "2√7" },
+    { q: "Simplify √48.", options: ["4√3", "3√4", "6√2", "8√2"], answer: "4√3" },
+    { q: "Simplify (2√3)².", options: ["2√3", "4√9", "12", "6"], answer: "12" },
+    { q: "Simplify √20 + √45.", options: ["7√5", "5√5", "8√5", "9√5"], answer: "7√5" },
+    { q: "Simplify √27 − √12.", options: ["√3", "3√3 − 2√3", "√6", "5√3"], answer: "√3" },
+    { q: "Rationalize 3 / √5.", options: ["3√5/5", "5√3/3", "√15/3", "15/√3"], answer: "3√5/5" },
+    { q: "Simplify √3 × √9.", options: ["√27", "3√3", "6", "9"], answer: "3√3" },
+    { q: "Simplify (√2 + 1)(√2 − 1).", options: ["1", "2", "√2", "3"], answer: "1" },
+    { q: "Simplify √2 × √8.", options: ["√10", "4", "2√2", "√16"], answer: "4" },
+    { q: "Simplify (√5 + 2)².", options: ["9 + 4√5", "5 + 4√5", "5 + 2√5", "7 + 3√5"], answer: "9 + 4√5" },
+    { q: "Simplify √0.04.", options: ["0.02", "0.2", "0.4", "2"], answer: "0.2" }
+  ]
+},
+{
+  topic: "Set Theory and Venn Diagrams — Quiz 1",
+  questions: [
+    { q: "What is a set?", options: ["A collection of well-defined objects", "A random group of things", "A number line", "An empty diagram"], answer: "A collection of well-defined objects" },
+    { q: "Which of these is a finite set?", options: ["Set of even numbers", "Set of students in your class", "Set of all natural numbers", "Set of prime numbers"], answer: "Set of students in your class" },
+    { q: "The symbol ∈ means?", options: ["Subset of", "Element of", "Intersection", "Union"], answer: "Element of" },
+    { q: "What is the symbol for a universal set?", options: ["U", "E", "S", "V"], answer: "U" },
+    { q: "The set with no element is called?", options: ["Finite set", "Empty set", "Infinite set", "Subset"], answer: "Empty set" },
+    { q: "If A = {1,2,3} and B = {3,4,5}, what is A ∩ B?", options: ["{1,2,3,4,5}", "{3}", "{1,2,5}", "∅"], answer: "{3}" },
+    { q: "If A = {x: x < 5} and B = {x: x > 3}, find A ∩ B.", options: ["x < 3", "x > 5", "3 < x < 5", "x = 5"], answer: "3 < x < 5" },
+    { q: "A ⊂ B means?", options: ["A is equal to B", "A is a subset of B", "A is greater than B", "A intersects B"], answer: "A is a subset of B" },
+    { q: "If n(A) = 5, n(B) = 7, and A, B are disjoint, find n(A ∪ B).", options: ["12", "35", "2", "7"], answer: "12" },
+    { q: "What is the complement of a universal set?", options: ["The set itself", "Empty set", "Subset", "Superset"], answer: "Empty set" },
+    { q: "The number of subsets of a set with 3 elements is?", options: ["3", "6", "8", "9"], answer: "8" },
+    { q: "What is n(∅)?", options: ["1", "0", "∞", "Undefined"], answer: "0" },
+    { q: "If A = {a,b,c} and B = {b,c,d}, find A ∪ B.", options: ["{a,b,c}", "{a,b,c,d}", "{b,c}", "{d}"], answer: "{a,b,c,d}" },
+    { q: "If A = {1,2,3}, B = {3,4,5}, find A - B.", options: ["{1,2}", "{3,4,5}", "{1,2,3,4,5}", "{3}"], answer: "{1,2}" },
+    { q: "The intersection of two disjoint sets is?", options: ["Empty set", "Union", "Subset", "Complement"], answer: "Empty set" },
+    { q: "If A = {x: x is an odd number <10}, how many elements are in A?", options: ["4", "5", "6", "7"], answer: "5" },
+    { q: "If n(U)=40, n(A)=25, n(A')=?, find n(A').", options: ["15", "25", "65", "10"], answer: "15" },
+    { q: "In a class of 50, 30 study Math, 20 study English, and 10 study both. How many study only Math?", options: ["30", "20", "10", "20"], answer: "20" },
+    { q: "If A ⊂ B and B ⊂ C, then A ⊂ ?", options: ["C", "B", "A", "U"], answer: "C" },
+    { q: "Which of these diagrams represents disjoint sets?", options: ["Overlapping circles", "Separate circles", "Concentric circles", "One circle"], answer: "Separate circles" }
+  ]
+},
+{
+  topic: "Set Theory and Venn Diagrams — Quiz 2",
+  questions: [
+    { q: "The universal set U = {1,2,3,4,5,6,7,8,9,10}. A = {2,4,6,8,10}. Find A'.", options: ["{1,3,5,7,9}", "{2,4,6,8,10}", "∅", "{1,2,3,4,5}"], answer: "{1,3,5,7,9}" },
+    { q: "If A and B are equal sets, then?", options: ["A ⊂ B", "B ⊂ A", "A = B", "A ≠ B"], answer: "A = B" },
+    { q: "What is n(A ∪ B) = n(A) + n(B) - n(A ∩ B) known as?", options: ["Addition rule", "Intersection law", "Set formula", "Complementary rule"], answer: "Addition rule" },
+    { q: "If A = {1,2,3,4}, find the power set P(A).", options: ["8 elements", "16 elements", "4 elements", "2 elements"], answer: "16 elements" },
+    { q: "If n(A)=12, n(B)=9, n(A∩B)=4, find n(A∪B).", options: ["25", "17", "21", "16"], answer: "17" },
+    { q: "A’ ∪ A = ?", options: ["U", "∅", "A", "A’"], answer: "U" },
+    { q: "A’ ∩ A = ?", options: ["∅", "U", "A", "A’"], answer: "∅" },
+    { q: "If n(U)=100, n(A)=60, n(A’)=?", options: ["40", "50", "60", "70"], answer: "40" },
+    { q: "What does ∅ represent?", options: ["Empty set", "Universal set", "Subset", "Complement"], answer: "Empty set" },
+    { q: "In a survey, 40 like football, 30 like basketball, 10 like both. Find total who like at least one.", options: ["60", "70", "50", "40"], answer: "60" },
+    { q: "If A and B have no elements in common, they are?", options: ["Equal", "Subset", "Disjoint", "Universal"], answer: "Disjoint" },
+    { q: "If n(A)=5, how many subsets does A have?", options: ["25", "10", "15", "32"], answer: "32" },
+    { q: "The symbol ∪ means?", options: ["Intersection", "Union", "Complement", "Subset"], answer: "Union" },
+    { q: "The symbol ∩ means?", options: ["Union", "Subset", "Intersection", "Difference"], answer: "Intersection" },
+    { q: "If A = {x | x ≤ 10}, then x belongs to?", options: ["Infinite set", "Finite set", "Universal set", "Empty set"], answer: "Finite set" },
+    { q: "A set with all natural numbers is?", options: ["Finite", "Infinite", "Empty", "Complement"], answer: "Infinite" },
+    { q: "If A = {2,4,6}, B = {1,3,5}, then A ∩ B = ?", options: ["∅", "{1,3,5}", "{2,4,6}", "{1,2,3}"], answer: "∅" },
+    { q: "Which of these is a subset of {1,2,3,4}?", options: ["{5}", "{1,3}", "{0}", "{5,6}"], answer: "{1,3}" },
+    { q: "If n(A∪B)=50 and n(A∩B)=10, and n(A)=30, find n(B).", options: ["30", "40", "20", "50"], answer: "30" },
+    { q: "The total number of elements in a universal set is called?", options: ["Cardinal number", "Subset count", "Infinite value", "Power set"], answer: "Cardinal number" }
+  ]
+},
+{
+  topic: "Set Theory and Venn Diagrams — Quiz 3",
+  questions: [
+    { q: "If A = {2,3,4,5}, find n(A).", options: ["3", "4", "5", "2"], answer: "4" },
+    { q: "If A ⊂ B and B ⊂ A, then A and B are?", options: ["Equal", "Disjoint", "Complementary", "Universal"], answer: "Equal" },
+    { q: "If A = {x: x is a vowel}, find A.", options: ["{a,b,c,d}", "{a,e,i,o,u}", "{a,e,i}", "{o,u}"], answer: "{a,e,i,o,u}" },
+    { q: "Find n(P(A)) if n(A)=6.", options: ["12", "36", "64", "32"], answer: "64" },
+    { q: "If A = {x | x is even ≤ 10}, find A.", options: ["{2,4,6,8,10}", "{1,2,3,4,5}", "{10}", "{4,5,6}"], answer: "{2,4,6,8,10}" },
+    { q: "In a class, 60 like tea, 50 like coffee, 20 like both. How many like either tea or coffee?", options: ["110", "70", "90", "60"], answer: "90" },
+    { q: "If n(A∪B)=n(A)+n(B)-n(A∩B), what is n(A∩B) = ?", options: ["n(A)+n(B)-n(A∪B)", "n(A)+n(B)", "n(A∪B)-n(A)", "n(B)-n(A)"], answer: "n(A)+n(B)-n(A∪B)" },
+    { q: "A and B are disjoint sets, what is n(A∩B)?", options: ["0", "1", "n(A)", "n(B)"], answer: "0" },
+    { q: "If n(A)=8, n(B)=5, n(A∩B)=2, find n(A∪B).", options: ["10", "11", "13", "15"], answer: "11" },
+    { q: "If n(U)=100, n(A)=70, n(B)=60, n(A∩B)=40, find n(A∪B)'.", options: ["10", "20", "30", "40"], answer: "10" },
+    { q: "What is the complement of A ∪ B?", options: ["A' ∩ B'", "A ∩ B", "A' ∪ B'", "U"], answer: "A' ∩ B'" },
+    { q: "The intersection of A' and B' equals?", options: ["(A ∪ B)'", "(A ∩ B)'", "U", "A ∪ B"], answer: "(A ∪ B)'" },
+    { q: "If A = {1,2}, B = {2,3}, C = {3,4}, find A∪B∪C.", options: ["{1,2,3,4}", "{1,2,3}", "{2,3,4}", "{1,4}"], answer: "{1,2,3,4}" },
+    { q: "If A = {x | x is prime ≤ 10}, find A.", options: ["{2,3,5,7}", "{1,3,5,7}", "{2,4,6,8}", "{3,5,7,9}"], answer: "{2,3,5,7}" },
+    { q: "A ∪ ∅ = ?", options: ["A", "∅", "U", "A’"], answer: "A" },
+    { q: "A ∩ ∅ = ?", options: ["A", "∅", "U", "A’"], answer: "∅" },
+    { q: "If A ⊂ U, then A’ is?", options: ["Subset of U", "Complement of A in U", "Equal to A", "Empty"], answer: "Complement of A in U" },
+    { q: "If n(U)=200, n(A)=120, n(A')=?", options: ["80", "100", "120", "200"], answer: "80" },
+    { q: "If n(A)=60, n(B)=40, n(A∩B)=20, how many are in A only?", options: ["40", "20", "60", "80"], answer: "40" },
+    { q: "In a Venn diagram, overlapping regions represent?", options: ["Union", "Intersection", "Complement", "Empty"], answer: "Intersection" }
+  ]
+},
+{
+  topic: "Number Bases and Fractions — Quiz 1",
+  questions: [
+    { q: "What is the base of the number 1011₂?", options: ["2", "4", "8", "10"], answer: "2" },
+    { q: "Convert 1011₂ to base 10.", options: ["10", "11", "13", "15"], answer: "11" },
+    { q: "Convert 25₁₀ to base 2.", options: ["11000₂", "11001₂", "11010₂", "11011₂"], answer: "11001₂" },
+    { q: "Convert 72₁₀ to base 8.", options: ["110₈", "107₈", "110₈", "120₈"], answer: "110₈" },
+    { q: "Convert 2A₁₆ to base 10.", options: ["32", "40", "42", "50"], answer: "42" },
+    { q: "Which of these numbers is not in base 5?", options: ["324", "243", "541", "404"], answer: "541" },
+    { q: "Convert 45₈ to base 10.", options: ["37", "38", "39", "40"], answer: "37" },
+    { q: "Convert 1111₂ to base 10.", options: ["14", "15", "16", "13"], answer: "15" },
+    { q: "Convert 100₁₀ to base 2.", options: ["1100100₂", "1010100₂", "111100₂", "100100₂"], answer: "1100100₂" },
+    { q: "Convert 255₁₀ to base 16.", options: ["FF₁₆", "EE₁₆", "AA₁₆", "CC₁₆"], answer: "FF₁₆" },
+    { q: "What is 101₂ + 10₂ in base 2?", options: ["111₂", "1001₂", "110₂", "1011₂"], answer: "111₂" },
+    { q: "Convert 1001₂ × 10₂ to base 2.", options: ["10010₂", "10100₂", "11000₂", "100100₂"], answer: "10010₂" },
+    { q: "What is the value of the digit 3 in 345₆?", options: ["3", "18", "108", "72"], answer: "108" },
+    { q: "Convert 11101₂ to base 10.", options: ["28", "29", "30", "31"], answer: "29" },
+    { q: "Convert 73₁₀ to base 16.", options: ["48₁₆", "49₁₆", "4A₁₆", "47₁₆"], answer: "49₁₆" },
+    { q: "Convert 11011₂ to base 8.", options: ["27₈", "33₈", "32₈", "35₈"], answer: "33₈" },
+    { q: "Convert 40₁₀ to base 5.", options: ["120₅", "130₅", "140₅", "200₅"], answer: "130₅" },
+    { q: "Convert 212₆ to base 10.", options: ["74", "76", "78", "80"], answer: "80" },
+    { q: "Convert 25₁₀ to base 8.", options: ["30₈", "31₈", "32₈", "33₈"], answer: "31₈" },
+    { q: "What is 11₂ × 11₂ in base 2?", options: ["101ₐ", "110₂", "1001₂", "111₂"], answer: "1001₂" }
+  ]
+},
+{
+  topic: "Number Bases and Fractions — Quiz 2",
+  questions: [
+    { q: "Convert 1010₂ to base 10.", options: ["9", "10", "11", "12"], answer: "10" },
+    { q: "Convert 64₁₀ to base 8.", options: ["80₈", "77₈", "100₈", "75₈"], answer: "100₈" },
+    { q: "Convert 20₁₀ to base 3.", options: ["200₃", "201₃", "202₃", "210₃"], answer: "202₃" },
+    { q: "Convert 3A₁₆ to base 10.", options: ["56", "58", "60", "62"], answer: "58" },
+    { q: "Convert 255₁₀ to base 8.", options: ["377₈", "355₈", "375₈", "400₈"], answer: "377₈" },
+    { q: "Convert 10101₂ to base 10.", options: ["20", "21", "22", "23"], answer: "21" },
+    { q: "Convert 10011₂ to base 8.", options: ["23₈", "24₈", "22₈", "25₈"], answer: "23₈" },
+    { q: "Convert 2F₁₆ to base 10.", options: ["45", "46", "47", "48"], answer: "47" },
+    { q: "Convert 80₁₀ to base 5.", options: ["300₅", "310₅", "320₅", "400₅"], answer: "310₅" },
+    { q: "What is 111₂ + 111₂ in base 2?", options: ["1110₂", "1111₂", "1100₂", "1010₂"], answer: "1110₂" },
+    { q: "Convert 111₄ to base 10.", options: ["19", "20", "21", "22"], answer: "21" },
+    { q: "Convert 40₁₀ to base 3.", options: ["1111₃", "1121₃", "1201₃", "1211₃"], answer: "1111₃" },
+    { q: "Convert 90₁₀ to base 8.", options: ["112₈", "131₈", "132₈", "134₈"], answer: "132₈" },
+    { q: "Convert 71₁₀ to base 2.", options: ["1000111₂", "1100111₂", "1110111₂", "1010111₂"], answer: "1000111₂" },
+    { q: "Convert 15₁₀ to base 4.", options: ["33₄", "32₄", "34₄", "31₄"], answer: "33₄" },
+    { q: "Convert 7A₁₆ to base 10.", options: ["120", "121", "122", "123"], answer: "122" },
+    { q: "Convert 11₂ × 101₂ to base 2.", options: ["111ₐ", "1001₂", "1011₂", "1101₂"], answer: "1111₂" },
+    { q: "Convert 44₈ to base 10.", options: ["36", "37", "38", "39"], answer: "36" },
+    { q: "Convert 11010₂ to base 8.", options: ["32₈", "33₈", "34₈", "35₈"], answer: "32₈" },
+    { q: "Convert 27₁₀ to base 3.", options: ["1000₃", "1001₃", "1010₃", "1100₃"], answer: "1000₃" }
+  ]
+},
+{
+  topic: "Fractions (Advanced Level)",
+  questions: [
+    {
+      q: "Simplify: (3/4 ÷ 2/3) × (5/6).",
+      options: ["5/8", "15/24", "15/16", "30/24"],
+      answer: "15/16"
+    },
+    {
+      q: "Find the value of x if (x/3) + (2/5) = (19/15).",
+      options: ["3", "4", "5", "6"],
+      answer: "3"
+    },
+    {
+      q: "Simplify: 1 ÷ (2 + 1/3).",
+      options: ["1/2", "3/7", "3/8", "3/5"],
+      answer: "3/7"
+    },
+    {
+      q: "Simplify: (5/8 of 16/25) ÷ (2/5).",
+      options: ["1", "4/5", "8/5", "2"],
+      answer: "1"
+    },
+    {
+      q: "Evaluate: 1/2 + 3/4 × 2/3 ÷ 1/6.",
+      options: ["6", "5", "4", "9"],
+      answer: "6"
+    },
+    {
+      q: "Simplify: [(2/3)⁻¹ × (9/8)] ÷ (3/4).",
+      options: ["2", "3/2", "4/3", "1"],
+      answer: "2"
+    },
+    {
+      q: "Find the reciprocal of (1 + 1/2 + 1/3).",
+      options: ["6/11", "1/2", "3/11", "11/6"],
+      answer: "6/11"
+    },
+    {
+      q: "Simplify: (7/9 ÷ 14/27) × (3/2).",
+      options: ["9/4", "9/8", "27/28", "27/14"],
+      answer: "9/4"
+    },
+    {
+      q: "If (2/x) + (3/4) = (11/12), find x.",
+      options: ["3", "4", "6", "8"],
+      answer: "6"
+    },
+    {
+      q: "Simplify: (5/6 of 9/10) ÷ (3/4).",
+      options: ["1", "1.1", "1.2", "1.25"],
+      answer: "1.25"
+    },
+    {
+      q: "Simplify: (4/7 ÷ 8/21) × (3/4).",
+      options: ["3/2", "9/8", "9/4", "7/8"],
+      answer: "9/8"
+    },
+    {
+      q: "Find the missing numerator: (x/12) = (5/8).",
+      options: ["7.5", "6", "7", "9"],
+      answer: "7.5"
+    },
+    {
+      q: "Simplify: (1/3 + 1/4) ÷ (1/2 + 1/6).",
+      options: ["7/8", "3/4", "1", "2/3"],
+      answer: "1"
+    },
+    {
+      q: "Simplify: [(2/5) ÷ (3/10)] × (4/9).",
+      options: ["8/27", "8/15", "16/27", "4/9"],
+      answer: "8/27"
+    },
+    {
+      q: "If (x/2) - (1/4) = (5/8), find x.",
+      options: ["1", "1.5", "1.75", "2"],
+      answer: "1.75"
+    },
+    {
+      q: "Simplify: (1 + 1/2) ÷ (1 + 1/3).",
+      options: ["3/4", "4/3", "9/8", "2/3"],
+      answer: "9/8"
+    },
+    {
+      q: "Simplify: 3 ÷ (1 + 1/2 + 1/3).",
+      options: ["18/11", "11/18", "3/11", "11/6"],
+      answer: "18/11"
+    },
+    {
+      q: "Simplify: [(2/3) of (3/5)] ÷ (4/15).",
+      options: ["1", "3/2", "5/4", "2"],
+      answer: "1"
+    },
+    {
+      q: "Simplify: (7/8 + 5/6) ÷ (3/4).",
+      options: ["1.75", "1.5", "2.5", "2.6"],
+      answer: "2.5"
+    },
+    {
+      q: "If a = 2/3 and b = 3/4, find (a² + b²)/(a×b).",
+      options: ["25/18", "25/12", "25/9", "7/3"],
+      answer: "25/18"
     }
+  ]
+},
+{
+  topic: "Algebraic Expressions",
+  questions: [
+    {
+      q: "Simplify: (2x + 3) + (4x – 5).",
+      options: ["6x – 2", "2x – 8", "6x + 8", "2x + 8"],
+      answer: "6x – 2"
+    },
+    {
+      q: "Simplify: (3a – 2b) – (4a + 5b).",
+      options: ["–a – 7b", "–a + 7b", "7a – b", "a – 7b"],
+      answer: "–a – 7b"
+    },
+    {
+      q: "Expand: (x + 2)(x + 5).",
+      options: ["x² + 7x + 10", "x² + 10x + 7", "x² + 3x + 7", "x² + 6x + 9"],
+      answer: "x² + 7x + 10"
+    },
+    {
+      q: "Expand and simplify: (3x – 2)(2x + 5).",
+      options: ["6x² + 11x – 10", "6x² – 11x + 10", "6x² + x – 10", "5x² + 10x – 11"],
+      answer: "6x² + 11x – 10"
+    },
+    {
+      q: "Factorize completely: 6x² + 13x + 6.",
+      options: ["(3x + 2)(2x + 3)", "(2x + 1)(3x + 6)", "(6x + 1)(x + 6)", "(3x + 3)(2x + 2)"],
+      answer: "(3x + 2)(2x + 3)"
+    },
+    {
+      q: "Simplify: 5x(2x – 3) – 3x(4x – 5).",
+      options: ["–2x² + 15x", "10x² – 15x – 12x² + 15x", "–2x²", "–2x² + 15x"],
+      answer: "–2x² + 15x"
+    },
+    {
+      q: "If x = 3 and y = 2, find the value of 2x²y.",
+      options: ["18", "20", "24", "36"],
+      answer: "36"
+    },
+    {
+      q: "Simplify: 3(2a – 4b) – 2(3a – 5b).",
+      options: ["–2b", "2b", "b", "–b"],
+      answer: "2b"
+    },
+    {
+      q: "Simplify: (2x²y – 3xy²) + (5x²y + xy²).",
+      options: ["7x²y – 2xy²", "3x²y – 2xy²", "7x²y + 2xy²", "2x²y + 4xy²"],
+      answer: "7x²y – 2xy²"
+    },
+    {
+      q: "Simplify: (x – 4)(x – 2).",
+      options: ["x² – 6x + 8", "x² – 2x + 6", "x² + 6x – 8", "x² – 4x + 8"],
+      answer: "x² – 6x + 8"
+    },
+    {
+      q: "Factorize: x² – 9.",
+      options: ["(x – 3)(x + 3)", "(x – 9)(x + 1)", "(x – 3)²", "(x² – 3²)"],
+      answer: "(x – 3)(x + 3)"
+    },
+    {
+      q: "Simplify: (a² – b²)/(a – b).",
+      options: ["a + b", "a – b", "a² + b²", "2ab"],
+      answer: "a + b"
+    },
+    {
+      q: "Simplify: 4x²y ÷ 2xy.",
+      options: ["2x", "x", "2y", "4y"],
+      answer: "2x"
+    },
+    {
+      q: "Simplify: (x² – 4x + 3) – (2x² – 3x + 5).",
+      options: ["–x² – x – 2", "x² – 7x + 8", "–x² – x + 2", "x² + x – 2"],
+      answer: "–x² – x – 2"
+    },
+    {
+      q: "Expand: (2x + 3y)(x – 4y).",
+      options: ["2x² – 5xy – 12y²", "2x² – 5xy + 12y²", "2x² + 5xy – 12y²", "x² – 8xy + 3y²"],
+      answer: "2x² – 5xy – 12y²"
+    },
+    {
+      q: "Simplify: (3x²y³) × (4x³y²).",
+      options: ["12x⁵y⁵", "7x⁵y⁵", "12x⁶y⁶", "7x⁶y⁵"],
+      answer: "12x⁵y⁵"
+    },
+    {
+      q: "If a = 2 and b = –3, find 2a²b – ab².",
+      options: ["–6", "–24", "24", "6"],
+      answer: "–6"
+    },
+    {
+      q: "Simplify: (x + y)² – (x – y)².",
+      options: ["4xy", "2xy", "x² – y²", "x² + y²"],
+      answer: "4xy"
+    },
+    {
+      q: "Factorize: 3x² – 27.",
+      options: ["3(x – 3)(x + 3)", "(3x – 9)(x + 1)", "3(x² – 9)", "(x – 9)(x + 9)"],
+      answer: "3(x – 3)(x + 3)"
+    },
+    {
+      q: "Simplify: (4x – 5y)².",
+      options: ["16x² – 40xy + 25y²", "16x² + 25y² – 40xy", "16x² – 25y² – 40xy", "16x² + 25y² + 40xy"],
+      answer: "16x² – 40xy + 25y²"
+    }
+  ]
+},
+{
+  topic: "Polynomial Expressions and Factorization",
+  questions: [
+    {
+      q: "Simplify: (3x³ + 2x² – x + 5) + (2x³ – 4x² + 6x – 3).",
+      options: ["5x³ – 2x² + 5x + 2", "5x³ – 6x² + 7x + 8", "5x³ – 2x² + 7x + 2", "x³ – 2x² + 5x + 8"],
+      answer: "5x³ – 2x² + 5x + 2"
+    },
+    {
+      q: "Simplify: (x³ – 2x² + x – 4) – (2x³ + x² – 3x + 2).",
+      options: ["–x³ – 3x² + 4x – 6", "x³ + 3x² – 4x + 6", "–x³ – 3x² + 2x – 6", "–x³ – 3x² + 4x + 6"],
+      answer: "–x³ – 3x² + 4x – 6"
+    },
+    {
+      q: "Find the degree of the polynomial 5x⁴y³ + 3x²y⁵ – 7.",
+      options: ["4", "5", "7", "8"],
+      answer: "7"
+    },
+    {
+      q: "Simplify: (x² – 3x + 2)(x + 4).",
+      options: ["x³ + x² – 10x + 8", "x³ + x² – 10x – 8", "x³ + x² + 10x – 8", "x³ – 3x² + 2x + 8"],
+      answer: "x³ + x² – 10x + 8"
+    },
+    {
+      q: "Factorize completely: x² – 9x + 18.",
+      options: ["(x – 3)(x – 6)", "(x – 2)(x – 9)", "(x – 9)(x – 18)", "(x – 6)(x + 3)"],
+      answer: "(x – 3)(x – 6)"
+    },
+    {
+      q: "Factorize: 3x²y – 9xy².",
+      options: ["3xy(x – 3y)", "3xy(x + 3y)", "xy(3x – 9y)", "3y(x² – 3y²)"],
+      answer: "3xy(x – 3y)"
+    },
+    {
+      q: "Simplify: (2x² – 3x + 1) – (x² – 5x – 4).",
+      options: ["x² + 2x + 5", "x² + 2x + 3", "x² + 2x + 7", "x² + 2x + 6"],
+      answer: "x² + 2x + 5"
+    },
+    {
+      q: "If f(x) = x³ – 3x² + 2x + 1, find f(2).",
+      options: ["3", "4", "5", "7"],
+      answer: "3"
+    },
+    {
+      q: "If (x – 2) is a factor of x³ – kx² + 2x – 4, find k.",
+      options: ["4", "3", "2", "5"],
+      answer: "4"
+    },
+    {
+      q: "Simplify: (x + 2)(x² + 3x + 4).",
+      options: ["x³ + 5x² + 10x + 8", "x³ + 5x² + 10x + 4", "x³ + 5x² + 8x + 8", "x³ + 4x² + 7x + 8"],
+      answer: "x³ + 5x² + 10x + 8"
+    },
+    {
+      q: "Factorize completely: 2x³ – 8x² + 6x.",
+      options: ["2x(x² – 4x + 3)", "x(2x² – 8x + 6)", "2x(x² – 2x + 3)", "2x(x² – 4x + 2)"],
+      answer: "2x(x² – 4x + 3)"
+    },
+    {
+      q: "Find the remainder when x³ + 2x² – 5x + 4 is divided by (x – 2).",
+      options: ["–4", "0", "2", "8"],
+      answer: "8"
+    },
+    {
+      q: "Simplify: (3x² + 2x – 1) + (x² – 5x + 4).",
+      options: ["4x² – 3x + 3", "4x² + 3x + 3", "4x² – 3x – 3", "4x² + 3x – 3"],
+      answer: "4x² – 3x + 3"
+    },
+    {
+      q: "Factorize: x³ – 4x² – 7x + 10.",
+      options: ["(x – 5)(x² + x – 2)", "(x – 2)(x² – 2x – 5)", "(x – 5)(x² + x – 2)", "(x – 2)(x² – 2x – 5)"],
+      answer: "(x – 5)(x² + x – 2)"
+    },
+    {
+      q: "If x = –1, evaluate f(x) = 2x³ + 3x² – x + 5.",
+      options: ["9", "7", "5", "11"],
+      answer: "11"
+    },
+    {
+      q: "Factorize: x³ – 8.",
+      options: ["(x – 2)(x² + 2x + 4)", "(x + 2)(x² – 2x + 4)", "(x – 2)(x² – 2x + 4)", "(x + 2)(x² + 2x + 4)"],
+      answer: "(x – 2)(x² + 2x + 4)"
+    },
+    {
+      q: "Simplify: (x² – 2x + 3) – (2x² – x + 1).",
+      options: ["–x² – x + 2", "–x² – x + 4", "x² – 3x + 4", "–x² – x – 2"],
+      answer: "–x² – x + 2"
+    },
+    {
+      q: "Factorize: 4x³y – 8xy³.",
+      options: ["4xy(x² – 2y²)", "4xy(x² + 2y²)", "2xy(2x² – 4y²)", "8xy(x – y)(x + y)"],
+      answer: "4xy(x² – 2y²)"
+    },
+    {
+      q: "If a polynomial p(x) is divided by (x – 3) and the remainder is 0, what does this imply?",
+      options: ["3 is a root of p(x)", "3 is not a root of p(x)", "Remainder is undefined", "p(3) ≠ 0"],
+      answer: "3 is a root of p(x)"
+    },
+    {
+      q: "Factorize completely: x³ + 3x² – 4x – 12.",
+      options: ["(x + 3)(x² – 4)", "(x + 2)(x² + x – 6)", "(x + 3)(x + 2)(x – 2)", "(x – 3)(x + 2)(x + 2)"],
+      answer: "(x + 3)(x² – 4)"
+    }
+  ]
+},
+{
+  topic: "Quadratic Equations",
+  questions: [
+    {
+      q: "Solve by factorization: x² – 5x + 6 = 0.",
+      options: ["x = 2, 3", "x = –2, –3", "x = 1, 6", "x = –1, –6"],
+      answer: "x = 2, 3"
+    },
+    {
+      q: "Solve: x² + 7x + 12 = 0.",
+      options: ["x = –3, –4", "x = 3, 4", "x = –2, –6", "x = 2, 6"],
+      answer: "x = –3, –4"
+    },
+    {
+      q: "Solve using the quadratic formula: x² – 4x – 5 = 0.",
+      options: ["x = 5, –1", "x = 1, –5", "x = –5, –1", "x = 5, 1"],
+      answer: "x = 5, –1"
+    },
+    {
+      q: "Solve by completing the square: x² + 6x + 5 = 0.",
+      options: ["x = –1, –5", "x = 1, 5", "x = –2, –4", "x = 2, 4"],
+      answer: "x = –1, –5"
+    },
+    {
+      q: "The roots of 2x² – 7x + 3 = 0 are:",
+      options: ["x = 3, 1/2", "x = 1, 3/2", "x = –3, –1/2", "x = 1/2, 3"],
+      answer: "x = 3, 1/2"
+    },
+    {
+      q: "Find the discriminant of x² + 4x + 4 = 0.",
+      options: ["0", "4", "8", "16"],
+      answer: "0"
+    },
+    {
+      q: "If the roots of x² – kx + 12 = 0 are equal, find k.",
+      options: ["8", "6", "4", "12"],
+      answer: "8"
+    },
+    {
+      q: "Solve: x² – 9 = 0.",
+      options: ["x = 3, –3", "x = 9, –9", "x = 0, 9", "x = 0, –9"],
+      answer: "x = 3, –3"
+    },
+    {
+      q: "If the sum of the roots of x² – 5x + 6 = 0 is S and the product P, find S + P.",
+      options: ["11", "12", "10", "9"],
+      answer: "11"
+    },
+    {
+      q: "Solve: 3x² – 12x + 9 = 0.",
+      options: ["x = 1, 3", "x = 1, 3", "x = 1, 1", "x = 3, 3"],
+      answer: "x = 1, 3"
+    },
+    {
+      q: "Find the roots of x² – x – 6 = 0.",
+      options: ["x = 3, –2", "x = 2, –3", "x = 6, –1", "x = 1, –6"],
+      answer: "x = 3, –2"
+    },
+    {
+      q: "The roots of 2x² + x – 6 = 0 are:",
+      options: ["x = 2, –3/2", "x = 3/2, –2", "x = –2, 3/2", "x = –3/2, 2"],
+      answer: "x = 2, –3/2"
+    },
+    {
+      q: "Solve by completing the square: x² – 6x + 5 = 0.",
+      options: ["x = 1, 5", "x = –1, 5", "x = 3 ± 2", "x = 2 ± 3"],
+      answer: "x = 3 ± 2"
+    },
+    {
+      q: "Solve using the quadratic formula: 2x² – 5x – 3 = 0.",
+      options: ["x = 3, –1/2", "x = –3, 1/2", "x = 1, –3/2", "x = 2, –3/2"],
+      answer: "x = 3, –1/2"
+    },
+    {
+      q: "Find the vertex of y = x² – 4x + 1.",
+      options: ["(2, –3)", "(–2, –3)", "(2, 3)", "(–2, 3)"],
+      answer: "(2, –3)"
+    },
+    {
+      q: "The sum of the roots of 4x² – 12x + 9 = 0 is:",
+      options: ["3/2", "12/4", "3", "–3"],
+      answer: "3/2"
+    },
+    {
+      q: "Solve: x² + 5x + 6 = 0 by factorization.",
+      options: ["x = –2, –3", "x = 2, 3", "x = –1, –6", "x = 1, 6"],
+      answer: "x = –2, –3"
+    },
+    {
+      q: "If one root of x² – 7x + 12 = 0 is 3, find the other root.",
+      options: ["4", "5", "6", "3"],
+      answer: "4"
+    },
+    {
+      q: "Solve 5x² – 20x + 15 = 0.",
+      options: ["x = 1, 3", "x = 1, 2", "x = 2, 3", "x = 1, 1.5"],
+      answer: "x = 1, 3"
+    },
+    {
+      q: "Find the roots of 3x² + 2x – 8 = 0.",
+      options: ["x = 2/3, –4", "x = –2/3, 4", "x = 4, –2/3", "x = 8/3, –1"],
+      answer: "x = 2/3, –4"
+    }
+  ]
+},
+{
+  topic: "Simultaneous Equations",
+  questions: [
+    {
+      q: "Solve: 2x + y = 7, x – y = 1.",
+      options: ["x = 2, y = 3", "x = 3, y = 1", "x = 1, y = 5", "x = 2, y = 5"],
+      answer: "x = 2, y = 3"
+    },
+    {
+      q: "Solve: x + y = 10, x – y = 4.",
+      options: ["x = 7, y = 3", "x = 6, y = 4", "x = 8, y = 2", "x = 5, y = 5"],
+      answer: "x = 7, y = 3"
+    },
+    {
+      q: "Solve using substitution: 3x + 2y = 12, x – y = 1.",
+      options: ["x = 2, y = 1.5", "x = 3, y = 1.5", "x = 4, y = 2", "x = 2, y = 2"],
+      answer: "x = 2, y = 1.5"
+    },
+    {
+      q: "Solve using elimination: 2x + 3y = 13, 3x – y = 5.",
+      options: ["x = 3, y = 2", "x = 2, y = 3", "x = 1, y = 4", "x = 4, y = 1"],
+      answer: "x = 3, y = 2"
+    },
+    {
+      q: "Find x and y: x + 2y = 8, 3x – y = 5.",
+      options: ["x = 3, y = 2.5", "x = 2, y = 3", "x = 1, y = 4", "x = 4, y = 2"],
+      answer: "x = 2, y = 3"
+    },
+    {
+      q: "Solve: 4x – y = 9, 2x + 3y = 1.",
+      options: ["x = 3, y = 3", "x = 2, y = –1", "x = 1, y = –1", "x = 2, y = 1"],
+      answer: "x = 2, y = –1"
+    },
+    {
+      q: "Solve: x – y = 4, 2x + y = 10.",
+      options: ["x = 3, y = –1", "x = 2, y = –2", "x = 4, y = 0", "x = 2, y = 6"],
+      answer: "x = 2, y = –2"
+    },
+    {
+      q: "Solve: 3x + y = 10, 2x – y = 3.",
+      options: ["x = 3, y = 1", "x = 2, y = 4", "x = 1, y = 7", "x = 4, y = –2"],
+      answer: "x = 2, y = 4"
+    },
+    {
+      q: "Solve: 5x – 2y = 4, 3x + y = 7.",
+      options: ["x = 2, y = –1", "x = 1, y = 4", "x = 2, y = 3", "x = 3, y = 1"],
+      answer: "x = 2, y = –1"
+    },
+    {
+      q: "Solve: x + y = 6, 2x + 3y = 13.",
+      options: ["x = 1, y = 5", "x = 2, y = 4", "x = 3, y = 3", "x = 4, y = 2"],
+      answer: "x = 2, y = 4"
+    },
+    {
+      q: "Solve: 4x + y = 9, 2x – y = 3.",
+      options: ["x = 2, y = 1", "x = 1, y = 5", "x = 3, y = –3", "x = 2, y = 5"],
+      answer: "x = 2, y = 1"
+    },
+    {
+      q: "Solve: 2x + 5y = 20, 3x – y = 4.",
+      options: ["x = 4, y = 2.4", "x = 5, y = 2", "x = 3, y = 3.2", "x = 2, y = 3.2"],
+      answer: "x = 4, y = 2.4"
+    },
+    {
+      q: "Solve using substitution: x + 3y = 11, 2x – y = 3.",
+      options: ["x = 4, y = 7/3", "x = 3, y = 4/3", "x = 2, y = 3", "x = 5, y = 2"],
+      answer: "x = 4, y = 7/3"
+    },
+    {
+      q: "Solve: 3x – 2y = 7, 4x + y = 10.",
+      options: ["x = 2, y = –1", "x = 1, y = 6", "x = 3, y = 1", "x = 2, y = 2"],
+      answer: "x = 2, y = 2"
+    },
+    {
+      q: "Solve: x – 2y = –1, 3x + y = 11.",
+      options: ["x = 3, y = 2", "x = 5, y = 3", "x = 4, y = 2.5", "x = 2, y = 1.5"],
+      answer: "x = 3, y = 2"
+    },
+    {
+      q: "Solve: 5x + 2y = 16, 3x – y = 5.",
+      options: ["x = 3, y = 0.5", "x = 2, y = 3", "x = 4, y = 2", "x = 1, y = 5.5"],
+      answer: "x = 3, y = 0.5"
+    },
+    {
+      q: "Solve: 2x + y = 7, 3x – 2y = 4.",
+      options: ["x = 2, y = 3", "x = 1, y = 5", "x = 3, y = 1", "x = 2, y = 5"],
+      answer: "x = 2, y = 3"
+    },
+    {
+      q: "Solve using elimination: x + 4y = 14, 3x – 2y = 4.",
+      options: ["x = 4, y = 2.5", "x = 2, y = 3", "x = 5, y = 2", "x = 3, y = 1.5"],
+      answer: "x = 4, y = 2.5"
+    },
+    {
+      q: "Solve: x – y = 3, x + y = 9.",
+      options: ["x = 6, y = 3", "x = 5, y = 4", "x = 7, y = 2", "x = 4, y = 5"],
+      answer: "x = 6, y = 3"
+    },
+    {
+      q: "Solve: 2x + 3y = 13, 4x – y = 7.",
+      options: ["x = 3, y = 2", "x = 2, y = 3", "x = 1, y = 4", "x = 4, y = 1"],
+      answer: "x = 3, y = 2"
+    }
+  ]
+},
+{
+  topic: "Inequalities",
+  questions: [
+    {
+      q: "Solve for x: 3x + 5 > 11",
+      options: ["x > 1", "x > 2", "x > 3", "x > 4"],
+      answer: "x > 2"
+    },
+    {
+      q: "Solve: 2x − 7 ≤ 5",
+      options: ["x ≤ 6", "x ≤ 5", "x ≤ 4", "x ≤ 3"],
+      answer: "x ≤ 6"
+    },
+    {
+      q: "Solve: 5 − x < 2",
+      options: ["x > 3", "x < 3", "x > 2", "x < 2"],
+      answer: "x > 3"
+    },
+    {
+      q: "Solve for x: 4x + 1 ≥ 9",
+      options: ["x ≥ 2", "x ≥ 3", "x ≥ 4", "x ≥ 1"],
+      answer: "x ≥ 2"
+    },
+    {
+      q: "Solve: 7x − 2 ≤ 12",
+      options: ["x ≤ 2", "x ≤ 3", "x ≤ 4", "x ≤ 5"],
+      answer: "x ≤ 2"
+    },
+    {
+      q: "Solve: −3x + 5 > 2",
+      options: ["x < 1", "x > 1", "x < −1", "x > −1"],
+      answer: "x < 1"
+    },
+    {
+      q: "Solve: 2x − 3 ≥ x + 4",
+      options: ["x ≥ 7", "x ≥ −7", "x ≥ 1", "x ≥ −1"],
+      answer: "x ≥ 7"
+    },
+    {
+      q: "Solve for x: 5x + 2 < 3x + 10",
+      options: ["x < 4", "x < 5", "x < 6", "x < 3"],
+      answer: "x < 4"
+    },
+    {
+      q: "Solve: 3(2x − 1) ≥ 9",
+      options: ["x ≥ 2", "x ≥ 1", "x ≥ 3", "x ≥ 4"],
+      answer: "x ≥ 2"
+    },
+    {
+      q: "Solve for x: 4 − x ≤ 7",
+      options: ["x ≥ −3", "x ≤ −3", "x ≥ 3", "x ≤ 3"],
+      answer: "x ≥ −3"
+    },
+    {
+      q: "Solve: 2(x + 3) > 10",
+      options: ["x > 2", "x > 3", "x > 4", "x > 1"],
+      answer: "x > 2"
+    },
+    {
+      q: "Solve: 5 − 2x ≥ 1",
+      options: ["x ≤ 2", "x ≥ 2", "x ≤ 3", "x ≥ 3"],
+      answer: "x ≤ 2"
+    },
+    {
+      q: "Solve: −4x + 7 < 3",
+      options: ["x > 1", "x < 1", "x > −1", "x < −1"],
+      answer: "x > 1"
+    },
+    {
+      q: "Solve for x: 3x − 5 ≤ 7",
+      options: ["x ≤ 4", "x ≤ 3", "x ≤ 5", "x ≤ 6"],
+      answer: "x ≤ 4"
+    },
+    {
+      q: "Solve: 2x + 3 ≥ 7",
+      options: ["x ≥ 2", "x ≥ 3", "x ≥ 4", "x ≥ 5"],
+      answer: "x ≥ 2"
+    },
+    {
+      q: "Solve: 7 − 3x < 1",
+      options: ["x > 2", "x < 2", "x > 1", "x < 1"],
+      answer: "x > 2"
+    },
+    {
+      q: "Solve for x: 4x − 5 > 3x + 2",
+      options: ["x > 7", "x > 6", "x > 5", "x > 4"],
+      answer: "x > 7"
+    },
+    {
+      q: "Solve: 2(3x − 1) ≤ 10",
+      options: ["x ≤ 2", "x ≤ 1", "x ≤ 3", "x ≤ 4"],
+      answer: "x ≤ 2"
+    },
+    {
+      q: "Solve: −5x + 8 ≥ 3",
+      options: ["x ≤ 1", "x ≥ 1", "x ≤ −1", "x ≥ −1"],
+      answer: "x ≤ 1"
+    },
+    {
+      q: "Solve: 3x + 7 < 2x + 10",
+      options: ["x < 3", "x > 3", "x < 2", "x > 2"],
+      answer: "x < 3"
+    }
+  ]
+},
+{
+  topic: "Rational Expressions",
+  questions: [
+    {
+      q: "Simplify: (x² − 9)/(x + 3)",
+      options: ["x − 3", "x + 3", "x² − 3", "x² + 3"],
+      answer: "x − 3"
+    },
+    {
+      q: "Simplify: (x² + 5x + 6)/(x + 2)",
+      options: ["x + 3", "x + 2", "x + 6", "x + 1"],
+      answer: "x + 3"
+    },
+    {
+      q: "Simplify: (4x² − 1)/(2x − 1)",
+      options: ["2x + 1", "2x − 1", "4x + 1", "4x − 1"],
+      answer: "2x + 1"
+    },
+    {
+      q: "Simplify: (x² − 4)/(x − 2)",
+      options: ["x + 2", "x − 2", "x² + 2", "x² − 2"],
+      answer: "x + 2"
+    },
+    {
+      q: "Simplify: (x² − 2x − 15)/(x − 5)",
+      options: ["x + 3", "x − 3", "x + 5", "x − 5"],
+      answer: "x + 3"
+    },
+    {
+      q: "Simplify: (x² + 7x + 12)/(x + 3)",
+      options: ["x + 4", "x + 3", "x + 5", "x + 6"],
+      answer: "x + 4"
+    },
+    {
+      q: "Simplify: (2x² + 7x + 3)/(2x + 1)",
+      options: ["x + 3", "x + 1", "x + 2", "x + 4"],
+      answer: "x + 3"
+    },
+    {
+      q: "Simplify: (x² − x − 6)/(x − 3)",
+      options: ["x + 2", "x − 2", "x + 3", "x − 3"],
+      answer: "x + 2"
+    },
+    {
+      q: "Simplify: (x² + 6x + 8)/(x + 2)",
+      options: ["x + 4", "x + 3", "x + 2", "x + 1"],
+      answer: "x + 4"
+    },
+    {
+      q: "Simplify: (9x² − 16)/(3x − 4)",
+      options: ["3x + 4", "3x − 4", "9x + 16", "9x − 16"],
+      answer: "3x + 4"
+    },
+    {
+      q: "Simplify: (x² − 16)/(x − 4)",
+      options: ["x + 4", "x − 4", "x² + 4", "x² − 4"],
+      answer: "x + 4"
+    },
+    {
+      q: "Simplify: (x² + 5x + 6)/(x + 2)",
+      options: ["x + 3", "x + 2", "x + 4", "x + 1"],
+      answer: "x + 3"
+    },
+    {
+      q: "Simplify: (x² + x − 6)/(x + 3)",
+      options: ["x − 2", "x + 2", "x − 3", "x + 3"],
+      answer: "x − 2"
+    },
+    {
+      q: "Simplify: (4x² − 9)/(2x − 3)",
+      options: ["2x + 3", "2x − 3", "4x + 3", "4x − 3"],
+      answer: "2x + 3"
+    },
+    {
+      q: "Simplify: (x² − 5x + 6)/(x − 2)",
+      options: ["x − 3", "x + 3", "x − 2", "x + 2"],
+      answer: "x − 3"
+    },
+    {
+      q: "Simplify: (x² + 7x + 10)/(x + 5)",
+      options: ["x + 2", "x + 5", "x + 3", "x + 4"],
+      answer: "x + 2"
+    },
+    {
+      q: "Simplify: (2x² + 5x + 2)/(2x + 1)",
+      options: ["x + 2", "x + 1", "x + 3", "x + 4"],
+      answer: "x + 2"
+    },
+    {
+      q: "Simplify: (x² − 9x + 20)/(x − 4)",
+      options: ["x − 5", "x − 4", "x − 6", "x − 3"],
+      answer: "x − 5"
+    },
+    {
+      q: "Simplify: (x² + 3x − 10)/(x + 5)",
+      options: ["x − 2", "x + 2", "x − 5", "x + 5"],
+      answer: "x − 2"
+    },
+    {
+      q: "Simplify: (x² − 6x + 8)/(x − 4)",
+      options: ["x − 2", "x − 4", "x − 1", "x − 3"],
+      answer: "x − 2"
+    }
+  ]
+},
+
   ],
   
   English: [
@@ -3792,7 +4511,9 @@ const users = [
 ];
 
 // CBT subject array
-const subjects = ["Mathematics", "English", "Physics", "Chemistry", "Biology", "Economics", "Literature", "Crs", "Government", "Civic_Education", "Data_Processing", "Agriculture"]
+const subjects = [
+  "Mathematics", "English", "Physics", "Chemistry", "Biology", "Economics", "Literature", "Crs", "Government", "Civic_Education", "Data_Processing", "Agriculture"
+]
 
 
 // CBT questions data
@@ -3817,8 +4538,7 @@ const questions = {
   },
   {
     question: "Find the value of x in the triangle shown.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Triangle_ABC.svg",
-    imageAlt: "Triangle ABC with sides labeled",
+    image: "./images (56).jpeg",
     options: ["70°", "35°", "75°", "60°"],
     answer: 2,
   },
@@ -8383,7 +9103,7 @@ const questions = {
 //assignments data here
 
 const assignments = [
-/* 
+ 
   {
     subject: "Mathematics",
     topic: "Simultaneous Equations",
@@ -8395,457 +9115,4 @@ const assignments = [
     ],
     deadline: "2025-11-05"
   }
-  */
 ];
-
-
-
-
-
-
-
-
-window.studyData = {
-// data.js
-"Biology": [
-  {
-    topic: "Introduction to Biology",
-    notes: {
-      title: "Biology — Meaning, Branches, and Importance",
-      content: [
-        { 
-          type: "text", 
-          data: "Biology is the branch of science that deals with the study of living organisms and their interactions with one another and their environment. The term 'biology' comes from two Greek words: 'bios' (life) and 'logos' (study). Biology helps us understand how living things function, reproduce, and adapt to their surroundings." 
-        },
-        { 
-          type: "text", 
-          data: "Branches of Biology:\n1. Botany – study of plants.\n2. Zoology – study of animals.\n3. Microbiology – study of microscopic organisms.\n4. Genetics – study of heredity and variation.\n5. Ecology – study of relationships between organisms and their environment.\n6. Anatomy – study of the structure of organisms.\n7. Physiology – study of how living systems function." 
-        },
-        { 
-          type: "text", 
-          data: "Importance of Biology:\n• Helps in understanding diseases and developing medicines.\n• Contributes to agriculture through crop improvement and pest control.\n• Promotes environmental conservation and biodiversity protection.\n• Provides knowledge for biotechnology, genetic engineering, and food science.\n• Helps in solving global problems such as hunger, pollution, and health crises." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Tree_of_life_SVG.svg/640px-Tree_of_life_SVG.svg.png" 
-        }
-      ]
-    }
-  },
-  {
-    topic: "Characteristics of Living Things",
-    notes: {
-      title: "Characteristics of Living Organisms — What Makes Something Alive?",
-      content: [
-        { 
-          type: "text", 
-          data: "Living things possess certain characteristics that distinguish them from non-living things. These characteristics are often summarized by the acronym **MRS GREN** (Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition)." 
-        },
-        { 
-          type: "text", 
-          data: "1. Movement — the ability of an organism to change position or move parts of its body. Plants show slow movement like bending toward light, while animals move freely in search of food or safety." 
-        },
-        { 
-          type: "text", 
-          data: "2. Respiration — the process by which organisms break down food to release energy for activities. It can be aerobic (using oxygen) or anaerobic (without oxygen)." 
-        },
-        { 
-          type: "text", 
-          data: "3. Sensitivity (Irritability) — the ability to detect and respond to changes in the environment (stimuli). For example, humans react to touch and temperature; plants respond to light and gravity." 
-        },
-        { 
-          type: "text", 
-          data: "4. Growth — an irreversible increase in size and mass resulting from cell division and enlargement." 
-        },
-        { 
-          type: "text", 
-          data: "5. Reproduction — the ability to produce offspring, ensuring the survival of a species. It can be sexual or asexual." 
-        },
-        { 
-          type: "text", 
-          data: "6. Excretion — removal of metabolic waste products from the body, such as carbon dioxide, urea, and excess water." 
-        },
-        { 
-          type: "text", 
-          data: "7. Nutrition — the process by which organisms obtain food for energy and growth. Plants make their food through photosynthesis (autotrophic nutrition), while animals feed on other organisms (heterotrophic nutrition)." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/MRS_GREN_characteristics.svg/640px-MRS_GREN_characteristics.svg.png" 
-        }
-      ]
-    }
-  },
-  {
-    topic: "Cell as a Living Unit",
-    notes: {
-      title: "The Cell — Structure, Functions, and Types",
-      content: [
-        { 
-          type: "text", 
-          data: "The cell is the basic structural, functional, and biological unit of life. All living organisms are made up of cells — some are unicellular (single-celled), while others are multicellular (many-celled)." 
-        },
-        { 
-          type: "text", 
-          data: "The Cell Theory states that:\n1. All living things are made up of cells.\n2. The cell is the basic unit of structure and function in living things.\n3. All cells arise from pre-existing cells (proposed by Rudolf Virchow)." 
-        },
-        { 
-          type: "text", 
-          data: "Cell Structure:\nA typical cell consists of:\n• **Cell membrane** – controls the movement of substances in and out.\n• **Cytoplasm** – jelly-like substance where metabolic reactions occur.\n• **Nucleus** – controls cell activities and contains DNA.\n• **Mitochondria** – site of respiration and energy production.\n• **Ribosomes** – site of protein synthesis.\n• **Endoplasmic Reticulum (ER)** – transports materials within the cell.\n• **Golgi Body** – modifies and packages proteins.\n• **Vacuole** – stores food and water (large in plant cells).\n• **Cell wall** – provides support and protection (only in plants)." 
-        },
-        { 
-          type: "text", 
-          data: "Types of Cells:\n• Plant Cells – have a cell wall, large vacuole, and chloroplasts for photosynthesis.\n• Animal Cells – lack a cell wall and chloroplasts, usually have small vacuoles." 
-        },
-        { 
-          type: "text", 
-          data: "Microscopes are used to view cells. The light microscope uses lenses and light, while the electron microscope provides higher magnification and resolution using electron beams." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Animal_Cell.svg/640px-Animal_Cell.svg.png" 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Plant_cell_structure_en.svg/640px-Plant_cell_structure_en.svg.png" 
-        }
-      ]
-    }
-  },
-  {
-    topic: "Cell Organization",
-    notes: {
-      title: "Cell Organization — From Cells to Systems",
-      content: [
-        { 
-          type: "text", 
-          data: "In multicellular organisms, cells are organized into higher levels of structure to perform specific functions efficiently. This hierarchy of organization ensures coordination and survival." 
-        },
-        { 
-          type: "text", 
-          data: "Levels of Organization:\n1. **Cell** – the basic unit of life (e.g., red blood cell, nerve cell).\n2. **Tissue** – a group of similar cells performing a common function (e.g., muscle tissue, xylem tissue).\n3. **Organ** – made up of different tissues working together (e.g., heart, leaf, kidney).\n4. **System** – a group of organs performing related functions (e.g., circulatory system, digestive system).\n5. **Organism** – a complete living being capable of independent existence." 
-        },
-        { 
-          type: "text", 
-          data: "Examples:\n• In plants: root cells form root tissue, tissues form the root organ, and together with the stem and leaves form the shoot system.\n• In animals: muscle cells form muscle tissue, which combines with bones to form organs like limbs, and systems like the skeletal or muscular system." 
-        },
-        { 
-          type: "text", 
-          data: "Specialization (cell differentiation) occurs when cells develop structures suited to their specific functions. For instance, nerve cells transmit impulses, while xylem cells conduct water in plants." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Biological_organization_levels_en.svg/640px-Biological_organization_levels_en.svg.png" 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Tissues%2C_organs%2C_systems.svg/640px-Tissues%2C_organs%2C_systems.svg.png" 
-        }
-      ]
-    }
-  }
-],
-
-"Chemistry": [
-  {
-    topic: "Introduction to Chemistry",
-    notes: {
-      title: "Chemistry — Meaning, Branches, and Importance",
-      content: [
-        { 
-          type: "text", 
-          data: "Chemistry is the branch of science that studies the composition, structure, properties, and transformation of matter. It explains what substances are made of, how they interact, and how new substances can be formed through chemical reactions. The term 'chemistry' comes from the ancient practice of alchemy, which involved the search for ways to transform materials (like turning base metals into gold)." 
-        },
-        { 
-          type: "text", 
-          data: "Chemistry connects other branches of science — it explains how biological systems function at the molecular level (in biochemistry), and how physical changes in matter relate to energy (in physical chemistry). It is often called 'the central science' because it bridges physics, biology, and geology." 
-        },
-        { 
-          type: "text", 
-          data: "Major Branches of Chemistry:\n1. Physical Chemistry – studies energy changes and physical properties of matter.\n2. Organic Chemistry – focuses on compounds that contain carbon.\n3. Inorganic Chemistry – deals with elements and compounds that are not carbon-based.\n4. Analytical Chemistry – involves identifying and measuring the composition of substances.\n5. Biochemistry – studies the chemical processes within living organisms." 
-        },
-        { 
-          type: "text", 
-          data: "Importance of Chemistry:\n• Medicine – development of drugs and vaccines.\n• Agriculture – production of fertilizers, pesticides, and preservatives.\n• Industry – manufacturing of plastics, fuels, cosmetics, and detergents.\n• Environment – understanding pollution and developing eco-friendly materials.\n• Daily life – cooking, cleaning, and preservation all involve chemical processes." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Chemistry_flasks.svg/640px-Chemistry_flasks.svg.png" 
-        }
-      ]
-    }
-  },
-  {
-    topic: "States of Matter",
-    notes: {
-      title: "States of Matter — Solids, Liquids, and Gases",
-      content: [
-        { 
-          type: "text", 
-          data: "Matter is anything that has mass and occupies space. It exists mainly in three physical states: solid, liquid, and gas. Each state has distinct particle arrangements and energy levels that determine its properties." 
-        },
-        { 
-          type: "text", 
-          data: "Solids: Particles are closely packed in fixed positions, giving solids a definite shape and volume. The particles vibrate about fixed points but do not move freely. Solids are usually incompressible and have high density. Examples: ice, salt, iron." 
-        },
-        { 
-          type: "text", 
-          data: "Liquids: Particles are close together but not in fixed positions, allowing them to slide over one another. Liquids have definite volume but take the shape of their container. They are slightly compressible and flow easily. Examples: water, oil, alcohol." 
-        },
-        { 
-          type: "text", 
-          data: "Gases: Particles are far apart and move rapidly in all directions. Gases have neither definite shape nor volume. They fill their containers completely and are easily compressed. Examples: air, carbon dioxide, nitrogen." 
-        },
-        { 
-          type: "text", 
-          data: "Changes of State: Matter can change from one state to another through heating or cooling — melting (solid → liquid), freezing (liquid → solid), evaporation (liquid → gas), condensation (gas → liquid), sublimation (solid → gas), and deposition (gas → solid)." 
-        },
-        { 
-          type: "text", 
-          data: "The Kinetic Theory of Matter explains these states by describing matter as composed of tiny particles in constant motion. The energy and spacing between particles determine the state of matter." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/States_of_matter.svg/640px-States_of_matter.svg.png" 
-        }
-      ]
-    }
-  },
-  {
-    topic: "Atomic Structure",
-    notes: {
-      title: "Atomic Structure — Protons, Neutrons, and Electrons",
-      content: [
-        { 
-          type: "text", 
-          data: "All matter is made up of atoms — the smallest particles that can take part in chemical reactions. An atom consists of a dense central nucleus surrounded by electrons moving in energy levels or shells." 
-        },
-        { 
-          type: "text", 
-          data: "The nucleus contains positively charged protons and neutral neutrons, giving it most of the atom’s mass. Electrons are negatively charged and occupy specific energy levels around the nucleus. The number of protons equals the number of electrons in a neutral atom." 
-        },
-        { 
-          type: "text", 
-          data: "Subatomic particles:\n• Proton — positive charge (+1), mass ≈ 1 atomic mass unit (amu).\n• Neutron — no charge (0), mass ≈ 1 amu.\n• Electron — negative charge (−1), mass ≈ 1/1836 amu.\nThe atomic number (Z) is the number of protons, while the mass number (A) is the sum of protons and neutrons (A = Z + N)." 
-        },
-        { 
-          type: "text", 
-          data: "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons. For example, carbon-12, carbon-13, and carbon-14 are isotopes of carbon." 
-        },
-        { 
-          type: "text", 
-          data: "Electron Arrangement: Electrons occupy energy levels (shells) in increasing order of energy — K, L, M, N, etc. The maximum number of electrons in a shell is given by 2n², where n is the shell number. Example: Sodium (Na, atomic number 11) has the configuration 2, 8, 1." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Atomic_structure.svg/640px-Atomic_structure.svg.png" 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Electron_shell_011_Sodium.svg/512px-Electron_shell_011_Sodium.svg.png" 
-        }
-      ]
-    }
-  },
-  {
-    topic: "Periodi Periodic Trends",
-    notes: {
-      title: "Periodic Table — Arrangement and Trends",
-      content: [
-        { 
-          type: "text", 
-          data: "The periodic table is a systematic arrangement of elements based on increasing atomic number. It helps predict the properties and behaviors of elements. Elements are placed in periods (horizontal rows) and groups (vertical columns) according to their electron configurations." 
-        },
-        { 
-          type: "text", 
-          data: "Each group contains elements with similar chemical properties because they have the same number of valence electrons. Metals are found on the left and center, non-metals on the right, and metalloids between them. The table is divided into s, p, d, and f blocks based on the outermost electron sub-shell." 
-        },
-        { 
-          type: "text", 
-          data: "Periodic Law: The chemical and physical properties of elements are periodic functions of their atomic numbers. This means that properties repeat at regular intervals when elements are arranged by atomic number." 
-        },
-        { 
-          type: "text", 
-          data: "Periodic Trends:\n1. **Atomic Size (Radius)** — decreases across a period (due to increasing nuclear charge) and increases down a group (due to additional energy levels).\n2. **Ionization Energy** — increases across a period and decreases down a group.\n3. **Electronegativity** — increases across a period and decreases down a group.\n4. **Metallic Character** — decreases across a period and increases down a group." 
-        },
-        { 
-          type: "text", 
-          data: "The periodic table helps chemists understand and predict how elements form compounds, their reactivity, and the types of bonds they form. For example, Group 1 (Alkali metals) are highly reactive, while Group 18 (Noble gases) are inert." 
-        },
-        { 
-          type: "image", 
-          data: "https://chem.libretexts.org/@api/deki/files/5531/Periodic_trends.png" 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Periodic_table_large.svg/640px-Periodic_table_large.svg.png" 
-        }
-      ]
-    }
-  }
-],
-
-"Physics": [
-  {
-    topic: "Introduction to Physics",
-    notes: {
-      title: "Physics — Meaning, Branches, and Importance",
-      content: [
-        { 
-          type: "text", 
-          data: "Physics is the branch of science that deals with the study of matter, energy, and their interactions. It explains natural phenomena such as motion, heat, light, sound, electricity, magnetism, and atomic structure. The word 'physics' originates from the Greek word 'physis' meaning nature." 
-        },
-        { 
-          type: "text", 
-          data: "Branches of Physics:\n1. Mechanics – studies motion, forces, and energy.\n2. Heat (Thermodynamics) – deals with heat, temperature, and energy transfer.\n3. Waves and Optics – explains light, sound, and wave motion.\n4. Electricity and Magnetism – deals with electric charges, fields, and magnetism.\n5. Modern Physics – studies atomic and nuclear processes, relativity, and quantum mechanics." 
-        },
-        { 
-          type: "text", 
-          data: "Importance of Physics:\n• It forms the foundation for other sciences and engineering.\n• Explains the operation of machines, vehicles, and communication systems.\n• Aids in the development of technologies like computers, lasers, medical imaging, and satellites.\n• Promotes logical and problem-solving thinking through scientific methods." 
-        },
-        { 
-          type: "text", 
-          data: "Physics uses two key methods: (1) Observation and experimentation — to discover and verify laws of nature; (2) Measurement and analysis — to quantify results and make predictions." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Physics_equations.svg/640px-Physics_equations.svg.png" 
-        }
-      ]
-    }
-  },
-  {
-    topic: "Physical Quantities and Units",
-    notes: {
-      title: "Physical Quantities — Fundamental, Derived, and Units of Measurement",
-      content: [
-        { 
-          type: "text", 
-          data: "A physical quantity is any quantity that can be measured and expressed in numbers with units. Examples include length, mass, time, velocity, and force." 
-        },
-        { 
-          type: "text", 
-          data: "There are two types of physical quantities:\n1. Fundamental Quantities – cannot be defined in terms of other quantities. Examples: length (metre), mass (kilogram), time (second), electric current (ampere), temperature (kelvin), luminous intensity (candela), and amount of substance (mole).\n2. Derived Quantities – obtained by combining fundamental quantities. Examples: area (m²), volume (m³), velocity (m/s), acceleration (m/s²), force (newton = kg·m/s²)." 
-        },
-        { 
-          type: "text", 
-          data: "The SI (Systeme Internationale) system is the internationally accepted system of units. It ensures uniformity in scientific communication." 
-        },
-        { 
-          type: "text", 
-          data: "Prefixes are used to express very large or very small quantities conveniently. For example: kilo (10³), mega (10⁶), centi (10⁻²), milli (10⁻³), micro (10⁻⁶), and nano (10⁻⁹)." 
-        },
-        { 
-          type: "text", 
-          data: "Measurement is the process of comparing an unknown quantity with a known standard. Errors can occur due to limitations of instruments, human reaction, or environmental factors, and should be minimized using proper techniques and calibrations." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/SI_base_units.svg/640px-SI_base_units.svg.png" 
-        }
-      ]
-    }
-  },
-  {
-    topic: "Scalars and Vectors",
-    notes: {
-      title: "Scalars and Vectors — Direction and Magnitude",
-      content: [
-        { 
-          type: "text", 
-          data: "Physical quantities can be classified as scalars or vectors based on whether they have direction." 
-        },
-        { 
-          type: "text", 
-          data: "Scalar quantities have magnitude only. Examples include distance, speed, mass, time, energy, and temperature." 
-        },
-        { 
-          type: "text", 
-          data: "Vector quantities have both magnitude and direction. Examples include displacement, velocity, acceleration, force, and momentum." 
-        },
-        { 
-          type: "text", 
-          data: "Vector Representation: A vector is represented by an arrow — the length of the arrow shows its magnitude, and the arrowhead shows direction. Vectors are denoted in bold or with an arrow sign (e.g., **v** or →v)." 
-        },
-        { 
-          type: "text", 
-          data: "Vector Addition:\n1. Triangle Law — place vectors head-to-tail; the resultant vector is drawn from the start of the first to the end of the last.\n2. Parallelogram Law — two vectors from a common point form adjacent sides of a parallelogram; the diagonal gives the resultant.\n3. Resolution — a vector can be broken into horizontal and vertical components using trigonometry." 
-        },
-        { 
-          type: "text", 
-          data: "Vector subtraction, multiplication by a scalar, and dot/cross products are also used in physics to determine resultant forces, work done, and torque." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Vector_addition_parallelogram_law.svg/640px-Vector_addition_parallelogram_law.svg.png" 
-        }
-      ]
-    }
-  },
-  {
-    topic: "Motion",
-    notes: {
-      title: "Motion — Speed, Velocity, Acceleration, and Graphical Analysis",
-      content: [
-        { 
-          type: "text", 
-          data: "Motion is the change in position of an object with time. It can be uniform (constant speed) or non-uniform (changing speed). Motion is described in terms of distance, displacement, speed, velocity, and acceleration." 
-        },
-        { 
-          type: "text", 
-          data: "Key terms:\n• Distance — total path covered (scalar).\n• Displacement — shortest path between initial and final points (vector).\n• Speed — rate of change of distance (scalar).\n• Velocity — rate of change of displacement (vector).\n• Acceleration — rate of change of velocity with time." 
-        },
-        { 
-          type: "text", 
-          data: "Equations of Uniformly Accelerated Motion:\n1. v = u + at\n2. s = ut + ½at²\n3. v² = u² + 2as\nwhere u = initial velocity, v = final velocity, a = acceleration, s = displacement, and t = time." 
-        },
-        { 
-          type: "text", 
-          data: "Graphs of motion:\n• Displacement–time graph: slope = velocity.\n• Velocity–time graph: slope = acceleration, area under the curve = distance or displacement.\nThese graphs help visualize motion relationships." 
-        },
-        { 
-          type: "text", 
-          data: "Uniform motion occurs when velocity remains constant (zero acceleration). Non-uniform motion involves changing velocity (acceleration or deceleration). Examples include free fall, car acceleration, and projectile motion." 
-        },
-        { 
-          type: "text", 
-          data: "Newton’s Laws of Motion (introduced later) explain how forces cause motion. The study of motion forms the foundation of mechanics and engineering physics." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Velocity_vs_time_graph.png/640px-Velocity_vs_time_graph.png" 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Displacement_time_graphs.png/640px-Displacement_time_graphs.png" 
-        }
-      ]
-    }
-  }
-],
-
-  "Mathematics": [
-    {
-      topic: "Quadratic Equations",
-      notes: {
-        title: "Quadratic Equations — Factorization and Formula Method",
-        content: [
-          { type: "text", data: "A quadratic equation is of the form ax² + bx + c = 0. It can be solved by factorization, completing the square, or using the quadratic formula: x = (-b ± √(b² - 4ac)) / 2a." },
-          { type: "text", data: "The discriminant (b² - 4ac) determines the nature of the roots: real and distinct, real and equal, or complex." },
-          { type: "image", data: "https://upload.wikimedia.org/wikipedia/commons/8/8c/Quadratic_formula_graph.svg" }
-        ]
-      }
-    },
-    {
-      topic: "Trigonometric Ratios",
-      notes: {
-        title: "Trigonometric Ratios — Sine, Cosine, and Tangent",
-        content: [
-          { type: "text", data: "In a right-angled triangle, trigonometric ratios relate the angles to the lengths of sides: sin(θ) = opposite/hypotenuse, cos(θ) = adjacent/hypotenuse, and tan(θ) = opposite/adjacent." },
-          { type: "text", data: "These ratios are used to solve problems involving heights, distances, and angles in geometry and physics." },
-          { type: "image", data: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Trigonometric_functions.svg" }
-        ]
-      }
-    }
-  ]
-};

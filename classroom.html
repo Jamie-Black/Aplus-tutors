@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <main>
+    <main style="height: 80vh;">
         <section id="classroom-player-section">
             <div id="video-player-area" class="main-content-area" style="max-width: 1000px;height: fit-content;">
                 <p style="text-align: center;">Loading courses...</p>
@@ -25,9 +25,12 @@
         
     </main>
 
-    <footer>
-        <p>&copy 2021 Aplus Tutors </p>
-        </footer>
+  <footer style="text-align:center;padding:12px;color:white;font-size:13px; background-color:#8B0000;">
+    <div style="padding: 10px;">
+      <a style="text-decoration: underline; color: white;" class="btn" href="dashboard.html">Back to Dashboard</a>
+    </div>
+    <h4>&copy; 2021 Aplus Tutors</h4>
+</footer>
 
     <script src="data.js"></script> 
     
@@ -38,7 +41,7 @@
             
             // Safety check for data loading
             if (typeof COURSE_DATA === 'undefined' || COURSE_DATA.length === 0) {
-                 playerArea.innerHTML = '<p style="text-align: center;">No video lesson available. Please check the back later</p>';
+                 playerArea.innerHTML = '<p style="text-align: center;">No video lesson available. Please check back later</p>';
                  return;
             }
             

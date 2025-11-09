@@ -54,8 +54,12 @@
       <p>Track your academic growth and performance</p>
     </div>
   </section>
-
+  
   <button class="logout-btn" onclick="logout()">Logout</button>
+  
+  <footer style="background-color: #8B0000; width: 100%;padding:20px;text-align: center;color: white;">
+    &copy; 2021 Aplus Tutors
+  </footer>
 
   <script>
     // ✅ Display user info from localStorage
@@ -76,7 +80,7 @@
     // ✅ Logout function
     function logout() {
       localStorage.removeItem("loggedInUser");
-      window.location.href = "login.html";
+      window.location.href = "student-login.html";
     }
   </script>
   <script>
@@ -93,7 +97,8 @@
     `"Push yourself, because no one else is going to do it for you."`,
     `"Your only limit is your mind."`,
     `"Don’t watch the clock; do what it does — keep going."`,
-    `"Study hard, for the well is deep, and our brains are shallow."`
+    `"Study hard, for the well is deep, and our brains are shallow."`,
+    `"The key to success is to never stay down."`
   ];
 
   // 🎲 Pick a random quote
