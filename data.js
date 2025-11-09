@@ -12,6 +12,10 @@ const registeredUsers = [
   {
     fullName: "Oluwalade Mary",
     email: "maryoluwalade48@gmail.com"
+  },
+  {
+    fullName: "Ajenifuja Kehinde",
+    email: "ajenifujakehinde97@gmail.com"
   }
 ];
 
