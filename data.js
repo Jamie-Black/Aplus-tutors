@@ -22,9 +22,10 @@ const registeredUsers = [
     password: "olamideoderinde343"
   },
   {
-    fullName: "Akinwale Omobolanle",
-    password: "omobolanle16"
+    fullName: "Omobolanle Akinwale",
+    password: "akinwaleomobolanle16"
   }
+
 ];
 
 
