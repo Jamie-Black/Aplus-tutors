@@ -1,159 +1,354 @@
-    /* ===== MOBILE-FIRST THEME & LAYOUT ===== */
-    :root {
-      --crimson: #8B0000;
-      --accent: #b22222;
-      --bg: #fff;
-      --muted: #f6f6f6;
-      --text: #111;
-      --card-shadow: 0 8px 20px rgba(11,11,11,0.06);
-    }
-    * {
-      box-sizing: border-box;
-      font-family: Inter, system-ui, Segoe UI, Roboto, Arial;
-    }
-    html, body {
-      height: 100%;
-      margin: 0;
-      background: linear-gradient(180deg, var(--bg), #fbfbfb);
-      color: var(--text);
-    }
-    header {
-      background: var(--crimson);
-      color: white;
-      padding: 14px 16px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-    header h1 { font-size: 16px; margin: 0; font-weight: 600 }
-    header .sub { font-size: 12px; opacity: 0.95 }
-    main {
-      padding: 12px;
-      max-width: 900px;
-      margin: 0 auto 36px;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-    .subjects-row {
-      display: flex;
-      gap: 8px;
-      overflow-x: auto;
-      padding-bottom: 6px;
-    }
-    .subject-pill {
-      white-space: nowrap;
-      background: var(--muted);
-      padding: 8px 12px;
-      border-radius: 999px;
-      font-weight: 600;
-      font-size: 13px;
-      border: 1px solid rgba(0,0,0,0.04);
-      cursor: pointer;
-      flex-shrink: 0;
-    }
-    .subject-pill.active {
-      background: var(--crimson);
-      color: white;
-      box-shadow: var(--card-shadow);
-    }
-    .topics-panel {
-      background: white;
-      border-radius: 12px;
-      padding: 10px;
-      box-shadow: var(--card-shadow);
-    }
-    .topic-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px;
-      border-radius: 10px;
-      margin: 6px 0;
-      cursor: pointer;
-    }
-    .topic-left { display: flex; flex-direction: column; }
-    .topic-title { font-weight: 600; font-size: 14px; }
-    .topic-meta { font-size: 12px; color: #666; margin-top: 4px; }
-    .badge-completed {
-      background: #0a8f3f;
-      color: white;
-      padding: 4px 8px;
-      border-radius: 999px;
-      font-size: 12px;
-    }
-    .open-btn {
-      background: transparent;
-      border: 1px solid var(--crimson);
-      color: var(--crimson);
-      padding: 6px 10px;
-      border-radius: 8px;
-      font-weight: 600;
-      cursor: pointer;
-    }
-    .notes-card {
-      background: white;
-      border-radius: 12px;
-      padding: 12px;
-      box-shadow: var(--card-shadow);
-      min-height: 260px;
-      overflow: auto;
-      position: relative;
-      transform: translateX(0);
-      transition: transform 280ms cubic-bezier(.2,.9,.25,1);
-    }
-    .notes-card.enter-from-right {
-      transform: translateX(12px);
-      opacity: 0;
-    }
-    .notes-header {
-      display: flex;
-      flex-direction:column;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      margin-bottom: 8px;
-      text-align: center;
-    }
-    .breadcrumb { font-size: 13px; color: #444; }
-    .note-title { margin: 6px 0 12px 0; font-size: 18px; }
-    .note-block { margin-bottom: 14px; line-height: 1.6; font-size: 15px; }
-    .note-block img {
-      max-width: 100%;
-      border-radius: 8px;
-      display: block;
-      margin: 8px 0;
-    }
-    .progress-row { display: flex; gap: 10px; align-items: center; }
-    .progress-bar {
-      flex: 1;
-      height: 10px;
-      background: #eee;
-      border-radius: 999px;
-      overflow: hidden;
-    }
-    .progress-inner {
-      height: 100%;
-      width: 0;
-      background: linear-gradient(90deg, var(--crimson), var(--accent));
-      transition: width 200ms ease;
-    }
-    .progress-label { min-width: 44px; text-align: right; font-size: 13px; }
-    .controls {
-      display: flex;
-      gap: 8px;
-      justify-content: flex-end;
-      margin-top: 8px;
-    }
-    .btn { padding: 8px 12px; border-radius: 10px; border: 0; cursor: pointer; font-weight: 600; }
-    .btn.primary { background: var(--crimson); color: white; }
-    .btn.ghost { background: transparent; border: 1px solid #ddd; }
-    @media (min-width: 720px) {
-      main { padding: 20px; gap: 16px; }
-      .subjects-row { gap: 12px; }
-      .notes-card { min-height: 360px; }
-      .note-title { font-size: 20px; }
-    }
+/* ===============================
+   APLUS TUTORS STUDY PAGE STYLES
+   Modern Mobile-First Design
+   =============================== */
+
+/* ----- Base Reset & Theme ----- */
+:root {
+  --primary: #8B0000;
+  --primary-light: #b22222;
+  --bg: #f8f8fb;
+  --text: #222;
+  --muted: #666;
+  --white: #fff;
+  --radius: 14px;
+  --shadow: 0 4px 10px rgba(0,0,0,0.1);
+  --transition: 0.3s ease;
+  --gradient: linear-gradient(135deg, #8B0000, #c0392b);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----- Header ----- */
+header {
+  background: var(--gradient);
+  color: var(--white);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--shadow);
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  animation: slideDown 0.6s ease;
+}
+
+header h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header .sub {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+/* ----- Main Content ----- */
+main {
+  flex: 1;
+  padding: 18px 16px 100px;
+  animation: fadeIn 0.6s ease;
+}
+
+/* ----- Subject Pills ----- */
+.subjects-row {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding-bottom: 8px;
+  scrollbar-width: none;
+}
+.subjects-row::-webkit-scrollbar { display: none; }
+
+/* ===== SUBJECT PANEL - FIXED TOP & MODERN STYLE ===== */
+.subjects-wrapper {
+  top: 70px; /* just below header height */
+  background: var(--bg);
+  z-index: 50;
+  padding: 8px 0 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  backdrop-filter: blur(6px);
+}
+
+/* Scrollable horizontal row */
+.subjects-row {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 6px 14px;
+  scrollbar-width: none;
+}
+.subjects-row::-webkit-scrollbar {
+  display: none;
+}
+
+/* Modern subject pills */
+.subject-pill {
+  background: var(--white);
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.subject-pill:hover {
+  background: var(--primary-light);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.subject-pill.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+  transform: scale(1.05);
+  box-shadow: 0 3px 8px rgba(139, 0, 0, 0.3);
+}
+
+.subject-pill {
+  background: var(--white);
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  white-space: nowrap;
+}
+
+.subject-pill.active {
+  background: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+  transform: scale(1.05);
+}
+
+/* ----- Topic List ----- */
+.topics-panel {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.topic-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--white);
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.topic-row:hover {
+  transform: translateY(-2px);
+}
+
+.topic-title {
+  font-weight: 600;
+}
+
+.topic-meta {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.open-btn {
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: var(--transition);
+}
+.open-btn:hover {
+  background: var(--primary-light);
+  transform: scale(1.05);
+}
+
+/* Completed badge */
+.badge-completed {
+  background: #27ae60;
+  color: white;
+  font-size: 11px;
+  border-radius: 5px;
+  padding: 2px 6px;
+  margin-right: 8px;
+}
+
+/* ----- Notes Card ----- */
+.notes-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  margin-top: 20px;
+  padding: 18px;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  animation: fadeUp 0.6s ease;
+}
+
+.notes-card.enter-from-right {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.notes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.breadcrumb {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.note-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.note-block {
+  margin-bottom: 16px;
+}
+
+.note-block img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  margin-top: 6px;
+}
+
+/* Progress Bar */
+.progress-bar {
+  background: #eee;
+  height: 8px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-inner {
+  background: var(--primary);
+  height: 100%;
+  width: 0;
+  transition: width 0.4s ease;
+}
+
+.progress-label {
+  font-size: 13px;
+  color: var(--text);
+}
+
+/* ----- Buttons ----- */
+.btn {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 16px;
+  transition: var(--transition);
+}
+
+.btn.primary {
+  background: var(--primary);
+  color: white;
+}
+.btn.primary:hover {
+  background: var(--primary-light);
+  transform: scale(1.03);
+}
+
+.btn.secondary {
+  background: #eee;
+  color: var(--text);
+}
+.btn.secondary:hover {
+  background: #ddd;
+  transform: scale(1.03);
+}
+
+.btn.ghost {
+  background: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.btn.ghost:hover {
+  background: var(--primary);
+  color: white;
+}
+
+/* ----- Controls ----- */
+.controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+/* ----- Footer ----- */
+footer {
+  background: var(--primary);
+  color: var(--white);
+  text-align: center;
+  padding: 16px 10px;
+  font-size: 13px;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  box-shadow: var(--shadow);
+  animation: fadeIn 0.6s ease;
+}
+
+/* ----- Animations ----- */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* ----- Responsive ----- */
+@media (min-width: 768px) {
+  header h1 { font-size: 24px; }
+  .note-title { font-size: 20px; }
+  main { padding: 24px 40px 100px; }
+  .subjects-row { gap: 14px; }
+  .topic-row { padding: 14px 18px; }
+}

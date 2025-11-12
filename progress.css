@@ -70,6 +70,12 @@ header {
   margin: 20px 0;
 }
 
+
+.chart {
+  width:100%;
+}
+
+
 .table-wrapper {
   overflow-x: auto;
 }

@@ -1,6 +1,8 @@
 window.studyData = {
 // data.js
 "Mathematics": [
+  
+//numbers and basic arithmetic operations 
   {
   "topic": "Numbers and Basic Arithmetic Operations",
   "notes": {
@@ -52,6 +54,8 @@ window.studyData = {
     ]
   }
 },
+
+//ratio, rate and averages 
   {
   "topic": "Ratio, Proportion, and Averages",
   "notes": {
@@ -96,6 +100,9 @@ window.studyData = {
     ]
   }
 },
+
+//indices
+
   {
   "topic": "Indices",
   "notes": {
@@ -140,6 +147,9 @@ window.studyData = {
         ]
       }
 },
+
+//logarithms 
+
   {
   "topic": "Logarithms",
   "notes": {
@@ -180,6 +190,9 @@ window.studyData = {
     ]
   }
 },
+
+//surds
+
   {
   "topic": "Surds",
   "notes": {
@@ -224,6 +237,8 @@ window.studyData = {
     ]
   }
 },
+
+//set theory and venn diagram
   {
   "topic": "Set Theory and Venn Diagrams",
   "notes": {
@@ -272,6 +287,9 @@ window.studyData = {
     ]
   }
 },
+
+//algebraic expressions 
+
   {
   "topic": "Algebraic Expressions",
   "notes": {
@@ -320,6 +338,9 @@ window.studyData = {
     ]
   }
 },
+
+//polynomial expression and factorization 
+
   {
   "topic": "Polynomial Expressions and Factorization",
   "notes": {
@@ -380,6 +401,9 @@ window.studyData = {
     ]
   }
 },
+
+//quadratic equations 
+
   {
   "topic": "Quadratic Equations",
   "notes": {
@@ -424,6 +448,8 @@ window.studyData = {
     ]
   }
 },
+
+//simultaneous linear equations 
   {
   "topic": "Simultaneous Equations",
   "notes": {
@@ -468,6 +494,9 @@ window.studyData = {
     ]
   }
 },
+
+//linear inequalities 
+
   {
   "topic": "Linear Inequalities",
   "notes": {
@@ -520,6 +549,8 @@ window.studyData = {
     ]
   }
 },
+
+//rational expression 
   {
   "topic": "Rational Expressions",
   "notes": {
@@ -567,12 +598,378 @@ window.studyData = {
       }
     ]
   }
-}
+},
+
+//sequence and series
+
+  {
+  "topic": "Sequence and Series",
+  "notes": {
+    "title": "Sequence and Series",
+    "content": [
+      {
+        "type": "text",
+        "data": "A sequence is an ordered list of numbers following a certain rule. Each number in the sequence is called a term."
+      },
+      {
+        "type": "text",
+        "data": "Example 1 — Sequence: 2, 4, 6, 8,...\nRule: Each term increases by 2.\nThe nth term formula: T_n = 2n"
+      },
+      {
+        "type": "text",
+        "data": "Example 2 — Sequence: 3, 6, 12, 24,...\nRule: Each term is multiplied by 2.\nThe nth term formula: T_n = 3 × 2^(n-1)"
+      },
+      {
+        "type": "text",
+        "data": "Arithmetic Progression (AP): A sequence where the difference between consecutive terms is constant. This difference is called the common difference, d.\nGeneral form: a, a + d, a + 2d, a + 3d,...\nNth term formula: T_n = a + (n - 1)d"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 1 — Find the 10th term of AP: 3, 7, 11,...\nStep 1: Identify a = 3, d = 4\nStep 2: Apply T_n formula: T_10 = 3 + (10 - 1) × 4 = 3 + 36 = 39"
+      },
+      {
+        "type": "text",
+        "data": "Sum of n terms of an AP (S_n): S_n = n/2 × (2a + (n - 1)d) or S_n = n/2 × (a + T_n)"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 2 — Sum of first 10 terms of AP: 3, 7, 11,...\nStep 1: Identify a = 3, d = 4, n = 10\nStep 2: Apply formula: S_10 = 10/2 × (2×3 + (10-1)×4) = 5 × (6 + 36) = 5 × 42 = 210"
+      },
+      {
+        "type": "text",
+        "data": "Geometric Progression (GP): A sequence where each term is obtained by multiplying the previous term by a constant called the common ratio r.\nGeneral form: a, ar, ar^2, ar^3,...\nNth term formula: T_n = a × r^(n-1)"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 3 — Find the 6th term of GP: 2, 6, 18,...\nStep 1: Identify a = 2, r = 3\nStep 2: Apply formula: T_6 = 2 × 3^(6-1) = 2 × 3^5 = 2 × 243 = 486"
+      },
+      {
+        "type": "text",
+        "data": "Sum of n terms of a GP (S_n):\n• If r ≠ 1: S_n = a × (1 - r^n)/(1 - r)\n• If r = 1: S_n = n × a"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 4 — Sum of first 5 terms of GP: 3, 6, 12,...\nStep 1: Identify a = 3, r = 2, n = 5\nStep 2: Apply formula: S_5 = 3 × (1 - 2^5)/(1 - 2) = 3 × (1 - 32)/(-1) = 3 × (-31)/(-1) = 93"
+      },
+      {
+        "type": "text",
+        "data": "Sum to infinity of a GP (S_∞): For |r| < 1, S_∞ = a / (1 - r)"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 5 — Sum to infinity of GP: 8, 4, 2, 1,...\nStep 1: Identify a = 8, r = 1/2\nStep 2: Apply formula: S_∞ = 8 / (1 - 1/2) = 8 / (1/2) = 16"
+      },
+      {
+        "type": "text",
+        "data": "Applications:\n• Finding nth term of a sequence\n• Sum of consecutive numbers or geometric quantities\n• Financial calculations such as interest and depreciation\n• Physics: Series of forces or electrical resistances"
+      },
+      {
+        "type": "image",
+        "data": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Arithmetic_progression.svg/640px-Arithmetic_progression.svg.png"
+      },
+      {
+        "type": "text",
+        "data": "Evaluation Questions:\n1. Find the 15th term of AP: 5, 8, 11,...\n2. Sum of first 20 terms of AP: 3, 6, 9,...\n3. Find the 8th term of GP: 2, 6, 18,...\n4. Sum of first 6 terms of GP: 3, 9, 27,...\n5. Sum to infinity of GP: 5, 2.5, 1.25,...\n6. Find the 12th term of AP: 7, 10, 13,...\n7. Sum of first 10 terms of AP: 4, 7, 10,...\n8. Find the 7th term of GP: 1, 3, 9,...\n9. Sum of first 8 terms of GP: 2, 4, 8,...\n10. Sum to infinity of GP: 10, 5, 2.5,..."
+      }
+    ]
+  }
+},
+
+//lines, triangle and polygon
+
+  {
+  "topic": "Lines, Triangles and Polygons",
+  "notes": {
+    "title": "Lines, Triangles and Polygons",
+    "content": [
+      {
+        "type": "text",
+        "data": "Lines: A line is a straight one-dimensional figure having no thickness and extending infinitely in both directions."
+      },
+      {
+        "type": "text",
+        "data": "Types of lines:\n• Parallel lines: lines that never meet, always the same distance apart.\n• Perpendicular lines: lines that intersect at 90°.\n• Intersecting lines: lines that meet at a point but not at 90°."
+      },
+      {
+        "type": "text",
+        "data": "Slope of a line (m) between two points (x₁, y₁) and (x₂, y₂): m = (y₂ - y₁)/(x₂ - x₁)"
+      },
+      {
+        "type": "text",
+        "data": "Equation of a line:\n• Slope-intercept form: y = mx + c, where c is the y-intercept\n• Point-slope form: y - y₁ = m(x - x₁)"
+      },
+      {
+        "type": "text",
+        "data": "Triangles: A triangle is a polygon with three sides and three angles.\nSum of interior angles: 180°\nSum of exterior angles: 360°"
+      },
+      {
+        "type": "text",
+        "data": "Types of triangles:\n• Equilateral: all sides equal, all angles 60°\n• Isosceles: two sides equal, two angles equal\n• Scalene: all sides and angles different\n• Right-angled: one angle is 90°"
+      },
+      {
+        "type": "text",
+        "data": "Pythagoras Theorem: In a right-angled triangle, (hypotenuse)² = (base)² + (perpendicular)²"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 1 — Right-angled triangle:\nFind the hypotenuse if base = 3 cm and height = 4 cm.\nStep 1: Apply Pythagoras theorem: hypotenuse² = 3² + 4² = 9 + 16 = 25\nStep 2: hypotenuse = √25 = 5 cm"
+      },
+      {
+        "type": "text",
+        "data": "Polygons: A polygon is a closed figure made up of straight lines.\n• Triangles (3 sides)\n• Quadrilaterals (4 sides)\n• Pentagons (5 sides)\n• Hexagons (6 sides), etc."
+      },
+      {
+        "type": "text",
+        "data": "Sum of interior angles of a polygon with n sides: S = (n - 2) × 180°\nEach interior angle (regular polygon): S/n\nSum of exterior angles of any polygon = 360°"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 2 — Interior angle of a regular hexagon:\nStep 1: Number of sides, n = 6\nStep 2: Sum of interior angles = (6 - 2) × 180 = 4 × 180 = 720°\nStep 3: Each interior angle = 720 / 6 = 120°"
+      },
+      {
+        "type": "text",
+        "data": "Applications:\n• Architecture and engineering design\n• Navigation and mapping\n• Problem solving in geometry and trigonometry"
+      },
+      {
+        "type": "image",
+        "data": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Polygon_example.svg/640px-Polygon_example.svg.png"
+      },
+      {
+        "type": "text",
+        "data": "Evaluation Questions:\n1. Find the slope of a line passing through points (2, 3) and (5, 11).\n2. Write the equation of a line passing through (1, 2) with slope 3.\n3. Find the length of hypotenuse of a right triangle with sides 6 cm and 8 cm.\n4. Calculate the interior angles of a regular pentagon.\n5. A triangle has angles 50° and 60°, find the third angle.\n6. Identify the type of triangle with sides 7 cm, 7 cm, and 10 cm.\n7. Find the exterior angle of a regular octagon.\n8. Determine the sum of interior angles of a decagon.\n9. Check if lines y = 2x + 3 and y = 2x - 5 are parallel or perpendicular.\n10. A quadrilateral has angles 80°, 90°, 70°, find the fourth angle."
+      }
+    ]
+  }
+},
+
+//statistics
+
+  {
+  "topic": "Statistics",
+  "notes": {
+    "title": "Statistics",
+    "content": [
+      {
+        "type": "text",
+        "data": "Statistics is the branch of mathematics concerned with collecting, organizing, analyzing, interpreting, and presenting data."
+      },
+      {
+        "type": "text",
+        "data": "Types of Data:\n• Qualitative (Categorical): Descriptive data, e.g., gender, color.\n• Quantitative (Numerical): Data that can be measured or counted.\n  - Discrete: Countable values, e.g., 1, 2, 3.\n  - Continuous: Measurable values, e.g., height, weight."
+      },
+      {
+        "type": "text",
+        "data": "Frequency Distribution:\nA table that shows values of data and their corresponding frequencies.\nExample:\n<table border='1' cellpadding='5' cellspacing='0'>\
+<tr><th>Marks</th><th>0-10</th><th>11-20</th><th>21-30</th><th>31-40</th><th>41-50</th></tr>\
+<tr><th>Frequency (f)</th><td>2</td><td>5</td><td>8</td><td>4</td><td>1</td></tr>\
+</table>"
+      },
+      {
+        "type": "text",
+        "data": "Cumulative Frequency:\nSum of frequencies up to a certain class.\nExample:\n<table border='1' cellpadding='5' cellspacing='0'>\
+<tr><th>Marks</th><th>0-10</th><th>11-20</th><th>21-30</th><th>31-40</th><th>41-50</th></tr>\
+<tr><th>Frequency (f)</th><td>2</td><td>5</td><td>8</td><td>4</td><td>1</td></tr>\
+<tr><th>Cumulative Frequency (CF)</th><td>2</td><td>7</td><td>15</td><td>19</td><td>20</td></tr>\
+</table>"
+      },
+      {
+        "type": "text",
+        "data": "Measures of Central Tendency:\n1. Mean (Average): x̄ = Σf×x / Σf\n2. Median: The middle value of ordered data.\n3. Mode: The most frequent value in the data set."
+      },
+      {
+        "type": "text",
+        "data": "Example — Mean Calculation:\nData: 2, 3, 5, 7, 9\nMean: x̄ = (2 + 3 + 5 + 7 + 9)/5 = 26/5 = 5.2"
+      },
+      {
+        "type": "text",
+        "data": "Quartiles:\nDivide data into four equal parts.\nQ1: 25th percentile, Q2: 50th percentile (Median), Q3: 75th percentile.\nExample:\n<table border='1' cellpadding='5' cellspacing='0'>\
+<tr><th>Marks</th><th>0-10</th><th>11-20</th><th>21-30</th><th>31-40</th><th>41-50</th></tr>\
+<tr><th>Frequency (f)</th><td>2</td><td>5</td><td>8</td><td>4</td><td>1</td></tr>\
+<tr><th>Cumulative Frequency (CF)</th><td>2</td><td>7</td><td>15</td><td>19</td><td>20</td></tr>\
+</table>\nMedian: Q2 = 20th/2 = 10th value, check CF to locate class containing 10th value."
+      },
+      {
+        "type": "text",
+        "data": "Measures of Dispersion:\n1. Range = Max - Min\n2. Variance: σ² = Σ(x - x̄)² / n (Population)\n3. Standard Deviation: σ = √σ²\nExample: Data: 2, 4, 6\nMean x̄ = 4, σ² = [(2-4)² + (4-4)² + (6-4)²]/3 = (4+0+4)/3 = 8/3 ≈ 2.667\nσ ≈ 1.633"
+      },
+      {
+        "type": "text",
+        "data": "Probability:\nP(E) = Number of favorable outcomes / Total number of outcomes\nExample: Probability of rolling a 3 on a dice: P(3) = 1/6"
+      },
+      {
+        "type": "text",
+        "data": "Graphical Representation:\n• Bar Chart\n• Histogram\n• Pie Chart\n• Frequency Polygon\n• Ogive (for cumulative frequency)"
+      },
+      {
+        "type": "image",
+        "data": "https://upload.wikimedia.org/wikipedia/commons/3/30/Histogram_example.svg"
+      },
+      {
+        "type": "text",
+        "data": "Evaluation Questions:\n1. Construct a frequency table for marks: 5, 8, 12, 5, 9, 12, 15, 12, 8\n2. Find the mean, median, and mode of: 4, 7, 7, 10, 12\n3. Find Q1, Q2, and Q3 for marks: 3, 5, 7, 8, 9, 10, 12, 15\n4. Calculate range, variance, and standard deviation for: 2, 4, 6, 8, 10\n5. Find probability of getting a red ball if a bag contains 3 red, 5 blue, 2 green balls\n6. Draw a histogram for the following frequencies: <10:2, 10-19:5, 20-29:7, 30-39:4, 40-49:2"
+      }
+    ]
+  }
+},
+
+//differenctiation notes
+
+  {
+  "topic": "Differentiation",
+  "notes": {
+    "title": "Differentiation",
+    "content": [
+      {
+        "type": "text",
+        "data": "Differentiation is the process of finding the derivative of a function, which measures the rate of change of the function with respect to a variable."
+      },
+      {
+        "type": "text",
+        "data": "First Principle (Definition of Derivative):\nIf y = f(x), then the derivative of f at x is given by:\n\nf'(x) = lim (h → 0) [f(x + h) - f(x)] / h"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 1 — First Principle:\nFind the derivative of f(x) = x² using first principle.\nStep 1: f(x + h) = (x + h)² = x² + 2xh + h²\nStep 2: f(x + h) - f(x) = 2xh + h²\nStep 3: Divide by h: (2xh + h²)/h = 2x + h\nStep 4: Take the limit as h → 0: f'(x) = 2x"
+      },
+      {
+        "type": "text",
+        "data": "Power Rule:\nIf f(x) = xⁿ, then f'(x) = n·xⁿ⁻¹"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 2 — Power Rule:\nf(x) = x⁵\nf'(x) = 5x⁴"
+      },
+      {
+        "type": "text",
+        "data": "Sum/Difference Rule:\nIf f(x) = g(x) ± h(x), then f'(x) = g'(x) ± h'(x)"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 3 — Sum/Difference Rule:\nf(x) = x³ + 2x² - 5x\nf'(x) = 3x² + 4x - 5"
+      },
+      {
+        "type": "text",
+        "data": "Product Rule:\nIf f(x) = u·v, then f'(x) = u'v + uv'"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 4 — Product Rule:\nu = x², v = sin(x)\nu' = 2x, v' = cos(x)\nf'(x) = u'v + uv' = 2x·sin(x) + x²·cos(x)"
+      },
+      {
+        "type": "text",
+        "data": "Quotient Rule:\nIf f(x) = u / v, then f'(x) = (u'v - uv') / v²"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 5 — Quotient Rule:\nu = x², v = x + 1\nu' = 2x, v' = 1\nf(x) = u/v = x²/(x+1)\nf'(x) = (2x(x+1) - x²·1)/(x+1)² = (2x² + 2x - x²)/(x+1)² = (x² + 2x)/(x+1)²"
+      },
+      {
+        "type": "text",
+        "data": "Chain Rule:\nIf y = f(g(x)), then dy/dx = f'(g(x)) · g'(x)"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 6 — Chain Rule:\ny = (3x + 2)⁵\nOuter function f(u) = u⁵, f'(u) = 5u⁴\nInner function u = 3x + 2, u' = 3\nf'(x) = 5(3x + 2)⁴ · 3 = 15(3x + 2)⁴"
+      },
+      {
+        "type": "text",
+        "data": "Higher Order Derivatives:\nThe second derivative f''(x) is the derivative of f'(x), measuring the rate of change of the rate of change.\nSimilarly, f'''(x) is the third derivative."
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 7 — Second Derivative:\nf(x) = x³ + 2x²\nf'(x) = 3x² + 4x\nf''(x) = 6x + 4"
+      },
+      {
+        "type": "text",
+        "data": "Applications:\n• Finding slopes of curves at points\n• Motion problems (velocity = derivative of displacement, acceleration = derivative of velocity)\n• Optimization (maxima and minima)\n• Rate problems in physics, chemistry, and economics"
+      },
+      {
+        "type": "image",
+        "data": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Differentiation_graph.svg/640px-Differentiation_graph.svg.png"
+      },
+      {
+        "type": "text",
+        "data": "Evaluation Questions:\n1. Find dy/dx for y = x³ - 5x + 2\n2. Find the derivative of f(x) = 7x⁴ + 3x²\n3. Using first principle, find the derivative of f(x) = x² + 3x\n4. Differentiate y = sin(x) · cos(x) using product rule\n5. Differentiate y = x² / (x + 1) using quotient rule\n6. Find dy/dx for y = (2x + 5)⁴ using chain rule\n7. Find the second derivative of y = x³ + 4x²\n8. Differentiate y = (x² + 1)(x³ - 2x)\n9. Differentiate y = (3x + 1)/(x² + 1)\n10. If y = (5x² + 3)³, find dy/dx using chain rule\n11. Differentiate y = e^(2x) using chain rule\n12. Find derivative of y = ln(x² + 1)\n13. Differentiate y = x⁴ · sin(x)\n14. Differentiate y = x³ / (x - 2)\n15. Find dy/dx for y = (x² + 1)⁵\n16. Find the third derivative of y = x⁴ + 3x²\n17. Differentiate y = cos(x) / x²\n18. Differentiate y = (x³ + 2x)(x² - 1)\n19. Find dy/dx for y = √(x² + 1)\n20. Using first principle, find derivative of f(x) = 3x + 4"
+      }
+    ]
+  }
+},
+
+//integration 
+
+  {
+  "topic": "Integration",
+  "notes": {
+    "title": "Integration",
+    "content": [
+      {
+        "type": "text",
+        "data": "Integration is the reverse process of differentiation. It is used to find the area under a curve or the antiderivative of a function."
+      },
+      {
+        "type": "text",
+        "data": "Indefinite Integral: ∫f(x) dx represents the family of functions F(x) whose derivative is f(x). The result includes a constant of integration, C."
+      },
+      {
+        "type": "text",
+        "data": "Basic Rules of Integration:\n• ∫xⁿ dx = xⁿ⁺¹/(n+1) + C, n ≠ -1\n• ∫k dx = kx + C, where k is a constant\n• ∫(f(x) + g(x)) dx = ∫f(x) dx + ∫g(x) dx\n• ∫k f(x) dx = k ∫f(x) dx"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 1 — Power Rule:\nFind ∫3x² dx\nStep 1: Apply ∫xⁿ dx formula: ∫x² dx = x³/3\nStep 2: Multiply by constant: 3 × x³/3 = x³\nStep 3: Add constant of integration: x³ + C"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 2 — Sum Rule:\nFind ∫(2x³ + 5x) dx\nStep 1: Separate terms: ∫2x³ dx + ∫5x dx\nStep 2: Apply power rule: 2 × x⁴/4 + 5 × x²/2\nStep 3: Simplify: x⁴/2 + 5x²/2 + C"
+      },
+      {
+        "type": "text",
+        "data": "Integration by Substitution: Used when a function is a composite function.\n∫f(g(x)) g'(x) dx = ∫f(u) du, where u = g(x)"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 3 — Substitution:\nFind ∫2x (x² + 1)³ dx\nStep 1: Let u = x² + 1 ⇒ du/dx = 2x ⇒ du = 2x dx\nStep 2: Rewrite integral: ∫u³ du\nStep 3: Integrate: u⁴/4 + C\nStep 4: Back-substitute: (x² + 1)⁴/4 + C"
+      },
+      {
+        "type": "text",
+        "data": "Integration by Parts: ∫u dv = uv - ∫v du\nUseful for products of functions."
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 4 — Integration by Parts:\nFind ∫x eˣ dx\nStep 1: Let u = x ⇒ du = dx\nStep 2: Let dv = eˣ dx ⇒ v = eˣ\nStep 3: Apply formula: ∫x eˣ dx = uv - ∫v du = x eˣ - ∫eˣ dx\nStep 4: Integrate ∫eˣ dx = eˣ\nFinal Answer: x eˣ - eˣ + C"
+      },
+      {
+        "type": "text",
+        "data": "Definite Integral: ∫ₐᵇ f(x) dx gives the area under the curve y = f(x) from x = a to x = b.\nFormula: ∫ₐᵇ f(x) dx = F(b) - F(a)"
+      },
+      {
+        "type": "text",
+        "data": "Worked Example 5 — Definite Integral:\nFind ∫₀² 3x² dx\nStep 1: Find indefinite integral: ∫3x² dx = x³ + C\nStep 2: Apply limits: F(2) - F(0) = 2³ - 0³ = 8 - 0 = 8"
+      },
+      {
+        "type": "text",
+        "data": "Applications:\n• Area under curves\n• Kinematics: displacement from velocity function\n• Economics: total cost or revenue from marginal functions\n• Physics: Work done = ∫F dx"
+      },
+      {
+        "type": "image",
+        "data": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Integral_example.svg/640px-Integral_example.svg.png"
+      },
+      {
+        "type": "text",
+        "data": "Evaluation Questions:\n1. ∫(4x³ + 6x) dx\n2. ∫(5x² - 3) dx\n3. ∫x e^(2x) dx\n4. ∫(2x + 1)⁵ dx\n5. ∫x sin(x) dx\n6. ∫₁³ (x² + 1) dx\n7. ∫₀^π sin(x) dx\n8. ∫ e^(3x) dx\n9. ∫ x ln(x) dx\n10. ∫₂⁵ (3x - 4) dx"
+      }
+    ]
+  }
+},
+
   ],
   
   
   
 "Biology": [
+  
+  //introduction to biology
+  
   {
     topic: "Introduction to Biology",
     notes: {
@@ -580,23 +977,26 @@ window.studyData = {
       content: [
         { 
           type: "text", 
-          data: "Biology is the branch of science that deals with the study of living organisms and their interactions with one another and their environment. The term 'biology' comes from two Greek words: 'bios' (life) and 'logos' (study). Biology helps us understand how living things function, reproduce, and adapt to their surroundings." 
+          data: "<b>Definition</b>\nBiology is the branch of science that deals with the study of living organisms and their interactions with one another and their environment. The term 'biology' comes from two Greek words: 'bios' (life) and 'logos' (study). Biology helps us understand how living things function, reproduce, and adapt to their surroundings." 
         },
         { 
           type: "text", 
-          data: "Branches of Biology:\n1. Botany – study of plants.\n2. Zoology – study of animals.\n3. Microbiology – study of microscopic organisms.\n4. Genetics – study of heredity and variation.\n5. Ecology – study of relationships between organisms and their environment.\n6. Anatomy – study of the structure of organisms.\n7. Physiology – study of how living systems function." 
+          data: "<b>Branches of Biology</b>\n1. Botany – study of plants.\n2. Zoology – study of animals.\n3. Microbiology – study of microscopic organisms.\n4. Genetics – study of heredity and variation.\n5. Ecology – study of relationships between organisms and their environment.\n6. Anatomy – study of the structure of organisms.\n7. Physiology – study of how living systems function." 
         },
         { 
           type: "text", 
-          data: "Importance of Biology:\n• Helps in understanding diseases and developing medicines.\n• Contributes to agriculture through crop improvement and pest control.\n• Promotes environmental conservation and biodiversity protection.\n• Provides knowledge for biotechnology, genetic engineering, and food science.\n• Helps in solving global problems such as hunger, pollution, and health crises." 
+          data: "<b>Importance of Biology</b>\n• Helps in understanding diseases and developing medicines.\n• Contributes to agriculture through crop improvement and pest control.\n• Promotes environmental conservation and biodiversity protection.\n• Provides knowledge for biotechnology, genetic engineering, and food science.\n• Helps in solving global problems such as hunger, pollution, and health crises." 
         },
         {
           type: "text",
-          data:"Evaluation:\n1. Define Biology in at least two ways. \n2. Discuss 3 ways biology has made human life easier.\n3. State and explain any 4 branches of biology."
+          data:"<b>Evaluation</b>\n1. Define Biology in at least two ways. \n2. Discuss 3 ways biology has made human life easier.\n3. State and explain any 4 branches of biology."
         }
       ]
     }
   },
+  
+  //characteristics of living things
+  
   {
     topic: "Characteristics of Living Things",
     notes: {
@@ -641,6 +1041,9 @@ window.studyData = {
       ]
     }
   },
+  
+  //the cell as a living unit
+
   {
     topic: "Cell as a Living Unit",
     notes: {
@@ -648,7 +1051,7 @@ window.studyData = {
       content: [
         { 
           type: "text", 
-          data: "The cell is the basic structural, functional, and biological unit of life. All living organisms are made up of cells — some are unicellular (single-celled), while others are multicellular (many-celled)." 
+          data: "<b>Definition of cell</b>\nThe cell is the basic structural, functional, and biological unit of life. All living organisms are made up of cells — some are unicellular (single-celled), while others are multicellular (many-celled)." 
         },
         {
           type: "image",
@@ -660,11 +1063,11 @@ window.studyData = {
         },
         { 
           type: "text", 
-          data: "The Cell Theory states that:\n1. All living things are made up of cells.\n2. The cell is the basic unit of structure and function in living things.\n3. All cells arise from pre-existing cells (proposed by Rudolf Virchow)." 
+          data: "<b>The Cell Theory states that</b>\n1. All living things are made up of cells.\n2. The cell is the basic unit of structure and function in living things.\n3. All cells arise from pre-existing cells (proposed by Rudolf Virchow)." 
         },
         { 
           type: "text", 
-          data: "Cell Structure:\nA typical cell consists of:\n• Cell membrane – controls the movement of substances in and out.\n• Cytoplasm – jelly-like substance where metabolic reactions occur.\n• **Nucleus** – controls cell activities and contains DNA.\n• **Mitochondria** – site of respiration and energy production.\n• Ribosomes – site of protein synthesis.\n• **Endoplasmic Reticulum (ER)** – transports maals within the cell.\n• **Golgi Body** – modifies and packages proteins.\n• **Vacuole** – stores food and water (large in plant cells).\n• **Cell wall** – provides support and protection (only in plants)." 
+          data: "<b>Cell Structure</b>\nA typical cell consists of:\n• Cell membrane – controls the movement of substances in and out.\n• Cytoplasm – jelly-like substance where metabolic reactions occur.\n• Nucleus – controls cell activities and contains DNA.\n• Mitochondria – site of respirion and energy production.• Ribosomes – site of protein synthesis.\n• **Endoplasmic Reticulum (ER)** – transports maals within the cell.\n• **Golgi Body** – modifies and packages proteins.\n• **Vacuole** – stores food and water (large in plant cells).\n• **Cell wall** – provides support and protection (only in plants)." 
         },
         { 
           type: "text", 
@@ -677,47 +1080,44 @@ window.studyData = {
         { 
           type: "image", 
           data: "./images (42).jpeg" 
-        }
-      ]
-    }
-  },
-  {
-    topic: "Cell Organization",
-    notes: {
-      title: "Cell Organization — From Cells to Systems",
-      content: [
-        { 
-          type: "text", 
-          data: "In multicellular organisms, cells are organized into higher levels of structure to perform specific functions efficiently. This hierarchy of organization ensures coordination and survival." 
         },
-        { 
-          type: "text", 
-          data: "Levels of Organization:\n1. **Cell** – the basic unit of life (e.g., red blood cell, nerve cell).\n2. **Tissue** – a group of similar cells performing a common function (e.g., muscle tissue, xylem tissue).\n3. **Organ** – made up of different tissues working together (e.g., heart, leaf, kidney).\n4. **System** – a group of organs performing related functions (e.g., circulatory system, digestive system).\n5. **Organism** – a complete living being capable of independent existence." 
-        },
+        
+        //cell organization 
+        
         {
-           type: "image",
-           data: "./images (39).jpeg"
-        },
-        { 
-          type: "text", 
-          data: "Examples:\n• In plants: root cells form root tissue, tissues form the root organ, and together with the stem and leaves form the shoot system.\n• In animals: muscle cells form muscle tissue, which combines with bones to form organs like limbs, and systems like the skeletal or muscular system." 
-        },
-        { 
-          type: "text", 
-          data: "Specialization (cell differentiation) occurs when cells develop structures suited to their specific functions. For instance, nerve cells transmit impulses, while xylem cells conduct water in plants." 
-        }
+  type: "text",
+  data: "Cell organization\nIn multicellular organisms, cells are organized into higher levels of structure to perform specific functions efficiently. This hierarchy of organization ensures coordination and survival."
+},
+{
+  type: "text",
+  data: "Levels of Organization:\n1. **Cell** – the basic unit of life (e.g., red blood cell, nerve cell).\n2. **Tissue** – a group of similar cells performing a common function (e.g., muscle tissue, xylem tissue).\n3. **Organ** – made up of different tissues working together (e.g., heart, leaf, kidney).\n4. **System** – a group of organs performing related functions (e.g., circulatory system, digestive system).\n5. **Organism** – a complete living being capable of independent existence."
+},
+{
+  type: "image",
+  data: "./images (39).jpeg"
+},
+{
+  type: "text",
+  data: "Examples:\n• In plants: root cells form root tissue, tissues form the root organ, and together with the stem and leaves form the shoot system.\n• In animals: muscle cells form muscle tissue, which combines with bones to form organs like limbs, and systems like the skeletal or muscular system."
+},
+{
+  type: "text",
+  data: "Specialization (cell differentiation) occurs when cells develop structures suited to their specific functions. For instance, nerve cells transmit impulses, while xylem cells conduct water in plants."
+}
       ]
     }
   },
   
+  //classification of living things
+  
   {  
   topic: "Classification of Living Things",  
   notes: {  
-    title: "Classification of Living Things — The Five Kingdoms",  
+    title: "Classification of Living Things.",  
     content: [  
       {  
         type: "text",  
-        data: "Classification is the systematic arrangement of living organisms into groups based on similarities and differences. It helps scientists to identify, name, and study organisms effectively."  
+        data: "<b>Definition</b>\nClassification is the systematic arrangement of living organisms into groups based on similarities and differences. It helps scientists to identify, name, and study organisms effectively."  
       },  
       {  
         type: "text",  
@@ -725,7 +1125,7 @@ window.studyData = {
       },  
       {  
         type: "text",  
-        data: "The Five Kingdom System includes:\n1. Monera – unicellular organisms without a true nucleus (e.g., bacteria).\n2. Protista – mostly unicellular organisms with a true nucleus (e.g., amoeba, euglena).\n3. Fungi – multicellular decomposers that feed on dead matter (e.g., mushroom, mould).\n4. Plantae – multicellular, photosynthetic organisms (e.g., maize, fern).\n5. Animalia – multicellular heterotrophs that move and respond to stimuli (e.g., man, fish, insects)."  
+        data: "<b>The Five Kingdom System includes</b>\n1. Monera – unicellular organisms without a true nucleus (e.g., bacteria).\n2. Protista – mostly unicellular organisms with a true nucleus (e.g., amoeba, euglena).\n3. Fungi – multicellular decomposers that feed on dead matter (e.g., mushroom, mould).\n4. Plantae – multicellular, photosynthetic organisms (e.g., maize, fern).\n5. Animalia – multicellular heterotrophs that move and respond to stimuli (e.g., man, fish, insects)."  
       },
        {
           type: "image",
@@ -734,18 +1134,14 @@ window.studyData = {
       {  
         type: "text",  
         data: "Each kingdom is further divided into smaller groups: Phylum → Class → Order → Family → Genus → Species."  
-      }
-    ]  
-  }  
-},  
-{  
-  topic: "Classification of Plants",  
-  notes: {  
-    title: "Classification of Plants — Major Groups and Characteristics",  
-    content: [  
+      },
+      
+      //classification of plants
+      
+        
       {  
         type: "text",  
-        data: "Plants are classified based on the presence or absence of vascular tissues, seeds, and flowers. This helps in understanding their evolution and functions."  
+        data: "Classification of plants\nPlants are classified based on the presence or absence of vascular tissues, seeds, and flowers. This helps in understanding their evolution and functions."  
       },  
       {  
         type: "text",  
@@ -758,15 +1154,11 @@ window.studyData = {
       {  
         type: "text",  
         data: "Angiosperms are further divided into:\n• Monocotyledons – one seed leaf, parallel venation (e.g., maize, rice).\n• Dicotyledons – two seed leaves, net-like venation (e.g., beans, hibiscus)."  
-      }
-    ]  
-  }  
-},  
-{  
-  topic: "Classification of Animals",  
-  notes: {  
-    title: "Classification of Animals — Vertebrates and Invertebrates",  
-    content: [  
+      },
+      
+      //classification of animals 
+      
+        
       {  
         type: "text",  
         data: "Animals are broadly divided into invertebrates (without backbone) and vertebrates (with backbone). Each group has unique characteristics that suit their mode of life."  
@@ -793,47 +1185,22 @@ window.studyData = {
       }  
     ]  
   }  
-},  
-{  
-  topic: "Adaptations of Living Organisms",  
-  notes: {  
-    title: "Functions and Adaptations — How Organisms Survive",  
-    content: [  
-      {  
-        type: "text",  
-        data: "All living organisms perform basic life functions such as nutrition, respiration, movement, reproduction, excretion, and response to stimuli. These functions ensure survival and continuity of life."  
-      },  
-      {  
-        type: "text",  
-        data: "Adaptation refers to special features or behaviors that help organisms survive in their environments. It can be structural, behavioral, or physiological."  
-      },  
-      {  
-        type: "text",  
-        data: "Examples of Adaptations:\n• Plants: cactus has thick stems to store water; mangroves have breathing roots.\n• Animals: fish have gills for respiration in water; birds have hollow bones for flight; desert animals conserve water and are active at night."  
-      },
-        {
-          type: "image",
-          data: "./cactus-plant.png"
-        },
-      {  
-        type: "text",  
-        data: "Through adaptation, organisms maintain a balance between their internal processes and the external environment — this is known as homeostasis."  
-      }
-    ]  
-  }  
 },
-{  
+
+  //nutrition
+  
+  {  
   topic: "Nutrition in Living Organisms",  
   notes: {  
-    title: "Nutrition in Living Organisms — Autotrophic and Heterotrophic Modes",  
+    title: "Nutrition in Living Organisms",  
     content: [  
       {  
         type: "text",  
-        data: "Nutrition is the process by which living organisms obtain and utilize food substances for energy, growth, and repair of tissues. All living things need nutrients to survive."  
+        data: "<b>Definition</b>\nNutrition is the process by which living organisms obtain and utilize food substances for energy, growth, and repair of tissues. All living things need nutrients to survive."  
       },  
       {  
         type: "text",  
-        data: "Modes of Nutrition:\n1. Autotrophic Nutrition – organisms make their own food from simple substances. Example: green plants through photosynthesis.\n2. Heterotrophic Nutrition – organisms depend on others for food. Examples: animals, fungi, and most bacteria."  
+        data: "<b>Modes of Nutrition</b>\n1. Autotrophic Nutrition – organisms make their own food from simple substances. Example: green plants through photosynthesis.\n2. Heterotrophic Nutrition – organisms depend on others for food. Examples: animals, fungi, and most bacteria."  
       },  
       {
           type: "image",
@@ -841,7 +1208,7 @@ window.studyData = {
         },
       {  
         type: "text",  
-        data: "Types of Heterotrophic Nutrition:\n1. Holozoic – ingestion and digestion of solid food (e.g., humans).\n2. Saprophytic – feeding on dead organic matter (e.g., fungi).\n3. Parasitic – living on or inside a host and feeding from it (e.g., tapeworm, mistletoe)."  
+        data: "<b>Types of Heterotrophic Nutrition:</b>\n1. Holozoic – ingestion and digestion of solid food (e.g., humans).\n2. Saprophytic – feeding on dead organic matter (e.g., fungi).\n3. Parasitic – living on or inside a host and feeding from it (e.g., tapeworm, mistletoe)."  
       }, 
       {
           type: "image",
@@ -849,19 +1216,13 @@ window.studyData = {
       },
       {  
         type: "text",  
-        data: "Importance of Nutrition:\n• Provides energy for daily activities.\n• Supplies materials for growth and repair.\n• Helps in maintaining healthy body functions."  
-      }
-    ]  
-  }  
-},  
-{  
-  topic: "Photosynthesis",  
-  notes: {  
-    title: "Photosynthesis — Light and Dark Reactions",  
-    content: [  
+        data: "<b>Importance of Nutrition:</b>\n• Provides energy for daily activities.\n• Supplies materials for growth and repair.\n• Helps in maintaining healthy body functions."  
+      },
+      
+      //photosynthesis in plants
       {  
         type: "text",  
-        data: "Photosynthesis is the process by which green plants manufacture food (glucose) from carbon dioxide and water using sunlight energy trapped by chlorophyll."  
+        data: "<b>Photosynthesis</b>\nPhotosynthesis is the process by which green plants manufacture food (glucose) from carbon dioxide and water using sunlight energy trapped by chlorophyll."  
       }, 
       {
         type: "image",
@@ -869,11 +1230,11 @@ window.studyData = {
       },
       {  
         type: "text",  
-        data: "The overall chemical equation is:\n6CO2 + 6H2O → C6H12O6 + 6O2\nThis means that six molecules of carbon dioxide combine with six molecules of water to produce one molecule of glucose and six molecules of oxygen."  
+        data: "The overall chemical equation is:\n6CO<sub>2</sub> + 6H<sub>2</sub>O → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>\nThis means that six molecules of carbon dioxide combine with six molecules of water to produce one molecule of glucose and six molecules of oxygen."  
       },  
       {  
         type: "text",  
-        data: "Stages of Photosynthesis:\n1. Light Reaction – occurs in the chloroplast grana, uses sunlight to split water (photolysis) into hydrogen and oxygen while forming ATP and NADPH.\n2. Dark Reaction – occurs in the stroma, uses hydrogen and carbon dioxide to form glucose using ATP produced in the light stage."  
+        data: "<b>Stages of Photosynthesis</b>\n1. Light Reaction – occurs in the chloroplast grana, uses sunlight to split water (photolysis) into hydrogen and oxygen while forming ATP and NADPH.\n2. Dark Reaction – occurs in the stroma, uses hydrogen and carbon dioxide to form glucose using ATP produced in the light stage."  
       },
       {
         type: "image",
@@ -881,43 +1242,68 @@ window.studyData = {
       },
       {  
         type: "text",  
-        data: "Importance of Photosynthesis:\n• Provides food for plants and animals.\n• Releases oxygen necessary for respiration.\n• Reduces carbon dioxide in the atmosphere.\n• Forms the basis of most food chains."  
-      },  
-      {  
-        type: "image",  
-        data: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Photosynthesis.svg/640px-Photosynthesis.svg.png"  
-      }  
-    ]  
-  }  
-},  
-{  
-  topic: "Respiration",  
-  notes: {  
-    title: "Respiration — Energy Production in Living Cells",  
-    content: [  
-      {  
-        type: "text",  
-        data: "Respiration is the process by which food substances, especially glucose, are broken down to release energy for cellular activities. It occurs in all living cells."  
-      },  
-      {  
-        type: "text",  
-        data: "There are two types of respiration:\n1. Aerobic Respiration – requires oxygen and produces large amounts of energy (ATP).\n   Equation: Glucose + Oxygen → Carbon dioxide + Water + Energy.\n2. Anaerobic Respiration – occurs without oxygen, produces less energy and may yield alcohol or lactic acid.\n   Example in yeast: Glucose → Alcohol + Carbon dioxide + Energy."  
-      }, 
-      {
-        type: "image",
-        data: "./images (50).jpeg"
+        data: "<b>Importance of Photosynthesis</b>\n• Provides food for plants and animals.\n• Releases oxygen necessary for respiration.\n• Reduces carbon dioxide in the atmosphere.\n• Forms the basis of most food chains."  
       },
-      {  
-        type: "text",  
-        data: "Importance of Respiration:\n• Provides energy for growth, movement, and reproduction.\n• Maintains body temperature in warm-blooded animals.\n• Helps in repair of worn-out tissues."  
+      
+      //nutrition in animals
+      {
+        type: "text",
+        data: "<b>Types of animal Nutrition</b>\n• Herbivores – feed on plants.\n• Carnivores – feed on other animals.\n• Omnivores – feed on both plants and animals.\n• Parasites – live on or in other organisms and feed from them."
       },
       {
         type: "text",
-        data: "Evaluation:\n1. Define Respiration. \n2. Discuss any two types of respiration. \n3. Differentiate between aerobic and anaerobic respiration. \n4. Use chemical equations to show how ATP is formed in aerobic respiratory."
+        data: "<b>Balanced Diet</b>\nIt contains all food classes including carbohydrates, proteins, fats, vitamins, minerals, water, and roughage in correct proportions for health and energy."
+      },
+      {
+        type: "text",
+        data: "Malnutrition occurs when the body receives inadequate or excess nutrients. Examples include kwashiorkor, ricket, scurvy, marasmus, and obesity."
+      },
+      {
+        type: "image",
+        
+        //child suffering from obesity 
+        
+        data: ""
+      },
+      
+      //digestive system in mammal
+      
+      {
+        type: "text",
+        data: "<b>Digestion in Mammals</b>\nDigestion is the process by which large, insoluble food molecules are broken down into small, soluble ones that can be absorbed into the bloodstream."
+      },
+      
+      {
+        type: "image",
+        
+        //human digestive system 
+        data:""
+      },
+      {
+        type: "text",
+        data: "<b>Human Digestive Tract includes</b>\n• Mouth – mechanical breakdown by teeth and chemical digestion by saliva (amylase).\n• Oesophagus – moves food to the stomach via peristalsis.\n• Stomach – secretes gastric juice containing hydrochloric acid and pepsin to digest proteins.\n• Small Intestine – final digestion and absorption occur here with help of bile and pancreatic enzymes.\n• Large Intestine – absorbs water and forms faeces."
+      },
+      {
+        type: "text",
+        data: "<b>Organs associated with digestion in man</b>\n• Liver – produces bile.\n• Pancreas – produces digestive enzymes.\n• Gall Bladder – stores bile."
+      },
+      {
+        type: "text",
+        data: "<b>End Products of Digestion</b>\n• Carbohydrates → glucose\n• Proteins → amino acids\n• Fats → fatty acids and glycerol"
+      },
+      {
+        type: "image",
+        
+        //
+        data: ""
       }
+    
+    
     ]  
   }  
 },  
+
+  //growth
 {  
   topic: "Growth",  
   notes: {  
@@ -1138,62 +1524,38 @@ window.studyData = {
     ]
   }
 },
-{
-  topic: "Nutrition in Animals",
-  notes: {
-    title: "Nutrition — Feeding and Energy in Animals",
-    content: [
-      {
-        type: "text",
-        data: "Nutrition is the process by which organisms obtain and utilize food for growth, repair, and energy. Animals are heterotrophic — they depend on other organisms for food."
+
+  //adaptation of living organisms
+  {  
+  topic: "Adaptations of Living Organisms",  
+  notes: {  
+    title: "Functions and Adaptations — How Organisms Survive",  
+    content: [  
+      {  
+        type: "text",  
+        data: "All living organisms perform basic life functions such as nutrition, respiration, movement, reproduction, excretion, and response to stimuli. These functions ensure survival and continuity of life."  
+      },  
+      {  
+        type: "text",  
+        data: "Adaptation refers to special features or behaviors that help organisms survive in their environments. It can be structural, behavioral, or physiological."  
+      },  
+      {  
+        type: "text",  
+        data: "Examples of Adaptations:\n• Plants: cactus has thick stems to store water; mangroves have breathing roots.\n• Animals: fish have gills for respiration in water; birds have hollow bones for flight; desert animals conserve water and are active at night."  
       },
-      {
-        type: "text",
-        data: "Types of Nutrition:\n• Herbivores – feed on plants.\n• Carnivores – feed on other animals.\n• Omnivores – feed on both plants and animals.\n• Parasites – live on or in other organisms and feed from them."
-      },
-      {
-        type: "text",
-        data: "Balanced Diet: contains all food classes — carbohydrates, proteins, fats, vitamins, minerals, water, and roughage — in correct proportions for health and energy."
-      },
-      {
-        type: "text",
-        data: "Malnutrition occurs when the body receives inadequate or excess nutrients. Examples include kwashiorkor, marasmus, and obesity."
-      },
-      {
-        type: "image",
-        data: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Food_pyramid_healthy.svg/640px-Food_pyramid_healthy.svg.png"
+        {
+          type: "image",
+          data: "./cactus-plant.png"
+        },
+      {  
+        type: "text",  
+        data: "Through adaptation, organisms maintain a balance between their internal processes and the external environment — this is known as homeostasis."  
       }
-    ]
-  }
+    ]  
+  }  
 },
-{
-  topic: "Digestive System in Humans",
-  notes: {
-    title: "Digestive System — Breakdown and Absorption of Food",
-    content: [
-      {
-        type: "text",
-        data: "Digestion is the process by which large, insoluble food molecules are broken down into small, soluble ones that can be absorbed into the bloodstream."
-      },
-      {
-        type: "text",
-        data: "Human Digestive Tract includes:\n• Mouth – mechanical breakdown by teeth and chemical digestion by saliva (amylase).\n• Oesophagus – moves food to the stomach via peristalsis.\n• Stomach – secretes gastric juice containing hydrochloric acid and pepsin to digest proteins.\n• Small Intestine – final digestion and absorption occur here with help of bile and pancreatic enzymes.\n• Large Intestine – absorbs water and forms faeces."
-      },
-      {
-        type: "text",
-        data: "Associated Organs:\n• Liver – produces bile.\n• Pancreas – produces digestive enzymes.\n• Gall Bladder – stores bile."
-      },
-      {
-        type: "text",
-        data: "End Products of Digestion:\n• Carbohydrates → glucose\n• Proteins → amino acids\n• Fats → fatty acids and glycerol"
-      },
-      {
-        type: "image",
-        data: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Digestive_system_diagram_en.svg/640px-Digestive_system_diagram_en.svg.png"
-      }
-    ]
-  }
-},
+
+
 {
   topic: "Respiration in Living Organisms",
   notes: {
@@ -1283,6 +1645,8 @@ window.studyData = {
   }
 }
 ],
+
+
 "Chemistry": [
   {
     topic: "Introduction to Chemistry",

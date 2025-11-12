@@ -6,6 +6,10 @@
   <title>Aplus Tutors | CBT Test</title>
   <link rel="stylesheet" href="cbt.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- ✅ MathJax for rendering superscripts/subscripts and LaTeX -->
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
   <script src="data.js" defer></script>
 </head>
 
@@ -43,7 +47,6 @@
 
     <main style="padding: 20px;" id="question-area">
       <h3 id="question-number"></h3>
-      <!-- Image now after question number -->
       <img id="question-image" class="hidden" alt="Question image">
       <p id="question-text"></p>
       <div id="options"></div>
@@ -184,11 +187,15 @@ function switchSubject(sub) {
   loadQuestion();
 }
 
-// ✅ Load question with proper image handling
+// ✅ Load question (supports <sup>, <sub>, and MathJax)
 function loadQuestion() {
   const q = activeQuestions[currentSubject][currentQuestionIndex];
   document.getElementById("question-number").textContent = `${currentSubject}: Question ${currentQuestionIndex + 1}`;
-  document.getElementById("question-text").textContent = q.question;
+
+  const questionText = document.getElementById("question-text");
+  questionText.innerHTML = q.question;
+
+  if (window.MathJax && window.MathJax.typesetPromise) MathJax.typesetPromise([questionText]);
 
   const qImg = document.getElementById("question-image");
   if (q.image) {
@@ -200,16 +207,16 @@ function loadQuestion() {
     qImg.removeAttribute("src");
   }
 
-  // ✅ Options
   const optionsDiv = document.getElementById("options");
   optionsDiv.innerHTML = "";
   q.options.forEach((opt, i) => {
     const btn = document.createElement("button");
-    btn.textContent = opt;
+    btn.innerHTML = opt;
     btn.classList.add("option");
     btn.onclick = () => selectAnswer(i);
     if (userAnswers[currentSubject]?.[currentQuestionIndex] === i) btn.classList.add("selected");
     optionsDiv.appendChild(btn);
+    if (window.MathJax && window.MathJax.typesetPromise) MathJax.typesetPromise([btn]);
   });
 
   updateQuestionNav();
@@ -224,7 +231,7 @@ function selectAnswer(i) {
   buttons.forEach((btn, idx) => btn.classList.toggle("selected", idx === i));
 }
 
-// ✅ Next / Previous
+// ✅ Navigation
 document.getElementById("next-btn").onclick = () => {
   if (currentQuestionIndex < activeQuestions[currentSubject].length - 1) currentQuestionIndex++;
   loadQuestion();
@@ -239,7 +246,7 @@ document.getElementById("submit-btn").onclick = () => {
   showResult();
 };
 
-// ✅ Question navigation
+// ✅ Question nav
 function updateQuestionNav() {
   const nav = document.getElementById("question-nav");
   nav.innerHTML = "";
@@ -265,7 +272,7 @@ function countUnanswered() {
   return count;
 }
 
-// ✅ Show Results + Download + Email + Corrections
+// ✅ Results + Corrections
 function showResult() {
   clearInterval(timerInterval);
   document.getElementById("question-area").classList.add("hidden");
@@ -286,7 +293,7 @@ function showResult() {
   });
 
   const overallPercent = ((totalCorrect / totalQuestions) * 100).toFixed(1);
-  document.getElementById("score-text").textContent =
+  document.getElementById("score-text").innerHTML =
     `Overall Score: ${totalCorrect}/${totalQuestions} (${overallPercent}%)`;
 
   const statsDiv = document.getElementById("subject-stats");
@@ -306,7 +313,6 @@ function showResult() {
     },
   });
 
-  // ✅ Save result to localStorage
   const date = new Date().toLocaleString();
   const cbtRecords = JSON.parse(localStorage.getItem("cbtResults")) || [];
   cbtRecords.push({
@@ -320,7 +326,6 @@ function showResult() {
   });
   localStorage.setItem("cbtResults", JSON.stringify(cbtRecords));
 
-  // ✅ Download PDF
   document.getElementById("download-btn").onclick = () => {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
@@ -330,49 +335,41 @@ function showResult() {
     doc.text("Aplus Tutors", 105, 15, { align: "center" });
     doc.setDrawColor(139, 20, 20);
     doc.line(20, 20, 190, 20);
-
     doc.setFontSize(12);
     doc.setTextColor(0, 0, 0);
     doc.text(`Name: ${currentUser.fullName}`, 20, 35);
     doc.text(`Email: ${currentUser.email}`, 20, 42);
     doc.text(`Date: ${date}`, 20, 49);
-
     doc.setFont("helvetica", "bold");
     doc.setTextColor(139, 20, 20);
     doc.text("CBT Test Summary", 105, 60, { align: "center" });
     doc.setTextColor(0, 0, 0);
     doc.setFont("helvetica", "normal");
-
     let y = 70;
     subjectStats.forEach(s => {
       if (y > 280) { doc.addPage(); y = 20; }
       doc.text(`${s.subject}: ${s.correct}/${s.total} (${s.percent}%)`, 25, y);
       y += 7;
     });
-
     doc.setFont("helvetica", "bold");
     doc.setTextColor(139, 20, 20);
     doc.text(`Overall Score: ${overallPercent}%`, 25, y + 5);
     doc.setTextColor(0, 0, 0);
-
     doc.setFontSize(10);
     doc.text("Thank you for learning with Aplus Tutors!", 105, 285, { align: "center" });
-
     doc.save(`${currentUser.fullName}_CBT_Result.pdf`);
   };
 
-  // ✅ Send email
   document.getElementById("email-btn").onclick = () => {
     const subject = encodeURIComponent("CBT Result");
     const body = encodeURIComponent(`Name: ${currentUser.fullName}\nEmail: ${currentUser.email}\nOverall: ${overallPercent}%`);
-    window.location.href = `mailto: olaboredejames2021@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:olaboredejames2021@gmail.com?subject=${subject}&body=${body}`;
   };
 
-  // ✅ Corrections
   document.getElementById("view-corrections-btn").onclick = showCorrections;
 }
 
-// ✅ Show Corrections
+// ✅ Show Corrections (with MathJax support)
 function showCorrections() {
   document.getElementById("result-section").classList.add("hidden");
   document.getElementById("correction-section").classList.remove("hidden");
@@ -388,10 +385,7 @@ function showCorrections() {
       const div = document.createElement("div");
       div.classList.add("correction-item");
 
-      let imgHTML = "";
-      if (q.image) {
-        imgHTML = `<img src="${q.image}" class="question-image" alt="Question image">`;
-      }
+      let imgHTML = q.image ? `<img src="${q.image}" class="question-image" alt="Question image">` : "";
 
       const userAns = userAnswers[sub]?.[i];
       const correctAns = q.answer;
@@ -405,6 +399,9 @@ function showCorrections() {
         <p>Correct Answer: <span class="correct">${correctAnswerText}</span></p>
       `;
       container.appendChild(div);
+
+      // ✅ MathJax rendering for each correction
+      if (window.MathJax && window.MathJax.typesetPromise) MathJax.typesetPromise([div]);
     });
   });
 

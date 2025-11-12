@@ -3,19 +3,27 @@
 const registeredUsers = [
   { 
     fullName: "Olaborede James", 
-    email: "olaboredejames2021@gmail.com" 
+    password: "lordkronos" 
   },
   { 
     fullName: "Dahunsi Opemipo", 
-    email: "solabomidahunsi@gmail.com" 
+    password: "opemipodahunsi123" 
   },
   {
     fullName: "Oluwalade Mary",
-    email: "maryoluwalade48@gmail.com"
+    email: "maryololade231"
   },
   {
     fullName: "Ajenifuja Kehinde",
-    email: "ajenifujakehinde97@gmail.com"
+    password: "kehindeajenifuja442"
+  },
+  {
+    fullName: "Oderinde Olamide",
+    password: "olamideoderinde343"
+  },
+  {
+    fullName: "Akinwale Omobolanle",
+    password: "omobolanle16"
   }
 ];
 
@@ -3043,121 +3051,2405 @@ answer: "Equal and opposite 100 N force"
   ]
 },
 
-    {
-  topic: "Nutrition in Plants and Animals",
+//tissue and supportive system
+
+{
+  topic: "Tissues and Supportive System 1",
   questions: [
     {
-      q: "The process by which green plants manufacture their food is called —",
-      options: ["Respiration", "Photosynthesis", "Transpiration", "Osmosis"],
-      answer: "Photosynthesis"
+      q: "Which of the following is NOT a type of animal tissue?",
+      options: ["Epithelial", "Muscular", "Connective", "Xylem"],
+      answer: "Xylem"
     },
     {
-      q: "Which of the following substances is required for photosynthesis?",
-      options: ["Carbon dioxide and water", "Oxygen and glucose", "Nitrogen and oxygen", "Water and protein"],
-      answer: "Carbon dioxide and water"
+      q: "The tissue that connects muscles to bones is called —",
+      options: ["Ligament", "Tendon", "Cartilage", "Bone"],
+      answer: "Tendon"
     },
     {
-      q: "The green pigment that traps light energy for photosynthesis is —",
-      options: ["Haemoglobin", "Chlorophyll", "Carotene", "Melanin"],
-      answer: "Chlorophyll"
+      q: "Which tissue covers body surfaces and lines body cavities?",
+      options: ["Epithelial", "Nervous", "Muscular", "Connective"],
+      answer: "Epithelial"
     },
     {
-      q: "The main products of photosynthesis are —",
-      options: [
-        "Glucose and oxygen",
-        "Carbon dioxide and water",
-        "Protein and energy",
-        "Starch and carbon dioxide"
-      ],
-      answer: "Glucose and oxygen"
+      q: "The main function of xylem in plants is —",
+      options: ["Transport water and minerals", "Transport food", "Provide support", "Photosynthesis"],
+      answer: "Transport water and minerals"
     },
     {
-      q: "The process by which plants lose water through the stomata is called —",
-      options: ["Transpiration", "Osmosis", "Respiration", "Condensation"],
-      answer: "Transpiration"
+      q: "Which plant tissue is responsible for food transport?",
+      options: ["Phloem", "Xylem", "Collenchyma", "Parenchyma"],
+      answer: "Phloem"
     },
     {
-      q: "Which of these minerals is essential for the formation of chlorophyll?",
-      options: ["Iron", "Magnesium", "Calcium", "Phosphorus"],
-      answer: "Magnesium"
+      q: "Collenchyma tissue in plants primarily provides —",
+      options: ["Support", "Photosynthesis", "Water storage", "Respiration"],
+      answer: "Support"
     },
     {
-      q: "The type of nutrition in which organisms make their own food is —",
-      options: ["Heterotrophic", "Autotrophic", "Saprophytic", "Parasitic"],
-      answer: "Autotrophic"
+      q: "The type of skeleton found in insects is —",
+      options: ["Exoskeleton", "Endoskeleton", "Hydrostatic skeleton", "Cartilaginous skeleton"],
+      answer: "Exoskeleton"
     },
     {
-      q: "Animals that feed on both plants and animals are called —",
-      options: ["Herbivores", "Carnivores", "Omnivores", "Detritivores"],
-      answer: "Omnivores"
+      q: "Which of these animals has a hydrostatic skeleton?",
+      options: ["Earthworm", "Fish", "Bird", "Snake"],
+      answer: "Earthworm"
     },
     {
-      q: "Which of the following is NOT a class of food?",
-      options: ["Carbohydrates", "Proteins", "Vitamins", "Chlorophyll"],
-      answer: "Chlorophyll"
+      q: "The axial skeleton consists of —",
+      options: ["Skull, vertebral column, rib cage", "Limbs only", "Pelvic and pectoral girdles", "Cartilage and tendons"],
+      answer: "Skull, vertebral column, rib cage"
     },
     {
-      q: "Which of the following food substances is mainly for energy supply?",
+      q: "The appendicular skeleton includes —",
+      options: ["Limbs and girdles", "Skull and vertebrae", "Ribs only", "Sternum and cranium"],
+      answer: "Limbs and girdles"
+    },
+    {
+      q: "Which type of joint allows free movement in all directions?",
+      options: ["Hinge", "Ball and socket", "Pivot", "Fixed"],
+      answer: "Ball and socket"
+    },
+    {
+      q: "Ligaments connect —",
+      options: ["Bone to bone", "Muscle to bone", "Tissue to bone", "Bone to cartilage"],
+      answer: "Bone to bone"
+    },
+    {
+      q: "Which type of muscle tissue is involuntary and non-striated?",
+      options: ["Skeletal", "Cardiac", "Smooth", "Striated"],
+      answer: "Smooth"
+    },
+    {
+      q: "The rigid outer covering of arthropods is called —",
+      options: ["Exoskeleton", "Endoskeleton", "Hydrostatic skeleton", "Cartilage"],
+      answer: "Exoskeleton"
+    },
+    {
+      q: "Which connective tissue stores fat in the body?",
+      options: ["Adipose tissue", "Cartilage", "Bone", "Ligament"],
+      answer: "Adipose tissue"
+    },
+    {
+      q: "Cartilage is found in all the following EXCEPT —",
+      options: ["Nose", "Ear", "Vertebral discs", "Brain"],
+      answer: "Brain"
+    },
+    {
+      q: "Which tissue in plants is responsible for mechanical strength and flexibility?",
+      options: ["Collenchyma", "Parenchyma", "Sclerenchyma", "Xylem"],
+      answer: "Collenchyma"
+    },
+    {
+      q: "Parenchyma cells mainly function in —",
+      options: ["Photosynthesis, storage, and secretion", "Support only", "Water transport", "Movement"],
+      answer: "Photosynthesis, storage, and secretion"
+    },
+    {
+      q: "Which skeleton type is characteristic of vertebrates?",
+      options: ["Endoskeleton", "Exoskeleton", "Hydrostatic skeleton", "Dermal skeleton"],
+      answer: "Endoskeleton"
+    },
+    {
+      q: "Joints that allow movement in one plane only are called —",
+      options: ["Hinge joints", "Ball and socket joints", "Pivot joints", "Fixed joints"],
+      answer: "Hinge joints"
+    }
+  ]
+},
+
+{
+  topic: "Tissues and Supportive System 2",
+  questions: [
+    {
+      q: "Which of the following is NOT a plant tissue?",
+      options: ["Parenchyma", "Collenchyma", "Sclerenchyma", "Ligament"],
+      answer: "Ligament"
+    },
+    {
+      q: "The tissue that protects internal organs and supports the body is —",
+      options: ["Bone", "Cartilage", "Muscle", "Tendon"],
+      answer: "Bone"
+    },
+    {
+      q: "Which tissue transmits nerve impulses in animals?",
+      options: ["Muscular", "Connective", "Nervous", "Epithelial"],
+      answer: "Nervous"
+    },
+    {
+      q: "The tissue that provides flexible support in plant stems is —",
+      options: ["Collenchyma", "Parenchyma", "Xylem", "Phloem"],
+      answer: "Collenchyma"
+    },
+    {
+      q: "Sclerenchyma tissue in plants is primarily for —",
+      options: ["Mechanical support", "Food transport", "Photosynthesis", "Water absorption"],
+      answer: "Mechanical support"
+    },
+    {
+      q: "Phloem transports —",
+      options: ["Food substances", "Water", "Minerals", "Hormones"],
+      answer: "Food substances"
+    },
+    {
+      q: "Which animal has an exoskeleton made of chitin?",
+      options: ["Crab", "Frog", "Cat", "Human"],
+      answer: "Crab"
+    },
+    {
+      q: "Which of these animals has a skeleton made entirely of cartilage?",
+      options: ["Shark", "Frog", "Cat", "Bird"],
+      answer: "Shark"
+    },
+    {
+      q: "The vertebral column is part of the —",
+      options: ["Axial skeleton", "Appendicular skeleton", "Exoskeleton", "Hydrostatic skeleton"],
+      answer: "Axial skeleton"
+    },
+    {
+      q: "The pectoral and pelvic girdles are part of the —",
+      options: ["Appendicular skeleton", "Axial skeleton", "Cartilage skeleton", "Exoskeleton"],
+      answer: "Appendicular skeleton"
+    },
+    {
+      q: "Which joint type allows rotation around a single axis?",
+      options: ["Pivot", "Hinge", "Ball and socket", "Fixed"],
+      answer: "Pivot"
+    },
+    {
+      q: "Tendons connect —",
+      options: ["Muscle to bone", "Bone to bone", "Muscle to muscle", "Ligament to bone"],
+      answer: "Muscle to bone"
+    },
+    {
+      q: "Skeletal muscles are —",
+      options: ["Voluntary and striated", "Involuntary and striated", "Voluntary and smooth", "Involuntary and smooth"],
+      answer: "Voluntary and striated"
+    },
+    {
+      q: "Which skeleton type uses fluid pressure for support?",
+      options: ["Hydrostatic skeleton", "Endoskeleton", "Exoskeleton", "Cartilaginous skeleton"],
+      answer: "Hydrostatic skeleton"
+    },
+    {
+      q: "Adipose tissue is mainly for —",
+      options: ["Fat storage", "Support", "Movement", "Impulse transmission"],
+      answer: "Fat storage"
+    },
+    {
+      q: "Cartilage provides —",
+      options: ["Flexible support", "Rigid support", "Fat storage", "Impulse conduction"],
+      answer: "Flexible support"
+    },
+    {
+      q: "Which plant tissue consists of dead cells with lignified walls for support?",
+      options: ["Sclerenchyma", "Collenchyma", "Parenchyma", "Phloem"],
+      answer: "Sclerenchyma"
+    },
+    {
+      q: "Parenchyma cells differ from collenchyma because they —",
+      options: ["Are thin-walled and mostly for storage", "Provide flexible support", "Transport water", "Form joints in animals"],
+      answer: "Are thin-walled and mostly for storage"
+    },
+    {
+      q: "Endoskeletons are characteristic of —",
+      options: ["Vertebrates", "Insects", "Worms", "Crustaceans"],
+      answer: "Vertebrates"
+    },
+    {
+      q: "Ball and socket joints are found in —",
+      options: ["Shoulder and hip", "Elbow and knee", "Neck", "Wrist"],
+      answer: "Shoulder and hip"
+    }
+  ]
+},
+
+// nervous and hormonal coordination 
+
+{
+  topic: "Nervous and Hormonal Coordination 1",
+  questions: [
+    {
+      q: "The basic structural and functional unit of the nervous system is —",
+      options: ["Neuron", "Axon", "Dendrite", "Nerve"],
+      answer: "Neuron"
+    },
+    {
+      q: "Which part of the neuron receives impulses from other neurons?",
+      options: ["Axon", "Dendrite", "Cell body", "Myelin sheath"],
+      answer: "Dendrite"
+    },
+    {
+      q: "The long fiber of a neuron that conducts impulses away from the cell body is called —",
+      options: ["Axon", "Dendrite", "Synapse", "Node of Ranvier"],
+      answer: "Axon"
+    },
+    {
+      q: "The gaps in the myelin sheath along the axon are called —",
+      options: ["Nodes of Ranvier", "Synapses", "Dendrites", "Axon terminals"],
+      answer: "Nodes of Ranvier"
+    },
+    {
+      q: "The junction between two neurons is called —",
+      options: ["Synapse", "Axon", "Dendrite", "Receptor"],
+      answer: "Synapse"
+    },
+    {
+      q: "Which part of the brain controls voluntary actions and intelligence?",
+      options: ["Cerebrum", "Cerebellum", "Medulla oblongata", "Hypothalamus"],
+      answer: "Cerebrum"
+    },
+    {
+      q: "The part of the brain responsible for balance and coordination is —",
+      options: ["Cerebellum", "Cerebrum", "Medulla oblongata", "Hypothalamus"],
+      answer: "Cerebellum"
+    },
+    {
+      q: "Reflex action is —",
+      options: ["Voluntary and slow", "Involuntary and rapid", "Voluntary and rapid", "Involuntary and slow"],
+      answer: "Involuntary and rapid"
+    },
+    {
+      q: "The pathway followed by an impulse in a reflex action is called —",
+      options: ["Reflex arc", "Neuron chain", "Synaptic path", "Axonal route"],
+      answer: "Reflex arc"
+    },
+    {
+      q: "Which sense organ detects light?",
+      options: ["Eye", "Ear", "Skin", "Nose"],
+      answer: "Eye"
+    },
+    {
+      q: "The endocrine gland that regulates metabolism is —",
+      options: ["Thyroid", "Adrenal", "Pancreas", "Pituitary"],
+      answer: "Thyroid"
+    },
+    {
+      q: "Which hormone regulates blood sugar levels?",
+      options: ["Insulin", "Adrenaline", "Thyroxine", "Testosterone"],
+      answer: "Insulin"
+    },
+    {
+      q: "The 'master gland' of the body is —",
+      options: ["Pituitary", "Thyroid", "Adrenal", "Pancreas"],
+      answer: "Pituitary"
+    },
+    {
+      q: "Adrenaline is secreted by the —",
+      options: ["Adrenal glands", "Thyroid glands", "Pituitary glands", "Pancreas"],
+      answer: "Adrenal glands"
+    },
+    {
+      q: "Which hormone is responsible for female secondary sexual characteristics?",
+      options: ["Oestrogen", "Testosterone", "Insulin", "Adrenaline"],
+      answer: "Oestrogen"
+    },
+    {
+      q: "The part of the nervous system that controls involuntary activities is —",
+      options: ["Autonomic nervous system", "Somatic nervous system", "Central nervous system", "Peripheral nervous system"],
+      answer: "Autonomic nervous system"
+    },
+    {
+      q: "Which part of the neuron releases neurotransmitters?",
+      options: ["Axon terminals", "Dendrites", "Cell body", "Myelin sheath"],
+      answer: "Axon terminals"
+    },
+    {
+      q: "The hormone that stimulates water reabsorption in the kidney is —",
+      options: ["ADH", "Insulin", "Glucagon", "Adrenaline"],
+      answer: "ADH"
+    },
+    {
+      q: "Which hormone triggers the fight-or-flight response?",
+      options: ["Adrenaline", "Insulin", "Oestrogen", "Thyroxine"],
+      answer: "Adrenaline"
+    },
+    {
+      q: "Which gland regulates calcium levels in the blood?",
+      options: ["Parathyroid", "Thyroid", "Pituitary", "Adrenal"],
+      answer: "Parathyroid"
+    }
+  ]
+},
+
+{
+  topic: "Nervous and Hormonal Coordination 2",
+  questions: [
+    {
+      q: "Which part of the brain regulates body temperature, hunger, and thirst?",
+      options: ["Hypothalamus", "Cerebrum", "Cerebellum", "Medulla oblongata"],
+      answer: "Hypothalamus"
+    },
+    {
+      q: "Which neuron carries impulses from the receptor to the CNS?",
+      options: ["Sensory neuron", "Motor neuron", "Interneuron", "Connector neuron"],
+      answer: "Sensory neuron"
+    },
+    {
+      q: "Which neuron carries impulses from the CNS to the effector?",
+      options: ["Motor neuron", "Sensory neuron", "Interneuron", "Connector neuron"],
+      answer: "Motor neuron"
+    },
+    {
+      q: "Which part of the eye controls the amount of light entering?",
+      options: ["Iris", "Cornea", "Lens", "Retina"],
+      answer: "Iris"
+    },
+    {
+      q: "The transparent part of the eye that focuses light onto the retina is —",
+      options: ["Lens", "Cornea", "Iris", "Pupil"],
+      answer: "Lens"
+    },
+    {
+      q: "The inner layer of the eye that contains light-sensitive cells is —",
+      options: ["Retina", "Cornea", "Iris", "Lens"],
+      answer: "Retina"
+    },
+    {
+      q: "Which hormone is secreted by the pancreas to increase blood sugar levels?",
+      options: ["Glucagon", "Insulin", "Adrenaline", "Thyroxine"],
+      answer: "Glucagon"
+    },
+    {
+      q: "The pituitary gland regulates other endocrine glands through —",
+      options: ["Hormones", "Nerve impulses", "Reflex actions", "Enzymes"],
+      answer: "Hormones"
+    },
+    {
+      q: "Which hormone stimulates growth and development in humans?",
+      options: ["Growth hormone", "Adrenaline", "Insulin", "Oestrogen"],
+      answer: "Growth hormone"
+    },
+    {
+      q: "Reflex actions are important because they —",
+      options: ["Protect the body from injury", "Control digestion", "Regulate hormones", "Control movement voluntarily"],
+      answer: "Protect the body from injury"
+    },
+    {
+      q: "Which part of the nervous system is composed of the brain and spinal cord?",
+      options: ["Central nervous system", "Peripheral nervous system", "Autonomic nervous system", "Somatic nervous system"],
+      answer: "Central nervous system"
+    },
+    {
+      q: "Which part of the nervous system includes nerves outside the brain and spinal cord?",
+      options: ["Peripheral nervous system", "Central nervous system", "Autonomic nervous system", "Somatic nervous system"],
+      answer: "Peripheral nervous system"
+    },
+    {
+      q: "The speed of impulse transmission along a neuron is increased by —",
+      options: ["Myelin sheath", "Dendrites", "Axon terminals", "Cell body"],
+      answer: "Myelin sheath"
+    },
+    {
+      q: "Which endocrine gland regulates the metabolic rate of the body?",
+      options: ["Thyroid", "Pituitary", "Adrenal", "Pancreas"],
+      answer: "Thyroid"
+    },
+    {
+      q: "The fight-or-flight hormone also increases —",
+      options: ["Heart rate and blood pressure", "Insulin production", "Calcium absorption", "Reflex arc speed"],
+      answer: "Heart rate and blood pressure"
+    },
+    {
+      q: "Which hormone is responsible for milk production in mammals?",
+      options: ["Prolactin", "Oestrogen", "Testosterone", "Adrenaline"],
+      answer: "Prolactin"
+    },
+    {
+      q: "Which structure in a neuron transmits impulses to another neuron or effector?",
+      options: ["Axon terminal", "Dendrite", "Cell body", "Myelin sheath"],
+      answer: "Axon terminal"
+    },
+    {
+      q: "The receptor for sound waves in the ear is found in —",
+      options: ["Cochlea", "Pinna", "Auditory canal", "Eardrum"],
+      answer: "Cochlea"
+    },
+    {
+      q: "Which hormone regulates water balance in the body?",
+      options: ["ADH", "Insulin", "Glucagon", "Thyroxine"],
+      answer: "ADH"
+    },
+    {
+      q: "The autonomic nervous system controls —",
+      options: ["Involuntary actions like heartbeat and digestion", "Voluntary actions like walking", "Reflex arc only", "Muscle growth"],
+      answer: "Involuntary actions like heartbeat and digestion"
+    }
+  ]
+},
+
+//reproduction 
+
+{
+  topic: "Reproduction 1",
+  questions: [
+    {
+      q: "Reproduction is the biological process by which —",
+      options: ["Organisms produce offspring", "Organisms get energy", "Cells divide for growth", "Organisms move to new habitats"],
+      answer: "Organisms produce offspring"
+    },
+    {
+      q: "Which type of reproduction involves only one parent?",
+      options: ["Asexual", "Sexual", "Cross-fertilization", "Internal fertilization"],
+      answer: "Asexual"
+    },
+    {
+      q: "Binary fission is common in —",
+      options: ["Bacteria", "Humans", "Birds", "Fish"],
+      answer: "Bacteria"
+    },
+    {
+      q: "Budding is a form of —",
+      options: ["Asexual reproduction", "Sexual reproduction", "Fertilization", "Pollination"],
+      answer: "Asexual reproduction"
+    },
+    {
+      q: "The fusion of male and female gametes is called —",
+      options: ["Fertilization", "Pollination", "Ovulation", "Meiosis"],
+      answer: "Fertilization"
+    },
+    {
+      q: "The male gamete in humans is —",
+      options: ["Sperm", "Egg", "Zygote", "Pollen"],
+      answer: "Sperm"
+    },
+    {
+      q: "The female gamete in humans is —",
+      options: ["Ovum", "Sperm", "Zygote", "Embryo"],
+      answer: "Ovum"
+    },
+    {
+      q: "Fertilization that occurs inside the female body is —",
+      options: ["Internal fertilization", "External fertilization", "Asexual reproduction", "Spore formation"],
+      answer: "Internal fertilization"
+    },
+    {
+      q: "Which organ produces sperm in males?",
+      options: ["Testes", "Ovaries", "Uterus", "Prostate gland"],
+      answer: "Testes"
+    },
+    {
+      q: "Which organ produces eggs in females?",
+      options: ["Ovaries", "Testes", "Uterus", "Fallopian tube"],
+      answer: "Ovaries"
+    },
+    {
+      q: "The structure that carries sperm from the testes to the urethra is —",
+      options: ["Sperm duct", "Vas deferens", "Oviduct", "Ejaculatory duct"],
+      answer: "Vas deferens"
+    },
+    {
+      q: "Which hormone triggers ovulation in females?",
+      options: ["LH (Luteinizing hormone)", "FSH (Follicle stimulating hormone)", "Testosterone", "Estrogen"],
+      answer: "LH (Luteinizing hormone)"
+    },
+    {
+      q: "Which hormone is mainly responsible for the development of male secondary sexual characteristics?",
+      options: ["Testosterone", "Oestrogen", "Progesterone", "LH"],
+      answer: "Testosterone"
+    },
+    {
+      q: "Which hormone maintains the uterine lining for pregnancy?",
+      options: ["Progesterone", "Oestrogen", "Testosterone", "FSH"],
+      answer: "Progesterone"
+    },
+    {
+      q: "The tube that connects the ovary to the uterus is called —",
+      options: ["Fallopian tube", "Oviduct", "Urethra", "Vas deferens"],
+      answer: "Fallopian tube"
+    },
+    {
+      q: "The site where fertilization usually occurs in humans is —",
+      options: ["Fallopian tube", "Ovary", "Uterus", "Vagina"],
+      answer: "Fallopian tube"
+    },
+    {
+      q: "A zygote develops into an embryo through the process of —",
+      options: ["Mitosis", "Meiosis", "Fertilization", "Pollination"],
+      answer: "Mitosis"
+    },
+    {
+      q: "Which structure provides nutrients to the developing embryo in humans?",
+      options: ["Placenta", "Umbilical cord", "Amniotic sac", "Fallopian tube"],
+      answer: "Placenta"
+    },
+    {
+      q: "The period from fertilization to birth in humans is called —",
+      options: ["Gestation", "Ovulation", "Fertilization", "Parturition"],
+      answer: "Gestation"
+    },
+    {
+      q: "Which of the following is a method of vegetative reproduction in plants?",
+      options: ["Cutting", "Pollination", "Fertilization", "Spore formation"],
+      answer: "Cutting"
+    }
+  ]
+},
+
+{
+  topic: "Reproduction 2",
+  questions: [
+    {
+      q: "Which reproductive strategy produces genetically identical offspring?",
+      options: ["Asexual reproduction", "Sexual reproduction", "Cross-fertilization", "Internal fertilization"],
+      answer: "Asexual reproduction"
+    },
+    {
+      q: "In flowering plants, male gametes are found in —",
+      options: ["Pollen grains", "Ovules", "Petals", "Sepals"],
+      answer: "Pollen grains"
+    },
+    {
+      q: "In flowering plants, female gametes are found in —",
+      options: ["Ovules", "Pollen grains", "Stamens", "Sepals"],
+      answer: "Ovules"
+    },
+    {
+      q: "Which type of fertilization occurs outside the female body?",
+      options: ["External fertilization", "Internal fertilization", "Asexual reproduction", "Pollination"],
+      answer: "External fertilization"
+    },
+    {
+      q: "Which part of the male reproductive system stores sperm temporarily?",
+      options: ["Epididymis", "Testes", "Seminal vesicle", "Prostate gland"],
+      answer: "Epididymis"
+    },
+    {
+      q: "Which hormone stimulates sperm production in males?",
+      options: ["FSH", "LH", "Progesterone", "Oestrogen"],
+      answer: "FSH"
+    },
+    {
+      q: "The process by which an egg is released from the ovary is called —",
+      options: ["Ovulation", "Fertilization", "Menstruation", "Gestation"],
+      answer: "Ovulation"
+    },
+    {
+      q: "Fertilization leads to the formation of a —",
+      options: ["Zygote", "Embryo", "Fetus", "Placenta"],
+      answer: "Zygote"
+    },
+    {
+      q: "The sac that surrounds the developing embryo and contains fluid is —",
+      options: ["Amniotic sac", "Placenta", "Umbilical cord", "Fallopian tube"],
+      answer: "Amniotic sac"
+    },
+    {
+      q: "Which structure connects the fetus to the placenta?",
+      options: ["Umbilical cord", "Fallopian tube", "Cervix", "Vagina"],
+      answer: "Umbilical cord"
+    },
+    {
+      q: "Which hormone triggers milk production after childbirth?",
+      options: ["Prolactin", "Oestrogen", "Progesterone", "FSH"],
+      answer: "Prolactin"
+    },
+    {
+      q: "The endometrium is shed during —",
+      options: ["Menstruation", "Ovulation", "Fertilization", "Gestation"],
+      answer: "Menstruation"
+    },
+    {
+      q: "Which of these is an advantage of sexual reproduction?",
+      options: ["Genetic variation", "Faster reproduction", "No gametes required", "Identical offspring"],
+      answer: "Genetic variation"
+    },
+    {
+      q: "Which plant reproduces by spores?",
+      options: ["Ferns", "Maize", "Beans", "Mango"],
+      answer: "Ferns"
+    },
+    {
+      q: "Which structure in flowering plants becomes the fruit after fertilization?",
+      options: ["Ovary", "Ovule", "Stigma", "Anther"],
+      answer: "Ovary"
+    },
+    {
+      q: "Which structure in plants produces male gametes?",
+      options: ["Anther", "Ovary", "Style", "Stigma"],
+      answer: "Anther"
+    },
+    {
+      q: "Which of these is a function of the testes?",
+      options: ["Produce sperm and testosterone", "Produce eggs", "Produce progesterone", "Store ova"],
+      answer: "Produce sperm and testosterone"
+    },
+    {
+      q: "The female reproductive organ that receives sperm during copulation is —",
+      options: ["Vagina", "Uterus", "Ovary", "Fallopian tube"],
+      answer: "Vagina"
+    },
+    {
+      q: "Which reproductive method produces large numbers of offspring in a short time?",
+      options: ["Asexual reproduction", "Sexual reproduction", "Cross-fertilization", "Pollination"],
+      answer: "Asexual reproduction"
+    },
+    {
+      q: "Which plant tissue is responsible for vegetative propagation?",
+      options: ["Meristem", "Xylem", "Phloem", "Sclerenchyma"],
+      answer: "Meristem"
+    }
+  ]
+},
+
+//nutrition
+
+{
+  topic: "Nutrition 1",
+  questions: [
+    {
+      q: "The process by which living organisms obtain and use food for energy is called —",
+      options: ["Nutrition", "Respiration", "Photosynthesis", "Digestion"],
+      answer: "Nutrition"
+    },
+    {
+      q: "Which of the following is an example of autotrophic nutrition?",
+      options: ["Green plants", "Humans", "Fungi", "Paramecium"],
+      answer: "Green plants"
+    },
+    {
+      q: "Heterotrophic nutrition involves —",
+      options: ["Obtaining food from other organisms", "Making food from sunlight", "Using inorganic compounds", "Producing own food"],
+      answer: "Obtaining food from other organisms"
+    },
+    {
+      q: "The human digestive system begins at the —",
+      options: ["Mouth", "Stomach", "Small intestine", "Esophagus"],
+      answer: "Mouth"
+    },
+    {
+      q: "Which enzyme in saliva begins the digestion of starch?",
+      options: ["Amylase", "Lipase", "Pepsin", "Maltase"],
+      answer: "Amylase"
+    },
+    {
+      q: "The stomach secretes —",
+      options: ["Hydrochloric acid and pepsin", "Amylase only", "Lipase only", "Bile and maltase"],
+      answer: "Hydrochloric acid and pepsin"
+    },
+    {
+      q: "Which organ stores bile produced by the liver?",
+      options: ["Gall bladder", "Pancreas", "Small intestine", "Stomach"],
+      answer: "Gall bladder"
+    },
+    {
+      q: "Bile helps in —",
+      options: ["Emulsification of fats", "Digesting proteins", "Absorption of sugars", "Breaking down starch"],
+      answer: "Emulsification of fats"
+    },
+    {
+      q: "Absorption of digested food mainly occurs in the —",
+      options: ["Small intestine", "Stomach", "Large intestine", "Mouth"],
+      answer: "Small intestine"
+    },
+    {
+      q: "The finger-like projections in the small intestine that aid absorption are —",
+      options: ["Villi", "Cilia", "Papillae", "Microtubules"],
+      answer: "Villi"
+    },
+    {
+      q: "Which of these nutrients is mainly used for energy?",
       options: ["Carbohydrates", "Proteins", "Vitamins", "Minerals"],
       answer: "Carbohydrates"
     },
     {
       q: "Proteins are mainly used for —",
-      options: ["Energy supply", "Growth and repair of tissues", "Regulating temperature", "Producing hormones"],
-      answer: "Growth and repair of tissues"
+      options: ["Growth and repair", "Energy", "Transport of gases", "Water balance"],
+      answer: "Growth and repair"
     },
     {
-      q: "Which of these enzymes breaks down starch to maltose?",
+      q: "Lipase breaks down —",
+      options: ["Fats", "Proteins", "Carbohydrates", "Vitamins"],
+      answer: "Fats"
+    },
+    {
+      q: "Which part of the digestive system removes water from undigested food?",
+      options: ["Large intestine", "Small intestine", "Stomach", "Rectum"],
+      answer: "Large intestine"
+    },
+    {
+      q: "Ruminant animals chew the cud to —",
+      options: ["Help digest cellulose", "Drink water", "Absorb vitamins", "Store food"],
+      answer: "Help digest cellulose"
+    },
+    {
+      q: "Green plants make food in the presence of —",
+      options: ["Sunlight, carbon dioxide, and water", "Oxygen only", "Nitrogen only", "Glucose only"],
+      answer: "Sunlight, carbon dioxide, and water"
+    },
+    {
+      q: "The green pigment that traps light energy is —",
+      options: ["Chlorophyll", "Carotene", "Xanthophyll", "Haemoglobin"],
+      answer: "Chlorophyll"
+    },
+    {
+      q: "Which of these is a deficiency disease caused by lack of Vitamin C?",
+      options: ["Scurvy", "Rickets", "Beriberi", "Anaemia"],
+      answer: "Scurvy"
+    },
+    {
+      q: "Which mineral is essential for the formation of hemoglobin?",
+      options: ["Iron", "Calcium", "Magnesium", "Potassium"],
+      answer: "Iron"
+    },
+    {
+      q: "Which of the following organisms feed on dead and decaying matter?",
+      options: ["Saprophytes", "Parasites", "Herbivores", "Carnivores"],
+      answer: "Saprophytes"
+    }
+  ]
+},
+
+{
+  topic: "Nutrition 2",
+  questions: [
+    {
+      q: "The process of breaking down large food molecules into smaller absorbable units is —",
+      options: ["Digestion", "Respiration", "Photosynthesis", "Assimilation"],
+      answer: "Digestion"
+    },
+    {
+      q: "The chemical digestion of proteins in the stomach is done by —",
+      options: ["Pepsin", "Amylase", "Lipase", "Maltase"],
+      answer: "Pepsin"
+    },
+    {
+      q: "Which organ produces digestive enzymes for the small intestine?",
+      options: ["Pancreas", "Liver", "Stomach", "Gall bladder"],
+      answer: "Pancreas"
+    },
+    {
+      q: "Saliva contains mucus and which enzyme?",
       options: ["Amylase", "Pepsin", "Lipase", "Trypsin"],
       answer: "Amylase"
     },
     {
-      q: "Which part of the human digestive system absorbs digested food?",
-      options: ["Stomach", "Small intestine", "Large intestine", "Mouth"],
-      answer: "Small intestine"
+      q: "Which process moves digested food into the bloodstream?",
+      options: ["Absorption", "Assimilation", "Excretion", "Ingestion"],
+      answer: "Absorption"
     },
     {
-      q: "The finger-like projections in the small intestine that aid absorption are called —",
-      options: ["Cilia", "Villi", "Papillae", "Flagella"],
-      answer: "Villi"
+      q: "The breakdown of starch into maltose is catalyzed by —",
+      options: ["Amylase", "Lipase", "Pepsin", "Protease"],
+      answer: "Amylase"
     },
     {
-      q: "Which of the following is an example of a ruminant animal?",
-      options: ["Dog", "Rabbit", "Goat", "Hen"],
-      answer: "Goat"
+      q: "Which part of the digestive system connects the mouth to the stomach?",
+      options: ["Esophagus", "Small intestine", "Large intestine", "Pharynx"],
+      answer: "Esophagus"
     },
     {
-      q: "Ruminant animals chew the cud mainly to —",
-      options: [
-        "Swallow more food",
-        "Help digest cellulose better",
-        "Prevent overeating",
-        "Produce saliva"
-      ],
-      answer: "Help digest cellulose better"
+      q: "The teeth adapted for cutting and biting are —",
+      options: ["Incisors", "Canines", "Molars", "Premolars"],
+      answer: "Incisors"
     },
     {
-      q: "The enzyme that breaks down fats into fatty acids and glycerol is —",
-      options: ["Amylase", "Pepsin", "Lipase", "Maltase"],
-      answer: "Lipase"
+      q: "The teeth adapted for tearing flesh are —",
+      options: ["Canines", "Incisors", "Molars", "Premolars"],
+      answer: "Canines"
     },
     {
-      q: "In plants, food is transported from the leaves to other parts through the —",
-      options: ["Xylem", "Phloem", "Stomata", "Cortex"],
+      q: "Which enzyme converts maltose to glucose?",
+      options: ["Maltase", "Amylase", "Pepsin", "Lipase"],
+      answer: "Maltase"
+    },
+    {
+      q: "Ruminants have a specialized stomach called —",
+      options: ["Rumen", "Omasum", "Abomasum", "All of the above"],
+      answer: "All of the above"
+    },
+    {
+      q: "Which organ stores undigested food before egestion?",
+      options: ["Rectum", "Stomach", "Small intestine", "Large intestine"],
+      answer: "Rectum"
+    },
+    {
+      q: "Enzymes are important in digestion because they —",
+      options: ["Speed up chemical reactions", "Provide energy", "Absorb food", "Transport nutrients"],
+      answer: "Speed up chemical reactions"
+    },
+    {
+      q: "Which vitamin prevents rickets in children?",
+      options: ["Vitamin D", "Vitamin C", "Vitamin A", "Vitamin B1"],
+      answer: "Vitamin D"
+    },
+    {
+      q: "The tissue that helps transport water in plants is —",
+      options: ["Xylem", "Phloem", "Parenchyma", "Collenchyma"],
+      answer: "Xylem"
+    },
+    {
+      q: "The tissue that helps transport food in plants is —",
+      options: ["Phloem", "Xylem", "Parenchyma", "Collenchyma"],
       answer: "Phloem"
     },
     {
-      q: "Which of these organisms feed on dead and decaying matter?",
-      options: ["Parasites", "Herbivores", "Saprophytes", "Carnivores"],
-      answer: "Saprophytes"
+      q: "Humans are —",
+      options: ["Heterotrophs", "Autotrophs", "Saprophytes", "Parasites"],
+      answer: "Heterotrophs"
     },
     {
-      q: "Which of these vitamins prevents rickets?",
-      options: ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
-      answer: "Vitamin D"
+      q: "Plants that trap and digest insects are —",
+      options: ["Insectivorous", "Carnivorous", "Saprophytic", "Parasites"],
+      answer: "Insectivorous"
+    },
+    {
+      q: "Which of these is a function of the large intestine?",
+      options: ["Water absorption", "Protein digestion", "Carbohydrate digestion", "Fat emulsification"],
+      answer: "Water absorption"
+    },
+    {
+      q: "Which of these is a deficiency disease caused by lack of iron?",
+      options: ["Anaemia", "Scurvy", "Rickets", "Beriberi"],
+      answer: "Anaemia"
     }
   ]
-}
+},
+
+
+//basic ecology concepts
+
+{
+  topic: "Basic Ecological Concepts 1",
+  questions: [
+    {
+      q: "The study of interactions between organisms and their environment is called —",
+      options: ["Ecology", "Biology", "Zoology", "Botany"],
+      answer: "Ecology"
+    },
+    {
+      q: "An ecosystem consists of —",
+      options: ["Biotic and abiotic components", "Only plants", "Only animals", "Only microorganisms"],
+      answer: "Biotic and abiotic components"
+    },
+    {
+      q: "Which of the following is an abiotic factor?",
+      options: ["Sunlight", "Grass", "Rabbit", "Bacteria"],
+      answer: "Sunlight"
+    },
+    {
+      q: "Which of the following is a biotic factor?",
+      options: ["Trees", "Water", "Temperature", "Soil"],
+      answer: "Trees"
+    },
+    {
+      q: "Organisms that make their own food are called —",
+      options: ["Producers", "Consumers", "Decomposers", "Herbivores"],
+      answer: "Producers"
+    },
+    {
+      q: "Organisms that eat other organisms for food are called —",
+      options: ["Consumers", "Producers", "Decomposers", "Autotrophs"],
+      answer: "Consumers"
+    },
+    {
+      q: "Organisms that break down dead matter and recycle nutrients are —",
+      options: ["Decomposers", "Producers", "Consumers", "Herbivores"],
+      answer: "Decomposers"
+    },
+    {
+      q: "A food chain shows —",
+      options: ["The flow of energy from one organism to another", "All organisms in a habitat", "Population growth", "Decomposition process"],
+      answer: "The flow of energy from one organism to another"
+    },
+    {
+      q: "A food web —",
+      options: ["Shows interconnected food chains", "Shows only herbivores", "Shows only carnivores", "Shows nutrient cycles"],
+      answer: "Shows interconnected food chains"
+    },
+    {
+      q: "The role of an organism in its habitat is called —",
+      options: ["Niche", "Population", "Community", "Ecosystem"],
+      answer: "Niche"
+    },
+    {
+      q: "The place where an organism lives is called —",
+      options: ["Habitat", "Niche", "Community", "Population"],
+      answer: "Habitat"
+    },
+    {
+      q: "All the members of the same species living in an area make up a —",
+      options: ["Population", "Community", "Ecosystem", "Biosphere"],
+      answer: "Population"
+    },
+    {
+      q: "All the different populations living together in a particular area form a —",
+      options: ["Community", "Population", "Ecosystem", "Biome"],
+      answer: "Community"
+    },
+    {
+      q: "An adaptation that helps animals survive in hot environments is —",
+      options: ["Large ears for heat dissipation", "Thick fur", "Hibernation", "Bright colors"],
+      answer: "Large ears for heat dissipation"
+    },
+    {
+      q: "Producers in an ecosystem are usually —",
+      options: ["Green plants", "Herbivores", "Carnivores", "Fungi"],
+      answer: "Green plants"
+    },
+    {
+      q: "Herbivores feed on —",
+      options: ["Plants", "Animals", "Both plants and animals", "Dead matter"],
+      answer: "Plants"
+    },
+    {
+      q: "Carnivores feed on —",
+      options: ["Other animals", "Plants", "Both plants and animals", "Dead matter"],
+      answer: "Other animals"
+    },
+    {
+      q: "Decomposers help to —",
+      options: ["Recycle nutrients back to the soil", "Produce food", "Eat living plants", "Prey on herbivores"],
+      answer: "Recycle nutrients back to the soil"
+    },
+    {
+      q: "Which of the following shows correct energy flow in a simple food chain?",
+      options: ["Grass → Grasshopper → Frog → Snake → Hawk", "Hawk → Snake → Frog → Grasshopper → Grass", "Grass → Frog → Grasshopper → Hawk → Snake", "Snake → Grass → Hawk → Frog → Grasshopper"],
+      answer: "Grass → Grasshopper → Frog → Snake → Hawk"
+    },
+    {
+      q: "The part of the ecosystem that provides light, temperature, and water is —",
+      options: ["Abiotic component", "Biotic component", "Consumer", "Producer"],
+      answer: "Abiotic component"
+    }
+  ]
+},
+
+{
+  topic: "Basic Ecological Concepts 2",
+  questions: [
+    {
+      q: "All the ecosystems on Earth make up the —",
+      options: ["Biosphere", "Community", "Habitat", "Population"],
+      answer: "Biosphere"
+    },
+    {
+      q: "Organisms that feed on both plants and animals are called —",
+      options: ["Omnivores", "Herbivores", "Carnivores", "Decomposers"],
+      answer: "Omnivores"
+    },
+    {
+      q: "In a pond ecosystem, which of these is a producer?",
+      options: ["Algae", "Fish", "Frog", "Duck"],
+      answer: "Algae"
+    },
+    {
+      q: "In a pond ecosystem, which of these is a primary consumer?",
+      options: ["Zooplankton", "Algae", "Snake", "Bird"],
+      answer: "Zooplankton"
+    },
+    {
+      q: "In a pond ecosystem, which of these is a secondary consumer?",
+      options: ["Small fish", "Algae", "Zooplankton", "Duckweed"],
+      answer: "Small fish"
+    },
+    {
+      q: "Decomposers in an ecosystem include —",
+      options: ["Fungi and bacteria", "Grass and algae", "Herbivores", "Carnivores"],
+      answer: "Fungi and bacteria"
+    },
+    {
+      q: "The number of individuals of a species in a given area is —",
+      options: ["Population", "Community", "Niche", "Habitat"],
+      answer: "Population"
+    },
+    {
+      q: "Which of these is an example of a habitat?",
+      options: ["Pond", "Herbivore", "Predator", "Algae"],
+      answer: "Pond"
+    },
+    {
+      q: "A community of organisms and their physical environment functioning together is called —",
+      options: ["Ecosystem", "Population", "Niche", "Habitat"],
+      answer: "Ecosystem"
+    },
+    {
+      q: "An animal adapted to live in water has —",
+      options: ["Streamlined body", "Thick fur", "Long neck", "Large ears"],
+      answer: "Streamlined body"
+    },
+    {
+      q: "Which term describes all the interacting organisms living in a particular area?",
+      options: ["Community", "Population", "Ecosystem", "Biome"],
+      answer: "Community"
+    },
+    {
+      q: "The feeding relationship in an ecosystem is called a —",
+      options: ["Food chain", "Population", "Habitat", "Niche"],
+      answer: "Food chain"
+    },
+    {
+      q: "The web of all interrelated food chains in a community is called a —",
+      options: ["Food web", "Niche", "Habitat", "Population"],
+      answer: "Food web"
+    },
+    {
+      q: "Decomposers convert —",
+      options: ["Dead organic matter into nutrients", "Water into oxygen", "Sunlight into glucose", "Animals into plants"],
+      answer: "Dead organic matter into nutrients"
+    },
+    {
+      q: "Plants that trap and digest insects are examples of —",
+      options: ["Adaptation to nutrient-poor soils", "Carnivores", "Producers", "Herbivores"],
+      answer: "Adaptation to nutrient-poor soils"
+    },
+    {
+      q: "Predators play an important role in —",
+      options: ["Controlling prey population", "Producing food", "Recycling nutrients", "Providing shelter"],
+      answer: "Controlling prey population"
+    },
+    {
+      q: "A desert ecosystem is characterized by —",
+      options: ["Low rainfall and sparse vegetation", "High rainfall and dense vegetation", "High biodiversity", "Abundant water bodies"],
+      answer: "Low rainfall and sparse vegetation"
+    },
+    {
+      q: "Which of the following is an example of a decomposer in soil?",
+      options: ["Bacteria", "Grass", "Rabbit", "Snake"],
+      answer: "Bacteria"
+    },
+    {
+      q: "Which level of the food chain receives the least energy?",
+      options: ["Top carnivore", "Primary consumer", "Producer", "Secondary consumer"],
+      answer: "Top carnivore"
+    },
+    {
+      q: "The non-living factors of an ecosystem include —",
+      options: ["Water, soil, temperature, light", "Plants, animals, fungi", "Predators, prey", "Parasites, decomposers"],
+      answer: "Water, soil, temperature, light"
+    }
+  ]
+},
+
+//functioning ecosystem 
+
+{
+  topic: "Functioning Ecosystem 1",
+  questions: [
+    {
+      q: "The movement of energy through an ecosystem is usually represented by a —",
+      options: ["Food chain", "Population", "Niche", "Habitat"],
+      answer: "Food chain"
+    },
+    {
+      q: "The first trophic level in a food chain is always —",
+      options: ["Producers", "Primary consumers", "Secondary consumers", "Decomposers"],
+      answer: "Producers"
+    },
+    {
+      q: "Which of these is an example of a primary consumer?",
+      options: ["Grasshopper", "Grass", "Frog", "Snake"],
+      answer: "Grasshopper"
+    },
+    {
+      q: "The trophic level that feeds on primary consumers is called —",
+      options: ["Secondary consumers", "Producers", "Decomposers", "Tertiary consumers"],
+      answer: "Secondary consumers"
+    },
+    {
+      q: "Decomposers in an ecosystem —",
+      options: ["Break down dead organisms and recycle nutrients", "Produce food", "Consume plants", "Are always herbivores"],
+      answer: "Break down dead organisms and recycle nutrients"
+    },
+    {
+      q: "A diagram showing the number of organisms at each trophic level is called —",
+      options: ["Pyramid of numbers", "Food chain", "Food web", "Pyramid of energy"],
+      answer: "Pyramid of numbers"
+    },
+    {
+      q: "A diagram showing the total biomass at each trophic level is —",
+      options: ["Pyramid of biomass", "Pyramid of energy", "Pyramid of numbers", "Food chain"],
+      answer: "Pyramid of biomass"
+    },
+    {
+      q: "A pyramid showing the energy content at each trophic level is called —",
+      options: ["Pyramid of energy", "Pyramid of numbers", "Pyramid of biomass", "Food web"],
+      answer: "Pyramid of energy"
+    },
+    {
+      q: "Energy in an ecosystem flows —",
+      options: ["From producers to consumers to decomposers", "From consumers to producers", "From decomposers to producers", "Randomly among organisms"],
+      answer: "From producers to consumers to decomposers"
+    },
+    {
+      q: "In most ecosystems, energy transfer between trophic levels is —",
+      options: ["About 10%", "50%", "90%", "100%"],
+      answer: "About 10%"
+    },
+    {
+      q: "Nitrogen in ecosystems is returned to the soil mainly by —",
+      options: ["Decomposers and nitrogen-fixing bacteria", "Producers", "Primary consumers", "Herbivores"],
+      answer: "Decomposers and nitrogen-fixing bacteria"
+    },
+    {
+      q: "Carbon dioxide in the atmosphere is absorbed by —",
+      options: ["Plants during photosynthesis", "Animals during respiration", "Decomposers", "Herbivores"],
+      answer: "Plants during photosynthesis"
+    },
+    {
+      q: "Which of the following is a carnivore?",
+      options: ["Snake", "Grasshopper", "Grass", "Algae"],
+      answer: "Snake"
+    },
+    {
+      q: "Energy that is not passed on to the next trophic level is lost as —",
+      options: ["Heat", "Food", "Water", "Minerals"],
+      answer: "Heat"
+    },
+    {
+      q: "In a balanced ecosystem, producers —",
+      options: ["Form the largest biomass and provide energy for consumers", "Are fewer than top carnivores", "Consume other producers", "Are decomposers"],
+      answer: "Form the largest biomass and provide energy for consumers"
+    },
+    {
+      q: "The total number of organisms at each trophic level is usually largest at —",
+      options: ["Producers", "Secondary consumers", "Tertiary consumers", "Decomposers"],
+      answer: "Producers"
+    },
+    {
+      q: "Which of these is an example of a tertiary consumer?",
+      options: ["Hawk", "Grasshopper", "Frog", "Grass"],
+      answer: "Hawk"
+    },
+    {
+      q: "Food webs show —",
+      options: ["Interconnected feeding relationships", "Population size", "Niche of each organism", "Habitat types"],
+      answer: "Interconnected feeding relationships"
+    },
+    {
+      q: "Succession in an ecosystem leads to —",
+      options: ["Climax community", "Decline of producers", "Extinction of consumers", "Loss of energy"],
+      answer: "Climax community"
+    },
+    {
+      q: "The cycling of nutrients in ecosystems ensures —",
+      options: ["Continuous supply of materials for producers", "Energy loss", "Decrease in biomass", "Random feeding"],
+      answer: "Continuous supply of materials for producers"
+    }
+  ]
+},
+
+{
+  topic: "Functioning Ecosystem 2",
+  questions: [
+    {
+      q: "Which of the following organisms is a decomposer?",
+      options: ["Fungi", "Grass", "Rabbit", "Snake"],
+      answer: "Fungi"
+    },
+    {
+      q: "In a grassland ecosystem, which is a primary consumer?",
+      options: ["Grasshopper", "Grass", "Lion", "Eagle"],
+      answer: "Grasshopper"
+    },
+    {
+      q: "The top carnivore in a food chain is —",
+      options: ["Hawk", "Grasshopper", "Grass", "Frog"],
+      answer: "Hawk"
+    },
+    {
+      q: "Pyramids of numbers usually show —",
+      options: ["Number of organisms at each trophic level", "Energy at each trophic level", "Biomass at each level", "Nutrient content"],
+      answer: "Number of organisms at each trophic level"
+    },
+    {
+      q: "Energy in ecosystems flows in —",
+      options: ["One direction from producer to decomposer", "Both directions", "Randomly", "From consumer to producer"],
+      answer: "One direction from producer to decomposer"
+    },
+    {
+      q: "Which pyramid is always upright?",
+      options: ["Pyramid of energy", "Pyramid of numbers", "Pyramid of biomass", "All pyramids"],
+      answer: "Pyramid of energy"
+    },
+    {
+      q: "Which pyramid may be inverted in some ecosystems?",
+      options: ["Pyramid of numbers", "Pyramid of energy", "Pyramid of biomass", "None"],
+      answer: "Pyramid of numbers"
+    },
+    {
+      q: "The main source of energy for an ecosystem is —",
+      options: ["Sunlight", "Soil nutrients", "Water", "Air"],
+      answer: "Sunlight"
+    },
+    {
+      q: "Decomposers recycle —",
+      options: ["Nutrients from dead organisms", "Energy from producers", "Sunlight into glucose", "Water into oxygen"],
+      answer: "Nutrients from dead organisms"
+    },
+    {
+      q: "In an energy pyramid, the smallest energy is at —",
+      options: ["Tertiary consumers", "Producers", "Primary consumers", "Secondary consumers"],
+      answer: "Tertiary consumers"
+    },
+    {
+      q: "Which of these is a producer in a pond ecosystem?",
+      options: ["Algae", "Zooplankton", "Small fish", "Duck"],
+      answer: "Algae"
+    },
+    {
+      q: "The feeding relationship in an ecosystem is important because —",
+      options: ["It maintains ecological balance", "It increases energy loss", "It reduces biodiversity", "It eliminates producers"],
+      answer: "It maintains ecological balance"
+    },
+    {
+      q: "Which of these is an example of secondary consumer?",
+      options: ["Small fish", "Algae", "Zooplankton", "Duckweed"],
+      answer: "Small fish"
+    },
+    {
+      q: "Energy lost as heat at each trophic level is due to —",
+      options: ["Respiration and metabolic activities", "Excretion only", "Absorption of nutrients", "Photosynthesis"],
+      answer: "Respiration and metabolic activities"
+    },
+    {
+      q: "Which statement best describes a balanced ecosystem?",
+      options: ["Energy flow and nutrient cycling are maintained", "No consumers are present", "Producers are absent", "Decomposers do not exist"],
+      answer: "Energy flow and nutrient cycling are maintained"
+    },
+    {
+      q: "The recycling of carbon in ecosystems occurs through —",
+      options: ["Respiration, photosynthesis, and decomposition", "Predation only", "Consumption only", "Evaporation"],
+      answer: "Respiration, photosynthesis, and decomposition"
+    },
+    {
+      q: "An ecosystem in which energy flow and nutrient cycling are most stable is —",
+      options: ["Climax ecosystem", "Pioneer ecosystem", "Artificial ecosystem", "Desert ecosystem"],
+      answer: "Climax ecosystem"
+    },
+    {
+      q: "Which of the following shows correct energy transfer?",
+      options: ["Grass → Grasshopper → Frog → Snake → Hawk", "Hawk → Grasshopper → Frog → Grass", "Snake → Frog → Grasshopper → Grass → Hawk", "Grass → Snake → Grasshopper → Hawk → Frog"],
+      answer: "Grass → Grasshopper → Frog → Snake → Hawk"
+    },
+    {
+      q: "The pyramid of biomass represents —",
+      options: ["Total mass of organisms at each trophic level", "Energy at each trophic level", "Number of organisms", "Nutrient content"],
+      answer: "Total mass of organisms at each trophic level"
+    },
+    {
+      q: "Which factor affects the functioning of an ecosystem?",
+      options: ["Availability of nutrients, light, water, and temperature", "Type of predator only", "Number of herbivores only", "Size of top carnivore only"],
+      answer: "Availability of nutrients, light, water, and temperature"
+    }
+  ]
+},
+
+//energy transformation
+
+{
+  "topic": "Energy Transformation in Nature 1",
+  "questions": [
+    {
+      "q": "The ultimate source of energy for all living organisms is —",
+      "options": ["The sun", "Glucose", "ATP", "Carbon dioxide"],
+      "answer": "The sun"
+    },
+    {
+      "q": "The process by which green plants manufacture food using light energy is called —",
+      "options": ["Respiration", "Photosynthesis", "Fermentation", "Transpiration"],
+      "answer": "Photosynthesis"
+    },
+    {
+      "q": "The energy currency of the cell is —",
+      "options": ["Glucose", "ATP", "ADP", "NADP"],
+      "answer": "ATP"
+    },
+    {
+      "q": "In photosynthesis, oxygen is produced from the splitting of —",
+      "options": ["Carbon dioxide", "Water", "Glucose", "ATP"],
+      "answer": "Water"
+    },
+    {
+      "q": "Which of the following organisms can carry out chemosynthesis?",
+      "options": ["Fungi", "Nitrifying bacteria", "Green plants", "Protozoa"],
+      "answer": "Nitrifying bacteria"
+    },
+    {
+      "q": "The light-dependent stage of photosynthesis occurs in the —",
+      "options": ["Stroma", "Grana", "Cytoplasm", "Nucleus"],
+      "answer": "Grana"
+    },
+    {
+      "q": "The correct overall equation for photosynthesis is —",
+      "options": [
+        "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+        "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O",
+        "6CO₂ + 12H₂O → C₆H₁₂O₆ + 6CO₂",
+        "6CO₂ + 6H₂O → 6O₂ + 6CO₂"
+      ],
+      "answer": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂"
+    },
+    {
+      "q": "The green pigment responsible for trapping light energy in plants is —",
+      "options": ["Chlorophyll", "Carotene", "Xanthophyll", "Anthocyanin"],
+      "answer": "Chlorophyll"
+    },
+    {
+      "q": "During the dark stage of photosynthesis, carbon dioxide is —",
+      "options": ["Oxidized", "Reduced to glucose", "Absorbed by chlorophyll", "Released as a gas"],
+      "answer": "Reduced to glucose"
+    },
+    {
+      "q": "Which of these best explains energy flow in an ecosystem?",
+      "options": [
+        "It is unidirectional from the sun to producers and consumers",
+        "It moves cyclically between organisms",
+        "It reverses between trophic levels",
+        "It remains constant at all levels"
+      ],
+      "answer": "It is unidirectional from the sun to producers and consumers"
+    },
+    {
+      "q": "In an ecosystem, energy transfer between trophic levels is —",
+      "options": ["100% efficient", "10% efficient", "50% efficient", "0% efficient"],
+      "answer": "10% efficient"
+    },
+    {
+      "q": "Which of the following is a product of photosynthesis?",
+      "options": ["Carbon dioxide", "Glucose", "ATP", "Water"],
+      "answer": "Glucose"
+    },
+    {
+      "q": "The process by which some bacteria produce food using inorganic substances is called —",
+      "options": ["Chemosynthesis", "Fermentation", "Respiration", "Decomposition"],
+      "answer": "Chemosynthesis"
+    },
+    {
+      "q": "Which of the following best represents a food chain?",
+      "options": [
+        "Grass → Grasshopper → Frog → Snake",
+        "Frog → Grass → Snake → Hawk",
+        "Hawk → Snake → Frog → Grasshopper",
+        "Snake → Hawk → Grass → Frog"
+      ],
+      "answer": "Grass → Grasshopper → Frog → Snake"
+    },
+    {
+      "q": "In the pyramid of energy, the largest amount of energy is found at the —",
+      "options": ["Producer level", "Tertiary consumer level", "Secondary consumer level", "Decomposer level"],
+      "answer": "Producer level"
+    },
+    {
+      "q": "The stage of photosynthesis that involves photolysis of water is —",
+      "options": ["Light stage", "Dark stage", "Carbon fixation", "Respiration stage"],
+      "answer": "Light stage"
+    },
+    {
+      "q": "Which of these factors does NOT affect the rate of photosynthesis?",
+      "options": ["Light intensity", "Carbon dioxide concentration", "Temperature", "Wind speed"],
+      "answer": "Wind speed"
+    },
+    {
+      "q": "In an ecosystem, energy losses between trophic levels are mainly due to —",
+      "options": ["Respiration and heat", "Photosynthesis", "Condensation", "Evaporation"],
+      "answer": "Respiration and heat"
+    },
+    {
+      "q": "The term 'trophic level' refers to —",
+      "options": [
+        "A feeding level in a food chain",
+        "A level of light absorption",
+        "The type of habitat of an organism",
+        "The process of energy fixation"
+      ],
+      "answer": "A feeding level in a food chain"
+    },
+    {
+      "q": "The energy released during respiration is used mainly for —",
+      "options": ["Growth and movement", "Food storage", "Water absorption", "Oxygen intake"],
+      "answer": "Growth and movement"
+    }
+  ]
+},
+{
+  "topic": "Energy Transformation in Nature 2",
+  "questions": [
+    {
+      "q": "Gross primary productivity (GPP) refers to —",
+      "options": [
+        "The total energy captured by producers",
+        "The energy available to consumers",
+        "Energy lost through respiration",
+        "Energy transferred to decomposers"
+      ],
+      "answer": "The total energy captured by producers"
+    },
+    {
+      "q": "Net primary productivity (NPP) is obtained by —",
+      "options": [
+        "Subtracting respiration loss from gross productivity",
+        "Adding respiration loss to total productivity",
+        "Dividing GPP by energy loss",
+        "Multiplying GPP by 100"
+      ],
+      "answer": "Subtracting respiration loss from gross productivity"
+    },
+    {
+      "q": "The process that converts light energy into chemical energy is —",
+      "options": ["Photosynthesis", "Respiration", "Fermentation", "Transpiration"],
+      "answer": "Photosynthesis"
+    },
+    {
+      "q": "Which of these gases is essential for photosynthesis?",
+      "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+      "answer": "Carbon dioxide"
+    },
+    {
+      "q": "The energy captured by producers is stored in —",
+      "options": ["Chemical bonds of glucose", "Chlorophyll molecules", "ATP", "Carbon dioxide"],
+      "answer": "Chemical bonds of glucose"
+    },
+    {
+      "q": "The conversion of solar energy into food energy is known as —",
+      "options": ["Energy transformation", "Bioconversion", "Photochemical conversion", "Respiratory conversion"],
+      "answer": "Photochemical conversion"
+    },
+    {
+      "q": "In a food chain, energy flow is —",
+      "options": ["Unidirectional", "Cyclic", "Reversible", "Constant"],
+      "answer": "Unidirectional"
+    },
+    {
+      "q": "Energy is lost in a food chain mainly through —",
+      "options": ["Respiration and heat", "Decomposition", "Photosynthesis", "Absorption"],
+      "answer": "Respiration and heat"
+    },
+    {
+      "q": "In photosynthesis, light energy is trapped by —",
+      "options": ["Chlorophyll", "Mitochondria", "Carotene", "Xylem"],
+      "answer": "Chlorophyll"
+    },
+    {
+      "q": "Chemosynthetic bacteria differ from green plants in that they —",
+      "options": [
+        "Use chemical energy instead of light energy",
+        "Do not produce glucose",
+        "Cannot fix carbon dioxide",
+        "Depend on sunlight"
+      ],
+      "answer": "Use chemical energy instead of light energy"
+    },
+    {
+      "q": "Which of the following best represents the flow of energy in an ecosystem?",
+      "options": [
+        "Sun → Producer → Consumer → Decomposer",
+        "Producer → Decomposer → Consumer",
+        "Consumer → Producer → Sun",
+        "Decomposer → Producer → Consumer"
+      ],
+      "answer": "Sun → Producer → Consumer → Decomposer"
+    },
+    {
+      "q": "Energy in food chains decreases progressively because —",
+      "options": [
+        "Some energy is lost as heat at each level",
+        "Producers store excess energy",
+        "Decomposers absorb all the energy",
+        "Herbivores utilize all energy"
+      ],
+      "answer": "Some energy is lost as heat at each level"
+    },
+    {
+      "q": "During respiration, glucose is oxidized to produce —",
+      "options": ["Carbon dioxide, water, and energy", "Oxygen and energy", "Lactic acid only", "ATP and heat only"],
+      "answer": "Carbon dioxide, water, and energy"
+    },
+    {
+      "q": "The rate of energy production in an ecosystem is called —",
+      "options": ["Productivity", "Sustainability", "Efficiency", "Diversity"],
+      "answer": "Productivity"
+    },
+    {
+      "q": "An organism that derives energy directly from sunlight is a —",
+      "options": ["Producer", "Consumer", "Decomposer", "Parasite"],
+      "answer": "Producer"
+    },
+    {
+      "q": "The conversion of energy during photosynthesis involves —",
+      "options": ["Light energy to chemical energy", "Chemical to mechanical", "Heat to light", "Electrical to chemical"],
+      "answer": "Light energy to chemical energy"
+    },
+    {
+      "q": "The percentage of energy transferred from one trophic level to the next is approximately —",
+      "options": ["10%", "50%", "25%", "100%"],
+      "answer": "10%"
+    },
+    {
+      "q": "Respiration complements photosynthesis in that it —",
+      "options": [
+        "Releases energy stored in glucose",
+        "Produces oxygen for photosynthesis",
+        "Uses sunlight to make glucose",
+        "Stores light energy as ATP"
+      ],
+      "answer": "Releases energy stored in glucose"
+    },
+    {
+      "q": "The process by which light energy splits water into hydrogen and oxygen is called —",
+      "options": ["Photolysis", "Hydrolysis", "Oxidation", "Reduction"],
+      "answer": "Photolysis"
+    },
+    {
+      "q": "In an energy pyramid, the total energy content is greatest at the —",
+      "options": ["Producer level", "Primary consumer level", "Secondary consumer level", "Tertiary consumer level"],
+      "answer": "Producer level"
+    }
+  ]
+},
+
+
+
+//respiration and gaseous exchange 
+
+{
+  "topic": "Gaseous Exchange and Respiration 1",
+  "questions": [
+    {
+      "q": "The process by which organisms take in oxygen and give out carbon dioxide is called —",
+      "options": ["Photosynthesis", "Respiration", "Gaseous exchange", "Transpiration"],
+      "answer": "Gaseous exchange"
+    },
+    {
+      "q": "The main organs of gaseous exchange in humans are the —",
+      "options": ["Lungs", "Gills", "Trachea", "Skin"],
+      "answer": "Lungs"
+    },
+    {
+      "q": "Which of the following is the correct sequence for the passage of air during inhalation?",
+      "options": ["Nostrils → Trachea → Bronchi → Bronchioles → Alveoli", "Bronchi → Nostrils → Alveoli → Trachea", "Alveoli → Trachea → Bronchi → Nostrils", "Trachea → Alveoli → Nostrils → Bronchi"],
+      "answer": "Nostrils → Trachea → Bronchi → Bronchioles → Alveoli"
+    },
+    {
+      "q": "In fish, gaseous exchange takes place through the —",
+      "options": ["Gills", "Lungs", "Skin", "Trachea"],
+      "answer": "Gills"
+    },
+    {
+      "q": "The small air sacs in the lungs where gaseous exchange occurs are called —",
+      "options": ["Bronchioles", "Alveoli", "Tracheoles", "Cilia"],
+      "answer": "Alveoli"
+    },
+    {
+      "q": "Which of these statements is true about inhalation in humans?",
+      "options": [
+        "The diaphragm contracts and moves downward",
+        "The diaphragm relaxes and moves upward",
+        "The rib cage moves downward and inward",
+        "The volume of the thoracic cavity decreases"
+      ],
+      "answer": "The diaphragm contracts and moves downward"
+    },
+    {
+      "q": "Which of the following organisms uses spiracles for gaseous exchange?",
+      "options": ["Grasshopper", "Fish", "Frog", "Earthworm"],
+      "answer": "Grasshopper"
+    },
+    {
+      "q": "In amphibians like frogs, gaseous exchange occurs through the —",
+      "options": ["Skin and lungs", "Mouth and gills", "Skin and mouth", "Lungs and gills"],
+      "answer": "Skin and lungs"
+    },
+    {
+      "q": "The oxygen-carrying pigment in the blood of mammals is —",
+      "options": ["Haemoglobin", "Chlorophyll", "Myoglobin", "Carotene"],
+      "answer": "Haemoglobin"
+    },
+    {
+      "q": "In plants, gaseous exchange occurs mainly through the —",
+      "options": ["Stomata", "Roots", "Xylem", "Cuticle"],
+      "answer": "Stomata"
+    },
+    {
+      "q": "During respiration, glucose is broken down to release —",
+      "options": ["Energy, water, and carbon dioxide", "Oxygen and water", "Heat and glucose", "Energy only"],
+      "answer": "Energy, water, and carbon dioxide"
+    },
+    {
+      "q": "Which of the following is the main site of gaseous exchange in humans?",
+      "options": ["Alveoli", "Bronchioles", "Bronchi", "Larynx"],
+      "answer": "Alveoli"
+    },
+    {
+      "q": "The process by which oxygen combines with glucose to produce energy is called —",
+      "options": ["Oxidation", "Fermentation", "Reduction", "Hydrolysis"],
+      "answer": "Oxidation"
+    },
+    {
+      "q": "The energy released during respiration is stored in the form of —",
+      "options": ["ATP", "ADP", "Glucose", "Lactic acid"],
+      "answer": "ATP"
+    },
+    {
+      "q": "Which of these statements about anaerobic respiration is correct?",
+      "options": [
+        "It occurs in the absence of oxygen",
+        "It releases more energy than aerobic respiration",
+        "It takes place only in plants",
+        "It produces only carbon dioxide and water"
+      ],
+      "answer": "It occurs in the absence of oxygen"
+    },
+    {
+      "q": "The breathing rate of an organism increases with —",
+      "options": ["Increased physical activity", "Decreased temperature", "Decreased carbon dioxide", "Sleep"],
+      "answer": "Increased physical activity"
+    },
+    {
+      "q": "In yeast, the end products of anaerobic respiration are —",
+      "options": ["Alcohol and carbon dioxide", "Water and energy", "Lactic acid and oxygen", "Glucose and carbon dioxide"],
+      "answer": "Alcohol and carbon dioxide"
+    },
+    {
+      "q": "The structure that prevents food from entering the trachea during swallowing is the —",
+      "options": ["Epiglottis", "Glottis", "Pharynx", "Larynx"],
+      "answer": "Epiglottis"
+    },
+    {
+      "q": "Which of the following pairs are respiratory organs in an earthworm?",
+      "options": ["Skin and capillaries", "Gills and skin", "Lungs and trachea", "Spiracles and tracheoles"],
+      "answer": "Skin and capillaries"
+    },
+    {
+      "q": "In humans, carbon dioxide is transported in the blood mainly as —",
+      "options": ["Bicarbonate ions", "Dissolved carbon dioxide", "Carbaminohaemoglobin", "Carbonic acid"],
+      "answer": "Bicarbonate ions"
+    }
+  ]
+},
+{
+  "topic": "Gaseous Exchange and Respiration 2",
+  "questions": [
+    {
+      "q": "Which of the following processes occurs during exhalation?",
+      "options": [
+        "The diaphragm relaxes and moves upward",
+        "The rib cage moves upward and outward",
+        "The volume of the thoracic cavity increases",
+        "Air pressure in the lungs decreases"
+      ],
+      "answer": "The diaphragm relaxes and moves upward"
+    },
+    {
+      "q": "The main function of the respiratory system is —",
+      "options": ["Exchange of gases", "Circulation of blood", "Digestion of food", "Absorption of nutrients"],
+      "answer": "Exchange of gases"
+    },
+    {
+      "q": "The rate of respiration in plants is highest during —",
+      "options": ["Night", "Morning", "Afternoon", "Midday"],
+      "answer": "Night"
+    },
+    {
+      "q": "In the human respiratory system, the trachea divides into two —",
+      "options": ["Bronchi", "Bronchioles", "Lungs", "Alveoli"],
+      "answer": "Bronchi"
+    },
+    {
+      "q": "Which of the following organisms respires through both lungs and skin?",
+      "options": ["Frog", "Toad", "Fish", "Lizard"],
+      "answer": "Frog"
+    },
+    {
+      "q": "The chemical equation for aerobic respiration is —",
+      "options": [
+        "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy",
+        "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ + energy",
+        "C₆H₁₂O₆ + O₂ → CO₂ + H₂O + energy",
+        "CO₂ + H₂O → C₆H₁₂O₆ + O₂"
+      ],
+      "answer": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy"
+    },
+    {
+      "q": "In humans, respiration is controlled by the —",
+      "options": ["Medulla oblongata", "Cerebrum", "Cerebellum", "Spinal cord"],
+      "answer": "Medulla oblongata"
+    },
+    {
+      "q": "The breathing mechanism in humans is controlled by the —",
+      "options": ["Diaphragm and intercostal muscles", "Heart and lungs", "Bronchi and alveoli", "Mouth and nose"],
+      "answer": "Diaphragm and intercostal muscles"
+    },
+    {
+      "q": "The respiratory pigment in the blood of insects is —",
+      "options": ["Absent", "Haemoglobin", "Haemocyanin", "Chlorocruorin"],
+      "answer": "Absent"
+    },
+    {
+      "q": "In humans, oxygen diffuses from the alveoli into the —",
+      "options": ["Capillaries", "Bronchioles", "Trachea", "Lymph"],
+      "answer": "Capillaries"
+    },
+    {
+      "q": "During anaerobic respiration in muscles, the main product is —",
+      "options": ["Lactic acid", "Ethanol", "Carbon dioxide", "Water"],
+      "answer": "Lactic acid"
+    },
+    {
+      "q": "Which of these is NOT part of the human respiratory system?",
+      "options": ["Oesophagus", "Bronchi", "Lungs", "Trachea"],
+      "answer": "Oesophagus"
+    },
+    {
+      "q": "The trachea is supported by —",
+      "options": ["C-shaped cartilage rings", "Smooth muscles", "Bone segments", "Elastic tissues"],
+      "answer": "C-shaped cartilage rings"
+    },
+    {
+      "q": "In respiration, the energy released is used mainly for —",
+      "options": ["Cellular activities", "Reproduction", "Food storage", "Photosynthesis"],
+      "answer": "Cellular activities"
+    },
+    {
+      "q": "In insects, air enters the body through —",
+      "options": ["Spiracles", "Trachea", "Lungs", "Cuticle"],
+      "answer": "Spiracles"
+    },
+    {
+      "q": "In plants, oxygen used for respiration is obtained from the —",
+      "options": ["Atmosphere", "Soil", "Roots", "Phloem"],
+      "answer": "Atmosphere"
+    },
+    {
+      "q": "Which of the following processes is common to both plants and animals?",
+      "options": ["Respiration", "Photosynthesis", "Transpiration", "Nitrogen fixation"],
+      "answer": "Respiration"
+    },
+    {
+      "q": "The difference between respiration and breathing is that —",
+      "options": [
+        "Breathing is a physical process while respiration is chemical",
+        "Respiration involves lungs only",
+        "Breathing occurs only in plants",
+        "Respiration does not release energy"
+      ],
+      "answer": "Breathing is a physical process while respiration is chemical"
+    },
+    {
+      "q": "Which of the following occurs during inhalation?",
+      "options": [
+        "Air moves into the lungs",
+        "Air moves out of the lungs",
+        "The diaphragm moves upward",
+        "The rib cage moves inward"
+      ],
+      "answer": "Air moves into the lungs"
+    },
+    {
+      "q": "The waste product of respiration that is excreted through the lungs is —",
+      "options": ["Carbon dioxide", "Water", "Lactic acid", "Oxygen"],
+      "answer": "Carbon dioxide"
+    }
+  ]
+},
+
+//economical management 
+
+{
+  "topic": "Energy Transformation in Nature 1",
+  "questions": [
+    {
+      "q": "The ultimate source of energy for all living organisms is —",
+      "options": ["The sun", "Glucose", "ATP", "Carbon dioxide"],
+      "answer": "The sun"
+    },
+    {
+      "q": "The process by which green plants manufacture food using light energy is called —",
+      "options": ["Respiration", "Photosynthesis", "Fermentation", "Transpiration"],
+      "answer": "Photosynthesis"
+    },
+    {
+      "q": "The energy currency of the cell is —",
+      "options": ["Glucose", "ATP", "ADP", "NADP"],
+      "answer": "ATP"
+    },
+    {
+      "q": "In photosynthesis, oxygen is produced from the splitting of —",
+      "options": ["Carbon dioxide", "Water", "Glucose", "ATP"],
+      "answer": "Water"
+    },
+    {
+      "q": "Which of the following organisms can carry out chemosynthesis?",
+      "options": ["Fungi", "Nitrifying bacteria", "Green plants", "Protozoa"],
+      "answer": "Nitrifying bacteria"
+    },
+    {
+      "q": "The light-dependent stage of photosynthesis occurs in the —",
+      "options": ["Stroma", "Grana", "Cytoplasm", "Nucleus"],
+      "answer": "Grana"
+    },
+    {
+      "q": "The correct overall equation for photosynthesis is —",
+      "options": [
+        "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+        "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O",
+        "6CO₂ + 12H₂O → C₆H₁₂O₆ + 6CO₂",
+        "6CO₂ + 6H₂O → 6O₂ + 6CO₂"
+      ],
+      "answer": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂"
+    },
+    {
+      "q": "The green pigment responsible for trapping light energy in plants is —",
+      "options": ["Chlorophyll", "Carotene", "Xanthophyll", "Anthocyanin"],
+      "answer": "Chlorophyll"
+    },
+    {
+      "q": "During the dark stage of photosynthesis, carbon dioxide is —",
+      "options": ["Oxidized", "Reduced to glucose", "Absorbed by chlorophyll", "Released as a gas"],
+      "answer": "Reduced to glucose"
+    },
+    {
+      "q": "Which of these best explains energy flow in an ecosystem?",
+      "options": [
+        "It is unidirectional from the sun to producers and consumers",
+        "It moves cyclically between organisms",
+        "It reverses between trophic levels",
+        "It remains constant at all levels"
+      ],
+      "answer": "It is unidirectional from the sun to producers and consumers"
+    },
+    {
+      "q": "In an ecosystem, energy transfer between trophic levels is —",
+      "options": ["100% efficient", "10% efficient", "50% efficient", "0% efficient"],
+      "answer": "10% efficient"
+    },
+    {
+      "q": "Which of the following is a product of photosynthesis?",
+      "options": ["Carbon dioxide", "Glucose", "ATP", "Water"],
+      "answer": "Glucose"
+    },
+    {
+      "q": "The process by which some bacteria produce food using inorganic substances is called —",
+      "options": ["Chemosynthesis", "Fermentation", "Respiration", "Decomposition"],
+      "answer": "Chemosynthesis"
+    },
+    {
+      "q": "Which of the following best represents a food chain?",
+      "options": [
+        "Grass → Grasshopper → Frog → Snake",
+        "Frog → Grass → Snake → Hawk",
+        "Hawk → Snake → Frog → Grasshopper",
+        "Snake → Hawk → Grass → Frog"
+      ],
+      "answer": "Grass → Grasshopper → Frog → Snake"
+    },
+    {
+      "q": "In the pyramid of energy, the largest amount of energy is found at the —",
+      "options": ["Producer level", "Tertiary consumer level", "Secondary consumer level", "Decomposer level"],
+      "answer": "Producer level"
+    },
+    {
+      "q": "The stage of photosynthesis that involves photolysis of water is —",
+      "options": ["Light stage", "Dark stage", "Carbon fixation", "Respiration stage"],
+      "answer": "Light stage"
+    },
+    {
+      "q": "Which of these factors does NOT affect the rate of photosynthesis?",
+      "options": ["Light intensity", "Carbon dioxide concentration", "Temperature", "Wind speed"],
+      "answer": "Wind speed"
+    },
+    {
+      "q": "In an ecosystem, energy losses between trophic levels are mainly due to —",
+      "options": ["Respiration and heat", "Photosynthesis", "Condensation", "Evaporation"],
+      "answer": "Respiration and heat"
+    },
+    {
+      "q": "The term 'trophic level' refers to —",
+      "options": [
+        "A feeding level in a food chain",
+        "A level of light absorption",
+        "The type of habitat of an organism",
+        "The process of energy fixation"
+      ],
+      "answer": "A feeding level in a food chain"
+    },
+    {
+      "q": "The energy released during respiration is used mainly for —",
+      "options": ["Growth and movement", "Food storage", "Water absorption", "Oxygen intake"],
+      "answer": "Growth and movement"
+    }
+  ]
+},
+{
+  "topic": "Energy Transformation in Nature 2",
+  "questions": [
+    {
+      "q": "Gross primary productivity (GPP) refers to —",
+      "options": [
+        "The total energy captured by producers",
+        "The energy available to consumers",
+        "Energy lost through respiration",
+        "Energy transferred to decomposers"
+      ],
+      "answer": "The total energy captured by producers"
+    },
+    {
+      "q": "Net primary productivity (NPP) is obtained by —",
+      "options": [
+        "Subtracting respiration loss from gross productivity",
+        "Adding respiration loss to total productivity",
+        "Dividing GPP by energy loss",
+        "Multiplying GPP by 100"
+      ],
+      "answer": "Subtracting respiration loss from gross productivity"
+    },
+    {
+      "q": "The process that converts light energy into chemical energy is —",
+      "options": ["Photosynthesis", "Respiration", "Fermentation", "Transpiration"],
+      "answer": "Photosynthesis"
+    },
+    {
+      "q": "Which of these gases is essential for photosynthesis?",
+      "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+      "answer": "Carbon dioxide"
+    },
+    {
+      "q": "The energy captured by producers is stored in —",
+      "options": ["Chemical bonds of glucose", "Chlorophyll molecules", "ATP", "Carbon dioxide"],
+      "answer": "Chemical bonds of glucose"
+    },
+    {
+      "q": "The conversion of solar energy into food energy is known as —",
+      "options": ["Energy transformation", "Bioconversion", "Photochemical conversion", "Respiratory conversion"],
+      "answer": "Photochemical conversion"
+    },
+    {
+      "q": "In a food chain, energy flow is —",
+      "options": ["Unidirectional", "Cyclic", "Reversible", "Constant"],
+      "answer": "Unidirectional"
+    },
+    {
+      "q": "Energy is lost in a food chain mainly through —",
+      "options": ["Respiration and heat", "Decomposition", "Photosynthesis", "Absorption"],
+      "answer": "Respiration and heat"
+    },
+    {
+      "q": "In photosynthesis, light energy is trapped by —",
+      "options": ["Chlorophyll", "Mitochondria", "Carotene", "Xylem"],
+      "answer": "Chlorophyll"
+    },
+    {
+      "q": "Chemosynthetic bacteria differ from green plants in that they —",
+      "options": [
+        "Use chemical energy instead of light energy",
+        "Do not produce glucose",
+        "Cannot fix carbon dioxide",
+        "Depend on sunlight"
+      ],
+      "answer": "Use chemical energy instead of light energy"
+    },
+    {
+      "q": "Which of the following best represents the flow of energy in an ecosystem?",
+      "options": [
+        "Sun → Producer → Consumer → Decomposer",
+        "Producer → Decomposer → Consumer",
+        "Consumer → Producer → Sun",
+        "Decomposer → Producer → Consumer"
+      ],
+      "answer": "Sun → Producer → Consumer → Decomposer"
+    },
+    {
+      "q": "Energy in food chains decreases progressively because —",
+      "options": [
+        "Some energy is lost as heat at each level",
+        "Producers store excess energy",
+        "Decomposers absorb all the energy",
+        "Herbivores utilize all energy"
+      ],
+      "answer": "Some energy is lost as heat at each level"
+    },
+    {
+      "q": "During respiration, glucose is oxidized to produce —",
+      "options": ["Carbon dioxide, water, and energy", "Oxygen and energy", "Lactic acid only", "ATP and heat only"],
+      "answer": "Carbon dioxide, water, and energy"
+    },
+    {
+      "q": "The rate of energy production in an ecosystem is called —",
+      "options": ["Productivity", "Sustainability", "Efficiency", "Diversity"],
+      "answer": "Productivity"
+    },
+    {
+      "q": "An organism that derives energy directly from sunlight is a —",
+      "options": ["Producer", "Consumer", "Decomposer", "Parasite"],
+      "answer": "Producer"
+    },
+    {
+      "q": "The conversion of energy during photosynthesis involves —",
+      "options": ["Light energy to chemical energy", "Chemical to mechanical", "Heat to light", "Electrical to chemical"],
+      "answer": "Light energy to chemical energy"
+    },
+    {
+      "q": "The percentage of energy transferred from one trophic level to the next is approximately —",
+      "options": ["10%", "50%", "25%", "100%"],
+      "answer": "10%"
+    },
+    {
+      "q": "Respiration complements photosynthesis in that it —",
+      "options": [
+        "Releases energy stored in glucose",
+        "Produces oxygen for photosynthesis",
+        "Uses sunlight to make glucose",
+        "Stores light energy as ATP"
+      ],
+      "answer": "Releases energy stored in glucose"
+    },
+    {
+      "q": "The process by which light energy splits water into hydrogen and oxygen is called —",
+      "options": ["Photolysis", "Hydrolysis", "Oxidation", "Reduction"],
+      "answer": "Photolysis"
+    },
+    {
+      "q": "In an energy pyramid, the total energy content is greatest at the —",
+      "options": ["Producer level", "Primary consumer level", "Secondary consumer level", "Tertiary consumer level"],
+      "answer": "Producer level"
+    }
+  ]
+},
+
+//ecology of population 
+
+{
+  "topic": "Ecology of Population",
+  "questions": [
+    {
+      q: "A population in ecology refers to —",
+      options: [
+        "All the organisms living in an area",
+        "Different species interacting in an area",
+        "A group of individuals of the same species living in a habitat",
+        "The non-living components of an ecosystem"
+      ],
+      answer: "A group of individuals of the same species living in a habitat"
+    },
+    {
+      q: "The number of individuals of a species per unit area is called —",
+      options: [
+        "Population density",
+        "Population size",
+        "Population distribution",
+        "Population growth"
+      ],
+      answer: "Population density"
+    },
+    {
+      q: "The total number of individuals of a species in a given area is known as —",
+      options: ["Population size", "Population density", "Carrying capacity", "Frequency"],
+      answer: "Population size"
+    },
+    {
+      q: "Which of the following describes how individuals are arranged in a habitat?",
+      options: [
+        "Population distribution",
+        "Population dynamics",
+        "Carrying capacity",
+        "Age structure"
+      ],
+      answer: "Population distribution"
+    },
+    {
+      q: "When a population grows until resources are no longer sufficient, it reaches its —",
+      options: [
+        "Equilibrium point",
+        "Carrying capacity",
+        "Climax community",
+        "Saturation level"
+      ],
+      answer: "Carrying capacity"
+    },
+    {
+      q: "The main factors that cause population increase are —",
+      options: ["Birth and immigration", "Death and emigration", "Aging and disease", "Competition and predation"],
+      answer: "Birth and immigration"
+    },
+    {
+      q: "Population decrease can be caused by —",
+      options: ["Birth and immigration", "Death and emigration", "Growth and reproduction", "Symbiosis and parasitism"],
+      answer: "Death and emigration"
+    },
+    {
+      q: "Which of these is a biotic factor affecting population size?",
+      options: ["Temperature", "Predation", "Rainfall", "Light intensity"],
+      answer: "Predation"
+    },
+    {
+      q: "Abiotic factors that can limit population growth include —",
+      options: ["Competition and predation", "Temperature and rainfall", "Reproduction and migration", "Symbiosis and disease"],
+      answer: "Temperature and rainfall"
+    },
+    {
+      q: "The rate at which a population grows over time is called —",
+      options: ["Population dynamics", "Population frequency", "Growth rate", "Birth rate"],
+      answer: "Growth rate"
+    },
+    {
+      q: "A graph showing population growth that levels off due to limited resources is —",
+      options: ["S-shaped curve", "J-shaped curve", "Linear curve", "Exponential curve"],
+      answer: "S-shaped curve"
+    },
+    {
+      q: "A population that grows rapidly without limitation follows a —",
+      options: ["J-shaped curve", "S-shaped curve", "Bell-shaped curve", "Decline curve"],
+      answer: "J-shaped curve"
+    },
+    {
+      q: "Which of these represents the number of births per 1,000 individuals per year?",
+      options: ["Birth rate", "Death rate", "Growth rate", "Carrying rate"],
+      answer: "Birth rate"
+    },
+    {
+      q: "The number of deaths per 1,000 individuals in a population per year is called —",
+      options: ["Mortality rate", "Natality rate", "Immigration rate", "Carrying capacity"],
+      answer: "Mortality rate"
+    },
+    {
+      q: "Overcrowding in a population may lead to —",
+      options: ["Increased food supply", "Competition and stress", "Stable ecosystem", "Increase in habitat size"],
+      answer: "Competition and stress"
+    },
+    {
+      q: "The introduction of new individuals into a population from another area is —",
+      options: ["Immigration", "Emigration", "Birth rate", "Colonization"],
+      answer: "Immigration"
+    },
+    {
+      q: "The movement of individuals out of a population is called —",
+      options: ["Immigration", "Emigration", "Migration", "Dispersion"],
+      answer: "Emigration"
+    },
+    {
+      q: "A stable population occurs when —",
+      options: [
+        "Birth rate equals death rate",
+        "Birth rate is greater than death rate",
+        "Immigration is more than emigration",
+        "Emigration is greater than immigration"
+      ],
+      answer: "Birth rate equals death rate"
+    },
+    {
+      q: "The study of population size, structure, and growth is called —",
+      options: ["Ecology", "Demography", "Taxonomy", "Population genetics"],
+      answer: "Demography"
+    },
+    {
+      q: "The number of species in a given population is referred to as —",
+      options: ["Species richness", "Population density", "Species distribution", "Frequency"],
+      answer: "Species richness"
+    }
+  ]
+},
+
+//relevance of biology to agric
+
+{
+  "topic": "Relevance of Biology to Agriculture",
+  "questions": [
+    {
+      "q": "Which of the following best explains the relationship between biology and agriculture?",
+      "options": [
+        "Biology provides knowledge of life processes useful in crop and animal production",
+        "Biology focuses only on laboratory work while agriculture focuses on the farm",
+        "Agriculture is unrelated to biological science",
+        "Biology deals only with humans, not plants or animals"
+      ],
+      "answer": "Biology provides knowledge of life processes useful in crop and animal production"
+    },
+    {
+      "q": "The study of heredity in biology helps agriculture by —",
+      "options": [
+        "Improving crop and animal breeds through selection and hybridization",
+        "Making animals grow faster without food",
+        "Reducing rainfall and pest attack",
+        "Increasing soil fertility directly"
+      ],
+      "answer": "Improving crop and animal breeds through selection and hybridization"
+    },
+    {
+      "q": "Knowledge of ecology is useful in agriculture because it helps farmers —",
+      "options": [
+        "Understand interactions between crops, animals, and their environment",
+        "Increase rainfall in dry areas",
+        "Make crops grow without fertilizers",
+        "Predict global weather accurately"
+      ],
+      "answer": "Understand interactions between crops, animals, and their environment"
+    },
+    {
+      "q": "Biology contributes to pest and disease control through —",
+      "options": [
+        "The study of pathogens and life cycles of pests",
+        "The use of random chemicals",
+        "Ignoring natural enemies of pests",
+        "Planting the same crop continuously"
+      ],
+      "answer": "The study of pathogens and life cycles of pests"
+    },
+    {
+      "q": "Which of the following biological practices can improve soil fertility?",
+      "options": [
+        "Nitrogen fixation by bacteria in legumes",
+        "Frequent use of pesticides",
+        "Burning of crop residues",
+        "Continuous cropping"
+      ],
+      "answer": "Nitrogen fixation by bacteria in legumes"
+    },
+    {
+      "q": "Knowledge of photosynthesis helps farmers to —",
+      "options": [
+        "Improve crop yield by optimizing light and nutrient conditions",
+        "Increase soil acidity",
+        "Reduce water intake by crops",
+        "Stop plant respiration"
+      ],
+      "answer": "Improve crop yield by optimizing light and nutrient conditions"
+    },
+    {
+      "q": "The study of animal physiology helps farmers to —",
+      "options": [
+        "Understand animal nutrition and reproduction",
+        "Make animals photosynthesize",
+        "Increase animal lifespan without food",
+        "Eliminate animal instincts"
+      ],
+      "answer": "Understand animal nutrition and reproduction"
+    },
+    {
+      "q": "Biotechnology is relevant to agriculture because it —",
+      "options": [
+        "Produces genetically improved crops and animals",
+        "Destroys microorganisms in soil",
+        "Reduces soil water-holding capacity",
+        "Prevents cross-pollination"
+      ],
+      "answer": "Produces genetically improved crops and animals"
+    },
+    {
+      "q": "Which of the following biological processes is most important for maintaining soil fertility naturally?",
+      "options": [
+        "Decomposition of organic matter by microorganisms",
+        "Evaporation of soil water",
+        "Deforestation",
+        "Use of inorganic fertilizers only"
+      ],
+      "answer": "Decomposition of organic matter by microorganisms"
+    },
+    {
+      "q": "Genetic engineering in agriculture helps to —",
+      "options": [
+        "Produce disease-resistant and high-yielding crops",
+        "Eliminate soil microorganisms",
+        "Reduce sunlight absorption by plants",
+        "Stop animal reproduction"
+      ],
+      "answer": "Produce disease-resistant and high-yielding crops"
+    },
+    {
+      "q": "The study of microorganisms in biology is useful to agriculture because —",
+      "options": [
+        "Some microorganisms improve soil fertility and aid decomposition",
+        "All microorganisms cause plant and animal diseases",
+        "Microorganisms reduce soil nutrients",
+        "They make crops wilt faster"
+      ],
+      "answer": "Some microorganisms improve soil fertility and aid decomposition"
+    },
+    {
+      "q": "Knowledge of genetics is applied in agriculture mainly to —",
+      "options": [
+        "Improve crop and livestock varieties",
+        "Stop crossbreeding completely",
+        "Reduce food production",
+        "Destroy weeds"
+      ],
+      "answer": "Improve crop and livestock varieties"
+    },
+    {
+      "q": "Which of the following helps farmers identify and control livestock diseases?",
+      "options": [
+        "Veterinary biology",
+        "Botany",
+        "Plant pathology",
+        "Genetic engineering"
+      ],
+      "answer": "Veterinary biology"
+    },
+    {
+      "q": "Biology helps in fish farming by —",
+      "options": [
+        "Understanding fish breeding, nutrition, and water ecology",
+        "Reducing oxygen in water",
+        "Preventing reproduction of fish",
+        "Increasing salt content of ponds"
+      ],
+      "answer": "Understanding fish breeding, nutrition, and water ecology"
+    },
+    {
+      "q": "Which biological principle supports the rotation of leguminous crops with non-leguminous ones?",
+      "options": [
+        "Nitrogen fixation",
+        "Phototropism",
+        "Transpiration",
+        "Mimicry"
+      ],
+      "answer": "Nitrogen fixation"
+    },
+    {
+      "q": "The study of soil organisms in biology helps in —",
+      "options": [
+        "Improving soil structure and fertility",
+        "Increasing soil erosion",
+        "Decreasing water infiltration",
+        "Killing beneficial microbes"
+      ],
+      "answer": "Improving soil structure and fertility"
+    },
+    {
+      "q": "Knowledge of reproduction in biology helps farmers —",
+      "options": [
+        "Select better breeding methods for animals and plants",
+        "Reduce animal growth",
+        "Prevent crop germination",
+        "Increase pest population"
+      ],
+      "answer": "Select better breeding methods for animals and plants"
+    },
+    {
+      "q": "The study of bacteria like *Rhizobium* is important to agriculture because they —",
+      "options": [
+        "Fix nitrogen in the soil",
+        "Cause plant wilting",
+        "Absorb oxygen from roots",
+        "Reduce soil pH"
+      ],
+      "answer": "Fix nitrogen in the soil"
+    },
+    {
+      "q": "Biology aids agricultural mechanization by —",
+      "options": [
+        "Providing knowledge of body structure and function in animals used for labor",
+        "Eliminating the need for machines",
+        "Causing animal exhaustion",
+        "Reducing mechanical efficiency"
+      ],
+      "answer": "Providing knowledge of body structure and function in animals used for labor"
+    },
+    {
+      "q": "Which of these shows how biology improves food production?",
+      "options": [
+        "Selective breeding and improved farming techniques",
+        "Deforestation and overgrazing",
+        "Burning farm residues",
+        "Uncontrolled pesticide use"
+      ],
+      "answer": "Selective breeding and improved farming techniques"
+    }
+  ]
+},
+
+
+
   ],
   
   Economics: [
@@ -4543,6 +6835,7 @@ const questions = {
   {
     question: "Find the value of x in the triangle shown.",
     image: "./images (56).jpeg",
+    imageAlt: "image of triangle",
     options: ["70°", "35°", "75°", "60°"],
     answer: 2,
   },
@@ -4637,13 +6930,6 @@ const questions = {
     answer: 2,
   },
   {
-    question: "In the figure, ∠A = 90°. Find ∠C.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Right_triangle_definitions.svg",
-    imageAlt: "Right triangle showing angles A, B, and C",
-    options: ["30°", "45°", "60°", "90°"],
-    answer: 1,
-  },
-  {
     question: "The distance between two towns on a map is 5 cm. If the scale is 1 : 100 000, find the actual distance in km.",
     options: ["2 km", "5 km", "10 km", "15 km"],
     answer: 2,
@@ -4677,13 +6963,6 @@ const questions = {
     question: "Simplify: (4x²y) ÷ (2xy²).",
     options: ["2x/y", "2y/x", "x/2y", "2xy"],
     answer: 0,
-  },
-  {
-    question: "In the figure below, find ∠ABC.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/19/Triangle_angles_sum.svg",
-    imageAlt: "Triangle showing angles A, B, C",
-    options: ["30°", "45°", "60°", "75°"],
-    answer: 2,
   },
   {
     question: "Convert 0.375 to a fraction in simplest form.",
@@ -4776,13 +7055,6 @@ const questions = {
     answer: 2,
   },
   {
-    question: "In the diagram, the circle has a radius of 5 cm. Find its circumference (π = 3.142).",
-    image: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Circle_-_black_simple.svg",
-    imageAlt: "Simple circle diagram with radius marked",
-    options: ["25.13 cm", "28.27 cm", "31.42 cm", "33.12 cm"],
-    answer: 2,
-  },
-  {
     question: "If y varies directly as x and y = 10 when x = 4, find y when x = 6.",
     options: ["12", "13", "14", "15"],
     answer: 3,
@@ -4863,13 +7135,6 @@ const questions = {
     answer: 0,
   },
   {
-    question: "The bar chart below shows the number of cars sold in five months. Find the month with the highest sales.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Simple_bar_chart.svg",
-    imageAlt: "Bar chart showing sales in months Jan–May",
-    options: ["January", "March", "April", "May"],
-    answer: 3,
-  },
-  {
     question: "Solve for x: x² − 16 = 0.",
     options: ["x = ±4", "x = 4", "x = −4", "x = 0"],
     answer: 0,
@@ -4904,13 +7169,3666 @@ const questions = {
     options: ["4ab", "2ab", "ab", "a² − b²"],
     answer: 0,
   },
+  
+  
+  //differentiation questions starts here
   {
-    question: "The diagram shows a right-angled triangle. Find the hypotenuse if the other sides are 6 cm and 8 cm.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Pythagorean.svg",
-    imageAlt: "Right-angled triangle with sides 6 and 8 cm",
-    options: ["10 cm", "12 cm", "14 cm", "8 cm"],
-    answer: 0,
-  }
+  question: "Using first principles, find f'(x) for f(x) = x<sup>2</sup>.",
+  options: ["2x", "x", "x<sup>2</sup>", "1"],
+  answer: 0,
+},
+{
+  question: "Using first principles, find f'(x) for f(x) = 3x.",
+  options: ["3", "x", "0", "6x"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = x<sup>3</sup>.",
+  options: ["3x<sup>2</sup>", "x<sup>2</sup>", "x<sup>3</sup>", "9x<sup>2</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = 5x<sup>4</sup>.",
+  options: ["20x<sup>3</sup>", "5x<sup>3</sup>", "x<sup>4</sup>", "20x<sup>4</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = 7 (constant).",
+  options: ["0", "7", "1", "7x"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = x<sup>5</sup> − 2x<sup>3</sup> + x.",
+  options: ["5x<sup>4</sup> − 6x<sup>2</sup> + 1", "5x<sup>4</sup> − 6x + 1", "x<sup>4</sup> − 6x<sup>2</sup> + 1", "5x<sup>4</sup> − 6x<sup>2</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = sin x.",
+  options: ["cos x", "−cos x", "sin x", "−sin x"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = cos x.",
+  options: ["−sin x", "sin x", "cos x", "−cos x"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = tan x.",
+  options: ["sec<sup>2</sup> x", "csc<sup>2</sup> x", "sec x tan x", "1/cos x"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = e<sup>x</sup>.",
+  options: ["e<sup>x</sup>", "x e<sup>x</sup>", "1", "ln e"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = ln x (x>0).",
+  options: ["1/x", "ln x", "x", "−1/x"],
+  answer: 0,
+},
+{
+  question: "Use the product rule: y = (2x)(x<sup>2</sup> + 1). Find y'.",
+  options: ["2(x<sup>2</sup> + 1) + (2x)(2x)", "2x(2x) + (x<sup>2</sup> + 1)(2)", "2x(x<sup>2</sup> + 1)", "4x<sup>2</sup> + 2"],
+  answer: 0,
+},
+{
+  question: "Use the product rule: y = x<sup>2</sup>·sin x. Find y'.",
+  options: ["2x sin x + x<sup>2</sup> cos x", "x<sup>2</sup> cos x", "2x cos x + x<sup>2</sup> sin x", "2x sin x − x<sup>2</sup> cos x"],
+  answer: 0,
+},
+{
+  question: "Use the quotient rule: y = (x<sup>2</sup> + 1)/x. Find y'.",
+  options: ["(2x·x − (x<sup>2</sup> + 1)·1)/x<sup>2</sup>", "(2x + 1)/x", "(2x)/x", "1 − 1/x<sup>2</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate using chain rule: y = (3x + 2)<sup>2</sup>.",
+  options: ["2(3x + 2)(3)", "2(3x + 2)", "6x + 4", "3(3x + 2)"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = (x<sup>3</sup> + 1)<sup>4</sup>.",
+  options: ["4(x<sup>3</sup> + 1)<sup>3</sup>·3x<sup>2</sup>", "4(x<sup>3</sup> + 1)<sup>3</sup>", "12x<sup>2</sup>(x<sup>3</sup> + 1)<sup>4</sup>", "3x<sup>2</sup>(x<sup>3</sup> + 1)<sup>3</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate implicitly: x<sup>2</sup> + y<sup>2</sup> = 25. Find dy/dx.",
+  options: ["−x/y", "y/x", "−y/x", "x/y"],
+  answer: 0,
+},
+{
+  question: "Differentiate implicitly: x + xy + y = 0. Find dy/dx.",
+  options: ["dy/dx = −(1 + y)/(x + 1)", "dy/dx = −(1 + x)/(y + 1)", "dy/dx = −1/(x + 1)", "dy/dx = (1 + y)/(1 + x)"],
+  answer: 0,
+},
+{
+  question: "Find the second derivative: y = x<sup>3</sup>.",
+  options: ["y'' = 6x", "y'' = 3x", "y'' = 3", "y'' = 0"],
+  answer: 0,
+},
+{
+  question: "Find d/dx of y = x<sup>−2</sup>.",
+  options: ["−2x<sup>−3</sup>", "2x<sup>−1</sup>", "−x<sup>−2</sup>", "2x<sup>−3</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = √x = x<sup>1/2</sup>.",
+  options: ["(1/2)x<sup>−1/2</sup>", "x<sup>1/2</sup>", "(1/2)x<sup>1/2</sup>", "2√x"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = (2x + 1)/(x − 1).",
+  options: ["((2)(x − 1) − (2x + 1)(1))/(x − 1)<sup>2</sup>", "(2x + 1)'/(x − 1)'", "(2x + 1)/(x − 1)<sup>2</sup>", "(2x + 1)'(x − 1) − (2x + 1)(x − 1)'"],
+  answer: 0,
+},
+{
+  question: "Find slope of tangent to y = x<sup>2</sup> at x = 3.",
+  options: ["2·3 = 6", "3", "9", "5"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = ln(3x).",
+  options: ["1/x", "1/(3x)", "3/x", "1/(x·ln 3)"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = e<sup>2x</sup>.",
+  options: ["2e<sup>2x</sup>", "e<sup>2x</sup>", "2x e<sup>2x</sup>", "e<sup>x</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = arctan x.",
+  options: ["1/(1 + x<sup>2</sup>)", "1/(1 − x<sup>2</sup>)", "−1/(1 + x<sup>2</sup>)", "1/x"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = sec x.",
+  options: ["sec x tan x", "sec<sup>2</sup> x", "tan x", "csc x"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = (x<sup>2</sup> + 1)<sup>−1</sup>.",
+  options: ["−2x(x<sup>2</sup> + 1)<sup>−2</sup>", "2x(x<sup>2</sup> + 1)<sup>−2</sup>", "−x(x<sup>2</sup> + 1)<sup>−2</sup>", "2x(x<sup>2</sup> + 1)"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = ln(x<sup>2</sup> + 1).",
+  options: ["(2x)/(x<sup>2</sup> + 1)", "1/(x<sup>2</sup> + 1)", "2/(x<sup>2</sup> + 1)", "x/(x<sup>2</sup> + 1)"],
+  answer: 0,
+},
+{
+  question: "Find d/dx of y = x·e<sup>x</sup> (product rule).",
+  options: ["e<sup>x</sup>(1 + x)", "x e<sup>x</sup>", "e<sup>x</sup>", "x + e<sup>x</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = (3x<sup>2</sup> − x)(x + 2). Use product rule.",
+  options: ["(6x − 1)(x + 2) + (3x<sup>2</sup> − x)(1)", "(3x<sup>2</sup> − x)'(x + 2)'", "3x( x +2) + (3x<sup>2</sup> − x)(1)", "(6x − 1)(x + 2)"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = x/(x + 1).",
+  options: ["1/(x + 1)<sup>2</sup>", "1/(x + 1)", "1/(x + 1)<sup>3</sup>", "−1/(x + 1)<sup>2</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = sin(2x).",
+  options: ["2 cos(2x)", "cos(2x)", "sin 2x", "−2 sin(2x)"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = cos(3x + 1).",
+  options: ["−3 sin(3x + 1)", "−sin(3x + 1)", "3 cos(3x + 1)", "sin(3x + 1)"],
+  answer: 0,
+},
+{
+  question: "Find stationary points of y = x<sup>3</sup> − 3x<sup>2</sup> + 2 and classify (max/min/inflection).",
+  options: ["y' = 3x<sup>2</sup> − 6x; stationary at x = 0 and 2; x=0 inflection, x=2 local min", "y' = 3x<sup>2</sup> − 6x; stationary at x = 0 and 2; x=0 local max, x=2 local min", "y' = 3x<sup>2</sup> − 6x; stationary at x = 1 only", "No stationary points"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = (ln x)<sup>2</sup>.",
+  options: ["2 ln x · (1/x)", "2 ln x", "(ln x)/x", "1/x<sup>2</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = x<sup>x</sup> (use ln-differentiation).",
+  options: ["y' = x<sup>x</sup>(ln x + 1)", "y' = x<sup>x</sup> ln x", "y' = x<sup>x</sup>·x", "y' = x<sup>x−1</sup>(ln x + 1)"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = (1 + x)<sup>1/3</sup>.",
+  options: ["(1/3)(1 + x)<sup>−2/3</sup>", "(1/3)(1 + x)<sup>1/3</sup>", "3(1 + x)<sup>−2/3</sup>", "(1 + x)<sup>−2/3</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = cot x.",
+  options: ["−csc<sup>2</sup> x", "csc<sup>2</sup> x", "−sec<sup>2</sup> x", "sec<sup>2</sup> x"],
+  answer: 0,
+},
+{
+  question: "A balloon rises so that its height above ground is h(t) = 5t<sup>2</sup> metres at t seconds. Find velocity at t = 3s.",
+  options: ["dh/dt = 10t so at t=3, v = 30 m/s", "v = 45 m/s", "v = 15 m/s", "v = 9 m/s"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = (2x + 3)<sup>−2</sup>.",
+  options: ["−4(2x + 3)<sup>−3</sup>", "−2(2x + 3)<sup>−2</sup>", "4(2x + 3)<sup>−3</sup>", "−2(2x + 3)<sup>−3</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = arcsin x.",
+  options: ["1/√(1 − x<sup>2</sup>)", "1/(1 − x<sup>2</sup>)", "−1/√(1 − x<sup>2</sup>)", "x/√(1 − x<sup>2</sup>)"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = (x<sup>2</sup> + 2x + 1) = (x + 1)<sup>2</sup>. Find y'.",
+  options: ["2(x + 1)", "x + 1", "x<sup>2</sup> + 2x + 1", "2x + 1"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = (3x)/(x<sup>2</sup> + 1).",
+  options: ["(3(x<sup>2</sup> + 1) − 3x·2x)/(x<sup>2</sup> + 1)<sup>2</sup>", "3/(x<sup>2</sup> + 1)", "3x/(x<sup>2</sup> + 1)", "−3x/(x<sup>2</sup> + 1)<sup>2</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = sinh x (hyperbolic sine).",
+  options: ["cosh x", "sinh x", "e<sup>x</sup>", "tanh x"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = cosh(2x).",
+  options: ["2 sinh(2x)", "sinh(2x)", "2 cosh(2x)", "cosh(2x)"],
+  answer: 0,
+},
+{
+  question: "Find derivative of y = 1/(x<sup>3</sup> + 1).",
+  options: ["−3x<sup>2</sup>/(x<sup>3</sup> + 1)<sup>2</sup>", "3x<sup>2</sup>/(x<sup>3</sup> + 1)<sup>2</sup>", "−1/(x<sup>3</sup> + 1)<sup>2</sup>", "−3/(x<sup>3</sup> + 1)"],
+  answer: 0,
+},
+{
+  question: "Differentiate and simplify: y = x<sup>4</sup>·ln x.",
+  options: ["4x<sup>3</sup> ln x + x<sup>3</sup>", "4x<sup>3</sup> ln x + x<sup>4</sup>", "x<sup>4</sup>/x + ln x", "4x<sup>3</sup> + ln x"],
+  answer: 0,
+},
+{
+  question: "Differentiate using chain rule: y = (sin x)<sup>3</sup>.",
+  options: ["3(sin x)<sup>2</sup> cos x", "3 sin x cos x", "sin<sup>3</sup> x", "cos x"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = (x<sup>2</sup> − 1)^(1/2).",
+  options: ["(1/2)(x<sup>2</sup> − 1)<sup>−1/2</sup>·2x = x/(√(x<sup>2</sup> − 1))", "x<sup>2</sup> − 1", "1/(2√(x<sup>2</sup> − 1))", "2x(1/2)(x<sup>2</sup> − 1)<sup>−1/2</sup>"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = ln( sin x ) for x where sin x>0.",
+  options: ["cot x", "tan x", "csc x", "sec x"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = (x<sup>2</sup> + x)<sup>3</sup>.",
+  options: ["3(x<sup>2</sup> + x)<sup>2</sup>(2x + 1)", "3(x<sup>2</sup> + x)<sup>2</sup>", "(2x + 1)(x<sup>2</sup> + x)", "6x(x + 1)"],
+  answer: 0,
+},
+{
+  question: "Differentiate: y = arccos x.",
+  options: ["−1/√(1 − x<sup>2</sup>)", "1/√(1 − x<sup>2</sup>)", "1/(1 − x<sup>2</sup>)", "−1/(1 − x<sup>2</sup>)"],
+  answer: 0,
+},
+  {
+    question: "Solve for x and y: 2x + y = 7, x - y = 1.",
+    options: ["x = 3, y = 1", "x = 2, y = 3", "x = 4, y = -1", "x = 1, y = 5"],
+    answer: 0
+  },
+  {
+    question: "Find the values of x and y if 3x + 2y = 12 and 2x - y = 1.",
+    options: ["x = 2, y = 3", "x = 3, y = 1.5", "x = 2.5, y = 2", "x = 2, y = 2"],
+    answer: 1
+  },
+  {
+    question: "Solve for x and y: x + y = 10, 2x - y = 5.",
+    options: ["x = 5, y = 5", "x = 7, y = 3", "x = 6, y = 4", "x = 4, y = 6"],
+    answer: 1
+  },
+  {
+    question: "If 5x + 3y = 19 and x - y = 1, find y.",
+    options: ["y = 2", "y = 3", "y = 4", "y = 1"],
+    answer: 1
+  },
+  {
+    question: "The solution of 4x - y = 11 and 3x + y = 9 is:",
+    options: ["x = 2, y = 3", "x = 4, y = 1", "x = 2, y = 1", "x = 3, y = 2"],
+    answer: 1
+  },
+  {
+    question: "Solve for x: 2x + 3y = 12, x + y = 5.",
+    options: ["x = 3, y = 2", "x = 2, y = 3", "x = 3.5, y = 1.5", "x = 4, y = 1"],
+    answer: 0
+  },
+  {
+    question: "If 3x - 2y = 4 and 2x + y = 7, find x.",
+    options: ["x = 2", "x = 3", "x = 4", "x = 5"],
+    answer: 1
+  },
+  {
+    question: "The equations 2x + y = 5 and 4x + 2y = 10 are:",
+    options: ["Consistent and independent", "Consistent and dependent", "Inconsistent", "Parallel lines"],
+    answer: 1
+  },
+  {
+    question: "Solve: x + 3y = 9, 2x - y = 3.",
+    options: ["x = 3, y = 2", "x = 2, y = 3", "x = 1, y = 4", "x = 4, y = 1"],
+    answer: 0
+  },
+  {
+    question: "If x + y = 8 and x - y = 2, find x.",
+    options: ["x = 3", "x = 4", "x = 5", "x = 6"],
+    answer: 2
+  },
+  {
+    question: "Solve for y: 5x + 2y = 16, 3x - y = 5.",
+    options: ["y = 2", "y = 3", "y = 4", "y = 5"],
+    answer: 0
+  },
+  {
+    question: "If 2x + 5y = 20 and x - 2y = -4, find x.",
+    options: ["x = 4", "x = 2", "x = 3", "x = 6"],
+    answer: 0
+  },
+  {
+    question: "Solve: 7x - 3y = 11, 2x + y = 4.",
+    options: ["x = 2, y = 0", "x = 1, y = 2", "x = 3, y = -2", "x = 2, y = -1"],
+    answer: 0
+  },
+  {
+    question: "If 4x + y = 10 and x + y = 6, find y.",
+    options: ["y = 2", "y = 3", "y = 4", "y = 5"],
+    answer: 1
+  },
+  {
+    question: "Find x and y: 5x - 2y = 8, x + y = 4.",
+    options: ["x = 2, y = 2", "x = 3, y = 1", "x = 4, y = 0", "x = 2.5, y = 1.5"],
+    answer: 1
+  },
+  {
+    question: "If x + 2y = 10 and 2x - 3y = -4, find y.",
+    options: ["y = 2", "y = 3", "y = 4", "y = 5"],
+    answer: 2
+  },
+  {
+    question: "Solve the simultaneous equations: 3x + y = 9, x - y = 1.",
+    options: ["x = 2, y = 3", "x = 3, y = 2", "x = 4, y = 1", "x = 5, y = 0"],
+    answer: 1
+  },
+  {
+    question: "If 6x + 2y = 10 and 3x + y = 5, the equations are:",
+    options: ["Consistent", "Inconsistent", "Identical", "Parallel"],
+    answer: 2
+  },
+  {
+    question: "If 2x - y = 3 and 3x + y = 12, find x.",
+    options: ["x = 3", "x = 2", "x = 4", "x = 5"],
+    answer: 0
+  },
+  {
+    question: "Solve for y: x + 2y = 7, 3x - y = 8.",
+    options: ["y = 2", "y = 3", "y = 4", "y = 5"],
+    answer: 0
+  },
+  {
+    question: "If 5x + 4y = 14 and x - 2y = 1, find x.",
+    options: ["x = 2", "x = 3", "x = 4", "x = 5"],
+    answer: 1
+  },
+  {
+    question: "Solve: 4x + y = 11, 2x + y = 7.",
+    options: ["x = 2, y = 3", "x = 1, y = 4", "x = 2, y = 5", "x = 3, y = 5"],
+    answer: 0
+  },
+  {
+    question: "Find the value of y: 3x + 2y = 12, 2x - y = 1.",
+    options: ["y = 3", "y = 2", "y = 4", "y = 5"],
+    answer: 0
+  },
+  {
+    question: "If x + y = 10 and x - y = 2, find y.",
+    options: ["y = 4", "y = 3", "y = 5", "y = 6"],
+    answer: 2
+  },
+  {
+    question: "Solve for x: 3x - y = 5, x + y = 7.",
+    options: ["x = 3, y = 4", "x = 4, y = 3", "x = 2, y = 5", "x = 5, y = 2"],
+    answer: 1
+  },
+  {
+    question: "If 2x + 3y = 7 and 4x + 6y = 14, then the equations are:",
+    options: ["Inconsistent", "Consistent and dependent", "Consistent and independent", "Parallel lines"],
+    answer: 1
+  },
+  {
+    question: "Solve: 2x + y = 4, x + 2y = 5.",
+    options: ["x = 1, y = 2", "x = 2, y = 1", "x = 3, y = 1", "x = 1, y = 1.5"],
+    answer: 0
+  },
+  {
+    question: "Find x and y: 4x - y = 5, 2x + y = 7.",
+    options: ["x = 2, y = 3", "x = 3, y = 2", "x = 4, y = 1", "x = 1, y = 4"],
+    answer: 0
+  },
+  {
+    question: "If 3x + y = 8 and 5x - y = 12, find x.",
+    options: ["x = 2", "x = 3", "x = 4", "x = 5"],
+    answer: 1
+  },
+  {
+    question: "Solve: 7x + 2y = 16, 3x - y = 5.",
+    options: ["x = 2, y = 1", "x = 3, y = 1", "x = 2, y = 2", "x = 3, y = 2"],
+    answer: 3
+  },
+  {
+    question: "The equations 2x + 3y = 7 and 4x + 6y = 14 represent:",
+    options: ["The same line", "Two parallel lines", "Two intersecting lines", "No line"],
+    answer: 0
+  },
+  {
+    question: "If 4x - 3y = 5 and 2x + 3y = 13, find x.",
+    options: ["x = 2", "x = 3", "x = 4", "x = 5"],
+    answer: 2
+  },
+  {
+    question: "Solve for y: 6x + 2y = 16, 3x + y = 8.",
+    options: ["y = 0", "y = 1", "y = 2", "y = 3"],
+    answer: 1
+  },
+  {
+    question: "If x + y = 9 and 3x - y = 11, find x.",
+    options: ["x = 5", "x = 4", "x = 6", "x = 7"],
+    answer: 0
+  },
+  {
+    question: "Solve for y: 4x + 3y = 18, x + y = 6.",
+    options: ["y = 3", "y = 2", "y = 4", "y = 5"],
+    answer: 0
+  },
+  {
+    question: "Find x: 3x - 2y = 1, x + y = 4.",
+    options: ["x = 2", "x = 3", "x = 4", "x = 5"],
+    answer: 1
+  },
+  {
+    question: "If 2x + 5y = 10 and x + y = 3, find y.",
+    options: ["y = 1", "y = 2", "y = 3", "y = 4"],
+    answer: 0
+  },
+  {
+    question: "Solve: 2x - 3y = 1, 4x + y = 11.",
+    options: ["x = 2, y = 3", "x = 3, y = 1", "x = 2, y = 2", "x = 3, y = 2"],
+    answer: 1
+  },
+  {
+    question: "If 5x + y = 16 and 3x - y = 8, find x.",
+    options: ["x = 3", "x = 4", "x = 5", "x = 6"],
+    answer: 1
+  },
+  {
+    question: "Solve: x + y = 5, 2x - 3y = -4.",
+    options: ["x = 1, y = 4", "x = 3, y = 2", "x = 2, y = 3", "x = 4, y = 1"],
+    answer: 0
+  },
+  {
+    question: "Find x and y: 3x + 2y = 8, 2x - y = 1.",
+    options: ["x = 2, y = 1", "x = 1, y = 2", "x = 3, y = 1", "x = 2, y = 2"],
+    answer: 0
+  },
+  {
+    question: "If 4x + 3y = 18 and 3x + 2y = 13, find y.",
+    options: ["y = 2", "y = 3", "y = 4", "y = 5"],
+    answer: 0
+  },
+  {
+    question: "Solve for x: 5x - y = 9, 2x + y = 8.",
+    options: ["x = 3", "x = 2", "x = 4", "x = 1"],
+    answer: 0
+  },
+  {
+    question: "If x + y = 7 and 3x - y = 9, find y.",
+    options: ["y = 2", "y = 3", "y = 4", "y = 5"],
+    answer: 1
+  },
+  {
+    question: "Find x and y: 6x - y = 11, 2x + y = 5.",
+    options: ["x = 2, y = 1", "x = 3, y = 1", "x = 2, y = 2", "x = 3, y = 2"],
+    answer: 1
+  },
+  {
+    question: "Solve for x: 3x + 4y = 18, x - y = 2.",
+    options: ["x = 4, y = 2", "x = 3, y = 1", "x = 4, y = 1", "x = 5, y = 3"],
+    answer: 0
+  },
+  {
+    question: "If 2x + 3y = 9 and 3x - 2y = 4, find x.",
+    options: ["x = 2", "x = 3", "x = 4", "x = 5"],
+    answer: 0
+  },
+  {
+    question: "Solve: x + y = 8, 3x - y = 4.",
+    options: ["x = 3, y = 5", "x = 2, y = 6", "x = 4, y = 4", "x = 1, y = 7"],
+    answer: 0
+  },
+  {
+    question: "If 4x + 2y = 10 and 3x - y = 5, find y.",
+    options: ["y = 1", "y = 2", "y = 3", "y = 4"],
+    answer: 2
+  },
+  {
+    question: "Solve: 2x + y = 6, 3x + 2y = 10.",
+    options: ["x = 2, y = 2", "x = 1, y = 4", "x = 3, y = 1", "x = 2, y = 3"],
+    answer: 0
+  },
+  {
+    question: "If 5x - 2y = 8 and 3x + y = 7, find x.",
+    options: ["x = 2", "x = 3", "x = 4", "x = 5"],
+    answer: 1
+  },
+  
+  //quadratic equations 
+  {
+    question: "Simplify: (x + 2)(x + 3).",
+    options: ["x² + 6", "x² + 5x + 6", "x² + 3x + 2", "x² + 2x + 3"],
+    answer: 1
+  },
+  {
+    question: "Expand: (2x − 3)(x + 4).",
+    options: ["2x² + 5x − 12", "2x² − 5x − 12", "2x² + 8x − 3", "2x² + 8x + 12"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x + 1)².",
+    options: ["x² + 2x + 1", "x² + 1", "x² + 1x + 1", "x² + 2x"],
+    answer: 0
+  },
+  {
+    question: "Find the product of (x + 2) and (x − 2).",
+    options: ["x² + 4", "x² − 4", "x² + 2x − 2", "x² − 2x + 2"],
+    answer: 1
+  },
+  {
+    question: "Simplify: (2x + 3)(x − 5).",
+    options: ["2x² − 7x − 15", "2x² + 7x − 15", "2x² − 10x + 3", "2x² + 10x − 3"],
+    answer: 0
+  },
+  {
+    question: "If f(x) = x² − 4x + 3, find f(2).",
+    options: ["3", "1", "0", "-1"],
+    answer: 1
+  },
+  {
+    question: "Simplify: (3x + 2)(x + 4).",
+    options: ["3x² + 14x + 8", "3x² + 12x + 8", "3x² + 6x + 8", "x² + 12x + 8"],
+    answer: 0
+  },
+  {
+    question: "Factorize: x² + 5x + 6.",
+    options: ["(x + 2)(x + 3)", "(x − 2)(x − 3)", "(x + 1)(x + 6)", "(x − 1)(x − 6)"],
+    answer: 0
+  },
+  {
+    question: "Factorize completely: x² − 9.",
+    options: ["(x − 3)(x + 3)", "(x − 9)(x + 1)", "(x − 1)(x + 9)", "(x − 3)²"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x − 2)³.",
+    options: ["x³ − 8", "x³ − 6x² + 12x − 8", "x³ − 4x² + 4x − 8", "x³ − 2x² + 4x − 8"],
+    answer: 1
+  },
+  {
+    question: "Find the remainder when x³ + 3x² + 3x + 1 is divided by x + 1.",
+    options: ["0", "1", "2", "−1"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x + 5)(x² − 5x + 25).",
+    options: ["x³ + 125", "x³ − 125", "x³ + 25x + 125", "x³ + 50x + 125"],
+    answer: 0
+  },
+  {
+    question: "If p(x) = x² − 2x − 3, find p(3).",
+    options: ["0", "3", "−3", "−6"],
+    answer: 1
+  },
+  {
+    question: "Factorize: x² − x − 6.",
+    options: ["(x − 3)(x + 2)", "(x + 3)(x − 2)", "(x − 1)(x − 6)", "(x − 2)(x + 3)"],
+    answer: 0
+  },
+  {
+    question: "Expand: (2x + 1)(x − 3).",
+    options: ["2x² − 5x − 3", "2x² − x − 3", "2x² + 5x − 3", "2x² − 6x + 1"],
+    answer: 0
+  },
+  {
+    question: "Find the coefficient of x² in (x + 3)(x − 4).",
+    options: ["1", "3", "−1", "2"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x² + 3x + 2) − (x² + x − 1).",
+    options: ["2x + 3", "2x + 1", "x + 3", "2x + 2"],
+    answer: 1
+  },
+  {
+    question: "Find the constant term in (x + 2)(x − 3).",
+    options: ["6", "−6", "5", "−5"],
+    answer: 1
+  },
+  {
+    question: "If f(x) = x³ − 2x² + x − 3, find f(1).",
+    options: ["−3", "−4", "−5", "−2"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x + 1)(x² − x + 1).",
+    options: ["x³ + 1", "x³ − 1", "x² + 1", "x³ − x + 1"],
+    answer: 0
+  },
+  {
+    question: "Factorize: x³ − 8.",
+    options: ["(x − 2)(x² + 2x + 4)", "(x + 2)(x² − 2x + 4)", "(x − 4)(x² + 4x + 4)", "(x + 4)(x² − 4x + 4)"],
+    answer: 0
+  },
+  {
+    question: "Find the sum of the roots of x² − 5x + 6 = 0.",
+    options: ["5", "6", "1", "−5"],
+    answer: 0
+  },
+  {
+    question: "Find the product of the roots of x² + 3x + 2 = 0.",
+    options: ["2", "3", "1", "−2"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x + 2y)(x − 2y).",
+    options: ["x² + 4y²", "x² − 4y²", "x² − 2y²", "x² + 2y²"],
+    answer: 1
+  },
+  {
+    question: "Expand: (x − 3)(x² + 3x + 9).",
+    options: ["x³ − 27", "x³ + 27", "x³ − 9x − 27", "x³ + 9x + 27"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x² + 4x + 3) ÷ (x + 3).",
+    options: ["x + 1", "x + 2", "x + 3", "x + 4"],
+    answer: 0
+  },
+  {
+    question: "If f(x) = 2x³ − 3x² + x − 5, find f(0).",
+    options: ["−5", "−3", "0", "1"],
+    answer: 0
+  },
+  {
+    question: "Factorize: x² + 7x + 12.",
+    options: ["(x + 3)(x + 4)", "(x − 3)(x − 4)", "(x + 2)(x + 6)", "(x + 1)(x + 12)"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (3x − 2)(x² + 2x + 4).",
+    options: ["3x³ − 2", "3x³ + 2x² + 12x − 8", "3x³ + 6x² + 12x − 8", "3x³ − 2x² + 12x + 8"],
+    answer: 2
+  },
+  {
+    question: "Find the remainder when x³ − 2x² + 3x − 5 is divided by x − 1.",
+    options: ["−3", "−4", "−5", "−2"],
+    answer: 1
+  },
+  {
+    question: "If x = −1 is a root of x³ + x² − x − 1 = 0, factorize the polynomial.",
+    options: ["(x + 1)(x² − 1)", "(x + 1)(x² − x − 1)", "(x + 1)(x² + x + 1)", "(x + 1)(x² − 2)"],
+    answer: 1
+  },
+  {
+    question: "Simplify: (x + 2)³.",
+    options: ["x³ + 6x² + 12x + 8", "x³ + 3x² + 3x + 2", "x³ + 4x² + 8x + 8", "x³ + 5x² + 10x + 8"],
+    answer: 0
+  },
+  {
+    question: "If f(x) = 3x² − 2x + 5, find f(−2).",
+    options: ["19", "15", "17", "21"],
+    answer: 0
+  },
+  {
+    question: "Factorize: x² − 16.",
+    options: ["(x − 4)(x + 4)", "(x − 8)(x + 8)", "(x − 2)(x + 8)", "(x − 4)²"],
+    answer: 0
+  },
+  {
+    question: "Find the coefficient of x³ in (2x + 1)(x − 3)(x + 4).",
+    options: ["2", "1", "0", "3"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x − 1)(x² + x + 1).",
+    options: ["x³ − 1", "x³ + 1", "x³ − x + 1", "x³ + x − 1"],
+    answer: 0
+  },
+  {
+    question: "Expand: (x + 2y)(x² − 2xy + 4y²).",
+    options: ["x³ + 8y³", "x³ − 8y³", "x³ − 6xy² + 8y³", "x³ − 4xy² + 8y³"],
+    answer: 0
+  },
+  {
+    question: "Factorize: 2x² − 8x.",
+    options: ["2x(x − 4)", "x(2x − 4)", "2(x − 4)", "2x(x + 4)"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x² − 9) ÷ (x − 3).",
+    options: ["x + 3", "x − 3", "x² + 3x", "x² − 3x"],
+    answer: 0
+  },
+  {
+    question: "Find the remainder when x³ − 6x² + 11x − 6 is divided by x − 1.",
+    options: ["−6", "0", "5", "1"],
+    answer: 1
+  },
+  {
+    question: "If f(x) = x³ + 3x² + 3x + 1, find f(−1).",
+    options: ["0", "−1", "1", "2"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x + 3)(x² − 3x + 9).",
+    options: ["x³ + 27", "x³ − 27", "x³ − 9", "x³ + 9x + 27"],
+    answer: 0
+  },
+  {
+    question: "Factorize: x³ + 8y³.",
+    options: ["(x + 2y)(x² − 2xy + 4y²)", "(x + 2y)(x² + 2xy + 4y²)", "(x − 2y)(x² + 2xy + 4y²)", "(x − 2y)(x² − 2xy + 4y²)"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x² + 3x + 2)(x + 1).",
+    options: ["x³ + 4x² + 5x + 2", "x³ + 3x² + 5x + 3", "x³ + 2x² + 3x + 2", "x³ + 4x² + 6x + 2"],
+    answer: 0
+  },
+  {
+    question: "If p(x) = x² + 2x + 1, find p(−1).",
+    options: ["0", "1", "2", "−1"],
+    answer: 0
+  },
+  {
+    question: "Expand: (x + 4)(x − 5).",
+    options: ["x² − x − 20", "x² − x + 20", "x² + 9x + 20", "x² − 9x − 20"],
+    answer: 0
+  },
+  {
+    question: "Find the constant term in (x + 1)(x² + x + 1).",
+    options: ["1", "2", "3", "0"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x + 2)(x − 1)(x + 3).",
+    options: ["x³ + 4x² + x − 6", "x³ + 4x² − x − 6", "x³ + 2x² + 3x − 6", "x³ − 2x² + 3x + 6"],
+    answer: 1
+  },
+  
+  
+  //polynomials and remainder theorem
+  
+  {
+    question: "Factorize completely: x² − 9.",
+    options: ["(x − 3)(x + 3)", "(x − 9)(x + 1)", "(x − 1)(x + 9)", "(x − 3)²"],
+    answer: 0
+  },
+  {
+    question: "Find the remainder when x³ − 2x² + 3x − 5 is divided by x − 1.",
+    options: ["−3", "−4", "0", "−2"],
+    answer: 2
+  },
+  {
+    question: "Factorize: x² + 5x + 6.",
+    options: ["(x + 2)(x + 3)", "(x − 2)(x − 3)", "(x + 1)(x + 6)", "(x − 1)(x − 6)"],
+    answer: 0
+  },
+  {
+    question: "If f(x) = x³ − 4x² + x + 6, find f(2).",
+    options: ["0", "2", "−2", "6"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x + 2)(x − 2).",
+    options: ["x² + 4", "x² − 4", "x² − 2x + 2", "x² + 2x − 2"],
+    answer: 1
+  },
+  {
+    question: "Factorize completely: x³ + 8.",
+    options: ["(x + 2)(x² − 2x + 4)", "(x + 2)(x² + 2x + 4)", "(x − 2)(x² + 2x + 4)", "(x − 2)(x² − 2x + 4)"],
+    answer: 0
+  },
+  {
+    question: "Using the remainder theorem, find the remainder when 2x³ − 3x² + x − 5 is divided by x − 2.",
+    options: ["−5", "1", "−3", "7"],
+    answer: 3
+  },
+  {
+    question: "Factorize: x² − 7x + 12.",
+    options: ["(x − 3)(x − 4)", "(x − 6)(x − 2)", "(x − 4)(x − 3)", "(x − 2)(x − 6)"],
+    answer: 2
+  },
+  {
+    question: "Find the sum of the roots of x² − 6x + 8 = 0.",
+    options: ["6", "8", "−6", "−8"],
+    answer: 0
+  },
+  {
+    question: "Find the product of the roots of x² − 5x + 6 = 0.",
+    options: ["6", "5", "1", "−6"],
+    answer: 0
+  },
+  {
+    question: "Factorize: x³ − 27.",
+    options: ["(x − 3)(x² + 3x + 9)", "(x − 3)(x² − 3x + 9)", "(x + 3)(x² − 3x + 9)", "(x + 3)(x² + 3x + 9)"],
+    answer: 1
+  },
+  {
+    question: "If f(x) = x³ − 3x² + 4, find f(1).",
+    options: ["2", "0", "1", "−2"],
+    answer: 0
+  },
+  {
+    question: "Factorize: 2x² − 8x.",
+    options: ["2x(x − 4)", "x(2x − 4)", "2(x − 4)", "2x(x + 4)"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x + 1)(x² − x + 1).",
+    options: ["x³ + 1", "x³ − 1", "x² + 1", "x³ − x + 1"],
+    answer: 0
+  },
+  {
+    question: "Using remainder theorem, find remainder when x³ + 2x² − x + 1 is divided by x + 1.",
+    options: ["0", "2", "−2", "1"],
+    answer: 3
+  },
+  {
+    question: "Factorize: x³ − 8x.",
+    options: ["x(x − 2)(x + 2)", "x(x − 4)(x + 2)", "x(x − 1)(x + 8)", "x(x − 8)(x + 1)"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x + 2)² − (x − 2)².",
+    options: ["8x", "4x", "2x", "x² − 4"],
+    answer: 0
+  },
+  {
+    question: "Factorize completely: x³ − x² − 4x + 4.",
+    options: ["(x − 1)(x + 2)(x − 2)", "(x + 1)(x − 2)(x + 2)", "(x − 2)(x² + x − 2)", "(x + 2)(x² − x − 2)"],
+    answer: 0
+  },
+  {
+    question: "Find remainder when x³ + 4x² − 5x + 2 is divided by x − 1.",
+    options: ["0", "2", "1", "−1"],
+    answer: 2
+  },
+  {
+    question: "Factorize: x² + 2x − 15.",
+    options: ["(x + 5)(x − 3)", "(x − 5)(x + 3)", "(x − 3)(x + 5)", "(x + 3)(x − 5)"],
+    answer: 0
+  },
+  {
+    question: "Using remainder theorem, if f(x) = x³ − 3x + 4, find remainder when divided by x − 2.",
+    options: ["0", "2", "−2", "6"],
+    answer: 3
+  },
+  {
+    question: "Factorize: 4x² − 9.",
+    options: ["(2x − 3)(2x + 3)", "(4x − 3)(x + 3)", "(2x − 9)(2x + 1)", "(4x − 1)(x + 9)"],
+    answer: 0
+  },
+  {
+    question: "Find the remainder when 3x³ − 5x² + 2x − 1 is divided by x + 1.",
+    options: ["−7", "1", "0", "5"],
+    answer: 0
+  },
+  {
+    question: "Factorize: x³ − x² − x + 1.",
+    options: ["(x − 1)(x² − 1)", "(x − 1)²(x + 1)", "(x + 1)(x − 1)²", "(x + 1)(x² − 1)"],
+    answer: 1
+  },
+  {
+    question: "Simplify: (x − 3)(x + 2) + (x − 3)(x − 2).",
+    options: ["2x(x − 3)", "x² − 5", "x² − 9", "2x² − 3x − 10"],
+    answer: 0
+  },
+  {
+    question: "Factorize completely: x³ + 3x² − 4x − 12.",
+    options: ["(x + 3)(x − 2)(x + 2)", "(x − 3)(x + 2)(x − 2)", "(x + 2)(x − 3)(x − 2)", "(x − 2)(x + 3)(x − 2)"],
+    answer: 0
+  },
+  {
+    question: "Find remainder when x³ − 6x² + 11x − 6 is divided by x − 1.",
+    options: ["0", "1", "−1", "2"],
+    answer: 0
+  },
+  {
+    question: "Factorize: x³ − x.",
+    options: ["x(x − 1)(x + 1)", "x(x − 1)²", "x²(x − 1)", "x(x² − 1)"],
+    answer: 0
+  },
+  {
+    question: "Using remainder theorem, find remainder when x³ − 2x² + 3x − 5 is divided by x − 2.",
+    options: ["1", "−1", "3", "0"],
+    answer: 0
+  },
+  {
+    question: "Factorize completely: x³ + 2x² − x − 2.",
+    options: ["(x + 2)(x + 1)(x − 1)", "(x + 2)(x − 1)²", "(x − 2)(x + 1)(x − 1)", "(x + 1)(x + 2)(x − 1)"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x + 2)³ − (x − 1)³.",
+    options: ["3x² + 9x + 7", "3x² + 7x + 5", "x³ + 3x² + 6x + 7", "x³ − 3x² + 6x − 7"],
+    answer: 2
+  },
+  {
+    question: "Factorize: x² − 5x + 6.",
+    options: ["(x − 2)(x − 3)", "(x + 2)(x + 3)", "(x − 1)(x − 6)", "(x + 1)(x + 6)"],
+    answer: 0
+  },
+  {
+    question: "Find remainder when 2x³ − 3x² + x − 5 is divided by x − 1.",
+    options: ["−5", "−3", "−1", "−2"],
+    answer: 3
+  },
+  {
+    question: "Factorize: x³ − 6x² + 11x − 6.",
+    options: ["(x − 1)(x − 2)(x − 3)", "(x − 1)(x − 2)²", "(x − 3)(x − 2)(x − 1)", "(x − 1)(x − 3)(x − 2)"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x + 1)(x² + 2x + 1).",
+    options: ["x³ + 3x² + 3x + 1", "x³ + 2x² + 2x + 1", "x³ + x² + 2x + 1", "x³ + 3x² + 2x + 1"],
+    answer: 0
+  },
+  {
+    question: "Using remainder theorem, find remainder when x³ − x² + 2x − 1 is divided by x − 1.",
+    options: ["0", "2", "1", "−1"],
+    answer: 0
+  },
+  {
+    question: "Factorize completely: x³ + 4x² + x − 6.",
+    options: ["(x + 3)(x + 2)(x − 1)", "(x + 2)(x − 3)(x + 1)", "(x + 1)(x + 2)(x − 3)", "(x − 1)(x + 2)(x + 3)"],
+    answer: 0
+  },
+  {
+    question: "Factorize: 3x³ − 12x².",
+    options: ["3x²(x − 4)", "3x²(x + 4)", "3x(x − 4)", "3x(x + 4)"],
+    answer: 0
+  },
+  {
+    question: "Simplify: (x − 2)(x² + 2x + 4).",
+    options: ["x³ − 8", "x³ + 8", "x³ − 4", "x³ + 4"],
+    answer: 0
+  },
+  {
+    question: "Factorize completely: x³ − 2x² − x + 2.",
+    options: ["(x − 1)(x − 2)(x + 1)", "(x + 1)(x − 2)(x − 1)", "(x − 2)(x + 2)(x − 1)", "(x − 1)(x + 2)(x − 1)"],
+    answer: 0
+  },
+  
+  
+  //set and venn diagrams
+  {
+  question: "If A = {1, 2, 3} and B = {2, 3, 4}, find A ∩ B.",
+  options: ["{1, 4}", "{2, 3}", "{1, 2, 3, 4}", "{1, 2, 3}"],
+  answer: 1
+},
+{
+  question: "If U = {1, 2, 3, 4, 5} and A = {2, 4}, find A' (the complement of A).",
+  options: ["{2, 4}", "{1, 3, 5}", "{1, 2, 3, 5}", "{3, 4, 5}"],
+  answer: 1
+},
+{
+  question: "Given A = {a, b}, B = {b, c}, find A ∪ B.",
+  options: ["{a, b}", "{a, b, c}", "{b, c}", "{a, c}"],
+  answer: 1
+},
+{
+  question: "The number of subsets of a set with 4 elements is:",
+  options: ["4", "8", "16", "32"],
+  answer: 2
+},
+{
+  question: "If A = {1, 2, 3} and B = {3, 4, 5}, find A - B.",
+  options: ["{1, 2}", "{3}", "{4, 5}", "{1, 2, 3, 4, 5}"],
+  answer: 0
+},
+{
+  question: "In a Venn diagram, 10 students like Maths, 8 like English, and 3 like both. How many like either Maths or English?",
+  options: ["15", "12", "18", "5"],
+  answer: 0
+},
+{
+  question: "If U = {1, 2, 3, 4, 5, 6}, A = {1, 2, 3}, and B = {4, 5}, find A ∪ B.",
+  options: ["{1, 2, 3, 4, 5}", "{1, 2, 3, 4, 5, 6}", "{4, 5, 6}", "{1, 2, 3}"],
+  answer: 0
+},
+{
+  question: "If A ⊆ B, which of the following is true?",
+  options: ["All elements of B are in A", "A and B are disjoint", "All elements of A are in B", "A is empty"],
+  answer: 2
+},
+{
+  question: "In a class, 20 students play football, 15 play basketball, 5 play both. How many play only football?",
+  options: ["15", "5", "20", "10"],
+  answer: 0
+},
+{
+  question: "If A = {x | x is an even number less than 10}, list A.",
+  options: ["{2, 4, 6, 8}", "{1, 3, 5, 7}", "{2, 4, 6}", "{1, 2, 3, 4, 5, 6, 7, 8, 9}"],
+  answer: 0
+},
+{
+  question: "Given A = {1, 2}, B = {2, 3}, C = {3, 4}, find A ∩ B ∩ C.",
+  options: ["{2}", "{3}", "{}", "{1}"],
+  answer: 2
+},
+{
+  question: "If U = {a, b, c, d, e}, A = {a, c}, B = {b, c, d}, find A ∪ B.",
+  options: ["{a, b, c, d}", "{a, b, c}", "{a, c, d}", "{b, c, d, e}"],
+  answer: 0
+},
+{
+  question: "A survey shows 12 students like tea, 10 like coffee, and 5 like both. How many like either tea or coffee?",
+  options: ["17", "10", "12", "5"],
+  answer: 0
+},
+{
+  question: "If A = {1, 2, 3, 4}, what is the number of elements in the power set of A?",
+  options: ["4", "8", "16", "12"],
+  answer: 2
+},
+{
+  question: "In a Venn diagram, if |A ∩ B| = 3, |A| = 7, |B| = 5, find |A ∪ B|.",
+  options: ["9", "10", "12", "15"],
+  answer: 0
+},
+{
+  question: "If A = {x | x is a prime number less than 10}, list A.",
+  options: ["{2, 3, 5, 7}", "{1, 2, 3, 5, 7}", "{2, 3, 5}", "{3, 5, 7}"],
+  answer: 0
+},
+{
+  question: "If A = {1, 2, 3} and B = {3, 4, 5}, find A ∪ B.",
+  options: ["{1, 2, 3, 4, 5}", "{1, 2, 3}", "{3, 4, 5}", "{1, 2, 4, 5}"],
+  answer: 0
+},
+{
+  question: "In a class of 30 students, 18 study Maths, 12 study English, 5 study both. How many study neither?",
+  options: ["5", "7", "10", "15"],
+  answer: 1
+},
+{
+  question: "If A = {1, 3, 5}, B = {2, 3, 4}, find A - B.",
+  options: ["{1, 5}", "{3}", "{2, 4}", "{1, 3, 5}"],
+  answer: 0
+},
+{
+  question: "The complement of the universal set U is:",
+  options: ["Empty set", "U", "Undefined", "U itself"],
+  answer: 0
+},
+{
+  question: "If |A| = 5, |B| = 7, |A ∩ B| = 3, find |A ∪ B|.",
+  options: ["12", "9", "10", "15"],
+  answer: 2
+},
+{
+  question: "A survey shows 8 students like cats, 10 like dogs, 3 like both. How many like only dogs?",
+  options: ["7", "10", "8", "3"],
+  answer: 0
+},
+{
+  question: "If A = {x | x < 6, x ∈ N}, list A.",
+  options: ["{1, 2, 3, 4, 5}", "{0, 1, 2, 3, 4, 5}", "{1, 2, 3, 4}", "{0, 1, 2, 3, 4}"],
+  answer: 0
+},
+{
+  question: "If A = {1, 2, 3}, B = {2, 3, 4}, find B - A.",
+  options: ["{4}", "{2, 3}", "{1}", "{1, 4}"],
+  answer: 0
+},
+{
+  question: "If |U| = 20, |A| = 12, |B| = 9, |A ∩ B| = 4, find the number not in A or B.",
+  options: ["7", "8", "5", "6"],
+  answer: 0
+},
+{
+  question: "Find A ∩ (B ∪ C) given sets A, B, C.",
+  options: ["{x | x ∈ A and x ∈ B or C}", "{x | x ∈ A or B and C}", "{x | x ∈ B}", "{x | x ∈ C}"],
+  answer: 0
+},
+{
+  question: "If A = {a, b, c}, B = {c, d, e}, find A ∩ B.",
+  options: ["{c}", "{a, b}", "{d, e}", "{}"],
+  answer: 0
+},
+{
+  question: "In a class, 15 students like tea, 20 like coffee, 5 like both. How many like only tea?",
+  options: ["10", "15", "20", "5"],
+  answer: 0
+},
+{
+  question: "If A ∪ B = B, then which of the following is true?",
+  options: ["A is empty", "A = B", "B is empty", "A ∩ B = {}"],
+  answer: 1
+},
+{
+  question: "The number of elements in the set {x | x is an odd number less than 10} is:",
+  options: ["4", "5", "3", "6"],
+  answer: 0
+},
+{
+  question: "If |A| = 6, |B| = 8, |A ∩ B| = 3, find |A ∪ B|.",
+  options: ["11", "12", "9", "14"],
+  answer: 0
+},
+{
+  question: "Find the complement of A if U = {1, 2, 3, 4, 5}, A = {2, 4}.",
+  options: ["{1, 3, 5}", "{2, 4}", "{1, 2, 3, 5}", "{3, 5}"],
+  answer: 0
+},
+{
+  question: "If A = {1, 2, 3} and B = {3, 4, 5}, find (A ∪ B) - (A ∩ B).",
+  options: ["{1, 2, 4, 5}", "{3}", "{1, 2, 3, 4, 5}", "{4, 5}"],
+  answer: 0
+},
+{
+  question: "In a Venn diagram, if |A| = 10, |B| = 8, |A ∩ B| = 3, find |A - B|.",
+  options: ["7", "3", "5", "10"],
+  answer: 2
+},
+{
+  question: "If U = {1, 2, 3, 4, 5, 6}, A = {1, 3, 5}, B = {2, 4, 6}, find A ∪ B.",
+  options: ["U", "{1, 2, 3, 4}", "{1, 3, 5}", "{2, 4, 6}"],
+  answer: 0
+},
+{
+  question: "Find the number of elements in the union of disjoint sets A and B if |A| = 6, |B| = 5.",
+  options: ["11", "10", "6", "5"],
+  answer: 0
+},
+{
+  question: "If A ⊆ B and B ⊆ A, then which statement is true?",
+  options: ["A = B", "A ∩ B = ∅", "A ∪ B = B", "A is empty"],
+  answer: 0
+},
+{
+  question: "If |U| = 50, |A| = 20, |B| = 30, |A ∩ B| = 10, find the number not in A or B.",
+  options: ["10", "15", "20", "25"],
+  answer: 0
+},
+{
+  question: "Simplify (2³ × 2⁻⁴) × 2².",
+  options: ["2¹", "2²", "2³", "2⁰"],
+  answer: 1
+},
+{
+  question: "Simplify (x²y⁻³)⁴.",
+  options: ["x⁸y⁻¹²", "x⁸y¹²", "x⁶y⁻¹²", "x⁴y⁻¹²"],
+  answer: 0
+},
+{
+  question: "Simplify (3² × 3⁻³) ÷ 3⁻².",
+  options: ["3¹", "3⁰", "3²", "3⁻¹"],
+  answer: 0
+},
+{
+  question: "Simplify (a³b⁻²)² × (a⁻¹b)³.",
+  options: ["a³b⁻¹", "a⁵b⁻¹", "a⁴b⁻¹", "a⁶b⁻²"],
+  answer: 2
+},
+{
+  question: "Simplify ((2x³)⁴ × (x²y)³) ÷ (4x²y²)².",
+  options: ["2³x¹⁰y³", "2⁴x¹⁰y³", "2³x¹⁰y²", "2³x⁹y³"],
+  answer: 0
+},
+{
+  question: "Simplify (x⁵y⁻²) ÷ (x²y³).",
+  options: ["x³y⁻⁵", "x³y⁵", "x⁷y⁻⁵", "x³y⁻¹"],
+  answer: 0
+},
+{
+  question: "Simplify (a²b³)⁰ × (ab⁻¹)².",
+  options: ["a²b⁻²", "ab⁻²", "a²b²", "a²b⁻¹"],
+  answer: 0
+},
+{
+  question: "Simplify (4⁰ × 2³ × 2⁻⁵)³.",
+  options: ["2⁻⁶", "2⁻⁴", "2⁰", "2⁻³"],
+  answer: 0
+},
+{
+  question: "Simplify (x⁻²y³)⁴ ÷ (x²y⁻¹)³.",
+  options: ["x⁻¹⁴y¹⁵", "x⁻¹⁴y¹⁰", "x⁻¹⁴y⁹", "x⁻¹⁴y¹²"],
+  answer: 1
+},
+{
+  question: "Simplify (3a²b³)² × (2a⁻¹b)³.",
+  options: ["24a¹b⁹", "12a¹b⁹", "24a³b⁹", "12a³b⁶"],
+  answer: 0
+},
+{
+  question: "Simplify (x³y⁻²)² ÷ (x²y³).",
+  options: ["x⁴y⁻⁷", "x⁴y⁵", "x⁶y⁻⁷", "x⁴y⁻¹"],
+  answer: 0
+},
+{
+  question: "Simplify ((2x²y³)³ × (xy²)²) ÷ (4x³y)².",
+  options: ["2³x⁴y¹¹", "2³x⁴y¹²", "2³x⁶y⁸", "2⁴x⁴y¹¹"],
+  answer: 0
+},
+{
+  question: "Simplify (a²b⁻¹)⁴ ÷ (a³b²)².",
+  options: ["a⁻²b⁻⁸", "a⁻²b⁻²", "a⁻²b⁶", "a²b⁻⁸"],
+  answer: 0
+},
+{
+  question: "Simplify (x⁵y⁻³)² ÷ (x³y²)³.",
+  options: ["x⁻¹y⁻¹²", "x⁻¹y⁰", "x⁴y⁻⁹", "x⁴y⁻¹²"],
+  answer: 0
+},
+{
+  question: "Simplify (2² × 2⁻³ × 2⁴) ÷ 2².",
+  options: ["2¹", "2²", "2³", "2⁰"],
+  answer: 0
+},
+{
+  question: "Simplify ((x³y⁴)² × (x⁻²y³)) ÷ (x⁴y²).",
+  options: ["x⁰y⁹", "x⁰y⁸", "x⁰y¹⁰", "x¹y⁹"],
+  answer: 0
+},
+{
+  question: "Simplify (5⁻² × 5³) ÷ 5⁻¹.",
+  options: ["5²", "5³", "5⁰", "5¹"],
+  answer: 0
+},
+{
+  question: "Simplify ((a²b⁻³)⁴ × (a⁻¹b²)³) ÷ (a³b⁻²)².",
+  options: ["a²b⁻²", "a²b⁻³", "a³b⁻²", "a⁴b⁻⁵"],
+  answer: 0
+},
+{
+  question: "Simplify ((x⁻²y³)² × (xy⁻¹)³) ÷ x⁻¹y².",
+  options: ["x⁰y⁴", "x⁰y³", "x¹y⁴", "x⁰y⁵"],
+  answer: 0
+},
+{
+  question: "Simplify (2³ × 2⁻² × 2⁴) ÷ 2³.",
+  options: ["2²", "2³", "2⁴", "2¹"],
+  answer: 3
+},
+{
+  question: "Simplify (x⁴y⁻²)³ ÷ (x²y³)².",
+  options: ["x⁶y⁻¹⁰", "x¹²y⁻⁴", "x⁶y⁴", "x⁸y⁻⁸"],
+  answer: 0
+},
+{
+  question: "Simplify ((3x²y⁻³)² × (2x⁻¹y²)³) ÷ (x²y⁻¹)².",
+  options: ["72x¹y⁰", "72x¹y¹", "72x²y⁰", "36x¹y⁰"],
+  answer: 0
+},
+{
+  question: "Simplify (a⁻²b³)⁴ ÷ (a²b⁻¹)².",
+  options: ["a⁻¹²b¹⁴", "a⁻¹²b¹⁰", "a⁻¹²b¹²", "a⁻⁸b¹⁰"],
+  answer: 1
+},
+{
+  question: "Simplify (x³y⁻²)⁰ × (x²y⁴)².",
+  options: ["x⁴y⁸", "x⁴y⁴", "x²y⁸", "x⁴y⁸",],
+  answer: 0
+},
+{
+  question: "Simplify ((2x³)² × (x⁻¹y²)³) ÷ 4x²y⁴.",
+  options: ["2x⁴y²", "2x⁵y²", "x⁴y²", "2x⁴y³"],
+  answer: 0
+},
+{
+  question: "Simplify ((x⁻²y³)³ × (x³y⁻¹)²) ÷ x²y.",
+  options: ["x⁻¹y⁷", "x⁻¹y⁶", "x⁻²y⁷", "x⁻²y⁶"],
+  answer: 1
+},
+{
+  question: "Simplify (4⁻¹ × 2³)².",
+  options: ["2⁴", "2²", "2³", "2⁰"],
+  answer: 0
+},
+{
+  question: "Simplify ((a²b³)³ × (a⁻¹b²)⁴) ÷ (a³b²)².",
+  options: ["a³b¹²", "a³b¹¹", "a⁴b¹²", "a⁴b¹¹"],
+  answer: 0
+},
+{
+  question: "Simplify (x⁻³y²)⁴ ÷ (x²y⁻¹)³.",
+  options: ["x⁻¹⁰y¹¹", "x⁻¹⁰y¹⁰", "x⁻⁹y¹¹", "x⁻¹⁰y⁹"],
+  answer: 0
+},
+{
+  question: "Simplify ((2x³y²)² × (x²y⁻¹)³) ÷ (2²x²y²).",
+  options: ["2x⁷y¹", "2x⁸y¹", "2x⁷y²", "x⁷y¹"],
+  answer: 0
+},
+{
+  question: "Simplify ((x⁴y⁻²)³ × (x⁻¹y³)²) ÷ x³y⁻¹.",
+  options: ["x⁶y⁰", "x⁸y⁰", "x⁶y¹", "x⁷y⁰"],
+  answer: 0
+},
+{
+  question: "Simplify (3⁻² × 3⁴) ÷ 3.",
+  options: ["3⁰", "3¹", "3²", "3³"],
+  answer: 1
+},
+{
+  question: "Simplify ((2a³b⁻¹)² × (a⁻²b²)³) ÷ (a²b)².",
+  options: ["a²b¹", "a²b²", "a¹b¹", "a²b⁰"],
+  answer: 0
+},
+{
+  question: "Simplify ((x³y⁻²)² × (x⁻¹y)³) ÷ (x²y⁻¹).",
+  options: ["x²y⁰", "x²y¹", "x⁰y⁰", "x⁰y¹"],
+  answer: 1
+},
+{
+  question: "Simplify ((5x²y³)³ × (x⁻¹y²)²) ÷ 5²x³y⁴.",
+  options: ["5x⁴y⁷", "5x⁵y⁷", "5x⁴y⁶", "5x⁵y⁶"],
+  answer: 0
+},
+{
+  question: "Simplify ((x⁴y⁻³)³ × (x⁻²y²)²) ÷ x⁵y⁻¹.",
+  options: ["x³y⁻⁴", "x³y⁻³", "x⁴y⁻⁴", "x⁴y⁻³"],
+  answer: 1
+},
+{
+  question: "Simplify ((2x³)³ × (x⁻¹y²)⁴) ÷ 8x⁴y³.",
+  options: ["2x⁵y⁵", "2x⁵y⁶", "x⁵y⁵", "x⁵y⁶"],
+  answer: 0
+},
+{
+  question: "Simplify ((x⁻²y³)⁴ × (x³y⁻¹)²) ÷ x²y⁴.",
+  options: ["x⁰y⁶", "x⁰y⁷", "x⁻¹y⁶", "x⁻¹y⁷"],
+  answer: 0
+},
+{
+  question: "Simplify ((3x²y³)² × (x⁻¹y²)³) ÷ 9x²y⁴.",
+  options: ["x¹y⁵", "x¹y⁶", "x²y⁵", "x²y⁶"],
+  answer: 0
+},
+{
+  question: "Simplify ((a²b³c⁴)² × (a⁻¹b²c³)³) ÷ (a²b⁴c²)².",
+  options: ["a³b⁵c¹³", "a³b⁵c¹²", "a³b⁶c¹³", "a³b⁶c¹²"],
+  answer: 0
+},
+{
+  question: "Simplify ((x³y⁻²)³ × (x⁻²y)²) ÷ (x⁴y⁻¹).",
+  options: ["x¹y⁻³", "x¹y⁻²", "x⁰y⁻³", "x⁰y⁻²"],
+  answer: 0
+},
+{
+  question: "Simplify ((2a³b²)³ × (a²b⁻¹)²) ÷ 4a⁴b³.",
+  options: ["2a⁵b³", "2a⁷b³", "2a⁵b²", "2a⁷b²"],
+  answer: 1
+},
+
+//Logarithm questions 
+
+{
+  question: "Simplify log₁₀(1000).",
+  options: ["2", "3", "4", "5"],
+  answer: 1
+},
+{
+  question: "If logₐ 81 = 4, find a.",
+  options: ["3", "4", "9", "2"],
+  answer: 2
+},
+{
+  question: "Simplify log₂ 8 + log₂ 4.",
+  options: ["4", "5", "6", "3"],
+  answer: 1
+},
+{
+  question: "If log x = 2, find the value of x.",
+  options: ["10", "100", "1000", "20"],
+  answer: 1
+},
+{
+  question: "Simplify log₃ 27 ÷ log₃ 3.",
+  options: ["2", "3", "4", "1"],
+  answer: 1
+},
+{
+  question: "Solve for x: log(x²) = 4.",
+  options: ["10", "100", "1000", "20"],
+  answer: 1
+},
+{
+  question: "If log₅ 25 = x, find x.",
+  options: ["1", "2", "3", "5"],
+  answer: 1
+},
+{
+  question: "Simplify log₁₀ 50 + log₁₀ 2.",
+  options: ["log₁₀ 52", "log₁₀ 100", "log₁₀ 25", "log₁₀ 48"],
+  answer: 1
+},
+{
+  question: "If log₂ x = 5, find x.",
+  options: ["25", "32", "16", "10"],
+  answer: 1
+},
+{
+  question: "Simplify logₐ(a⁷).",
+  options: ["7a", "a⁷", "7", "1"],
+  answer: 2
+},
+{
+  question: "Solve: log₁₀(x) + log₁₀(10) = 3.",
+  options: ["10", "100", "1", "90"],
+  answer: 1
+},
+{
+  question: "Simplify log₄ 16 − log₄ 2.",
+  options: ["1", "2", "3", "4"],
+  answer: 1
+},
+{
+  question: "If log₁₀ 2 = 0.301, find log₁₀ 8.",
+  options: ["0.903", "0.602", "0.301", "1.204"],
+  answer: 0
+},
+{
+  question: "Solve for x: log₅ x = 3.",
+  options: ["15", "125", "25", "5"],
+  answer: 1
+},
+{
+  question: "Simplify log₁₀(100 ÷ 10).",
+  options: ["1", "2", "3", "0"],
+  answer: 0
+},
+{
+  question: "Simplify log₃ 9 × log₃ 3.",
+  options: ["2", "3", "4", "1"],
+  answer: 0
+},
+{
+  question: "If log₁₀ x = 2.5, find x.",
+  options: ["250", "100", "316.2", "200"],
+  answer: 2
+},
+{
+  question: "Simplify log₇ 49 + log₇ 7.",
+  options: ["2", "3", "4", "1"],
+  answer: 1
+},
+{
+  question: "Solve: log₄ x² = 3.",
+  options: ["2", "8", "4", "16"],
+  answer: 3
+},
+{
+  question: "If log₁₀ 5 ≈ 0.699, find log₁₀ 25.",
+  options: ["1.398", "0.699", "2", "1.301"],
+  answer: 0
+},
+{
+  question: "Simplify log₆ 36 ÷ log₆ 6.",
+  options: ["1", "2", "3", "4"],
+  answer: 1
+},
+{
+  question: "Simplify log(x³y²).",
+  options: ["3 log x + 2 log y", "log x + log y", "3 log(xy²)", "3 log x log y²"],
+  answer: 0
+},
+{
+  question: "Simplify log₁₀ 0.01.",
+  options: ["-2", "2", "-1", "1"],
+  answer: 0
+},
+{
+  question: "If log₂ 8 = x, find x.",
+  options: ["1", "2", "3", "4"],
+  answer: 2
+},
+{
+  question: "Solve for x: log₃(x) − log₃ 3 = 2.",
+  options: ["9", "27", "3", "6"],
+  answer: 1
+},
+{
+  question: "Simplify log₁₀(50 × 2).",
+  options: ["log₁₀ 52", "log₁₀ 100", "log₁₀ 48", "log₁₀ 25"],
+  answer: 1
+},
+{
+  question: "Simplify log₅ 125 − log₅ 5.",
+  options: ["1", "2", "3", "4"],
+  answer: 1
+},
+{
+  question: "If log₁₀ 7 ≈ 0.845, find log₁₀ 49.",
+  options: ["1.69", "0.845", "2", "1.7"],
+  answer: 0
+},
+{
+  question: "Simplify log₃ 27 ÷ log₃ 9.",
+  options: ["1", "1.5", "2", "3"],
+  answer: 1
+},
+{
+  question: "Solve: log₁₀ x + log₁₀ 4 = 2.",
+  options: ["10", "25", "50", "100"],
+  answer: 1
+},
+{
+  question: "Simplify log₁₀ 5² × log₁₀ 5.",
+  options: ["3 log₁₀ 5", "log₁₀ 25", "2 log₁₀ 5", "log₁₀ 5"],
+  answer: 0
+},
+{
+  question: "Solve for x: log₂(x − 1) = 3.",
+  options: ["7", "8", "9", "4"],
+  answer: 1
+},
+{
+  question: "Simplify log₁₀(100 × 1000).",
+  options: ["5", "6", "7", "8"],
+  answer: 2
+},
+{
+  question: "If log₄ x = 3, find x.",
+  options: ["16", "64", "32", "8"],
+  answer: 1
+},
+{
+  question: "Simplify log₂ 32 − log₂ 8.",
+  options: ["1", "2", "3", "4"],
+  answer: 1
+},
+{
+  question: "Solve: log₁₀(x²) = 6.",
+  options: ["1000", "100", "10000", "10"],
+  answer: 2
+},
+{
+  question: "Simplify log₁₀ 1 ÷ log₁₀ 10.",
+  options: ["0", "1", "-1", "10"],
+  answer: 0
+},
+{
+  question: "Simplify log(xy³) − log y.",
+  options: ["log x + 2 log y", "log x + 3 log y", "log x − 2 log y", "log x + log y"],
+  answer: 0
+},
+{
+  question: "If log₂ 3 ≈ 1.585, find log₂ 9.",
+  options: ["3.17", "3.0", "2.585", "2"],
+  answer: 0
+},
+{
+  question: "Simplify log₁₀(100) + log₁₀ 1000.",
+  options: ["5", "6", "7", "8"],
+  answer: 2
+},
+{
+  question: "Solve for x: log₅ x + log₅ 25 = 3.",
+  options: ["5", "25", "125", "1250"],
+  answer: 2
+},
+{
+  question: "Simplify log₆ 36 + log₆ 6.",
+  options: ["3", "4", "5", "2"],
+  answer: 2
+},
+{
+  question: "If log₁₀ 2 ≈ 0.301, find log₁₀ 16.",
+  options: ["1.204", "1", "1.5", "2"],
+  answer: 0
+},
+{
+  question: "Simplify log₁₀(x²y³).",
+  options: ["2 log₁₀ x + 3 log₁₀ y", "log₁₀ x + log₁₀ y", "2 log₁₀(xy³)", "3 log₁₀ x + 2 log₁₀ y"],
+  answer: 0
+},
+{
+  question: "Solve: log₃(x) = 4.",
+  options: ["27", "64", "81", "16"],
+  answer: 2
+},
+{
+  question: "Simplify log₁₀(1000 ÷ 10).",
+  options: ["1", "2", "3", "4"],
+  answer: 2
+},
+{
+  question: "Simplify log₂ 16 × log₂ 2.",
+  options: ["4", "2", "8", "16"],
+  answer: 0
+},
+{
+  question: "If log₁₀ 9 ≈ 0.954, find log₁₀ 81.",
+  options: ["1.908", "0.954", "1.9", "1.8"],
+  answer: 0
+},
+{
+  question: "Simplify log(x³y⁴) − log y².",
+  options: ["3 log x + 2 log y", "3 log x + 4 log y", "3 log x + log y", "3 log x + 6 log y"],
+  answer: 0
+},
+{
+  question: "If ln x = 3, find x.",
+  options: ["3", "e³", "ln 3", "e"],
+  answer: 1
+},
+{
+  question: "Simplify ln(e⁵).",
+  options: ["5", "e⁵", "1", "ln 5"],
+  answer: 0
+},
+{
+  question: "Solve: log₄ x + log₄ 16 = 5.",
+  options: ["32", "64", "48", "16"],
+  answer: 1
+},
+{
+  question: "If log₁₀ x = 2.7, find x.",
+  options: ["500", "501", "502", "503"],
+  answer: 0
+},
+{
+  question: "Simplify logₐ(x⁷y³).",
+  options: ["7 logₐ x + 3 logₐ y", "7x + 3y", "7 log x log y³", "logₐ x⁷y³"],
+  answer: 0
+},
+{
+  question: "Solve for x: log₅(2x − 3) = 3.",
+  options: ["64", "125", "124", "126"],
+  answer: 1
+},
+{
+  question: "Simplify log₃ 81 ÷ log₃ 9.",
+  options: ["3/2", "2", "1", "4/3"],
+  answer: 0
+},
+{
+  question: "If log₂ x = 7, find x.",
+  options: ["128", "127", "129", "64"],
+  answer: 0
+},
+{
+  question: "Simplify ln(a²b³) − ln(ab).",
+  options: ["ln ab²", "ln a²b²", "ln a²b³", "ln a b³"],
+  answer: 0
+},
+{
+  question: "Solve: log₁₀(x² − 4) = 2.",
+  options: ["6", "14", "16", "12"],
+  answer: 2
+},
+{
+  question: "If log₄ 32 = x, find x.",
+  options: ["2.5", "3", "4", "5"],
+  answer: 0
+},
+{
+  question: "Simplify log₅ 125 − log₅ 25.",
+  options: ["1", "2", "3", "0"],
+  answer: 0
+},
+{
+  question: "Solve for x: ln(2x) = 3.",
+  options: ["e³/2", "3/2", "2e³", "e³"],
+  answer: 0
+},
+{
+  question: "Simplify log₁₀ 0.001.",
+  options: ["-3", "3", "-2", "2"],
+  answer: 0
+},
+{
+  question: "Solve: log₇(x − 1) + log₇(x + 1) = 2.",
+  options: ["7", "8", "6", "9"],
+  answer: 0
+},
+{
+  question: "If ln x − ln 2 = 3, find x.",
+  options: ["2e³", "e³", "2 ln 3", "6"],
+  answer: 0
+},
+{
+  question: "Simplify log₂ 64 × log₂ 2.",
+  options: ["6", "64", "8", "2"],
+  answer: 0
+},
+{
+  question: "Solve for x: log₃(x + 4) − log₃ 2 = 3.",
+  options: ["50", "52", "54", "48"],
+  answer: 1
+},
+{
+  question: "If log₁₀ x = 1/2, find x.",
+  options: ["5", "√10", "10", "0.5"],
+  answer: 1
+},
+{
+  question: "Simplify ln e⁵ − ln e².",
+  options: ["3", "5", "2", "7"],
+  answer: 0
+},
+{
+  question: "Solve: log₂(x²) − log₂ 8 = 3.",
+  options: ["16", "32", "64", "8"],
+  answer: 1
+},
+{
+  question: "If log₁₀ 3 ≈ 0.4771, find log₁₀ 27.",
+  options: ["1.4313", "1.477", "1.5", "1.43"],
+  answer: 0
+},
+{
+  question: "Simplify log₅(125x²).",
+  options: ["3 + 2 log₅ x", "5 + log₅ x²", "3 log₅ x²", "2 log₅ x + 125"],
+  answer: 0
+},
+{
+  question: "Solve: ln(x − 1) = 2.",
+  options: ["e² + 1", "e² − 1", "2e − 1", "e²"],
+  answer: 1
+},
+{
+  question: "If log₃ x = 4/2, find x.",
+  options: ["9", "16", "81", "8"],
+  answer: 0
+},
+{
+  question: "Simplify log₁₀(50) + log₁₀(20).",
+  options: ["log₁₀ 1000", "log₁₀ 70", "log₁₀ 50 × 20", "log₁₀ 100"],
+  answer: 0
+},
+{
+  question: "Solve for x: log₁₀(x + 5) = 2.",
+  options: ["90", "95", "100", "105"],
+  answer: 1
+},
+{
+  question: "Simplify log₄ 8 × log₄ 2.",
+  options: ["3/2", "2", "1", "1/2"],
+  answer: 0
+},
+{
+  question: "If ln 5 ≈ 1.609, find ln 25.",
+  options: ["3.218", "1.609", "2", "4.218"],
+  answer: 0
+},
+{
+  question: "Simplify ln(a²b⁵) − ln(ab²).",
+  options: ["ln a b³", "ln a² b³", "ln a² b⁷", "ln a b²"],
+  answer: 1
+},
+{
+  question: "Solve: log₆(x² − 1) = 2.",
+  options: ["7", "35", "37", "36"],
+  answer: 3
+},
+{
+  question: "If log₂ x + log₂(x − 2) = 3, find x.",
+  options: ["4", "6", "8", "5"],
+  answer: 1
+},
+{
+  question: "Simplify log₁₀ 0.1 × log₁₀ 1000.",
+  options: ["-1", "1", "0", "2"],
+  answer: 2
+},
+{
+  question: "Solve: ln(x²) − ln 4 = 3.",
+  options: ["4e³", "2e³", "e³", "8e³"],
+  answer: 1
+},
+{
+  question: "If log₇ 49 = x, find x.",
+  options: ["1", "2", "3", "4"],
+  answer: 1
+},
+{
+  question: "Simplify log₁₀(200 ÷ 2).",
+  options: ["1", "2", "2.5", "3"],
+  answer: 3
+},
+{
+  question: "Solve: log₂(x + 3) = 5.",
+  options: ["29", "32", "28", "31"],
+  answer: 1
+},
+{
+  question: "Simplify ln(xy²) + ln(x²y).",
+  options: ["3 ln x + 3 ln y", "3 ln xy", "ln x + ln y", "2 ln x + 2 ln y"],
+  answer: 0
+},
+{
+  question: "Solve for x: log₁₀(x − 2) + log₁₀(x + 2) = 2.",
+  options: ["6", "10", "8", "12"],
+  answer: 3
+},
+{
+  question: "If ln 2 ≈ 0.693, find ln 16.",
+  options: ["2.772", "2.718", "2.8", "2.75"],
+  answer: 0
+},
+{
+  question: "Simplify log₃ 9³ ÷ log₃ 3.",
+  options: ["6", "5", "4", "3"],
+  answer: 0
+},
+{
+  question: "Solve: ln(3x) − ln 2 = 4.",
+  options: ["e⁴/3", "2e⁴/3", "e⁴", "3e⁴/2"],
+  answer: 0
+},
+{
+  question: "Simplify log₁₀(x⁵y²) − log₁₀(x²y).",
+  options: ["3 log x + log y", "5 log x + 2 log y", "2 log x + log y", "log x + log y"],
+  answer: 0
+},
+{
+  question: "Solve for x: log₄(x − 1) + log₄(x + 1) = 3.",
+  options: ["7", "8", "9", "6"],
+  answer: 0
+},
+{
+  question: "Simplify ln(e²x³) − ln(x³).",
+  options: ["2", "ln e²", "3 ln x", "2 + 3 ln x"],
+  answer: 0
+},
+{
+  question: "If log₁₀ 11 ≈ 1.041, find log₁₀ 121.",
+  options: ["2.082", "2.041", "2", "1.041"],
+  answer: 0
+},
+{
+  question: "Simplify log₂(x²y³z).",
+  options: ["2 log x + 3 log y + log z", "log x + log y + log z", "2 log x + 2 log y + log z", "2 log x + 3 log y"],
+  answer: 0
+},
+{
+  question: "Solve: log₅(x² − x − 6) = 2.",
+  options: ["6", "11", "12", "10"],
+  answer: 2
+},
+
+//surds questions
+{
+  question: "Simplify √50.",
+  options: ["5√2", "10√2", "25√2", "2√5"],
+  answer: 0
+},
+{
+  question: "Simplify √72 + √32.",
+  options: ["8√2", "10√2", "12√2", "14√2"],
+  answer: 1
+},
+{
+  question: "Rationalize the denominator: 5/√2.",
+  options: ["5√2/2", "√2/5", "5/2√2", "2√5"],
+  answer: 0
+},
+{
+  question: "Simplify √18 × √8.",
+  options: ["12", "24", "36", "16"],
+  answer: 0
+},
+{
+  question: "Simplify √50 − √8.",
+  options: ["3√2", "√42", "√58", "√10"],
+  answer: 0
+},
+{
+  question: "Simplify (√3 + √2)².",
+  options: ["5 + 2√6", "3 + 2√6", "5 + √6", "5 + 4√6"],
+  answer: 0
+},
+{
+  question: "Simplify √12 ÷ √3.",
+  options: ["2", "3", "4", "√4"],
+  answer: 0
+},
+{
+  question: "Rationalize the denominator: 7/(√5 − 2).",
+  options: ["(7√5 + 14)/1", "(7√5 + 14)/1", "(7√5 + 14)/1", "(7√5 + 14)/1"],
+  answer: 0
+},
+{
+  question: "Simplify √98 − √32.",
+  options: ["3√2", "2√2", "4√2", "√66"],
+  answer: 0
+},
+{
+  question: "Simplify (√5 − √2)(√5 + √2).",
+  options: ["3", "7", "√7", "√3"],
+  answer: 0
+},
+{
+  question: "Simplify √32 + √18.",
+  options: ["7√2", "8√2", "9√2", "10√2"],
+  answer: 1
+},
+{
+  question: "Simplify √50 × √2.",
+  options: ["10", "12", "14", "8"],
+  answer: 0
+},
+{
+  question: "Rationalize the denominator: 3/(√3 + 1).",
+  options: ["(3√3 − 3)/2", "3(√3 − 1)/2", "3/√2", "3√3/2"],
+  answer: 0
+},
+{
+  question: "Simplify √45 ÷ √5.",
+  options: ["3", "4", "5", "√9"],
+  answer: 0
+},
+{
+  question: "Simplify √20 + 2√5.",
+  options: ["4√5", "6√5", "2√5", "3√5"],
+  answer: 0
+},
+{
+  question: "Simplify (√7 + √3)².",
+  options: ["10 + 2√21", "7 + 2√21", "10 + √21", "7 + √21"],
+  answer: 0
+},
+{
+  question: "Simplify √75 − √12.",
+  options: ["3√3", "5√3", "√63", "√87"],
+  answer: 0
+},
+{
+  question: "Simplify (√2 + √5)(√2 − √5).",
+  options: ["-3", "3", "-7", "7"],
+  answer: 0
+},
+{
+  question: "Simplify √50 ÷ √2.",
+  options: ["5", "√25", "√50", "√48"],
+  answer: 0
+},
+{
+  question: "Simplify √8 × √18.",
+  options: ["12", "14", "16", "24"],
+  answer: 0
+},
+{
+  question: "Rationalize the denominator: 2/(√7 − √3).",
+  options: ["(2√7 + 2√3)/4", "(2√7 + 2√3)/4", "(2√7 + 2√3)/4", "(√7 + √3)/2"],
+  answer: 0
+},
+{
+  question: "Simplify √98 + √50.",
+  options: ["7√2 + 5√2", "√148", "√148", "12√2"],
+  answer: 0
+},
+{
+  question: "Simplify (√6 + √2)².",
+  options: ["8 + 2√12", "8 + 4√3", "6 + 2√12", "6 + 4√3"],
+  answer: 1
+},
+{
+  question: "Simplify √32 − √18.",
+  options: ["2√2", "4√2", "√14", "√20"],
+  answer: 1
+},
+{
+  question: "Simplify √12 × √3.",
+  options: ["6", "5", "3", "√36"],
+  answer: 0
+},
+{
+  question: "Simplify (√10 + √5)(√10 − √5).",
+  options: ["5", "10", "15", "√5"],
+  answer: 1
+},
+{
+  question: "Simplify √45 + √20.",
+  options: ["5√2 + 3√5", "3√5 + 2√5", "3√5 + 2√2", "5√2 + 2√5"],
+  answer: 3
+},
+{
+  question: "Rationalize: 5/(√2 + √3).",
+  options: ["(5√2 − 5√3)/-1", "(5√2 − 5√3)/-1", "(5√2 − 5√3)/-1", "(5√2 − 5√3)/-1"],
+  answer: 0
+},
+{
+  question: "Simplify √8 + √18 − √2.",
+  options: ["5√2", "6√2", "4√2", "7√2"],
+  answer: 0
+},
+{
+  question: "Simplify √50 × √8.",
+  options: ["20", "16", "24", "18"],
+  answer: 0
+},
+{
+  question: "Simplify (√3 + √7)² − (√3 − √7)².",
+  options: ["28", "20", "14", "10"],
+  answer: 0
+},
+{
+  question: "Simplify √32 + √50 − √18.",
+  options: ["10√2", "8√2", "12√2", "9√2"],
+  answer: 0
+},
+{
+  question: "Simplify √98 ÷ √2.",
+  options: ["7", "5", "6", "9"],
+  answer: 0
+},
+{
+  question: "Simplify √45 − √5.",
+  options: ["√5(3 − 1)", "√5(3 − 2)", "2√5", "√5"],
+  answer: 0
+},
+{
+  question: "Simplify √72 × √2.",
+  options: ["12", "14", "10", "8"],
+  answer: 0
+},
+{
+  question: "Simplify (√6 + √3)(√6 − √3).",
+  options: ["3", "6", "9", "1"],
+  answer: 1
+},
+{
+  question: "Rationalize the denominator: 1/(√5 + √2).",
+  options: ["(√5 − √2)/3", "(√5 − √2)/7", "(√5 − √2)/1", "(√5 − √2)/2"],
+  answer: 0
+},
+{
+  question: "Simplify √50 − √8 + √18.",
+  options: ["7√2", "6√2", "5√2", "8√2"],
+  answer: 1
+},
+{
+  question: "Simplify √128 ÷ √2.",
+  options: ["8", "16", "6", "4"],
+  answer: 0
+},
+{
+  question: "Simplify (√10 + √2)².",
+  options: ["12 + 4√5", "12 + 2√20", "12 + 4√10", "12 + 2√5"],
+  answer: 2
+},
+{
+  question: "Simplify √200 − √50.",
+  options: ["5√2", "10√2", "7√2", "15√2"],
+  answer: 1
+},
+{
+  question: "Simplify √72 + √50 − √8.",
+  options: ["12√2", "10√2", "14√2", "8√2"],
+  answer: 0
+},
+{
+  question: "Simplify (√5 + √3)(√5 − √3).",
+  options: ["2", "5", "8", "1"],
+  answer: 1
+},
+{
+  question: "Simplify √32 + √18 − √8.",
+  options: ["8", "6√2", "10", "7√2"],
+  answer: 1
+},
+{
+  question: "Simplify √98 + √50 − √32.",
+  options: ["10√2", "12√2", "8√2", "9√2"],
+  answer: 0
+},
+{
+  question: "Rationalize the denominator: 2/(√3 + √5).",
+  options: ["(2√3 − 2√5)/-2", "(2√3 − 2√5)/-2", "(2√3 − 2√5)/-2", "(2√3 − 2√5)/-2"],
+  answer: 0
+},
+
+//ratio, proportion and averages
+
+{
+  question: "The ratio of boys to girls in a class is 3:4. If there are 21 boys, how many girls are there?",
+  options: ["28", "24", "30", "35"],
+  answer: 0
+},
+{
+  question: "A recipe requires sugar and flour in the ratio 2:5. If 10 kg of flour is used, how much sugar is needed?",
+  options: ["4 kg", "5 kg", "3 kg", "6 kg"],
+  answer: 0
+},
+{
+  question: "The ages of A and B are in the ratio 5:7. If A is 25 years old, find B's age.",
+  options: ["35", "30", "28", "40"],
+  answer: 0
+},
+{
+  question: "Divide ₦1200 among X, Y, and Z in the ratio 2:3:5.",
+  options: ["₦240, ₦360, ₦600", "₦200, ₦300, ₦700", "₦240, ₦380, ₦580", "₦250, ₦350, ₦600"],
+  answer: 0
+},
+{
+  question: "If 5 pencils cost ₦150, find the cost of 8 pencils.",
+  options: ["₦240", "₦200", "₦250", "₦220"],
+  answer: 0
+},
+{
+  question: "A sum of money is divided among 3 people in the ratio 4:5:6. If the total is ₦7500, how much does the middle person get?",
+  options: ["₦2500", "₦3000", "₦2800", "₦2700"],
+  answer: 1
+},
+{
+  question: "The ratio of length to width of a rectangle is 5:3. If the width is 12 cm, find the length.",
+  options: ["20 cm", "18 cm", "15 cm", "25 cm"],
+  answer: 1
+},
+{
+  question: "A and B can do a work in 12 and 8 days respectively. Working together, how long will it take them to finish the work?",
+  options: ["4.8 days", "5 days", "5.5 days", "6 days"],
+  answer: 0
+},
+{
+  question: "The average of 5 numbers is 20. Four of the numbers are 18, 22, 24, 16. Find the fifth number.",
+  options: ["20", "18", "22", "24"],
+  answer: 0
+},
+{
+  question: "The ratio of A's salary to B's salary is 7:5. If B earns ₦15000, what does A earn?",
+  options: ["₦21000", "₦20000", "₦22000", "₦25000"],
+  answer: 0
+},
+{
+  question: "Three numbers are in the ratio 2:3:5. Their sum is 100. Find the largest number.",
+  options: ["50", "40", "30", "45"],
+  answer: 0
+},
+{
+  question: "The ratio of two numbers is 4:7. If their sum is 44, find the numbers.",
+  options: ["16 and 28", "18 and 26", "20 and 24", "15 and 29"],
+  answer: 0
+},
+{
+  question: "The average of 10 numbers is 18. If one number, 24, is removed, find the new average.",
+  options: ["17.6", "17.5", "18", "17"],
+  answer: 0
+},
+{
+  question: "A mixture contains milk and water in the ratio 5:2. If the mixture is 14 liters, how much milk is there?",
+  options: ["10 liters", "8 liters", "9 liters", "12 liters"],
+  answer: 0
+},
+{
+  question: "If 8 men can complete a job in 12 days, how many days will it take 6 men to complete it?",
+  options: ["16 days", "14 days", "18 days", "12 days"],
+  answer: 0
+},
+{
+  question: "The average of five consecutive even numbers is 24. Find the numbers.",
+  options: ["20, 22, 24, 26, 28", "18, 20, 22, 24, 26", "22, 24, 26, 28, 30", "24, 26, 28, 30, 32"],
+  answer: 0
+},
+{
+  question: "A and B share a sum of money in the ratio 3:2. If B gets ₦600, find the total sum.",
+  options: ["₦1500", "₦1200", "₦1800", "₦1400"],
+  answer: 1
+},
+{
+  question: "The ratio of 3 numbers is 2:3:4. If the largest is 40, find the smallest.",
+  options: ["20", "15", "10", "25"],
+  answer: 2
+},
+{
+  question: "If 5 workers earn ₦4500, how much will 8 workers earn?",
+  options: ["₦7200", "₦7500", "₦7000", "₦8000"],
+  answer: 0
+},
+{
+  question: "The ratio of boys to girls in a school is 5:3. If there are 120 boys, find the number of girls.",
+  options: ["72", "75", "80", "70"],
+  answer: 0
+},
+{
+  question: "The average of 6 numbers is 15. If one number, 18, is replaced by 24, find the new average.",
+  options: ["16", "15.5", "16.5", "17"],
+  answer: 2
+},
+{
+  question: "A sum of money is divided among 4 people in the ratio 1:2:3:4. If the total is ₦10000, find the share of the second person.",
+  options: ["₦2000", "₦3000", "₦2500", "₦4000"],
+  answer: 1
+},
+{
+  question: "The ratio of two numbers is 7:9. If the smaller number is 21, find the larger number.",
+  options: ["27", "25", "28", "30"],
+  answer: 0
+},
+{
+  question: "If the ratio of A:B is 3:5 and B:C is 4:7, find the ratio of A:C.",
+  options: ["12:35", "15:28", "12:28", "7:15"],
+  answer: 0
+},
+{
+  question: "The average of 8 numbers is 16. If one number, 20, is removed, find the new average.",
+  options: ["15.5", "15", "16", "14.5"],
+  answer: 0
+},
+{
+  question: "Divide ₦900 among X, Y, Z in the ratio 2:3:4.",
+  options: ["₦200, ₦300, ₦400", "₦180, ₦270, ₦450", "₦220, ₦330, ₦350", "₦200, ₦300, ₦350"],
+  answer: 1
+},
+{
+  question: "The ratio of ages of A and B is 5:6. If the sum of their ages is 55, find A's age.",
+  options: ["25", "23", "22", "24"],
+  answer: 3
+},
+{
+  question: "If a:b = 3:4 and b:c = 2:5, find a:c.",
+  options: ["3:10", "3:20", "6:20", "3:8"], 
+  answer: 1
+},
+{
+  question: "The average of 10 numbers is 25. One number is wrongly recorded as 28 instead of 18. Find the correct average.",
+  options: ["24", "23.9", "24.9", "25"],
+  answer: 2
+},
+{
+  question: "A mixture contains water and alcohol in the ratio 3:2. If the mixture is 25 liters, find the amount of alcohol.",
+  options: ["10 liters", "12 liters", "15 liters", "8 liters"],
+  answer: 0
+},
+{
+  question: "The ratio of two numbers is 9:11. If their sum is 200, find the numbers.",
+  options: ["90 and 110", "100 and 100", "80 and 120", "85 and 115"],
+  answer: 0
+},
+{
+  question: "Divide ₦1500 among three people in the ratio 3:5:7.",
+  options: ["₦300, ₦500, ₦700", "₦375, ₦625, ₦500", "₦360, ₦600, ₦540", "₦375, ₦625, ₦500"],
+  answer: 1
+},
+{
+  question: "The average of 5 numbers is 20. Four numbers are 18, 24, 16, 22. Find the fifth number.",
+  options: ["20", "22", "18", "16"],
+  answer: 0
+},
+{
+  question: "If 12 men can complete a work in 20 days, how long will 15 men take?",
+  options: ["16 days", "18 days", "15 days", "14 days"],
+  answer: 0
+},
+{
+  question: "The ratio of two numbers is 7:9. Their sum is 64. Find the numbers.",
+  options: ["28 and 36", "30 and 34", "32 and 32", "27 and 37"],
+  answer: 0
+},
+{
+  question: "A sum of money is shared among 5 people in the ratio 2:3:4:5:6. If the total is ₦1000, find the share of the third person.",
+  options: ["₦160", "₦200", "₦180", "₦150"],
+  answer: 0
+},
+{
+  question: "The average of 9 numbers is 12. One number is replaced by 18. Find the new average.",
+  options: ["12.7", "13", "12.5", "12.8"],
+  answer: 0
+},
+{
+  question: "If a:b:c = 2:3:4 and their sum is 72, find b.",
+  options: ["24", "20", "18", "22"],
+  answer: 0
+},
+{
+  question: "A mixture contains milk and water in the ratio 7:3. If the total is 50 liters, find the amount of milk.",
+  options: ["35 liters", "30 liters", "25 liters", "40 liters"],
+  answer: 0
+},
+{
+  question: "If 5 men can do a work in 15 days, 3 men will do it in how many days?",
+  options: ["25 days", "20 days", "30 days", "15 days"],
+  answer: 0
+},
+{
+  question: "The ratio of three numbers is 4:5:6. If the smallest is 12, find the largest.",
+  options: ["18", "20", "16", "15"],
+  answer: 0
+},
+{
+  question: "Divide ₦1200 among A, B, C in the ratio 3:4:5.",
+  options: ["₦300, ₦400, ₦500", "₦360, ₦400, ₦440", "₦350, ₦400, ₦450", "₦300, ₦360, ₦540"],
+  answer: 0
+},
+{
+  question: "The average of 8 numbers is 15. If one number 20 is removed, find the new average.",
+  options: ["14.5", "14", "15", "15.5"],
+  answer: 0
+},
+
+
+//linear inequality 
+
+{
+  question: "Solve for x: 2x + 5 > 9",
+  options: ["x > 2", "x < 2", "x > -2", "x < -2"],
+  answer: 0
+},
+{
+  question: "Solve: 5 - 3x ≤ 8",
+  options: ["x ≥ -1", "x ≤ -1", "x ≥ 1", "x ≤ 1"],
+  answer: 3
+},
+{
+  question: "If 4x - 7 < 9, find x",
+  options: ["x < 4", "x > 4", "x < 16", "x > 16"],
+  answer: 0
+},
+{
+  question: "Solve for y: 3y + 2 ≥ 11",
+  options: ["y ≥ 3", "y ≥ 4", "y ≤ 3", "y ≤ 4"],
+  answer: 0
+},
+{
+  question: "2x - 5 < 3x + 1, find x",
+  options: ["x > -6", "x < -6", "x > 6", "x < 6"],
+  answer: 0
+},
+{
+  question: "Solve: -2x + 7 ≥ 1",
+  options: ["x ≤ 3", "x ≥ 3", "x ≤ -3", "x ≥ -3"],
+  answer: 0
+},
+{
+  question: "If 5x - 9 < 16, find x",
+  options: ["x < 5", "x > 5", "x < -5", "x > -5"],
+  answer: 0
+},
+{
+  question: "Solve 7 - 2x > 1",
+  options: ["x < 3", "x > 3", "x < -3", "x > -3"],
+  answer: 0
+},
+{
+  question: "3x + 4 ≤ 10, find x",
+  options: ["x ≤ 2", "x ≥ 2", "x ≤ -2", "x ≥ -2"],
+  answer: 0
+},
+{
+  question: "Solve: 6 - x > 2",
+  options: ["x < 4", "x > 4", "x < -4", "x > -4"],
+  answer: 0
+},
+{
+  question: "Solve for x: 4x + 3 ≤ 15",
+  options: ["x ≤ 3", "x ≥ 3", "x ≤ 4", "x ≥ 4"],
+  answer: 0
+},
+{
+  question: "If -3x + 5 > 2, find x",
+  options: ["x < 1", "x > 1", "x < -1", "x > -1"],
+  answer: 0
+},
+{
+  question: "Solve: 2x - 3 ≥ 7",
+  options: ["x ≥ 5", "x ≤ 5", "x ≥ 2", "x ≤ 2"],
+  answer: 0
+},
+{
+  question: "Solve: x/3 + 2 < 5",
+  options: ["x < 9", "x > 9", "x < 6", "x > 6"],
+  answer: 0
+},
+{
+  question: "Solve: 5 - 2x ≥ 1",
+  options: ["x ≤ 2", "x ≥ 2", "x ≤ -2", "x ≥ -2"],
+  answer: 0
+},
+{
+  question: "If 7x - 4 < 17, find x",
+  options: ["x < 3", "x > 3", "x < -3", "x > -3"],
+  answer: 0
+},
+{
+  question: "Solve 3x + 7 > 13",
+  options: ["x > 2", "x < 2", "x > -2", "x < -2"],
+  answer: 0
+},
+{
+  question: "Solve -5x + 9 ≤ 4",
+  options: ["x ≥ 1", "x ≤ 1", "x ≥ -1", "x ≤ -1"],
+  answer: 0
+},
+{
+  question: "Solve: 2x - 3 ≤ 5",
+  options: ["x ≤ 4", "x ≥ 4", "x ≤ -4", "x ≥ -4"],
+  answer: 0
+},
+{
+  question: "Solve 3 - x > 0",
+  options: ["x < 3", "x > 3", "x < -3", "x > -3"],
+  answer: 0
+},
+{
+  question: "Solve for x: 4 - 2x < 0",
+  options: ["x > 2", "x < 2", "x > -2", "x < -2"],
+  answer: 0
+},
+{
+  question: "Solve: 5x + 6 ≥ 16",
+  options: ["x ≥ 2", "x ≤ 2", "x ≥ 4", "x ≤ 4"],
+  answer: 0
+},
+{
+  question: "Solve: 2 - 3x ≤ -7",
+  options: ["x ≥ 3", "x ≤ 3", "x ≥ -3", "x ≤ -3"],
+  answer: 0
+},
+{
+  question: "Solve: 3x - 5 > 1",
+  options: ["x > 2", "x < 2", "x > -2", "x < -2"],
+  answer: 0
+},
+{
+  question: "Solve: 2x + 3 ≤ 11",
+  options: ["x ≤ 4", "x ≥ 4", "x ≤ 5", "x ≥ 5"],
+  answer: 0
+},
+{
+  question: "Solve -x + 6 > 2",
+  options: ["x < 4", "x > 4", "x < -4", "x > -4"],
+  answer: 0
+},
+{
+  question: "Solve: 7 - 3x ≤ 1",
+  options: ["x ≥ 2", "x ≤ 2", "x ≥ -2", "x ≤ -2"],
+  answer: 0
+},
+{
+  question: "Solve 5x - 10 < 15",
+  options: ["x < 5", "x > 5", "x < -5", "x > -5"],
+  answer: 0
+},
+{
+  question: "Solve: -2x + 7 > 3",
+  options: ["x < 2", "x > 2", "x < -2", "x > -2"],
+  answer: 0
+},
+{
+  question: "Solve: 4x - 5 ≤ 7",
+  options: ["x ≤ 3", "x ≥ 3", "x ≤ 2", "x ≥ 2"],
+  answer: 0
+},
+{
+  question: "Solve for x: 3x + 4 < 13",
+  options: ["x < 3", "x > 3", "x < -3", "x > -3"],
+  answer: 0
+},
+{
+  question: "Solve: 5 - x ≥ 2",
+  options: ["x ≤ 3", "x ≥ 3", "x ≤ -3", "x ≥ -3"],
+  answer: 0
+},
+{
+  question: "Solve: 2x - 7 > -1",
+  options: ["x > 3", "x < 3", "x > -3", "x < -3"],
+  answer: 0
+},
+{
+  question: "Solve 6 - 4x ≤ 2",
+  options: ["x ≥ 1", "x ≤ 1", "x ≥ -1", "x ≤ -1"],
+  answer: 0
+},
+{
+  question: "Solve: 3x + 5 > 11",
+  options: ["x > 2", "x < 2", "x > -2", "x < -2"],
+  answer: 0
+},
+{
+  question: "Solve: -x + 8 ≤ 3",
+  options: ["x ≥ 5", "x ≤ 5", "x ≥ -5", "x ≤ -5"],
+  answer: 0
+},
+{
+  question: "Solve: 2x + 7 ≥ 13",
+  options: ["x ≥ 3", "x ≤ 3", "x ≥ 4", "x ≤ 4"],
+  answer: 0
+},
+{
+  question: "Solve 5x - 3 ≤ 12",
+  options: ["x ≤ 3", "x ≥ 3", "x ≤ 2", "x ≥ 2"],
+  answer: 0
+},
+{
+  question: "Solve: -3x + 9 > 0",
+  options: ["x < 3", "x > 3", "x < -3", "x > -3"],
+  answer: 0
+},
+{
+  question: "Solve: 4x + 1 < 9",
+  options: ["x < 2", "x > 2", "x < -2", "x > -2"],
+  answer: 0
+},
+{
+  question: "Solve for x: 6 - x ≥ 3",
+  options: ["x ≤ 3", "x ≥ 3", "x ≤ -3", "x ≥ -3"],
+  answer: 0
+},
+{
+  question: "Solve: 3x - 4 ≤ 5",
+  options: ["x ≤ 3", "x ≥ 3", "x ≤ 4", "x ≥ 4"],
+  answer: 0
+},
+{
+  question: "Solve: -2x + 6 < 0",
+  options: ["x > 3", "x < 3", "x > -3", "x < -3"],
+  answer: 0
+},
+{
+  question: "Solve: 5x + 2 > 17",
+  options: ["x > 3", "x < 3", "x > -3", "x < -3"],
+  answer: 0
+},
+{
+  question: "Solve for x: 7 - x ≤ 4",
+  options: ["x ≥ 3", "x ≤ 3", "x ≥ -3", "x ≤ -3"],
+  answer: 0
+},
+{
+  question: "Solve 3x + 2 ≥ 11",
+  options: ["x ≥ 3", "x ≤ 3", "x ≥ 4", "x ≤ 4"],
+  answer: 0
+},
+{
+  question: "Solve: -4x + 8 > 0",
+  options: ["x < 2", "x > 2", "x < -2", "x > -2"],
+  answer: 0
+},
+{
+  question: "Solve for x: 3x - 7 > 2x + 5",
+  options: ["x > 12", "x < 12", "x > -12", "x < -12"],
+  answer: 0
+},
+{
+  question: "Solve: -2x + 5 ≤ 3x - 10",
+  options: ["x ≥ 3", "x ≤ 3", "x ≥ -3", "x ≤ -3"],
+  answer: 1
+},
+{
+  question: "Solve for y: 5 - 2y < 3y + 10",
+  options: ["y > -1", "y < -1", "y > 3", "y < 3"],
+  answer: 0
+},
+{
+  question: "Solve: 7x + 3 ≤ 2x + 18",
+  options: ["x ≤ 3", "x ≥ 3", "x ≤ 5", "x ≥ 5"],
+  answer: 0
+},
+{
+  question: "If -3x + 4 > 10, find x",
+  options: ["x < -2", "x > -2", "x < 2", "x > 2"],
+  answer: 0
+},
+{
+  question: "Solve for x: 4(x - 3) ≥ 2x + 6",
+  options: ["x ≥ 9", "x ≤ 9", "x ≥ 3", "x ≤ 3"],
+  answer: 0
+},
+{
+  question: "Solve: -5x + 2 < 3 - 2x",
+  options: ["x > -1/3", "x < -1/3", "x > 1/3", "x < 1/3"],
+  answer: 1
+},
+{
+  question: "Solve: 1/2 x - 3 ≥ 1/4 x + 5",
+  options: ["x ≥ 32", "x ≤ 32", "x ≥ -32", "x ≤ -32"],
+  answer: 0
+},
+{
+  question: "Solve: 3x/4 - 5 < x/2 + 2",
+  options: ["x < 28", "x > 28", "x < -28", "x > -28"],
+  answer: 0
+},
+{
+  question: "Solve for x: 2(3x - 5) ≤ 4x + 10",
+  options: ["x ≤ 10", "x ≥ 10", "x ≤ -10", "x ≥ -10"],
+  answer: 0
+},
+{
+  question: "Solve: -3(x - 2) + 5 > 2x - 1",
+  options: ["x < 2", "x > 2", "x < 1", "x > 1"],
+  answer: 0
+},
+{
+  question: "If 2x + 5 < 3x - 7, find x",
+  options: ["x > 12", "x < 12", "x > -12", "x < -12"],
+  answer: 1
+},
+{
+  question: "Solve: 5 - 3x > 2 - 2x",
+  options: ["x < -3", "x > -3", "x < 3", "x > 3"],
+  answer: 0
+},
+{
+  question: "Solve: 2(x - 1) < 3(x + 2) - 5",
+  options: ["x > -3", "x < -3", "x > 3", "x < 3"],
+  answer: 1
+},
+{
+  question: "Solve: -4x + 7 ≥ 3x - 14",
+  options: ["x ≤ 3", "x ≥ 3", "x ≤ -3", "x ≥ -3"],
+  answer: 0
+},
+{
+  question: "Solve: 3 - 2(x + 1) < 5x - 7",
+  options: ["x > 2", "x < 2", "x > -2", "x < -2"],
+  answer: 0
+},
+{
+  question: "Solve: (x - 3)/2 > (2x + 1)/3",
+  options: ["x < 11", "x > 11", "x < -11", "x > -11"],
+  answer: 1
+},
+{
+  question: "Solve for x: 5x - 2 ≤ 2x + 7",
+  options: ["x ≤ 3", "x ≥ 3", "x ≤ -3", "x ≥ -3"],
+  answer: 0
+},
+{
+  question: "Solve: -3x + 6 < 2x - 4",
+  options: ["x > 2", "x < 2", "x > -2", "x < -2"],
+  answer: 1
+},
+{
+  question: "Solve: 4 - 5x > 3x + 8",
+  options: ["x < -1/2", "x > -1/2", "x < 1/2", "x > 1/2"],
+  answer: 0
+},
+{
+  question: "Solve: 2/3 x - 5 ≤ x/2 + 3",
+  options: ["x ≤ 48", "x ≥ 48", "x ≤ -48", "x ≥ -48"],
+  answer: 0
+},
+{
+  question: "Solve: -7x + 3 ≥ 4x - 25",
+  options: ["x ≤ 4", "x ≥ 4", "x ≤ -4", "x ≥ -4"],
+  answer: 0
+},
+{
+  question: "Solve for x: 3(x - 1) < 2x + 5",
+  options: ["x < 8", "x > 8", "x < -8", "x > -8"],
+  answer: 0
+},
+{
+  question: "Solve: 2x/5 + 3 ≥ x/2 + 5",
+  options: ["x ≥ 30/9", "x ≤ 30/9", "x ≥ -30/9", "x ≤ -30/9"],
+  answer: 1
+},
+{
+  question: "Solve: -x/3 + 5 < 2x/3 - 1",
+  options: ["x > 9", "x < 9", "x > -9", "x < -9"],
+  answer: 0
+},
+{
+  question: "Solve: 2(4 - x) ≥ 3x - 1",
+  options: ["x ≤ 3", "x ≥ 3", "x ≤ -3", "x ≥ -3"],
+  answer: 0
+},
+{
+  question: "Solve: 5x - 2 < 3x + 6",
+  options: ["x < 4", "x > 4", "x < -4", "x > -4"],
+  answer: 0
+},
+{
+  question: "Solve: 3 - x/2 ≥ 2x - 5",
+  options: ["x ≤ 4", "x ≥ 4", "x ≤ -4", "x ≥ -4"],
+  answer: 0
+},
+{
+  question: "Solve: -2(x + 3) < 3 - x",
+  options: ["x < -1", "x > -1", "x < 1", "x > 1"],
+  answer: 0
+},
+{
+  question: "Solve: 4x/3 - 5 > x/2 + 2",
+  options: ["x > 10.5", "x < 10.5", "x > -10.5", "x < -10.5"],
+  answer: 0
+},
+{
+  question: "Solve for x: -3x + 8 ≤ 2x - 7",
+  options: ["x ≥ 3", "x ≤ 3", "x ≥ -3", "x ≤ -3"],
+  answer: 1
+},
+{
+  question: "Solve: (x - 5)/2 + 3 < x/3 + 7",
+  options: ["x < 23", "x > 23", "x < -23", "x > -23"],
+  answer: 0
+},
+{
+  question: "Solve: -4x + 9 > 5x - 12",
+  options: ["x < 3", "x > 3", "x < -3", "x > -3"],
+  answer: 0
+},
+{
+  question: "Solve: 3x - 7 ≤ 2x + 5",
+  options: ["x ≤ 12", "x ≥ 12", "x ≤ -12", "x ≥ -12"],
+  answer: 0
+},
+{
+  question: "Solve: 5 - 2x > 3x - 5",
+  options: ["x < 2", "x > 2", "x < -2", "x > -2"],
+  answer: 0
+},
+{
+  question: "Solve for x: 4(x - 2) + 3 ≤ 2x + 11",
+  options: ["x ≤ 5", "x ≥ 5", "x ≤ -5", "x ≥ -5"],
+  answer: 0
+},
+{
+  question: "Solve: -x + 8 ≥ 2x - 1",
+  options: ["x ≤ 3", "x ≥ 3", "x ≤ -3", "x ≥ -3"],
+  answer: 0
+},
+{
+  question: "Solve: 3x/2 - 4 < x/3 + 5",
+  options: ["x < 18", "x > 18", "x < -18", "x > -18"],
+  answer: 0
+},
+{
+  question: "Solve: 2(x + 3) ≥ 5x - 7",
+  options: ["x ≤ 13/3", "x ≥ 13/3", "x ≤ -13/3", "x ≥ -13/3"],
+  answer: 0
+},
+{
+  question: "Solve: -5x + 10 < 2 - 3x",
+  options: ["x > 4", "x < 4", "x > -4", "x < -4"],
+  answer: 1
+},
+{
+  question: "Solve: 3 - 2(x - 1) ≥ x + 2",
+  options: ["x ≤ -1", "x ≥ -1", "x ≤ 1", "x ≥ 1"],
+  answer: 0
+},
+{
+  question: "Solve for x: (x - 4)/3 + 2 < (2x + 1)/4",
+  options: ["x < 15", "x > 15", "x < -15", "x > -15"],
+  answer: 0
+},
+{
+  question: "Solve: -x/2 + 7 ≥ 3x/4 - 5",
+  options: ["x ≤ 24/5", "x ≥ 24/5", "x ≤ -24/5", "x ≥ -24/5"],
+  answer: 0
+},
+{
+  question: "Solve: 4(x - 1)/3 + 2 < 2x + 1",
+  options: ["x < 5", "x > 5", "x < -5", "x > -5"],
+  answer: 0
+},
+{
+  question: "Solve: -3x + 9 ≤ 2(x - 3)",
+  options: ["x ≥ 3", "x ≤ 3", "x ≥ -3", "x ≤ -3"],
+  answer: 1
+},
+
+
+//numbers and basic arithmetic operations 
+
+{
+  question: "Find the sum: 235 + 487 + 128",
+  options: ["850", "850", "860", "870"],
+  answer: 2
+},
+{
+  question: "Find the difference: 1200 - 875",
+  options: ["325", "325", "315", "345"],
+  answer: 0
+},
+{
+  question: "Multiply: 45 × 23",
+  options: ["1035", "1025", "1040", "1050"],
+  answer: 0
+},
+{
+  question: "Divide: 144 ÷ 12",
+  options: ["10", "12", "11", "14"],
+  answer: 1
+},
+{
+  question: "Find the remainder when 245 is divided by 7",
+  options: ["0", "1", "2", "3"],
+  answer: 0
+},
+{
+  question: "Express 1011₂ in decimal",
+  options: ["11", "12", "13", "10"],
+  answer: 0
+},
+{
+  question: "Express 1101₂ in decimal",
+  options: ["13", "12", "15", "14"],
+  answer: 0
+},
+{
+  question: "Express 7₁₀ in binary",
+  options: ["111", "101", "110", "100"],
+  answer: 0
+},
+{
+  question: "Express 13₁₀ in binary",
+  options: ["1101", "1011", "1110", "1111"],
+  answer: 0
+},
+{
+  question: "Find the product: 0.25 × 0.4",
+  options: ["0.1", "0.01", "0.2", "1"],
+  answer: 0
+},
+{
+  question: "Simplify: 3/4 + 2/5",
+  options: ["23/20", "19/20", "17/20", "21/20"],
+  answer: 3
+},
+{
+  question: "Simplify: 7/8 − 3/4",
+  options: ["1/8", "2/8", "3/8", "4/8"],
+  answer: 1
+},
+{
+  question: "Find LCM of 12 and 18",
+  options: ["36", "54", "72", "48"],
+  answer: 0
+},
+{
+  question: "Find GCD of 24 and 36",
+  options: ["6", "12", "18", "24"],
+  answer: 1
+},
+{
+  question: "Express 255₁₀ in hexadecimal",
+  options: ["FF", "FE", "AA", "F0"],
+  answer: 0
+},
+{
+  question: "Express 3A₁₆ in decimal",
+  options: ["58", "59", "60", "61"],
+  answer: 0
+},
+{
+  question: "Add 1011₂ + 1101₂",
+  options: ["11000₂", "10110₂", "10000₂", "11110₂"],
+  answer: 3
+},
+{
+  question: "Subtract 1010₂ − 110₂",
+  options: ["1000₂", "100₁₀", "111₂", "1001₂"],
+  answer: 0
+},
+{
+  question: "Multiply: 101₂ × 11₂",
+  options: ["1111₂", "1011₂", "1110₂", "1101₂"],
+  answer: 2
+},
+{
+  question: "Divide: 1100₂ ÷ 10₂",
+  options: ["110₂", "100₂", "101₂", "111₂"],
+  answer: 1
+},
+{
+  question: "Simplify: 5 × (7 − 3) + 6 ÷ 2",
+  options: ["26", "23", "28", "24"],
+  answer: 0
+},
+{
+  question: "Simplify: 12 ÷ (2 + 4) × 3",
+  options: ["6", "5", "4", "3"],
+  answer: 0
+},
+{
+  question: "Find the square of 15",
+  options: ["225", "215", "205", "235"],
+  answer: 0
+},
+{
+  question: "Find the cube of 4",
+  options: ["64", "48", "16", "32"],
+  answer: 0
+},
+{
+  question: "Find √121",
+  options: ["11", "12", "10", "13"],
+  answer: 0
+},
+{
+  question: "Find √196",
+  options: ["14", "13", "12", "15"],
+  answer: 0
+},
+{
+  question: "Simplify: (7² − 3²)",
+  options: ["40", "37", "36", "34"],
+  answer: 0
+},
+{
+  question: "Simplify: (5³ − 4³)",
+  options: ["61", "49", "64", "81"],
+  answer: 0
+},
+{
+  question: "Convert 100₈ to decimal",
+  options: ["64", "72", "80", "100"],
+  answer: 0
+},
+{
+  question: "Convert 77₈ to decimal",
+  options: ["63", "61", "57", "65"],
+  answer: 0
+},
+{
+  question: "Add: 45 + 67 + 89",
+  options: ["201", "211", "201", "201"],
+  answer: 1
+},
+{
+  question: "Subtract: 765 − 487",
+  options: ["278", "288", "268", "298"],
+  answer: 0
+},
+{
+  question: "Multiply: 25 × 48",
+  options: ["1200", "1150", "1250", "1300"],
+  answer: 0
+},
+{
+  question: "Divide: 960 ÷ 32",
+  options: ["30", "28", "32", "40"],
+  answer: 3
+},
+{
+  question: "Find LCM of 15, 20",
+  options: ["60", "45", "50", "75"],
+  answer: 0
+},
+{
+  question: "Find GCD of 56 and 98",
+  options: ["14", "28", "7", "56"],
+  answer: 1
+},
+{
+  question: "Convert 1010₂ to decimal",
+  options: ["10", "11", "12", "9"],
+  answer: 0
+},
+{
+  question: "Convert 1101₂ to decimal",
+  options: ["13", "12", "14", "15"],
+  answer: 0
+},
+{
+  question: "Convert 15₁₀ to binary",
+  options: ["1111", "1110", "1101", "1011"],
+  answer: 0
+},
+{
+  question: "Convert 9₁₀ to binary",
+  options: ["1001", "1000", "1010", "1111"],
+  answer: 0
+},
+{
+  question: "Add 1010₂ + 110₁₀",
+  options: ["1010₂ + 110₁₀", "1110₂", "1000₂", "1100₂"],
+  answer: 3
+},
+{
+  question: "Subtract 1001₂ − 101₂",
+  options: ["100", "1000", "1010", "111"],
+  answer: 1
+},
+{
+  question: "Multiply 11₂ × 10₂",
+  options: ["110₂", "101₂", "100₂", "111₂"],
+  answer: 0
+},
+{
+  question: "Divide 111₂ ÷ 11₂",
+  options: ["11₂", "10₂", "1₂", "101₂"],
+  answer: 1
+},
+{
+  question: "Find the sum of first 10 natural numbers",
+  options: ["55", "50", "45", "60"],
+  answer: 0
+},
+{
+  question: "Find the sum of first 15 odd numbers",
+  options: ["225", "200", "210", "215"],
+  answer: 0
+},
+{
+  question: "Simplify: 2³ × 2²",
+  options: ["2⁵", "2⁶", "2⁴", "2³"],
+  answer: 0
+},
+{
+  question: "Simplify: 5² × 5³",
+  options: ["5⁵", "5⁶", "5⁴", "5³"],
+  answer: 0
+},
+
+//algebraic expressions
+
+{
+  question: "Simplify: 3x + 5x",
+  options: ["8x", "15x", "2x", "5x"],
+  answer: 0
+},
+{
+  question: "Simplify: 7a - 3a + 4",
+  options: ["4a + 4", "10a + 4", "4a", "7a + 4"],
+  answer: 0
+},
+{
+  question: "Simplify: 2x + 3y - x + 4y",
+  options: ["x + 7y", "3x + 7y", "x + y", "x + 4y"],
+  answer: 0
+},
+{
+  question: "Simplify: 5(a + 2) - 3(a - 1)",
+  options: ["2a + 13", "8a + 13", "2a + 7", "8a + 7"],
+  answer: 0
+},
+{
+  question: "Simplify: 3(x + 2y) - 2(x - y)",
+  options: ["x + 8y", "5x + 4y", "x + 4y", "5x + 8y"],
+  answer: 0
+},
+{
+  question: "Simplify: 4(2a - 3) + 5(a + 1)",
+  options: ["13a - 7", "8a + 2", "13a - 2", "8a - 2"],
+  answer: 0
+},
+{
+  question: "Simplify: 6x - 3(2x - 5)",
+  options: ["15", "6x + 15", "0", "6x - 15"],
+  answer: 0
+},
+{
+  question: "Simplify: 2(x + y) + 3(x - y)",
+  options: ["5x + y", "x + 5y", "5x - y", "x - 5y"],
+  answer: 0
+},
+{
+  question: "Simplify: 5(a + b) - 2(a - b)",
+  options: ["3a + 7b", "7a + 3b", "3a - 7b", "7a - 3b"],
+  answer: 0
+},
+{
+  question: "Simplify: (2x + 3) + (4x - 5)",
+  options: ["6x - 2", "6x + 8", "2x - 2", "4x - 2"],
+  answer: 0
+},
+{
+  question: "Simplify: (3a - 5) - (a + 2)",
+  options: ["2a - 7", "4a - 3", "2a + 3", "2a - 2"],
+  answer: 0
+},
+{
+  question: "Simplify: 2(x + 3) - 3(x - 2)",
+  options: ["-x + 12", "5x + 12", "x + 6", "-x - 12"],
+  answer: 0
+},
+{
+  question: "Simplify: 5x - (3x - 7)",
+  options: ["2x + 7", "8x - 7", "2x - 7", "8x + 7"],
+  answer: 0
+},
+{
+  question: "Simplify: 3(2x - 4) - 5(x - 1)",
+  options: ["x - 7", "x + 1", "x - 1", "x + 7"],
+  answer: 0
+},
+{
+  question: "Simplify: 6(x + 1) - 2(2x - 3)",
+  options: ["2x + 12", "2x + 8", "2x + 6", "2x + 10"],
+  answer: 0
+},
+{
+  question: "Simplify: (x + 3) + (2x - 5) - (x - 2)",
+  options: ["2x", "3x", "x + 4", "x - 4"],
+  answer: 0
+},
+{
+  question: "Simplify: 4a + 3b - 2a + b",
+  options: ["2a + 4b", "6a + 2b", "2a + 2b", "4a + 4b"],
+  answer: 0
+},
+{
+  question: "Simplify: 5(x - 2) + 3(2x + 1)",
+  options: ["11x - 7", "11x - 1", "x - 7", "x + 1"],
+  answer: 0
+},
+{
+  question: "Simplify: 2(3a - 4b) + 5(b - a)",
+  options: ["a - 3b", "a + 3b", "6a - 3b", "-a - 3b"],
+  answer: 0
+},
+{
+  question: "Simplify: 3(x + 2) - 4(x - 1)",
+  options: ["-x + 10", "7x + 10", "x - 2", "7x - 10"],
+  answer: 0
+},
+{
+  question: "Simplify: 2a + 3b - (a - b)",
+  options: ["a + 4b", "3a + 2b", "a + 2b", "2a + 4b"],
+  answer: 0
+},
+{
+  question: "Simplify: (x + 2y) - (2x - 3y)",
+  options: ["-x + 5y", "3x + 5y", "x - y", "-x - y"],
+  answer: 0
+},
+{
+  question: "Simplify: 3(x - 2y) + 4(2y - x)",
+  options: ["-x + 2y", "x + 2y", "x - 2y", "-x - 2y"],
+  answer: 0
+},
+{
+  question: "Simplify: 5(2x - y) - 3(x + y)",
+  options: ["7x - 8y", "7x - 2y", "x - 8y", "x - 2y"],
+  answer: 0
+},
+{
+  question: "Simplify: 4a - 3b + 2(3b - a)",
+  options: ["2a + 3b", "2a - 3b", "a + 3b", "a - 3b"],
+  answer: 0
+},
+{
+  question: "Simplify: 6(x - 2) - 3(2x + 1)",
+  options: ["0 - 15", "0 - 12", "0 - 9", "0 - 6"],
+  answer: 0
+},
+{
+  question: "Simplify: 2x + 3y - (x + 2y) + (x - y)",
+  options: ["2x", "2y", "x + y", "2x + y"],
+  answer: 0
+},
+{
+  question: "Simplify: (3a + 2b) - (2a - b)",
+  options: ["a + 3b", "5a + b", "a - b", "a + b"],
+  answer: 0
+},
+{
+  question: "Simplify: 2(x + y) + 3(x - y) - x",
+  options: ["4x - y", "4x + y", "x + y", "5x - y"],
+  answer: 0
+},
+{
+  question: "Simplify: 5(a - b) + 2(b - a)",
+  options: ["3a - 3b", "7a - 7b", "3a + 3b", "-3a + 3b"],
+  answer: 0
+},
+{
+  question: "Simplify: 2(x - y) + 3(y - 2x)",
+  options: ["-4x + y", "-4x - y", "x - y", "x + y"],
+  answer: 0
+},
+{
+  question: "Simplify: 4a + 5b - 2(2a - b)",
+  options: ["4b", "6b", "3b", "5b"],
+  answer: 0
+},
+{
+  question: "Simplify: 3(x + y) - 2(2x - y)",
+  options: ["-x + 5y", "x + 5y", "-x - y", "x - y"],
+  answer: 0
+},
+{
+  question: "Simplify: (a + b) + (2a - b) - (3a - 2b)",
+  options: ["0", "a + 2b", "2a + 2b", "-a + 2b"],
+  answer: 0
+},
+{
+  question: "Simplify: 2(x + 3) + 3(2x - 1)",
+  options: ["8x + 3", "8x + 7", "8x + 1", "7x + 7"],
+  answer: 0
+},
+{
+  question: "Simplify: 5(a + 2b) - 3(a - b)",
+  options: ["2a + 13b", "8a + b", "2a + 7b", "8a + 7b"],
+  answer: 0
+},
+{
+  question: "Simplify: 3(x - y) + 4(2y - x)",
+  options: ["-x + 5y", "x + 5y", "-x - y", "x - y"],
+  answer: 0
+},
+{
+  question: "Simplify: 2(a + b) + 3(a - b)",
+  options: ["5a - b", "5a + b", "a + 5b", "a - 5b"],
+  answer: 0
+},
+{
+  question: "Simplify: 4(x + 2y) - 2(3x - y)",
+  options: ["-2x + 9y", "2x + 9y", "-2x - y", "2x - y"],
+  answer: 0
+},
+{
+  question: "Simplify: (x + y) + (2x - 3y) - (x - y)",
+  options: ["2x - y", "2x + y", "x - y", "x + y"],
+  answer: 0
+},
+{
+  question: "Simplify: 5(a + b) - 2(2a - 3b)",
+  options: ["a + 11b", "a + 7b", "9a - b", "a + 5b"],
+  answer: 0
+},
+{
+  question: "Simplify: 3(x + 4) - 2(2x - 5)",
+  options: ["-x + 23", "x + 23", "-x - 23", "x - 23"],
+  answer: 0
+},
+
+
+//rational expression 
+
+{
+  question: "Simplify: (x² - 9) / (x + 3)",
+  options: ["x - 3", "x + 3", "x² - 3", "x² + 3"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² + 5x + 6) / (x + 2)",
+  options: ["x + 3", "x + 2", "x + 6", "x + 1"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 4x + 4) / (x - 2)",
+  options: ["x - 2", "x + 2", "x² - 2", "x² + 2"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 16) / (x - 4)",
+  options: ["x + 4", "x - 4", "x² - 4", "x² + 4"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² + 7x + 12) / (x + 3)",
+  options: ["x + 4", "x + 3", "x + 5", "x + 2"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 6x + 9) / (x - 3)",
+  options: ["x - 3", "x + 3", "x² - 3", "x² + 3"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² + 2x - 15) / (x + 5)",
+  options: ["x - 3", "x + 3", "x - 5", "x + 5"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - x - 12) / (x - 4)",
+  options: ["x + 3", "x - 3", "x + 4", "x - 4"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² + 6x + 9) / (x + 3)",
+  options: ["x + 3", "x - 3", "x² + 3", "x² - 3"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 25) / (x - 5)",
+  options: ["x + 5", "x - 5", "x² + 5", "x² - 5"],
+  answer: 0
+},
+{
+  question: "Simplify: (2x² + 8x) / (2x)",
+  options: ["x + 4", "x - 4", "2x + 8", "x² + 4"],
+  answer: 0
+},
+{
+  question: "Simplify: (3x² - 12) / (3x)",
+  options: ["x - 4/x", "x + 4/x", "x² - 4", "x² + 4"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² + 5x + 6) / (x + 2) / (x + 3)",
+  options: ["1", "x", "x + 1", "x + 2"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 9) / (x² + 6x + 9)",
+  options: ["(x - 3)/(x + 3)", "(x + 3)/(x - 3)", "x - 3", "x + 3"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² + 3x - 10) / (x² - 4)",
+  options: ["(x + 5)/(x + 2)", "(x - 2)/(x - 5)", "(x - 5)/(x - 2)", "(x + 2)/(x + 5)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² + x - 6) / (x² - x - 6)",
+  options: ["(x + 3)/(x - 3)", "(x - 3)/(x + 3)", "(x + 2)/(x - 2)", "(x - 2)/(x + 2)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 16) / (x² + 4x + 4)",
+  options: ["(x - 4)/(x + 2)", "(x + 4)/(x - 2)", "(x - 4)/(x - 2)", "(x + 4)/(x + 2)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - x - 20) / (x² + 4x + 4)",
+  options: ["(x - 5)/(x + 2)", "(x + 5)/(x + 2)", "(x - 4)/(x + 4)", "(x + 4)/(x + 2)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 1) / (x² - 2x + 1)",
+  options: ["(x + 1)/(x - 1)", "(x - 1)/(x + 1)", "(x + 1)/(x + 1)", "(x - 1)/(x - 1)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² + 2x - 15) / (x² - 9)",
+  options: ["(x + 5)/(x + 3)", "(x - 5)/(x - 3)", "(x + 3)/(x + 5)", "(x - 3)/(x - 5)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 5x + 6) / (x² - 3x + 2)",
+  options: ["(x - 2)/(x - 1)", "(x - 1)/(x - 2)", "(x - 3)/(x - 2)", "(x - 2)/(x - 3)"],
+  answer: 0
+},
+{
+  question: "Simplify: (2x² + 3x - 5) / (x² + x - 2)",
+  options: ["(2x - 1)/(x + 2)", "(2x + 5)/(x - 1)", "(2x - 1)/(x - 1)", "(2x + 5)/(x + 2)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 4x + 4) / (x² - 2x)",
+  options: ["(x - 2)/x", "(x + 2)/x", "(x - 2)/(x - 2)", "(x + 2)/(x - 2)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 6x + 8) / (x² - 4)",
+  options: ["(x - 2)/(x + 2)", "(x - 4)/(x + 2)", "(x - 2)/(x - 2)", "(x + 4)/(x - 2)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² + 7x + 12) / (x² + 5x + 6)",
+  options: ["(x + 4)/(x + 2)", "(x + 3)/(x + 2)", "(x + 4)/(x + 3)", "(x + 3)/(x + 4)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 9x + 20) / (x² - 4x)",
+  options: ["(x - 5)/(x - 2)", "(x - 4)/(x - 2)", "(x - 5)/(x + 2)", "(x - 4)/(x + 2)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - x - 12) / (x² - 4x + 3)",
+  options: ["(x + 3)/(x - 1)", "(x - 3)/(x - 1)", "(x + 4)/(x - 1)", "(x - 4)/(x + 1)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² + x - 6) / (x² - x - 6)",
+  options: ["(x + 3)/(x - 3)", "(x - 3)/(x + 3)", "(x + 2)/(x - 2)", "(x - 2)/(x + 2)"],
+  answer: 0
+},
+{
+  question: "Simplify: (2x² + 5x + 3) / (x² + 4x + 3)",
+  options: ["(2x + 3)/(x + 1)", "(2x + 1)/(x + 3)", "(2x + 3)/(x + 3)", "(2x + 1)/(x + 1)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 9) / (x² + 6x + 9)",
+  options: ["(x - 3)/(x + 3)", "(x + 3)/(x - 3)", "(x - 3)/(x - 3)", "(x + 3)/(x + 3)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 16) / (x² - 8x + 16)",
+  options: ["(x + 4)/(x - 4)", "(x - 4)/(x + 4)", "(x + 4)/(x + 4)", "(x - 4)/(x - 4)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² + 3x - 18) / (x² + 6x + 8)",
+  options: ["(x - 3)/(x + 2)", "(x + 6)/(x + 2)", "(x - 3)/(x + 4)", "(x + 3)/(x + 2)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - x - 6) / (x² - 9)",
+  options: ["(x + 2)/(x + 3)", "(x - 2)/(x - 3)", "(x + 3)/(x + 2)", "(x - 3)/(x - 2)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 5x + 6) / (x² - 4x + 3)",
+  options: ["(x - 2)/(x - 1)", "(x - 3)/(x - 1)", "(x - 3)/(x + 1)", "(x - 2)/(x + 1)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² + 7x + 12) / (x² + 3x - 4)",
+  options: ["(x + 4)/(x + 4)", "(x + 3)/(x - 1)", "(x + 4)/(x - 1)", "(x + 3)/(x + 4)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - 4x + 4) / (x² - 2x)",
+  options: ["(x - 2)/x", "(x + 2)/x", "(x - 2)/(x - 2)", "(x + 2)/(x - 2)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² - x - 20) / (x² - 9x + 20)",
+  options: ["(x + 4)/(x - 5)", "(x - 4)/(x - 5)", "(x + 5)/(x - 4)", "(x - 5)/(x - 4)"],
+  answer: 0
+},
+{
+  question: "Simplify: (x² + 5x + 6) / (x² + 7x + 12)",
+  options: ["(x + 2)/(x + 4)", "(x + 3)/(x + 4)", "(x + 2)/(x + 3)", "(x + 3)/(x + 2)"],
+  answer: 0
+},
+
+// sequence and series
+
+{
+  question: "The first term of an AP is 5 and the common difference is 3. Find the 10th term.",
+  options: ["32", "35", "30", "28"],
+  answer: 0
+},
+{
+  question: "The 5th term of an AP is 20 and the 2nd term is 8. Find the first term.",
+  options: ["2", "4", "6", "8"],
+  answer: 1
+},
+{
+  question: "Find the sum of the first 20 terms of an AP: 3, 7, 11,...",
+  options: ["880", "920", "940", "960"],
+  answer: 3
+},
+{
+  question: "The sum of first n terms of an AP is 200. If a = 5 and d = 3, find n.",
+  options: ["10", "11", "12", "13"],
+  answer: 2
+},
+{
+  question: "The 8th term of an AP is 34 and the 3rd term is 19. Find the common difference.",
+  options: ["3", "4", "5", "6"],
+  answer: 2
+},
+{
+  question: "The sum of first 15 natural numbers is:",
+  options: ["120", "105", "135", "150"],
+  answer: 1
+},
+{
+  question: "Find the 12th term of the AP: 2, 5, 8,...",
+  options: ["35", "32", "38", "41"],
+  answer: 1
+},
+{
+  question: "If a = 7 and d = 4, find the sum of first 25 terms of the AP.",
+  options: ["875", "825", "900", "950"],
+  answer: 0
+},
+{
+  question: "The sum of first n terms of an AP is given by S_n = n² + 3n. Find the 5th term.",
+  options: ["35", "31", "28", "30"],
+  answer: 1
+},
+{
+  question: "The 7th term of an AP is 19. If a = 1 and d = 3, find n such that T_n = 19.",
+  options: ["7", "6", "8", "5"],
+  answer: 0
+},
+{
+  question: "Find the sum of first 10 terms of the AP: 1, 4, 7,...",
+  options: ["145", "130", "160", "115"],
+  answer: 1
+},
+{
+  question: "The 4th term of a GP is 54 and the first term is 2. If the common ratio is r, find r.",
+  options: ["3", "4", "5", "6"],
+  answer: 0
+},
+{
+  question: "The sum of first 5 terms of a GP: 3, 6, 12,... is:",
+  options: ["189", "195", "201", "210"],
+  answer: 0
+},
+{
+  question: "The sum to infinity of a GP is 16. If a = 8, find r.",
+  options: ["1/2", "1/3", "1/4", "1/5"],
+  answer: 0
+},
+{
+  question: "If a = 5 and r = 2, find the 6th term of the GP.",
+  options: ["160", "155", "180", "200"],
+  answer: 0
+},
+{
+  question: "The sum of first n terms of a GP is S_n = 3(2^n - 1). Find the 5th term.",
+  options: ["48", "45", "50", "40"],
+  answer: 0
+},
+{
+  question: "Find the 8th term of GP: 1, 3, 9,...",
+  options: ["2187", "243", "729", "6561"],
+  answer: 0
+},
+{
+  question: "If the 3rd term of a GP is 12 and the 6th term is 96, find the first term.",
+  options: ["3", "2", "4", "6"],
+  answer: 0
+},
+{
+  question: "The sum of first 4 terms of a GP: 2, 6, 18,... is:",
+  options: ["80", "74", "68", "65"],
+  answer: 2
+},
+{
+  question: "If S∞ = 10 and a = 5, find the common ratio r of the GP.",
+  options: ["1/2", "1/3", "1/4", "2/3"],
+  answer: 0
+},
+{
+  question: "The sum of first 6 terms of an AP: 4, 9, 14,... is:",
+  options: ["129", "138", "144", "149"],
+  answer: 2
+},
+{
+  question: "The 10th term of the AP: 7, 11, 15,... is:",
+  options: ["43", "47", "51", "55"],
+  answer: 2
+},
+{
+  question: "If a = 2, d = 3, find the 20th term of the AP.",
+  options: ["59", "60", "61", "62"],
+  answer: 2
+},
+{
+  question: "Find the sum of first 12 terms of AP: 5, 9, 13,...",
+  options: ["384", "360", "396", "420"],
+  answer: 2
+},
+{
+  question: "The sum of first n terms of an AP: 2, 5, 8,... is 275. Find n.",
+  options: ["15", "20", "25", "30"],
+  answer: 2
+},
+{
+  question: "If a = 3 and r = 2, find the sum of first 8 terms of GP.",
+  options: ["765", "765", "765", "510"],
+  answer: 0
+},
+{
+  question: "The 5th term of GP: 2, 4, 8,... is:",
+  options: ["32", "16", "64", "128"],
+  answer: 1
+},
+{
+  question: "If S∞ = 12 and a = 8, find the common ratio r.",
+  options: ["1/3", "1/2", "1/4", "1/5"],
+  answer: 1
+},
+{
+  question: "Find the sum of first 7 terms of AP: 6, 10, 14,...",
+  options: ["210", "182", "196", "224"],
+  answer: 2
+},
+{
+  question: "The 9th term of an AP is 50. If a = 6, d = 5, find n for T_n = 50.",
+  options: ["9", "10", "8", "11"],
+  answer: 0
+},
+{
+  question: "The sum of first n terms of GP: 3, 6, 12,... is 189. Find n.",
+  options: ["5", "6", "7", "8"],
+  answer: 2
+},
+{
+  question: "The 6th term of a GP: 1, 2, 4,... is:",
+  options: ["32", "16", "64", "8"],
+  answer: 1
+},
+{
+  question: "If a = 1, r = 1/2, find S∞ of the GP.",
+  options: ["2", "1", "3", "4"],
+  answer: 0
+},
+{
+  question: "The sum of first 15 natural numbers is:",
+  options: ["120", "105", "135", "120"],
+  answer: 2
+},
+{
+  question: "The sum of first 20 terms of AP: 7, 10, 13,... is:",
+  options: ["570", "600", "630", "660"],
+  answer: 1
+},
+{
+  question: "The 12th term of AP: 3, 7, 11,... is:",
+  options: ["47", "43", "39", "51"],
+  answer: 0
+},
+{
+  question: "Find n if S_n = 120 for AP: 2, 5, 8,...",
+  options: ["10", "12", "15", "20"],
+  answer: 2
+},
+{
+  question: "The 8th term of GP: 5, 10, 20,... is:",
+  options: ["320", "640", "1280", "2560"],
+  answer: 1
+},
+{
+  question: "If a = 3, r = 1/3, find S∞ of GP.",
+  options: ["9/2", "3/2", "6", "4"],
+  answer: 1
+},
+{
+  question: "The sum of first 10 terms of AP: 4, 9, 14,... is:",
+  options: ["460", "475", "495", "500"],
+  answer: 2
+},
+{
+  question: "The 5th term of AP: 2, 5, 8,... is:",
+  options: ["14", "15", "16", "17"],
+  answer: 1
+},
+{
+  question: "Find the 10th term of GP: 1, 3, 9,...",
+  options: ["19683", "59049", "729", "2187"],
+  answer: 0
+},
+{
+  question: "The sum of first n terms of GP: 2, 6, 18,... is 728. Find n.",
+  options: ["5", "6", "7", "8"],
+  answer: 2
+},
+{
+  question: "If a = 8, r = 1/4, find S∞ of GP.",
+  options: ["10.67", "8/3", "32/3", "4"],
+  answer: 2
+},
+{
+  question: "The sum of first 12 terms of AP: 3, 7, 11,... is:",
+  options: ["510", "564", "576", "600"],
+  answer: 2
+},
+{
+  question: "The 7th term of AP: 5, 9, 13,... is:",
+  options: ["33", "29", "37", "41"],
+  answer: 0
+}, 
+
+  
   ],
   
   //English language questions here
@@ -5189,6 +11107,264 @@ const questions = {
   
   //Chemistry questions here
   Chemistry: [
+    {
+  question: "Which of the following is a pure substance made of only one type of atom?",
+  options: ["Compound", "Element", "Mixture", "Alloy"],
+  answer: 1,
+},
+{
+  question: "A substance formed when two or more elements chemically combine in fixed proportions is called a _______.",
+  options: ["Mixture", "Solution", "Compound", "Isotope"],
+  answer: 2,
+},
+{
+  question: "Which state of matter has a definite volume but no definite shape?",
+  options: ["Solid", "Liquid", "Gas", "Plasma"],
+  answer: 1,
+},
+{
+  question: "Atoms of the same element that have different numbers of neutrons are called _______.",
+  options: ["Ions", "Isotopes", "Allotropes", "Molecules"],
+  answer: 1,
+},
+{
+  question: "The number of protons in the nucleus of an atom is called the _______.",
+  options: ["Mass number", "Atomic mass", "Atomic number", "Valency"],
+  answer: 2,
+},
+{
+  question: "Which particle has a negative charge and orbits the nucleus?",
+  options: ["Proton", "Neutron", "Electron", "Photon"],
+  answer: 2,
+},
+{
+  question: "Which bond involves the transfer of electrons from one atom to another?",
+  options: ["Covalent bond", "Ionic bond", "Hydrogen bond", "Metallic bond"],
+  answer: 1,
+},
+{
+  question: "A covalent bond is formed by the _______ of electrons between atoms.",
+  options: ["Transfer", "Exchange", "Sharing", "Loss"],
+  answer: 2,
+},
+{
+  question: "Which of these is an example of a homogeneous mixture?",
+  options: ["Sand in water", "Granite", "Air", "Oil and water"],
+  answer: 2,
+},
+{
+  question: "The relative atomic mass of an element is the average mass of its atoms compared with _______.",
+  options: ["Carbon-12", "Hydrogen-1", "Oxygen-16", "Proton mass"],
+  answer: 0,
+},
+{
+  question: "Which term describes the smallest particle of a compound that retains the properties of that compound?",
+  options: ["Atom", "Molecule", "Ion", "Isotope"],
+  answer: 1,
+},
+{
+  question: "Avogadro's number (approximately 6.02 × 10^23) gives the number of particles in one _______.",
+  options: ["Mole", "Gram", "Liter", "Molecule"],
+  answer: 0,
+},
+{
+  question: "The molar mass of water (H₂O) is approximately _______ g mol⁻¹.",
+  options: ["16", "18", "20", "34"],
+  answer: 1,
+},
+{
+  question: "Which of these expresses concentration as moles of solute per litre of solution?",
+  options: ["Molality", "Mass percent", "Normality", "Molarity"],
+  answer: 3,
+},
+{
+  question: "A substance that increases the rate of a chemical reaction without being consumed is called a _______.",
+  options: ["Reactant", "Catalyst", "Inhibitor", "Solvent"],
+  answer: 1,
+},
+{
+  question: "Which of the following is a property of metals?",
+  options: ["Brittle", "Poor conductor of heat", "Malleable", "Non-lustrous"],
+  answer: 2,
+},
+{
+  question: "The pH of a neutral aqueous solution at 25°C is approximately _______.",
+  options: ["0", "7", "14", "1"],
+  answer: 1,
+},
+{
+  question: "Which of the following is a strong acid?",
+  options: ["Acetic acid (CH₃COOH)", "Hydrochloric acid (HCl)", "Ethanol (C₂H₅OH)", "Ammonia (NH₃)"],
+  answer: 1,
+},
+{
+  question: "A solution that resists changes in pH when small amounts of acid or base are added is called a _______.",
+  options: ["Buffer", "Dilute solution", "Saturated solution", "Colloid"],
+  answer: 0,
+},
+{
+  question: "The substance in which solute dissolves is called the _______.",
+  options: ["Solute", "Solvent", "Solution", "Precipitate"],
+  answer: 1,
+},
+{
+  question: "Which separation technique is best for separating suspended solids from a liquid?",
+  options: ["Distillation", "Filtration", "Chromatography", "Electrolysis"],
+  answer: 1,
+},
+{
+  question: "Which process separates components of a mixture based on differences in boiling points?",
+  options: ["Filtration", "Evaporation", "Distillation", "Sedimentation"],
+  answer: 2,
+},
+{
+  question: "An ionic compound must contain _______.",
+  options: ["Only non-metals", "Only metals", "Metal and non-metal", "Only noble gases"],
+  answer: 2,
+},
+{
+  question: "Which is true about isotopes?",
+  options: ["Same number of neutrons, different protons", "Same atomic number, different mass number", "Different chemical element", "Always unstable"],
+  answer: 1,
+},
+{
+  question: "Electrolytes are substances that produce _______ when dissolved in water.",
+  options: ["Insulating solution", "Non-conductive medium", "Ions", "Colloids"],
+  answer: 2,
+},
+{
+  question: "Which gas is released when an acid reacts with a carbonate?",
+  options: ["Hydrogen", "Oxygen", "Carbon dioxide", "Nitrogen"],
+  answer: 2,
+},
+{
+  question: "Which of these best describes an empirical formula?",
+  options: ["Exact number of atoms in a molecule", "Lowest whole-number ratio of atoms in a compound", "Molecular mass expressed in g mol⁻¹", "Number of moles present"],
+  answer: 1,
+},
+{
+  question: "The electronic configuration of sodium (atomic number 11) in its ground state ends with _______.",
+  options: ["...2s²", "...3s¹", "...3p⁶", "...2p⁶"],
+  answer: 1,
+},
+{
+  question: "Which of the following is a covalent molecular compound?",
+  options: ["Sodium chloride (NaCl)", "Magnesium oxide (MgO)", "Water (H₂O)", "Calcium carbonate (CaCO₃)"],
+  answer: 2,
+},
+{
+  question: "Which property describes how easily a substance dissolves in a solvent?",
+  options: ["Viscosity", "Solubility", "Boiling point", "Conductivity"],
+  answer: 1,
+},
+{
+  question: "Which technique separates pigments based on their solubility and capillary action?",
+  options: ["Distillation", "Chromatography", "Filtration", "Titration"],
+  answer: 1,
+},
+{
+  question: "The boiling point elevation and freezing point depression are colligative properties that depend on _______.",
+  options: ["Type of solute particles", "Number of solute particles", "Color of solution", "pH of solution"],
+  answer: 1,
+},
+{
+  question: "In a redox reaction, the species that loses electrons is _______.",
+  options: ["Reduced", "Oxidized", "Neutralized", "Hydrolyzed"],
+  answer: 1,
+},
+{
+  question: "Which of the following best describes an acid according to Brønsted–Lowry theory?",
+  options: ["Electron pair donor", "Proton (H⁺) donor", "Proton acceptor", "Electron acceptor"],
+  answer: 1,
+},
+{
+  question: "Which indicator changes colour around pH 7 and is often used for neutrality tests?",
+  options: ["Methyl orange", "Phenolphthalein", "Bromothymol blue", "Litmus"],
+  answer: 2,
+},
+{
+  question: "Hard water is mainly caused by high concentrations of _______ and _______ ions.",
+  options: ["Na⁺ and K⁺", "Ca²⁺ and Mg²⁺", "Cl⁻ and NO₃⁻", "H⁺ and OH⁻"],
+  answer: 1,
+},
+{
+  question: "Which term describes the mass of one mole of a substance in grams?",
+  options: ["Atomic number", "Molar mass", "Relative abundance", "Mole fraction"],
+  answer: 1,
+},
+{
+  question: "Which statement about catalysts is TRUE?",
+  options: ["They change the equilibrium position", "They increase activation energy", "They are consumed in the reaction", "They provide an alternative reaction pathway with lower activation energy"],
+  answer: 3,
+},
+{
+  question: "A neutralisation reaction occurs between an acid and a base to form _______.",
+  options: ["Salt and water", "Carbon dioxide and water", "Oxide and hydrogen", "Gas and precipitate"],
+  answer: 0,
+},
+{
+  question: "Which of the following is NOT a physical change?",
+  options: ["Melting of ice", "Boiling of water", "Rusting of iron", "Dissolving sugar in water"],
+  answer: 2,
+},
+{
+  question: "Which type of bond is primarily responsible for the unique properties of water (e.g., high surface tension)?",
+  options: ["Ionic bonds", "Covalent bonds", "Hydrogen bonds", "Metallic bonds"],
+  answer: 2,
+},
+{
+  question: "Which technique is used to determine the concentration of an acid or base using a standard solution?",
+  options: ["Titration", "Chromatography", "Distillation", "Filtration"],
+  answer: 0,
+},
+{
+  question: "An aqueous solution with [H⁺] = 1 × 10⁻⁴ mol L⁻¹ has a pH of _______.",
+  options: ["2", "3", "4", "10"],
+  answer: 2,
+},
+{
+  question: "Which of the following formulae represents a molecule that is a hydrocarbon?",
+  options: ["C₂H₅OH", "CH₄", "H₂O", "NH₃"],
+  answer: 1,
+},
+{
+  question: "Which quantity gives the number of particles in a given mass of substance by using molar mass and Avogadro's number?",
+  options: ["Molarity", "Mass percent", "Number of moles", "Mole calculation using n = mass/molar mass then × Avogadro's number",],
+  options: ["Molarity", "Mass percent", "Number of moles", "Mole calculation using n = mass/molar mass then × Avogadro's number"],
+  answer: 3,
+},
+{
+  question: "Which process involves the gain of electrons?",
+  options: ["Oxidation", "Reduction", "Neutralization", "Hydrolysis"],
+  options: ["Oxidation", "Reduction", "Neutralization", "Hydrolysis"],
+  answer: 1,
+},
+{
+  question: "Which property increases down a group in the periodic table for alkali metals?",
+  options: ["Ionization energy", "Atomic radius", "Electronegativity", "Number of valence electrons"],
+  answer: 1,
+},
+{
+  question: "Which of the following is an example of a chemical change?",
+  options: ["Cutting paper", "Dissolving salt in water", "Combustion of petrol", "Melting butter"],
+  answer: 2,
+},
+{
+  question: "Which compound is a major component of biological buffers in blood (important for biology students to know)?",
+  options: ["Sodium chloride", "Sodium bicarbonate (NaHCO₃)", "Calcium carbonate", "Magnesium sulfate"],
+  answer: 1,
+},
+{
+  question: "Which reagent would you use to test for the presence of starch in a sample?",
+  options: ["Litmus paper", "Iodine solution", "Benedict's solution", "Silver nitrate"],
+  answer: 1,
+},
+{
+  question: "Which of the following best describes an exothermic reaction?",
+  options: ["Absorbs heat from surroundings", "Releases heat to surroundings", "No heat exchange", "Consumes products"],
+  answer: 1,
+},
+
     {
       question: "The chemical symbol for Gold is:",
       options: ["Ag", "Au", "Fe", "Pb"],
@@ -7268,26 +13444,7389 @@ const questions = {
   
   //Biology questions here
   Biology: [
-    { 
-      question: "All the following are aquatic organisms except",
-      options: ["shrimp", "lizard", "jelly fish", "lobster"],
-      answer: 1,
+
+//introduction to biology
+
+{
+  question: "Biology is the scientific study of _______.",
+  options: ["Matter and energy", "Living organisms", "Rocks and minerals", "Atmospheric phenomena"],
+  answer: 1,
+},
+{
+  question: "Which of the following is NOT a characteristic of living organisms?",
+  options: ["Reproduction", "Growth and development", "Response to stimuli", "Ability to form crystals"],
+  answer: 3,
+},
+{
+  question: "The basic structural and functional unit of all living organisms is the _______.",
+  options: ["Tissue", "Organ", "Cell", "Organ system"],
+  answer: 2,
+},
+{
+  question: "Which statement best expresses the cell theory?",
+  options: ["All cells arise from non-living matter", "All organisms are unicellular", "All living things are made of cells and all cells come from preexisting cells", "Cells are only found in plants and animals"],
+  answer: 2,
+},
+{
+  question: "Which organelle is known as the 'powerhouse' of the cell because it produces ATP?",
+  options: ["Chloroplast", "Endoplasmic reticulum", "Mitochondrion", "Golgi apparatus"],
+  answer: 2,
+},
+{
+  question: "Photosynthesis mainly occurs in which cell organelle?",
+  options: ["Mitochondrion", "Chloroplast", "Nucleus", "Ribosome"],
+  answer: 1,
+},
+{
+  question: "Which of the following macromolecules is the main source of immediate energy for cells?",
+  options: ["Carbohydrates", "Lipids", "Proteins", "Nucleic acids"],
+  answer: 0,
+},
+{
+  question: "Which biomolecule carries genetic information?",
+  options: ["Carbohydrate", "Lipid", "Protein", "Nucleic acid"],
+  answer: 3,
+},
+{
+  question: "Enzymes are biological catalysts that _______.",
+  options: ["Are permanently changed during the reaction", "Slow down chemical reactions", "Lower the activation energy of reactions", "Increase the equilibrium constant of reactions"],
+  answer: 2,
+},
+{
+  question: "Which of the following affects the activity of an enzyme?",
+  options: ["Temperature", "pH", "Substrate concentration", "All of the above"],
+  answer: 3,
+},
+{
+  question: "Which process moves molecules from a region of higher concentration to lower concentration without energy input?",
+  options: ["Active transport", "Facilitated diffusion", "Diffusion", "Endocytosis"],
+  answer: 2,
+},
+{
+  question: "Osmosis is the movement of _______ across a selectively permeable membrane.",
+  options: ["Solute particles from low to high concentration", "Water from low to high potential", "Water from high to low water potential", "Ions against their concentration gradient"],
+  answer: 2,
+},
+{
+  question: "Which of these is a prokaryotic organism?",
+  options: ["Amoeba", "Bacterium", "Frog", "Yeast"],
+  answer: 1,
+},
+{
+  question: "Which kingdom contains multicellular, photosynthetic organisms with cell walls made of cellulose?",
+  options: ["Protista", "Fungi", "Plantae", "Animalia"],
+  answer: 2,
+},
+{
+  question: "Which pair correctly shows the sequence of biological organization from simplest to more complex?",
+  options: ["Organ → Cell → Tissue → Organ system", "Atom → Molecule → Cell → Tissue", "Organism → Organ system → Organ → Tissue", "Population → Organism → Community → Ecosystem"],
+  answer: 1,
+},
+{
+  question: "Which of the following best describes homeostasis?",
+  options: ["The change in species over time", "Maintenance of a stable internal environment", "Production of gametes", "Energy conversion in cells"],
+  answer: 1,
+},
+{
+  question: "Which tool is best for observing the shape and internal structure of small cells?",
+  options: ["Stethoscope", "Light microscope", "Thermometer", "Balance"],
+  answer: 1,
+},
+{
+  question: "Which branch of biology studies interactions between organisms and their environment?",
+  options: ["Genetics", "Ecology", "Cytology", "Anatomy"],
+  answer: 1,
+},
+{
+  question: "What is a population in ecological terms?",
+  options: ["All organisms of different species in an area", "A group of individuals of the same species in an area", "All non-living components of an ecosystem", "All communities in a biosphere"],
+  answer: 1,
+},
+{
+  question: "Which of the following is an example of a biotic factor in an ecosystem?",
+  options: ["Soil pH", "Temperature", "Predators", "Sunlight"],
+  answer: 2,
+},
+{
+  question: "DNA replication occurs during which phase of the cell cycle?",
+  options: ["M phase (mitosis)", "G₁ phase", "S phase (synthesis)", "G₂ phase"],
+  answer: 2,
+},
+{
+  question: "Which process produces two genetically identical daughter cells?",
+  options: ["Meiosis", "Mitosis", "Fertilization", "Crossing over"],
+  answer: 1,
+},
+{
+  question: "Which type of cell division reduces the chromosome number by half to produce gametes?",
+  options: ["Binary fission", "Mitosis", "Meiosis", "Budding"],
+  answer: 2,
+},
+{
+  question: "Which nucleotide base is found in RNA but not in DNA?",
+  options: ["Adenine", "Cytosine", "Uracil", "Thymine"],
+  answer: 2,
+},
+{
+  question: "Which process in plants converts light energy into chemical energy (glucose)?",
+  options: ["Respiration", "Fermentation", "Photosynthesis", "Transpiration"],
+  answer: 2,
+},
+{
+  question: "Which equation best represents aerobic respiration (generalised)?",
+  options: ["C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy", "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂", "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂", "Light + H₂O → O₂ + glucose"],
+  answer: 0,
+},
+{
+  question: "Which organ system is primarily responsible for transporting oxygen and nutrients to body cells?",
+  options: ["Digestive system", "Nervous system", "Circulatory system", "Excretory system"],
+  answer: 2,
+},
+{
+  question: "Which blood vessels carry blood away from the heart?",
+  options: ["Veins", "Venules", "Capillaries", "Arteries"],
+  answer: 3,
+},
+{
+  question: "Which organ is the main site of nutrient absorption in the human digestive system?",
+  options: ["Stomach", "Large intestine", "Small intestine", "Esophagus"],
+  answer: 2,
+},
+{
+  question: "Which macromolecule is most important for building and repairing tissues?",
+  options: ["Carbohydrates", "Proteins", "Lipids", "Vitamins"],
+  answer: 1,
+},
+{
+  question: "Which vitamin is essential for normal blood clotting?",
+  options: ["Vitamin C", "Vitamin D", "Vitamin K", "Vitamin A"],
+  answer: 2,
+},
+{
+  question: "Which structure carries genetic information that is passed from parents to offspring?",
+  options: ["Ribosome", "Chromosome", "Lysosome", "Golgi body"],
+  answer: 1,
+},
+{
+  question: "Which of the following is a method for measuring the magnification of a light microscope image?",
+  options: ["Multiply the eyepiece magnification by the objective magnification", "Add the eyepiece and objective magnifications", "Divide the objective by the eyepiece magnification", "Use only the objective magnification"],
+  answer: 0,
+},
+{
+  question: "Which of these is an example of a non-infectious disease?",
+  options: ["Malaria", "Tuberculosis", "Sickle cell anaemia", "Measles"],
+  answer: 2,
+},
+{
+  question: "Which organ removes nitrogenous wastes from the blood in humans?",
+  options: ["Lungs", "Liver", "Kidney", "Heart"],
+  answer: 2,
+},
+{
+  question: "Which type of reproduction produces offspring genetically identical to the parent?",
+  options: ["Sexual reproduction", "Asexual reproduction", "Fertilization", "Crossing over"],
+  answer: 1,
+},
+{
+  question: "Which structure in a plant cell provides rigidity and is made of cellulose?",
+  options: ["Cell membrane", "Cell wall", "Vacuole", "Plastid"],
+  answer: 1,
+},
+{
+  question: "Which physiological process in plants results mainly in loss of water vapour from leaves?",
+  options: ["Transpiration", "Photosynthesis", "Respiration", "Germination"],
+  answer: 0,
+},
+{
+  question: "Which term describes small genetic changes in a population over a long time?",
+  options: ["Homeostasis", "Evolution", "Metabolism", "Osmosis"],
+  answer: 1,
+},
+{
+  question: "Which structure controls the entry and exit of substances in and out of the cell?",
+  options: ["Cell wall", "Nucleus", "Cell membrane", "Ribosome"],
+  answer: 2,
+},
+{
+  question: "Which simple test reagent is used to detect the presence of reducing sugars?",
+  options: ["Iodine solution", "Benedict's solution", "Litmus paper", "Biuret reagent"],
+  answer: 1,
+},
+{
+  question: "What is the role of ribosomes in the cell?",
+  options: ["Lipid synthesis", "Protein synthesis", "ATP production", "DNA replication"],
+  answer: 1,
+},
+{
+  question: "Which term describes the variety of all living organisms in an area?",
+  options: ["Population", "Community", "Biodiversity", "Habitat"],
+  answer: 2,
+},
+{
+  question: "Which simple experimental practice involves comparing a treatment group to a group that does not receive the treatment?",
+  options: ["Replication", "Randomization", "Control", "Observation"],
+  answer: 2,
+},
+{
+  question: "Which gas is a major by-product of photosynthesis and is released into the atmosphere?",
+  options: ["Carbon dioxide", "Oxygen", "Nitrogen", "Methane"],
+  answer: 1,
+},
+{
+  question: "Which major macromolecule forms cell membranes (with phospholipids) and stores long-term energy?",
+  options: ["Carbohydrates", "Proteins", "Lipids", "Nucleic acids"],
+  answer: 2,
+},
+{
+  question: "Which is the correct order of taxonomic ranks from broadest to most specific?",
+  options: ["Species → Genus → Family → Order", "Kingdom → Phylum → Class → Order", "Genus → Species → Family → Order", "Order → Class → Phylum → Kingdom"],
+  answer: 1,
+},
+
+//cell and its environment 
+
+{
+  question: "Which of the following is NOT a characteristic of living things?",
+  options: ["Growth", "Respiration", "Photosynthesis", "Inertia"],
+  answer: 3,
+},
+{
+  question: "Which characteristic of living things involves the removal of waste products of metabolism?",
+  options: ["Reproduction", "Nutrition", "Excretion", "Growth"],
+  answer: 2,
+},
+{
+  question: "The ability of living organisms to respond to changes in their environment is called _______.",
+  options: ["Irritability", "Adaptation", "Locomotion", "Homeostasis"],
+  answer: 0,
+},
+{
+  question: "Which of the following is the most basic characteristic of living things?",
+  options: ["Ability to move", "Ability to respire", "Ability to reproduce", "Cellular organization"],
+  answer: 3,
+},
+{
+  question: "The maintenance of a constant internal environment in an organism is known as _______.",
+  options: ["Metabolism", "Homeostasis", "Coordination", "Regulation"],
+  answer: 1,
+},
+{
+  question: "Which of the following life processes is necessary for continuity of species?",
+  options: ["Excretion", "Respiration", "Reproduction", "Nutrition"],
+  answer: 2,
+},
+{
+  question: "Growth in living organisms occurs by _______.",
+  options: ["Increase in size of cells only", "Increase in number and size of cells", "Absorption of water", "Accumulation of waste"],
+  answer: 1,
+},
+{
+  question: "Which of the following is NOT an example of movement in plants?",
+  options: ["Nastic movement", "Tropic movement", "Locomotion", "Growth curvature"],
+  answer: 2,
+},
+{
+  question: "The process by which green plants make their food using sunlight is called _______.",
+  options: ["Respiration", "Transpiration", "Photosynthesis", "Fermentation"],
+  answer: 2,
+},
+{
+  question: "The life process by which energy is released from food substances is called _______.",
+  options: ["Photosynthesis", "Respiration", "Digestion", "Circulation"],
+  answer: 1,
+},
+{
+  question: "Which of the following is a waste product of respiration?",
+  options: ["Oxygen", "Carbon dioxide", "Nitrogen", "Glucose"],
+  answer: 1,
+},
+{
+  question: "All living things are made up of _______.",
+  options: ["Tissues", "Cells", "Organs", "Systems"],
+  answer: 1,
+},
+{
+  question: "The process by which living organisms take in food substances and utilize them is called _______.",
+  options: ["Excretion", "Nutrition", "Respiration", "Irritability"],
+  answer: 1,
+},
+{
+  question: "Which of these is NOT a characteristic of living things?",
+  options: ["Feeding", "Respiration", "Movement", "Evaporation"],
+  answer: 3,
+},
+{
+  question: "Which of the following statements about living things is true?",
+  options: ["All living things are multicellular", "All living things reproduce", "All living things have backbones", "All living things live in water"],
+  answer: 1,
+},
+{
+  question: "Which of the following is an example of asexual reproduction?",
+  options: ["Budding in yeast", "Pollination in plants", "Fertilization in humans", "Copulation in animals"],
+  answer: 0,
+},
+{
+  question: "The process by which organisms become suited to their environment is called _______.",
+  options: ["Irritability", "Adaptation", "Evolution", "Reproduction"],
+  answer: 1,
+},
+{
+  question: "The ability of an organism to move from one place to another is called _______.",
+  options: ["Locomotion", "Irritability", "Growth", "Tropism"],
+  answer: 0,
+},
+{
+  question: "Which of these characteristics is common to both plants and animals?",
+  options: ["Photosynthesis", "Irritability", "Locomotion", "Heterotrophic feeding"],
+  answer: 1,
+},
+{
+  question: "Which process in living organisms ensures the continuity of life?",
+  options: ["Growth", "Reproduction", "Nutrition", "Respiration"],
+  answer: 1,
+},
+{
+  question: "In living organisms, metabolism refers to _______.",
+  options: ["Growth and development only", "All chemical reactions taking place in the body", "Reproduction and digestion only", "Movement and excretion only"],
+  answer: 1,
+},
+{
+  question: "The sum total of anabolic and catabolic reactions in an organism is called _______.",
+  options: ["Metabolism", "Nutrition", "Respiration", "Homeostasis"],
+  answer: 0,
+},
+{
+  question: "Which of the following life processes involves both anabolic and catabolic reactions?",
+  options: ["Respiration", "Metabolism", "Photosynthesis", "Reproduction"],
+  answer: 1,
+},
+{
+  question: "The waste products of photosynthesis are _______.",
+  options: ["Carbon dioxide and water", "Oxygen and water", "Oxygen and glucose", "Glucose and starch"],
+  answer: 1,
+},
+{
+  question: "Which feature distinguishes living things from non-living things?",
+  options: ["Ability to expand", "Ability to reproduce", "Ability to reflect light", "Ability to rust"],
+  answer: 1,
+},
+{
+  question: "Which of the following represents a catabolic process?",
+  options: ["Photosynthesis", "Protein synthesis", "Respiration", "Cell division"],
+  answer: 2,
+},
+{
+  question: "The process of breaking down large food molecules into simpler forms is known as _______.",
+  options: ["Assimilation", "Digestion", "Absorption", "Respiration"],
+  answer: 1,
+},
+{
+  question: "In plants, movement of growth in response to light is called _______.",
+  options: ["Geotropism", "Phototropism", "Hydrotropism", "Nastic movement"],
+  answer: 1,
+},
+{
+  question: "Which of the following organisms exhibits locomotion?",
+  options: ["Mucor", "Hydra", "Mushroom", "Spirogyra"],
+  answer: 1,
+},
+{
+  question: "Which life process provides raw materials for respiration?",
+  options: ["Photosynthesis", "Nutrition", "Excretion", "Reproduction"],
+  answer: 1,
+},
+{
+  question: "Which process ensures that organisms maintain their internal environment despite external changes?",
+  options: ["Adaptation", "Homeostasis", "Irritability", "Reproduction"],
+  answer: 1,
+},
+{
+  question: "Which of these life processes involves the intake and use of oxygen?",
+  options: ["Growth", "Excretion", "Respiration", "Photosynthesis"],
+  answer: 2,
+},
+{
+  question: "The release of energy from glucose molecules occurs in the _______.",
+  options: ["Nucleus", "Mitochondrion", "Ribosome", "Chloroplast"],
+  answer: 1,
+},
+{
+  question: "Which of the following is a feature common to all living cells?",
+  options: ["Nucleus", "Cytoplasm", "Cell wall", "Chloroplast"],
+  answer: 1,
+},
+{
+  question: "A change in an organism’s surroundings that causes a response is known as a _______.",
+  options: ["Reflex", "Stimulus", "Impulse", "Adaptation"],
+  answer: 1,
+},
+{
+  question: "Living organisms require energy mainly for _______.",
+  options: ["Respiration", "Growth and maintenance of life", "Diffusion", "Photosynthesis"],
+  answer: 1,
+},
+{
+  question: "Which of the following best describes an autotroph?",
+  options: ["An organism that feeds on others", "An organism that manufactures its own food", "An organism that decomposes organic matter", "An organism that lacks chlorophyll"],
+  answer: 1,
+},
+{
+  question: "Which group of organisms reproduces by spore formation?",
+  options: ["Mammals", "Fungi", "Insects", "Reptiles"],
+  answer: 1,
+},
+{
+  question: "Which of these life processes ensures the removal of toxic materials from the body?",
+  options: ["Excretion", "Egestion", "Secretion", "Assimilation"],
+  answer: 0,
+},
+{
+  question: "The breaking down of food molecules to release energy is referred to as _______.",
+  options: ["Digestion", "Catabolism", "Anabolism", "Assimilation"],
+  answer: 1,
+},
+{
+  question: "The structural complexity of living things is arranged in which order?",
+  options: ["Organ → Tissue → Cell → Organ system", "Cell → Tissue → Organ → Organ system", "Tissue → Cell → Organ → System", "System → Organ → Cell → Tissue"],
+  answer: 1,
+},
+{
+  question: "Which of the following is a characteristic of all living organisms?",
+  options: ["Movement", "Photosynthesis", "Backbone", "Seed formation"],
+  answer: 0,
+},
+{
+  question: "An example of excretion in plants is _______.",
+  options: ["Loss of water vapour through the stomata", "Formation of starch", "Absorption of minerals", "Transport of food"],
+  answer: 0,
+},
+{
+  question: "The basic difference between living and non-living things is the ability to _______.",
+  options: ["Move", "Grow and reproduce", "Exist", "Change colour"],
+  answer: 1,
+},
+{
+  question: "Which process ensures survival of species over generations?",
+  options: ["Reproduction", "Nutrition", "Excretion", "Growth"],
+  answer: 0,
+},
+{
+  question: "The removal of metabolic waste products in animals is carried out by the _______.",
+  options: ["Heart", "Kidneys", "Lungs", "Liver"],
+  answer: 1,
+},
+{
+  question: "Which of the following activities is NOT common to all living things?",
+  options: ["Movement", "Respiration", "Reproduction", "Photosynthesis"],
+  answer: 3,
+},
+{
+  question: "An organism’s ability to adjust to its environment for survival is known as _______.",
+  options: ["Homeostasis", "Adaptation", "Metabolism", "Growth"],
+  answer: 1,
+},
+{
+  question: "Which of these describes a living thing?",
+  options: ["Capable of reproducing and responding to stimuli", "Cannot move", "Cannot excrete waste", "Lacks growth ability"],
+  answer: 0,
+},
+{
+  question: "Which of the following is NOT a life process?",
+  options: ["Feeding", "Excretion", "Metabolism", "Crystallization"],
+  answer: 3,
+},
+{
+  question: "Living things show organization in structure and function, beginning from _______.",
+  options: ["Tissue", "Organ", "Cell", "Organ system"],
+  answer: 2,
+},
+
+  {
+    question: "Which of the following is a basic characteristic of all living things?",
+    options: ["Movement", "Photosynthesis", "Growth", "Reproduction"],
+    answer: 3,
+  },
+  {
+    question: "Which of these processes is necessary for the continuity of life?",
+    options: ["Nutrition", "Excretion", "Reproduction", "Respiration"],
+    answer: 2,
+  },
+  {
+    question: "Which of the following characteristics of living things is demonstrated by a plant bending towards light?",
+    options: ["Growth", "Irritability", "Reproduction", "Movement"],
+    answer: 1,
+  },
+  {
+    question: "Which of the following is NOT a characteristic of living things?",
+    options: ["Respiration", "Death", "Growth", "Decay"],
+    answer: 3,
+  },
+  {
+    question: "The ability of living organisms to respond to changes in their environment is called _______.",
+    options: ["Reproduction", "Irritability", "Adaptation", "Metabolism"],
+    answer: 1,
+  },
+  {
+    question: "In animals, excretion is important for removing _______.",
+    options: ["Carbon dioxide and nitrogenous waste", "Water and oxygen", "Nutrients and salts", "Enzymes and vitamins"],
+    answer: 0,
+  },
+  {
+    question: "The sum of all chemical processes in a living organism is referred to as _______.",
+    options: ["Digestion", "Metabolism", "Irritability", "Circulation"],
+    answer: 1,
+  },
+  {
+    question: "Which of the following processes involves the breakdown of food substances to release energy?",
+    options: ["Photosynthesis", "Respiration", "Excretion", "Digestion"],
+    answer: 1,
+  },
+  {
+    question: "The process by which green plants make their own food is called _______.",
+    options: ["Osmosis", "Photosynthesis", "Respiration", "Transpiration"],
+    answer: 1,
+  },
+  {
+    question: "Living things increase in size and complexity through the process of _______.",
+    options: ["Reproduction", "Growth", "Assimilation", "Irritability"],
+    answer: 1,
+  },
+  {
+    question: "Which of these best explains why growth is a permanent increase in size?",
+    options: ["It involves cell enlargement and division", "It involves temporary water intake", "It happens only at night", "It occurs without nutrition"],
+    answer: 0,
+  },
+  {
+    question: "The removal of metabolic waste from the body of an organism is called _______.",
+    options: ["Excretion", "Egestion", "Secretion", "Diffusion"],
+    answer: 0,
+  },
+  {
+    question: "The ability of an organism to maintain a stable internal condition is called _______.",
+    options: ["Homeostasis", "Metabolism", "Assimilation", "Adaptation"],
+    answer: 0,
+  },
+  {
+    question: "Which of the following characteristics is common to both plants and animals?",
+    options: ["Movement", "Photosynthesis", "Respiration", "Egestion"],
+    answer: 2,
+  },
+  {
+    question: "All living things need energy mainly for _______.",
+    options: ["Sleeping", "Growth and repair", "Evaporation", "Diffusion"],
+    answer: 1,
+  },
+  {
+    question: "The ability to produce offspring of the same kind is called _______.",
+    options: ["Irritability", "Reproduction", "Growth", "Respiration"],
+    answer: 1,
+  },
+  {
+    question: "Which of these statements about living things is TRUE?",
+    options: ["All living things can move from place to place", "All living things respire", "All living things have chlorophyll", "All living things are animals"],
+    answer: 1,
+  },
+  {
+    question: "Which characteristic of living things ensures survival in changing environments?",
+    options: ["Adaptation", "Reproduction", "Metabolism", "Assimilation"],
+    answer: 0,
+  },
+  {
+    question: "In multicellular organisms, growth occurs mainly by _______.",
+    options: ["Enlargement of existing cells", "Division of cells", "Accumulation of fat", "Water absorption"],
+    answer: 1,
+  },
+  {
+    question: "Which of the following distinguishes living things from non-living things?",
+    options: ["Ability to reproduce", "Ability to expand", "Ability to reflect light", "Ability to float in water"],
+    answer: 0,
+  },
+  {
+    question: "Which of the following is a product of respiration?",
+    options: ["Oxygen", "Carbon dioxide", "Glucose", "Chlorophyll"],
+    answer: 1,
+  },
+  {
+    question: "The process by which organisms take in materials for growth and energy is called _______.",
+    options: ["Nutrition", "Irritability", "Metabolism", "Photosynthesis"],
+    answer: 0,
+  },
+  {
+    question: "The living part of an organism’s environment is called its _______.",
+    options: ["Habitat", "Biotic component", "Abiotic component", "Niche"],
+    answer: 1,
+  },
+  {
+    question: "The non-living factors of an ecosystem are called _______.",
+    options: ["Biotic factors", "Abiotic factors", "Organic factors", "Chemical factors"],
+    answer: 1,
+  },
+  {
+    question: "Which of the following is NOT a feature of living things?",
+    options: ["Feeding", "Photosynthesis", "Growth", "Decay"],
+    answer: 3,
+  },
+  {
+    question: "In plants, movement is mainly shown by _______.",
+    options: ["Tropism", "Running", "Walking", "Swimming"],
+    answer: 0,
+  },
+  {
+    question: "Which of these is an example of an autotrophic organism?",
+    options: ["Man", "Fish", "Grass", "Mushroom"],
+    answer: 2,
+  },
+  {
+    question: "Which of the following is NOT a function of respiration?",
+    options: ["Energy release", "Carbon dioxide production", "Water production", "Protein synthesis"],
+    answer: 3,
+  },
+  {
+    question: "The process by which living things remove undigested food is called _______.",
+    options: ["Egestion", "Excretion", "Secretion", "Assimilation"],
+    answer: 0,
+  },
+  {
+    question: "Which of these best describes reproduction?",
+    options: ["Release of energy", "Formation of new individuals", "Breaking down of food", "Elimination of waste"],
+    answer: 1,
+  },
+  {
+    question: "Which of the following substances is a waste product of photosynthesis?",
+    options: ["Carbon dioxide", "Water", "Oxygen", "Glucose"],
+    answer: 2,
+  },
+  {
+    question: "The movement of a plant shoot towards light is called _______.",
+    options: ["Phototropism", "Geotropism", "Hydrotropism", "Thigmotropism"],
+    answer: 0,
+  },
+  {
+    question: "An organism that depends on other organisms for food is called a _______.",
+    options: ["Heterotroph", "Autotroph", "Producer", "Saprophyte"],
+    answer: 0,
+  },
+  {
+    question: "The characteristic of living things that ensures waste removal is _______.",
+    options: ["Excretion", "Nutrition", "Respiration", "Growth"],
+    answer: 0,
+  },
+  {
+    question: "The process by which organisms exchange gases with the environment is called _______.",
+    options: ["Respiration", "Excretion", "Photosynthesis", "Osmosis"],
+    answer: 0,
+  },
+  {
+    question: "Which of these is NOT an example of movement in animals?",
+    options: ["Running", "Flying", "Bending towards light", "Jumping"],
+    answer: 2,
+  },
+  {
+    question: "A cat responding to a sound is showing the characteristic of _______.",
+    options: ["Reproduction", "Irritability", "Growth", "Nutrition"],
+    answer: 1,
+  },
+  {
+    question: "Which of these is an example of excretion in humans?",
+    options: ["Sweating", "Eating", "Sleeping", "Talking"],
+    answer: 0,
+  },
+  {
+    question: "The ability of living organisms to change over long periods to suit their environment is called _______.",
+    options: ["Adaptation", "Evolution", "Irritability", "Homeostasis"],
+    answer: 0,
+  },
+  {
+    question: "Which of the following best describes metabolism?",
+    options: ["All chemical reactions in an organism", "Only digestion", "Only respiration", "Excretion process"],
+    answer: 0,
+  },
+  {
+    question: "Which of these organisms cannot make its own food?",
+    options: ["Mango tree", "Green algae", "Man", "Euglena"],
+    answer: 2,
+  },
+  {
+    question: "Which of these is the basic unit of life?",
+    options: ["Tissue", "Cell", "Organ", "System"],
+    answer: 1,
+  },
+  {
+    question: "Which of the following is NOT necessary for plant growth?",
+    options: ["Light", "Air", "Sound", "Water"],
+    answer: 2,
+  },
+  {
+    question: "Animals excrete nitrogenous waste mainly as _______.",
+    options: ["Carbon dioxide", "Ammonia", "Urea", "Water"],
+    answer: 2,
+  },
+  {
+    question: "The process of maintaining water balance in the body is a part of _______.",
+    options: ["Homeostasis", "Osmosis", "Excretion", "Diffusion"],
+    answer: 0,
+  },
+  {
+    question: "Living things obtain energy from food through _______.",
+    options: ["Respiration", "Digestion", "Photosynthesis", "Excretion"],
+    answer: 0,
+  },
+  {
+    question: "Which of the following best describes life processes?",
+    options: ["Characteristics of living things", "Processes in machines", "Chemical changes in rocks", "Environmental cycles"],
+    answer: 0,
+  },
+  {
+    question: "Which characteristic of living things ensures increase in number of individuals?",
+    options: ["Reproduction", "Growth", "Movement", "Irritability"],
+    answer: 0,
+  },
+  {
+    question: "All living organisms depend ultimately on _______ for energy.",
+    options: ["The sun", "The moon", "The soil", "Water"],
+    answer: 0,
+  },
+  {
+    question: "The removal of metabolic waste through the skin is called _______.",
+    options: ["Sweating", "Breathing", "Urination", "Egestion"],
+    answer: 0,
+  },
+  {
+    question: "Which of the following is a catabolic process?",
+    options: ["Photosynthesis", "Protein synthesis", "Respiration", "Assimilation"],
+    answer: 2,
+  },
+  {
+    question: "An organism that carries out both photosynthesis and ingestion of food is _______.",
+    options: ["Euglena", "Paramecium", "Amoeba", "Volvox"],
+    answer: 0,
   }, 
-    { 
-      question: "All the following are characteristics of living organisms except",
-      options: ["growth", "death", " irritability", "regurgitation"],
-      answer: 3,
-    },
-    { 
-      question: "The most successful invertebrate is",
-      options: ["Reptile", "Mammals", "Arthropods", "Echinoderms"],
-      answer: 1,
-      },
-    { 
-      question: "Which of these organisms is a reptile",
-      options: ["shrimp", "lizard", "jelly fish", "lobster"],
-      answer: 1,
-        }
+  
+//cell and its environment 
+  {
+    question: "The cell is regarded as the basic unit of life because _______.",
+    options: [
+      "All living things are made up of cells",
+      "It performs all life activities",
+      "It exists only in animals",
+      "It is visible to the naked eye"
+    ],
+    answer: 1,
+  },
+  {
+    question: "The structure that controls the activities of the cell is the _______.",
+    options: ["Cytoplasm", "Nucleus", "Cell wall", "Mitochondrion"],
+    answer: 1,
+  },
+  {
+    question: "The jelly-like substance that fills the cell and holds organelles is called _______.",
+    options: ["Cytoplasm", "Nucleus", "Chloroplast", "Vacuole"],
+    answer: 0,
+  },
+  {
+    question: "Which of the following is a function of the cell membrane?",
+    options: [
+      "Protection and selective permeability",
+      "Storage of food",
+      "Photosynthesis",
+      "Respiration"
+    ],
+    answer: 0,
+  },
+  {
+    question: "Which of the following structures is found only in plant cells?",
+    options: ["Mitochondrion", "Cell wall", "Nucleus", "Ribosome"],
+    answer: 1,
+  },
+  {
+    question: "The part of a plant cell responsible for photosynthesis is the _______.",
+    options: ["Chloroplast", "Vacuole", "Nucleus", "Mitochondrion"],
+    answer: 0,
+  },
+  {
+    question: "The living content of a cell is called _______.",
+    options: ["Protoplasm", "Plasma membrane", "Cytoplasm", "Chlorophyll"],
+    answer: 0,
+  },
+  {
+    question: "Which of the following controls movement of materials in and out of the cell?",
+    options: ["Cell wall", "Cell membrane", "Cytoplasm", "Nucleolus"],
+    answer: 1,
+  },
+  {
+    question: "The power house of the cell is the _______.",
+    options: ["Mitochondrion", "Ribosome", "Vacuole", "Chloroplast"],
+    answer: 0,
+  },
+  {
+    question: "Which cell organelle is responsible for protein synthesis?",
+    options: ["Nucleus", "Ribosome", "Golgi body", "Vacuole"],
+    answer: 1,
+  },
+  {
+    question: "Which of these best describes osmosis?",
+    options: [
+      "Movement of water molecules through a semi-permeable membrane",
+      "Movement of solute particles across a membrane",
+      "Random movement of particles in air",
+      "Uptake of minerals from soil"
+    ],
+    answer: 0,
+  },
+  {
+    question: "Diffusion differs from osmosis because diffusion _______.",
+    options: [
+      "Occurs in all states of matter",
+      "Involves only water",
+      "Requires a semi-permeable membrane",
+      "Needs energy"
+    ],
+    answer: 0,
+  },
+  {
+    question: "Which of the following is a function of the vacuole in a plant cell?",
+    options: [
+      "Maintains turgor pressure",
+      "Controls cell division",
+      "Carries genetic material",
+      "Synthesizes protein"
+    ],
+    answer: 0,
+  },
+  {
+    question: "Which of the following is absent in an animal cell?",
+    options: ["Cell wall", "Nucleus", "Cytoplasm", "Ribosome"],
+    answer: 0,
+  },
+  {
+    question: "A cell that has lost water by osmosis is said to be _______.",
+    options: ["Plasmolysed", "Turgid", "Flaccid", "Rigid"],
+    answer: 0,
+  },
+  {
+    question: "When a red blood cell is placed in distilled water, it _______.",
+    options: ["Bursts", "Shrinks", "Remains the same", "Becomes flaccid"],
+    answer: 0,
+  },
+  {
+    question: "Which of these is a similarity between diffusion and osmosis?",
+    options: [
+      "Both are passive processes",
+      "Both require energy",
+      "Both occur only in liquids",
+      "Both need living cells"
+    ],
+    answer: 0,
+  },
+  {
+    question: "The process by which substances move against a concentration gradient using energy is called _______.",
+    options: ["Active transport", "Diffusion", "Osmosis", "Plasmolysis"],
+    answer: 0,
+  },
+  {
+    question: "Which of the following best describes a semi-permeable membrane?",
+    options: [
+      "Allows only certain molecules to pass through",
+      "Prevents all substances from passing",
+      "Allows all substances freely",
+      "Allows only gases to pass"
+    ],
+    answer: 0,
+  },
+  {
+    question: "Which of these is not an organelle?",
+    options: ["Mitochondrion", "Nucleus", "Ribosome", "Vacuole membrane"],
+    answer: 3,
+  },
+  {
+    question: "In plant cells, the cell wall is mainly composed of _______.",
+    options: ["Cellulose", "Protein", "Lipid", "Chitin"],
+    answer: 0,
+  },
+  {
+    question: "Plasmolysis occurs when a cell is placed in a _______ solution.",
+    options: ["Hypertonic", "Hypotonic", "Isotonic", "Neutral"],
+    answer: 0,
+  },
+  {
+    question: "Which of the following statements about osmosis is TRUE?",
+    options: [
+      "It involves the movement of water through a membrane",
+      "It requires energy",
+      "It only occurs in gases",
+      "It is the movement of solutes"
+    ],
+    answer: 0,
+  },
+  {
+    question: "Which structure controls the activities of other organelles?",
+    options: ["Cytoplasm", "Nucleus", "Vacuole", "Ribosome"],
+    answer: 1,
+  },
+  {
+    question: "The process by which plant roots absorb water is _______.",
+    options: ["Osmosis", "Diffusion", "Transpiration", "Active transport"],
+    answer: 0,
+  },
+  {
+    question: "The cell organelle involved in respiration is _______.",
+    options: ["Mitochondrion", "Nucleus", "Ribosome", "Vacuole"],
+    answer: 0,
+  },
+  {
+    question: "Which of the following is found in both plant and animal cells?",
+    options: ["Cell wall", "Chloroplast", "Nucleus", "Large vacuole"],
+    answer: 2,
+  },
+  {
+    question: "A cell becomes turgid when placed in a _______ solution.",
+    options: ["Hypotonic", "Hypertonic", "Isotonic", "Concentrated"],
+    answer: 0,
+  },
+  {
+    question: "Which of these best defines diffusion?",
+    options: [
+      "Movement of molecules from high to low concentration",
+      "Movement of water through a membrane",
+      "Active movement of particles",
+      "Flow of liquid through a pipe"
+    ],
+    answer: 0,
+  },
+  {
+    question: "The plasma membrane is composed mainly of _______.",
+    options: ["Lipids and proteins", "Sugars and starch", "Acids and bases", "Enzymes"],
+    answer: 0,
+  },
+  {
+    question: "When a cell is in an isotonic solution, water movement is _______.",
+    options: ["Equal in both directions", "Only into the cell", "Only out of the cell", "Stopped completely"],
+    answer: 0,
+  },
+  {
+    question: "The region in the nucleus that produces ribosomes is the _______.",
+    options: ["Nucleolus", "Chromosome", "Cytoplasm", "Vacuole"],
+    answer: 0,
+  },
+  {
+    question: "Which of these organelles is absent in prokaryotic cells?",
+    options: ["Nucleus", "Cell membrane", "Cytoplasm", "Ribosome"],
+    answer: 0,
+  },
+  {
+    question: "The movement of ions through the cell membrane often requires _______.",
+    options: ["Energy", "Diffusion", "Osmosis", "Capillarity"],
+    answer: 0,
+  },
+  {
+    question: "Which process does not require energy?",
+    options: ["Diffusion", "Active transport", "Cytoplasmic streaming", "Endocytosis"],
+    answer: 0,
+  },
+  {
+    question: "The function of the Golgi apparatus is to _______.",
+    options: ["Package and transport materials", "Store water", "Control cell division", "Produce ribosomes"],
+    answer: 0,
+  },
+  {
+    question: "Which organelle is responsible for digestion of worn-out cell parts?",
+    options: ["Lysosome", "Ribosome", "Golgi body", "Chloroplast"],
+    answer: 0,
+  },
+  {
+    question: "In a hypertonic solution, an animal cell will _______.",
+    options: ["Shrink", "Burst", "Remain the same", "Become turgid"],
+    answer: 0,
+  },
+  {
+    question: "Which of these best explains active transport?",
+    options: [
+      "Movement of substances against concentration gradient using ATP",
+      "Movement of water through osmosis",
+      "Passive movement of solutes",
+      "Random movement of particles"
+    ],
+    answer: 0,
+  },
+  {
+    question: "The cell wall provides _______ to plant cells.",
+    options: ["Support and protection", "Energy", "Food storage", "Photosynthesis"],
+    answer: 0,
+  },
+  {
+    question: "Which organelle controls cell metabolism?",
+    options: ["Nucleus", "Ribosome", "Vacuole", "Lysosome"],
+    answer: 0,
+  },
+  {
+    question: "The selective permeability of a membrane means it _______.",
+    options: [
+      "Allows only certain substances to pass through",
+      "Allows all substances freely",
+      "Prevents all movement",
+      "Allows only gases to move"
+    ],
+    answer: 0,
+  },
+  {
+    question: "Cytoplasm serves as the site for _______.",
+    options: [
+      "Many metabolic reactions",
+      "Photosynthesis only",
+      "Protein synthesis only",
+      "Excretion only"
+    ],
+    answer: 0,
+  },
+  {
+    question: "Which structure in the cell is responsible for hereditary information?",
+    options: ["Chromosomes", "Mitochondria", "Ribosomes", "Golgi bodies"],
+    answer: 0,
+  },
+  {
+    question: "The double-layered membrane around the nucleus is called the _______.",
+    options: ["Nuclear envelope", "Plasma membrane", "Nucleolus", "Cell wall"],
+    answer: 0,
+  },
+  {
+    question: "Which of the following best describes endocytosis?",
+    options: [
+      "Intake of large particles by engulfing them",
+      "Expulsion of waste from the cell",
+      "Diffusion of ions",
+      "Absorption of water"
+    ],
+    answer: 0,
+  },
+  {
+    question: "The fluid mosaic model describes the _______.",
+    options: ["Structure of cell membrane", "Structure of DNA", "Function of ribosome", "Structure of mitochondrion"],
+    answer: 0,
+  },
+  {
+    question: "Which of the following is NOT a function of the cell membrane?",
+    options: [
+      "Allowing materials to pass selectively",
+      "Separating cell contents",
+      "Providing energy for respiration",
+      "Protecting cell contents"
+    ],
+    answer: 2,
+  },
+  {
+    question: "Which of these is an example of passive transport?",
+    options: ["Osmosis", "Active transport", "Pinocytosis", "Endocytosis"],
+    answer: 0,
+  },
+  {
+    question: "The mitochondrion releases energy in the form of _______.",
+    options: ["ATP", "ADP", "DNA", "Glucose"],
+    answer: 0,
+  },
+  {
+    question: "Which of the following helps in intracellular digestion?",
+    options: ["Lysosome", "Vacuole", "Ribosome", "Chloroplast"],
+    answer: 0,
+  },
+  {
+    question: "A cell placed in a hypotonic solution will _______.",
+    options: ["Gain water", "Lose water", "Shrink", "Remain unchanged"],
+    answer: 0,
+  },
+  
+  //cell structures and functions 
+  
+  {
+  question: "The cell is regarded as the basic unit of life because _______.",
+  options: [
+    "it is found in all organisms",
+    "it performs all life activities",
+    "it is microscopic",
+    "it cannot exist independently"
+  ],
+  answer: 1,
+},
+{
+  question: "The outer boundary of an animal cell is the _______.",
+  options: [
+    "cell wall",
+    "cell membrane",
+    "nuclear envelope",
+    "cytoplasm"
+  ],
+  answer: 1,
+},
+{
+  question: "The structure responsible for controlling the entry and exit of materials in a cell is the _______.",
+  options: [
+    "nucleus",
+    "cytoplasm",
+    "cell membrane",
+    "vacuole"
+  ],
+  answer: 2,
+},
+{
+  question: "The living substance of a cell excluding the nucleus is the _______.",
+  options: [
+    "cytoplasm",
+    "protoplasm",
+    "nucleoplasm",
+    "organelles"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of the following organelles is present only in plant cells?",
+  options: [
+    "Chloroplast",
+    "Mitochondrion",
+    "Ribosome",
+    "Nucleus"
+  ],
+  answer: 0,
+},
+{
+  question: "The organelle responsible for respiration in the cell is the _______.",
+  options: [
+    "ribosome",
+    "mitochondrion",
+    "chloroplast",
+    "Golgi body"
+  ],
+  answer: 1,
+},
+{
+  question: "Which part of the cell contains the hereditary material?",
+  options: [
+    "Cytoplasm",
+    "Nucleus",
+    "Cell wall",
+    "Vacuole"
+  ],
+  answer: 1,
+},
+{
+  question: "The cell wall is composed mainly of _______.",
+  options: [
+    "lipids",
+    "starch",
+    "cellulose",
+    "protein"
+  ],
+  answer: 2,
+},
+{
+  question: "Which organelle packages and secretes materials in the cell?",
+  options: [
+    "Endoplasmic reticulum",
+    "Golgi apparatus",
+    "Mitochondrion",
+    "Nucleolus"
+  ],
+  answer: 1,
+},
+{
+  question: "Which organelle is responsible for photosynthesis?",
+  options: [
+    "Mitochondrion",
+    "Lysosome",
+    "Chloroplast",
+    "Golgi body"
+  ],
+  answer: 2,
+},
+{
+  question: "The jelly-like fluid within the cell membrane is called the _______.",
+  options: [
+    "protoplasm",
+    "cytoplasm",
+    "nucleoplasm",
+    "vacuole"
+  ],
+  answer: 1,
+},
+{
+  question: "The part of the cell where ribosomes are produced is the _______.",
+  options: [
+    "nucleolus",
+    "nuclear membrane",
+    "chromatin",
+    "endoplasmic reticulum"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle helps in protein synthesis?",
+  options: [
+    "Lysosome",
+    "Ribosome",
+    "Vacuole",
+    "Chloroplast"
+  ],
+  answer: 1,
+},
+{
+  question: "Which organelle is called the ‘powerhouse’ of the cell?",
+  options: [
+    "Nucleus",
+    "Mitochondrion",
+    "Golgi apparatus",
+    "Vacuole"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of the following is present in both plant and animal cells?",
+  options: [
+    "Cell wall",
+    "Chloroplast",
+    "Mitochondrion",
+    "Plastid"
+  ],
+  answer: 2,
+},
+{
+  question: "The double-layered membrane surrounding the nucleus is called _______.",
+  options: [
+    "cell wall",
+    "nuclear envelope",
+    "cytoplasmic membrane",
+    "nucleolus"
+  ],
+  answer: 1,
+},
+{
+  question: "Which organelle stores waste and water in plant cells?",
+  options: [
+    "Chloroplast",
+    "Vacuole",
+    "Ribosome",
+    "Nucleolus"
+  ],
+  answer: 1,
+},
+{
+  question: "The endoplasmic reticulum is involved in _______.",
+  options: [
+    "digestion",
+    "transport of materials",
+    "photosynthesis",
+    "respiration"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of the following is not an organelle?",
+  options: [
+    "Nucleus",
+    "Cytoplasm",
+    "Ribosome",
+    "Mitochondrion"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of these cell structures is non-living?",
+  options: [
+    "Nucleus",
+    "Cytoplasm",
+    "Cell wall",
+    "Mitochondrion"
+  ],
+  answer: 2,
+},
+{
+  question: "In plant cells, turgidity is maintained by the _______.",
+  options: [
+    "nucleus",
+    "vacuole",
+    "cytoplasm",
+    "cell wall"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of the following is common to all cells?",
+  options: [
+    "Mitochondria",
+    "Cell membrane",
+    "Chloroplast",
+    "Cell wall"
+  ],
+  answer: 1,
+},
+{
+  question: "Which part of a cell controls all metabolic activities?",
+  options: [
+    "Cytoplasm",
+    "Nucleus",
+    "Ribosome",
+    "Golgi body"
+  ],
+  answer: 1,
+},
+{
+  question: "The main function of lysosomes is _______.",
+  options: [
+    "digestion of worn-out cell parts",
+    "protein synthesis",
+    "cell division",
+    "transport"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle detoxifies harmful substances in the liver?",
+  options: [
+    "Smooth endoplasmic reticulum",
+    "Golgi body",
+    "Mitochondrion",
+    "Ribosome"
+  ],
+  answer: 0,
+},
+{
+  question: "Chromosomes are found in the _______.",
+  options: [
+    "nucleolus",
+    "nucleus",
+    "cytoplasm",
+    "mitochondrion"
+  ],
+  answer: 1,
+},
+{
+  question: "The small spherical body within the nucleus is called _______.",
+  options: [
+    "chromatin",
+    "nucleolus",
+    "ribosome",
+    "centriole"
+  ],
+  answer: 1,
+},
+{
+  question: "The function of centrioles is to _______.",
+  options: [
+    "store water",
+    "help in cell division",
+    "carry genetic information",
+    "absorb light energy"
+  ],
+  answer: 1,
+},
+{
+  question: "The cell wall is absent in _______.",
+  options: [
+    "plant cell",
+    "animal cell",
+    "fungal cell",
+    "bacterial cell"
+  ],
+  answer: 1,
+},
+{
+  question: "Protoplasm is composed mainly of _______.",
+  options: [
+    "water, proteins, and lipids",
+    "starch, fats, and sugar",
+    "enzymes and cellulose",
+    "minerals and acids"
+  ],
+  answer: 0,
+},
+{
+  question: "The structure that maintains cell shape is the _______.",
+  options: [
+    "nucleus",
+    "cell wall",
+    "chloroplast",
+    "ribosome"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of the following best describes cytoplasm?",
+  options: [
+    "The region where genetic materials are stored",
+    "The site for most metabolic reactions",
+    "A non-living structure in plant cells",
+    "The thick outer layer of the cell"
+  ],
+  answer: 1,
+},
+{
+  question: "Plasmodesmata are found in _______.",
+  options: [
+    "animal cells",
+    "plant cells",
+    "bacteria",
+    "fungi"
+  ],
+  answer: 1,
+},
+{
+  question: "The nuclear material of a prokaryotic cell is found in the _______.",
+  options: [
+    "nucleus",
+    "cytoplasm",
+    "chromosome",
+    "nucleolus"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of the following is a function of ribosomes?",
+  options: [
+    "Protein synthesis",
+    "Energy production",
+    "Food storage",
+    "Transport"
+  ],
+  answer: 0,
+},
+{
+  question: "In a typical cell, the mitochondrion is more numerous in _______.",
+  options: [
+    "inactive cells",
+    "muscle cells",
+    "parenchyma cells",
+    "epidermal cells"
+  ],
+  answer: 1,
+},
+{
+  question: "The plasma membrane is composed mainly of _______.",
+  options: [
+    "cellulose and proteins",
+    "lipids and proteins",
+    "sugar and cellulose",
+    "starch and fats"
+  ],
+  answer: 1,
+},
+{
+  question: "Chromatin network is found in the _______.",
+  options: [
+    "cytoplasm",
+    "nucleoplasm",
+    "cell wall",
+    "ribosome"
+  ],
+  answer: 1,
+},
+{
+  question: "The cell organelle that digests worn-out parts is the _______.",
+  options: [
+    "lysosome",
+    "vacuole",
+    "ribosome",
+    "mitochondrion"
+  ],
+  answer: 0,
+},
+{
+  question: "What structure gives rigidity to plant cells?",
+  options: [
+    "Cell membrane",
+    "Cytoplasm",
+    "Cell wall",
+    "Vacuole"
+  ],
+  answer: 2,
+},
+{
+  question: "Which organelle assists in lipid synthesis?",
+  options: [
+    "Rough ER",
+    "Smooth ER",
+    "Mitochondria",
+    "Chloroplast"
+  ],
+  answer: 1,
+},
+{
+  question: "Cell theory was first proposed by _______.",
+  options: [
+    "Schwann and Schleiden",
+    "Robert Hooke",
+    "Pasteur and Darwin",
+    "Watson and Crick"
+  ],
+  answer: 0,
+},
+{
+  question: "A plant cell can be distinguished from an animal cell by the presence of _______.",
+  options: [
+    "nucleus",
+    "cytoplasm",
+    "chloroplast",
+    "mitochondria"
+  ],
+  answer: 2,
+},
+{
+  question: "The structure that controls all activities in a cell is the _______.",
+  options: [
+    "nucleus",
+    "ribosome",
+    "cytoplasm",
+    "vacuole"
+  ],
+  answer: 0,
+},
+
+{
+  question: "The cell membrane is described as selectively permeable because _______.",
+  options: [
+    "it allows all substances to pass freely",
+    "it allows only certain substances to pass",
+    "it blocks everything",
+    "it is rigid and strong"
+  ],
+  answer: 1,
+},
+{
+  question: "The main function of the Golgi apparatus is _______.",
+  options: [
+    "protein synthesis",
+    "modification, packaging, and secretion",
+    "respiration",
+    "photosynthesis"
+  ],
+  answer: 1,
+},
+{
+  question: "Centrioles are involved in _______.",
+  options: [
+    "protein synthesis",
+    "cell division",
+    "lipid storage",
+    "photosynthesis"
+  ],
+  answer: 1,
+},
+{
+  question: "The cell organelle responsible for storage of water and solutes in plant cells is the _______.",
+  options: [
+    "vacuole",
+    "chloroplast",
+    "ribosome",
+    "lysosome"
+  ],
+  answer: 0,
+},
+{
+  question: "Ribosomes are found on the surface of _______.",
+  options: [
+    "smooth endoplasmic reticulum",
+    "rough endoplasmic reticulum",
+    "mitochondria",
+    "Golgi apparatus"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of the following is true for prokaryotic cells?",
+  options: [
+    "They have a true nucleus",
+    "They lack membrane-bound organelles",
+    "They have chloroplasts",
+    "They are always multicellular"
+  ],
+  answer: 1,
+},
+{
+  question: "Which cell structure provides protection and shape to plant cells?",
+  options: [
+    "Cell membrane",
+    "Cytoplasm",
+    "Cell wall",
+    "Vacuole"
+  ],
+  answer: 2,
+},
+{
+  question: "The structure that stores genetic information in a cell is the _______.",
+  options: [
+    "ribosome",
+    "nucleus",
+    "mitochondrion",
+    "Golgi body"
+  ],
+  answer: 1,
+},
+{
+  question: "Which organelle breaks down waste materials and worn-out organelles?",
+  options: [
+    "Lysosome",
+    "Vacuole",
+    "Ribosome",
+    "Chloroplast"
+  ],
+  answer: 0,
+},
+{
+  question: "Cytoplasm is mainly composed of _______.",
+  options: [
+    "water and dissolved substances",
+    "cellulose and lignin",
+    "starch and sugar",
+    "lipids and DNA"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle captures light energy for photosynthesis?",
+  options: [
+    "Mitochondrion",
+    "Chloroplast",
+    "Lysosome",
+    "Endoplasmic reticulum"
+  ],
+  answer: 1,
+},
+{
+  question: "The process by which a cell engulfs solid particles is called _______.",
+  options: [
+    "Exocytosis",
+    "Endocytosis",
+    "Phagocytosis",
+    "Osmosis"
+  ],
+  answer: 2,
+},
+{
+  question: "The fluid inside the nucleus is called _______.",
+  options: [
+    "Cytoplasm",
+    "Nucleoplasm",
+    "Vacuole sap",
+    "Chlorophyll"
+  ],
+  answer: 1,
+},
+{
+  question: "Which organelle synthesizes lipids and detoxifies substances?",
+  options: [
+    "Smooth endoplasmic reticulum",
+    "Rough endoplasmic reticulum",
+    "Golgi body",
+    "Mitochondrion"
+  ],
+  answer: 0,
+},
+{
+  question: "The nuclear membrane contains small openings called _______.",
+  options: [
+    "Nuclear pores",
+    "Plasmodesmata",
+    "Cytoplasmic channels",
+    "Pits"
+  ],
+  answer: 0,
+},
+{
+  question: "The semi-fluid material that surrounds organelles in a cell is called _______.",
+  options: [
+    "Cytoplasm",
+    "Nucleoplasm",
+    "Cell sap",
+    "Chloroplast fluid"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle is involved in the production of ATP?",
+  options: [
+    "Mitochondrion",
+    "Ribosome",
+    "Golgi apparatus",
+    "Vacuole"
+  ],
+  answer: 0,
+},
+{
+  question: "Plasmodesmata are channels found in _______.",
+  options: [
+    "plant cells",
+    "animal cells",
+    "bacteria",
+    "fungi"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle stores proteins for secretion?",
+  options: [
+    "Golgi apparatus",
+    "Mitochondrion",
+    "Vacuole",
+    "Ribosome"
+  ],
+  answer: 0,
+},
+{
+  question: "The cell theory states that all cells arise from _______.",
+  options: [
+    "pre-existing cells",
+    "cytoplasm",
+    "protoplasm",
+    "nucleus"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of the following structures is involved in intracellular transport?",
+  options: [
+    "Golgi apparatus",
+    "Endoplasmic reticulum",
+    "Ribosome",
+    "Lysosome"
+  ],
+  answer: 1,
+},
+{
+  question: "Which organelle is responsible for producing ribosomal RNA?",
+  options: [
+    "Nucleolus",
+    "Nucleus",
+    "Cytoplasm",
+    "Ribosome"
+  ],
+  answer: 0,
+},
+{
+  question: "The structure that regulates the movement of substances into and out of the cell is the _______.",
+  options: [
+    "Cell membrane",
+    "Cell wall",
+    "Vacuole",
+    "Nucleus"
+  ],
+  answer: 0,
+},
+{
+  question: "Which cell organelle is mainly involved in secretion and packaging?",
+  options: [
+    "Golgi body",
+    "Mitochondrion",
+    "Ribosome",
+    "Vacuole"
+  ],
+  answer: 0,
+},
+{
+  question: "The cytoskeleton helps the cell to _______.",
+  options: [
+    "store water",
+    "maintain shape and support",
+    "synthesize proteins",
+    "digest waste"
+  ],
+  answer: 1,
+},
+{
+  question: "The function of the nucleolus is to _______.",
+  options: [
+    "produce ribosomes",
+    "control cell activities",
+    "store energy",
+    "digest food"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle is responsible for photosynthesis in plant cells?",
+  options: [
+    "Mitochondrion",
+    "Chloroplast",
+    "Lysosome",
+    "Endoplasmic reticulum"
+  ],
+  answer: 1,
+},
+{
+  question: "The rough endoplasmic reticulum is involved in _______.",
+  options: [
+    "lipid synthesis",
+    "protein synthesis",
+    "DNA replication",
+    "energy production"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of the following organelles contains digestive enzymes?",
+  options: [
+    "Lysosome",
+    "Vacuole",
+    "Golgi body",
+    "Mitochondrion"
+  ],
+  answer: 0,
+},
+{
+  question: "The vacuole of a plant cell contains _______.",
+  options: [
+    "cell sap",
+    "ribosomes",
+    "chromatin",
+    "mitochondria"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle is responsible for energy release through respiration?",
+  options: [
+    "Chloroplast",
+    "Mitochondrion",
+    "Golgi apparatus",
+    "Ribosome"
+  ],
+  answer: 1,
+},
+{
+  question: "The cell membrane is made up mainly of _______.",
+  options: [
+    "lipids and proteins",
+    "cellulose and lignin",
+    "DNA and RNA",
+    "carbohydrates and water"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of the following is not a function of the cytoplasm?",
+  options: [
+    "Transport of materials",
+    "Site of metabolic activities",
+    "Protein synthesis",
+    "Control of cell activities"
+  ],
+  answer: 3,
+},
+{
+  question: "The part of a plant cell that maintains turgidity is the _______.",
+  options: [
+    "vacuole",
+    "chloroplast",
+    "cytoplasm",
+    "cell wall"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle forms the spindle fibers during cell division?",
+  options: [
+    "Centrioles",
+    "Mitochondria",
+    "Golgi body",
+    "Ribosomes"
+  ],
+  answer: 0,
+},
+{
+  question: "The double membrane of mitochondria encloses the _______.",
+  options: [
+    "matrix",
+    "cytoplasm",
+    "nucleolus",
+    "ribosome"
+  ],
+  answer: 0,
+},
+{
+  question: "The main function of the cell wall is to _______.",
+  options: [
+    "protect and support the cell",
+    "produce ATP",
+    "digest food",
+    "transport proteins"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle synthesizes enzymes and hormones?",
+  options: [
+    "Rough ER",
+    "Smooth ER",
+    "Mitochondria",
+    "Chloroplast"
+  ],
+  answer: 1,
+},
+{
+  question: "The cell organelle that converts light energy into chemical energy is _______.",
+  options: [
+    "Chloroplast",
+    "Mitochondrion",
+    "Golgi body",
+    "Endoplasmic reticulum"
+  ],
+  answer: 0,
+},
+{
+  question: "The nucleus is surrounded by a _______.",
+  options: [
+    "cell wall",
+    "nuclear envelope",
+    "cytoplasm",
+    "vacuole"
+  ],
+  answer: 1,
+},
+{
+  question: "The structure that assists in the movement of substances within a cell is _______.",
+  options: [
+    "Endoplasmic reticulum",
+    "Golgi body",
+    "Mitochondrion",
+    "Ribosome"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle is absent in prokaryotic cells?",
+  options: [
+    "Ribosome",
+    "Chloroplast",
+    "Cytoplasm",
+    "Cell membrane"
+  ],
+  answer: 1,
+},
+{
+  question: "The nuclear pores allow _______.",
+  options: [
+    "entry and exit of substances from the nucleus",
+    "attachment of ribosomes",
+    "movement of mitochondria",
+    "photosynthesis"
+  ],
+  answer: 0,
+},
+{
+  question: "The main site of protein synthesis in a cell is the _______.",
+  options: [
+    "Ribosome",
+    "Mitochondria",
+    "Golgi apparatus",
+    "Lysosome"
+  ],
+  answer: 0,
+},
+{
+  question: "The jelly-like substance that forms the living content of the cell is called _______.",
+  options: [
+    "Protoplasm",
+    "Cell wall",
+    "Vacuole",
+    "Chloroplast"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle is responsible for modifying and packaging proteins for secretion?",
+  options: [
+    "Golgi apparatus",
+    "Endoplasmic reticulum",
+    "Ribosome",
+    "Vacuole"
+  ],
+  answer: 0,
+},
+{
+  question: "The cell membrane is involved in _______.",
+  options: [
+    "movement of substances into and out of the cell",
+    "protein synthesis",
+    "energy production",
+    "DNA storage"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle contains enzymes for breaking down macromolecules?",
+  options: [
+    "Lysosome",
+    "Mitochondria",
+    "Vacuole",
+    "Golgi apparatus"
+  ],
+  answer: 0,
+},
+{
+  question: "The plant cell organelle that stores pigments, starch, and proteins is _______.",
+  options: [
+    "Vacuole",
+    "Plastid",
+    "Nucleus",
+    "Chloroplast"
+  ],
+  answer: 1,
+},
+{
+  question: "Which organelle is involved in detoxification in the liver?",
+  options: [
+    "Smooth ER",
+    "Rough ER",
+    "Golgi body",
+    "Mitochondrion"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle is not membrane-bound?",
+  options: [
+    "Ribosome",
+    "Mitochondria",
+    "Chloroplast",
+    "Nucleus"
+  ],
+  answer: 0,
+},
+{
+  question: "Which organelle produces ATP through cellular respiration?",
+  options: [
+    "Mitochondria",
+    "Ribosome",
+    "Chloroplast",
+    "Golgi body"
+  ],
+  answer: 0,
+},
+{
+  question: "The nucleus controls cell activities through _______.",
+  options: [
+    "DNA and RNA",
+    "ATP",
+    "Cytoplasm",
+    "Lysosomes"
+  ],
+  answer: 0,
+},
+
+
+//cell division-meosis and mitosis
+
+{
+  question: "Cell division is necessary for _______.",
+  options: [
+    "growth and repair",
+    "photosynthesis",
+    "respiration",
+    "digestion"
+  ],
+  answer: 0,
+},
+{
+  question: "Which type of cell division produces two identical daughter cells?",
+  options: [
+    "Mitosis",
+    "Meiosis",
+    "Binary fission",
+    "Budding"
+  ],
+  answer: 0,
+},
+{
+  question: "Which phase of mitosis is characterized by the alignment of chromosomes at the equator?",
+  options: [
+    "Prophase",
+    "Metaphase",
+    "Anaphase",
+    "Telophase"
+  ],
+  answer: 1,
+},
+{
+  question: "During which phase of mitosis do sister chromatids separate?",
+  options: [
+    "Prophase",
+    "Metaphase",
+    "Anaphase",
+    "Telophase"
+  ],
+  answer: 2,
+},
+{
+  question: "The nuclear membrane disappears during _______.",
+  options: [
+    "Prophase",
+    "Metaphase",
+    "Anaphase",
+    "Telophase"
+  ],
+  answer: 0,
+},
+{
+  question: "Cytokinesis is the process of _______.",
+  options: [
+    "division of the nucleus",
+    "division of the cytoplasm",
+    "duplication of chromosomes",
+    "alignment of chromosomes"
+  ],
+  answer: 1,
+},
+{
+  question: "Which stage of mitosis is characterized by the formation of two nuclei?",
+  options: [
+    "Prophase",
+    "Metaphase",
+    "Anaphase",
+    "Telophase"
+  ],
+  answer: 3,
+},
+{
+  question: "Which type of cell division reduces chromosome number by half?",
+  options: [
+    "Mitosis",
+    "Meiosis",
+    "Binary fission",
+    "Budding"
+  ],
+  answer: 1,
+},
+{
+  question: "Synapsis occurs during _______.",
+  options: [
+    "Prophase I of meiosis",
+    "Metaphase II of meiosis",
+    "Anaphase I of meiosis",
+    "Telophase of mitosis"
+  ],
+  answer: 0,
+},
+{
+  question: "Crossing over occurs during _______.",
+  options: [
+    "Prophase I of meiosis",
+    "Metaphase I of meiosis",
+    "Anaphase I of meiosis",
+    "Telophase I of meiosis"
+  ],
+  answer: 0,
+},
+{
+  question: "The separation of homologous chromosomes occurs in _______.",
+  options: [
+    "Anaphase I of meiosis",
+    "Anaphase II of meiosis",
+    "Anaphase of mitosis",
+    "Prophase I of meiosis"
+  ],
+  answer: 0,
+},
+{
+  question: "Gametes are produced by _______.",
+  options: [
+    "Mitosis",
+    "Meiosis",
+    "Binary fission",
+    "Budding"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of the following is a diploid cell?",
+  options: [
+    "Gamete",
+    "Zygote",
+    "Sperm",
+    "Egg"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of the following is a haploid cell?",
+  options: [
+    "Zygote",
+    "Sperm",
+    "Skin cell",
+    "Muscle cell"
+  ],
+  answer: 1,
+},
+{
+  question: "Which phase of meiosis is similar to mitosis?",
+  options: [
+    "Meiosis I",
+    "Meiosis II",
+    "Prophase I",
+    "Metaphase I"
+  ],
+  answer: 1,
+},
+{
+  question: "The chiasmata is formed during _______.",
+  options: [
+    "Crossing over in meiosis",
+    "Chromosome replication",
+    "Spindle formation",
+    "Telophase"
+  ],
+  answer: 0,
+},
+{
+  question: "Independent assortment occurs during _______.",
+  options: [
+    "Metaphase I of meiosis",
+    "Metaphase II of meiosis",
+    "Metaphase of mitosis",
+    "Prophase II of meiosis"
+  ],
+  answer: 0,
+},
+{
+  question: "A zygote is formed by the fusion of _______.",
+  options: [
+    "Two somatic cells",
+    "Sperm and egg",
+    "Two sperm cells",
+    "Two egg cells"
+  ],
+  answer: 1,
+},
+{
+  question: "Which stage of meiosis produces four haploid cells?",
+  options: [
+    "Telophase I",
+    "Telophase II",
+    "Anaphase I",
+    "Anaphase II"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of the following is true about mitosis?",
+  options: [
+    "It produces gametes",
+    "It reduces chromosome number",
+    "It produces genetically identical cells",
+    "It occurs only in reproductive organs"
+  ],
+  answer: 2,
+},
+{
+  question: "Which of the following is true about meiosis?",
+  options: [
+    "It produces somatic cells",
+    "It maintains chromosome number",
+    "It produces genetically varied gametes",
+    "It occurs in skin cells"
+  ],
+  answer: 2,
+},
+{
+  question: "The stage when chromosomes become visible is _______.",
+  options: [
+    "Prophase",
+    "Metaphase",
+    "Anaphase",
+    "Telophase"
+  ],
+  answer: 0,
+},
+{
+  question: "The structure that attaches chromatids to spindle fibers is the _______.",
+  options: [
+    "Centromere",
+    "Kinetochore",
+    "Chromatin",
+    "Nucleolus"
+  ],
+  answer: 0,
+},
+{
+  question: "Which stage of mitosis involves movement of chromosomes toward opposite poles?",
+  options: [
+    "Prophase",
+    "Metaphase",
+    "Anaphase",
+    "Telophase"
+  ],
+  answer: 2,
+},
+{
+  question: "The end product of meiosis is _______.",
+  options: [
+    "Two diploid cells",
+    "Four haploid cells",
+    "One diploid cell",
+    "Two haploid cells"
+  ],
+  answer: 1,
+},
+{
+  question: "Which phase of meiosis involves pairing of homologous chromosomes?",
+  options: [
+    "Prophase I",
+    "Prophase II",
+    "Metaphase I",
+    "Telophase II"
+  ],
+  answer: 0,
+},
+{
+  question: "The number of chromosomes in human gametes is _______.",
+  options: [
+    "23",
+    "46",
+    "92",
+    "12"
+  ],
+  answer: 0,
+},
+{
+  question: "The number of chromosomes in human somatic cells is _______.",
+  options: [
+    "23",
+    "46",
+    "92",
+    "12"
+  ],
+  answer: 1,
+},
+{
+  question: "Which stage of meiosis is responsible for genetic recombination?",
+  options: [
+    "Prophase I",
+    "Metaphase I",
+    "Anaphase II",
+    "Telophase II"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of the following events does not occur in mitosis?",
+  options: [
+    "Chromosome replication",
+    "Crossing over",
+    "Spindle formation",
+    "Nuclear division"
+  ],
+  answer: 1,
+},
+{
+  question: "During which phase do homologous chromosomes separate?",
+  options: [
+    "Anaphase I",
+    "Anaphase II",
+    "Telophase I",
+    "Prophase II"
+  ],
+  answer: 0,
+},
+{
+  question: "Reduction division occurs in _______.",
+  options: [
+    "Mitosis",
+    "Meiosis I",
+    "Meiosis II",
+    "Binary fission"
+  ],
+  answer: 1,
+},
+{
+  question: "The process that ensures each gamete gets only one chromosome from each pair is called _______.",
+  options: [
+    "Crossing over",
+    "Independent assortment",
+    "Replication",
+    "Synapsis"
+  ],
+  answer: 1,
+},
+{
+  question: "Chromatids are joined at the _______.",
+  options: [
+    "Centromere",
+    "Nucleolus",
+    "Spindle fiber",
+    "Cytoplasm"
+  ],
+  answer: 0,
+},
+{
+  question: "The main purpose of mitosis in multicellular organisms is _______.",
+  options: [
+    "production of gametes",
+    "growth and repair",
+    "variation",
+    "fertilization"
+  ],
+  answer: 1,
+},
+{
+  question: "The stage in which chromosomes line up at the equatorial plane is _______.",
+  options: [
+    "Metaphase",
+    "Anaphase",
+    "Prophase",
+    "Telophase"
+  ],
+  answer: 0,
+},
+{
+  question: "During which stage do chromosomes condense and become visible?",
+  options: [
+    "Prophase",
+    "Metaphase",
+    "Anaphase",
+    "Telophase"
+  ],
+  answer: 0,
+},
+{
+  question: "Spindle fibers are formed from _______.",
+  options: [
+    "Centrioles",
+    "Ribosomes",
+    "Mitochondria",
+    "Chloroplasts"
+  ],
+  answer: 0,
+},
+{
+  question: "The difference between meiosis I and meiosis II is _______.",
+  options: [
+    "Meiosis I is reductional; Meiosis II is equational",
+    "Meiosis I is equational; Meiosis II is reductional",
+    "Both are reductional",
+    "Both are equational"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of the following occurs in meiosis II?",
+  options: [
+    "Separation of sister chromatids",
+    "Synapsis",
+    "Crossing over",
+    "Independent assortment"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of the following is a result of meiosis?",
+  options: [
+    "Genetically identical cells",
+    "Genetically diverse gametes",
+    "Somatic cells",
+    "Clones"
+  ],
+  answer: 1,
+},
+{
+  question: "During telophase of mitosis, _______ reforms around chromosomes.",
+  options: [
+    "nuclear membrane",
+    "spindle fibers",
+    "chromatids",
+    "centromere"
+  ],
+  answer: 0,
+},
+{
+  question: "Mitosis ensures that _______.",
+  options: [
+    "chromosome number is maintained",
+    "gametes are produced",
+    "chromosomes are halved",
+    "crossing over occurs"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of the following occurs only in meiosis?",
+  options: [
+    "Chromosome replication",
+    "Crossing over",
+    "Chromosome alignment",
+    "Spindle formation"
+  ],
+  answer: 1,
+},
+{
+  question: "Fertilization restores the diploid number of chromosomes in _______.",
+  options: [
+    "zygote",
+    "gametes",
+    "somatic cells",
+    "sperm"
+  ],
+  answer: 0,
+},
+{
+  question: "Which stage of meiosis involves the separation of sister chromatids?",
+  options: [
+    "Meiosis I",
+    "Meiosis II",
+    "Prophase I",
+    "Metaphase I"
+  ],
+  answer: 1,
+},
+{
+  question: "Genetic variation arises in meiosis due to _______.",
+  options: [
+    "crossing over and independent assortment",
+    "chromosome replication",
+    "mitosis",
+    "cytokinesis"
+  ],
+  answer: 0,
+},
+{
+  question: "During which phase does the nuclear envelope break down?",
+  options: [
+    "Prophase",
+    "Metaphase",
+    "Anaphase",
+    "Telophase"
+  ],
+  answer: 0,
+},
+{
+  question: "The spindle apparatus is responsible for _______.",
+  options: [
+    "chromosome movement",
+    "protein synthesis",
+    "DNA replication",
+    "cell growth"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of the following correctly describes meiosis II?",
+  options: [
+    "Equational division producing haploid cells",
+    "Reduction division producing diploid cells",
+    "Replication of DNA",
+    "Fusion of gametes"
+  ],
+  answer: 0,
+},
+{
+  question: "Which type of cell division occurs in somatic cells?",
+  options: [
+    "Mitosis",
+    "Meiosis",
+    "Gamete formation",
+    "Fertilization"
+  ],
+  answer: 0,
+},
+{
+  question: "Which type of cell division is involved in sexual reproduction?",
+  options: [
+    "Mitosis",
+    "Meiosis",
+    "Binary fission",
+    "Budding"
+  ],
+  answer: 1,
+},
+{
+  question: "The chromosomes become double-stranded after _______.",
+  options: [
+    "DNA replication",
+    "Crossing over",
+    "Metaphase",
+    "Anaphase"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of the following stages occurs in both mitosis and meiosis?",
+  options: [
+    "Prophase",
+    "Synapsis",
+    "Crossing over",
+    "Reduction division"
+  ],
+  answer: 0,
+},
+{
+  question: "Which stage of meiosis is responsible for halving the chromosome number?",
+  options: [
+    "Meiosis I",
+    "Meiosis II",
+    "Prophase II",
+    "Telophase II"
+  ],
+  answer: 0,
+},
+{
+  question: "Which type of cell division ensures growth and repair in multicellular organisms?",
+  options: [
+    "Mitosis",
+    "Meiosis",
+    "Binary fission",
+    "Budding"
+  ],
+  answer: 0,
+},
+{
+  question: "The phase of meiosis in which chromatids separate is _______.",
+  options: [
+    "Anaphase II",
+    "Anaphase I",
+    "Metaphase I",
+    "Telophase I"
+  ],
+  answer: 0,
+},
+{
+  question: "Which stage of meiosis produces haploid daughter cells?",
+  options: [
+    "Telophase II",
+    "Telophase I",
+    "Metaphase I",
+    "Prophase II"
+  ],
+  answer: 0,
+},
+{
+  question: "The major difference between mitosis and meiosis is _______.",
+  options: [
+    "Mitosis produces identical cells; meiosis produces varied gametes",
+    "Mitosis occurs only in reproductive cells",
+    "Mitosis reduces chromosome number",
+    "Meiosis occurs only in somatic cells"
+  ],
+  answer: 0,
+},
+
+
+//tissue and supportive system
+
+{
+  question: "Tissues are _______.",
+  options: [
+    "groups of similar cells performing a common function",
+    "a collection of organs",
+    "cells with different functions",
+    "organs performing the same function"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of the following is a plant tissue?",
+  options: [
+    "Xylem",
+    "Blood",
+    "Cartilage",
+    "Muscle"
+  ],
+  answer: 0,
+},
+{
+  question: "Which tissue in plants is responsible for transport of water?",
+  options: [
+    "Phloem",
+    "Xylem",
+    "Parenchyma",
+    "Collenchyma"
+  ],
+  answer: 1,
+},
+{
+  question: "Phloem transports _______ in plants.",
+  options: [
+    "Water",
+    "Minerals",
+    "Food",
+    "Oxygen"
+  ],
+  answer: 2,
+},
+{
+  question: "Parenchyma cells are mainly involved in _______.",
+  options: [
+    "support",
+    "photosynthesis and storage",
+    "water transport",
+    "conduction of impulses"
+  ],
+  answer: 1,
+},
+{
+  question: "Collenchyma provides _______ to plant organs.",
+  options: [
+    "rigid support",
+    "flexible support",
+    "water storage",
+    "transport of food"
+  ],
+  answer: 1,
+},
+{
+  question: "Sclerenchyma cells are _______.",
+  options: [
+    "living and flexible",
+    "dead and lignified",
+    "photosynthetic",
+    "parenchymatous"
+  ],
+  answer: 1,
+},
+{
+  question: "The tissue that connects bones to muscles is _______.",
+  options: [
+    "Tendon",
+    "Ligament",
+    "Cartilage",
+    "Bone"
+  ],
+  answer: 0,
+},
+{
+  question: "Ligaments connect _______.",
+  options: [
+    "muscle to muscle",
+    "bone to bone",
+    "muscle to bone",
+    "bone to cartilage"
+  ],
+  answer: 1,
+},
+{
+  question: "Which type of muscle is involuntary and non-striated?",
+  options: [
+    "Skeletal",
+    "Cardiac",
+    "Smooth",
+    "Striated"
+  ],
+  answer: 2,
+},
+{
+  question: "Cardiac muscle is found in the _______.",
+  options: [
+    "heart",
+    "lungs",
+    "stomach",
+    "biceps"
+  ],
+  answer: 0,
+},
+{
+  question: "Skeletal muscles are under _______ control.",
+  options: [
+    "involuntary",
+    "voluntary",
+    "autonomic",
+    "reflex"
+  ],
+  answer: 1,
+},
+{
+  question: "Which connective tissue stores fat?",
+  options: [
+    "Adipose tissue",
+    "Cartilage",
+    "Bone",
+    "Ligament"
+  ],
+  answer: 0,
+},
+{
+  question: "Which connective tissue cushions joints?",
+  options: [
+    "Cartilage",
+    "Bone",
+    "Tendon",
+    "Ligament"
+  ],
+  answer: 0,
+},
+{
+  question: "Which connective tissue connects bones to bones?",
+  options: [
+    "Tendon",
+    "Ligament",
+    "Cartilage",
+    "Adipose"
+  ],
+  answer: 1,
+},
+{
+  question: "Epithelial tissue functions mainly in _______.",
+  options: [
+    "covering and protection",
+    "support",
+    "transport",
+    "movement"
+  ],
+  answer: 0,
+},
+{
+  question: "Simple squamous epithelium is adapted for _______.",
+  options: [
+    "diffusion",
+    "contraction",
+    "transport",
+    "storage"
+  ],
+  answer: 0,
+},
+{
+  question: "Cuboidal epithelium is mainly involved in _______.",
+  options: [
+    "absorption and secretion",
+    "protection",
+    "support",
+    "transport"
+  ],
+  answer: 0,
+},
+{
+  question: "Columnar epithelium is found lining the _______.",
+  options: [
+    "small intestine",
+    "lungs",
+    "heart",
+    "kidney"
+  ],
+  answer: 0,
+},
+{
+  question: "Ciliated epithelium is specialized for _______.",
+  options: [
+    "movement of substances along surfaces",
+    "protection",
+    "photosynthesis",
+    "conduction of impulses"
+  ],
+  answer: 0,
+},
+{
+  question: "Which connective tissue provides rigid support to the body?",
+  options: [
+    "Bone",
+    "Cartilage",
+    "Ligament",
+    "Adipose"
+  ],
+  answer: 0,
+},
+{
+  question: "Cartilage differs from bone because it is _______.",
+  options: [
+    "softer and flexible",
+    "hard and rigid",
+    "vascular",
+    "mineralized"
+  ],
+  answer: 0,
+},
+{
+  question: "Which tissue forms the outer layer of skin?",
+  options: [
+    "Epithelial",
+    "Muscle",
+    "Connective",
+    "Nervous"
+  ],
+  answer: 0,
+},
+{
+  question: "Which tissue forms tendons and ligaments?",
+  options: [
+    "Connective",
+    "Muscle",
+    "Epithelial",
+    "Nervous"
+  ],
+  answer: 0,
+},
+{
+  question: "Adipose tissue is mainly composed of _______.",
+  options: [
+    "fat cells",
+    "bone cells",
+    "cartilage",
+    "muscle fibers"
+  ],
+  answer: 0,
+},
+{
+  question: "Which connective tissue provides cushioning in joints?",
+  options: [
+    "Cartilage",
+    "Bone",
+    "Tendon",
+    "Ligament"
+  ],
+  answer: 0,
+},
+{
+  question: "Which plant tissue is responsible for transporting organic food?",
+  options: [
+    "Xylem",
+    "Phloem",
+    "Collenchyma",
+    "Sclerenchyma"
+  ],
+  answer: 1,
+},
+{
+  question: "Which plant tissue is dead at maturity and lignified?",
+  options: [
+    "Sclerenchyma",
+    "Collenchyma",
+    "Parenchyma",
+    "Xylem"
+  ],
+  answer: 0,
+},
+{
+  question: "Collenchyma tissue provides _______.",
+  options: [
+    "flexible support",
+    "rigid support",
+    "transport",
+    "absorption"
+  ],
+  answer: 0,
+},
+{
+  question: "Which tissue connects plant cells for communication?",
+  options: [
+    "Plasmodesmata",
+    "Phloem",
+    "Xylem",
+    "Sclerenchyma"
+  ],
+  answer: 0,
+},
+{
+  question: "Blood is classified as a _______ tissue.",
+  options: [
+    "connective",
+    "epithelial",
+    "muscle",
+    "nervous"
+  ],
+  answer: 0,
+},
+{
+  question: "Which connective tissue transports oxygen and nutrients?",
+  options: [
+    "Blood",
+    "Cartilage",
+    "Bone",
+    "Ligament"
+  ],
+  answer: 0,
+},
+{
+  question: "Which connective tissue resists mechanical stress?",
+  options: [
+    "Bone",
+    "Cartilage",
+    "Ligament",
+    "Adipose"
+  ],
+  answer: 2,
+},
+{
+  question: "Smooth muscle is found in the _______.",
+  options: [
+    "stomach and intestines",
+    "biceps",
+    "heart",
+    "lungs"
+  ],
+  answer: 0,
+},
+{
+  question: "Cardiac muscle is adapted to _______.",
+  options: [
+    "continuous rhythmic contraction",
+    "rapid voluntary movement",
+    "support",
+    "absorption"
+  ],
+  answer: 0,
+},
+{
+  question: "Which tissue detects stimuli and conducts impulses?",
+  options: [
+    "Nervous tissue",
+    "Muscle tissue",
+    "Epithelial tissue",
+    "Connective tissue"
+  ],
+  answer: 0,
+},
+{
+  question: "Neurons consist of a cell body, dendrites, and _______.",
+  options: [
+    "axon",
+    "myosin",
+    "collagen",
+    "cartilage"
+  ],
+  answer: 0,
+},
+{
+  question: "Which tissue is responsible for voluntary movement?",
+  options: [
+    "Skeletal muscle",
+    "Cardiac muscle",
+    "Smooth muscle",
+    "Connective tissue"
+  ],
+  answer: 0,
+},
+{
+  question: "Which plant tissue is responsible for mechanical strength?",
+  options: [
+    "Sclerenchyma",
+    "Parenchyma",
+    "Collenchyma",
+    "Xylem"
+  ],
+  answer: 0,
+},
+{
+  question: "Phloem consists of sieve tubes, companion cells, and _______.",
+  options: [
+    "fibers",
+    "xylem vessels",
+    "parenchyma",
+    "collenchyma"
+  ],
+  answer: 0,
+},
+{
+  question: "Xylem vessels are dead at maturity to allow _______.",
+  options: [
+    "efficient water transport",
+    "food storage",
+    "photosynthesis",
+    "flexibility"
+  ],
+  answer: 0,
+},
+{
+  question: "Sclerenchyma fibers provide _______.",
+  options: [
+    "mechanical support",
+    "photosynthesis",
+    "water storage",
+    "conduction of food"
+  ],
+  answer: 0,
+},
+{
+  question: "Which plant tissue allows flexibility in growing stems and leaves?",
+  options: [
+    "Collenchyma",
+    "Sclerenchyma",
+    "Parenchyma",
+    "Xylem"
+  ],
+  answer: 0,
+},
+{
+  question: "Which connective tissue forms the skeleton of the body?",
+  options: [
+    "Bone",
+    "Cartilage",
+    "Ligament",
+    "Tendon"
+  ],
+  answer: 0,
+},
+{
+  question: "Cartilage is found in the _______.",
+  options: [
+    "nose and ears",
+    "bones",
+    "ligaments",
+    "muscles"
+  ],
+  answer: 0,
+},
+{
+  question: "Tendons connect _______.",
+  options: [
+    "muscle to bone",
+    "bone to bone",
+    "muscle to muscle",
+    "cartilage to bone"
+  ],
+  answer: 0,
+},
+{
+  question: "The main function of ligaments is to _______.",
+  options: [
+    "connect bone to bone",
+    "connect muscle to bone",
+    "store fat",
+    "transport oxygen"
+  ],
+  answer: 0,
+},
+{
+  question: "Which tissue forms the linings of body cavities?",
+  options: [
+    "Epithelial",
+    "Connective",
+    "Muscle",
+    "Nervous"
+  ],
+  answer: 0,
+},
+{
+  question: "Which connective tissue stores energy in the form of fat?",
+  options: [
+    "Adipose",
+    "Bone",
+    "Cartilage",
+    "Ligament"
+  ],
+  answer: 0,
+},
+{
+  question: "Which tissue allows conduction of impulses in animals?",
+  options: [
+    "Nervous",
+    "Muscle",
+    "Epithelial",
+    "Connective"
+  ],
+  answer: 0,
+},
+{
+  question: "Which tissue is responsible for voluntary and involuntary movements?",
+  options: [
+    "Muscle tissue",
+    "Connective tissue",
+    "Epithelial tissue",
+    "Nervous tissue"
+  ],
+  answer: 0,
+},
+{
+  question: "Which tissue forms protective coverings in plants?",
+  options: [
+    "Epidermal tissue",
+    "Collenchyma",
+    "Sclerenchyma",
+    "Parenchyma"
+  ],
+  answer: 0,
+},
+{
+  question: "Phloem is made up of sieve tubes, companion cells, and _______.",
+  options: [
+    "fibres",
+    "xylem",
+    "parenchyma",
+    "collenchyma"
+  ],
+  answer: 0,
+},
+{
+  question: "Xylem consists of vessels, tracheids, xylem parenchyma, and _______.",
+  options: [
+    "fibres",
+    "phloem",
+    "sieve tubes",
+    "companion cells"
+  ],
+  answer: 0,
+},
+{
+  question: "The tissue that supports soft plant parts and stores food is _______.",
+  options: [
+    "Parenchyma",
+    "Collenchyma",
+    "Sclerenchyma",
+    "Xylem"
+  ],
+  answer: 0,
+},
+{
+  question: "The main role of collenchyma in plants is to provide _______.",
+  options: [
+    "flexible support",
+    "rigid support",
+    "photosynthesis",
+    "food transport"
+  ],
+  answer: 0,
+},
+{
+  question: "Adipose tissue is found beneath the _______.",
+  options: [
+    "skin",
+    "bone",
+    "cartilage",
+    "muscle"
+  ],
+  answer: 0,
+},
+{
+  question: "Which connective tissue forms the external ear?",
+  options: [
+    "Cartilage",
+    "Bone",
+    "Ligament",
+    "Adipose"
+  ],
+  answer: 0,
+},
+{
+  question: "Which connective tissue forms the skeleton of the trachea?",
+  options: [
+    "Cartilage",
+    "Bone",
+    "Ligament",
+    "Tendon"
+  ],
+  answer: 0,
+},
+{
+  question: "Smooth muscle is found in the _______.",
+  options: [
+    "intestine and stomach",
+    "biceps",
+    "heart",
+    "ligaments"
+  ],
+  answer: 0,
+},
+{
+  question: "Which tissue is responsible for voluntary movement in animals?",
+  options: [
+    "Skeletal muscle",
+    "Cardiac muscle",
+    "Smooth muscle",
+    "Connective tissue"
+  ],
+  answer: 0,
+},
+{
+  question: "The tissue responsible for transmitting impulses in animals is _______.",
+  options: [
+    "Nervous tissue",
+    "Muscle tissue",
+    "Epithelial tissue",
+    "Connective tissue"
+  ],
+  answer: 0,
+},
+{
+  question: "Which plant tissue protects young organs and reduces water loss?",
+  options: [
+    "Epidermal tissue",
+    "Parenchyma",
+    "Sclerenchyma",
+    "Collenchyma"
+  ],
+  answer: 0,
+},
+
+{
+  question: "Which connective tissue connects muscles to bones?",
+  options: ["Ligament", "Tendon", "Cartilage", "Adipose"],
+  answer: 1,
+},
+{
+  question: "Which connective tissue connects bones to bones?",
+  options: ["Tendon", "Ligament", "Cartilage", "Bone"],
+  answer: 1,
+},
+{
+  question: "Cartilage provides _______ in joints.",
+  options: ["rigid support", "flexible cushioning", "rigid and brittle structure", "water transport"],
+  answer: 1,
+},
+{
+  question: "Bone is a connective tissue that is _______.",
+  options: ["rigid and mineralized", "soft and flexible", "non-vascular", "non-living"],
+  answer: 0,
+},
+{
+  question: "The main function of adipose tissue is to _______.",
+  options: ["store fat and energy", "transport oxygen", "provide rigid support", "connect bones to muscles"],
+  answer: 0,
+},
+{
+  question: "Which type of muscle is striated and voluntary?",
+  options: ["Skeletal", "Cardiac", "Smooth", "Ligament"],
+  answer: 0,
+},
+{
+  question: "Cardiac muscle is characterized by _______.",
+  options: ["striated and involuntary", "striated and voluntary", "non-striated and voluntary", "non-striated and involuntary"],
+  answer: 0,
+},
+{
+  question: "Smooth muscle is found in _______.",
+  options: ["walls of intestines and stomach", "biceps", "heart", "ligaments"],
+  answer: 0,
+},
+{
+  question: "Nervous tissue consists of neurons and _______.",
+  options: ["neuroglia", "ligaments", "adipose", "cartilage"],
+  answer: 0,
+},
+{
+  question: "The main function of nervous tissue is to _______.",
+  options: ["conduct impulses", "store fat", "provide support", "contract"],
+  answer: 0,
+},
+{
+  question: "Epithelial tissue is adapted for _______.",
+  options: ["covering and protection", "support", "conduction", "movement"],
+  answer: 0,
+},
+{
+  question: "Simple squamous epithelium is suited for _______.",
+  options: ["diffusion", "contraction", "storage", "protection"],
+  answer: 0,
+},
+{
+  question: "Cuboidal epithelium is involved in _______.",
+  options: ["secretion and absorption", "conduction", "rigid support", "transport"],
+  answer: 0,
+},
+{
+  question: "Columnar epithelium is found lining the _______.",
+  options: ["small intestine", "lungs", "heart", "kidney"],
+  answer: 0,
+},
+{
+  question: "Ciliated epithelium helps in _______.",
+  options: ["movement of substances along surfaces", "protection", "conduction", "rigid support"],
+  answer: 0,
+},
+{
+  question: "Which connective tissue provides mechanical strength to the body?",
+  options: ["Bone", "Cartilage", "Ligament", "Adipose"],
+  answer: 0,
+},
+{
+  question: "Which connective tissue cushions bones at joints?",
+  options: ["Cartilage", "Bone", "Ligament", "Adipose"],
+  answer: 0,
+},
+{
+  question: "Which connective tissue stores energy and insulates the body?",
+  options: ["Adipose", "Cartilage", "Bone", "Ligament"],
+  answer: 0,
+},
+{
+  question: "Which plant tissue is involved in transporting water?",
+  options: ["Xylem", "Phloem", "Collenchyma", "Sclerenchyma"],
+  answer: 0,
+},
+{
+  question: "Which plant tissue transports food from leaves to other parts?",
+  options: ["Phloem", "Xylem", "Parenchyma", "Collenchyma"],
+  answer: 0,
+},
+{
+  question: "Parenchyma cells function mainly in _______.",
+  options: ["photosynthesis, storage and secretion", "support", "transport", "rigid protection"],
+  answer: 0,
+},
+{
+  question: "Collenchyma provides _______ to growing plant parts.",
+  options: ["flexible support", "rigid support", "water transport", "food conduction"],
+  answer: 0,
+},
+{
+  question: "Sclerenchyma provides _______ to plant organs.",
+  options: ["rigid mechanical support", "flexible support", "water transport", "photosynthesis"],
+  answer: 0,
+},
+{
+  question: "The main function of sieve tubes in phloem is _______.",
+  options: ["transport of organic food", "transport of water", "photosynthesis", "storage"],
+  answer: 0,
+},
+{
+  question: "Companion cells in phloem function to _______.",
+  options: ["support sieve tubes", "transport water", "provide mechanical strength", "store food"],
+  answer: 0,
+},
+{
+  question: "Xylem vessels are dead at maturity to allow _______.",
+  options: ["efficient water conduction", "rigid support", "food transport", "photosynthesis"],
+  answer: 0,
+},
+{
+  question: "Sclerenchyma fibers are mainly for _______.",
+  options: ["mechanical support", "photosynthesis", "water transport", "conduction of food"],
+  answer: 0,
+},
+{
+  question: "Which tissue stores starch in plants?",
+  options: ["Parenchyma", "Collenchyma", "Sclerenchyma", "Xylem"],
+  answer: 0,
+},
+{
+  question: "Which connective tissue protects internal organs?",
+  options: ["Bone", "Cartilage", "Adipose", "Ligament"],
+  answer: 2,
+},
+{
+  question: "Ligaments are composed mainly of _______.",
+  options: ["collagen fibers", "elastin fibers", "bone", "cartilage"],
+  answer: 0,
+},
+{
+  question: "Tendons are made of _______.",
+  options: ["dense fibrous connective tissue", "cartilage", "bone", "adipose"],
+  answer: 0,
+},
+{
+  question: "Smooth muscles are under _______ control.",
+  options: ["involuntary", "voluntary", "conscious", "striated"],
+  answer: 0,
+},
+{
+  question: "Skeletal muscles are attached to bones by _______.",
+  options: ["tendons", "ligaments", "cartilage", "adipose"],
+  answer: 0,
+},
+{
+  question: "Which muscle type is responsible for peristalsis in the gut?",
+  options: ["Smooth muscle", "Skeletal muscle", "Cardiac muscle", "Ligament"],
+  answer: 0,
+},
+{
+  question: "Cardiac muscle cells are connected by _______.",
+  options: ["intercalated discs", "tendons", "ligaments", "fibers"],
+  answer: 0,
+},
+{
+  question: "Neurons transmit impulses from _______ to target cells.",
+  options: ["dendrites to axon", "axon to dendrites", "cell body to axon", "axon to cell body"],
+  answer: 0,
+},
+{
+  question: "Neuroglia function to _______.",
+  options: ["support and nourish neurons", "contract muscles", "connect bones", "transport food"],
+  answer: 0,
+},
+{
+  question: "The outer protective layer of plant stems is formed by _______.",
+  options: ["epidermal tissue", "collenchyma", "sclerenchyma", "xylem"],
+  answer: 0,
+},
+{
+  question: "Which connective tissue has a matrix rich in calcium salts?",
+  options: ["Bone", "Cartilage", "Ligament", "Adipose"],
+  answer: 0,
+},
+{
+  question: "Which connective tissue is avascular?",
+  options: ["Cartilage", "Bone", "Blood", "Ligament"],
+  answer: 0,
+},
+{
+  question: "Which muscle tissue has striations and involuntary control?",
+  options: ["Cardiac", "Skeletal", "Smooth", "Tendon"],
+  answer: 0,
+},
+{
+  question: "Adipose tissue acts as _______ in animals.",
+  options: ["insulation and energy storage", "transport tissue", "protective layer", "muscle fiber"],
+  answer: 0,
+},
+{
+  question: "Which tissue forms the myelin sheath around neurons?",
+  options: ["Neuroglia", "Neuron", "Ligament", "Bone"],
+  answer: 0,
+},
+{
+  question: "The function of connective tissue is mainly _______.",
+  options: ["support, binding, and protection", "transport, absorption, and secretion", "conduction of impulses", "movement"],
+  answer: 0,
+},
+{
+  question: "The plant tissue that forms wood is mainly _______.",
+  options: ["Xylem", "Phloem", "Collenchyma", "Parenchyma"],
+  answer: 0,
+},
+{
+  question: "Phloem conducts food mainly in the form of _______.",
+  options: ["sucrose", "water", "amino acids", "minerals"],
+  answer: 0,
+},
+{
+  question: "Collenchyma cells are living at maturity and provide _______.",
+  options: ["flexible support", "rigid support", "transport", "photosynthesis"],
+  answer: 0,
+},
+{
+  question: "Sclerenchyma cells are dead at maturity and provide _______.",
+  options: ["rigid mechanical support", "flexible support", "photosynthesis", "food transport"],
+  answer: 0,
+},
+{
+  question: "Epithelial tissue lines the _______.",
+  options: ["body surfaces and cavities", "muscles", "bones", "cartilage"],
+  answer: 0,
+},
+{
+  question: "Which connective tissue forms the tendons and ligaments?",
+  options: ["Dense fibrous connective tissue", "Adipose", "Cartilage", "Bone"],
+  answer: 0,
+},
+{
+  question: "Which muscle tissue is multinucleated and striated?",
+  options: ["Skeletal muscle", "Cardiac muscle", "Smooth muscle", "Ligament"],
+  answer: 0,
+},
+{
+  question: "The main function of epidermis in plants is _______.",
+  options: ["protection and water loss prevention", "transport of water", "support", "photosynthesis"],
+  answer: 0,
+},
+
+//nervous and hormonal coordination 
+
+{
+  question: "The basic structural and functional unit of the nervous system is the _______.",
+  options: ["Neuron", "Axon", "Dendrite", "Synapse"],
+  answer: 0,
+},
+{
+  question: "The junction between two neurons is called a _______.",
+  options: ["Synapse", "Axon", "Dendrite", "Neuron"],
+  answer: 0,
+},
+{
+  question: "The part of the neuron that receives impulses from other neurons is the _______.",
+  options: ["Dendrite", "Axon", "Cell body", "Synapse"],
+  answer: 0,
+},
+{
+  question: "The part of the neuron that transmits impulses away from the cell body is the _______.",
+  options: ["Axon", "Dendrite", "Synapse", "Cell body"],
+  answer: 0,
+},
+{
+  question: "The cell body of a neuron contains the _______.",
+  options: ["nucleus", "axon", "synapse", "dendrite"],
+  answer: 0,
+},
+{
+  question: "Myelin sheath functions to _______.",
+  options: ["increase the speed of impulse conduction", "protect the dendrites", "store neurotransmitters", "connect neurons"],
+  answer: 0,
+},
+{
+  question: "Gaps in the myelin sheath are called _______.",
+  options: ["Nodes of Ranvier", "Synapses", "Axon terminals", "Dendrites"],
+  answer: 0,
+},
+{
+  question: "The resting potential of a neuron is maintained by _______.",
+  options: ["sodium-potassium pump", "diffusion only", "synapses", "axons"],
+  answer: 0,
+},
+{
+  question: "The all-or-none law of neurons states that _______.",
+  options: ["a neuron either fires completely or not at all", "a neuron can fire partially", "all neurons fire together", "neurons can stop firing voluntarily"],
+  answer: 0,
+},
+{
+  question: "Reflex action is _______.",
+  options: ["a rapid, automatic response to a stimulus", "a voluntary response", "controlled by the brain only", "slow and deliberate"],
+  answer: 0,
+},
+{
+  question: "The central nervous system consists of the _______.",
+  options: ["brain and spinal cord", "brain only", "spinal cord only", "nerves throughout the body"],
+  answer: 0,
+},
+{
+  question: "The peripheral nervous system consists of _______.",
+  options: ["all nerves outside the brain and spinal cord", "brain only", "spinal cord only", "neurons inside the brain"],
+  answer: 0,
+},
+{
+  question: "Sensory neurons carry impulses _______.",
+  options: ["from receptors to the CNS", "from CNS to effectors", "between muscles", "between glands"],
+  answer: 0,
+},
+{
+  question: "Motor neurons carry impulses _______.",
+  options: ["from CNS to effectors", "from receptors to CNS", "between neurons", "between glands"],
+  answer: 0,
+},
+{
+  question: "Interneurons are found _______.",
+  options: ["within the CNS", "between CNS and muscles", "in muscles", "in glands"],
+  answer: 0,
+},
+{
+  question: "The cerebrum is responsible for _______.",
+  options: ["thought, memory, and voluntary actions", "balance and coordination", "breathing", "heartbeat"],
+  answer: 0,
+},
+{
+  question: "The cerebellum controls _______.",
+  options: ["balance and coordination", "thought and memory", "vision", "hearing"],
+  answer: 0,
+},
+{
+  question: "The medulla oblongata controls _______.",
+  options: ["heartbeat and breathing", "thinking", "balance", "sight"],
+  answer: 0,
+},
+{
+  question: "The hypothalamus regulates _______.",
+  options: ["body temperature, hunger, and thirst", "balance", "voluntary movement", "hearing"],
+  answer: 0,
+},
+{
+  question: "The reflex arc typically involves _______ neurons.",
+  options: ["sensory, motor, and interneurons", "only motor", "only sensory", "only interneurons"],
+  answer: 0,
+},
+{
+  question: "A hormone is _______.",
+  options: ["a chemical messenger secreted into the blood", "an electrical impulse", "a neurotransmitter", "a muscle contraction"],
+  answer: 0,
+},
+{
+  question: "Endocrine glands secrete hormones _______.",
+  options: ["directly into the blood", "into ducts", "into muscles", "into the brain"],
+  answer: 0,
+},
+{
+  question: "Exocrine glands secrete their products _______.",
+  options: ["through ducts to body surfaces or cavities", "into the blood", "into muscles", "into the brain"],
+  answer: 0,
+},
+{
+  question: "The pancreas is both an endocrine and exocrine gland because it _______.",
+  options: ["secretes insulin and digestive enzymes", "only secretes insulin", "only secretes digestive enzymes", "does not secrete hormones"],
+  answer: 0,
+},
+{
+  question: "Insulin is secreted by the _______ cells of the pancreas.",
+  options: ["beta", "alpha", "delta", "gamma"],
+  answer: 0,
+},
+{
+  question: "Glucagon is secreted by the _______ cells of the pancreas.",
+  options: ["alpha", "beta", "delta", "gamma"],
+  answer: 0,
+},
+{
+  question: "The pituitary gland is often called the _______.",
+  options: ["master gland", "slave gland", "adrenal gland", "thyroid gland"],
+  answer: 0,
+},
+{
+  question: "Thyroxine is secreted by the _______.",
+  options: ["thyroid gland", "parathyroid gland", "pituitary gland", "adrenal gland"],
+  answer: 0,
+},
+{
+  question: "Adrenaline is secreted by the _______.",
+  options: ["adrenal glands", "thyroid gland", "pituitary gland", "pancreas"],
+  answer: 0,
+},
+{
+  question: "The function of thyroxine is to _______.",
+  options: ["regulate metabolism", "control blood sugar", "stimulate muscle contraction", "control heart rate"],
+  answer: 0,
+},
+{
+  question: "The parathyroid glands regulate _______.",
+  options: ["calcium levels in the blood", "blood sugar", "heart rate", "metabolism"],
+  answer: 0,
+},
+{
+  question: "The adrenal cortex secretes _______.",
+  options: ["cortisol and aldosterone", "adrenaline", "insulin", "thyroxine"],
+  answer: 0,
+},
+{
+  question: "The adrenal medulla secretes _______.",
+  options: ["adrenaline and noradrenaline", "cortisol", "thyroxine", "insulin"],
+  answer: 0,
+},
+{
+  question: "Negative feedback in hormonal regulation helps to _______.",
+  options: ["maintain homeostasis", "increase hormone levels indefinitely", "stop all hormones", "cause disease"],
+  answer: 0,
+},
+{
+  question: "The fight-or-flight response is mainly controlled by _______.",
+  options: ["adrenaline", "insulin", "thyroxine", "glucagon"],
+  answer: 0,
+},
+{
+  question: "The hypothalamus links the nervous and endocrine systems via the _______.",
+  options: ["pituitary gland", "thyroid gland", "adrenal gland", "pancreas"],
+  answer: 0,
+},
+{
+  question: "Oxytocin is secreted by the _______.",
+  options: ["posterior pituitary", "anterior pituitary", "thyroid gland", "adrenal gland"],
+  answer: 0,
+},
+{
+  question: "Antidiuretic hormone (ADH) acts on the _______.",
+  options: ["kidneys", "heart", "liver", "lungs"],
+  answer: 0,
+},
+{
+  question: "The endocrine system controls the body using _______.",
+  options: ["hormones", "nerve impulses", "muscles", "bones"],
+  answer: 0,
+},
+{
+  question: "Neurotransmitters are released at the _______.",
+  options: ["synapse", "axon", "cell body", "dendrite"],
+  answer: 0,
+},
+{
+  question: "Acetylcholine is a neurotransmitter that _______.",
+  options: ["stimulates muscles and neurons", "inhibits glands", "destroys hormones", "increases adrenaline"],
+  answer: 0,
+},
+{
+  question: "The myelin sheath is produced by _______ in the PNS.",
+  options: ["Schwann cells", "Oligodendrocytes", "Astrocytes", "Microglia"],
+  answer: 0,
+},
+{
+  question: "The central nervous system is protected by the _______.",
+  options: ["skull and vertebral column", "heart", "kidneys", "lungs"],
+  answer: 0,
+},
+{
+  question: "Cranial nerves are part of the _______.",
+  options: ["peripheral nervous system", "central nervous system", "brain", "spinal cord"],
+  answer: 0,
+},
+{
+  question: "Reflex actions are faster because they bypass the _______.",
+  options: ["brain", "spinal cord", "muscles", "sensory receptors"],
+  answer: 0,
+},
+{
+  question: "Hormonal effects are generally _______ compared to nervous responses.",
+  options: ["slower but longer-lasting", "faster and short-lived", "instantaneous", "non-specific"],
+  answer: 0,
+},
+{
+  question: "The pancreas regulates blood glucose by secreting _______.",
+  options: ["insulin and glucagon", "adrenaline", "thyroxine", "cortisol"],
+  answer: 0,
+},
+{
+  question: "The posterior pituitary stores and releases hormones made by the _______.",
+  options: ["hypothalamus", "pituitary", "thyroid", "adrenal"],
+  answer: 0,
+},
+
+{
+  question: "The sympathetic nervous system is responsible for _______.",
+  options: ["fight-or-flight responses", "rest-and-digest responses", "hormone secretion", "digestion only"],
+  answer: 0,
+},
+{
+  question: "The parasympathetic nervous system is responsible for _______.",
+  options: ["rest-and-digest activities", "fight-or-flight responses", "stress response", "adrenaline secretion"],
+  answer: 0,
+},
+{
+  question: "Reflex actions are _______.",
+  options: ["automatic and involuntary", "voluntary", "slow responses", "long-lasting"],
+  answer: 0,
+},
+{
+  question: "The knee-jerk reflex is an example of a _______ reflex.",
+  options: ["spinal", "cranial", "voluntary", "autonomic"],
+  answer: 0,
+},
+{
+  question: "Autonomic nervous system controls _______.",
+  options: ["involuntary actions", "voluntary actions", "thought", "memory"],
+  answer: 0,
+},
+{
+  question: "Somatic nervous system controls _______.",
+  options: ["voluntary actions", "involuntary actions", "hormone secretion", "digestion"],
+  answer: 0,
+},
+{
+  question: "Neurons that carry impulses from receptors to CNS are _______.",
+  options: ["sensory neurons", "motor neurons", "interneurons", "reflex neurons"],
+  answer: 0,
+},
+{
+  question: "Neurons that carry impulses from CNS to effectors are _______.",
+  options: ["motor neurons", "sensory neurons", "interneurons", "reflex neurons"],
+  answer: 0,
+},
+{
+  question: "The neurotransmitter involved in muscle contraction is _______.",
+  options: ["acetylcholine", "dopamine", "adrenaline", "serotonin"],
+  answer: 0,
+},
+{
+  question: "The synaptic cleft is the space between _______.",
+  options: ["two neurons", "axon and dendrite of the same neuron", "cell body and axon", "axon and muscle fiber"],
+  answer: 0,
+},
+{
+  question: "The limbic system is associated with _______.",
+  options: ["emotions and memory", "movement coordination", "breathing", "digestion"],
+  answer: 0,
+},
+{
+  question: "The cerebrum is divided into _______ hemispheres.",
+  options: ["two", "three", "four", "one"],
+  answer: 0,
+},
+{
+  question: "The right hemisphere of the cerebrum generally controls _______.",
+  options: ["the left side of the body", "the right side of the body", "both sides equally", "hormone secretion"],
+  answer: 0,
+},
+{
+  question: "The medulla oblongata controls _______.",
+  options: ["heart rate and breathing", "thought and reasoning", "voluntary movement", "memory"],
+  answer: 0,
+},
+{
+  question: "Hormones are transported in the body through _______.",
+  options: ["blood", "nerves", "lymph", "muscles"],
+  answer: 0,
+},
+{
+  question: "Thyroxine deficiency leads to _______.",
+  options: ["goiter or cretinism", "diabetes", "adrenal insufficiency", "high blood pressure"],
+  answer: 0,
+},
+{
+  question: "Insulin lowers blood glucose by _______.",
+  options: ["stimulating glucose uptake by cells", "stimulating glycogen breakdown", "increasing blood sugar", "stimulating glucagon secretion"],
+  answer: 0,
+},
+{
+  question: "Glucagon raises blood glucose by _______.",
+  options: ["stimulating glycogen breakdown", "stimulating insulin release", "lowering blood sugar", "stimulating thyroid hormones"],
+  answer: 0,
+},
+{
+  question: "Adrenaline increases _______ during stress.",
+  options: ["heart rate and blood flow to muscles", "digestion", "thyroxine secretion", "blood clotting only"],
+  answer: 0,
+},
+{
+  question: "Cortisol is secreted by the _______.",
+  options: ["adrenal cortex", "adrenal medulla", "pituitary gland", "thyroid gland"],
+  answer: 0,
+},
+{
+  question: "The target organs of hormones respond based on the presence of _______.",
+  options: ["specific receptors", "size of hormone", "blood pressure", "nerve impulses"],
+  answer: 0,
+},
+{
+  question: "ADH acts on the _______ to control water reabsorption.",
+  options: ["kidneys", "heart", "liver", "lungs"],
+  answer: 0,
+},
+{
+  question: "Oxytocin stimulates _______.",
+  options: ["uterine contractions and milk ejection", "blood sugar increase", "heartbeat", "thyroxine secretion"],
+  answer: 0,
+},
+{
+  question: "The endocrine and nervous systems differ in that hormones act _______ compared to nerve impulses.",
+  options: ["slower but longer-lasting", "faster and short-lived", "instantaneously", "never effective"],
+  answer: 0,
+},
+{
+  question: "Hypothalamus produces hormones that regulate the _______.",
+  options: ["pituitary gland", "thyroid gland", "adrenal gland", "pancreas"],
+  answer: 0,
+},
+{
+  question: "The pituitary gland has anterior and posterior parts, which differ in _______.",
+  options: ["hormone secretion and control", "size", "location", "nerve connections"],
+  answer: 0,
+},
+{
+  question: "Melatonin regulates _______.",
+  options: ["sleep-wake cycles", "blood sugar", "heart rate", "growth"],
+  answer: 0,
+},
+{
+  question: "The thymus gland is important for _______.",
+  options: ["immune system development", "digestion", "blood sugar regulation", "thyroxine secretion"],
+  answer: 0,
+},
+{
+  question: "The fight-or-flight response is triggered by the _______.",
+  options: ["sympathetic nervous system", "parasympathetic nervous system", "pituitary gland", "thyroid gland"],
+  answer: 0,
+},
+{
+  question: "Negative feedback in hormone regulation prevents _______.",
+  options: ["overproduction of hormones", "nerve impulses", "muscle contractions", "brain activity"],
+  answer: 0,
+},
+{
+  question: "The hormone that regulates calcium levels in blood is _______.",
+  options: ["parathyroid hormone", "insulin", "adrenaline", "thyroxine"],
+  answer: 0,
+},
+{
+  question: "The adrenal medulla secretes hormones that prepare the body for _______.",
+  options: ["emergency or stress situations", "sleep", "digestion", "growth"],
+  answer: 0,
+},
+{
+  question: "Endocrine glands are ductless because they release hormones directly into the _______.",
+  options: ["bloodstream", "lymph", "nerves", "muscles"],
+  answer: 0,
+},
+{
+  question: "Exocrine glands secrete substances via _______.",
+  options: ["ducts", "blood", "nerves", "lymph"],
+  answer: 0,
+},
+{
+  question: "Thyroid hormones regulate _______.",
+  options: ["metabolic rate", "blood glucose", "heart rate", "immune function"],
+  answer: 0,
+},
+{
+  question: "Prolactin stimulates _______.",
+  options: ["milk production", "thyroxine release", "glucagon release", "adrenaline release"],
+  answer: 0,
+},
+{
+  question: "The adrenal glands are located _______.",
+  options: ["on top of the kidneys", "in the brain", "near the thyroid", "in the pancreas"],
+  answer: 0,
+},
+{
+  question: "The posterior pituitary releases hormones produced by the _______.",
+  options: ["hypothalamus", "pituitary", "thyroid", "adrenal gland"],
+  answer: 0,
+},
+{
+  question: "Neurotransmitters are secreted by _______.",
+  options: ["neurons", "glands", "muscles", "bones"],
+  answer: 0,
+},
+{
+  question: "Acetylcholine and norepinephrine are examples of _______.",
+  options: ["neurotransmitters", "hormones", "enzymes", "vitamins"],
+  answer: 0,
+},
+{
+  question: "Synaptic transmission allows the nervous system to _______.",
+  options: ["communicate between neurons", "secrete hormones", "contract muscles", "store nutrients"],
+  answer: 0,
+},
+{
+  question: "Reflex arcs usually involve _______ synapses.",
+  options: ["one or more", "zero", "ten", "hundreds"],
+  answer: 0,
+},
+{
+  question: "The fight-or-flight hormone adrenaline is secreted by the _______.",
+  options: ["adrenal medulla", "adrenal cortex", "pituitary", "thyroid"],
+  answer: 0,
+},
+{
+  question: "Norepinephrine primarily increases _______.",
+  options: ["heart rate and alertness", "digestion", "growth", "sleep"],
+  answer: 0,
+},
+{
+  question: "The hypothalamus controls hormone secretion through _______.",
+  options: ["pituitary gland", "thyroid gland", "adrenal gland", "pancreas"],
+  answer: 0,
+},
+{
+  question: "The myelin sheath ensures that nerve impulses _______.",
+  options: ["travel faster along axons", "stop at synapses", "reach the brain slowly", "only move in one direction"],
+  answer: 0,
+},
+{
+  question: "Reflex actions help protect the body because they are _______.",
+  options: ["rapid and automatic", "slow and voluntary", "controlled by hormones", "random movements"],
+  answer: 0,
+},
+
+
+//reproduction 
+
+{
+  question: "Reproduction is the biological process by which organisms _______.",
+  options: ["produce offspring", "respire", "move", "excrete"],
+  answer: 0,
+},
+{
+  question: "Sexual reproduction involves _______.",
+  options: ["fusion of gametes", "budding", "fragmentation", "binary fission"],
+  answer: 0,
+},
+{
+  question: "Asexual reproduction involves _______.",
+  options: ["one parent", "two parents", "gamete fusion", "pollination"],
+  answer: 0,
+},
+{
+  question: "In humans, male gametes are called _______.",
+  options: ["sperm", "ovum", "zygote", "embryo"],
+  answer: 0,
+},
+{
+  question: "Female gametes in humans are called _______.",
+  options: ["ova", "sperm", "zygotes", "gametes"],
+  answer: 0,
+},
+{
+  question: "Fertilization is the process by which _______.",
+  options: ["sperm and ovum fuse", "gametes are produced", "zygotes grow", "meiosis occurs"],
+  answer: 0,
+},
+{
+  question: "Internal fertilization occurs in _______.",
+  options: ["humans", "frogs", "fish", "algae"],
+  answer: 0,
+},
+{
+  question: "External fertilization occurs in _______.",
+  options: ["frogs and fish", "humans", "birds", "mammals"],
+  answer: 0,
+},
+{
+  question: "The male reproductive organ in humans is the _______.",
+  options: ["testis", "ovary", "uterus", "vagina"],
+  answer: 0,
+},
+{
+  question: "The female reproductive organ in humans is the _______.",
+  options: ["ovary", "testis", "penis", "scrotum"],
+  answer: 0,
+},
+{
+  question: "Spermatogenesis occurs in the _______.",
+  options: ["testes", "ovaries", "uterus", "vas deferens"],
+  answer: 0,
+},
+{
+  question: "Oogenesis occurs in the _______.",
+  options: ["ovaries", "testes", "uterus", "fallopian tube"],
+  answer: 0,
+},
+{
+  question: "The process of meiosis produces _______.",
+  options: ["gametes with half the chromosome number", "somatic cells", "zygotes", "embryos"],
+  answer: 0,
+},
+{
+  question: "The zygote develops into an _______.",
+  options: ["embryo", "ovum", "sperm", "gamete"],
+  answer: 0,
+},
+{
+  question: "The uterus is the site of _______.",
+  options: ["fetal development", "sperm production", "fertilization only", "egg formation"],
+  answer: 0,
+},
+{
+  question: "The fallopian tube transports the _______ to the uterus.",
+  options: ["ovum", "sperm", "zygote", "embryo"],
+  answer: 0,
+},
+{
+  question: "The scrotum helps in _______ of testes.",
+  options: ["temperature regulation", "sperm transport", "hormone secretion", "fertilization"],
+  answer: 0,
+},
+{
+  question: "The penis functions in _______.",
+  options: ["delivering sperm into the female reproductive tract", "egg production", "hormone secretion", "zygote formation"],
+  answer: 0,
+},
+{
+  question: "Fertilized egg implants in the _______.",
+  options: ["uterus", "ovary", "vagina", "fallopian tube"],
+  answer: 0,
+},
+{
+  question: "Asexual reproduction is common in _______.",
+  options: ["plants, bacteria, and some animals", "humans", "birds", "mammals only"],
+  answer: 0,
+},
+{
+  question: "Budding in Hydra is an example of _______.",
+  options: ["asexual reproduction", "sexual reproduction", "fertilization", "pollination"],
+  answer: 0,
+},
+{
+  question: "Binary fission is a type of _______.",
+  options: ["asexual reproduction in unicellular organisms", "sexual reproduction", "pollination", "spore formation"],
+  answer: 0,
+},
+{
+  question: "In plants, sexual reproduction involves the fusion of _______.",
+  options: ["male and female gametes", "leaves and stems", "pollen and soil", "roots and stems"],
+  answer: 0,
+},
+{
+  question: "Pollination is the transfer of pollen from _______ to _______.",
+  options: ["anther to stigma", "stigma to ovary", "ovary to anther", "stigma to anther"],
+  answer: 0,
+},
+{
+  question: "Fertilization in flowering plants occurs in the _______.",
+  options: ["ovule", "stigma", "anther", "petal"],
+  answer: 0,
+},
+{
+  question: "Seeds are formed from the _______ after fertilization.",
+  options: ["ovule", "anther", "stigma", "ovary wall"],
+  answer: 0,
+},
+{
+  question: "The embryo in seeds develops from the _______.",
+  options: ["zygote", "gamete", "ovule wall", "pollen"],
+  answer: 0,
+},
+{
+  question: "Fruit develops from the _______ in flowering plants.",
+  options: ["ovary", "ovule", "petal", "stamen"],
+  answer: 0,
+},
+{
+  question: "Viviparous animals give birth to _______.",
+  options: ["live young", "eggs only", "spores", "buds"],
+  answer: 0,
+},
+{
+  question: "Oviparous animals lay _______.",
+  options: ["eggs", "live young", "buds", "seeds"],
+  answer: 0,
+},
+{
+  question: "Ovoviviparous animals _______.",
+  options: ["produce eggs that hatch within the body", "lay eggs externally", "give birth to live young directly", "produce spores"],
+  answer: 0,
+},
+{
+  question: "Testosterone is secreted by the _______.",
+  options: ["testes", "ovaries", "pituitary gland", "adrenal gland"],
+  answer: 0,
+},
+{
+  question: "Estrogen is secreted by the _______.",
+  options: ["ovaries", "testes", "adrenal gland", "pituitary gland"],
+  answer: 0,
+},
+{
+  question: "Progesterone prepares the uterus for _______.",
+  options: ["implantation of the zygote", "sperm production", "egg formation", "fertilization"],
+  answer: 0,
+},
+{
+  question: "Menstruation occurs due to the breakdown of the _______.",
+  options: ["endometrium", "ovum", "zygote", "oviduct"],
+  answer: 0,
+},
+{
+  question: "Fertilization in humans is usually _______.",
+  options: ["internal", "external", "asexual", "pollination"],
+  answer: 0,
+},
+{
+  question: "In humans, the male gamete is produced continuously from puberty due to _______.",
+  options: ["spermatogenesis", "oogenesis", "menstruation", "fertilization"],
+  answer: 0,
+},
+{
+  question: "Oogenesis produces a single functional ovum and _______ polar bodies.",
+  options: ["three", "one", "two", "four"],
+  answer: 0,
+},
+{
+  question: "The fusion of male and female gametes forms a _______.",
+  options: ["zygote", "gamete", "embryo", "ovum"],
+  answer: 0,
+},
+{
+  question: "The placenta functions in _______.",
+  options: ["nutrient and gas exchange between mother and fetus", "sperm production", "egg production", "hormone secretion only"],
+  answer: 0,
+},
+{
+  question: "Amniotic fluid protects the fetus by _______.",
+  options: ["cushioning and maintaining temperature", "providing food", "producing gametes", "hormone regulation"],
+  answer: 0,
+},
+{
+  question: "The umbilical cord connects the fetus to the _______.",
+  options: ["placenta", "uterus wall", "ovary", "fallopian tube"],
+  answer: 0,
+},
+{
+  question: "In plants, self-pollination involves pollen from the anther landing on the _______ of the same flower.",
+  options: ["stigma", "ovule", "petal", "sepals"],
+  answer: 0,
+},
+{
+  question: "Cross-pollination involves transfer of pollen between _______.",
+  options: ["different flowers", "the same flower", "same plant only", "non-flowering plants"],
+  answer: 0,
+},
+{
+  question: "Vegetative reproduction in plants is _______.",
+  options: ["asexual reproduction without seeds", "sexual reproduction", "fertilization", "pollination"],
+  answer: 0,
+},
+{
+  question: "Fragmentation in animals is a form of _______.",
+  options: ["asexual reproduction", "sexual reproduction", "pollination", "fertilization"],
+  answer: 0,
+},
+{
+  question: "Parthenogenesis is reproduction without _______.",
+  options: ["fertilization", "gametes", "zygotes", "embryos"],
+  answer: 0,
+},
+{
+  question: "Cloning produces offspring _______ to the parent.",
+  options: ["genetically identical", "genetically different", "haploid only", "with mutations always"],
+  answer: 0,
+},
+
+{
+  question: "The male reproductive hormone responsible for secondary sexual characteristics is _______.",
+  options: ["testosterone", "estrogen", "progesterone", "FSH"],
+  answer: 0,
+},
+{
+  question: "The female hormone that regulates the menstrual cycle is _______.",
+  options: ["estrogen and progesterone", "testosterone", "LH only", "FSH only"],
+  answer: 0,
+},
+{
+  question: "Follicle-stimulating hormone (FSH) stimulates _______.",
+  options: ["maturation of gametes", "ovulation", "uterine contraction", "testosterone production"],
+  answer: 0,
+},
+{
+  question: "Luteinizing hormone (LH) triggers _______.",
+  options: ["ovulation", "gamete maturation", "spermatogenesis", "menstruation"],
+  answer: 0,
+},
+{
+  question: "The endometrium thickens under the influence of _______.",
+  options: ["estrogen", "progesterone", "testosterone", "FSH"],
+  answer: 0,
+},
+{
+  question: "The fertilized ovum develops into a _______.",
+  options: ["zygote", "gamete", "embryo", "blastocyst"],
+  answer: 0,
+},
+{
+  question: "The blastocyst implants in the _______ during pregnancy.",
+  options: ["uterus", "ovary", "oviduct", "vagina"],
+  answer: 0,
+},
+{
+  question: "The primary site of fertilization in humans is the _______.",
+  options: ["fallopian tube", "uterus", "ovary", "vagina"],
+  answer: 0,
+},
+{
+  question: "Gametes are haploid cells containing _______ chromosomes.",
+  options: ["half the diploid number", "double the diploid number", "diploid number", "one-quarter the diploid number"],
+  answer: 0,
+},
+{
+  question: "Zygote is a _______ cell formed by fusion of gametes.",
+  options: ["diploid", "haploid", "polyploid", "monoploid"],
+  answer: 0,
+},
+{
+  question: "During pregnancy, progesterone maintains the _______.",
+  options: ["endometrium", "ovary", "fallopian tube", "vagina"],
+  answer: 0,
+},
+{
+  question: "The corpus luteum forms from the _______ after ovulation.",
+  options: ["ovarian follicle", "uterus", "oviduct", "endometrium"],
+  answer: 0,
+},
+{
+  question: "Spermatogenesis produces _______ sperm from each spermatogonium.",
+  options: ["four", "one", "two", "eight"],
+  answer: 0,
+},
+{
+  question: "Oogenesis produces _______ functional ovum from one oogonium.",
+  options: ["one", "two", "three", "four"],
+  answer: 0,
+},
+{
+  question: "Fertilization restores the _______ chromosome number in the zygote.",
+  options: ["diploid", "haploid", "triploid", "tetraploid"],
+  answer: 0,
+},
+{
+  question: "The placenta is formed from _______.",
+  options: ["maternal and fetal tissues", "uterus only", "ovary only", "umbilical cord only"],
+  answer: 0,
+},
+{
+  question: "The umbilical cord contains _______ arteries and veins.",
+  options: ["two arteries and one vein", "one artery and two veins", "two veins and no arteries", "one artery and one vein"],
+  answer: 0,
+},
+{
+  question: "The amniotic sac contains _______ fluid that protects the fetus.",
+  options: ["amniotic", "cerebrospinal", "plasma", "lymph"],
+  answer: 0,
+},
+{
+  question: "The process by which an egg develops without fertilization is called _______.",
+  options: ["parthenogenesis", "budding", "fragmentation", "pollination"],
+  answer: 0,
+},
+{
+  question: "Vegetative propagation in plants is an example of _______.",
+  options: ["asexual reproduction", "sexual reproduction", "pollination", "fertilization"],
+  answer: 0,
+},
+{
+  question: "Cuttings, grafting, and layering are methods of _______ in plants.",
+  options: ["vegetative propagation", "sexual reproduction", "spore formation", "seed dispersal"],
+  answer: 0,
+},
+{
+  question: "Binary fission in bacteria results in _______.",
+  options: ["two identical daughter cells", "one gamete", "zygote formation", "four gametes"],
+  answer: 0,
+},
+{
+  question: "Budding in yeast produces _______.",
+  options: ["a small identical offspring from the parent cell", "gametes", "zygote", "pollen"],
+  answer: 0,
+},
+{
+  question: "Fragmentation in starfish results in _______.",
+  options: ["regeneration of a new individual from a part", "formation of gametes", "fertilization", "pollination"],
+  answer: 0,
+},
+{
+  question: "Sexual reproduction increases _______ in populations.",
+  options: ["genetic variation", "mutation rate only", "asexual clones", "sterility"],
+  answer: 0,
+},
+{
+  question: "Asexual reproduction produces offspring _______ to the parent.",
+  options: ["genetically identical", "genetically different", "haploid", "polyploid"],
+  answer: 0,
+},
+{
+  question: "Ovoviviparous animals produce eggs that _______ inside the body.",
+  options: ["hatch before birth", "are laid externally", "are fertilized externally", "never hatch"],
+  answer: 0,
+},
+{
+  question: "Viviparous animals give birth to _______.",
+  options: ["live young", "eggs", "buds", "spores"],
+  answer: 0,
+},
+{
+  question: "Oviparous animals reproduce by laying _______.",
+  options: ["eggs", "live young", "buds", "seeds"],
+  answer: 0,
+},
+{
+  question: "Testosterone controls sperm production and _______.",
+  options: ["secondary sexual characteristics", "menstruation", "ovulation", "placenta formation"],
+  answer: 0,
+},
+{
+  question: "Estrogen is responsible for development of _______.",
+  options: ["female secondary sexual characteristics", "male characteristics", "gamete production only", "placenta formation"],
+  answer: 0,
+},
+{
+  question: "Progesterone prepares the uterus for _______.",
+  options: ["implantation of the zygote", "sperm production", "menstruation", "pollination"],
+  answer: 0,
+},
+{
+  question: "The menstrual cycle lasts approximately _______ days in humans.",
+  options: ["28", "21", "35", "14"],
+  answer: 0,
+},
+{
+  question: "Ovulation typically occurs on day _______ of the menstrual cycle.",
+  options: ["14", "1", "28", "7"],
+  answer: 0,
+},
+{
+  question: "The release of an ovum from the ovary is called _______.",
+  options: ["ovulation", "fertilization", "menstruation", "implantation"],
+  answer: 0,
+},
+{
+  question: "The corpus luteum secretes _______ to maintain pregnancy.",
+  options: ["progesterone", "estrogen", "testosterone", "FSH"],
+  answer: 0,
+},
+{
+  question: "The first cell formed after fertilization is called a _______.",
+  options: ["zygote", "gamete", "embryo", "blastocyst"],
+  answer: 0,
+},
+{
+  question: "The human embryo implants in the _______.",
+  options: ["uterus", "oviduct", "ovary", "vagina"],
+  answer: 0,
+},
+{
+  question: "In flowering plants, cross-pollination promotes _______.",
+  options: ["genetic variation", "identical clones", "asexual reproduction", "vegetative growth"],
+  answer: 0,
+},
+{
+  question: "Self-pollination reduces _______ in plants.",
+  options: ["genetic variation", "fertility", "flowering", "seed formation"],
+  answer: 0,
+},
+{
+  question: "The transfer of pollen from anther to stigma is called _______.",
+  options: ["pollination", "fertilization", "ovulation", "budding"],
+  answer: 0,
+},
+{
+  question: "Fertilization restores the _______ chromosome number in the zygote.",
+  options: ["diploid", "haploid", "tetraploid", "triploid"],
+  answer: 0,
+},
+{
+  question: "Asexual reproduction is common in _______.",
+  options: ["bacteria, fungi, and some plants", "humans only", "birds only", "mammals only"],
+  answer: 0,
+},
+{
+  question: "Vegetative propagation is a type of _______ reproduction.",
+  options: ["asexual", "sexual", "gametic", "fertilization-based"],
+  answer: 0,
+},
+{
+  question: "Parthenogenesis occurs when offspring develop from _______ without fertilization.",
+  options: ["egg cells", "sperm cells", "zygotes", "buds"],
+  answer: 0,
+},
+{
+  question: "Cloning produces offspring _______ to the parent.",
+  options: ["genetically identical", "genetically different", "haploid", "polyploid"],
+  answer: 0,
+},
+
+{
+  question: "Viviparous animals give birth to _______.",
+  options: ["live young", "eggs", "buds", "spores"],
+  answer: 0,
+},
+{
+  question: "Oviparous animals lay _______.",
+  options: ["eggs", "live young", "buds", "spores"],
+  answer: 0,
+},
+{
+  question: "Ovoviviparous animals produce eggs that _______ inside the body.",
+  options: ["hatch before birth", "are laid externally", "are fertilized externally", "never hatch"],
+  answer: 0,
+},
+{
+  question: "External fertilization occurs mostly in _______.",
+  options: ["fishes and amphibians", "mammals", "birds", "reptiles"],
+  answer: 0,
+},
+{
+  question: "Internal fertilization occurs in _______.",
+  options: ["mammals, birds, and reptiles", "fish and amphibians", "insects only", "amphibians only"],
+  answer: 0,
+},
+{
+  question: "The male reproductive organ in mammals is the _______.",
+  options: ["testis", "ovary", "penis", "scrotum"],
+  answer: 0,
+},
+{
+  question: "The female reproductive organ in mammals is the _______.",
+  options: ["ovary", "testis", "uterus", "vagina"],
+  answer: 0,
+},
+{
+  question: "Fertilization in birds is _______.",
+  options: ["internal", "external", "asexual", "pollination"],
+  answer: 0,
+},
+{
+  question: "Birds lay eggs that are _______.",
+  options: ["amniotic", "non-amniotic", "live young", "ovoviviparous"],
+  answer: 0,
+},
+{
+  question: "Fishes like salmon lay eggs in water and fertilization is _______.",
+  options: ["external", "internal", "asexual", "vegetative"],
+  answer: 0,
+},
+{
+  question: "Amphibians like frogs undergo _______ fertilization.",
+  options: ["external", "internal", "asexual", "pollination"],
+  answer: 0,
+},
+{
+  question: "Reptiles lay _______ eggs with leathery or hard shells.",
+  options: ["amniotic", "non-amniotic", "live young", "ovoviviparous"],
+  answer: 0,
+},
+{
+  question: "Placenta in mammals functions to _______.",
+  options: ["exchange nutrients and gases between mother and fetus", "produce gametes", "protect eggs externally", "fertilize sperm"],
+  answer: 0,
+},
+{
+  question: "Marsupials give birth to _______ young that develop in a pouch.",
+  options: ["underdeveloped", "fully developed", "eggs", "buds"],
+  answer: 0,
+},
+{
+  question: "Monotremes like the platypus lay _______ eggs.",
+  options: ["amniotic eggs", "live young", "buds", "asexual spores"],
+  answer: 0,
+},
+{
+  question: "In mammals, sperm is produced in the _______.",
+  options: ["testes", "ovaries", "uterus", "vas deferens"],
+  answer: 0,
+},
+{
+  question: "In mammals, eggs are produced in the _______.",
+  options: ["ovaries", "testes", "uterus", "fallopian tubes"],
+  answer: 0,
+},
+{
+  question: "Fertilization in amphibians is usually triggered by _______.",
+  options: ["environmental water conditions", "internal mating", "hormones only", "pollination"],
+  answer: 0,
+},
+{
+  question: "Most reptiles and birds have _______ fertilization.",
+  options: ["internal", "external", "asexual", "parthenogenetic"],
+  answer: 0,
+},
+{
+  question: "Fish like guppies can be _______ or _______ in reproduction.",
+  options: ["oviparous, ovoviviparous", "viviparous, parthenogenetic", "oviparous, viviparous", "asexual, parthenogenetic"],
+  answer: 0,
+},
+{
+  question: "Mammals are mostly _______ (viviparous/oviparous).",
+  options: ["viviparous", "oviparous", "ovoviviparous", "asexual"],
+  answer: 0,
+},
+{
+  question: "Bird eggs contain _______ to support embryo development.",
+  options: ["yolk and amniotic fluid", "blood only", "air only", "placenta only"],
+  answer: 0,
+},
+{
+  question: "Fertilization in reptiles is usually _______.",
+  options: ["internal", "external", "asexual", "parthenogenetic"],
+  answer: 0,
+},
+{
+  question: "Amphibians show _______ development, often with larval stages.",
+  options: ["indirect", "direct", "asexual", "vegetative"],
+  answer: 0,
+},
+{
+  question: "Birds and reptiles have _______ eggs to prevent desiccation.",
+  options: ["amniotic", "non-amniotic", "ovoviviparous", "live young"],
+  answer: 0,
+},
+{
+  question: "Viviparity allows the mother to _______.",
+  options: ["protect and nourish the embryo internally", "lay eggs externally", "produce gametes", "undergo budding"],
+  answer: 0,
+},
+{
+  question: "Fertilization in most fish is _______ because sperm meets eggs in water.",
+  options: ["external", "internal", "asexual", "vegetative"],
+  answer: 0,
+},
+{
+  question: "Ovoviviparous reptiles hatch eggs _______ in the body.",
+  options: ["before laying", "after laying", "externally", "as buds"],
+  answer: 0,
+},
+{
+  question: "Amphibians generally require water for _______.",
+  options: ["external fertilization", "internal fertilization", "oviparity", "placenta formation"],
+  answer: 0,
+},
+{
+  question: "Mammals with live birth include _______.",
+  options: ["humans, dogs, cats", "birds, reptiles", "amphibians, fish", "sponges, hydra"],
+  answer: 0,
+},
+{
+  question: "Marsupials include animals like _______.",
+  options: ["kangaroos and opossums", "humans and dogs", "frogs and toads", "snakes and lizards"],
+  answer: 0,
+},
+{
+  question: "Monotremes include animals like _______.",
+  options: ["platypus and echidna", "humans and cows", "frogs and salamanders", "birds and reptiles"],
+  answer: 0,
+},
+{
+  question: "Spermatogenesis and oogenesis in mammals are examples of _______.",
+  options: ["gametogenesis", "fertilization", "gestation", "pollination"],
+  answer: 0,
+},
+{
+  question: "Most amphibians exhibit _______ eggs that develop in water.",
+  options: ["non-amniotic", "amniotic", "viviparous", "placental"],
+  answer: 0,
+},
+{
+  question: "Birds have a _______ period for egg incubation.",
+  options: ["fixed", "variable depending on species", "none", "continuous internal gestation"],
+  answer: 1,
+},
+{
+  question: "Reptiles and birds share _______ features in reproduction.",
+  options: ["amniotic eggs", "live birth only", "external fertilization", "parthenogenesis"],
+  answer: 0,
+},
+{
+  question: "Fishes may show parental care such as _______.",
+  options: ["nest building and guarding eggs", "placental nourishment", "internal gestation", "amniotic incubation"],
+  answer: 0,
+},
+{
+  question: "In mammals, the embryo is nourished directly by _______.",
+  options: ["placenta", "egg yolk", "water", "air"],
+  answer: 0,
+},
+{
+  question: "In reptiles, temperature can influence _______ of offspring.",
+  options: ["sex determination", "egg size", "number of eggs", "gestation length"],
+  answer: 0,
+},
+{
+  question: "External fertilization requires _______ to ensure gametes meet.",
+  options: ["water medium", "amniotic fluid", "internal gestation", "pouch development"],
+  answer: 0,
+},
+{
+  question: "Internal fertilization increases _______ of eggs compared to external.",
+  options: ["survival rate", "egg size only", "number of eggs only", "genetic variation only"],
+  answer: 0,
+},
+{
+  question: "Bird reproduction is characterized by _______.",
+  options: ["internal fertilization and amniotic eggs", "external fertilization and live birth", "asexual reproduction", "budding"],
+  answer: 0,
+},
+{
+  question: "Ovoviviparous fish produce eggs that _______ inside the female.",
+  options: ["hatch before being released", "are fertilized externally", "never hatch", "become buds"],
+  answer: 0,
+},
+{
+  question: "Fertilization in amphibians is often synchronized with _______.",
+  options: ["rainy season or water availability", "temperature alone", "gestation period", "moon phases"],
+  answer: 0,
+},
+{
+  question: "Reptiles do not require water for fertilization because it is _______.",
+  options: ["internal", "external", "asexual", "vegetative"],
+  answer: 0,
+},
+{
+  question: "Mammals exhibit _______ parental care compared to most fish and amphibians.",
+  options: ["high", "low", "none", "variable depending on egg number"],
+  answer: 0,
+},
+{
+  question: "Birds and mammals are both _______ in reproduction.",
+  options: ["viviparous (mostly mammals) and oviparous (birds)", "oviparous", "external fertilization only", "asexual only"],
+  answer: 0,
+},
+
+//nutrition 
+
+{
+  question: "Nutrition can be defined as the process by which organisms _______.",
+  options: ["obtain and utilize food", "move from place to place", "reproduce", "respire"],
+  answer: 0,
+},
+{
+  question: "Autotrophic nutrition is carried out by organisms that _______.",
+  options: ["synthesize their own food", "feed on other organisms", "absorb soluble food", "parasitize hosts"],
+  answer: 0,
+},
+{
+  question: "Photosynthesis is an example of _______ nutrition.",
+  options: ["autotrophic", "heterotrophic", "saprophytic", "parasitic"],
+  answer: 0,
+},
+{
+  question: "Heterotrophic organisms obtain their food from _______.",
+  options: ["other organisms", "sunlight", "inorganic chemicals", "water only"],
+  answer: 0,
+},
+{
+  question: "Saprophytic nutrition involves obtaining food from _______.",
+  options: ["dead organic matter", "living hosts", "sunlight", "inorganic salts"],
+  answer: 0,
+},
+{
+  question: "Parasitic nutrition involves obtaining food from _______.",
+  options: ["living hosts", "dead matter", "sunlight", "soil minerals"],
+  answer: 0,
+},
+{
+  question: "Symbiotic nutrition involves a relationship where both organisms _______.",
+  options: ["benefit", "harm each other", "ignore each other", "compete for food"],
+  answer: 0,
+},
+{
+  question: "Holozoic nutrition is characteristic of _______.",
+  options: ["humans, dogs, and cats", "bacteria only", "plants only", "fungi only"],
+  answer: 0,
+},
+{
+  question: "In holozoic nutrition, food is first _______.",
+  options: ["ingested", "absorbed", "assimilated", "excreted"],
+  answer: 0,
+},
+{
+  question: "Mechanical digestion begins in the _______.",
+  options: ["mouth", "stomach", "small intestine", "oesophagus"],
+  answer: 0,
+},
+{
+  question: "Salivary glands secrete _______ to digest starch.",
+  options: ["salivary amylase", "pepsin", "lipase", "trypsin"],
+  answer: 0,
+},
+{
+  question: "The stomach secretes _______ for protein digestion.",
+  options: ["pepsin", "amylase", "lipase", "maltase"],
+  answer: 0,
+},
+{
+  question: "The small intestine is the main site for _______.",
+  options: ["absorption of digested food", "mechanical digestion", "starch breakdown only", "chewing"],
+  answer: 0,
+},
+{
+  question: "Bile produced by the liver _______ fats.",
+  options: ["emulsifies", "digests", "absorbs", "stores"],
+  answer: 0,
+},
+{
+  question: "Pancreatic juice contains enzymes such as _______ for digestion.",
+  options: ["amylase, lipase, trypsin", "pepsin only", "salivary amylase only", "maltase only"],
+  answer: 0,
+},
+{
+  question: "Carbohydrates are broken down into _______ during digestion.",
+  options: ["glucose", "amino acids", "fatty acids", "glycerol"],
+  answer: 0,
+},
+{
+  question: "Proteins are broken down into _______ during digestion.",
+  options: ["amino acids", "glucose", "fatty acids", "vitamins"],
+  answer: 0,
+},
+{
+  question: "Lipids are broken down into _______ and glycerol.",
+  options: ["fatty acids", "sugars", "amino acids", "starch"],
+  answer: 0,
+},
+{
+  question: "Vitamins are required in the diet in _______ amounts.",
+  options: ["small", "large", "medium", "excessive"],
+  answer: 0,
+},
+{
+  question: "Iron deficiency in humans leads to _______.",
+  options: ["anaemia", "scurvy", "rickets", "beriberi"],
+  answer: 0,
+},
+{
+  question: "Vitamin C deficiency causes _______.",
+  options: ["scurvy", "rickets", "goitre", "anaemia"],
+  answer: 0,
+},
+{
+  question: "Vitamin D deficiency leads to _______ in children.",
+  options: ["rickets", "scurvy", "beriberi", "kwashiorkor"],
+  answer: 0,
+},
+{
+  question: "Beriberi is caused by deficiency of vitamin _______.",
+  options: ["B1 (thiamine)", "C", "D", "A"],
+  answer: 0,
+},
+{
+  question: "Kwashiorkor results from severe deficiency of _______.",
+  options: ["protein", "carbohydrate", "vitamin C", "lipid"],
+  answer: 0,
+},
+{
+  question: "Goitre is caused by deficiency of _______.",
+  options: ["iodine", "iron", "vitamin A", "vitamin D"],
+  answer: 0,
+},
+{
+  question: "Water is important in the body for _______.",
+  options: ["transport, chemical reactions, and temperature regulation", "energy storage only", "digestion only", "defense only"],
+  answer: 0,
+},
+{
+  question: "Dietary fiber helps to _______.",
+  options: ["regulate bowel movement", "store energy", "produce enzymes", "absorb vitamins"],
+  answer: 0,
+},
+{
+  question: "A balanced diet contains _______.",
+  options: ["carbohydrates, proteins, lipids, vitamins, minerals, water, and fiber", "only carbohydrates", "only proteins", "only lipids"],
+  answer: 0,
+},
+{
+  question: "Amoeba obtains its food by _______.",
+  options: ["phagocytosis", "absorption", "photosynthesis", "pollination"],
+  answer: 0,
+},
+{
+  question: "Paramecium uses _______ to sweep food into its mouth pore.",
+  options: ["cilia", "flagella", "pseudopodia", "contractile vacuole"],
+  answer: 0,
+},
+{
+  question: "Hydra captures its prey using _______.",
+  options: ["tentacles with cnidocytes", "cilia", "flagella", "pseudopodia"],
+  answer: 0,
+},
+{
+  question: "Grasshoppers have a _______ digestive system.",
+  options: ["complete", "incomplete", "one-chambered", "no digestive system"],
+  answer: 0,
+},
+{
+  question: "Ruminants like cows have a _______ stomach to digest cellulose.",
+  options: ["four-chambered", "one-chambered", "two-chambered", "three-chambered"],
+  answer: 0,
+},
+{
+  question: "Enzymes are biological catalysts that _______.",
+  options: ["speed up chemical reactions", "slow digestion", "store food", "absorb nutrients"],
+  answer: 0,
+},
+{
+  question: "Amylase acts on _______ to produce maltose.",
+  options: ["starch", "protein", "lipids", "cellulose"],
+  answer: 0,
+},
+{
+  question: "Pepsin acts on _______ to produce peptides.",
+  options: ["protein", "starch", "lipids", "sugars"],
+  answer: 0,
+},
+{
+  question: "Lipase acts on _______ to produce fatty acids and glycerol.",
+  options: ["fats", "proteins", "starch", "cellulose"],
+  answer: 0,
+},
+{
+  question: "Maltase acts on maltose to produce _______.",
+  options: ["glucose", "amino acids", "fatty acids", "glycerol"],
+  answer: 0,
+},
+{
+  question: "Bile does not digest fats but _______ them.",
+  options: ["emulsifies", "absorbs", "stores", "breaks down proteins"],
+  answer: 0,
+},
+{
+  question: "Deficiency of calcium in diet can lead to _______.",
+  options: ["weak bones and rickets", "scurvy", "anaemia", "beriberi"],
+  answer: 0,
+},
+{
+  question: "Excess carbohydrate intake can lead to _______.",
+  options: ["obesity", "kwashiorkor", "rickets", "scurvy"],
+  answer: 0,
+},
+{
+  question: "Proteins are essential for _______.",
+  options: ["growth and repair", "energy storage only", "enzyme inhibition", "water transport"],
+  answer: 0,
+},
+{
+  question: "Lipids provide _______ more than carbohydrates or proteins.",
+  options: ["energy per gram", "water", "vitamins", "minerals"],
+  answer: 0,
+},
+{
+  question: "Malnutrition refers to _______.",
+  options: ["deficiency, excess or imbalance of nutrients", "overeating only", "lack of water only", "lack of exercise only"],
+  answer: 0,
+},
+{
+  question: "Holozoic nutrition involves _______ steps including ingestion, digestion, absorption, assimilation, and egestion.",
+  options: ["five", "three", "two", "four"],
+  answer: 0,
+},
+{
+  question: "Autotrophic nutrition in plants occurs mainly in the _______.",
+  options: ["leaves", "roots", "stem", "flowers"],
+  answer: 0,
+},
+
+{
+  question: "Chlorophyll in plants is important for _______.",
+  options: ["photosynthesis", "respiration", "absorption of minerals", "transpiration"],
+  answer: 0,
+},
+{
+  question: "Chemosynthetic bacteria obtain energy from _______.",
+  options: ["inorganic chemicals", "sunlight", "organic matter", "air"],
+  answer: 0,
+},
+{
+  question: "Heterotrophs that feed on dead matter are called _______.",
+  options: ["saprophytes", "parasites", "predators", "producers"],
+  answer: 0,
+},
+{
+  question: "Organisms that live on living hosts and cause harm are called _______.",
+  options: ["parasites", "saprophytes", "predators", "symbionts"],
+  answer: 0,
+},
+{
+  question: "The symbiotic relationship between fungi and algae in lichens is _______.",
+  options: ["mutualistic", "parasitic", "commensal", "competitive"],
+  answer: 0,
+},
+{
+  question: "Carnivores are heterotrophs that eat mainly _______.",
+  options: ["other animals", "plants", "dead matter", "microorganisms"],
+  answer: 0,
+},
+{
+  question: "Herbivores are heterotrophs that eat mainly _______.",
+  options: ["plants", "animals", "microorganisms", "dead matter"],
+  answer: 0,
+},
+{
+  question: "Omnivores feed on both _______.",
+  options: ["plants and animals", "plants only", "animals only", "microorganisms only"],
+  answer: 0,
+},
+{
+  question: "Enzymes in saliva start the digestion of _______.",
+  options: ["starch", "proteins", "fats", "cellulose"],
+  answer: 0,
+},
+{
+  question: "The function of the large intestine is mainly to _______.",
+  options: ["absorb water and form faeces", "digest proteins", "emulsify fats", "absorb vitamins only"],
+  answer: 0,
+},
+{
+  question: "The liver produces _______ which aids fat digestion.",
+  options: ["bile", "amylase", "pepsin", "lipase"],
+  answer: 0,
+},
+{
+  question: "The pancreas secretes enzymes into the _______ for digestion.",
+  options: ["small intestine", "stomach", "mouth", "large intestine"],
+  answer: 0,
+},
+{
+  question: "Vitamin A deficiency can lead to _______.",
+  options: ["night blindness", "rickets", "anaemia", "scurvy"],
+  answer: 0,
+},
+{
+  question: "Vitamin K is important for _______.",
+  options: ["blood clotting", "bone formation", "vision", "energy production"],
+  answer: 0,
+},
+{
+  question: "Water-soluble vitamins include _______.",
+  options: ["B-complex and C", "A and D", "E and K", "B12 only"],
+  answer: 0,
+},
+{
+  question: "Fat-soluble vitamins include _______.",
+  options: ["A, D, E, K", "B-complex, C", "C only", "B1 only"],
+  answer: 0,
+},
+{
+  question: "Cellulose in the diet helps _______.",
+  options: ["regulate bowel movement", "digest protein", "store energy", "emulsify fats"],
+  answer: 0,
+},
+{
+  question: "Excess protein in the diet may be converted to _______.",
+  options: ["fat", "carbohydrate", "amino acids", "starch"],
+  answer: 0,
+},
+{
+  question: "Malnutrition in children may result in _______.",
+  options: ["stunted growth", "increased height", "improved immunity", "excess energy only"],
+  answer: 0,
+},
+{
+  question: "The energy content of foods is measured in _______.",
+  options: ["kilojoules or kilocalories", "grams", "litres", "meters"],
+  answer: 0,
+},
+{
+  question: "Ruminants chew cud to _______.",
+  options: ["aid cellulose digestion", "absorb proteins", "store fat", "produce enzymes"],
+  answer: 0,
+},
+{
+  question: "Amoeba uses _______ to engulf food particles.",
+  options: ["pseudopodia", "cilia", "flagella", "tentacles"],
+  answer: 0,
+},
+{
+  question: "Paramecium traps food using _______.",
+  options: ["cilia", "pseudopodia", "flagella", "tentacles"],
+  answer: 0,
+},
+{
+  question: "Hydra paralyzes its prey with _______.",
+  options: ["cnidocytes", "cilia", "flagella", "pseudopodia"],
+  answer: 0,
+},
+{
+  question: "The human stomach produces acid and enzyme called _______.",
+  options: ["hydrochloric acid and pepsin", "saliva and amylase", "bile and lipase", "maltase only"],
+  answer: 0,
+},
+{
+  question: "Bile salts help in _______ of fats.",
+  options: ["emulsification", "absorption", "digestion of proteins", "breaking down starch"],
+  answer: 0,
+},
+{
+  question: "Excess intake of carbohydrates and fats can lead to _______.",
+  options: ["obesity", "kwashiorkor", "rickets", "scurvy"],
+  answer: 0,
+},
+{
+  question: "Anaemia is caused by deficiency of _______.",
+  options: ["iron", "vitamin C", "calcium", "vitamin D"],
+  answer: 0,
+},
+{
+  question: "A balanced diet prevents _______.",
+  options: ["deficiency diseases", "external fertilization", "budding", "photosynthesis"],
+  answer: 0,
+},
+{
+  question: "Holozoic nutrition includes ingestion, digestion, absorption, assimilation, and _______.",
+  options: ["egestion", "photosynthesis", "respiration", "budding"],
+  answer: 0,
+},
+{
+  question: "Proteins are necessary for _______ in the body.",
+  options: ["growth and repair", "energy storage only", "digestion only", "water balance"],
+  answer: 0,
+},
+{
+  question: "Fats provide more energy per gram than carbohydrates because they contain more _______.",
+  options: ["hydrogen atoms", "oxygen atoms", "nitrogen atoms", "sulfur atoms"],
+  answer: 0,
+},
+{
+  question: "Iron in the diet is important for the formation of _______.",
+  options: ["haemoglobin", "enzymes", "vitamin D", "lipids"],
+  answer: 0,
+},
+{
+  question: "Iodine is necessary for the synthesis of _______.",
+  options: ["thyroid hormones", "vitamin A", "haemoglobin", "enzymes"],
+  answer: 0,
+},
+{
+  question: "Vitamin D helps in the absorption of _______ from the intestine.",
+  options: ["calcium", "iron", "protein", "vitamin C"],
+  answer: 0,
+},
+{
+  question: "Vitamins are required in the diet in _______ amounts.",
+  options: ["trace or small", "large amounts", "excess only", "medium amounts"],
+  answer: 0,
+},
+{
+  question: "Excess salt in the diet may lead to _______.",
+  options: ["high blood pressure", "rickets", "scurvy", "beriberi"],
+  answer: 0,
+},
+{
+  question: "Dietary fiber is important to prevent _______.",
+  options: ["constipation", "vitamin deficiency", "protein deficiency", "scurvy"],
+  answer: 0,
+},
+{
+  question: "Vitamin C helps in the formation of _______.",
+  options: ["collagen", "enzymes only", "fat", "starch"],
+  answer: 0,
+},
+{
+  question: "Kwashiorkor is mainly due to deficiency of _______.",
+  options: ["protein", "carbohydrate", "fat", "vitamin C"],
+  answer: 0,
+},
+{
+  question: "Goitre can be prevented by adding _______ to the diet.",
+  options: ["iodine", "iron", "calcium", "vitamin A"],
+  answer: 0,
+},
+{
+  question: "Rickets can be prevented by providing _______ in the diet.",
+  options: ["vitamin D and calcium", "iron only", "vitamin C only", "protein only"],
+  answer: 0,
+},
+{
+  question: "Scurvy is prevented by consuming foods rich in _______.",
+  options: ["vitamin C", "iron", "calcium", "vitamin D"],
+  answer: 0,
+},
+{
+  question: "Balanced nutrition helps to maintain _______ and prevent diseases.",
+  options: ["health", "fertilization", "pollination", "photosynthesis"],
+  answer: 0,
+},
+
+//transport system
+
+{
+  question: "The main function of the circulatory system is to _______.",
+  options: ["transport substances around the body", "digest food", "produce hormones", "store energy"],
+  answer: 0,
+},
+{
+  question: "Blood is a _______ tissue.",
+  options: ["connective", "epithelial", "muscular", "nervous"],
+  answer: 0,
+},
+{
+  question: "The heart is made up of _______ tissue.",
+  options: ["cardiac muscle", "skeletal muscle", "smooth muscle", "connective"],
+  answer: 0,
+},
+{
+  question: "Arteries carry blood _______ the heart.",
+  options: ["away from", "towards", "only to lungs", "only to liver"],
+  answer: 0,
+},
+{
+  question: "Veins carry blood _______ the heart.",
+  options: ["towards", "away from", "only to lungs", "only to liver"],
+  answer: 0,
+},
+{
+  question: "Capillaries are important because they _______.",
+  options: ["allow exchange of substances with tissues", "store blood", "pump blood", "produce white blood cells"],
+  answer: 0,
+},
+{
+  question: "The human heart has _______ chambers.",
+  options: ["four", "two", "three", "five"],
+  answer: 0,
+},
+{
+  question: "The left side of the heart pumps blood to the _______.",
+  options: ["whole body", "lungs", "heart only", "kidneys"],
+  answer: 0,
+},
+{
+  question: "The right side of the heart pumps blood to the _______.",
+  options: ["lungs", "whole body", "heart only", "brain only"],
+  answer: 0,
+},
+{
+  question: "Pulmonary circulation carries blood between the heart and _______.",
+  options: ["lungs", "liver", "kidneys", "brain"],
+  answer: 0,
+},
+{
+  question: "Systemic circulation carries blood between the heart and _______.",
+  options: ["the rest of the body", "lungs only", "heart only", "kidneys only"],
+  answer: 0,
+},
+{
+  question: "Blood is composed of plasma, red blood cells, white blood cells, and _______.",
+  options: ["platelets", "enzymes", "hormones", "oxygen only"],
+  answer: 0,
+},
+{
+  question: "Red blood cells are responsible for transporting _______.",
+  options: ["oxygen", "carbon dioxide only", "hormones only", "plasma"],
+  answer: 0,
+},
+{
+  question: "White blood cells function mainly in _______.",
+  options: ["defense against disease", "transport of oxygen", "clotting", "transport of nutrients"],
+  answer: 0,
+},
+{
+  question: "Platelets are important for _______.",
+  options: ["blood clotting", "oxygen transport", "hormone production", "immune response"],
+  answer: 0,
+},
+{
+  question: "Plasma mainly transports _______ and nutrients.",
+  options: ["hormones, glucose, and wastes", "red blood cells only", "enzymes only", "oxygen only"],
+  answer: 0,
+},
+{
+  question: "Lymph is transported through _______.",
+  options: ["lymphatic vessels", "veins", "arteries", "capillaries"],
+  answer: 0,
+},
+{
+  question: "The lymphatic system helps to _______.",
+  options: ["return excess tissue fluid to the blood", "digest food", "absorb water", "produce oxygen"],
+  answer: 0,
+},
+{
+  question: "An open circulatory system is found in _______.",
+  options: ["insects", "humans", "fish", "amphibians"],
+  answer: 0,
+},
+{
+  question: "A closed circulatory system is found in _______.",
+  options: ["humans and other vertebrates", "insects", "sponges", "cnidarians"],
+  answer: 0,
+},
+{
+  question: "Xylem in plants transports _______.",
+  options: ["water and minerals from roots to leaves", "food from leaves to roots", "hormones only", "oxygen only"],
+  answer: 0,
+},
+{
+  question: "Phloem in plants transports _______.",
+  options: ["food from leaves to other parts", "water from roots to leaves", "minerals only", "oxygen only"],
+  answer: 0,
+},
+{
+  question: "Transpiration in plants mainly occurs through the _______.",
+  options: ["stomata", "roots", "phloem", "xylem"],
+  answer: 0,
+},
+{
+  question: "Root pressure in plants is caused by _______.",
+  options: ["osmotic pressure in root cells", "wind", "photosynthesis", "stomata opening"],
+  answer: 0,
+},
+{
+  question: "The movement of water in xylem is mainly due to _______.",
+  options: ["transpiration pull, cohesion, and adhesion", "phloem transport", "osmosis only", "diffusion only"],
+  answer: 0,
+},
+{
+  question: "Factors increasing transpiration include _______.",
+  options: ["high temperature and wind", "low light", "high humidity", "low temperature"],
+  answer: 0,
+},
+{
+  question: "Cohesion in water molecules helps to _______.",
+  options: ["pull water up the xylem", "absorb minerals", "digest food", "transport sugar only"],
+  answer: 0,
+},
+{
+  question: "Adhesion in water molecules helps water to _______.",
+  options: ["stick to xylem walls", "stick to phloem only", "absorb sunlight", "digest food"],
+  answer: 0,
+},
+{
+  question: "Phloem transport is called _______.",
+  options: ["translocation", "transpiration", "photosynthesis", "respiration"],
+  answer: 0,
+},
+{
+  question: "Water is absorbed by plant roots mainly through _______.",
+  options: ["osmosis", "diffusion", "transpiration", "active transport only"],
+  answer: 0,
+},
+{
+  question: "Minerals are absorbed by plants mainly through _______.",
+  options: ["active transport", "osmosis", "diffusion", "transpiration pull"],
+  answer: 0,
+},
+{
+  question: "The heart of a fish has _______ chambers.",
+  options: ["two", "four", "three", "one"],
+  answer: 0,
+},
+{
+  question: "The human heart valves prevent _______.",
+  options: ["backflow of blood", "blood clotting", "oxygen transport", "phloem transport"],
+  answer: 0,
+},
+{
+  question: "The vena cava carries _______ blood to the heart.",
+  options: ["deoxygenated", "oxygenated", "nutrient-rich", "sugary"],
+  answer: 0,
+},
+{
+  question: "The aorta carries _______ blood from the heart to the body.",
+  options: ["oxygenated", "deoxygenated", "lymph", "mineral-rich water"],
+  answer: 0,
+},
+{
+  question: "Capillaries are one-cell thick to allow _______.",
+  options: ["exchange of substances with tissues", "blood storage", "immune response", "transport of lymph"],
+  answer: 0,
+},
+{
+  question: "Transpiration pull is created due to _______.",
+  options: ["evaporation of water from leaves", "phloem transport", "xylem blockage", "root pressure only"],
+  answer: 0,
+},
+{
+  question: "Double circulation in humans ensures _______.",
+  options: ["oxygen-rich and oxygen-poor blood are separated", "all blood mixes", "low blood pressure", "high transpiration"],
+  answer: 0,
+},
+{
+  question: "Lymph contains mainly _______.",
+  options: ["white blood cells and tissue fluid", "red blood cells", "oxygen only", "nutrients only"],
+  answer: 0,
+},
+{
+  question: "Translocation in phloem occurs from _______ to sink.",
+  options: ["source", "leaf only", "root only", "stem only"],
+  answer: 0,
+},
+{
+  question: "Transpiration helps in _______ mineral transport in plants.",
+  options: ["upward", "downward", "horizontal", "no effect"],
+  answer: 0,
+},
+{
+  question: "Xylem vessels are made of _______ cells.",
+  options: ["dead, hollow cells", "living cells", "parenchyma only", "collenchyma only"],
+  answer: 0,
+},
+{
+  question: "Phloem vessels are made of _______ cells.",
+  options: ["living sieve tube elements and companion cells", "dead hollow cells", "xylem only", "collenchyma only"],
+  answer: 0,
+},
+{
+  question: "Transport of water in xylem is unidirectional because of _______.",
+  options: ["transpiration pull from leaves", "phloem pressure", "osmosis in roots only", "gravity"],
+  answer: 0,
+},
+{
+  question: "Transport of food in phloem can be _______.",
+  options: ["bidirectional", "unidirectional", "horizontal only", "vertical only"],
+  answer: 0,
+},
+{
+  question: "The lymphatic system complements the circulatory system by _______.",
+  options: ["returning excess tissue fluid to blood", "digesting proteins", "transporting oxygen", "producing hormones"],
+  answer: 0,
+},
+
+{
+  question: "In fish, blood flows in a single circuit because the heart has _______ chambers.",
+  options: ["two", "four", "three", "one"],
+  answer: 0,
+},
+{
+  question: "Amphibians have a three-chambered heart to allow _______.",
+  options: ["some separation of oxygenated and deoxygenated blood", "complete separation of blood", "single circulation", "no circulation"],
+  answer: 0,
+},
+{
+  question: "Birds and mammals have a four-chambered heart for _______.",
+  options: ["complete separation of oxygenated and deoxygenated blood", "single circulation", "slow circulation", "no blood mixing"],
+  answer: 0,
+},
+{
+  question: "The pulmonary artery carries _______ blood from the heart to the lungs.",
+  options: ["deoxygenated", "oxygenated", "nutrient-rich", "lymph"],
+  answer: 0,
+},
+{
+  question: "The pulmonary vein carries _______ blood from the lungs to the heart.",
+  options: ["oxygenated", "deoxygenated", "nutrient-rich", "lymph"],
+  answer: 0,
+},
+{
+  question: "Blood pressure is highest in the _______.",
+  options: ["arteries", "veins", "capillaries", "lymph vessels"],
+  answer: 0,
+},
+{
+  question: "Blood pressure is lowest in the _______.",
+  options: ["veins", "arteries", "capillaries", "heart chambers"],
+  answer: 0,
+},
+{
+  question: "The coronary arteries supply blood to the _______.",
+  options: ["heart muscle", "brain", "lungs", "kidneys"],
+  answer: 0,
+},
+{
+  question: "The sinoatrial node in the heart acts as a _______.",
+  options: ["pacemaker", "valve", "blood vessel", "capillary"],
+  answer: 0,
+},
+{
+  question: "The lymphatic system absorbs _______ from the intestines.",
+  options: ["fats", "proteins", "carbohydrates", "vitamins only"],
+  answer: 0,
+},
+{
+  question: "Oxygen is transported in the blood mainly by _______.",
+  options: ["haemoglobin in red blood cells", "plasma", "white blood cells", "platelets"],
+  answer: 0,
+},
+{
+  question: "Carbon dioxide is transported in the blood mainly as _______.",
+  options: ["bicarbonate ions", "oxygen", "plasma proteins", "platelets"],
+  answer: 0,
+},
+{
+  question: "In plants, the Casparian strip ensures that water and minerals pass through _______.",
+  options: ["endodermal cells", "xylem vessels", "phloem sieve tubes", "stomata"],
+  answer: 0,
+},
+{
+  question: "Transpiration helps to cool plants by _______.",
+  options: ["evaporation of water from leaves", "photosynthesis", "root absorption", "phloem transport"],
+  answer: 0,
+},
+{
+  question: "Root hairs increase _______ for water and mineral absorption.",
+  options: ["surface area", "transpiration", "phloem cells", "stomata opening"],
+  answer: 0,
+},
+{
+  question: "Xylem vessels are strengthened by _______.",
+  options: ["lignin", "cellulose only", "proteins", "suberin"],
+  answer: 0,
+},
+{
+  question: "Phloem sieve plates allow _______ between sieve tube elements.",
+  options: ["movement of food substances", "water only", "minerals only", "hormones only"],
+  answer: 0,
+},
+{
+  question: "Translocation in phloem is driven by _______.",
+  options: ["pressure differences between source and sink", "transpiration only", "osmosis only", "gravity only"],
+  answer: 0,
+},
+{
+  question: "Cohesion-tension theory explains _______ in plants.",
+  options: ["upward movement of water in xylem", "translocation in phloem", "photosynthesis", "root absorption"],
+  answer: 0,
+},
+{
+  question: "Transpiration is affected by _______.",
+  options: ["temperature, wind, humidity, and light", "soil type only", "leaf color only", "root length only"],
+  answer: 0,
+},
+{
+  question: "Capillary action helps water to _______ in narrow xylem vessels.",
+  options: ["rise", "fall", "remain stationary", "flow sideways"],
+  answer: 0,
+},
+{
+  question: "In double circulation, blood passes through the heart _______ times in one complete cycle.",
+  options: ["twice", "once", "three times", "four times"],
+  answer: 0,
+},
+{
+  question: "The left ventricle has thicker walls than the right ventricle to _______.",
+  options: ["pump blood throughout the body", "pump blood to the lungs", "store blood", "receive oxygen"],
+  answer: 0,
+},
+{
+  question: "The main function of the phloem companion cells is to _______.",
+  options: ["support sieve tube elements", "transport water", "store starch", "absorb minerals"],
+  answer: 0,
+},
+{
+  question: "The movement of water from soil into root hairs occurs mainly by _______.",
+  options: ["osmosis", "active transport", "diffusion of gases", "transpiration pull"],
+  answer: 0,
+},
+{
+  question: "The trachea in mammals carries air to the _______.",
+  options: ["lungs", "stomach", "heart", "intestines"],
+  answer: 0,
+},
+{
+  question: "Oxygen enters the blood in the lungs through _______.",
+  options: ["diffusion across alveolar walls", "active pumping", "phloem transport", "transpiration"],
+  answer: 0,
+},
+{
+  question: "In plants, guttation is caused by _______.",
+  options: ["root pressure", "transpiration", "photosynthesis", "phloem transport"],
+  answer: 0,
+},
+{
+  question: "The main driving force for transpiration pull is _______.",
+  options: ["evaporation of water from leaf surfaces", "root pressure only", "phloem activity", "gravity only"],
+  answer: 0,
+},
+{
+  question: "Blood from the digestive tract is first carried to the liver via the _______.",
+  options: ["hepatic portal vein", "vena cava", "aorta", "pulmonary vein"],
+  answer: 0,
+},
+{
+  question: "The hepatic portal vein allows the liver to _______.",
+  options: ["detoxify and process absorbed nutrients", "produce red blood cells", "pump blood", "absorb water"],
+  answer: 0,
+},
+{
+  question: "The lymph nodes function to _______.",
+  options: ["filter lymph and trap pathogens", "absorb water", "transport oxygen", "store fats"],
+  answer: 0,
+},
+{
+  question: "Oxygen is mainly transported by red blood cells because of the presence of _______.",
+  options: ["haemoglobin", "plasma", "white blood cells", "platelets"],
+  answer: 0,
+},
+{
+  question: "Blood in veins moves partly due to _______.",
+  options: ["skeletal muscle contraction", "heart alone", "osmosis", "transpiration"],
+  answer: 0,
+},
+{
+  question: "The heart valves prevent _______ of blood.",
+  options: ["backflow", "oxygen transport", "lymph movement", "water transport"],
+  answer: 0,
+},
+{
+  question: "Capillary beds are important because they _______.",
+  options: ["allow exchange of gases, nutrients, and wastes", "store blood", "produce hormones", "absorb minerals"],
+  answer: 0,
+},
+{
+  question: "Translocation in phloem is driven by a difference in _______ between source and sink.",
+  options: ["pressure", "temperature", "light intensity", "humidity"],
+  answer: 0,
+},
+{
+  question: "Water potential gradient in plants drives the movement of water from _______ to leaves.",
+  options: ["roots", "stems", "soil surface", "phloem"],
+  answer: 0,
+},
+{
+  question: "The main function of xylem parenchyma is to _______.",
+  options: ["store food and assist in lateral transport", "transport water", "produce enzymes", "digest protein"],
+  answer: 0,
+},
+{
+  question: "The transpiration stream refers to the continuous movement of water from _______.",
+  options: ["roots to leaves and out through stomata", "leaves to roots", "phloem to roots", "stem to roots only"],
+  answer: 0,
+},
+{
+  question: "In plants, adhesion and cohesion together help in _______.",
+  options: ["water movement in xylem", "translocation of food", "absorption of nutrients", "phloem loading"],
+  answer: 0,
+},
+{
+  question: "Capillary action occurs due to _______.",
+  options: ["adhesion and cohesion of water molecules", "osmosis only", "active transport", "root pressure only"],
+  answer: 0,
+},
+{
+  question: "Lymph eventually drains into the _______ system.",
+  options: ["venous blood", "arterial blood", "phloem", "xylem"],
+  answer: 0,
+},
+{
+  question: "Blood returning from the body enters the heart through the _______.",
+  options: ["vena cava", "pulmonary vein", "aorta", "coronary artery"],
+  answer: 0,
+},
+{
+  question: "Transpiration rate decreases with _______.",
+  options: ["high humidity", "high temperature", "strong wind", "bright sunlight"],
+  answer: 0,
+},
+{
+  question: "The sieve tubes in phloem are supported by _______.",
+  options: ["companion cells", "xylem vessels", "parenchyma only", "collenchyma only"],
+  answer: 0,
+},
+
+//respiration 
+
+{
+  question: "Aerobic respiration requires _______.",
+  options: ["oxygen", "carbon dioxide", "water", "light"],
+  answer: 0,
+},
+{
+  question: "Anaerobic respiration occurs in the _______ of cells.",
+  options: ["cytoplasm", "mitochondria", "nucleus", "ribosome"],
+  answer: 0,
+},
+{
+  question: "The main site of aerobic respiration in eukaryotic cells is the _______.",
+  options: ["mitochondria", "nucleus", "ribosome", "chloroplast"],
+  answer: 0,
+},
+{
+  question: "During aerobic respiration, glucose is broken down into _______.",
+  options: ["carbon dioxide and water", "lactic acid only", "oxygen and water", "starch"],
+  answer: 0,
+},
+{
+  question: "Anaerobic respiration in muscles produces _______.",
+  options: ["lactic acid", "carbon dioxide", "oxygen", "water"],
+  answer: 0,
+},
+{
+  question: "Anaerobic respiration in yeast produces _______.",
+  options: ["ethanol and carbon dioxide", "lactic acid", "oxygen and water", "glucose"],
+  answer: 0,
+},
+{
+  question: "The equation for aerobic respiration is _______.",
+  options: ["C6H12O6 + 6O2 → 6CO2 + 6H2O + energy", "C6H12O6 → 2C2H5OH + 2CO2", "C6H12O6 → 2C3H6O3", "CO2 + H2O → C6H12O6 + O2"],
+  answer: 0,
+},
+{
+  question: "The energy released during respiration is stored mainly in _______.",
+  options: ["ATP", "glucose", "carbon dioxide", "oxygen"],
+  answer: 0,
+},
+{
+  question: "Gaseous exchange in humans occurs in the _______.",
+  options: ["alveoli of lungs", "trachea", "bronchi", "bronchioles only"],
+  answer: 0,
+},
+{
+  question: "The diaphragm and intercostal muscles help in _______.",
+  options: ["breathing", "digestion", "circulation", "excretion"],
+  answer: 0,
+},
+{
+  question: "During inhalation, the diaphragm _______.",
+  options: ["contracts and moves downward", "relaxes", "contracts and moves upward", "does not move"],
+  answer: 0,
+},
+{
+  question: "During exhalation, the diaphragm _______.",
+  options: ["relaxes and moves upward", "contracts", "does not move", "contracts and moves downward"],
+  answer: 0,
+},
+{
+  question: "Oxygen is transported in the blood mainly by _______.",
+  options: ["haemoglobin", "plasma", "white blood cells", "platelets"],
+  answer: 0,
+},
+{
+  question: "Carbon dioxide is transported in the blood mainly as _______.",
+  options: ["bicarbonate ions", "oxygen", "plasma", "platelets"],
+  answer: 0,
+},
+{
+  question: "The volume of air taken in during a normal breath is called _______.",
+  options: ["tidal volume", "vital capacity", "residual volume", "total lung capacity"],
+  answer: 0,
+},
+{
+  question: "The maximum volume of air a person can exhale after a maximum inhalation is called _______.",
+  options: ["vital capacity", "tidal volume", "residual volume", "total lung capacity"],
+  answer: 0,
+},
+{
+  question: "In fish, gaseous exchange occurs mainly through _______.",
+  options: ["gills", "lungs", "skin", "tracheae"],
+  answer: 0,
+},
+{
+  question: "Insects breathe through a system of tubes called _______.",
+  options: ["tracheae", "lungs", "gills", "alveoli"],
+  answer: 0,
+},
+{
+  question: "During respiration, energy released is used for _______.",
+  options: ["growth, movement, and maintenance of body functions", "photosynthesis", "transpiration only", "digestion only"],
+  answer: 0,
+},
+{
+  question: "Anaerobic respiration releases _______ energy than aerobic respiration.",
+  options: ["less", "more", "the same", "none"],
+  answer: 0,
+},
+{
+  question: "Cellular respiration occurs in both plants and animals because both need _______.",
+  options: ["energy for metabolic activities", "oxygen for photosynthesis", "light energy", "carbon dioxide"],
+  answer: 0,
+},
+{
+  question: "The release of carbon dioxide from the lungs is called _______.",
+  options: ["exhalation", "inhalation", "diffusion", "osmosis"],
+  answer: 0,
+},
+{
+  question: "The chemical energy from glucose is first transferred to _______ molecules.",
+  options: ["ATP", "CO2", "H2O", "NADPH"],
+  answer: 0,
+},
+{
+  question: "Aerobic respiration produces more ATP per glucose molecule than anaerobic respiration because it _______.",
+  options: ["fully oxidizes glucose", "does not require oxygen", "produces lactic acid", "produces ethanol"],
+  answer: 0,
+},
+{
+  question: "During exercise, muscles may switch to _______ respiration if oxygen supply is insufficient.",
+  options: ["anaerobic", "aerobic", "photosynthetic", "fermentation only in yeast"],
+  answer: 0,
+},
+{
+  question: "In plants, oxygen for respiration is mainly obtained from _______.",
+  options: ["air spaces in leaves and roots", "chloroplasts", "phloem", "xylem only"],
+  answer: 0,
+},
+{
+  question: "Gaseous exchange in plants occurs mainly through _______.",
+  options: ["stomata, lenticels, and root hairs", "xylem only", "phloem only", "chloroplasts only"],
+  answer: 0,
+},
+{
+  question: "CO2 produced during respiration is used in _______.",
+  options: ["photosynthesis in plants", "digestion", "transport", "nitrogen fixation"],
+  answer: 0,
+},
+{
+  question: "The enzyme that catalyzes the breakdown of glucose in glycolysis is _______.",
+  options: ["hexokinase", "amylase", "lipase", "pepsin"],
+  answer: 0,
+},
+{
+  question: "In anaerobic respiration in yeast, glucose is converted to _______.",
+  options: ["ethanol and carbon dioxide", "lactic acid", "ATP only", "oxygen"],
+  answer: 0,
+},
+{
+  question: "Respiration in unicellular organisms like Amoeba occurs mainly through _______.",
+  options: ["diffusion", "tracheae", "alveoli", "gills"],
+  answer: 0,
+},
+{
+  question: "Breathing rate increases during exercise to _______.",
+  options: ["meet higher oxygen demand", "reduce CO2 production only", "increase lactic acid only", "slow metabolism"],
+  answer: 0,
+},
+{
+  question: "Residual volume of air in the lungs prevents _______.",
+  options: ["lung collapse", "oxygen transport", "carbon dioxide transport", "diffusion"],
+  answer: 0,
+},
+{
+  question: "In humans, the trachea divides into two _______ leading to the lungs.",
+  options: ["bronchi", "bronchioles", "alveoli", "capillaries"],
+  answer: 0,
+},
+{
+  question: "Alveoli are adapted for gaseous exchange because they are _______.",
+  options: ["thin-walled and highly vascularized", "thick-walled", "lined with cuticle", "impermeable"],
+  answer: 0,
+},
+{
+  question: "During respiration, the concentration gradient drives _______.",
+  options: ["diffusion of oxygen into blood and carbon dioxide out", "active transport of CO2", "osmosis of oxygen", "phloem transport"],
+  answer: 0,
+},
+{
+  question: "In plants, oxygen produced by photosynthesis can be used for _______.",
+  options: ["cellular respiration", "transpiration", "transport only", "root pressure"],
+  answer: 0,
+},
+{
+  question: "The gas exchange surface in fish gills is supported by _______.",
+  options: ["lamellae", "alveoli", "tracheae", "stomata"],
+  answer: 0,
+},
+{
+  question: "Counter-current flow in fish gills helps to _______.",
+  options: ["maximize oxygen absorption", "minimize oxygen absorption", "transport CO2 only", "pump blood"],
+  answer: 0,
+},
+{
+  question: "Respiratory pigments like haemoglobin increase _______.",
+  options: ["oxygen-carrying capacity of blood", "CO2 production", "ATP production directly", "water transport"],
+  answer: 0,
+},
+{
+  question: "Myoglobin stores oxygen in _______.",
+  options: ["muscles", "lungs", "red blood cells", "plant leaves"],
+  answer: 0,
+},
+{
+  question: "Anaerobic respiration in humans can lead to muscle fatigue due to accumulation of _______.",
+  options: ["lactic acid", "ethanol", "oxygen", "ATP"],
+  answer: 0,
+},
+{
+  question: "Respiration provides energy needed for _______ in plants and animals.",
+  options: ["growth, movement, and metabolic processes", "photosynthesis only", "transpiration only", "absorption only"],
+  answer: 0,
+},
+{
+  question: "Breathing involves both inhalation and exhalation to maintain _______.",
+  options: ["gas concentration gradients in the alveoli", "phloem transport", "root pressure", "transpiration only"],
+  answer: 0,
+},
+{
+  question: "Gaseous exchange in insects occurs via _______ and not blood.",
+  options: ["tracheae", "gills", "lungs", "alveoli"],
+  answer: 0,
+},
+{
+  question: "Respiration rate in plants increases in the dark due to _______.",
+  options: ["lack of photosynthesis", "stomatal opening", "phloem transport", "xylem activity"],
+  answer: 0,
+},
+{
+  question: "Oxygen diffuses into cells because of a _______ concentration gradient.",
+  options: ["high outside, low inside", "low outside, high inside", "equal concentration", "active pumping"],
+  answer: 0,
+},
+{
+  question: "CO2 produced by respiration in plants is released mainly through _______.",
+  options: ["stomata", "xylem", "phloem", "cuticle"],
+  answer: 0,
+},
+{
+  question: "ATP produced during respiration is immediately used for _______.",
+  options: ["cellular activities", "storage only", "transport in phloem", "root pressure"],
+  answer: 0,
+},
+
+{
+  question: "During vigorous exercise, the body produces more CO2 due to _______.",
+  options: ["increased aerobic respiration", "anaerobic respiration only", "photosynthesis", "decreased respiration"],
+  answer: 0,
+},
+{
+  question: "In humans, the gas exchange surface is moist to _______.",
+  options: ["allow gases to dissolve and diffuse", "prevent water loss", "absorb nutrients", "store oxygen"],
+  answer: 0,
+},
+{
+  question: "During heavy exercise, muscles switch to anaerobic respiration to _______.",
+  options: ["meet high energy demand quickly", "produce more oxygen", "store glucose", "absorb water"],
+  answer: 0,
+},
+{
+  question: "Lactic acid produced in muscles is transported to the liver for _______.",
+  options: ["conversion to glucose", "breakdown to CO2 only", "storage in muscles", "excretion via urine"],
+  answer: 0,
+},
+{
+  question: "Gaseous exchange in plants occurs mainly via stomata and _______.",
+  options: ["lenticels and root hairs", "xylem", "phloem", "cuticle only"],
+  answer: 0,
+},
+{
+  question: "Respiration is essential for maintaining _______ in cells.",
+  options: ["ATP supply", "photosynthesis", "transpiration", "root pressure"],
+  answer: 0,
+},
+{
+  question: "The enzyme involved in glycolysis is _______.",
+  options: ["hexokinase", "lipase", "amylase", "protease"],
+  answer: 0,
+},
+{
+  question: "During aerobic respiration, the majority of ATP is produced in the _______.",
+  options: ["mitochondria", "cytoplasm", "nucleus", "chloroplasts"],
+  answer: 0,
+},
+{
+  question: "CO2 produced during aerobic respiration diffuses out of cells because of _______.",
+  options: ["a concentration gradient", "active transport", "osmosis", "phloem transport"],
+  answer: 0,
+},
+{
+  question: "Respiratory rate in humans is controlled by the _______.",
+  options: ["medulla oblongata", "cerebrum", "heart", "lungs"],
+  answer: 0,
+},
+{
+  question: "The energy released in respiration is measured in _______.",
+  options: ["joules or calories", "liters", "grams", "watts"],
+  answer: 0,
+},
+{
+  question: "During anaerobic respiration, only a small amount of ATP is released because _______.",
+  options: ["glucose is partially broken down", "oxygen is abundant", "glucose is fully oxidized", "more CO2 is produced"],
+  answer: 0,
+},
+{
+  question: "Oxygen is essential for aerobic respiration because it _______.",
+  options: ["accepts electrons at the end of the electron transport chain", "produces glucose", "converts lactic acid", "stores energy directly"],
+  answer: 0,
+},
+{
+  question: "The majority of carbon dioxide in the blood is transported as _______.",
+  options: ["bicarbonate ions", "dissolved CO2", "carbaminohaemoglobin", "oxygen bound to haemoglobin"],
+  answer: 0,
+},
+{
+  question: "In insects, oxygen reaches body cells directly through _______.",
+  options: ["tracheal system", "blood circulation", "lungs", "gills"],
+  answer: 0,
+},
+{
+  question: "Counter-current flow in fish gills ensures _______.",
+  options: ["maximum oxygen absorption from water", "minimal oxygen absorption", "CO2 transport only", "blood flow to heart"],
+  answer: 0,
+},
+{
+  question: "Respiration rate in plants increases in the dark because _______.",
+  options: ["photosynthesis stops but energy is still needed", "stomata close", "phloem transport stops", "xylem stops working"],
+  answer: 0,
+},
+{
+  question: "In plants, mitochondria are found in _______.",
+  options: ["all metabolically active cells", "only leaf cells", "only root cells", "xylem vessels"],
+  answer: 0,
+},
+{
+  question: "The main product of anaerobic respiration in human muscles is _______.",
+  options: ["lactic acid", "ethanol", "ATP only", "carbon dioxide only"],
+  answer: 0,
+},
+{
+  question: "Ethanol produced during yeast fermentation is a result of _______.",
+  options: ["anaerobic respiration", "aerobic respiration", "photosynthesis", "transpiration"],
+  answer: 0,
+},
+{
+  question: "Aerobic respiration produces a total of approximately _______ ATP molecules per glucose.",
+  options: ["36-38", "2", "4", "50"],
+  answer: 0,
+},
+{
+  question: "Anaerobic respiration in humans produces only _______ ATP molecules per glucose.",
+  options: ["2", "36", "38", "50"],
+  answer: 0,
+},
+{
+  question: "The process of breaking down glucose without oxygen is called _______.",
+  options: ["anaerobic respiration", "aerobic respiration", "photosynthesis", "fermentation only in plants"],
+  answer: 0,
+},
+{
+  question: "The main reason alveoli have thin walls is to _______.",
+  options: ["facilitate rapid gas exchange", "support the lungs", "store oxygen", "produce CO2"],
+  answer: 0,
+},
+{
+  question: "In humans, the tidal volume averages about _______ liters per breath.",
+  options: ["0.5", "1", "2", "3"],
+  answer: 0,
+},
+{
+  question: "Vital capacity is important because it indicates _______.",
+  options: ["the maximum volume of air a person can exhale after full inhalation", "tidal volume only", "residual volume only", "oxygen content only"],
+  answer: 0,
+},
+{
+  question: "Residual volume remains in lungs to _______.",
+  options: ["prevent lung collapse", "increase oxygen uptake", "store CO2", "enhance ATP production"],
+  answer: 0,
+},
+{
+  question: "During inspiration, the pressure inside the lungs _______.",
+  options: ["decreases below atmospheric pressure", "increases above atmospheric pressure", "remains equal", "increases slightly only"],
+  answer: 0,
+},
+{
+  question: "During expiration, the pressure inside the lungs _______.",
+  options: ["increases above atmospheric pressure", "decreases below atmospheric pressure", "remains equal", "drops to zero"],
+  answer: 0,
+},
+{
+  question: "Respiratory pigments in blood enhance _______.",
+  options: ["oxygen-carrying capacity", "CO2 production", "ATP production directly", "root absorption"],
+  answer: 0,
+},
+{
+  question: "Myoglobin stores oxygen in muscles to _______.",
+  options: ["supply oxygen during intense activity", "produce CO2", "store ATP", "digest glucose"],
+  answer: 0,
+},
+{
+  question: "In anaerobic respiration in muscles, lactic acid accumulation leads to _______.",
+  options: ["muscle fatigue", "increased ATP", "oxygen production", "carbon dioxide loss"],
+  answer: 0,
+},
+{
+  question: "Aerobic respiration efficiency is higher than anaerobic because _______.",
+  options: ["glucose is completely oxidized", "less oxygen is needed", "CO2 is not produced", "ATP is stored in glucose"],
+  answer: 0,
+},
+{
+  question: "The release of energy during respiration is used for _______.",
+  options: ["metabolic activities, growth, and movement", "photosynthesis", "phloem transport", "root pressure"],
+  answer: 0,
+},
+{
+  question: "The respiratory surface in fish is adapted to maximize _______.",
+  options: ["oxygen absorption from water", "CO2 storage", "ATP synthesis", "digestion"],
+  answer: 0,
+},
+{
+  question: "Plants respire continuously because _______.",
+  options: ["cells require energy at all times", "photosynthesis only occurs at night", "transpiration occurs only in daytime", "xylem transports water constantly"],
+  answer: 0,
+},
+{
+  question: "Gaseous exchange in insects occurs through small openings called _______.",
+  options: ["spiracles", "stomata", "alveoli", "lenticels"],
+  answer: 0,
+},
+{
+  question: "Counter-current exchange in fish ensures _______.",
+  options: ["maximum diffusion of oxygen into blood", "minimized CO2 absorption", "blood flow to heart only", "movement of water into xylem"],
+  answer: 0,
+},
+{
+  question: "Respiration rate in plants increases with _______.",
+  options: ["temperature and oxygen availability", "humidity only", "light intensity only", "soil type only"],
+  answer: 0,
+},
+{
+  question: "Carbon dioxide produced during respiration in humans is transported mainly in _______.",
+  options: ["plasma as bicarbonate ions", "red blood cells only", "white blood cells", "platelets"],
+  answer: 0,
+},
+{
+  question: "The exchange of gases in the lungs occurs mainly by _______.",
+  options: ["diffusion", "active transport", "osmosis", "phloem transport"],
+  answer: 0,
+},
+{
+  question: "ATP produced in mitochondria is immediately used for _______.",
+  options: ["cellular activities", "oxygen storage", "CO2 transport", "starch synthesis"],
+  answer: 0,
+},
+{
+  question: "Anaerobic respiration in yeast is also known as _______.",
+  options: ["fermentation", "glycolysis", "oxidative phosphorylation", "electron transport chain"],
+  answer: 0,
+},
+{
+  question: "Energy released from respiration is measured in _______.",
+  options: ["joules or calories", "liters", "watts", "grams"],
+  answer: 0,
+},
+{
+  question: "The primary purpose of respiration is to _______.",
+  options: ["release energy from food", "absorb water", "transport minerals", "produce glucose"],
+  answer: 0,
+},
+
+//excretion 
+
+
+{
+  question: "The main excretory organ in humans is the _______.",
+  options: ["kidney", "liver", "lungs", "skin"],
+  answer: 0,
+},
+{
+  question: "The functional unit of the kidney is called the _______.",
+  options: ["nephron", "glomerulus", "Bowman's capsule", "ureter"],
+  answer: 0,
+},
+{
+  question: "Filtration of blood occurs in the _______.",
+  options: ["glomerulus", "loop of Henle", "collecting duct", "proximal tubule"],
+  answer: 0,
+},
+{
+  question: "Reabsorption of useful substances occurs mainly in the _______.",
+  options: ["proximal convoluted tubule", "glomerulus", "Bowman's capsule", "urethra"],
+  answer: 0,
+},
+{
+  question: "Urea is produced in the body through _______.",
+  options: ["deamination of amino acids", "digestion of carbohydrates", "photosynthesis", "respiration"],
+  answer: 0,
+},
+{
+  question: "The Bowman's capsule surrounds the _______.",
+  options: ["glomerulus", "loop of Henle", "collecting duct", "ureter"],
+  answer: 0,
+},
+{
+  question: "The ureter connects the kidney to the _______.",
+  options: ["urinary bladder", "urethra", "liver", "nephron"],
+  answer: 0,
+},
+{
+  question: "The main nitrogenous waste in mammals is _______.",
+  options: ["urea", "ammonia", "uric acid", "carbon dioxide"],
+  answer: 0,
+},
+{
+  question: "In birds and reptiles, nitrogenous waste is excreted mainly as _______.",
+  options: ["uric acid", "urea", "ammonia", "carbon dioxide"],
+  answer: 0,
+},
+{
+  question: "Ammonotelic animals excrete nitrogenous waste mainly as _______.",
+  options: ["ammonia", "urea", "uric acid", "creatinine"],
+  answer: 0,
+},
+{
+  question: "The loop of Henle in the nephron is responsible for _______.",
+  options: ["water reabsorption", "filtration", "urea production", "secretion of enzymes"],
+  answer: 0,
+},
+{
+  question: "Excess water and salts are excreted mainly by the _______.",
+  options: ["kidney", "skin", "lungs", "liver"],
+  answer: 0,
+},
+{
+  question: "Sweat glands excrete _______.",
+  options: ["water, salts, and some urea", "oxygen", "glucose", "carbon dioxide"],
+  answer: 0,
+},
+{
+  question: "The liver helps in excretion by converting ammonia to _______.",
+  options: ["urea", "uric acid", "carbon dioxide", "water"],
+  answer: 0,
+},
+{
+  question: "The urinary bladder stores _______ temporarily.",
+  options: ["urine", "bile", "blood", "lymph"],
+  answer: 0,
+},
+{
+  question: "The outer layer of the kidney is called the _______.",
+  options: ["cortex", "medulla", "pelvis", "nephron"],
+  answer: 0,
+},
+{
+  question: "The inner region of the kidney is called the _______.",
+  options: ["medulla", "cortex", "Bowman's capsule", "ureter"],
+  answer: 0,
+},
+{
+  question: "The process by which water and solutes move from blood into the nephron is called _______.",
+  options: ["filtration", "reabsorption", "secretion", "diffusion"],
+  answer: 0,
+},
+{
+  question: "Reabsorption in the nephron is mainly through _______.",
+  options: ["selective diffusion and active transport", "osmosis only", "phagocytosis", "endocytosis"],
+  answer: 0,
+},
+{
+  question: "Secretion in the nephron helps to _______.",
+  options: ["remove additional wastes and maintain pH", "reabsorb water", "store glucose", "produce hormones"],
+  answer: 0,
+},
+{
+  question: "The renal artery carries _______ to the kidney.",
+  options: ["blood containing wastes", "oxygen only", "urea only", "lymph"],
+  answer: 0,
+},
+{
+  question: "The renal vein carries _______ away from the kidney.",
+  options: ["filtered blood", "urea", "urine", "oxygen"],
+  answer: 0,
+},
+{
+  question: "Kidneys regulate the water and salt balance through the process of _______.",
+  options: ["osmoregulation", "photosynthesis", "respiration", "transpiration"],
+  answer: 0,
+},
+{
+  question: "The functional difference between nephron and ureter is that nephron _______.",
+  options: ["filters blood", "stores urine", "transports urine", "produces hormones"],
+  answer: 0,
+},
+{
+  question: "Plants excrete waste mainly through _______.",
+  options: ["stomata, lenticels, and bark", "roots only", "phloem only", "xylem only"],
+  answer: 0,
+},
+{
+  question: "Plants store waste products in _______ to prevent toxicity.",
+  options: ["vacuoles", "chloroplasts", "nucleus", "cell wall"],
+  answer: 0,
+},
+{
+  question: "Resins and tannins in plants are examples of _______.",
+  options: ["excretory products", "enzymes", "hormones", "nutrients"],
+  answer: 0,
+},
+{
+  question: "Excess oxygen produced in plants is released mainly through _______.",
+  options: ["stomata", "roots", "xylem", "phloem"],
+  answer: 0,
+},
+{
+  question: "Gaseous wastes in plants, such as CO2, are mainly produced during _______.",
+  options: ["respiration", "photosynthesis", "transpiration", "translocation"],
+  answer: 0,
+},
+{
+  question: "Nitrogenous waste is excreted by the liver in the form of _______.",
+  options: ["urea", "ammonia", "uric acid", "creatinine"],
+  answer: 0,
+},
+{
+  question: "Kidney stones form due to _______.",
+  options: ["accumulation of salts and minerals", "excess water intake", "low urea production", "high protein diet only"],
+  answer: 0,
+},
+{
+  question: "The nephron's collecting duct carries urine to the _______.",
+  options: ["renal pelvis", "ureter", "bladder", "glomerulus"],
+  answer: 0,
+},
+{
+  question: "The skin excretes water, salts, and some nitrogenous waste through _______.",
+  options: ["sweat glands", "sebaceous glands", "hair follicles", "nails"],
+  answer: 0,
+},
+{
+  question: "Uricotelic animals excrete nitrogen mainly as _______.",
+  options: ["uric acid", "urea", "ammonia", "carbon dioxide"],
+  answer: 0,
+},
+{
+  question: "Ammonotelic animals are usually _______.",
+  options: ["aquatic", "desert-dwelling", "birds", "reptiles"],
+  answer: 0,
+},
+{
+  question: "The renal capsule surrounds the _______ of the kidney.",
+  options: ["entire kidney", "nephron only", "glomerulus only", "medulla only"],
+  answer: 0,
+},
+{
+  question: "The main function of kidney nephrons is to maintain _______ balance.",
+  options: ["water and salt", "oxygen only", "carbon dioxide only", "glucose only"],
+  answer: 0,
+},
+{
+  question: "Kidneys help to maintain blood pH by excreting _______.",
+  options: ["hydrogen ions", "oxygen", "carbon dioxide only", "water only"],
+  answer: 0,
+},
+{
+  question: "The urine of mammals is usually _______ due to the presence of urea.",
+  options: ["slightly acidic", "alkaline", "neutral", "basic"],
+  answer: 0,
+},
+{
+  question: "Plants excrete excess salts mainly through _______.",
+  options: ["salt glands or specialized cells", "roots only", "xylem only", "stomata only"],
+  answer: 0,
+},
+{
+  question: "Excretion in protozoa occurs through the _______.",
+  options: ["contractile vacuole", "plasma membrane only", "nucleus", "cilia"],
+  answer: 0,
+},
+{
+  question: "Excretory wastes in humans include urea, water, salts, and _______.",
+  options: ["carbon dioxide", "glucose", "oxygen", "enzymes"],
+  answer: 0,
+},
+{
+  question: "The formation of urine involves filtration, reabsorption, and _______.",
+  options: ["secretion", "diffusion", "osmosis", "photosynthesis"],
+  answer: 0,
+},
+{
+  question: "Plants remove metabolic wastes to prevent _______.",
+  options: ["toxicity", "growth", "photosynthesis only", "respiration only"],
+  answer: 0,
+},
+{
+  question: "The renal medulla contains _______ of the nephron.",
+  options: ["loops of Henle and collecting ducts", "Bowman's capsule only", "glomerulus only", "proximal tubule only"],
+  answer: 0,
+},
+{
+  question: "Excretion is important because it removes _______ from the body.",
+  options: ["metabolic wastes", "oxygen", "glucose", "starch"],
+  answer: 0,
+},
+{
+  question: "The liver converts toxic ammonia into _______ which is less toxic.",
+  options: ["urea", "carbon dioxide", "uric acid", "water"],
+  answer: 0,
+},
+{
+  question: "Lenticels in plants help in excreting _______.",
+  options: ["gases and resins", "water only", "starch", "glucose"],
+  answer: 0,
+},
+{
+  question: "The renal pelvis collects urine from _______.",
+  options: ["collecting ducts", "nephrons only", "glomerulus only", "Bowman's capsule only"],
+  answer: 0,
+},
+{
+  question: "Excretory organs maintain homeostasis by regulating water, salts, and _______.",
+  options: ["pH of blood", "glucose", "oxygen", "starch"],
+  answer: 0,
+},
+
+{
+  question: "The kidney regulates blood pressure by controlling _______.",
+  options: ["water and salt content", "oxygen content", "carbon dioxide only", "glucose levels"],
+  answer: 0,
+},
+{
+  question: "The nephron’s distal convoluted tubule is mainly involved in _______.",
+  options: ["secretion and selective reabsorption", "filtration only", "urea production only", "water storage only"],
+  answer: 0,
+},
+{
+  question: "Bowman’s capsule and glomerulus together form the _______.",
+  options: ["renal corpuscle", "loop of Henle", "collecting duct", "renal pelvis"],
+  answer: 0,
+},
+{
+  question: "Excretion of uric acid helps birds and reptiles conserve _______.",
+  options: ["water", "oxygen", "glucose", "minerals"],
+  answer: 0,
+},
+{
+  question: "Humans are ureotelic because they excrete nitrogen mainly as _______.",
+  options: ["urea", "ammonia", "uric acid", "creatinine"],
+  answer: 0,
+},
+{
+  question: "Excretory products in plants include oxygen, resins, tannins, and _______.",
+  options: ["waste salts", "urea", "carbon dioxide", "proteins"],
+  answer: 0,
+},
+{
+  question: "The kidney receives blood from the _______.",
+  options: ["renal artery", "renal vein", "aorta", "vena cava"],
+  answer: 0,
+},
+{
+  question: "The renal vein carries _______ away from the kidney.",
+  options: ["filtered blood", "urine", "urea", "oxygenated blood only"],
+  answer: 0,
+},
+{
+  question: "The juxtaglomerular apparatus helps regulate _______.",
+  options: ["blood pressure", "oxygen supply", "glucose level", "respiration rate"],
+  answer: 0,
+},
+{
+  question: "The main nitrogenous waste of amphibians is _______.",
+  options: ["urea", "ammonia", "uric acid", "creatinine"],
+  answer: 0,
+},
+{
+  question: "Water reabsorption in the nephron occurs mainly in the _______.",
+  options: ["loop of Henle", "Bowman's capsule", "glomerulus", "distal convoluted tubule"],
+  answer: 0,
+},
+{
+  question: "Sweating helps in excretion and also in _______.",
+  options: ["thermoregulation", "glucose storage", "photosynthesis", "respiration only"],
+  answer: 0,
+},
+{
+  question: "The excretory function of the liver includes _______.",
+  options: ["detoxifying ammonia into urea", "excreting water only", "storing glucose", "producing oxygen"],
+  answer: 0,
+},
+{
+  question: "Excretion differs from egestion because excretion removes _______.",
+  options: ["metabolic wastes", "undigested food", "water only", "minerals only"],
+  answer: 0,
+},
+{
+  question: "Excretory organs help maintain homeostasis by controlling water, salts, and _______.",
+  options: ["pH", "glucose", "oxygen", "carbon dioxide only"],
+  answer: 0,
+},
+{
+  question: "The renal capsule protects the kidney from _______.",
+  options: ["physical damage", "oxygen loss", "glucose loss", "CO2 accumulation"],
+  answer: 0,
+},
+{
+  question: "Excretory wastes from the liver are transported to the kidney via the _______.",
+  options: ["blood", "ureter", "urinary bladder", "renal pelvis"],
+  answer: 0,
+},
+{
+  question: "Plants remove metabolic wastes to prevent _______.",
+  options: ["toxicity", "respiration only", "photosynthesis only", "growth only"],
+  answer: 0,
+},
+{
+  question: "Contractile vacuoles in protozoa help remove _______.",
+  options: ["excess water", "CO2", "oxygen", "glucose"],
+  answer: 0,
+},
+{
+  question: "Ureotelic animals excrete nitrogen mainly as _______.",
+  options: ["urea", "ammonia", "uric acid", "creatinine"],
+  answer: 0,
+},
+{
+  question: "Ammonotelic animals are usually _______.",
+  options: ["aquatic", "birds", "reptiles", "mammals"],
+  answer: 0,
+},
+{
+  question: "Uricotelic animals are adapted to conserve _______.",
+  options: ["water", "glucose", "oxygen", "CO2"],
+  answer: 0,
+},
+{
+  question: "Nephrons help in excretion and also in _______.",
+  options: ["osmoregulation", "photosynthesis", "respiration", "transpiration"],
+  answer: 0,
+},
+{
+  question: "The distal convoluted tubule helps maintain _______ balance.",
+  options: ["water and ions", "CO2 only", "glucose only", "oxygen only"],
+  answer: 0,
+},
+{
+  question: "Plants excrete toxic compounds in vacuoles to _______.",
+  options: ["prevent cell damage", "store glucose", "increase photosynthesis", "transport water"],
+  answer: 0,
+},
+{
+  question: "Liver excretes bile which contains _______.",
+  options: ["waste products like bilirubin", "urea", "glucose", "oxygen"],
+  answer: 0,
+},
+{
+  question: "Liver detoxifies harmful substances like _______.",
+  options: ["alcohol and drugs", "CO2 only", "O2 only", "glucose only"],
+  answer: 0,
+},
+{
+  question: "Excretion of carbon dioxide occurs mainly via _______.",
+  options: ["lungs", "kidney", "skin", "liver"],
+  answer: 0,
+},
+{
+  question: "Renal artery enters the kidney at the _______.",
+  options: ["hilum", "cortex", "medulla", "nephron"],
+  answer: 0,
+},
+{
+  question: "Ureters transport urine from the kidney to the _______.",
+  options: ["urinary bladder", "urethra", "renal pelvis", "nephrons"],
+  answer: 0,
+},
+{
+  question: "The excretory products of the skin include water, salts, and _______.",
+  options: ["urea", "CO2", "glucose", "oxygen"],
+  answer: 0,
+},
+{
+  question: "Lenticels in plants allow excretion of _______.",
+  options: ["gases and resins", "urea only", "starch only", "sugars only"],
+  answer: 0,
+},
+{
+  question: "Excretion is vital for removing _______ from metabolic activities.",
+  options: ["waste products", "glucose", "oxygen", "starch"],
+  answer: 0,
+},
+{
+  question: "The renal medulla contains _______ of nephrons.",
+  options: ["loops of Henle and collecting ducts", "glomeruli only", "Bowman's capsules only", "proximal tubules only"],
+  answer: 0,
+},
+{
+  question: "The renal cortex contains mainly _______.",
+  options: ["glomeruli and convoluted tubules", "loops of Henle only", "collecting ducts only", "renal pelvis only"],
+  answer: 0,
+},
+{
+  question: "Plants excrete waste products like tannins and resins to prevent _______.",
+  options: ["toxicity", "respiration only", "growth only", "photosynthesis only"],
+  answer: 0,
+},
+{
+  question: "Excretory organs help maintain blood composition by regulating water, salts, and _______.",
+  options: ["pH", "glucose", "CO2 only", "oxygen only"],
+  answer: 0,
+},
+{
+  question: "The liver converts ammonia into _______ to reduce toxicity.",
+  options: ["urea", "uric acid", "CO2", "water"],
+  answer: 0,
+},
+{
+  question: "Excretory wastes in humans include urea, water, salts, and _______.",
+  options: ["CO2", "glucose", "oxygen", "enzymes"],
+  answer: 0,
+},
+{
+  question: "Excretion of uric acid is an adaptation to _______.",
+  options: ["conserve water", "produce more energy", "store glucose", "increase respiration"],
+  answer: 0,
+},
+{
+  question: "Excretion of carbon dioxide from cells occurs by _______.",
+  options: ["diffusion", "active transport", "osmosis", "endocytosis"],
+  answer: 0,
+},
+{
+  question: "Water balance in the body is maintained by _______ and kidney function.",
+  options: ["excretion", "photosynthesis", "respiration", "transpiration"],
+  answer: 0,
+},
+{
+  question: "Excretion helps prevent accumulation of toxic substances like _______.",
+  options: ["ammonia, urea, and uric acid", "oxygen", "glucose", "starch"],
+  answer: 0,
+},
+{
+  question: "The urine of mammals is usually _______ due to dissolved urea.",
+  options: ["slightly acidic", "alkaline", "neutral", "basic"],
+  answer: 0,
+},
+{
+  question: "Renal pelvis collects urine from _______.",
+  options: ["collecting ducts", "nephrons only", "glomerulus only", "Bowman's capsule only"],
+  answer: 0,
+},
+{
+  question: "The nephron helps in both excretion and _______.",
+  options: ["osmoregulation", "photosynthesis", "respiration", "transpiration"],
+  answer: 0,
+},
+{
+  question: "Sweat helps remove wastes and also _______.",
+  options: ["regulates body temperature", "stores glucose", "produces ATP", "absorbs oxygen"],
+  answer: 0,
+},
+
+
+//growth and development 
+
+{
+  question: "Growth in living organisms can best be defined as _______.",
+  options: [
+    "an increase in size and number of cells",
+    "a temporary change in shape",
+    "a reversible change in mass",
+    "a decrease in dry weight"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of the following statements best describes development?",
+  options: [
+    "Increase in body size only",
+    "Increase in complexity and specialization of cells",
+    "Temporary expansion of tissues",
+    "Formation of spores in plants"
+  ],
+  answer: 1,
+},
+{
+  question: "The main difference between growth and development is that development involves _______.",
+  options: [
+    "an increase in cell size",
+    "changes in form and function",
+    "cell elongation only",
+    "cell division alone"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of these factors does NOT affect growth?",
+  options: [
+    "Light",
+    "Temperature",
+    "Sound",
+    "Nutrients"
+  ],
+  answer: 2,
+},
+{
+  question: "The region of active cell division in a plant is called the _______.",
+  options: [
+    "epidermis",
+    "phloem",
+    "meristem",
+    "xylem"
+  ],
+  answer: 2,
+},
+{
+  question: "Which of the following is a characteristic of growth in living organisms?",
+  options: [
+    "Reversibility",
+    "Irreversibility",
+    "Periodic occurrence",
+    "Random occurrence"
+  ],
+  answer: 1,
+},
+{
+  question: "In plants, elongation of cells mainly occurs in the _______.",
+  options: [
+    "apical meristem",
+    "lateral meristem",
+    "root cap",
+    "epidermal layer"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of the following represents a phase in growth?",
+  options: [
+    "Lag phase, log phase, stationary phase",
+    "Beginning, middle, and end",
+    "Active and inactive",
+    "Primary and secondary"
+  ],
+  answer: 0,
+},
+{
+  question: "A sigmoid growth curve is also known as a _______ curve.",
+  options: [
+    "U-shaped",
+    "S-shaped",
+    "V-shaped",
+    "C-shaped"
+  ],
+  answer: 1,
+},
+{
+  question: "The increase in dry mass of an organism is a measure of _______.",
+  options: [
+    "temporary growth",
+    "turgidity",
+    "true growth",
+    "water absorption"
+  ],
+  answer: 2,
+},
+{
+  question: "The type of growth where cells divide rapidly and continuously is called _______.",
+  options: [
+    "secondary growth",
+    "primary growth",
+    "cellular growth",
+    "static growth"
+  ],
+  answer: 1,
+},
+{
+  question: "Which plant hormone is responsible for cell elongation?",
+  options: [
+    "Auxin",
+    "Gibberellin",
+    "Cytokinin",
+    "Abscisic acid"
+  ],
+  answer: 0,
+},
+{
+  question: "The hormone that promotes seed germination is _______.",
+  options: [
+    "Abscisic acid",
+    "Auxin",
+    "Gibberellin",
+    "Cytokinin"
+  ],
+  answer: 2,
+},
+{
+  question: "Secondary growth in plants results in an increase in _______.",
+  options: [
+    "length",
+    "width or girth",
+    "root hairs",
+    "leaf number"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of the following is NOT a plant growth hormone?",
+  options: [
+    "Auxin",
+    "Insulin",
+    "Cytokinin",
+    "Gibberellin"
+  ],
+  answer: 1,
+},
+{
+  question: "Which of the following conditions is NOT necessary for seed germination?",
+  options: [
+    "Water",
+    "Oxygen",
+    "Light",
+    "Temperature"
+  ],
+  answer: 2,
+},
+{
+  question: "Which of the following stages of growth curve represents the most rapid growth?",
+  options: [
+    "Lag phase",
+    "Log phase",
+    "Stationary phase",
+    "Decline phase"
+  ],
+  answer: 1,
+},
+{
+  question: "Cell division in growth occurs in the _______.",
+  options: [
+    "region of elongation",
+    "region of differentiation",
+    "region of cell division",
+    "root cap"
+  ],
+  answer: 2,
+},
+{
+  question: "In plants, growth can be measured by the increase in _______.",
+  options: [
+    "cell color",
+    "root length",
+    "turgidity",
+    "seed number"
+  ],
+  answer: 1,
+},
+{
+  question: "Epigeal germination is characterized by _______.",
+  options: [
+    "cotyledons remaining underground",
+    "cotyledons coming above the soil",
+    "absence of cotyledons",
+    "seed coat remaining intact"
+  ],
+  answer: 1,
+},
+{
+  question: "The main function of gibberellins in plants is to _______.",
+  options: [
+    "promote dormancy",
+    "inhibit cell division",
+    "promote stem elongation",
+    "cause leaf fall"
+  ],
+  answer: 2,
+},
+{
+  question: "Which of these plant hormones promotes the ripening of fruits?",
+  options: [
+    "Auxin",
+    "Ethylene",
+    "Cytokinin",
+    "Gibberellin"
+  ],
+  answer: 1,
+},
+{
+  question: "The irreversible increase in the dry mass of an organism is called _______.",
+  options: [
+    "maturation",
+    "development",
+    "growth",
+    "movement"
+  ],
+  answer: 2,
+},
+{
+  question: "Which of these organisms exhibits discontinuous growth?",
+  options: [
+    "Human",
+    "Fish",
+    "Crab",
+    "Cow"
+  ],
+  answer: 2,
+},
+{
+  question: "The process by which an organism changes from a juvenile to an adult form is called _______.",
+  options: [
+    "fertilization",
+    "metamorphosis",
+    "growth",
+    "regeneration"
+  ],
+  answer: 1,
+},
+{
+  question: "Insect growth is controlled by which of the following hormones?",
+  options: [
+    "Ecdysone and juvenile hormone",
+    "Insulin and thyroxine",
+    "Auxin and cytokinin",
+    "Adrenaline and glucagon"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of the following animals undergo incomplete metamorphosis?",
+  options: [
+    "Butterfly",
+    "Housefly",
+    "Grasshopper",
+    "Mosquito"
+  ],
+  answer: 2,
+},
+{
+  question: "Complete metamorphosis in insects involves _______.",
+  options: [
+    "egg, larva, adult",
+    "egg, larva, pupa, adult",
+    "egg, nymph, adult",
+    "egg, pupa, adult"
+  ],
+  answer: 1,
+},
+{
+  question: "The hormone responsible for growth in animals is _______.",
+  options: [
+    "Insulin",
+    "Thyroxine",
+    "Growth hormone",
+    "Adrenaline"
+  ],
+  answer: 2,
+},
+{
+  question: "The part of a plant embryo that develops into the shoot is the _______.",
+  options: [
+    "radicle",
+    "plumule",
+    "cotyledon",
+    "endosperm"
+  ],
+  answer: 1,
+},
+{
+  question: "The cotyledons in dicot seeds mainly function as _______.",
+  options: [
+    "storage organs",
+    "absorptive organs",
+    "photosynthetic organs",
+    "protective organs"
+  ],
+  answer: 0,
+},
+{
+  question: "A growth curve that levels off after rapid growth indicates that _______.",
+  options: [
+    "growth continues indefinitely",
+    "growth has stopped due to limiting factors",
+    "growth rate increases steadily",
+    "growth never began"
+  ],
+  answer: 1,
+},
+{
+  question: "In hypogeal germination, the cotyledons _______.",
+  options: [
+    "remain below the soil",
+    "come above the soil",
+    "turn green",
+    "are shed immediately"
+  ],
+  answer: 0,
+},
+{
+  question: "Which of these statements about animal growth is correct?",
+  options: [
+    "It is indefinite",
+    "It stops after maturity",
+    "It continues at a constant rate",
+    "It decreases throughout life"
+  ],
+  answer: 1,
+},
+{
+  question: "Differentiation in animals involves _______.",
+  options: [
+    "cells becoming specialized for specific functions",
+    "increase in cell size only",
+    "reduction in body size",
+    "temporary change in shape"
+  ],
+  answer: 0,
+},
+{
+  question: "A tadpole developing into a frog is an example of _______.",
+  options: [
+    "growth only",
+    "differentiation only",
+    "development and metamorphosis",
+    "fertilization"
+  ],
+  answer: 2,
+},
+{
+  question: "In humans, growth hormone is secreted by the _______.",
+  options: [
+    "thyroid gland",
+    "adrenal gland",
+    "pituitary gland",
+    "pancreas"
+  ],
+  answer: 2,
+},
+{
+  question: "Deficiency of growth hormone in children results in _______.",
+  options: [
+    "gigantism",
+    "dwarfism",
+    "cretinism",
+    "obesity"
+  ],
+  answer: 1,
+},
+{
+  question: "The part of the seed that develops into the root is the _______.",
+  options: [
+    "radicle",
+    "plumule",
+    "endosperm",
+    "cotyledon"
+  ],
+  answer: 0,
+},
+{
+  question: "The period of slow growth at the beginning of a growth curve is called the _______.",
+  options: [
+    "log phase",
+    "stationary phase",
+    "lag phase",
+    "decline phase"
+  ],
+  answer: 2,
+},
+{
+  question: "The process of seed germination ends when _______.",
+  options: [
+    "the radicle appears",
+    "the plumule appears above the soil",
+    "photosynthesis begins",
+    "the seed coat breaks"
+  ],
+  answer: 2,
+},
+{
+  question: "Which of the following hormones inhibits growth in plants?",
+  options: [
+    "Cytokinin",
+    "Gibberellin",
+    "Abscisic acid",
+    "Auxin"
+  ],
+  answer: 2,
+},
+{
+  question: "Which structure protects the root tip during growth?",
+  options: [
+    "Root hair",
+    "Root cap",
+    "Meristem",
+    "Cortex"
+  ],
+  answer: 1,
+},
+{
+  question: "Growth that occurs due to increase in girth of a plant is brought about by the _______.",
+  options: [
+    "apical meristem",
+    "intercalary meristem",
+    "lateral meristem",
+    "root cap"
+  ],
+  answer: 2,
+},
+{
+  question: "The hormone responsible for leaf fall in plants is _______.",
+  options: [
+    "Auxin",
+    "Ethylene",
+    "Gibberellin",
+    "Abscisic acid"
+  ],
+  answer: 3,
+},
+{
+  question: "Which of these represents the correct sequence in complete metamorphosis of a butterfly?",
+  options: [
+    "Egg → Larva → Adult",
+    "Egg → Nymph → Adult",
+    "Egg → Larva → Pupa → Adult",
+    "Egg → Pupa → Adult"
+  ],
+  answer: 2,
+},
+{
+  question: "Which of the following organisms shows both growth and regeneration when cut?",
+  options: [
+    "Hydra",
+    "Human",
+    "Grasshopper",
+    "Lizard"
+  ],
+  answer: 0,
+},
+{
+  question: "In plants, growth is said to be _______.",
+  options: [
+    "limited and reversible",
+    "unlimited and irreversible",
+    "temporary and continuous",
+    "reversible and measurable"
+  ],
+  answer: 1,
+},
+{
+  question: "The outer covering of a seed that protects the embryo is called the _______.",
+  options: [
+    "endosperm",
+    "seed coat",
+    "plumule",
+    "radicle"
+  ],
+  answer: 1,
+},
+
+{
+  question: "Which of these is a correct feature of growth in plants?",
+  options: ["Localized and indefinite", "General and limited", "Localized and limited", "General and reversible"],
+  answer: 0,
+},
+{
+  question: "Growth in animals stops after maturity because _______.",
+  options: ["food becomes insufficient", "cells stop dividing", "growth hormone decreases", "oxygen supply reduces"],
+  answer: 2,
+},
+{
+  question: "The growth of a leaf from bud to full size is an example of _______.",
+  options: ["cell division only", "cell elongation and differentiation", "cell death", "dormancy"],
+  answer: 1,
+},
+{
+  question: "The dry mass of a seedling increases because of _______.",
+  options: ["respiration", "photosynthesis", "imbibition", "osmosis"],
+  answer: 1,
+},
+{
+  question: "An organism that shows indeterminate growth is _______.",
+  options: ["Human", "Frog", "Fish", "Mango tree"],
+  answer: 3,
+},
+{
+  question: "In a typical growth curve, the point where growth rate is highest is the _______.",
+  options: ["lag phase", "log phase", "stationary phase", "decline phase"],
+  answer: 1,
+},
+{
+  question: "Growth in multicellular organisms is brought about by _______.",
+  options: ["cell elongation only", "cell division and differentiation", "fusion of cells", "osmosis only"],
+  answer: 1,
+},
+{
+  question: "Which of these plant hormones delays leaf senescence?",
+  options: ["Cytokinin", "Ethylene", "Auxin", "Abscisic acid"],
+  answer: 0,
+},
+{
+  question: "Which of the following is NOT a characteristic of growth?",
+  options: ["Irreversibility", "Cell enlargement", "Cell death", "Differentiation"],
+  answer: 2,
+},
+{
+  question: "A mature seed that fails to germinate under suitable conditions is said to be _______.",
+  options: ["alive", "dead", "dormant", "dry"],
+  answer: 2,
+},
+{
+  question: "The part of the embryo that develops into the root system is the _______.",
+  options: ["plumule", "radicle", "cotyledon", "endosperm"],
+  answer: 1,
+},
+{
+  question: "In monocot seeds like maize, the cotyledon is called the _______.",
+  options: ["scutellum", "aleurone layer", "endosperm", "coleoptile"],
+  answer: 0,
+},
+{
+  question: "The type of germination that occurs in maize seed is _______.",
+  options: ["epigeal", "hypogeal", "viviparous", "asexual"],
+  answer: 1,
+},
+{
+  question: "A balanced growth curve levels off because _______.",
+  options: ["light increases", "food and space become limited", "water decreases", "cell division stops completely"],
+  answer: 1,
+},
+{
+  question: "Which of these shows determinate growth?",
+  options: ["Human", "Mango tree", "Palm tree", "Fish"],
+  answer: 0,
+},
+{
+  question: "Metamorphosis is controlled by hormones secreted from the _______.",
+  options: ["pituitary gland", "thyroid gland", "adrenal gland", "gonads"],
+  answer: 1,
+},
+{
+  question: "Which of these hormones promotes root formation?",
+  options: ["Auxin", "Cytokinin", "Ethylene", "Gibberellin"],
+  answer: 0,
+},
+{
+  question: "Which plant hormone promotes the formation of fruits without fertilization?",
+  options: ["Abscisic acid", "Cytokinin", "Auxin", "Ethylene"],
+  answer: 2,
+},
+{
+  question: "A measurement of increase in dry weight indicates _______.",
+  options: ["reversible growth", "true growth", "false growth", "temporary turgidity"],
+  answer: 1,
+},
+{
+  question: "In a growth curve, the stationary phase represents _______.",
+  options: ["rapid growth", "no growth", "slow growth", "death of cells"],
+  answer: 1,
+},
+{
+  question: "Seed germination starts with _______.",
+  options: ["imbibition of water", "photosynthesis", "cell elongation", "division of plumule"],
+  answer: 0,
+},
+{
+  question: "A bean seed exhibits _______ germination.",
+  options: ["hypogeal", "epigeal", "viviparous", "asexual"],
+  answer: 1,
+},
+{
+  question: "Which of these correctly defines dormancy?",
+  options: ["Growth without light", "Temporary suspension of growth", "Death of embryo", "Drying of seed"],
+  answer: 1,
+},
+{
+  question: "The first visible sign of germination in a seed is _______.",
+  options: ["plumule emergence", "radicle emergence", "cotyledon swelling", "seed coat splitting"],
+  answer: 1,
+},
+{
+  question: "The hormone responsible for breaking seed dormancy is _______.",
+  options: ["Auxin", "Gibberellin", "Abscisic acid", "Ethylene"],
+  answer: 1,
+},
+{
+  question: "The hormone that inhibits seed germination is _______.",
+  options: ["Abscisic acid", "Cytokinin", "Auxin", "Gibberellin"],
+  answer: 0,
+},
+{
+  question: "An increase in cell number during growth results from _______.",
+  options: ["cell elongation", "cell division", "cell fusion", "cell respiration"],
+  answer: 1,
+},
+{
+  question: "Which phase of growth is associated with most active mitosis?",
+  options: ["Lag phase", "Log phase", "Stationary phase", "Decline phase"],
+  answer: 1,
+},
+{
+  question: "Which of these plant hormones promotes cell division?",
+  options: ["Auxin", "Cytokinin", "Gibberellin", "Abscisic acid"],
+  answer: 1,
+},
+{
+  question: "Which structure is responsible for protecting the root tip during growth?",
+  options: ["Root cap", "Root hair", "Cortex", "Meristem"],
+  answer: 0,
+},
+{
+  question: "Which of these conditions is most important for seed germination?",
+  options: ["Light", "Water", "Carbon dioxide", "Fertilizer"],
+  answer: 1,
+},
+{
+  question: "The conversion of an immature insect into adult form is called _______.",
+  options: ["metamorphosis", "fertilization", "differentiation", "regeneration"],
+  answer: 0,
+},
+{
+  question: "In which of these organisms does growth occur throughout life?",
+  options: ["Man", "Dog", "Fish", "Butterfly"],
+  answer: 2,
+},
+{
+  question: "The major difference between complete and incomplete metamorphosis is the presence of _______.",
+  options: ["pupa stage", "larva stage", "nymph stage", "egg stage"],
+  answer: 0,
+},
+{
+  question: "Which of the following statements is true about development?",
+  options: ["It is reversible", "It involves differentiation", "It occurs without growth", "It reduces cell number"],
+  answer: 1,
+},
+{
+  question: "The growth pattern of insects is _______.",
+  options: ["continuous", "discontinuous", "exponential", "uniform"],
+  answer: 1,
+},
+{
+  question: "Which of these animals undergoes complete metamorphosis?",
+  options: ["Grasshopper", "Cockroach", "Butterfly", "Dragonfly"],
+  answer: 2,
+},
+{
+  question: "Growth in a unicellular organism occurs by _______.",
+  options: ["cell division", "cell elongation", "fusion", "differentiation"],
+  answer: 0,
+},
+{
+  question: "The living part of a seed that develops into a new plant is called the _______.",
+  options: ["endosperm", "embryo", "cotyledon", "seed coat"],
+  answer: 1,
+},
+{
+  question: "Which of these statements is correct about auxins?",
+  options: ["They inhibit root formation", "They promote cell elongation", "They stop seed germination", "They promote leaf fall"],
+  answer: 1,
+},
+{
+  question: "The hormone that promotes apical dominance in plants is _______.",
+  options: ["Auxin", "Gibberellin", "Cytokinin", "Ethylene"],
+  answer: 0,
+},
+{
+  question: "A lizard regenerating its tail is an example of _______.",
+  options: ["growth", "regeneration", "metamorphosis", "reproduction"],
+  answer: 1,
+},
+{
+  question: "The part of the embryo that develops into the shoot is the _______.",
+  options: ["plumule", "radicle", "cotyledon", "endosperm"],
+  answer: 0,
+},
+{
+  question: "The graph showing rate of growth against time is called a _______.",
+  options: ["bar chart", "growth curve", "histogram", "bell curve"],
+  answer: 1,
+},
+{
+  question: "The dry mass of a plant can be determined by _______.",
+  options: ["weighing after drying", "weighing fresh", "soaking in water", "boiling"],
+  answer: 0,
+},
+{
+  question: "Auxins are produced mainly in the _______.",
+  options: ["root tip and shoot tip", "leaf", "stem", "flower"],
+  answer: 0,
+},
+{
+  question: "The enzyme responsible for digesting stored food during germination is _______.",
+  options: ["amylase", "pepsin", "lipase", "renin"],
+  answer: 0,
+},
+{
+  question: "Which of these hormones regulates fruit abscission?",
+  options: ["Cytokinin", "Auxin", "Abscisic acid", "Gibberellin"],
+  answer: 2,
+},
+{
+  question: "The dry weight of a growing seedling at the stationary phase will be _______.",
+  options: ["increasing rapidly", "constant", "decreasing", "zero"],
+  answer: 1,
+},
+{
+  question: "Growth occurs in animals mainly by _______.",
+  options: ["cell division throughout the body", "cell division in certain tissues", "cell division at the tip only", "fusion of tissues"],
+  answer: 1,
+},
+{
+  question: "The organ responsible for producing growth hormone in man is the _______.",
+  options: ["pituitary gland", "thyroid gland", "pancreas", "liver"],
+  answer: 0,
+},
+{
+  question: "Which factor below is not essential for growth?",
+  options: ["Water", "Mineral salts", "Sound", "Light"],
+  answer: 2,
+},
+
+
+
+
   ],
   
   //literature in english question
@@ -9120,3 +22659,6 @@ const assignments = [
     deadline: "2025-11-05"
   }
 ];
+
+
+

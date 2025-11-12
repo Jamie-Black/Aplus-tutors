@@ -7,23 +7,17 @@
   <link rel="stylesheet" href="quiz.css">
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async 
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
-
 <body>
   <header class="header">
-    <h1>Multi-Subject Quizzes</h1>
-    <div class="student-info" style="text-align:center; margin-top:10px;">
-      <p><strong>Name:</strong> <span id="student-name"></span></p>
-      <p><strong>Email:</strong> <span id="student-email"></span></p>
-    </div>
+    <h1 id="greeting" class="greeting"></h1>
   </header>
 
   <main class="quiz-container">
     <!-- Step 1: Topic Selection -->
     <div id="topic-screen" class="screen active">
-      <h2>Select a Quiz Topic</h2>
+      <h2 style="text-align: center; margin-bottom: 30px;">Select a Quiz Subject</h2>
       <div id="topic-list" class="topic-list"></div>
     </div>
 
@@ -47,7 +41,6 @@
       <a id="email-button" href="#" class="primary-button email-button" target="_blank">
         Email My Results to Instructor
       </a>
-      <button class="secondary-button" onclick="window.location.reload();">Take Another Quiz</button>
     </div>
 
     <!-- Step 4: Correction Screen -->
@@ -59,245 +52,272 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 Aplus Tutors</p>
+    <div>
+        <a style="width: fit-content; margin-bottom:20px;" class="primary-button" href="dashboard.html">Back to Dashboard</a>
+     </div>
+    <p>&copy; 2021 Aplus Tutors</p>
   </footer>
 
   <script src="data.js"></script>
 
   <script>
-    // =========================
-    // LOAD LOGGED-IN USER INFO
-    // =========================
-    const loggedUser = JSON.parse(localStorage.getItem("loggedInUser"));
-    if (!loggedUser) {
-      alert("Please log in to access quizzes.");
-      window.location.href = "index.html";
-    }
+const loggedUser = JSON.parse(localStorage.getItem("loggedInUser"));
+if (!loggedUser) {
+  alert("Please log in to access quizzes.");
+  window.location.href = "index.html";
+}
 
-    let studentInfo = {
-      name: loggedUser.fullName,
-      email: loggedUser.email,
-      subject: "",
-      topic: ""
-    };
+const hours = new Date().getHours();
+let greetingText = hours < 12 ? "Good morning" : hours < 18 ? "Good afternoon" : "Good evening";
+document.getElementById("greeting").textContent = `${greetingText}, ${loggedUser.fullName}!`;
 
-    document.getElementById('student-name').textContent = studentInfo.name;
-    document.getElementById('student-email').textContent = studentInfo.email;
+let studentInfo = {
+  name: loggedUser.fullName,
+  email: loggedUser.email,
+  subject: "",
+  topic: ""
+};
 
-    // =========================
-    // GLOBAL STATE
-    // =========================
-    let activeQuestions = [];
-    let score = 0;
+let activeQuestions = [];
+let score = 0;
+let userAnswers = [];
 
-    // DOM ELEMENTS
-    const topicScreen = document.getElementById('topic-screen');
-    const quizScreen = document.getElementById('quiz-screen');
-    const resultScreen = document.getElementById('result-screen');
-    const topicList = document.getElementById('topic-list');
-    const questionsArea = document.getElementById('questions-area');
-    const submitButton = document.getElementById('submit-quiz');
+const topicScreen = document.getElementById('topic-screen');
+const quizScreen = document.getElementById('quiz-screen');
+const resultScreen = document.getElementById('result-screen');
+const topicList = document.getElementById('topic-list');
+const questionsArea = document.getElementById('questions-area');
+const submitButton = document.getElementById('submit-quiz');
 
-    document.addEventListener('DOMContentLoaded', () => {
-      loadTopics();
-      submitButton.addEventListener('click', handleSubmitQuiz);
+// ✅ Use window.onload to ensure data.js is loaded
+window.onload = () => {
+  if (typeof quizData === 'undefined') {
+    console.error("❌ quizData is missing. Ensure data.js is loaded correctly.");
+    topicList.innerHTML = "<p style='color:red;'>Error loading quizzes. Check data.js file.</p>";
+    return;
+  }
+  loadTopics();
+  submitButton.addEventListener('click', handleSubmitQuiz);
+};
+
+function loadTopics() {
+  topicList.innerHTML = '';
+  const quizResults = JSON.parse(localStorage.getItem('quizResults')) || [];
+
+  for (const subject in quizData) {
+    const subjectDiv = document.createElement('div');
+    subjectDiv.classList.add('subject-section');
+
+    const subjectHeader = document.createElement('div');
+    subjectHeader.classList.add('subject-header');
+    subjectHeader.innerHTML = `<h3>${subject}</h3><span class="toggle-icon">+</span>`;
+    subjectDiv.appendChild(subjectHeader);
+
+    const topicsContainer = document.createElement('div');
+    topicsContainer.classList.add('topics-container');
+    topicsContainer.style.display = 'none';
+
+    quizData[subject].forEach(topicObj => {
+      const topicCard = document.createElement('div');
+      topicCard.classList.add('topic-card');
+
+      const resultsForTopic = quizResults.filter(
+        r => r.name === studentInfo.name &&
+             r.subject === subject &&
+             r.topic === topicObj.topic
+      );
+
+      let badge = '';
+      let percentageDisplay = '';
+      if (resultsForTopic.length > 0) {
+        const latestAttempt = resultsForTopic[resultsForTopic.length - 1];
+        badge = latestAttempt.percentage === 100 ? '🏆' : '⚡';
+        percentageDisplay = ` (${latestAttempt.percentage}%)`;
+      }
+
+      topicCard.innerHTML = `
+        <h4>${topicObj.topic} ${badge}${percentageDisplay}</h4>
+        <p><strong>Questions:</strong> ${topicObj.questions.length}</p>
+        <button class="primary-button start-btn">Start Quiz</button>
+      `;
+
+      topicCard.querySelector('.start-btn').addEventListener('click', () => {
+        startQuiz(subject, topicObj.topic);
+      });
+
+      topicsContainer.appendChild(topicCard);
     });
 
-    // =========================
-    // STEP 1: LOAD TOPICS
-    // =========================
-    function loadTopics() {
-      topicList.innerHTML = '';
+    subjectHeader.addEventListener('click', () => {
+      const isVisible = topicsContainer.style.display === 'block';
+      topicsContainer.style.display = isVisible ? 'none' : 'block';
+      subjectHeader.querySelector('.toggle-icon').textContent = isVisible ? '+' : '−';
+    });
 
-      for (const subject in quizData) {
-        const subjectDiv = document.createElement('div');
-        subjectDiv.classList.add('subject-section');
+    subjectDiv.appendChild(topicsContainer);
+    topicList.appendChild(subjectDiv);
+  }
+}
 
-        const subjectHeader = document.createElement('div');
-        subjectHeader.classList.add('subject-header');
-        subjectHeader.innerHTML = `<h3>${subject}</h3><span class="toggle-icon">+</span>`;
-        subjectDiv.appendChild(subjectHeader);
+function startQuiz(subject, topic) {
+  studentInfo.subject = subject;
+  studentInfo.topic = topic;
+  const topicData = quizData[subject].find(t => t.topic === topic);
+  activeQuestions = topicData.questions;
+  userAnswers = Array(activeQuestions.length).fill(null);
 
-        const topicsContainer = document.createElement('div');
-        topicsContainer.classList.add('topics-container');
-        topicsContainer.style.display = 'none';
+  topicScreen.classList.remove('active');
+  quizScreen.classList.add('active');
+  renderQuiz(activeQuestions);
+}
 
-        quizData[subject].forEach(topicObj => {
-          const topicCard = document.createElement('div');
-          topicCard.classList.add('topic-card');
-          topicCard.innerHTML = `
-            <h4>${topicObj.topic}</h4>
-            <p><strong>Questions:</strong> ${topicObj.questions.length}</p>
-            <button class="primary-button" onclick="startQuiz('${subject}','${topicObj.topic}')">Start Quiz</button>
-          `;
-          topicsContainer.appendChild(topicCard);
-        });
+function renderQuiz(questions) {
+  document.getElementById('quiz-title').textContent = `${studentInfo.subject} - ${studentInfo.topic}`;
+  questionsArea.innerHTML = '';
 
-        subjectHeader.addEventListener('click', () => {
-          const isVisible = topicsContainer.style.display === 'block';
-          topicsContainer.style.display = isVisible ? 'none' : 'block';
-          subjectHeader.querySelector('.toggle-icon').textContent = isVisible ? '+' : '−';
-        });
+  questions.forEach((q, i) => {
+    const div = document.createElement('div');
+    div.classList.add('question-block');
+    div.innerHTML = `
+      <p class="question-number">Question ${i + 1} of ${questions.length}</p>
+      <p class="question-text">${q.q}</p>
+      <div class="options-group">
+        ${q.options.map(opt => `<label><input type="radio" name="question-${i}" value="${opt}"> ${opt}</label>`).join('')}
+      </div>
+    `;
+    questionsArea.appendChild(div);
+  });
 
-        subjectDiv.appendChild(topicsContainer);
-        topicList.appendChild(subjectDiv);
-      }
-    }
+  submitButton.style.display = 'block';
+  if (typeof MathJax !== 'undefined') MathJax.typesetPromise([questionsArea]);
+}
 
-    // =========================
-    // STEP 2: START QUIZ
-    // =========================
-    function startQuiz(subject, topic) {
-      studentInfo.subject = subject;
-      studentInfo.topic = topic;
+function handleSubmitQuiz() {
+  score = 0;
+  let allAnswered = true;
 
-      const topicData = quizData[subject].find(t => t.topic === topic);
-      activeQuestions = topicData.questions;
+  activeQuestions.forEach((q, i) => {
+    const selectedInput = document.querySelector(`input[name="question-${i}"]:checked`);
+    const selected = selectedInput ? selectedInput.value : null;
+    userAnswers[i] = selected;
+    if (!selected) allAnswered = false;
+    else if (selected === q.answer) score++;
+  });
 
-      topicScreen.classList.remove('active');
-      quizScreen.classList.add('active');
-      renderQuiz(activeQuestions);
-    }
+  if (!allAnswered) {
+    alert("Please answer all questions before submitting.");
+    return;
+  }
 
-    // =========================
-    // STEP 3: RENDER QUESTIONS
-    // =========================
-    function renderQuiz(questions) {
-      document.getElementById('quiz-title').textContent = `${studentInfo.subject} - ${studentInfo.topic}`;
-      questionsArea.innerHTML = '';
+  const percentValue = ((score / activeQuestions.length) * 100).toFixed(0);
+  displayResults(`${score} / ${activeQuestions.length}`, percentValue);
+}
 
-      questions.forEach((q, i) => {
-        const div = document.createElement('div');
-        div.classList.add('question-block');
-        div.innerHTML = `
-          <p class="question-number">Question ${i + 1} of ${questions.length}</p>
-          <p class="question-text">${q.q}</p>
-          <div class="options-group">
-            ${q.options.map(opt => `
-              <label><input type="radio" name="question-${i}" value="${opt}"> ${opt}</label>
-            `).join('')}
-          </div>
-        `;
-        questionsArea.appendChild(div);
-      });
+function displayResults(scoreText, percentValue) {
+  document.getElementById('result-name').textContent = studentInfo.name;
+  document.getElementById('result-subject').textContent = studentInfo.subject;
+  document.getElementById('result-topic').textContent = studentInfo.topic;
+  document.getElementById('result-score').textContent = scoreText;
+  document.getElementById('result-percentage').textContent = percentValue;
 
-      if (typeof MathJax !== 'undefined') MathJax.typesetPromise([questionsArea]);
-      submitButton.style.display = 'block';
-    }
-
-    // =========================
-    // STEP 4: SUBMIT QUIZ
-    // =========================
-    function handleSubmitQuiz() {
-      score = 0;
-      const total = activeQuestions.length;
-      let allAnswered = true;
-
-      activeQuestions.forEach((q, i) => {
-        const selected = document.querySelector(`input[name="question-${i}"]:checked`);
-        if (!selected) allAnswered = false;
-        else if (selected.value === q.answer) score++;
-      });
-
-      if (!allAnswered) {
-        alert("Please answer all questions before submitting.");
-        return;
-      }
-
-      const percentValue = ((score / total) * 100).toFixed(0);
-      displayResults(`${score} / ${total}`, percentValue, total);
-    }
-
-    // =========================
-    // STEP 5: DISPLAY RESULTS
-    // =========================
-    function displayResults(scoreText, percentValue, total) {
-      document.getElementById('result-name').textContent = studentInfo.name;
-      document.getElementById('result-subject').textContent = studentInfo.subject;
-      document.getElementById('result-topic').textContent = studentInfo.topic;
-      document.getElementById('result-score').textContent = scoreText;
-      document.getElementById('result-percentage').textContent = percentValue;
-
-      const adminEmail = "your.admin.email@example.com";
-      const subjectLine = `Quiz Results: ${studentInfo.subject} - ${studentInfo.topic}`;
-      const body = `
+  const adminEmail = "your.admin.email@example.com";
+  const subjectLine = `Quiz Results: ${studentInfo.subject} - ${studentInfo.topic}`;
+  const body = `
 Dear Aplus Tutors,
 
-Here is my quiz result stat:
-Name:  ${studentInfo.name}
+Here is my quiz result:
+Name: ${studentInfo.name}
 Subject: ${studentInfo.subject}
 Topic: ${studentInfo.topic}
 Score: ${scoreText}
 Percentage: ${percentValue}%
 
 Regards,
-      `.trim();
+`.trim();
 
-      document.getElementById('email-button').href =
-        `mailto:${studentInfo.email}?cc=${adminEmail}&subject=${encodeURIComponent(subjectLine)}&body=${encodeURIComponent(body)}`;
+  document.getElementById('email-button').href =
+    `mailto:${studentInfo.email}?cc=${adminEmail}&subject=${encodeURIComponent(subjectLine)}&body=${encodeURIComponent(body)}`;
 
-      quizScreen.classList.remove('active');
-      resultScreen.classList.add('active');
+  quizScreen.classList.remove('active');
+  resultScreen.classList.add('active');
 
-      // Save quiz data for progress tracking
-      const quizResults = JSON.parse(localStorage.getItem('quizResults')) || [];
-      quizResults.push({
-        name: studentInfo.name,
-        email: studentInfo.email,
-        subject: studentInfo.subject,
-        topic: studentInfo.topic,
-        title: `${studentInfo.subject} - ${studentInfo.topic}`,
-        score: score,
-        total: total,
-        percentage: Number(percentValue),
-        date: new Date().toLocaleString()
-      });
-      localStorage.setItem('quizResults', JSON.stringify(quizResults));
+  const quizResults = JSON.parse(localStorage.getItem('quizResults')) || [];
+  quizResults.push({
+    name: studentInfo.name,
+    email: studentInfo.email,
+    subject: studentInfo.subject,
+    topic: studentInfo.topic,
+    score: score,
+    total: activeQuestions.length,
+    percentage: Number(percentValue),
+    date: new Date().toLocaleString(),
+    answers: userAnswers
+  });
+  localStorage.setItem('quizResults', JSON.stringify(quizResults));
 
-      // Add correction button
-      if (!document.querySelector('.show-correction-btn')) {
-        const correctionBtn = document.createElement('button');
-        correctionBtn.textContent = "View Correction";
-        correctionBtn.className = "show-correction-btn";
-        correctionBtn.onclick = showCorrection;
-        resultScreen.appendChild(correctionBtn);
-      }
-    }
+  addResultButtons();
+}
 
-    // =========================
-    // STEP 6: SHOW CORRECTION
-    // =========================
-    function showCorrection() {
+function addResultButtons() {
+  if (!document.querySelector('.retake-btn')) {
+    const retakeBtn = document.createElement('button');
+    retakeBtn.textContent = "Retake Quiz";
+    retakeBtn.className = "secondary-button retake-btn";
+    retakeBtn.onclick = () => {
       resultScreen.classList.remove('active');
-      const correctionScreen = document.getElementById('correction-screen');
-      const correctionArea = document.getElementById('correction-area');
-      correctionScreen.classList.add('active');
-      correctionArea.innerHTML = '';
+      startQuiz(studentInfo.subject, studentInfo.topic);
+    };
+    resultScreen.appendChild(retakeBtn);
+  }
 
-      activeQuestions.forEach((q, i) => {
-        const selected = document.querySelector(`input[name="question-${i}"]:checked`).value;
-        const questionDiv = document.createElement('div');
-        questionDiv.classList.add('correction-question');
-        let optionsHTML = '';
+  if (!document.querySelector('.dashboard-btn')) {
+    const dashboardBtn = document.createElement('button');
+    dashboardBtn.textContent = "Back to Dashboard";
+    dashboardBtn.className = "secondary-button dashboard-btn";
+    dashboardBtn.onclick = () => window.location.href = "dashboard.html";
+    resultScreen.appendChild(dashboardBtn);
+  }
 
-        q.options.forEach(opt => {
-          let className = '';
-          if (opt === q.answer) className = 'correct';
-          else if (opt === selected && opt !== q.answer) className = 'wrong';
-          optionsHTML += `<p class="${className}">${opt}</p>`;
-        });
+  if (!document.querySelector('.show-correction-btn')) {
+    const correctionBtn = document.createElement('button');
+    correctionBtn.textContent = "View Correction";
+    correctionBtn.className = "show-correction-btn";
+    correctionBtn.onclick = showCorrection;
+    resultScreen.appendChild(correctionBtn);
+  }
+}
 
-        questionDiv.innerHTML = `
-          <p><strong>Q${i + 1}:</strong> ${q.q}</p>
-          ${optionsHTML}
-          <p><em>Your Answer:</em> ${selected}</p>
-          <p><em>Correct Answer:</em> ${q.answer}</p>
-        `;
-        correctionArea.appendChild(questionDiv);
-      });
+function showCorrection() {
+  resultScreen.classList.remove('active');
+  const correctionScreen = document.getElementById('correction-screen');
+  const correctionArea = document.getElementById('correction-area');
+  correctionArea.innerHTML = '';
+  correctionScreen.classList.add('active');
 
-      if (typeof MathJax !== 'undefined') MathJax.typesetPromise([correctionArea]);
-    }
+  activeQuestions.forEach((q, i) => {
+    const selected = userAnswers[i];
+    const questionDiv = document.createElement('div');
+    questionDiv.classList.add('correction-question');
+
+    let optionsHTML = '';
+    q.options.forEach(opt => {
+      let className = '';
+      if (opt === q.answer) className = 'correct';
+      else if (opt === selected && opt !== q.answer) className = 'wrong';
+      optionsHTML += `<p class="${className}">${opt}</p>`;
+    });
+
+    questionDiv.innerHTML = `
+      <p><strong>Q${i + 1}:</strong> ${q.q}</p>
+      ${optionsHTML}
+      <p><em>Your Answer:</em> ${selected || 'Not Answered'}</p>
+      <p><em>Correct Answer:</em> ${q.answer}</p>
+    `;
+    correctionArea.appendChild(questionDiv);
+  });
+
+  if (typeof MathJax !== 'undefined') MathJax.typesetPromise([correctionArea]);
+}
   </script>
 </body>
 </html>

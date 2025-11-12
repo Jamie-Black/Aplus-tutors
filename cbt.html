@@ -186,6 +186,7 @@
       const q = activeQuestions[currentSubject][currentQuestionIndex];
       document.getElementById("question-number").textContent = `${currentSubject}: Question ${currentQuestionIndex + 1}`;
       document.getElementById("question-text").textContent = q.question;
+      
 
       const qImg = document.getElementById("question-image");
       if (q.image) {

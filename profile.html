@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aplus Tutors | Profile</title>
+<link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <header>My Profile</header>
+  <main>
+    <!-- EDIT FORM -->
+    <div id="formCard" class="card hidden">
+      <img id="preview" class="img-preview" src="" alt="Profile Picture">
+      <label>Upload Photo</label>
+      <input type="file" id="photo" accept="image/*">
+      <label>Full Name</label>
+      <input type="text" id="name" placeholder="Enter your name">
+      <label>Bio</label>
+      <textarea id="bio" placeholder="Short bio..."></textarea>
+      <label>Academic Goals</label>
+      <textarea id="goals" placeholder="E.g. Pass WAEC with distinctions..."></textarea>
+      <label>Career Choice</label>
+      <input type="text" id="career" placeholder="E.g. Software Engineer">
+      <button class="btn-save" id="saveBtn">Save Profile</button>
+    </div>
+
+    <!-- VIEW MODE -->
+    <div id="viewCard" class="card hidden profile-view">
+      <img style="width: 100%;" id="viewPhoto" src="" alt="Profile Picture">
+      <h3 id="viewName"></h3>
+      <p id="viewBio"></p>
+      <p><strong>Academic Goals:</strong> <span id="viewGoals"></span></p>
+      <p><strong>Career Choice:</strong> <span id="viewCareer"></span></p>
+      <small>Profile saved locally</small>
+      <button class="btn-edit" id="editBtn">Edit Profile</button>
+      <button class="btn-delete" id="deleteBtn">Delete Profile</button>
+    </div>
+    
+    <div style="display: flex; align-items: center; justify-content:center; padding: 20px 0;">
+      <a class="btn" href="dashboard.html">Back to dashboard</a>
+    </div>
+  </main>
+  <footer>
+    <h4>&copy; 2025 Aplus Tutors</h4></footer>
+
+<script>
+  const LS_KEY = 'aplus_profile';
+  const formCard = document.getElementById('formCard');
+  const viewCard = document.getElementById('viewCard');
+
+  const photoInput = document.getElementById('photo');
+  const preview = document.getElementById('preview');
+  const nameInput = document.getElementById('name');
+  const bioInput = document.getElementById('bio');
+  const goalsInput = document.getElementById('goals');
+  const careerInput = document.getElementById('career');
+
+  const saveBtn = document.getElementById('saveBtn');
+  const editBtn = document.getElementById('editBtn');
+  const deleteBtn = document.getElementById('deleteBtn');
+
+  const viewPhoto = document.getElementById('viewPhoto');
+  const viewName = document.getElementById('viewName');
+  const viewBio = document.getElementById('viewBio');
+  const viewGoals = document.getElementById('viewGoals');
+  const viewCareer = document.getElementById('viewCareer');
+
+  // Load profile on page load
+  function loadProfile() {
+    const data = JSON.parse(localStorage.getItem(LS_KEY));
+    if (data) {
+      // Show view mode
+      viewPhoto.src = data.photo || '';
+      viewName.textContent = data.name || '';
+      viewBio.textContent = data.bio || '';
+      viewGoals.textContent = data.goals || '';
+      viewCareer.textContent = data.career || '';
+      formCard.classList.add('hidden');
+      viewCard.classList.remove('hidden');
+    } else {
+      // Show edit form
+      preview.src = "https://via.placeholder.com/120?text=Profile";
+      nameInput.value = '';
+      bioInput.value = '';
+      goalsInput.value = '';
+      careerInput.value = '';
+      viewCard.classList.add('hidden');
+      formCard.classList.remove('hidden');
+    }
+  }
+
+  // Photo preview
+  photoInput.addEventListener('change', () => {
+    const file = photoInput.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = e => preview.src = e.target.result;
+    reader.readAsDataURL(file);
+  });
+
+  // Save profile
+  saveBtn.addEventListener('click', () => {
+    const data = {
+      photo: preview.src,
+      name: nameInput.value.trim(),
+      bio: bioInput.value.trim(),
+      goals: goalsInput.value.trim(),
+      career: careerInput.value.trim()
+    };
+    localStorage.setItem(LS_KEY, JSON.stringify(data));
+    alert('Profile saved!');
+    loadProfile();
+  });
+
+  // Edit profile
+  editBtn.addEventListener('click', () => {
+    const data = JSON.parse(localStorage.getItem(LS_KEY)) || {};
+    preview.src = data.photo || "https://via.placeholder.com/120?text=Profile";
+    nameInput.value = data.name || '';
+    bioInput.value = data.bio || '';
+    goalsInput.value = data.goals || '';
+    careerInput.value = data.career || '';
+    formCard.classList.remove('hidden');
+    viewCard.classList.add('hidden');
+  });
+
+  // Delete profile
+  deleteBtn.addEventListener('click', () => {
+    if (confirm('Are you sure you want to delete your profile? This cannot be undone.')) {
+      localStorage.removeItem(LS_KEY);
+      loadProfile();
+    }
+  });
+
+  loadProfile();
+</script>
+</body>
+</html>
