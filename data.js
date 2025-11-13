@@ -3,7 +3,7 @@
 const registeredUsers = [
   { 
     fullName: "Olaborede James", 
-    password: "lordkronos" 
+    password: "jamieblack" 
   },
   { 
     fullName: "Dahunsi Opemipo", 
