@@ -24,6 +24,10 @@ const registeredUsers = [
   {
     fullName: "Omobolanle Akinwale",
     password: "akinwaleomobolanle16"
+  },
+  {
+    fullName: "Jane Doe",
+    password: "lordkronos"
   }
 
 ];
