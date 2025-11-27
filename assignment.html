@@ -4,94 +4,165 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aplus Tutors | Assignments</title>
+
   <link rel="stylesheet" href="assignment.css">
-  
+
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script>
     (function(){
       emailjs.init("YOUR_PUBLIC_KEY"); // 🔑 Replace with your EmailJS public key
     })();
   </script>
-</head>
-<body class="dashboard-body">
 
-  <header>
-    <h3><span id="studentName"></span></h3>
-    <p id="studentEmail"></p>
-    <h1 style="text-align: center; margin-top: 30px; font-size:30px;">My Assignments</h1>
+  <style>
+    /* Quick responsive styles */
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background:#f9f9f9; }
+    header { text-align: center; padding: 20px; background:#fff; box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+    #assignmentsList { display:grid; grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); gap:15px; padding:20px;}
+    .card { background:#fff; padding:15px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1); position:relative; }
+    .card.submitted { opacity:0.7; }
+    .assignment-status { position:absolute; top:10px; right:10px; font-weight:bold; color:green; }
+    .card.overdue { border-left:4px solid red; }
+    .card.upcoming { border-left:4px solid green; }
+    .message { margin-top:10px; font-weight:bold; }
+    #searchAssignment { margin:20px auto; display:block; width:80%; padding:8px; border-radius:5px; border:1px solid #ccc;}
+  </style>
+</head>
+<body>
+
+  <header style="color: white; background-color: #8D0000; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
+    <h3 id="studentName">Student Name</h3>
+    <p id="studentEmail">student@example.com</p>
+    <h1 style="color: white;">My Assignments</h1>
   </header>
 
-  <section id="assignmentsList" class="card-container"></section>
+  <input type="text" id="searchAssignment" placeholder="Search assignments by subject or topic...">
 
-  <button class="logout-btn" onclick="logout()">Log Out</button>
+  <section id="assignmentsList">
+    <!-- Assignment cards will be dynamically injected here -->
+  </section>
+  
+  
+    <footer style="text-align:center;padding:12px;color:white;font-size:13px; background-color:#8B0000;">
+    <div style="padding: 10px;">
+      <a style="text-decoration: underline; color: white;" class="btn" href="dashboard.html">Back to Dashboard</a>
+    </div>
+    <h4>&copy; 2021 Aplus Tutors</h4>
+</footer>
 
-  <script src="data.js"></script>
+  <script src="assignment.js"></script>
+
   <script>
-    // ✅ Load logged-in user
+    // Load logged-in user
     const storedUser = JSON.parse(localStorage.getItem("loggedInUser"));
     if (!storedUser) {
       window.location.href = "login.html";
     } else {
       document.getElementById("studentName").textContent = storedUser.fullName;
       document.getElementById("studentEmail").textContent = storedUser.email;
+      if(storedUser.avatar) {
+        document.getElementById("studentAvatar").src = storedUser.avatar;
+      }
     }
 
-    // ✅ Load assignments dynamically
     const container = document.getElementById("assignmentsList");
+    const submittedAssignments = JSON.parse(localStorage.getItem("submittedAssignments") || "[]");
 
-    if (typeof assignments !== "undefined" && assignments.length > 0) {
-      assignments.forEach((task, index) => {
+    // Filter by department if needed
+    const userDept = storedUser.department || "";
+    const filteredAssignments = assignments.filter(a => !userDept || a.department === userDept);
+
+    function renderAssignments(list) {
+      container.innerHTML = "";
+      if(list.length === 0) {
+        container.innerHTML = `<div class="no-assignments">You do not have any assignments yet. Check back later</div>`;
+        return;
+      }
+
+      list.forEach((task,index) => {
         const card = document.createElement("div");
         card.className = "card";
 
-        // Create the questions list (if content is array)
+        // Determine deadline status
+        const now = new Date();
+        let deadlineDate = task.deadline ? new Date(task.deadline) : null;
+        if(deadlineDate){
+          if(deadlineDate < now) card.classList.add("overdue");
+          else card.classList.add("upcoming");
+        }
+
+        // Generate questions HTML
         let questionsHTML = "";
-        if (Array.isArray(task.content)) {
+        if(Array.isArray(task.content)){
           questionsHTML = "<ol>";
-          task.content.forEach(q => {
-            questionsHTML += `<li>${q}</li>`;
-          });
+          task.content.forEach(q => { questionsHTML += `<li>${q}</li>`; });
           questionsHTML += "</ol>";
         } else {
           questionsHTML = `<p>${task.content}</p>`;
         }
 
+        // Check submission
+        const isSubmitted = submittedAssignments.includes(task.topic);
+        if(isSubmitted) card.classList.add("submitted");
+
         card.innerHTML = `
           <h3>${task.subject}: ${task.topic}</h3>
           <div class="assignment-questions">${questionsHTML}</div>
           <p><strong>Deadline:</strong> ${task.deadline || "Not specified"}</p>
-
+          ${isSubmitted ? `<div class="assignment-status">Submitted ✅</div>` : ""}
           <form class="assignment-form" id="form-${index}">
             <input type="hidden" name="student_name" value="${storedUser.fullName}">
             <input type="hidden" name="student_email" value="${storedUser.email}">
             <input type="hidden" name="subject" value="${task.subject}">
             <input type="hidden" name="topic" value="${task.topic}">
             <label>Upload Answer:</label>
-            <input type="file" name="file" accept="image/*,.pdf" required>
-            <button type="submit">Submit</button>
+            <input type="file" name="file" accept="image/*,.pdf">
+            <label>Or type your answer:</label>
+            <textarea name="textAnswer" rows="4" placeholder="Type your answer here..."></textarea>
+            <button type="submit" ${isSubmitted ? "disabled" : ""}>${isSubmitted ? "Submitted" : "Submit"}</button>
+            <div class="message"></div>
           </form>
         `;
-
         container.appendChild(card);
 
-        // 🎯 Handle submission
-        const form = card.querySelector(`#form-${index}`);
-        form.addEventListener("submit", function(e) {
-          e.preventDefault();
-          emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
-            .then(() => alert("✅ Assignment submitted successfully!"))
-            .catch(err => alert("❌ Error submitting: " + err));
-        });
+        // Handle submission
+        if(!isSubmitted){
+          const form = card.querySelector(`#form-${index}`);
+          const messageDiv = form.querySelector(".message");
+          form.addEventListener("submit", function(e){
+            e.preventDefault();
+            const submitBtn = form.querySelector("button");
+            submitBtn.disabled = true;
+            submitBtn.textContent = "Submitting...";
+
+            emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
+              .then(() => {
+                messageDiv.textContent = "✅ Assignment submitted successfully!";
+                card.classList.add("submitted");
+                submitBtn.textContent = "Submitted";
+                submittedAssignments.push(task.topic);
+                localStorage.setItem("submittedAssignments", JSON.stringify(submittedAssignments));
+              })
+              .catch(err => {
+                messageDiv.textContent = "❌ Error submitting: " + err;
+                submitBtn.disabled = false;
+                submitBtn.textContent = "Submit";
+              });
+          });
+        }
       });
-    } else {
-      container.innerHTML = "<p>No assignments available at the moment.</p>";
     }
 
-    // ✅ Logout function
-    function logout() {
-      localStorage.removeItem("loggedInUser");
-      window.location.href = "student-login.html";
-    }
+    renderAssignments(filteredAssignments);
+
+    // Search functionality
+    document.getElementById("searchAssignment").addEventListener("input", e => {
+      const term = e.target.value.toLowerCase();
+      const filtered = filteredAssignments.filter(a => 
+        a.subject.toLowerCase().includes(term) || a.topic.toLowerCase().includes(term)
+      );
+      renderAssignments(filtered);
+    });
   </script>
 </body>
 </html>

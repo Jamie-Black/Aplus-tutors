@@ -6,11 +6,54 @@
   <title>Aplus Tutors | CBT Test</title>
   <link rel="stylesheet" href="cbt.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-  <!-- ✅ MathJax for rendering superscripts/subscripts and LaTeX -->
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
 
-  <script src="data.js" defer></script>
+  <style>
+  /* Improved Subject Select */
+#subject-select {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  border: 2px solid #8B1414; /* Aplus Tutors crimson */
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#subject-select:focus {
+  border-color: #222;
+  box-shadow: 0 0 5px rgba(139, 20, 20, 0.5);
+}
+
+#subject-select option {
+  padding: 8px;
+  font-size: 15px;
+  color: #222;
+}
+
+/* Optional: make multiple selection more visually appealing */
+#subject-select[multiple] {
+  height: 120px;
+  overflow-y: auto;
+}
+    /* Correction image sizing */
+    .correction-image {
+      max-width: 300px; 
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px 0;
+    }
+    /* Optional: hide question image by default */
+    #question-image.hidden {
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
@@ -18,8 +61,7 @@
     <h2>CBT Access</h2>
 
     <div class="student-info">
-      <p><strong>Name:</strong> <span id="student-name"></span></p>
-      <p><strong>Email:</strong> <span id="student-email"></span></p>
+      <h3><strong>Welcome back, </strong> <span id="student-name"></span></h3>
     </div>
 
     <label>Select Subjects (1–4):</label>
@@ -53,7 +95,7 @@
 
       <div class="controls">
         <button id="prev-btn">Previous</button>
-        <button id="submit-btn">Submit</button>
+        <button style="background-color: darkgreen;" id="submit-btn">Submit</button>
         <button id="next-btn">Next</button>
       </div>
 
@@ -69,6 +111,7 @@
       <button id="download-btn">Download Result</button>
       <button id="email-btn">Send to Instructor</button>
       <button id="view-corrections-btn">View Corrections</button>
+      <button style="background-color: black;"><a style="text-decoration-line: none; color: white;" href="dashboard.html">Back to Dashboard</a></button>
     </section>
 
     <section style="padding: 20px;" id="correction-section" class="hidden">
@@ -78,8 +121,8 @@
     </section>
   </div>
 
-<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
-<script>
+  <script src="cbtdata.js"></script>
+  <script>
 let currentUser, selectedSubjects = [], currentSubject, currentQuestionIndex = 0;
 let userAnswers = {}, timerInterval, activeQuestions = {};
 
@@ -98,7 +141,6 @@ window.addEventListener("load", () => {
   }
   currentUser = storedUser;
   document.getElementById("student-name").textContent = currentUser.fullName;
-  document.getElementById("student-email").textContent = currentUser.email;
 
   subjects.forEach(sub => {
     const opt = document.createElement("option");
@@ -145,7 +187,7 @@ loginBtn.onclick = () => {
     btn.onclick = () => switchSubject(sub);
     subjectNav.appendChild(btn);
 
-    if (!userAnswers[sub]) userAnswers[sub] = {}; // Initialize answers
+    if (!userAnswers[sub]) userAnswers[sub] = {};
   });
 
   currentSubject = selectedSubjects[0];
@@ -187,7 +229,7 @@ function switchSubject(sub) {
   loadQuestion();
 }
 
-// ✅ Load question (supports <sup>, <sub>, and MathJax)
+// ✅ Load question
 function loadQuestion() {
   const q = activeQuestions[currentSubject][currentQuestionIndex];
   document.getElementById("question-number").textContent = `${currentSubject}: Question ${currentQuestionIndex + 1}`;
@@ -369,7 +411,7 @@ function showResult() {
   document.getElementById("view-corrections-btn").onclick = showCorrections;
 }
 
-// ✅ Show Corrections (with MathJax support)
+// ✅ Show Corrections
 function showCorrections() {
   document.getElementById("result-section").classList.add("hidden");
   document.getElementById("correction-section").classList.remove("hidden");
@@ -385,7 +427,8 @@ function showCorrections() {
       const div = document.createElement("div");
       div.classList.add("correction-item");
 
-      let imgHTML = q.image ? `<img src="${q.image}" class="question-image" alt="Question image">` : "";
+      // Only show image if available
+      let imgHTML = q.image ? `<img src="${q.image}" class="correction-image" alt="Question image">` : "";
 
       const userAns = userAnswers[sub]?.[i];
       const correctAns = q.answer;
@@ -400,7 +443,6 @@ function showCorrections() {
       `;
       container.appendChild(div);
 
-      // ✅ MathJax rendering for each correction
       if (window.MathJax && window.MathJax.typesetPromise) MathJax.typesetPromise([div]);
     });
   });
@@ -410,6 +452,6 @@ function showCorrections() {
     document.getElementById("result-section").classList.remove("hidden");
   };
 }
-</script>
+  </script>
 </body>
 </html>

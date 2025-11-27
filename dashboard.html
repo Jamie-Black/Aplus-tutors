@@ -5,190 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aplus Tutors | Student Dashboard</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>
-/* ===== GLOBAL BASE ===== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-* {margin:0; padding:0; box-sizing:border-box;}
-:root {
-  --crimson:#8B0000;
-  --light-crimson:#b22222;
-  --white:#fff;
-  --black:#111;
-  --gray:#f5f5f8;
-  --accent:#fff2f2;
-}
-body.dashboard-body {
-  font-family:'Poppins',sans-serif;
-  background:linear-gradient(135deg,#ffffff,#fff7f7,#fef1f1);
-  color:var(--black);
-  min-height:100vh;
-  overflow-x:hidden;
-  animation:fadeIn .8s ease;
-}
-@keyframes fadeIn {from{opacity:0;}to{opacity:1;}}
-
-/* ===== HEADER ===== */
-header{
-  width:100%;
-  background:linear-gradient(90deg,var(--crimson),var(--light-crimson));
-  color:var(--white);
-  text-align:center;
-  padding:30px 20px;
-  border-bottom-left-radius:60px;
-  border-bottom-right-radius:60px;
-  box-shadow:0 10px 25px rgba(139,0,0,.25);
-}
-header h1{font-size:24px; font-weight:600;}
-
-/* ===== STICKY TOP ICON BAR ===== */
-.notificatbar {
-  position:sticky;
-  top:0;
-  z-index:100;
-  background:var(--white);
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  gap:30px;
-  padding:12px;
-  box-shadow:0 4px 12px rgba(0,0,0,0.08);
-  overflow-x:auto;
-}
-.icon-card{
-  font-size:22px;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  position:relative;
-  cursor:pointer;
-  transition:transform .25s ease,color .25s ease;
-}
-.icon-card:hover{
-  transform:translateY(-3px) scale(1.05);
-  color:var(--crimson);
-}
-.icon-card .dot{
-  position:absolute;
-  top:0;
-  right:-4px;
-  width:14px;
-  height:14px;
-  background-color:red;
-  border-radius:50%;
-  border:2px solid var(--white);
-  display:none;
-}
-
-/* ===== MOTIVATION ===== */
-.motivation{
-  background:var(--accent);
-  border-left:5px solid #ffc107;
-  border-radius:12px;
-  box-shadow:0 4px 15px rgba(0,0,0,0.08);
-  margin:25px auto;
-  max-width:1000px;
-  padding:35px 20px;
-  text-align:center;
-}
-.motivation h2{color:var(--crimson); margin-bottom:10px;}
-.motivation p{font-style:italic; font-size:15px;}
-
-/* ===== SLIDE-IN PANELS ===== */
-.top-panel{
-  position:fixed;
-  top:60px;
-  right:0;
-  display:flex;
-  flex-direction:column;
-  align-items:flex-end;
-  gap:15px;
-  padding:10px;
-  z-index:200;
-  pointer-events:none;
-}
-.top-panel .panel{
-  background:var(--white);
-  border-radius:12px;
-  padding:15px 20px;
-  min-width:260px;
-  max-width:80vw;
-  box-shadow:0 4px 20px rgba(0,0,0,0.15);
-  transform:translateX(120%);
-  opacity:0;
-  pointer-events:auto;
-  transition:all .4s ease;
-}
-.top-panel .panel.show{
-  transform:translateX(0);
-  opacity:1;
-}
-.panel h3{
-  margin-top:0;
-  color:var(--crimson);
-  font-size:16px;
-}
-.panel ul{margin:10px 0 0 18px; font-size:14px; line-height:1.5;}
-.close-btn{
-  float:right;
-  cursor:pointer;
-  color:var(--crimson);
-  font-weight:bold;
-  font-size:18px;
-}
-
-/* ===== DASHBOARD CARDS ===== */
-.dashboard-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:25px;
-  margin:20px;
-  padding:20px;
-}
-.card{
-  background:var(--white);
-  border-radius:16px;
-  box-shadow:0 4px 15px rgba(0,0,0,0.08);
-  padding:40px 25px;
-  text-align:center;
-  transition:transform .3s ease, box-shadow .3s ease;
-}
-.card:hover{
-  transform:translateY(-6px) scale(1.03);
-  box-shadow:0 8px 25px rgba(0,0,0,0.12);
-}
-.card h3{color:var(--crimson); margin-bottom:10px;}
-.card p{font-size:14px; color:#333;}
-.logout-btn{
-  background:var(--crimson);
-  color:var(--white);
-  border:none;
-  padding:12px 25px;
-  border-radius:8px;
-  margin:15px;
-  cursor:pointer;
-  font-weight:500;
-  transition:background .3s ease,transform .3s ease;
-}
-.logout-btn:hover{background:var(--light-crimson); transform:translateY(-2px);}
-
-/* ===== FOOTER ===== */
-footer{
-  background:var(--crimson);
-  color:var(--white);
-  text-align:center;
-  padding:20px;
-  border-top-left-radius:20px;
-  border-top-right-radius:20px;
-  margin-top:30px;
-}
-  </style>
+  <link rel="stylesheet" href="dashboard.css">
 </head>
 
 <body class="dashboard-body">
-<header><h1 style="text-align: center;">Welcome,<span id="studentName"></span></h1>
-<br />
-<a style=" color: white; font-size:12px;" href="profile.html">View and edit your profile</a>
+<header>
+  <h1 style="text-align: center;">
+    Welcome, <span id="studentName"></span>
+  </h1>
+
+  <!-- NEW: Show department under name -->
+  <p style="margin-top:5px; font-size:14px; color:#ffecec;">
+    Department: <span id="studentDept"></span>
+  </p>
+
+  <br />
+  <a style="color: white; font-size:12px;" href="profile.html">View and edit your profile</a>
 </header>
 
 <section class="notificatbar">
@@ -252,18 +84,25 @@ footer{
   <div class="card" onclick="goTo('progress.html')">
     <h3>My Progress</h3><p>Track your academic growth and performance.</p>
   </div>
+  <div class="card" onclick="goTo('studentblog.html')">
+    <h3>My blog</h3><p>Motivate yourself and get latest academic information</p>
+  </div>
   <button class="logout-btn" onclick="logout()">Logout</button>
 </section>
 
-<footer>&copy; 2025 Aplus Tutors</footer>
+<footer>&copy; 2021 Aplus Tutors</footer>
 
 <script src="notification.js"></script>
 <script>
 const storedUser = JSON.parse(localStorage.getItem("loggedInUser"));
 if(!storedUser) location.href="student-login.html";
-else document.getElementById("studentName").textContent=storedUser.fullName;
+else {
+  document.getElementById("studentName").textContent = storedUser.fullName;
 
-
+  // Load department
+  let dept = storedUser.department || localStorage.getItem("userDepartment") || "Not set";
+  document.getElementById("studentDept").textContent = dept;
+}
 
 
 document.getElementById("motivationText").textContent=
@@ -296,20 +135,41 @@ function panelIdToKey(id){
 function closeAllPanels(){
   document.querySelectorAll(".panel").forEach(p=>p.classList.remove("show"));
 }
-function togglePanel(id){
-  const panel=document.getElementById(id);
-  const key=panelIdToKey(id);
-  const isOpen=panel.classList.contains("show");
+function togglePanel(id) {
+  const panel = document.getElementById(id);
+  const key = panelIdToKey(id);
+  const isOpen = panel.classList.contains("show");
+
+  // close all open panels first
   closeAllPanels();
+
   if(!isOpen){
     panel.classList.add("show");
-    readFlags[key]=true;
+    readFlags[key] = true;
     updateDots();
+
+    // Ensure the panel stays within viewport
+    const rect = panel.getBoundingClientRect();
+    if(rect.right > window.innerWidth){
+      panel.style.right = (window.innerWidth - rect.width - 10) + "px";
+    } else {
+      panel.style.right = "10px";
+    }
+
+    // optional: ensure it doesn't go above top
+    if(rect.bottom > window.innerHeight){
+      panel.style.top = (window.innerHeight - rect.height - 10) + "px";
+    } else {
+      panel.style.top = "60px";
+    }
   }
 }
+
 function closePanel(id){document.getElementById(id).classList.remove("show");}
 function goTo(p){location.href=p;}
 function logout(){localStorage.removeItem("loggedInUser");location.href="student-login.html";}
+
+
 </script>
 </body>
 </html>

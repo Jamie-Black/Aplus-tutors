@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aplus Tutors | Blog</title>
+  <link rel="stylesheet" href="blog.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <header style="
+       color: white; 
+       padding: 30px; 
+       background-color: #8D0000;
+       border-bottom-left-radius: 30px;
+       border-bottom-right-radius: 30px;
+       text-align: center;
+       position: sticky;
+       top: 0;
+       ">
+    <h1>Aplus Tutors Blog</h1>
+  </header>
+  
+  <div class="blog-container" >
+    
+    <div id="blog-posts" class="blog-posts">
+    </div>
+    
+  </div>
+  <div style="
+      color: white;
+      width: 100%;
+      background-color:#8D0000;
+      text-align:center;
+      padding:20px;
+      margin-top:50px;
+  ">
+    <a style="
+      text-decoration: none;
+      background-color: indianred;
+      padding: 7px;
+      color: white;
+      margin-top: 10px;
+    "
+    href="dashboard.html">Back to Dashboard</a>
+    <p style="margin-top: 30px;">&copy;2021 Aplus tutors</p>
+  </div>
+
+<script src="blogdata.js"></script>
+
+<script>
+const blogPostsContainer = document.getElementById('blog-posts');
+
+// Check if there are posts
+if (!blogPosts || blogPosts.length === 0) {
+  const noPosts = document.createElement('p');
+  noPosts.textContent = "No posts available.";
+  noPosts.classList.add('no-posts');
+  blogPostsContainer.appendChild(noPosts);
+} else {
+  blogPosts.forEach((post, index) => {
+    // Headline item
+    const postHeadline = document.createElement('div');
+    postHeadline.classList.add('blog-headline');
+    postHeadline.innerHTML = `<h2>${post.title}</h2><p>${post.date} | ${post.category}</p>`;
+    postHeadline.addEventListener('click', () => openPost(index));
+    blogPostsContainer.appendChild(postHeadline);
+  });
+}
+
+// Create the full post viewer (overlay)
+const viewer = document.createElement('div');
+viewer.classList.add('blog-viewer');
+viewer.innerHTML = `
+  <div class="viewer-content">
+    <span class="close-viewer">&times;</span>
+    <img id="viewer-img" src="" alt="">
+    <h2 id="viewer-title"></h2>
+    <p class="meta" id="viewer-meta"></p>
+    <p id="viewer-body"></p>
+  </div>
+`;
+document.body.appendChild(viewer);
+
+// Function to open post
+function openPost(index) {
+  const post = blogPosts[index];
+  document.getElementById('viewer-img').src = post.image;
+  document.getElementById('viewer-title').textContent = post.title;
+  document.getElementById('viewer-meta').textContent = `By ${post.author} on ${post.date} | ${post.category}`;
+  document.getElementById('viewer-body').textContent = post.content;
+  viewer.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+// Close post
+viewer.querySelector('.close-viewer').addEventListener('click', () => {
+  viewer.classList.remove('active');
+  document.body.style.overflow = 'auto';
+});
+</script>
+</body>
+</html>

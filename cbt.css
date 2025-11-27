@@ -22,8 +22,8 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  padding: 30px 10px;
+  align-items: center;
+  padding: 30px 0;
   overflow-y: auto;
 }
 
@@ -47,9 +47,10 @@ body {
 .student-info {
   background: var(--gray);
   padding: 10px;
+  font-weight: 500;
   border-radius: 8px;
   margin-bottom: 15px;
-  font-size: 14px;
+  text-align: center;
 }
 
 label {
@@ -185,9 +186,8 @@ main {
 #question-image {
   display: block;
   margin: 10px auto;
-  max-width: 100%;
+  max-width: 80%;
   border-radius: 8px;
-  box-shadow: var(--shadow);
 }
 
 #options {
@@ -223,7 +223,7 @@ main {
 }
 
 .controls button {
-  width: 32%;
+  width: 30%;
 }
 
 /* Question Navigation */
@@ -338,7 +338,6 @@ main {
   }
 
   .controls {
-    flex-direction: column;
     gap: 10px;
   }
 

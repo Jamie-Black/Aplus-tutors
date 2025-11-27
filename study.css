@@ -166,6 +166,7 @@ main {
 
 .topic-title {
   font-weight: 600;
+  max-width: 80%;
 }
 
 .topic-meta {
@@ -243,7 +244,6 @@ main {
 .note-block img {
   width: 100%;
   border-radius: 10px;
-  box-shadow: var(--shadow);
   margin-top: 6px;
 }
 

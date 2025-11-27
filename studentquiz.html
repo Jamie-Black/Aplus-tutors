@@ -15,7 +15,7 @@
   </header>
 
   <main class="quiz-container">
-    <!-- Step 1: Topic Selection -->
+    <!-- Step 1: Subject Selection -->
     <div id="topic-screen" class="screen active">
       <h2 style="text-align: center; margin-bottom: 30px;">Select a Quiz Subject</h2>
       <div id="topic-list" class="topic-list"></div>
@@ -58,19 +58,24 @@
     <p>&copy; 2021 Aplus Tutors</p>
   </footer>
 
-  <script src="data.js"></script>
+  <script src="quizdata.js"></script>
 
-  <script>
+<script>
+// --- Department to Subjects Mapping ---
+
+// --- Get logged-in user ---
 const loggedUser = JSON.parse(localStorage.getItem("loggedInUser"));
 if (!loggedUser) {
   alert("Please log in to access quizzes.");
   window.location.href = "index.html";
 }
 
+// --- Greeting ---
 const hours = new Date().getHours();
 let greetingText = hours < 12 ? "Good morning" : hours < 18 ? "Good afternoon" : "Good evening";
 document.getElementById("greeting").textContent = `${greetingText}, ${loggedUser.fullName}!`;
 
+// --- Student Info & Quiz State ---
 let studentInfo = {
   name: loggedUser.fullName,
   email: loggedUser.email,
@@ -89,22 +94,28 @@ const topicList = document.getElementById('topic-list');
 const questionsArea = document.getElementById('questions-area');
 const submitButton = document.getElementById('submit-quiz');
 
-// ✅ Use window.onload to ensure data.js is loaded
+// --- Filter subjects by department ---
+const allowedSubjects = departmentSubjects[loggedUser.department] || [];
+
+// ✅ Load topics after page load
 window.onload = () => {
   if (typeof quizData === 'undefined') {
-    console.error("❌ quizData is missing. Ensure data.js is loaded correctly.");
-    topicList.innerHTML = "<p style='color:red;'>Error loading quizzes. Check data.js file.</p>";
+    console.error("❌ quizData is missing. Ensure quizdata.js is loaded.");
+    topicList.innerHTML = "<p style='color:red;'>Error loading quizzes. Check quizdata.js file.</p>";
     return;
   }
   loadTopics();
   submitButton.addEventListener('click', handleSubmitQuiz);
 };
 
+// --- Load Topics Function ---
 function loadTopics() {
   topicList.innerHTML = '';
   const quizResults = JSON.parse(localStorage.getItem('quizResults')) || [];
 
   for (const subject in quizData) {
+    if (!allowedSubjects.includes(subject)) continue; // Only allowed subjects
+
     const subjectDiv = document.createElement('div');
     subjectDiv.classList.add('subject-section');
 
@@ -157,8 +168,13 @@ function loadTopics() {
     subjectDiv.appendChild(topicsContainer);
     topicList.appendChild(subjectDiv);
   }
+
+  if (topicList.children.length === 0) {
+    topicList.innerHTML = "<p style='text-align:center; color:red;'>No quizzes available for your department.</p>";
+  }
 }
 
+// --- Start Quiz ---
 function startQuiz(subject, topic) {
   studentInfo.subject = subject;
   studentInfo.topic = topic;
@@ -171,6 +187,7 @@ function startQuiz(subject, topic) {
   renderQuiz(activeQuestions);
 }
 
+// --- Render Quiz Questions ---
 function renderQuiz(questions) {
   document.getElementById('quiz-title').textContent = `${studentInfo.subject} - ${studentInfo.topic}`;
   questionsArea.innerHTML = '';
@@ -192,6 +209,7 @@ function renderQuiz(questions) {
   if (typeof MathJax !== 'undefined') MathJax.typesetPromise([questionsArea]);
 }
 
+// --- Submit Quiz ---
 function handleSubmitQuiz() {
   score = 0;
   let allAnswered = true;
@@ -213,6 +231,7 @@ function handleSubmitQuiz() {
   displayResults(`${score} / ${activeQuestions.length}`, percentValue);
 }
 
+// --- Display Results ---
 function displayResults(scoreText, percentValue) {
   document.getElementById('result-name').textContent = studentInfo.name;
   document.getElementById('result-subject').textContent = studentInfo.subject;
@@ -258,6 +277,7 @@ Regards,
   addResultButtons();
 }
 
+// --- Result Buttons ---
 function addResultButtons() {
   if (!document.querySelector('.retake-btn')) {
     const retakeBtn = document.createElement('button');
@@ -287,6 +307,7 @@ function addResultButtons() {
   }
 }
 
+// --- Show Correction ---
 function showCorrection() {
   resultScreen.classList.remove('active');
   const correctionScreen = document.getElementById('correction-screen');
@@ -318,6 +339,6 @@ function showCorrection() {
 
   if (typeof MathJax !== 'undefined') MathJax.typesetPromise([correctionArea]);
 }
-  </script>
+</script>
 </body>
 </html>

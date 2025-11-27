@@ -12,7 +12,7 @@
   <header>
     <div style="display:flex;flex-direction:column;">
       <h1>Aplus Tutors</h1>
-      <div class="sub">Study — Subjects</div>
+      <div style="font-size: 11px;" class="sub">... guaranteed success</div>
     </div>
     <div style="margin-left:auto;font-size:13px;color:#fff;opacity:0.95">
       <div id="studentName">Student</div>
@@ -54,7 +54,7 @@
           </div>
         </div>
 
-        <div id="noteBody"></div>
+        <div style="line-height: 1.5rem;" id="noteBody"></div>
 
         <div class="controls">
           <button id="markDoneBtn" class="btn primary">Mark as Done</button>
@@ -72,12 +72,10 @@
 </footer>
 
   <script src="studydata.js"></script>
-
-  <script src="studydata.js"></script>
-
 <script>
   const LS_COMPLETED = 'aplus_completed_topics_v2';
   const LS_PROGRESS = 'aplus_topic_progress_v2';
+
   const subjectsRow = document.getElementById('subjectsRow');
   const topicsPanel = document.getElementById('topicsPanel');
   const notesCard = document.getElementById('notesCard');
@@ -93,7 +91,7 @@
   const backToTopics = document.getElementById('backToTopics');
   const studentNameEl = document.getElementById('studentName');
 
-  // Add new button dynamically
+  // Add next topic button dynamically
   const nextTopicBtn = document.createElement('button');
   nextTopicBtn.className = 'btn secondary';
   nextTopicBtn.textContent = 'Next Topic ➜';
@@ -101,6 +99,7 @@
 
   let completed = JSON.parse(localStorage.getItem(LS_COMPLETED) || '{}');
   let progressStore = JSON.parse(localStorage.getItem(LS_PROGRESS) || '{}');
+
   let currentSubject = null;
   let currentTopic = null;
 
@@ -109,129 +108,183 @@
 
   const keyFor = (subject, topic) => `${subject}||${topic}`;
 
+  // ========== SUBJECT RENDERING ==========
+
   function renderSubjects() {
-    subjectsRow.innerHTML = '';
-    const subjects = Object.keys(studyData || {});
-    subjects.forEach((s, i) => {
-      const btn = document.createElement('button');
-      btn.className = 'subject-pill' + (i === 0 ? ' active' : '');
-      btn.textContent = s;
-      btn.onclick = () => selectSubject(s, btn);
-      subjectsRow.appendChild(btn);
-    });
-    if (subjects.length) selectSubject(subjects[0], subjectsRow.children[0]);
-    updateOverall();
+  subjectsRow.innerHTML = '';
+  
+  // Get department of logged-in user
+  const userDept = loggedUser?.department;
+  
+  let subjects = [];
+  
+  if (userDept && departmentSubjects[userDept]) {
+    // Filter only subjects for the user’s department
+    subjects = departmentSubjects[userDept].filter(sub => studyData[sub]);
+  } else {
+    // Fallback: show ALL subjects in studyData
+    subjects = Object.keys(studyData);
   }
+  
+  // Render subject pills
+  subjects.forEach((s, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'subject-pill' + (i === 0 ? ' active' : '');
+    btn.textContent = s;
+    btn.onclick = () => selectSubject(s, btn);
+    subjectsRow.appendChild(btn);
+  });
+  
+  if (subjects.length) selectSubject(subjects[0], subjectsRow.children[0]);
+  
+  updateOverall();
+}
+
 
   function selectSubject(subject, el) {
     Array.from(subjectsRow.children).forEach(b => b.classList.remove('active'));
-    if (el && el.classList) el.classList.add('active');
+    if (el) el.classList.add('active');
+
     currentSubject = subject;
     renderTopics(subject);
+
     notesPlaceholder.style.display = 'block';
     notesContent.style.display = 'none';
   }
 
+  // ========== TOPIC RENDERING ==========
+
   function renderTopics(subject) {
     topicsPanel.innerHTML = '';
+
     const topics = studyData[subject] || [];
+
     topics.forEach(t => {
       const row = document.createElement('div');
       row.className = 'topic-row';
+
       const left = document.createElement('div');
       left.className = 'topic-left';
-      left.innerHTML = `<div class="topic-title">${t.topic}</div><div class="topic-meta">${(t.notes.content||[]).length} blocks</div>`;
+      left.innerHTML = `
+        <div class="topic-title">${t.topic}</div>
+        <div class="topic-meta">${(t.notes.content || []).length} blocks</div>
+      `;
+
       const right = document.createElement('div');
       const key = keyFor(subject, t.topic);
       const done = !!completed[key];
+
       if (done) {
         const badge = document.createElement('span');
         badge.className = 'badge-completed';
-        badge.textContent = 'Completed';
+        badge.textContent = 'Done';
         right.appendChild(badge);
       }
-      const open = document.createElement('button');
-      open.className = 'open-btn';
-      open.textContent = 'Open';
-      open.onclick = () => openTopic(subject, t);
-      right.appendChild(open);
+
+      const openBtn = document.createElement('button');
+      openBtn.className = 'open-btn';
+      openBtn.textContent = 'Open';
+      openBtn.onclick = () => openTopic(subject, t);
+
+      right.appendChild(openBtn);
+
       row.appendChild(left);
       row.appendChild(right);
+
       topicsPanel.appendChild(row);
     });
   }
 
+  // ========== OPEN TOPIC WITH NEW STRUCTURE ==========
+
   function openTopic(subject, topicObj) {
     currentSubject = subject;
     currentTopic = topicObj;
+
     breadcrumb.textContent = `${subject} → ${topicObj.topic}`;
     noteTitle.textContent = topicObj.notes.title || topicObj.topic;
+
     noteBody.innerHTML = '';
 
     (topicObj.notes.content || []).forEach((block, i) => {
-      const b = document.createElement('div');
-      b.className = 'note-block';
+      const container = document.createElement('div');
+      container.className = 'note-block';
+
       if (block.type === 'text') {
         const p = document.createElement('p');
         p.innerHTML = block.data.replace(/\n/g, '<br>');
-        b.appendChild(p);
-      } else if (block.type === 'image') {
+        container.appendChild(p);
+      }
+
+      if (block.type === 'image') {
         const img = document.createElement('img');
         img.src = block.data;
         img.alt = topicObj.topic + ' image ' + (i + 1);
-        b.appendChild(img);
+        img.style.maxWidth = '100%';
+        container.appendChild(img);
       }
-      noteBody.appendChild(b);
+
+      noteBody.appendChild(container);
     });
 
     notesPlaceholder.style.display = 'none';
     notesContent.style.display = 'block';
+
     notesCard.classList.add('enter-from-right');
     requestAnimationFrame(() => notesCard.classList.remove('enter-from-right'));
 
     const k = keyFor(subject, topicObj.topic);
     setNoteProgress(progressStore[k] || 0);
+
     notesCard.scrollTop = 0;
     notesCard.removeEventListener('scroll', onNotesScroll);
     notesCard.addEventListener('scroll', onNotesScroll);
+
     markDoneBtn.onclick = () => markAsDone(k);
+
     backToTopics.onclick = () => {
       notesContent.style.display = 'none';
       notesPlaceholder.style.display = 'block';
       currentTopic = null;
     };
 
-    // Next Topic handler
     nextTopicBtn.onclick = () => goToNextTopic();
 
     renderTopics(currentSubject);
+
     setTimeout(() => {
       notesCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 100);
   }
 
+  // ========== NEXT TOPIC ==========
+
   function goToNextTopic() {
     if (!currentSubject || !currentTopic) return;
+
     const topics = studyData[currentSubject];
-    const currentIndex = topics.findIndex(t => t.topic === currentTopic.topic);
-    const nextTopic = topics[currentIndex + 1];
-    if (nextTopic) {
-      openTopic(currentSubject, nextTopic);
-    } else {
-      alert("You've reached the last topic in this subject!");
-    }
+    const i = topics.findIndex(t => t.topic === currentTopic.topic);
+    const next = topics[i + 1];
+
+    if (next) openTopic(currentSubject, next);
+    else alert("You've reached the last topic!");
   }
 
+  // ========== SCROLL PROGRESS ==========
+
   function onNotesScroll() {
-    if (!currentTopic || !currentSubject) return;
-    const el = notesCard;
-    const max = el.scrollHeight - el.clientHeight;
-    const val = max > 0 ? Math.round((el.scrollTop / max) * 100) : 100;
-    setNoteProgress(val);
-    const k = keyFor(currentSubject, currentTopic.topic);
-    progressStore[k] = val;
+    if (!currentSubject || !currentTopic) return;
+
+    const max = notesCard.scrollHeight - notesCard.clientHeight;
+    const pct = max > 0 ? Math.round((notesCard.scrollTop / max) * 100) : 100;
+
+    setNoteProgress(pct);
+
+    const key = keyFor(currentSubject, currentTopic.topic);
+    progressStore[key] = pct;
     localStorage.setItem(LS_PROGRESS, JSON.stringify(progressStore));
-    if (val >= 95) markAsDone(k);
+
+    if (pct >= 95) markAsDone(key);
   }
 
   function setNoteProgress(pct) {
@@ -239,31 +292,46 @@
     notePct.textContent = pct + '%';
   }
 
+  // ========== MARK AS DONE ==========
+
   function markAsDone(key) {
     completed[key] = true;
     progressStore[key] = 100;
+
     localStorage.setItem(LS_COMPLETED, JSON.stringify(completed));
     localStorage.setItem(LS_PROGRESS, JSON.stringify(progressStore));
+
     renderTopics(currentSubject);
     updateOverall();
     setNoteProgress(100);
+
     setTimeout(() => alert('Marked as completed ✅'), 80);
   }
 
+  // ========== OVERALL PROGRESS ==========
+
   function updateOverall() {
-    const subjects = Object.keys(studyData || {});
     let total = 0, done = 0;
-    subjects.forEach(s => {
-      (studyData[s] || []).forEach(t => {
+
+    Object.keys(studyData).forEach(subject => {
+      (studyData[subject] || []).forEach(t => {
         total++;
-        if (completed[keyFor(s, t.topic)]) done++;
+        if (completed[keyFor(subject, t.topic)]) done++;
       });
     });
+
     overallPct.textContent = total ? Math.round((done / total) * 100) + '%' : '0%';
   }
 
-  if (window.studyData) renderSubjects();
-  else topicsPanel.innerHTML = '<div style="padding:12px;color:#666">No study data found. Add data.js with a `studyData` object.</div>';
+  // ========== INIT ==========
+
+  if (window.studyData) {
+    renderSubjects();
+  } else {
+    topicsPanel.innerHTML =
+      '<div style="padding:12px;color:#666">No study data found.</div>';
+  }
+
 </script>
 </body>
 </html>

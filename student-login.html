@@ -6,7 +6,6 @@
   <title>Aplus Tutors | Login</title>
   <link rel="stylesheet" href="student-login.css">
   <style>
-    /* Inline style for eye icon button */
     .password-container {
       position: relative;
     }
@@ -20,35 +19,18 @@
       cursor: pointer;
       font-size: 1em;
     }
-    
-    /* Ensure both inputs have same width */
-#fullName,
-.password-container input {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 10px;
-  font-size: 1em;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
 
-/* Make sure the container doesn’t stretch differently */
-.password-container {
-  width: 100%;
-  position: relative;
-}
-
-/* Keep the eye icon aligned */
-.toggle-password {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 1em;
-}
+    #fullName,
+    #department,
+    .password-container input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body class="login-body">
@@ -58,7 +40,15 @@
 
     <form id="loginForm">
       <input type="text" id="fullName" placeholder="Full Name" required>
-      
+
+      <!-- Department Selector -->
+      <select id="department" required>
+        <option value="">Select Department</option>
+        <option value="Science">Science</option>
+        <option value="Art">Art</option>
+        <option value="Commercial">Commercial</option>
+      </select>
+
       <div class="password-container">
         <input type="password" id="password" placeholder="Password" required>
         <button type="button" class="toggle-password" title="Show/Hide Password">👁️</button>
@@ -86,11 +76,17 @@
       }
     });
 
-    // Check login persistence
+    // Auto-login if already logged in
     window.onload = () => {
       const user = JSON.parse(localStorage.getItem("loggedInUser"));
       if (user) {
-        window.location.href = "dashboard.html"; // Auto-login
+        window.location.href = "dashboard.html";
+      }
+
+      // Prefill department if stored previously
+      const savedDept = localStorage.getItem("userDepartment");
+      if (savedDept) {
+        document.getElementById("department").value = savedDept;
       }
     };
 
@@ -98,8 +94,10 @@
     const form = document.getElementById("loginForm");
     form.addEventListener("submit", (e) => {
       e.preventDefault();
+
       const fullName = document.getElementById("fullName").value.trim();
       const password = document.getElementById("password").value.trim();
+      const department = document.getElementById("department").value;
       const error = document.getElementById("errorMessage");
 
       const user = registeredUsers.find(
@@ -107,9 +105,16 @@
       );
 
       if (user) {
-        // Save in localStorage so user stays logged in
-        localStorage.setItem("loggedInUser", JSON.stringify(user));
+
+        // Save chosen department separately
+        localStorage.setItem("userDepartment", department);
+
+        // Attach department to logged-in user
+        const updatedUser = { ...user, department };
+        localStorage.setItem("loggedInUser", JSON.stringify(updatedUser));
+
         window.location.href = "dashboard.html";
+
       } else {
         error.textContent = "Invalid credentials or unregistered user.";
       }

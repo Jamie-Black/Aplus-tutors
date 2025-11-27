@@ -66,23 +66,19 @@
 
   // Sample data (can later come from localStorage or API)
 const notifications = [
-  `📢 WELCOME TO APLUS TUTORS!
-We’re glad to have you here — your learning journey begins now!
-🧠 LOGIN & ACCESS COURSES: Log in with your full name and password.
-Select your subject or class from the dashboard.
-📘 PRACTICE & LEARN: Start with Study Topics to build understanding. Proceed to Quiz to test yourself. Take the CBT to practice real exam-style questions.
-📊 TRACK YOUR PROGRESS: Check your Leaderboard and Progress Report to see how you’re improving.
-🔔 STAY UPDATED: Watch for new quizzes, deadlines, and announcements.
-💬 NEED HELP?: Message your Tutor or reach Support anytime.
-Keep learning, stay consistent, and grow with confidence! 🚀
-Aplus Tutors – Empowering Learners Through Technology.`
+  "🚥WELCOME TO APLUS TUTORS\n! We’re glad to have you here — your learning journey begins now!",
+  "PRACTICE & LEARN\nStart with Study Topics to build understanding then proceed to Quiz to test yourself. Take the CBT to practice real exam-style questions and build your confidence.",
+  "TRACK YOUR PROGRESS\nCheck your Progress Report to see how you’re improving.",
+  "STAY UPDATED:\nWatch for new quizzes, deadlines, and announcements.",
+  "NEED HELP?\nMessage your Tutor or reach Support anytime."
 ];
 
   const deadlines = [
-    "Mathematics Assignment - 10/12/2025"
+    
   ];
   const suggestedLearning = [
-    "Recommended textbook - Lamlad Mathematics"
+    "Recommended textbooks - Lamlad Series for Physics, Chemistry, Biology and Mathematics.",
+    "Exam forcus for Government, Literature in English and CRS"
   ];
   const leaderboard = [
     
