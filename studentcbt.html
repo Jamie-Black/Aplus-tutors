@@ -8,58 +8,11 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
-
-  <style>
-  /* Improved Subject Select */
-#subject-select {
-  width: 100%;
-  max-width: 400px;
-  padding: 10px 15px;
-  border: 2px solid #8B1414; /* Aplus Tutors crimson */
-  border-radius: 8px;
-  background-color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  color: #333;
-  outline: none;
-  transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-#subject-select:focus {
-  border-color: #222;
-  box-shadow: 0 0 5px rgba(139, 20, 20, 0.5);
-}
-
-#subject-select option {
-  padding: 8px;
-  font-size: 15px;
-  color: #222;
-}
-
-/* Optional: make multiple selection more visually appealing */
-#subject-select[multiple] {
-  height: 120px;
-  overflow-y: auto;
-}
-    /* Correction image sizing */
-    .correction-image {
-      max-width: 300px; 
-      width: 100%;
-      height: auto;
-      display: block;
-      margin: 10px 0;
-    }
-    /* Optional: hide question image by default */
-    #question-image.hidden {
-      display: none;
-    }
-  </style>
 </head>
 
 <body>
   <div id="login-section">
     <h2>CBT Access</h2>
-
     <div class="student-info">
       <h3><strong>Welcome back, </strong> <span id="student-name"></span></h3>
     </div>
@@ -71,11 +24,7 @@
     <input type="number" id="duration" placeholder="e.g. 45" min="1" max="180">
 
     <label>Number of Questions per Subject:</label>
-    <input type="number" id="num-questions" placeholder="e.g. 20" min="1">
-
-    <div style="margin-top: 10px;">
-      <label><input type="checkbox" id="randomize"> Randomize Questions</label>
-    </div>
+    <input type="number" id="num-questions" placeholder="e.g. 20" min="1" max="100">
 
     <button id="login-btn">Start Test</button>
     <p id="login-error" class="error"></p>
@@ -111,7 +60,9 @@
       <button id="download-btn">Download Result</button>
       <button id="email-btn">Send to Instructor</button>
       <button id="view-corrections-btn">View Corrections</button>
-      <button style="background-color: black;"><a style="text-decoration-line: none; color: white;" href="dashboard.html">Back to Dashboard</a></button>
+      <button style="background-color: black;">
+        <a style="text-decoration-line: none; color: white;" href="dashboard.html">Back to Dashboard</a>
+      </button>
     </section>
 
     <section style="padding: 20px;" id="correction-section" class="hidden">
@@ -121,17 +72,18 @@
     </section>
   </div>
 
+  <!-- Firebase tracking -->
+  <script src="firebase-init.js"></script>
   <script src="cbtdata.js"></script>
   <script>
 let currentUser, selectedSubjects = [], currentSubject, currentQuestionIndex = 0;
 let userAnswers = {}, timerInterval, activeQuestions = {};
 
-// DOM Elements
 const loginBtn = document.getElementById("login-btn");
 const loginError = document.getElementById("login-error");
 const subjectSelect = document.getElementById("subject-select");
 
-// ✅ Load student info and subjects
+// Load user info & subjects
 window.addEventListener("load", () => {
   const storedUser = JSON.parse(localStorage.getItem("loggedInUser"));
   if (!storedUser) {
@@ -149,13 +101,12 @@ window.addEventListener("load", () => {
   });
 });
 
-// ✅ Start Test
+// Start Test
 loginBtn.onclick = () => {
   const duration = parseInt(document.getElementById("duration").value);
   const numQuestions = parseInt(document.getElementById("num-questions").value);
-  const randomize = document.getElementById("randomize").checked;
-  selectedSubjects = Array.from(subjectSelect.selectedOptions).map(o => o.value);
 
+  selectedSubjects = Array.from(subjectSelect.selectedOptions).map(o => o.value);
   if (selectedSubjects.length === 0 || selectedSubjects.length > 4) {
     loginError.textContent = "Select between 1 and 4 subjects.";
     return;
@@ -177,7 +128,7 @@ loginBtn.onclick = () => {
 
   selectedSubjects.forEach(sub => {
     let qList = [...questions[sub]];
-    if (randomize) qList = shuffleArray(qList);
+    qList = shuffleArray(qList);
     if (numQuestions < qList.length) qList = qList.slice(0, numQuestions);
     activeQuestions[sub] = qList;
 
@@ -194,9 +145,12 @@ loginBtn.onclick = () => {
   currentQuestionIndex = 0;
   startTimer(duration);
   loadQuestion();
+
+  // Track CBT start
+  try { trackEvent({ user: currentUser.fullName, subjects: selectedSubjects.join(",") }, "cbt_start"); } catch(err){ console.error(err); }
 };
 
-// ✅ Shuffle helper
+// Shuffle helper
 function shuffleArray(array) {
   let arr = [...array];
   for (let i = arr.length - 1; i > 0; i--) {
@@ -206,7 +160,7 @@ function shuffleArray(array) {
   return arr;
 }
 
-// ✅ Timer
+// Timer
 function startTimer(minutes) {
   let time = minutes * 60;
   timerInterval = setInterval(() => {
@@ -222,32 +176,22 @@ function startTimer(minutes) {
   }, 1000);
 }
 
-// ✅ Switch subjects
+// Switch subjects
 function switchSubject(sub) {
   currentSubject = sub;
   currentQuestionIndex = 0;
   loadQuestion();
 }
 
-// ✅ Load question
+// Load question
 function loadQuestion() {
   const q = activeQuestions[currentSubject][currentQuestionIndex];
   document.getElementById("question-number").textContent = `${currentSubject}: Question ${currentQuestionIndex + 1}`;
-
-  const questionText = document.getElementById("question-text");
-  questionText.innerHTML = q.question;
-
-  if (window.MathJax && window.MathJax.typesetPromise) MathJax.typesetPromise([questionText]);
+  document.getElementById("question-text").innerHTML = q.question;
 
   const qImg = document.getElementById("question-image");
-  if (q.image) {
-    qImg.src = q.image;
-    qImg.alt = q.imageAlt || "Question image";
-    qImg.classList.remove("hidden");
-  } else {
-    qImg.classList.add("hidden");
-    qImg.removeAttribute("src");
-  }
+  if (q.image) { qImg.src = q.image; qImg.alt = q.imageAlt || "Question image"; qImg.classList.remove("hidden"); }
+  else { qImg.classList.add("hidden"); qImg.removeAttribute("src"); }
 
   const optionsDiv = document.getElementById("options");
   optionsDiv.innerHTML = "";
@@ -258,13 +202,12 @@ function loadQuestion() {
     btn.onclick = () => selectAnswer(i);
     if (userAnswers[currentSubject]?.[currentQuestionIndex] === i) btn.classList.add("selected");
     optionsDiv.appendChild(btn);
-    if (window.MathJax && window.MathJax.typesetPromise) MathJax.typesetPromise([btn]);
   });
 
   updateQuestionNav();
 }
 
-// ✅ Select answer
+// Select answer
 function selectAnswer(i) {
   if (!userAnswers[currentSubject]) userAnswers[currentSubject] = {};
   userAnswers[currentSubject][currentQuestionIndex] = i;
@@ -273,7 +216,7 @@ function selectAnswer(i) {
   buttons.forEach((btn, idx) => btn.classList.toggle("selected", idx === i));
 }
 
-// ✅ Navigation
+// Navigation
 document.getElementById("next-btn").onclick = () => {
   if (currentQuestionIndex < activeQuestions[currentSubject].length - 1) currentQuestionIndex++;
   loadQuestion();
@@ -288,7 +231,7 @@ document.getElementById("submit-btn").onclick = () => {
   showResult();
 };
 
-// ✅ Question nav
+// Question nav
 function updateQuestionNav() {
   const nav = document.getElementById("question-nav");
   nav.innerHTML = "";
@@ -303,7 +246,7 @@ function updateQuestionNav() {
   });
 }
 
-// ✅ Count unanswered
+// Count unanswered
 function countUnanswered() {
   let count = 0;
   selectedSubjects.forEach(sub => {
@@ -314,7 +257,7 @@ function countUnanswered() {
   return count;
 }
 
-// ✅ Results + Corrections
+// Results + Corrections
 function showResult() {
   clearInterval(timerInterval);
   document.getElementById("question-area").classList.add("hidden");
@@ -335,83 +278,30 @@ function showResult() {
   });
 
   const overallPercent = ((totalCorrect / totalQuestions) * 100).toFixed(1);
-  document.getElementById("score-text").innerHTML =
-    `Overall Score: ${totalCorrect}/${totalQuestions} (${overallPercent}%)`;
+  document.getElementById("score-text").innerHTML = `Overall Score: ${totalCorrect}/${totalQuestions} (${overallPercent}%)`;
 
   const statsDiv = document.getElementById("subject-stats");
-  statsDiv.innerHTML = `
-    <h3>Subject Breakdown</h3>
+  statsDiv.innerHTML = `<h3>Subject Breakdown</h3>
     <table>
       <tr><th>Subject</th><th>Correct</th><th>Total</th><th>Percentage</th></tr>
-      ${subjectStats.map(s => `
-        <tr><td>${s.subject}</td><td>${s.correct}</td><td>${s.total}</td><td>${s.percent}%</td></tr>`).join("")}
+      ${subjectStats.map(s => `<tr><td>${s.subject}</td><td>${s.correct}</td><td>${s.total}</td><td>${s.percent}%</td></tr>`).join("")}
     </table>`;
 
   new Chart(document.getElementById("resultChart"), {
     type: "pie",
-    data: {
-      labels: ["Correct", "Incorrect"],
-      datasets: [{ data: [totalCorrect, totalQuestions - totalCorrect], backgroundColor: ["green", "red"] }],
-    },
+    data: { labels: ["Correct", "Incorrect"], datasets: [{ data: [totalCorrect, totalQuestions - totalCorrect], backgroundColor: ["green", "red"] }] },
   });
 
   const date = new Date().toLocaleString();
   const cbtRecords = JSON.parse(localStorage.getItem("cbtResults")) || [];
-  cbtRecords.push({
-    name: currentUser.fullName,
-    email: currentUser.email,
-    subjects: selectedSubjects.join(", "),
-    score: totalCorrect,
-    total: totalQuestions,
-    percentage: overallPercent,
-    date
-  });
+  cbtRecords.push({ name: currentUser.fullName, email: currentUser.email, subjects: selectedSubjects.join(", "), score: totalCorrect, total: totalQuestions, percentage: overallPercent, date });
   localStorage.setItem("cbtResults", JSON.stringify(cbtRecords));
 
-  document.getElementById("download-btn").onclick = () => {
-    const { jsPDF } = window.jspdf;
-    const doc = new jsPDF();
-    doc.setFont("helvetica", "bold");
-    doc.setTextColor(139, 20, 20);
-    doc.setFontSize(18);
-    doc.text("Aplus Tutors", 105, 15, { align: "center" });
-    doc.setDrawColor(139, 20, 20);
-    doc.line(20, 20, 190, 20);
-    doc.setFontSize(12);
-    doc.setTextColor(0, 0, 0);
-    doc.text(`Name: ${currentUser.fullName}`, 20, 35);
-    doc.text(`Email: ${currentUser.email}`, 20, 42);
-    doc.text(`Date: ${date}`, 20, 49);
-    doc.setFont("helvetica", "bold");
-    doc.setTextColor(139, 20, 20);
-    doc.text("CBT Test Summary", 105, 60, { align: "center" });
-    doc.setTextColor(0, 0, 0);
-    doc.setFont("helvetica", "normal");
-    let y = 70;
-    subjectStats.forEach(s => {
-      if (y > 280) { doc.addPage(); y = 20; }
-      doc.text(`${s.subject}: ${s.correct}/${s.total} (${s.percent}%)`, 25, y);
-      y += 7;
-    });
-    doc.setFont("helvetica", "bold");
-    doc.setTextColor(139, 20, 20);
-    doc.text(`Overall Score: ${overallPercent}%`, 25, y + 5);
-    doc.setTextColor(0, 0, 0);
-    doc.setFontSize(10);
-    doc.text("Thank you for learning with Aplus Tutors!", 105, 285, { align: "center" });
-    doc.save(`${currentUser.fullName}_CBT_Result.pdf`);
-  };
-
-  document.getElementById("email-btn").onclick = () => {
-    const subject = encodeURIComponent("CBT Result");
-    const body = encodeURIComponent(`Name: ${currentUser.fullName}\nEmail: ${currentUser.email}\nOverall: ${overallPercent}%`);
-    window.location.href = `mailto:olaboredejames2021@gmail.com?subject=${subject}&body=${body}`;
-  };
-
-  document.getElementById("view-corrections-btn").onclick = showCorrections;
+  // Track CBT submission
+  try { trackEvent({ user: currentUser.fullName, score: totalCorrect, total: totalQuestions, percentage: overallPercent }, "cbt_submission"); } catch(err){ console.error(err); }
 }
 
-// ✅ Show Corrections
+// Show corrections
 function showCorrections() {
   document.getElementById("result-section").classList.add("hidden");
   document.getElementById("correction-section").classList.remove("hidden");
@@ -426,24 +316,13 @@ function showCorrections() {
     activeQuestions[sub].forEach((q, i) => {
       const div = document.createElement("div");
       div.classList.add("correction-item");
-
-      // Only show image if available
-      let imgHTML = q.image ? `<img src="${q.image}" class="correction-image" alt="Question image">` : "";
-
+      const imgHTML = q.image ? `<img src="${q.image}" class="correction-image" alt="Question image">` : "";
       const userAns = userAnswers[sub]?.[i];
       const correctAns = q.answer;
       const userAnswerText = userAns !== undefined ? q.options[userAns] : "No answer selected";
       const correctAnswerText = q.options[correctAns];
-
-      div.innerHTML = `
-        <p><strong>Q${i + 1}:</strong> ${q.question}</p>
-        ${imgHTML}
-        <p>Your Answer: <span class="user-answer ${userAns === undefined ? 'unanswered' : (userAns === correctAns ? 'correct' : 'wrong')}">${userAnswerText}</span></p>
-        <p>Correct Answer: <span class="correct">${correctAnswerText}</span></p>
-      `;
+      div.innerHTML = `<p><strong>Q${i+1}:</strong> ${q.question}</p>${imgHTML}<p>Your Answer: <span class="user-answer ${userAns===undefined?'unanswered':(userAns===correctAns?'correct':'wrong')}">${userAnswerText}</span></p><p>Correct Answer: <span class="correct">${correctAnswerText}</span></p>`;
       container.appendChild(div);
-
-      if (window.MathJax && window.MathJax.typesetPromise) MathJax.typesetPromise([div]);
     });
   });
 
@@ -452,6 +331,9 @@ function showCorrections() {
     document.getElementById("result-section").classList.remove("hidden");
   };
 }
+
+// Attach the corrections button event
+document.getElementById("view-corrections-btn").onclick = showCorrections;
   </script>
 </body>
 </html>

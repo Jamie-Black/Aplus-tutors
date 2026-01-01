@@ -6,7 +6,7 @@ window.studyData = {
   
   
   {
-  "topic": "Grammar - Parts of Speech",
+  "topic": "Parts of Speech",
   "notes": {
     "title": "Comprehensive Guide to Parts of Speech for WAEC and JAMB Students",
     "content": [
@@ -57,7 +57,7 @@ window.studyData = {
   //tenses
   
   {
-  "topic": "Grammar - Tenses",
+  "topic": "Tenses",
   "notes": {
     "title": "Comprehensive Guide to Tenses for WAEC and JAMB Students",
     "content": [
@@ -96,7 +96,7 @@ window.studyData = {
   //sentence structure 
   
   {
-  "topic": "Grammar - Sentence Structure",
+  "topic": "Sentence Structure",
   "notes": {
     "title": "Comprehensive Guide to Sentence Structure for WAEC and JAMB Students",
     "content": [
@@ -135,7 +135,7 @@ window.studyData = {
   //subject and verb Agreement
 
   {
-  "topic": "Grammar - Subject–Verb Agreement",
+  "topic": "Concord",
   "notes": {
     "title": "Comprehensive Guide to Subject–Verb Agreement for WAEC and JAMB Students",
     "content": [
@@ -182,7 +182,7 @@ window.studyData = {
   //active and passive voice
   
   {
-  "topic": "Grammar - Active and Passive Voice",
+  "topic": "Active and Passive Voice",
   "notes": {
     "title": "Comprehensive Guide to Active and Passive Voice for WAEC and JAMB Students",
     "content": [
@@ -225,7 +225,7 @@ window.studyData = {
   //direct and indirect speech
   
   {
-  "topic": "Grammar - Direct and Indirect Speech",
+  "topic": "Direct and Indirect Speech",
   "notes": {
     "title": "Comprehensive Guide to Direct and Indirect Speech for WAEC and JAMB Students",
     "content": [
@@ -272,7 +272,7 @@ window.studyData = {
   //vocabulary and word usage
 
   {
-  "topic": "Grammar - Vocabulary and Word Usage",
+  "topic": "Vocabulary and Word Usage",
   "notes": {
     "title": "Comprehensive Guide to Vocabulary and Word Usage for WAEC and JAMB Students",
     "content": [
@@ -331,7 +331,7 @@ window.studyData = {
   //lexis and structure 
 
   {
-  "topic": "Grammar - Lexis and Structure",
+  "topic": "Lexis and Structure",
   "notes": {
     "title": "Comprehensive Guide to Lexis and Structure for WAEC and JAMB Students",
     "content": [
@@ -390,7 +390,7 @@ window.studyData = {
 //idioms, figurative expression and proverbs
 
 {
-  "topic": "Grammar - Idioms, Figurative Expressions, and Proverbs",
+  "topic": "Idioms and Proverbs",
   "notes": {
     "title": "Comprehensive Guide to Idioms, Figurative Expressions, and Proverbs for WAEC and JAMB Students",
     "content": [
@@ -460,8 +460,10 @@ window.studyData = {
       ]
     }
   },
+  
+  
   {
-  "topic": "Comprehension and Reading - Passage 1",
+  "topic": "Comprehension - Passage 1",
   "notes": {
     "title": "Model Passage 1",
     "content": [
@@ -481,8 +483,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Comprehension and Reading - Passage 2",
+  {
+  "topic": "Comprehension - Passage 2",
   "notes": {
     "title": "Model Passage 2",
     "content": [
@@ -502,8 +504,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Comprehension and Reading - Passage 3",
+  {
+  "topic": "Comprehension  - Passage 3",
   "notes": {
     "title": "Model Passage 3",
     "content": [
@@ -523,8 +525,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Comprehension and Reading - Passage 4",
+  {
+  "topic": "Comprehension - Passage 4",
   "notes": {
     "title": "Model Passage 4",
     "content": [
@@ -544,8 +546,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Comprehension and Reading - Passage 5",
+  {
+  "topic": "Comprehension - Passage 5",
   "notes": {
     "title": "Model Passage 5",
     "content": [
@@ -566,7 +568,7 @@ window.studyData = {
 },
 
 //summary
-{
+  {
   "topic": "Summary Writing",
   "notes": {
     "title": "Comprehensive Guide to Summary Writing for WAEC and JAMB Students",
@@ -606,7 +608,8 @@ window.studyData = {
     ]
   }
 },
-{
+
+  {
   "topic": "Summary - Passage 1",
   "notes": {
     "title": "Summary Passage 1",
@@ -627,7 +630,7 @@ window.studyData = {
   }
 },
 
-{
+  {
   "topic": "Summary - Passage 2",
   "notes": {
     "title": "Summary Passage 2",
@@ -648,7 +651,7 @@ window.studyData = {
   }
 },
 
-{
+  {
   "topic": "Summary - Passage 3",
   "notes": {
     "title": "Summary Passage 3",
@@ -669,7 +672,7 @@ window.studyData = {
   }
 },
 
-{
+  {
   "topic": "Summary - Passage 4",
   "notes": {
     "title": "Summary Passage 4",
@@ -690,7 +693,7 @@ window.studyData = {
   }
 },
 
-{
+  {
   "topic": "Summary - Passage 5",
   "notes": {
     "title": "Summary Passage 5",
@@ -713,8 +716,8 @@ window.studyData = {
 
 //essay and letter writing 
 
-{
-  "topic": "Writing Skills - Letter and Essay Writing",
+  {
+  "topic": "Letter & Essay Writing",
   "notes": {
     "title": "Comprehensive Guide to Letter and Essay Writing for WAEC and JAMB Students",
     "content": [
@@ -754,8 +757,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Writing Skills - Narrative Essay",
+  {
+  "topic": "Narrative Essay",
   "notes": {
     "title": "Narrative Essay - Question 1",
     "content": [
@@ -771,8 +774,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Writing Skills - Descriptive Essay",
+  {
+  "topic": "Descriptive Essay",
   "notes": {
     "title": "Descriptive Essay - Question 2",
     "content": [
@@ -788,8 +791,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Writing Skills - Argumentative Essay",
+  {
+  "topic": "Argumentative Essay",
   "notes": {
     "title": "Argumentative Essay - Question 3",
     "content": [
@@ -805,8 +808,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Writing Skills - Formal Letter",
+  {
+  "topic": "Formal Letter",
   "notes": {
     "title": "Formal Letter - Question 4",
     "content": [
@@ -821,9 +824,10 @@ window.studyData = {
     ]
   }
 },
+
 //literature in English 
 
-{
+  {
   "topic": "Drama",
   "notes": {
     "title": "Drama – WAEC & JAMB Literature Notes",
@@ -864,7 +868,7 @@ window.studyData = {
   }
 },
 
-{
+  {
   "topic": "Prose",
   "notes": {
     "title": "Prose – WAEC & JAMB Literature Notes",
@@ -901,7 +905,7 @@ window.studyData = {
   }
 },
 
-{
+  {
   "topic": "Poetry",
   "notes": {
     "title": "Poetry – WAEC & JAMB Literature Notes",
@@ -950,10 +954,10 @@ window.studyData = {
   }
 },
 
-//oral english
+  //oral english
 
-{
-  "topic": "Oral English – Introduction",
+  {
+  "topic": "Oral English",
   "notes": {
     "title": "Note 1: Introduction to Oral English (WAEC & JAMB)",
     "content": [
@@ -997,8 +1001,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Oral English – Vowel Sounds",
+  {
+  "topic": "Vowel Sounds",
   "notes": {
     "title": "Note 2: Vowel Sounds in English (WAEC & JAMB)",
     "content": [
@@ -1038,8 +1042,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Oral English – Consonant Sounds",
+  {
+  "topic": "Consonant Sounds",
   "notes": {
     "title": "Note 3: Consonant Sounds in English (WAEC & JAMB)",
     "content": [
@@ -1079,8 +1083,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Oral English – Stress and Intonation",
+  {
+  "topic": "Stress & Intonation",
   "notes": {
     "title": "Note 4: Stress and Intonation in English (WAEC & JAMB)",
     "content": [
@@ -1120,8 +1124,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Oral English – Stress",
+  {
+  "topic": "Word Stress",
   "notes": {
     "title": "Note 5: Word and Sentence Stress (WAEC & JAMB)",
     "content": [
@@ -1161,8 +1165,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Oral English – Emphatic Stress",
+  {
+  "topic": "Emphatic Stress",
   "notes": {
     "title": "Note 6: Emphatic Stress in Oral English (WAEC & JAMB)",
     "content": [
@@ -1206,8 +1210,8 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "Oral English – Rhymes",
+  {
+  "topic": "Rhymes",
   "notes": {
     "title": "Note: Rhymes in Oral English (WAEC & JAMB)",
     "content": [
@@ -1239,60 +1243,46 @@ window.studyData = {
   }
 },
 
-{
-  "topic": "English – Model Practice Questions",
+//Model practice questions for WAEC and Jamb
+  {
+  "topic": "Practice Questions I",
   "notes": {
     "title": "WAEC & JAMB Practice Questions (Answers at the End)",
     "content": [
       {
-        "type": "text",
-        "data": "1. She ____ to the market yesterday.\nA) go  B) goes  C) went  D) gone\n\n2. Choose the word closest in meaning to 'elated':\nA) sad  B) happy  C) angry  D) tired\n\n3. Read the passage: 'The sun hid behind clouds, and the wind began to howl. The villagers quickly secured their homes.'\nQuestion: What is likely happening?\nA) A festival  B) A storm  C) A wedding  D) A market day\n\n4. Which word has a different vowel sound?\nA) ship  B) sheep  C) sip  D) chip\n\n5. Each of the students ____ ready for the exam.\nA) are  B) is  C) were  D) have\n\n6. Pick the word opposite in meaning to 'scarce':\nA) rare  B) abundant  C) little  D) few\n\n7. Passage: 'Many children prefer reading comics to textbooks because they find them more entertaining and easier to understand.'\nQuestion: What is the main idea?\nA) Children dislike reading  B) Textbooks are boring  C) Comics are popular among children  D) Entertainment is unnecessary\n\n8. Which word has stress on the first syllable?\nA) advice  B) record  C) banana  D) computer\n\n9. She is interested ____ learning French.\nA) for  B) in  C) of  D) at\n\n10. The teacher asked the students to ____ their homework before Friday.\nA) submit  B) submits  C) submitting  D) submitted"
+        type: "text",
+        data: "<b>PASSAGE I</b>\n<em>COMPREHENSION: Read the passage carefully and answer the questions that follows.</em>\n\nThe African moralist has always regarded smoking as an indication of moral degradation. A number of people have accepted the moralist idea on smoking while a good many people have remained indifferent to the moralist view and have continued to smoke. The sameargument has been applied to the consumption of alcohol. The African moralist, basing his judgement on the behaviour of a few alcoholics, tend to regard the habit of taking alcohol as a sign of wretchedness. The moralist holds the view that anybody who forms the habit of consuming alcohol will never do well in life. While this may be true in respect of a few people in the society, the fear of the moralist has not been justified. \nHowever, the economist is primarily interested in the habit of smoking and the consumption of alcohol in so far as they give satisfaction to smokers and drinkers and so generate supply of and demand for tobacco and alcohol.\nSome moral principles associated with religion tend to lead on to economic problems. \nFollowers of certain religions are expected not to consume pork, take alcohol or smoke tobacco. Devotees of some religious groups, on the other hand, can eat pork while others are expected to abstain from alcohol and smoking. \nStrict observance of these moral rules could cripple the breweries, the cigarette factories and some businesses; however, there seems to be a growing number of alcohol consumers and cigarette smokers-a development which should be of interest to the economist.\n<em>Adapted from Peter Scott's article in Sunday Times."
       },
+      
       {
-        "type": "text",
-        "data": "Answers:\n1) C) went\n2) B) happy\n3) B) A storm\n4) B) sheep\n5) B) is\n6) B) abundant\n7) C) Comics are popular among children\n8) B) record\n9) B) in\n10) A) submit"
-      }
+        type: "text",
+        data: "<b>Questions</b>\n1. The view expressed by the writer in the last paragraph is that (a) the number of alcoholics and smoker is certainly increasing (b) more people appear to take to drinking and smoking (c) sales of alcohol and tobacco products have improved tremendously (d) more people now abstain from drinking and smoking\n\n2. It can be concluded from the passage that morality, religion and economy are (a) somewhat interconnected (b) clearly interconnected (c) certainly different (d) certainly unrelated\n\n3. According to the passage, the moralist idea is that (a) the smoking of cigarettes is bad and unacceptable (b) it is typically African not to smoke cigarettes (c) people should accept a point of view only when they are convinced (d) smoking is not good but a little alcohol may be permitted\n\n4. Which of the following statements is true according to the passage? (a) total abstinence from drinking and smoking is a religious obligation (b)smoking and drinking may have positive effects on the economy (c) every one ignores the moralist view on drinking and smoking (d) people who drink or smoke surely die of cancer\n\n5. The positions maintained by the moralist and the economist can be described as being (a) quite indifferent (b) very agreeable (c) very passionate (d) at variance"
+      },
+      
+      {
+        type: "text",
+        data: "<b>PASSAGE ll</b>\n<em>Read the passage carefully and answer the question that follows.</em>\n\nWhen man evolved a conscience, his basic relationship with the other animals began to change. Until then, they were broadly divided into those which ate him when they got the chance, those which he ate when he got the chance, and a third group which competed with him for food, or was otherwise a nuisance to him in the business of keeping alive.\nIn the primitive situation, man was, therefore, basically against nature but, as the battle was progressively won, conscience crept in; the awareness of responsibility, and a failure to meet it, produced feelings of guilt. \nThose who live in cities and need no longer do battle against nature are nowadays most actively for nature. At this time, something like a thousand kinds of animals (vertebrate animals) can be said to be in danger of extinction. A few of them have been reduced to this precarious position by extensive killing but the majority are disappearing only as fast as the particular kind of country they need for existence is itself disappearing and all the hands of man, as often as not by mistake. \nThere are three species of turtles whose future survival is menaced by the demand for turtle soup, which would hardly justify the extermination of a giant reptile whose family has existed for 200 million years.\nLeopards are in jeopardy because of the fashion for their skins. As they get rarer, the prices rise and, as leopard skin become more expensive, the demand increases. No species can long survive the price of N60,000 which a halfgrown baby leopard now carries on its skin. \nAnd crocodiles, the longest surviving reptiles, are now dwindling alarmingly as a result of the fashion in crocodile skin for ladies' handbags and men's shoes. The human population explosion spreads mankind across the land surfaces of the earth at an alarming rate. There will be twice as many of us before most of us are dead. Does this mean no room for wild animals? Of course not.\n<em>Adapted from Peter Scott's article in Sunday Times.</em>"
+        },
+        
+      {
+        type: "text",
+        data: "\n<b>Questions</b>\n6. The sentence There will betwice as many of us before most of us are dead means (a) some increase in human and animal population growth rates (b) mankind is fast spreading across the earth (c) the population growth rate will double before our death (d) many of us will die as a result of population explosion\n\n7. Which of the following statements is true according to the passage? (a) man kills animal only when he can afford to do so. (b) man eats all categories of animals (c) man cannot spare those animals that eat his kind (d) man poses the greatest threat to nature\n\n8. The basic causes of the elimination of certain animals from the earth include (a) a deliberate battle against nature and the quest for leopard skin (b) man's decision to live in cities and the development of large farm lands (c) man's penchant for meat and the sale of animals for meat and hides (d) extensive killing of animals and the fast disappearances of their favourable habitats\n\n9. The expression when man evolved a conscience means when (a) man's intellect improved tremendously (b) man became a critical creature (c) man developed an awareness of right and wrong (d) man acquired new habits\n\n10. From the passage, the attitude of the writer can be described as (a) indifferent (b) partial (c) optimistic (d)pessimistic"
+      },
+      
+      {
+        type: "text",
+        data: "<b>PASSAGE III</b>\n<em>The passage below has gaps. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap.</em>\n\nA prepared speech is not easy to deliver, especially if it is not written by the presenter ....11.... (a) quantum (b) document (c) free (d) manuscript .....delivery is one in which the speech has been written out word for word and is read to ....12.... (a) an audience (b) a congregation (c) a gathering (d) a conference.This kind of delivery is usually reserved for every ....13.... (a) genuine (b) impromptu (c) guaranteed (d) formal --- occasions when exact wording is ....14.... (a) reportive (b) conclusive (c) critical --- such as the State of the Union Address or speeches before the United Nations General ....15.... (a) assembly (b) organisation (c) negotiation (d) body ---The primary advantage is that speech may be highly ....16.... (a) advanced (b) analogue (c) discreet (d) polished in terms of word choice, turns of phrase and development of ideas. The main advantage is that this type of delivery is difficult to do well. Reading aloud with meaningful ....17.... (a) vocal (b) bifocal (c) anticipatory (d) profuse ---inflection speaker to be very familiar with the text. If not the words will come out in a choppy, expressionless way. Such poor delivery could ....18.... (a) decisive (b) positive (c) interactive (d) restrictive --- effects created by the carefully chosen ....19.... (a) dialect (c) slang (d) language --- lack of familiarity with the ....20.... (a) text (b) context (c) exchange (d) note --- could also speaker from maintaining eye contact with the people being addressed."
+      },
+      
+      {
+        type: "text",
+        data: "<b>LEXIS, STRUCTURE AND ORAL FORMS.</b> \n<em>In these questions, select the option that best explains the information conveyed in the sentence.</em>\n21. Ramatu expressed her feelings in no uncertain terms (a) she expressed it feebly and sickly (b) she expresses it quietly and cautiously (c) she expressed it secretly and courageously (d) she expressed it clearly and strongly\n22. Usman needs to get his act together if he wants to pass the examination (a) he needs to put on his stage costume (b) he needs to be fast when writing the examination (c) he eds to organise himself (d) he needs to put all points down in the examination\n23. As the drama unfolded, Olatinuke was advised to keep her shirt on (a) she was advised to stay calm (b) she was advised to commit herself (c) she was advised to join the club (d) she was advised to wear her shirt\n24. The team's poor performance at the tournament plumbed the depths of horror. (a) the team's performance was rewarded (b) the team's performance took them to the next round (c) the team's performance was enjoyed by all (d) the team's performance was full of disappointment\n25. He is a clinging child (a) He is a bully (b) He likes to cling with his sister (c) He is possessive (d) He is a handsome young man.\n26. You need to brush up on your Spanish (a) you need a brush from Spain (b) you need to study the history of Spain (c) you need to learn to play with a Spaniard (d) you need to improve your skills.\n27. Tolu and Chinedu live in each other's pockets (a) They are long-term business partners (b) They are very close to each other"
+      },
+      
+      
     ]
   }
 },
-
-{
-  "topic": "English – Reading Comprehension",
-  "notes": {
-    "title": "Model Reading Comprehension (100 Words) – WAEC & JAMB",
-    "content": [
-      {
-        "type": "text",
-        "data": "Passage:\n\nThe village of Lemu was famous for its beautiful market. Every Saturday, traders from nearby towns brought colorful fabrics, fresh vegetables, and handmade crafts. Children ran around laughing while elders exchanged news. One day, a sudden storm arrived, scattering goods and frightening animals. Villagers quickly helped each other secure their belongings. After the storm, everyone worked together to clean up. Despite the disruption, the market continued the next week, showing the resilience and unity of the community."
-      },
-      {
-        "type": "text",
-        "data": "Questions:\n1. On what day is the Lemu market held?\nA) Monday  B) Wednesday  C) Saturday  D) Sunday\n\n2. Who brings goods to the market?\nA) Only locals  B) Traders from nearby towns  C) Tourists  D) Students\n\n3. Which of the following were sold at the market?\nA) Electronics  B) Books  C) Fabrics, vegetables, and crafts  D) None\n\n4. What event disrupted the market one day?\nA) A festival  B) A storm  C) A wedding  D) A robbery\n\n5. How did the villagers respond to the storm?\nA) Ignored it  B) Left immediately  C) Helped secure goods  D) Called authorities\n\n6. What emotions are shown by the children in the passage?\nA) Sadness  B) Anger  C) Laughter  D) Fear\n\n7. What does the passage suggest about the elders?\nA) They fight  B) They exchange news  C) They leave early  D) They supervise children\n\n8. What lesson does the storm teach the villagers?\nA) Patience and cooperation  B) To stay indoors  C) To avoid markets  D) To sell less\n\n9. How did the market continue after the storm?\nA) It closed permanently  B) It resumed the following week  C) It moved to another town  D) It became smaller\n\n10. What is the main idea of the passage?\nA) Storms are dangerous  B) Children enjoy markets  C) Community resilience and unity  D) Traders make profits"
-      },
-      {
-        "type": "text",
-        "data": "Answers:\n1) C) Saturday\n2) B) Traders from nearby towns\n3) C) Fabrics, vegetables, and crafts\n4) B) A storm\n5) C) Helped secure goods\n6) C) Laughter\n7) B) They exchange news\n8) A) Patience and cooperation\n9) B) It resumed the following week\n10) C) Community resilience and unity"
-      }
-    ]
-  }
-},
-
-{
-  "topic": "English – Register / Vocabulary Practice",
-  "notes": {
-    "title": "Model Register Questions (150-250 Words) – WAEC & JAMB",
-    "content": [
-      {
-        "type": "text",
-        "data": "1. Passage:\n\nMusa is a very _______ [a. diligent b. lazy c. noisy d. rich] student. Every morning, he wakes up early to revise his lessons before school. His teachers admire his dedication and often praise him in front of the class. Musa also helps his classmates with their studies, making him very popular among students. Last week, he won the school quiz competition, showing that hard work always pays off.\n\n2. Passage:\n\nThe forest had become extremely _______ [a. silent b. lively c. dangerous d. spacious] after the heavy rainfall. The birds could hardly be heard, and the usual rustling of leaves had stopped. Even the monkeys, usually very playful, stayed hidden. Local villagers were advised not to enter the forest until the water levels returned to normal and it was safe to navigate.\n\n3. Passage:\n\nDespite the challenges of the project, the team remained _______ [a. hopeless b. determined c. careless d. bored]. They worked late into the night, checking every detail carefully. Their manager was impressed by their commitment, and the final presentation exceeded all expectations, earning the company a large contract.\n\n4. Passage:\n\nAmira’s performance in the debate was very _______ [a. weak b. impressive c. careless d. ordinary]. She spoke clearly, used strong arguments, and responded confidently to questions from the judges. Her school principal commended her in front of the audience, and she received the Best Speaker award.\n\n5. Passage:\n\nThe old library had become _______ [a. modern b. dusty c. noisy d. bright] over the years. Most of the books were covered in dust, and cobwebs hung from the ceiling. Students preferred to study at home or in newer classrooms. The school management decided to renovate it, so it could be a more welcoming place for learning again."
-      },
-      {
-        "type": "text",
-        "data": "Answers:\n1) a. diligent\n2) a. silent\n3) b. determined\n4) b. impressive\n5) b. dusty"
-      }
-    ]
-  }
-}
   
 ],
 
@@ -1300,9 +1290,9 @@ window.studyData = {
   
 //numbers and basic arithmetic operations 
   {
-  "topic": "Numbers and Basic Arithmetic Operations",
+  "topic": "Basic Arithmetic Operations",
   "notes": {
-    "title": "Advanced Numbers and Arithmetic Operations for SSS Students",
+    "title": "Numbers and Arithmetic Operations",
     "content": [
       {
         "type": "text",
@@ -1318,34 +1308,74 @@ window.studyData = {
       },
       {
         "type": "text",
-        "data": "Worked Example 1 — Mixed Operations:\nEvaluate 25 + 12 × (6 - 4) ÷ 2\nStep 1: Brackets: 6 - 4 = 2 → 25 + 12 × 2 ÷ 2\nStep 2: Multiplication/Division left to right: 12 × 2 = 24 → 24 ÷ 2 = 12\nStep 3: Addition: 25 + 12 = 37\nFinal Answer: 37"
+        "data": "Worked Example 1:\nEvaluate 25 + 12 × (6 - 4) ÷ 2\nStep 1: Brackets: 6 - 4 = 2 → 25 + 12 × 2 ÷ 2\nStep 2: Multiplication/Division left to right: 12 × 2 = 24 → 24 ÷ 2 = 12\nStep 3: Addition: 25 + 12 = 37\nFinal Answer: 37"
       },
       {
         "type": "text",
-        "data": "Worked Example 2 — Fraction Problem:\nSimplify: 3/4 + 5/6 - 2/3\nStep 1: Find LCM of denominators (4,6,3) → 12\nStep 2: Convert fractions: 3/4 = 9/12, 5/6 = 10/12, 2/3 = 8/12\nStep 3: Perform operations: 9/12 + 10/12 - 8/12 = 11/12\nFinal Answer: 11/12"
+        "data": "<b>Number bases</b>\n<b>1. Conversation from other bases to base ten/denary</b>\nWorked example 1:\nConvert 215<sub>six</sub> to a number in base ten\n<b>Solution:</b>\n215<sub>six</sub> = (2 × 6²) + (1 × 6¹) + (5 × 6⁰)\n = (2 × 36) + (1 × 6) + (5 × 1)\n = 72 + 6 + 5\n = 83<sub>ten</sub> "
       },
       {
         "type": "text",
-        "data": "Worked Example 3 — Multiplication and Division of Fractions:\nSimplify: 5/6 × 12/15 ÷ 2/5\nStep 1: Multiply first two fractions: (5/6 × 12/15) = 60/90 = 2/3\nStep 2: Divide by 2/5: (2/3 ÷ 2/5) = 2/3 × 5/2 = 10/6 = 5/3\nFinal Answer: 5/3 or 1 2/3"
+        "data": "Worked example 2:\nConvert 1101<sub>two</sub> to a number in base ten\n<b>Solution:</b>\n1101<sub>two</sub> = (1 × 2³) + (1 × 2²) + (0 × 2¹) + (1 × 2⁰)\n = (1 × 8) + (1 × 4) + (0 × 2) + (1 × 1)\n = 8 + 4 + 0 + 1\n = 13<sub>ten</sub> "
       },
       {
         "type": "text",
-        "data": "Applications:\n• Daily Life: Budgeting, dividing food, calculating fuel consumption.\n• Business: Profit calculations, pricing.\n• Science: Experimental data, statistical analysis.\n• Engineering: Measurements, scaling, and calculations involving fractions and decimals."
+        "data": "<b>2. Conversation from base ten to other bases</b>\nWorked example 1:\nConvert 11<sub>ten</sub> to a number in base two\n<b>Solution:</b>\n11<sub>ten</sub> = 1011<sub>two</sub>\nSee workings below:"
       },
       {
-        "type": "evaluation",
-        "data": [
-          "1. Evaluate: 125 + 236 ÷ 4 × (7 - 3)",
-          "2. Simplify: 7/8 - 5/12 + 3/4",
-          "3. Multiply and simplify: 5/6 × 12/15",
-          "4. Divide: 144 ÷ 12 × 3 ÷ 2",
-          "5. Evaluate: 25 + 45 - 12 × (8 ÷ 4)",
-          "6. Solve: 3/5 + 7/10 - 1/2",
-          "7. Simplify: 2.5 × 1.2 ÷ 0.6",
-          "8. Evaluate: -12 + 25 - 18",
-          "9. Multiply: -3 × 7 × (-2)",
-          "10. Divide: -84 ÷ 7 × (-2)"
-        ]
+        type: "image",
+        data: "./Screenshot_20251216-180440.png"
+      },
+      {
+        "type": "text",
+        "data": "Worked example 2:\nConvert 31<sub>ten</sub> to a binary number\n<b>Solution:</b>\n31<sub>ten</sub> = 11111<sub>two</sub>\nSee workings below:"
+      },
+      {
+        type: "image",
+        data: "./Screenshot_20251216-180609.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Conversation from one base to another</b>\nWorked example 1:\nConvert 132<sub>five</sub> to a number in base two\n<b>Solution:</b>\nConvert to base ten first\n132<sub>five</sub> = (1 × 5²) + (3 × 5¹) + (2 × 5⁰)\n = (1 × 25) + (3 × 5) + (2 × 1)\n = 25 + 15 + 2\n = 42<sub>ten</sub> \nConvert to base two\n132<sub>five</sub> = 101010<sub>two</sub>\nSee workings below:"
+      },
+      {
+        type: "image",
+        data: "./Screenshot_20251216-180836.png"
+      },      
+      {
+        type: "text",
+        data: "<b>4. Addition and subtraction of number bases</b>\nWorked example 1:\nEvaluate the following:\na. 213<sub>four</sub> + 322<sub>four</sub>\nb. 343<sub>five</sub> + 144<sub>five</sub>\nc. 413<sub>five</sub> — 344<sub>five</sub>\n<b>Solution:</b>"
+      },
+      {
+        type: "image",
+        data: "./Screenshot_20251216-193013_1.png"
+      },
+      //multiplication of number base
+      {
+        type: "text",
+        data: "<b>5. Multiplication of number base</b>\nWorked examples\na. Multiply 2102<sub>three</sub> by 122<sub>three</sub>\nb. 115<sub>six</sub> by 11<sub>six</sub>\n<b>Solution:</b>"
+      },
+      
+      {
+        type: "image",
+        data: "./Screenshot_20251216-195537.png"
+      },
+      //Division of number base 
+      {
+        type: "text",
+        data: "<b>Division of number bases</b>\nWorked examples:\nSimplify the following:\na. 112<sub>three</sub> ÷ 21<sub>three</sub>\nb. 114<sub>seven</sub> ÷ 15<sub>three</sub>\n<b>Solution:</b>\na. Converting to base ten,\n112<sub>three</sub> = (1 × 3²) + (1 × 3¹) + (2 × 3⁰) = 14<sub>ten</sub>\n21<sub>three</sub> = (2 × 3¹) + (1 × 3⁰) = 7<sub>ten</sub>\n14<sub>ten</sub> ÷ 7<sub>ten</sub>\n= 2<sub>ten</sub>\nConvert back to base three, = 2<sub>three</sub>\nb. Converting to base ten,\n114<sub>seven</sub> = (1 × 7²) + (1 × 7¹) + (4 × 7⁰) = 60<sub>ten</sub>\n15<sub>seven</sub> = (1 × 7¹) + (5 × 7⁰) = 12<sub>ten</sub>\n= 60<sub>ten</sub> ÷ 12<sub>ten</sub>\n= 5<sub>ten</sub>\nConvert back to base seven, = 5<sub>seven</sub>"
+      },
+      {
+        type: "text",
+        data: "<b>Determination of unknown base</b>\nWorked examples:\n1. Given that 21<sub>n</sub> = 13<sub>ten</sub>, find the value of n.\n<b>Solution:</b>\nConvert to base ten, \n (2 × n¹) + (1 × n⁰) = 13\n 2n + 1 = 13\n2n = 13 – 1\n2n = 12\nn = 6"
+      },
+      {
+        type: "text",
+        data: "2. If 123<sub>y</sub> = 83<sub>ten</sub>, find the value of y.\n<b>Solution:</b>\nConvert to base ten, \n(1 × y²) + (2 × y¹) + (3 × y⁰) = 83\n y² + 2y + 3 = 83\ny² + 2y - 80 = 0\nFactorising, (y - 8)(y + 10) = 0\ny = 8 or y -10\ntherefore y = 8 since a base "
+      },
+      {
+        "type": "text",
+        "data": "<b>Practice questions</b>\n1. If 134<sub>y</sub> = 8<sub>ten</sub>, find the value of y. [y = 2]\n2. Given that 133<sub>y</sub> = 43<sub>seven</sub>, find the value of y. [y = 4]\n3. Evaluate (111<sub>two</sub> + 101<sub>two</sub>)(111<sub>two</sub> - 101<sub>two</sub>) [11000<sub>two</sub>]\n4. Find x such that 312<sub>four</sub> + 52<sub>x</sub> = 96<sub>ten</sub>. [x = 8]\n5. Given that 111<sub>two</sub> × 111<sub>two</sub> = N<sub>two</sub>. [N = 110001<sub>two</sub>]\n6. If 2A<sub>16</sub> = 52<sub>8</sub>, find the value of A. [A = 2]\n7. Convert 123<sub>5</sub> to base 3. [2102<sub>3</sub>]\n8. Solve for x: 123<sub>x</sub> = 83<sub>ten</sub>. [x = 8]\n9. Find the value of y: 211<sub>y</sub> = 110<sub>3</sub>. [y = 5]\n10. Evaluate: 101<sub>2</sub> × 12<sub>3</sub> in base 4. [132<sub>4</sub>]\n11. If 25<sub>x</sub> = 21<sub>10</sub>, find x. [x = 8]\n12. Convert 37<sub>8</sub> to base 5. [120<sub>5</sub>]\n13. Solve for x: 3x2<sub>5</sub> = 212<sub>4</sub>. [x = 4]\n14. Find y: 12<sub>y</sub> = 10<sub>5</sub>. [y = 3]\n15. Evaluate: 1111<sub>2</sub> + 222<sub>3</sub> in base 10. [30]"
       }
     ]
   }
@@ -1402,7 +1432,7 @@ window.studyData = {
   {
   "topic": "Indices",
   "notes": {
-    "title": "Advanced Indices for SSS Students",
+    "title": "Indices and standard form",
     "content": [
       {
         "type": "text",
@@ -1410,35 +1440,64 @@ window.studyData = {
       },
       {
         "type": "text",
-        "data": "Laws of Indices:\n1. a<sup>m</sup> × a<sup>n</sup> = a<sup>m+n</sup>\n2. a<sup>m</sup> ÷ a<sup>n</sup> = a<sup>m-n</sup>\n3. (a<sup>m</sup>)<sup>n</sup> = a<sup>m×n</sup>\n4. (ab)<sup>n</sup> = a<sup>n</sup> × b<sup>n</sup>\n5. (a/b)<sup>n</sup> = a<sup>n</sup> / b<sup>n</sup>\n6. a<sup>0</sup> = 1 (for a ≠ 0)\n7. a<sup>-n</sup> = 1/a<sup>n</sup>"
+        "data": "<b>Laws of Indices:</b>\n1. a<sup>m</sup> × a<sup>n</sup> = a<sup>m+n</sup>\n2. a<sup>m</sup> ÷ a<sup>n</sup> = a<sup>m-n</sup>\n3. (a<sup>m</sup>)<sup>n</sup> = a<sup>m×n</sup>\n4. (ab)<sup>n</sup> = a<sup>n</sup> × b<sup>n</sup>\n5. (a/b)<sup>n</sup> = a<sup>n</sup> / b<sup>n</sup>\n6. a<sup>0</sup> = 1 (for a ≠ 0)\n7. a<sup>-n</sup> = 1/a<sup>n</sup>\n8. a<sup><sup>x</sup>/<sub>y</sub></sup> = (y√a)<sup>x</sup>"
       },
       {
         "type": "text",
-        "data": "Worked Example 1 — Simplification:\nSimplify: 2<sup>3</sup> × 2<sup>4</sup> ÷ 2<sup>2</sup>\nStep 1: Multiply powers with same base: 2<sup>3</sup> × 2<sup>4</sup> = 2<sup>3+4</sup> = 2<sup>7</sup>\nStep 2: Divide by 2<sup>2</sup>: 2<sup>7</sup> ÷ 2<sup>2</sup> = 2<sup>7-2</sup> = 2<sup>5</sup>\nFinal Answer: 2<sup>5</sup> = 32"
+        "data": "<b>Multiplication and division of indices</b>\n<b>Worked Example 1:</b>\nSimplify: 2<sup>3</sup> × 2<sup>4</sup> ÷ 2<sup>2</sup>\n<b>Solution:</b>\nUsing law of indices, = 2<sup>3+4</sup> ÷ 2<sup>2</sup>\n = 2<sup>7</sup> ÷ 2<sup>2</sup>\n = 2<sup>7-2</sup> \n= 2<sup>5</sup>\n = 32"
       },
       {
         "type": "text",
-        "data": "Worked Example 2 — Power of a Power:\nSimplify: (3<sup>2</sup>)<sup>4</sup>\nStep 1: Multiply the exponents: 3<sup>2×4</sup> = 3<sup>8</sup>\nStep 2: Compute 3<sup>8</sup> = 6561\nFinal Answer: 6561"
+        "data": "<b>Worked Example 2:</b>\nSimplify: (3<sup>2</sup>)<sup>4</sup>\n<b>Solution:</b>\n Multiply the exponents, 3<sup>2×4</sup>\n = 3<sup>8</sup>\n= 6561"
       },
       {
         "type": "text",
-        "data": "Worked Example 3 — Negative Exponents:\nSimplify: 5<sup>-3</sup> × 5<sup>2</sup>\nStep 1: Add exponents: -3 + 2 = -1\nStep 2: Apply negative exponent: 5<sup>-1</sup> = 1/5\nFinal Answer: 1/5"
+        "data": "<b>Worked Example 3:</b>\nSimplify: (5<sup>2</sup>)<sup>-3</sup>\n<b>Solution:</b>\n Multiply the exponents, 5<sup>2×-3</sup>\n = 5<sup>-6</sup>\n= <sup>1</sup>/<sub>5<sup>6</sup></sub>"
       },
       {
         "type": "text",
-        "data": "Worked Example 4 — Fractional Base:\nSimplify: (2/3)<sup>3</sup> × (3/2)<sup>2</sup>\nStep 1: Multiply: (2/3)<sup>3</sup> × (3/2)<sup>2</sup> = (2<sup>3</sup>/3<sup>3</sup>) × (3<sup>2</sup>/2<sup>2</sup>) = 8/27 × 9/4\nStep 2: Multiply fractions: 8×9 / 27×4 = 72 / 108 = 2/3\nFinal Answer: 2/3"
+        "data": "<b>Negative exponents</b>\n<b>Worked Example 4:</b>\nSimplify: 7<sup>-3</sup>\n <b>Solution:</b>\nUsing law of ndices, <sup>1</sup>/<sub>7<sup>3</sup></sub>\n = <sup>1</sup>/<sub>7×7×7</sub>\n = <sup>1</sup>/<sub>343</sub>"
       },
       {
         "type": "text",
-        "data": "Applications:\n• Scientific notation: expressing very large or small numbers.\n• Growth and decay problems: population, finance, interest.\n• Simplifying algebraic expressions."
+        "data": "<b>Worked Example 5:</b>\nSimplify: (3<sup>2</sup>)<sup>-2</sup> × 3<sup>-1</sup>\n <b>Solution:</b>\nUsing law of indices, 3<sup>2×-2</sup> × 3<sup>-1</sup>\n = 3<sup>-4</sup> × 3<sup>-1</sup>\n = 3<sup>-4 + -1</sup>\n = 3<sup>-5</sup>\n = <sup>1</sup>/<sub>3<sup>5</sup></sub>\n = <sup>1</sup>/<sub>243</sub>"
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Fractional exponent</b>\n<b>Worked Example 6:</b>\nSimplify: <sup>(3<sup>2</sup>)<sup>3</sup> × 3<sup>2</sup></sup>/<sub>(3<sup>-3</sup>)<sup>2</sup></sub>\n<b>Solution:</b>\nUsing law of indices, <sup>3<sup>2×3</sup></sup> × <sup>3<sup>2</sup></sup>/<sub>3<sup>-3×2</sup></sub>\n = <sup>3<sup>6</sup> × 3<sup>2</sup></sup>/<sub>3<sup>-6</sup></sub>\n = 3<sup>6</sup> × 3<sup>2-(-6)</sup>\n = 3<sup>6</sup> × 3<sup>8</sup>\n = 3<sup>6+8</sup>\n = 3<sup>14</sup>"
       },
       {
-        "type": "image",
-        "data": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Exponents.png/640px-Exponents.png"
+        "type": "text",
+        "data": "<b>Worked Example 7:</b>\nSimplify: 32<sup><sup>2</sup>/<sub>5</sub></sup>\n<b>Solution:</b>\n Express as index, 2<sup>5</sup> × <sup><sup>2</sup>/<sub>5</sub></sup>\n = 2<sup>2</sup>\n= 4"
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Exponential Equations</b>\n<b>Worked Example 8:</b>\nSolve: 3<sup>2x</sup> = 27\n<b>Solution:</b>\n3<sup>2x</sup> = 3<sup>3</sup>\n2x = 3\nx = <sup>3</sup>/<sub>2</sub>"
       },
       {
-  "type": "text",
-  "data": "Evaluation Questions:\n1. Simplify: 3<sup>4</sup> × 3<sup>-2</sup>\n2. Simplify: (2<sup>3</sup> × 4<sup>2</sup>) ÷ 8\n3. Evaluate: (5<sup>2</sup>)<sup>3</sup> ÷ 5<sup>4</sup>\n4. Simplify: (3/5)<sup>2</sup> × (5/3)<sup>3</sup>\n5. Simplify: 10<sup>0</sup> × 10<sup>5</sup> ÷ 10<sup>2</sup>\n6. Solve: 2<sup>x</sup> × 2<sup>3</sup> = 2<sup>7</sup>\n7. Express 0.00045 in standard form using powers of 10\n8. Simplify: (x<sup>2</sup> y<sup>3</sup>)<sup>2</sup>\n9. Simplify: 7<sup>-2</sup> × 7<sup>5</sup> ÷ 7<sup>3</sup>\n10. Simplify: (2<sup>3</sup> × 3<sup>2</sup>)<sup>2</sup>"
+        "type": "text",
+        "data": "<b>Worked Example 9:</b>\nSolve: 5<sup>2x-1</sup> = 125\n<b>Solution:</b>\n5<sup>2x-1</sup> = 5<sup>3</sup>\n2x - 1 = 3\n2x = 4\nx = <sup>4</sup>/<sub>2</sub>\nx = 2"
+      },
+      
+      {
+          "type": "text",
+          "data": "<b>Simultaneous Exponential Equations</b>\n<b>Worked Example 10:</b>\nSolve:\n5<sup>x</sup> × 5<sup>2y</sup> = 5<sup>7</sup>\n3<sup>x</sup> ÷ 3<sup>2y</sup> = 27\n<b>Solution:</b>\n5<sup>x + 2y</sup> = 5<sup>7</sup>\nx + 2y = 7 ... (i)\n3<sup>x - 2y</sup> = 3<sup>3</sup>\nx - 2y = 3 ... (ii)\nAdd equation (i) and (ii): 2x = 10\nx = 5\nSub x = 5 into (i): 5 + 2y = 7\n2y = 2\ny = 1\n∴ x = 5, y = 1"
+      },
+      
+      {
+         type: "text",
+         data: "<b>Standard form</b>\nA number is expressed in standard form as a × 10<sup>n</sup> where 1 ≤ a < 10 and n is an integer."
+      },
+     {
+         type: "text",
+         data: "<b>Worked examples</b>\n1. Express the following in standard form\na. 7890100 = 7.8901 × 10<sup>6</sup>\nb. 0.00513 = 5.13 × 10<sup>-3</sup>\nc. 0.2 = 2 × 10<sup>-1</sup>\nd. 0.0000207 = 2.07 × 10<sup>-5</sup>\ne. 40 = 4 × 10<sup>1</sup>"
+      },
+    
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions:</b>\n1. Simplify: 3<sup>4</sup> × 3<sup>-2</sup> [3<sup>2</sup> = 9]\n2. Simplify: (2<sup>3</sup> × 4<sup>2</sup>) ÷ 8 [2<sup>4</sup> = 16]\n3. Evaluate: (5<sup>2</sup>)<sup>3</sup> ÷ 5<sup>4</sup> [5<sup>2</sup> = 25]\n4. Simplify: (3/5)<sup>2</sup> × (5/3)<sup>3</sup> [5/3]\n5. Simplify: 10<sup>0</sup> × 10<sup>5</sup> ÷ 10<sup>2</sup> [10<sup>3</sup> = 1000]\n6. Solve: 2<sup>x</sup> × 2<sup>3</sup> = 2<sup>7</sup> [x = 4]\n7. Solve for x: (x + 1)<sup>5</sup> = 243 [x + 1 = 3, x = 2]\n8. Simplify: (x<sup>2</sup> y<sup>3</sup>)<sup>2</sup> [x<sup>4</sup>y<sup>6</sup>]\n9. Simplify: 7<sup>-2</sup> × 7<sup>5</sup> ÷ 7<sup>3</sup> [7<sup>0</sup> = 1]\n10. Simplify: (2<sup>3</sup> × 3<sup>2</sup>)<sup>2</sup> [2<sup>6</sup> × 3<sup>4</sup> = 64 × 81 = 5184]\n11. Solve the equation: 4<sup>2-x</sup> × 16<sup>x+1</sup>=64 [x = 0]\n12. Find x when 25<sup>x</sup> = 1 [x = 0]\n13. If 8<sup>x</sup> = 2√2 Find the value of x [x = 1/2]\n14. Find the value of m and n: 2<sup>m+n</sup> = 2<sup>6</sup>, 2<sup>5m+n</sup> = 2<sup>2</sup> [m = -1, n = 7]\n15. Find the value of x when 5<sup>x²+2</sup> = 5<sup>-3x</sup> [x = -1, x = -2]"
 }
         ]
       }
@@ -1449,7 +1508,7 @@ window.studyData = {
   {
   "topic": "Logarithms",
   "notes": {
-    "title": "Advanced Logarithms for SSS Students",
+    "title": " Logarithms",
     "content": [
       {
         "type": "text",
@@ -1457,42 +1516,51 @@ window.studyData = {
       },
       {
         "type": "text",
-        "data": "Laws of Logarithms:\n1. log<sub>a</sub>(xy) = log<sub>a</sub>(x) + log<sub>a</sub>(y)\n2. log<sub>a</sub>(x ÷ y) = log<sub>a</sub>(x) - log<sub>a</sub>(y)\n3. log<sub>a</sub>(x<sup>n</sup>) = n × log<sub>a</sub>(x)\n4. log<sub>a</sub>(a) = 1, log<sub>a</sub>(1) = 0\n5. Change of base formula: log<sub>a</sub>(b) = log<sub>c</sub>(b) ÷ log<sub>c</sub>(a)"
+        "data": "<b>Laws of Logarithms:</b>\n1. log<sub>a</sub>(xy) = log<sub>a</sub>(x) + log<sub>a</sub>(y)\n2. log<sub>a</sub>(x ÷ y) = log<sub>a</sub>(x) - log<sub>a</sub>(y)\n3. log<sub>a</sub>(x<sup>n</sup>) = n × log<sub>a</sub>(x)\n4. log<sub>a</sub>(a) = 1, log<sub>a</sub>(1) = 0\n5. log<sub>a</sub>(b) = log<sub>c</sub>(b) ÷ log<sub>c</sub>(a)\n6. If a<sup>x</sup> = N, then log<sub>a</sub>N = x"
       },
       {
         "type": "text",
-        "data": "Worked Example 1 — Product Rule:\nSimplify: log<sub>2</sub>(8 × 4)\nStep 1: Apply product rule: log<sub>2</sub>(8 × 4) = log<sub>2</sub>(8) + log<sub>2</sub>(4)\nStep 2: Compute: log<sub>2</sub>(8) = 3, log<sub>2</sub>(4) = 2\nFinal Answer: 5"
+        "data": "<b>Worked Examples</b>\n1. Simplify: log<sub>3</sub>27\n<b>Solution</b>\nLet log<sub>3</sub>27 = x\n then 3<sup>x</sup> = 27 = 3<sup>3</sup>\nx = 3"
       },
       {
         "type": "text",
-        "data": "Worked Example 2 — Quotient Rule:\nSimplify: log<sub>3</sub>(81 ÷ 9)\nStep 1: Apply quotient rule: log<sub>3</sub>(81 ÷ 9) = log<sub>3</sub>(81) - log<sub>3</sub>(9)\nStep 2: Compute: log<sub>3</sub>(81) = 4, log<sub>3</sub>(9) = 2\nFinal Answer: 2"
+        "data": "2. Simplify: log<sub>4</sub>8\n<b>Solution</b>\nLet log<sub>4</sub>8 = x\n then 4<sup>x</sup> = 8\n(2<sup>2</sup>)<sup>x</sup> = 2<sup>3</sup>\n2<sup>2x</sup> = 2<sup>3</sup>\n2x = 3\n x = <sup>3</sup>/<sub>2</sub>\n x = 1 <sup>1</sup>/<sub>2</sub>"
       },
       {
         "type": "text",
-        "data": "Worked Example 3 — Power Rule:\nSimplify: log<sub>5</sub>(25<sup>3</sup>) = 3 × log<sub>5</sub>(25) = 3 × 2 = 6"
+        "data": "3. Simplify: log7 + 2log2 - log280\n<b>Solution</b>\n =  log7 + log2² - log280\n = log7 + log4  log280\n = log(<sup>7 × 4</sup>/<sub>280</sub>)\n = log<sup>1</sup>/<sub>10</sub>\n = log10<sup>-1</sup>\n = -1log10\n = -1"
       },
       {
         "type": "text",
-        "data": "Worked Example 4 — Change of Base:\nEvaluate log<sub>2</sub>(32) using common log (base 10)\nStep 1: log<sub>2</sub>(32) = log<sub>10</sub>(32) ÷ log<sub>10</sub>(2)\nStep 2: Compute: log<sub>10</sub>(32) ≈ 1.5051, log<sub>10</sub>(2) ≈ 0.3010\nStep 3: Divide: 1.5051 ÷ 0.3010 ≈ 5\nFinal Answer: 5"
+        "data": "4. Given that log<sub>10</sub>2 = 0.3010 and log<sub>10</sub>3 = 0.4771, evaluate: \na log<sub>10</sub>9\nb. log<sub>10</sub>12\nc. log<sub>10</sub>15"
       },
       {
-        "type": "image",
-        "data": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Logarithm_curve.svg/640px-Logarithm_curve.svg.png"
+        type: "text",
+        data: "<b>Solution</b>\na. log<sub>10</sub>9 = log<sub>10</sub>3² = 2log<sub>10</sub>3\n= since log<sub>10</sub>3 = 0.4771\n= then 2 × 0.4771 = 0.9542\n\nb. log<sub>10</sub>12 = log<sub>10</sub>(4 × 3) = log<sub>10</sub>4 + log<sub>10</sub>3 \n= log<sub>10</sub>2<sup>2</sup> + log<sub>10</sub>3\n= 2log<sub>10</sub>2 + log<sub>10</sub>3\n= since log<sub>10</sub>3 = 0.4771 and log<sub>10</sub>2 = 0.3010\n= then 2 × 0.3010 + 0.4771 = \n= 0.6020 + 0.4771\n= 1.0791\n"
       },
       {
-  "type": "text",
-  "data": "Evaluation Questions:\n1. Simplify: log<sub>2</sub>(16 × 8)\n2. Simplify: log<sub>5</sub>(125 ÷ 25)\n3. Simplify: log<sub>3</sub>(27<sup>2</sup>)\n4. Solve for x: log<sub>2</sub>(x) = 5\n5. Evaluate log<sub>10</sub>(1000)\n6. Use change of base to find log<sub>7</sub>(49)\n7. Simplify: log<sub>2</sub>(32) - log<sub>2</sub>(4)\n8. Solve: log<sub>5</sub>(x) + log<sub>5</sub>(25) = 3\n9. Simplify: log<sub>10</sub>(50 × 2)\n10. Solve: log<sub>3</sub>(3<sup>x</sup>) = 5"
-}
+        type: "text",
+        data: "c. log<sub>10</sub>15 = log<sub>10</sub>(30 ÷ 2) = log<sub>10</sub>30 - log<sub>10</sub>2\n= log<sub>10</sub>(3 × 10) - log<sub>10</sub>2\n= log<sub>10</sub>3 + log<sub>10</sub>10 - log<sub>10</sub>2\n= since log<sub>10</sub>3 = 0.4771 and log<sub>10</sub>2 = 0.3010\n= then 0.4771 + 1 - 0.3010 \n= 1.4771 - 0.3010\n= 1.1761\n"
+      },
+      {
+        "type": "text",
+        "data": "5. Find the value of x given that log<sub>10</sub>x + log<sub>10</sub>(x + 3) = 1\n<b>Solution</b>\nthen, log<sub>10</sub>x × (x + 3)\n log<sub>10</sub>x(x + 3) = log<sub>10</sub>10\nthen, x² + 3x = 10\nx² + 3x - 10 = 0\n(x + 5)(x - 2) = 0\nx = -5 or x = 2"
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Practice Questions:</b>\n1. Simplify: log5 + log6\n2. Simplify: log<sub>10</sub>√60\n3. Evaluate log350 - log7 + log2\n4. Express the following as logarithm of single number; 2 - 2log5\n5.Solve log<sub>10</sub>(2x+1) - log<sub>10</sub>(3x-2) = 1\n6. Given that log<sub>10</sub>2 = 0.3010 and log<sub>10</sub>3 = 0.4771 and log<sub>10</sub>7 = 0.8451, evaluate: \na. log<sub>10</sub>8\nb. log<sub>10</sub>40\nc. log<sub>10</sub>√60\n7. Evaluate log<sub>10</sub>√35 + log<sub>10</sub>√2 - log<sub>10</sub>√7\n8. Solve for x in: 6log(x+4) = log64"
+    }
     ]
   }
 },
 
 //surds
 
-  {
+  { 
   "topic": "Surds",
   "notes": {
-    "title": "Advanced Surds for SSS Students",
+    "title": "Surds",
     "content": [
       {
         "type": "text",
@@ -1500,19 +1568,19 @@ window.studyData = {
       },
       {
         "type": "text",
-        "data": "Simplifying Surds:\n• √(a × b) = √a × √b\n• √(a ÷ b) = √a ÷ √b\n• Rationalizing denominators: multiply numerator and denominator to remove surd from denominator."
+        "data": "If a and b are real (positive) numbers, then\n• √ab = √a × √b\n• √<sup>a</sup>/<sub>b</sub> = <sup>√a</sup>/<sub>√b</sub>\n• Expressions in which both the numerator and denominator contains surds are simplified by rationalizing the denominator. This is done by multiplying both numerator and denominator by the same factor\n• The difference of two squares:\na²-b² = (a+b)(a-b) is often found useful in solving problems on surd."
       },
       {
         "type": "text",
-        "data": "Worked Example 1 — Simplification:\nSimplify: √50\nStep 1: Factor 50 = 25 × 2\nStep 2: Split root: √50 = √25 × √2 = 5√2\nFinal Answer: 5√2"
+        "data": "<b>Worked Examples</b>\n1. Simplify: √50\nSolution:\n√50 = √25 × √2 = 5 × √2\n = 5√2"
       },
       {
         "type": "text",
-        "data": "Worked Example 2 — Addition/Subtraction:\nSimplify: 3√8 + 5√2\nStep 1: Simplify √8: √8 = √4 × √2 = 2√2\nStep 2: Multiply coefficient: 3√8 = 3 × 2√2 = 6√2\nStep 3: Add like surds: 6√2 + 5√2 = 11√2\nFinal Answer: 11√2"
+        "data":"2. Simplify: 3√8 + 5√2\nSolution: \n3√8 + 5√2 = 3 × (√4 × √2) + 5√2 \n= 3 × 2 × √2 + 5√2\n= 6√2 + 5√2\n11√2"
       },
       {
         "type": "text",
-        "data": "Worked Example 3 — Multiplication:\nSimplify: √6 × √24 = √144 = 12"
+        "data": "3. Simplify: √6 × √24 = √144 = 12"
       },
       {
         "type": "text",
@@ -1638,61 +1706,53 @@ window.studyData = {
 //polynomial expression and factorization 
 
   {
-  "topic": "Polynomial Expressions and Factorization",
+  "topic": "Polynomials and Remainder Theorem",
   "notes": {
-    "title": "Polynomial Expressions and Factorization",
+    "title": "Polynomials and Remainder Theorem",
     "content": [
       {
         "type": "text",
-        "data": "A polynomial is an algebraic expression with one or more terms involving variables and coefficients. Factorization is the process of expressing a polynomial as a product of its factors."
+        "data": "A polynomial is an algebraic expression consisting of variables (indeterminates) and coefficients, combined using addition, subtraction, multiplication, and non-negative integer exponents. Example: P(x) = 4x<sup>4</sup> − 3x<sup>3</sup> + 2x − 7."
       },
       {
         "type": "text",
-        "data": "Types of Polynomials:\n1. Monomial – single term, e.g., 5x, -3y<sup>2</sup>\n2. Binomial – two terms, e.g., x + 4, 3a - 2b\n3. Trinomial – three terms, e.g., x<sup>2</sup> + 5x + 6\n4. Polynomial – more than three terms, e.g., 2x<sup>3</sup> - 3x<sup>2</sup> + x - 5"
+        "data": "<b>Degree of a Polynomial:</b> The highest power of the variable in a polynomial. Example: P(x) = 5x<sup>5</sup> − 2x<sup>3</sup> + x − 1 has degree 5."
       },
       {
         "type": "text",
-        "data": "Common Factorization Techniques:\n• Factor out the greatest common factor (GCF)\n• Factor by grouping\n• Factor trinomials: x<sup>2</sup> + (a + b)x + ab = (x + a)(x + b)\n• Difference of squares: a<sup>2</sup> - b<sup>2</sup> = (a - b)(a + b)\n• Sum or difference of cubes: a<sup>3</sup> ± b<sup>3</sup> = (a ± b)(a<sup>2</sup> ∓ ab + b<sup>2</sup>)"
+        "data": "<b>Types of Polynomials:</b>\n1. Monomial: Single term (e.g., 7x<sup>3</sup>)\n2. Binomial: Two terms (e.g., x<sup>2</sup> − 5x)\n3. Trinomial: Three terms (e.g., x<sup>2</sup> + 3x − 4)\n4. Polynomial: More than three terms"
       },
       {
         "type": "text",
-        "data": "Worked Example 1 — Factor out GCF:\nFactorize: 6x<sup>3</sup> + 9x<sup>2</sup>\nStep 1: GCF of 6x<sup>3</sup> and 9x<sup>2</sup> = 3x<sup>2</sup>\nStep 2: Factor it out: 3x<sup>2</sup>(2x + 3)\nFinal Answer: 3x<sup>2</sup>(2x + 3)"
+        "data": "<b>Operations on Polynomials:</b>\n1. Addition/Subtraction: Combine like terms.\nExample: (3x<sup>3</sup> + 4x<sup>2</sup> − 5) + (2x<sup>3</sup> − x<sup>2</sup> + 6) = 5x<sup>3</sup> + 3x<sup>2</sup> + 1\n2. Multiplication: Use distributive property.\nExample: (x<sup>2</sup> + 2x − 3)(x − 1) = x<sup>3</sup> + x<sup>2</sup> − 5x + 3\n3. Division: Long division or synthetic division."
       },
       {
         "type": "text",
-        "data": "Worked Example 2 — Factor by Grouping:\nFactorize: x<sup>3</sup> + 3x<sup>2</sup> + 2x + 6\nStep 1: Group terms: (x<sup>3</sup> + 3x<sup>2</sup>) + (2x + 6)\nStep 2: Factor each group: x<sup>2</sup>(x + 3) + 2(x + 3)\nStep 3: Factor common binomial: (x + 3)(x<sup>2</sup> + 2)\nFinal Answer: (x + 3)(x<sup>2</sup> + 2)"
+        "data": "<b>Remainder Theorem:</b>\nIf a polynomial P(x) is divided by (x − a), then the remainder is P(a). Example: P(x) = 2x<sup>4</sup> − 3x<sup>3</sup> + x − 5 divided by (x − 2), remainder = P(2) = 2(2)<sup>4</sup> − 3(2)<sup>3</sup> + 2 − 5 = 32 − 24 + 2 − 5 = 5"
       },
       {
         "type": "text",
-        "data": "Worked Example 3 — Factor Trinomial:\nFactorize: x<sup>2</sup> + 7x + 12\nStep 1: Find two numbers that multiply to 12 and add to 7 → 3 and 4\nStep 2: Write factors: (x + 3)(x + 4)\nFinal Answer: (x + 3)(x + 4)"
+        "data": "<b>Factor Theorem:</b>\nIf P(a) = 0, then (x − a) is a factor of P(x). Example: P(x) = x<sup>3</sup> − 7x + 6, P(1) = 0 → (x − 1) is a factor."
       },
       {
         "type": "text",
-        "data": "Worked Example 4 — Difference of Squares:\nFactorize: x<sup>2</sup> - 49\nStep 1: Recognize as difference of squares: x<sup>2</sup> - 7<sup>2</sup>\nStep 2: Apply formula: (x - 7)(x + 7)\nFinal Answer: (x - 7)(x + 7)"
+        "data": "<b>Worked Examples:</b>\n1. Divide P(x) = x<sup>4</sup> − 3x<sup>3</sup> + 5x<sup>2</sup> − 2x + 4 by (x − 1) using synthetic division.\nSolution:\nCoefficients: 1, −3, 5, −2, 4\nStep 1: Bring down 1 → 1\nStep 2: Multiply by 1 → 1, add to −3 → −2\nStep 3: Multiply by 1 → −2, add to 5 → 3\nStep 4: Multiply by 1 → 3, add to −2 → 1\nStep 5: Multiply by 1 → 1, add to 4 → 5\nQuotient: x<sup>3</sup> − 2x<sup>2</sup> + 3x + 1, Remainder = 5"
       },
       {
         "type": "text",
-        "data": "Worked Example 5 — Sum/Difference of Cubes:\nFactorize: x<sup>3</sup> + 8\nStep 1: Recognize sum of cubes: x<sup>3</sup> + 2<sup>3</sup>\nStep 2: Apply formula: (x + 2)(x<sup>2</sup> - 2x + 4)\nFinal Answer: (x + 2)(x<sup>2</sup> - 2x + 4)"
+        "data": "2. Factor completely P(x) = x<sup>3</sup> − 6x<sup>2</sup> + 11x − 6\nSolution:\nTest possible roots: ±1, ±2, ±3, ±6\nP(1) = 0 → (x − 1) is a factor\nDivide using synthetic division: x<sup>2</sup> − 5x + 6\nFactor quadratic: (x − 2)(x − 3)\nFinal factorization: P(x) = (x − 1)(x − 2)(x − 3)"
       },
       {
         "type": "text",
-        "data": "Worked Example 6 — Multiplication of Polynomials:\nMultiply: (x + 2)(x<sup>2</sup> + 3x + 4)\nStep 1: Distribute each term: x(x<sup>2</sup> + 3x + 4) + 2(x<sup>2</sup> + 3x + 4)\nStep 2: Multiply: x<sup>3</sup> + 3x<sup>2</sup> + 4x + 2x<sup>2</sup> + 6x + 8\nStep 3: Combine like terms: x<sup>3</sup> + 5x<sup>2</sup> + 10x + 8\nFinal Answer: x<sup>3</sup> + 5x<sup>2</sup> + 10x + 8"
+        "data": "3. Determine if (x + 2) is a factor of P(x) = 2x<sup>3</sup> + 3x<sup>2</sup> − 5x − 6\nSolution:\nP(−2) = 2(−2)<sup>3</sup> + 3(−2)<sup>2</sup> − 5(−2) − 6 = −16 + 12 + 10 − 6 = 0 → Yes, (x + 2) is a factor"
       },
       {
         "type": "text",
-        "data": "Worked Example 7 — Division of Polynomials:\nDivide: (6x<sup>3</sup> + 11x<sup>2</sup> + 4x) ÷ (2x)\nStep 1: Divide each term by 2x: (6x<sup>3</sup> ÷ 2x) + (11x<sup>2</sup> ÷ 2x) + (4x ÷ 2x)\nStep 2: Simplify: 3x<sup>2</sup> + 11/2 x + 2\nFinal Answer: 3x<sup>2</sup> + 11/2 x + 2"
+        "data": "4. Divide P(x) = 3x<sup>4</sup> − 5x<sup>3</sup> + 2x<sup>2</sup> − x + 7 by (x − 1) using long division.\nSolution:\nStep 1: 3x<sup>4</sup> ÷ x = 3x<sup>3</sup>\nMultiply divisor: 3x<sup>3</sup>(x − 1) = 3x<sup>4</sup> − 3x<sup>3</sup>\nSubtract: (−5x<sup>3</sup> − (−3x<sup>3</sup>) = −2x<sup>3</sup>\nBring down 2x<sup>2</sup>: −2x<sup>3</sup> + 2x<sup>2</sup>\nDivide: −2x<sup>3</sup>/x = −2x<sup>2</sup>\nMultiply: −2x<sup>2</sup>(x − 1) = −2x<sup>3</sup> + 2x<sup>2</sup>\nSubtract: 0 → Bring down −x → −x ÷ x = −1\nMultiply: −1(x − 1) = −x + 1\nSubtract: 7 − 1 = 6\nQuotient: 3x<sup>3</sup> − 2x<sup>2</sup> − 1, Remainder = 6"
       },
       {
         "type": "text",
-        "data": "Applications:\n• Solving polynomial equations\n• Simplifying algebraic expressions in physics and chemistry\n• Calculating areas, volumes, and patterns in sequences\n• Useful in engineering, economics, and computer algorithms"
-      },
-      {
-        "type": "image",
-        "data": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Polynomial_examples.svg/640px-Polynomial_examples.svg.png"
-      },
-      {
-        "type": "text",
-        "data": "Evaluation Questions:\n1. Factorize: 4x<sup>2</sup> + 8x\n2. Factorize: x<sup>3</sup> + 6x<sup>2</sup> + 11x + 6\n3. Factorize: x<sup>2</sup> + 5x + 6\n4. Factorize: y<sup>2</sup> - 25\n5. Factorize: a<sup>3</sup> - 27\n6. Multiply: (x + 3)(x<sup>2</sup> + 2x + 1)\n7. Multiply: (2x - 1)(x<sup>2</sup> + x + 5)\n8. Divide: (8x<sup>3</sup> + 12x<sup>2</sup> + 4x) ÷ (4x)\n9. Divide: (6x<sup>4</sup> + 9x<sup>3</sup> - 3x<sup>2</sup>) ÷ (3x<sup>2</sup>)\n10. Multiply and simplify: (x - 2)(x + 2)(x + 3)"
+        "data": "<b>Practice Questions:</b>\n1. Find the remainder when P(x) = 4x<sup>3</sup> − 3x<sup>2</sup> + 2x − 5 is divided by (x − 2) [Ans: 11]\n2. Determine if (x − 3) is a factor of P(x) = x<sup>3</sup> − 6x<sup>2</sup> + 11x − 6 [Ans: Yes]\n3. Divide P(x) = x<sup>4</sup> − 2x<sup>3</sup> + 5x<sup>2</sup> − 3x + 7 by (x − 1) [Ans: Quotient = x<sup>3</sup> − x<sup>2</sup> + 4x + 1, Remainder = 8]\n4. Factor completely P(x) = 2x<sup>3</sup> − 5x<sup>2</sup> − 4x + 3 [Ans: (2x + 1)(x − 3)(x + 1)]\n5. If P(x) = 3x<sup>4</sup> − 5x<sup>3</sup> + 2x − 1, find the remainder when divided by (x + 1) [Ans: 1]\n6. Find all linear factors of P(x) = x<sup>3</sup> − 4x<sup>2</sup> − x + 4 [Ans: (x − 4)(x − 1)(x + 1)]\n7. Use remainder theorem to find remainder of P(x) = 5x<sup>4</sup> − 2x<sup>3</sup> + x − 7 divided by (x − 2) [Ans: 29]\n8. Factor completely P(x) = x<sup>3</sup> + 6x<sup>2</sup> − 9x − 54 [Ans: (x + 9)(x − 2)(x + 3)]\n9. Divide P(x) = 2x<sup>4</sup> − 3x<sup>3</sup> + 5x − 6 by (x − 1) using synthetic division [Ans: Quotient = 2x<sup>3</sup> − x<sup>2</sup> − x + 4, Remainder = −2]\n10. If (x − 2) is a factor of P(x) = x<sup>3</sup> + ax<sup>2</sup> − 5x − 14, find a [Ans: a = 3]"
       }
     ]
   }
@@ -2262,777 +2322,2081 @@ window.studyData = {
   
 "Biology": [
   
-  //introduction to biology
+  //biology as a science
   
   {
-    topic: "Introduction to Biology",
-    notes: {
-      title: "Biology — Meaning, Branches, and Importance",
-      content: [
-        { 
-          type: "text", 
-          data: "<b>Definition</b>\nBiology is the branch of science that deals with the study of living organisms and their interactions with one another and their environment. The term 'biology' comes from two Greek words: 'bios' (life) and 'logos' (study). Biology helps us understand how living things function, reproduce, and adapt to their surroundings." 
-        },
-        { 
-          type: "text", 
-          data: "<b>Branches of Biology</b>\n1. Botany – study of plants.\n2. Zoology – study of animals.\n3. Microbiology – study of microscopic organisms.\n4. Genetics – study of heredity and variation.\n5. Ecology – study of relationships between organisms and their environment.\n6. Anatomy – study of the structure of organisms.\n7. Physiology – study of how living systems function." 
-        },
-        { 
-          type: "text", 
-          data: "<b>Importance of Biology</b>\n• Helps in understanding diseases and developing medicines.\n• Contributes to agriculture through crop improvement and pest control.\n• Promotes environmental conservation and biodiversity protection.\n• Provides knowledge for biotechnology, genetic engineering, and food science.\n• Helps in solving global problems such as hunger, pollution, and health crises." 
-        },
-        {
-          type: "text",
-          data:"<b>Evaluation</b>\n1. Define Biology in at least two ways. \n2. Discuss 3 ways biology has made human life easier.\n3. State and explain any 4 branches of biology."
-        }
-      ]
-    }
-  },
-  
+  "topic": "Biology as a Science",
+  "notes": {
+    "title": "Biology — Meaning, Branches, Importance, Scientific Methods, and Careers",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Biology</b>\n\nBiology is the branch of science that deals with the study of living organisms. It involves the study of plants, animals, microorganisms, and all forms of life, as well as their structure, functions, growth, origin, evolution, distribution, and interaction with their environment.\n\nThe word 'Biology' is derived from two Greek words: <i>bios</i> meaning life, and <i>logos</i> meaning study or knowledge. Therefore, biology literally means the study of life.\n\nBiology seeks to answer fundamental questions such as: What makes something alive? How do living organisms function? How do organisms reproduce? How do they adapt to their environment? And how are all living things related?\n\nFor JAMB candidates, biology forms the foundation for understanding health, agriculture, environmental issues, and modern medical and technological advancements."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Living and Non-Living Things</b>\n\nLiving things are organisms that possess life and show certain characteristics such as nutrition, respiration, growth, movement, sensitivity, excretion, and reproduction.\n\nExamples of living things include plants, animals, fungi, bacteria, and protozoa.\n\nNon-living things do not possess life and do not carry out life processes. Examples include rocks, water, air, soil, books, and machines.\n\nSome non-living things may show one or two life-like characteristics (e.g., fire grows and moves), but they do not possess all the characteristics of living things and are therefore not alive.\n\nJAMB frequently tests the ability of students to distinguish clearly between living and non-living things based on their characteristics."
+      },
+      {
+        "type": "text",
+        "data": "<b>Branches of Biology</b>\n\nBiology is a broad field and is divided into several branches for easier study:\n\n1. Botany – Study of plants, including their structure, nutrition, reproduction, and classification.\n2. Zoology – Study of animals and animal life.\n3. Microbiology – Study of microscopic organisms such as bacteria, viruses, fungi, and protozoa.\n4. Ecology – Study of organisms in relation to their environment.\n5. Genetics – Study of heredity and variation in organisms.\n6. Anatomy – Study of the internal structure of organisms.\n7. Physiology – Study of the functions of body parts and organs.\n8. Cytology – Study of cells.\n9. Histology – Study of tissues.\n10. Taxonomy – Classification and naming of organisms.\n11. Embryology – Study of development of organisms from fertilization to birth.\n12. Evolutionary Biology – Study of origin and evolution of life forms.\n\nUnderstanding these branches helps JAMB candidates relate biology concepts to real-life applications and career paths."
+      },
+      {
+        "type": "image",
+        "data": "./stock-vector-branches-of-biology-mind-map-text-concept-for-presentations-and-reports-2226105055_1.jpg"
+      },
+      {
+        "type": "text",
+        "data": "<b>Biology as a Science Subject</b>\n\nBiology is an experimental science, meaning it relies on systematic observation, experimentation, and logical reasoning to arrive at conclusions.\n\nIt is closely related to other sciences:\n• Chemistry – for understanding biochemical reactions in living organisms.\n• Physics – for understanding movement, energy, and mechanics in organisms.\n• Geography – for studying distribution of organisms.\n\nBiology also serves as a foundation for professional courses such as Medicine, Pharmacy, Nursing, Agriculture, Veterinary Medicine, Biotechnology, and Environmental Science."
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Biology</b>\n\nBiology is important to individuals, society, and national development in many ways:\n\n• Medicine and Health: Biology helps in understanding diseases, their causes, prevention, and treatment.\n• Agriculture: Improves crop yield and animal production through better breeding, pest control, and soil management.\n• Environmental Conservation: Helps protect ecosystems and manage natural resources sustainably.\n• Biotechnology: Supports genetic engineering, cloning, and vaccine development.\n• Public Health: Helps control epidemics and promote sanitation and hygiene.\n• Education and Research: Advances scientific knowledge and innovation.\n• Daily Life: Explains processes like digestion, breathing, growth, and reproduction.\n\nJAMB often sets questions on the relevance of biology to human welfare."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scientific Methods Used in Biology</b>\n\nBiologists use scientific methods to study living organisms. These include:\n\n1. Observation – Careful watching of natural events using senses or instruments.\n2. Identification of a Problem – Recognizing a biological question or issue.\n3. Formulation of Hypothesis – Making a testable explanation or prediction.\n4. Experimentation – Carrying out controlled tests to verify the hypothesis.\n5. Data Collection and Analysis – Recording and interpreting results.\n6. Conclusion – Accepting or rejecting the hypothesis based on evidence.\n7. Law or Theory – Formulating general principles if results are consistent.\n\nUnderstanding these steps helps students answer JAMB questions on experimental biology."
+      },
+      {
+        "type": "text",
+        "data": "<b>Careers Related to Biology</b>\n\nBiology provides career opportunities in many fields:\n\n1. Medicine and Surgery\n2. Nursing and Midwifery\n3. Pharmacy\n4. Veterinary Medicine\n5. Agriculture and Agronomy\n6. Environmental Science\n7. Biotechnology\n8. Microbiology\n9. Teaching and Research\n10. Public Health\n11. Forestry and Wildlife Management\n12. Food Science and Nutrition\n\nA good foundation in biology is essential for success in these careers."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define biology and explain its scope.\n2. Differentiate between living and non-living things with examples.\n3. List and explain six branches of biology.\n4. State five importance of biology to human life.\n5. Explain the scientific methods used in biology.\n6. Mention five careers that require biology and explain any two.\n7. Why is biology considered an experimental science?\n8. Explain the relationship between biology and other sciences.\n9. Discuss the role of biology in agriculture and medicine.\n10. State reasons why biology is important for national development."
+      }
+    ]
+  }
+}, 
+
   //characteristics of living things
-  
-  {
-    topic: "Characteristics of Living Things",
-    notes: {
-      title: "Characteristics of Living Organisms — What Makes Something Alive?",
-      content: [
-        { 
-          type: "text", 
-          data: "Living things possess certain characteristics that distinguish them from non-living things. These characteristics are often summarized by the acronym **MRS GREN** (Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition)." 
-        },
-        { 
-          type: "text", 
-          data: "1. Movement — the ability of an organism to change position or move parts of its body. Plants show slow movement like bending toward light, while animals move freely in search of food or safety." 
-        },
-        { 
-          type: "text", 
-          data: "2. Respiration — the process by which organisms break down food to release energy for activities. It can be aerobic (using oxygen) or anaerobic (without oxygen)." 
-        },
-        { 
-          type: "text", 
-          data: "3. Sensitivity (Irritability) — the ability to detect and respond to changes in the environment (stimuli). For example, humans react to touch and temperature; plants respond to light and gravity." 
-        },
-        { 
-          type: "text", 
-          data: "4. Growth — an irreversible increase in size and mass resulting from cell division and enlargement." 
-        },
-        { 
-          type: "text", 
-          data: "5. Reproduction — the ability to produce offspring, ensuring the survival of a species. It can be sexual or asexual." 
-        },
-        { 
-          type: "text", 
-          data: "6. Excretion — removal of metabolic waste products from the body, such as carbon dioxide, urea, and excess water." 
-        },
-        { 
-          type: "text", 
-          data: "7. Nutrition — the process by which organisms obtain food for energy and growth. Plants make their food through photosynthesis (autotrophic nutrition), while animals feed on other organisms (heterotrophic nutrition)." 
-        },
-        { 
-          type: "image", 
-          data: "./images.png" 
-        }
-      ]
-    }
-  },
-  
-  //the cell as a living unit
 
   {
-    topic: "Cell as a Living Unit",
-    notes: {
-      title: "The Cell — Structure, Functions, and Types",
-      content: [
-        { 
-          type: "text", 
-          data: "<b>Definition of cell</b>\nThe cell is the basic structural, functional, and biological unit of life. All living organisms are made up of cells — some are unicellular (single-celled), while others are multicellular (many-celled)." 
-        },
+    "topic": "Characteristics of Living Things",
+    "notes": {
+      "title": "Characteristics of Living Things — Meaning, Explanation, Examples, and Exceptions",
+      "content": [
         {
-          type: "image",
-          data: "./images (40).jpeg"
-        },
-        {
-          type: "image",
-          data: "./images (41).jpeg"
-        },
-        { 
-          type: "text", 
-          data: "<b>The Cell Theory states that</b>\n1. All living things are made up of cells.\n2. The cell is the basic unit of structure and function in living things.\n3. All cells arise from pre-existing cells (proposed by Rudolf Virchow)." 
-        },
-        { 
-          type: "text", 
-          data: "<b>Cell Structure</b>\nA typical cell consists of:\n• Cell membrane – controls the movement of substances in and out.\n• Cytoplasm – jelly-like substance where metabolic reactions occur.\n• Nucleus – controls cell activities and contains DNA.\n• Mitochondria – site of respirion and energy production.• Ribosomes – site of protein synthesis.\n• Endoplasmic Reticulum (ER) – transports maals within the cell.\n• Golgi Body – modifies and packages proteins.\n• Vacuole – stores food and water (large in plant cells).\n• Cell wall – provides support and protection (only in plants)." 
-        },
-        { 
-          type: "text", 
-          data: "Types of Cells:\n• Plant Cells – have a cell wall, large vacuole, and chloroplasts for photosynthesis.\n• Animal Cells – lack a cell wall and chloroplasts, usually have small vacuoles." 
-        },
-        { 
-          type: "text", 
-          data: "Microscopes are used to view cells. The light microscope uses lenses and light, while the electron microscope provides higher magnification and resolution using electron beams." 
-        },
-        { 
-          type: "image", 
-          data: "./images (42).jpeg" 
+          "type": "text",
+          "data": "<b>Meaning of Living Things</b>\n\nLiving things are organisms that possess life and are capable of carrying out certain vital activities known as life processes. These processes distinguish living things from non-living things.\n\nAll living organisms, whether plants, animals, or microorganisms, exhibit a set of common features called the characteristics of living things. These characteristics are used in biology to identify, classify, and study organisms.\n\nIn JAMB Biology, questions are frequently asked on these characteristics, their explanations, and how they help to differentiate living things from non-living things."
         },
         
-        //cell organization 
         
         {
-  type: "text",
-  data: "<b>Cell organization</b>\nIn multicellular organisms, cells are organized into higher levels of structure to perform specific functions efficiently. This hierarchy of organization ensures coordination and survival."
+          "type": "text",
+          "data": "<b>Movement</b>\n\nMovement is the ability of a living organism or part of it to change position or location.\n\n• Animals move from place to place using limbs, fins, wings, or body muscles.\n• Plants show movement through growth responses such as bending towards light (phototropism) or roots growing downward (geotropism).\n\nMovement in plants is usually slow and not easily noticeable, but it is still present.\n\nJAMB often tests the understanding that movement does not always mean locomotion."
+        },
+        
+        {
+          "type": "text",
+          "data": "<b>Respiration</b>\n\nRespiration is the process by which living organisms release energy from food.\n\nThere are two main types:\n• Aerobic respiration – uses oxygen to release energy.\n• Anaerobic respiration – occurs without oxygen.\n\nRespiration is essential because the energy released is used for growth, movement, repair, reproduction, and other life activities.\n\nRespiration should not be confused with breathing. Breathing is only the intake and release of air, while respiration is a chemical process occurring in cells."
+        },
+        {
+          "type": "text",
+          "data": "<b>Nutrition</b>\n\nNutrition is the process by which living organisms obtain and utilize food for energy, growth, and repair.\n\n• Green plants manufacture their own food through photosynthesis (autotrophic nutrition).\n• Animals and some plants depend on other organisms for food (heterotrophic nutrition).\n\nFood supplies organisms with energy and materials needed for growth and maintenance.\n\nJAMB frequently asks questions on types of nutrition and examples of organisms that exhibit each type."
+        },
+        {
+          "type": "image",
+          "data": "./images.png"
+        },
+        {
+          "type": "text",
+          "data": "<b>Irritability (Sensitivity)</b>\n\nIrritability, also known as sensitivity, is the ability of living organisms to detect and respond to stimuli in their environment.\n\nStimuli may include light, heat, sound, chemicals, touch, and gravity.\n\n• Animals respond quickly using sense organs and the nervous system.\n• Plants respond slowly through growth movements.\n\nExamples:\n• A human withdrawing their hand from a hot object.\n• Leaves of Mimosa pudica folding when touched.\n\nSensitivity helps organisms survive by enabling them to avoid danger and adapt to their environment."
+        },
+        {
+          "type": "text",
+          "data": "<b>Growth</b>\n\nGrowth is a permanent increase in size, mass, or number of cells in a living organism.\n\nGrowth in living things occurs through cell division and cell enlargement.\n\n• In plants, growth continues throughout life.\n• In animals, growth usually stops at maturity.\n\nGrowth is irreversible and differentiates living things from non-living things, which may increase in size by external addition but do not truly grow."
+        },
+        {
+          "type": "text",
+          "data": "<b>Excretion</b>\n\nExcretion is the process by which living organisms remove waste products of metabolism from their bodies.\n\nMetabolic wastes include carbon dioxide, urea, excess water, and salts.\n\nIf wastes are not removed, they can become harmful to the organism.\n\nExamples:\n• Humans excrete urea through the kidneys.\n• Plants excrete oxygen and carbon dioxide through stomata.\n\nJAMB often distinguishes excretion from egestion, which is the removal of undigested food."
+        },
+        {
+          "type": "text",
+          "data": "<b>Reproduction</b>\n\nReproduction is the ability of living organisms to produce new individuals of the same species.\n\nThere are two main types:\n• Sexual reproduction – involves two parents and gametes.\n• Asexual reproduction – involves one parent.\n\nReproduction ensures continuity of life and survival of species.\n\nAn individual organism may not reproduce (e.g., mule), but the species as a whole must be capable of reproduction."
+        },
+        
+        {
+          "type": "text",
+          "data": "<b>Death</b>\n\nDeath is the permanent cessation of all life processes in an organism.\n\nAll living organisms eventually die, which helps maintain balance in nature by preventing overpopulation and allowing recycling of nutrients.\n\nDeath confirms that living things have a definite life span, unlike non-living things."
+        },
+        {
+          "type": "text",
+          "data": "<b>Exceptions and Special Cases</b>\n\nSome non-living things may exhibit one or two characteristics of living things but are not alive.\n\nExamples:\n• Fire grows and moves but does not respire or reproduce.\n• Crystals increase in size but do so by external addition.\n• Viruses show characteristics of both living and non-living things and are considered borderline organisms.\n\nJAMB often tests these exceptions to assess deep understanding."
+        },
+        {
+          "type": "text",
+          "data": "<b>Importance of the Characteristics of Living Things</b>\n\n• Helps to distinguish living things from non-living things.\n• Aids in classification of organisms.\n• Enhances understanding of life processes.\n• Forms the foundation for advanced biological studies.\n• Frequently tested in JAMB examinations."
+        },
+        {
+          "type": "text",
+          "data": "<b>Evaluation Questions</b>\n1. Define living things.\n2. List the characteristics of living things.\n3. Explain respiration and differentiate it from breathing.\n4. Describe nutrition in plants and animals.\n5. Explain irritability with two examples.\n6. Differentiate between growth in plants and animals.\n7. Explain excretion and state two excretory products in humans.\n8. Why is reproduction important to living organisms?\n9. Explain why fire is not regarded as a living thing.\n10. Discuss viruses as borderline organisms."
+        }
+      ]
+    }
+  },
+
+  //cell structure and functions 
+  
+  {
+    "topic": "Cell Structure and Functions",
+    "notes": {
+      "title": "Cell — Meaning, Types, Structure, Cell Organelles, and Functions",
+      "content": [
+        {
+          "type": "text",
+          "data": "<b>Meaning of Cell</b>\n\nA cell is the smallest structural and functional unit of a living organism capable of carrying out all life processes. Cells are the basic building blocks of all living things.\n\nThe study of cells is known as <i>cytology</i>. Cells may exist independently as single-celled organisms or work together in multicellular organisms to perform specialized functions.\n\nIn JAMB Biology, a strong understanding of cell structure and functions is essential because many questions are directly drawn from this topic."
+        },
+        {
+          "type": "text",
+          "data": "<b>Cell Theory</b>\n\nThe cell theory explains the basic principles about cells and living organisms. It states that:\n\n1. All living organisms are made up of one or more cells.\n2. The cell is the basic unit of structure and function in living organisms.\n3. All cells arise from pre-existing cells.\n\nThis theory emphasizes the importance of cells in biology and explains growth, reproduction, and development in living organisms."
+        },
+        {
+          "type": "text",
+          "data": "<b>Types of Cells</b>\n\nCells can be classified based on their structure and level of organization:\n\n1. <b>Unicellular organisms</b> – Made up of a single cell that carries out all life processes (e.g. Amoeba, Paramecium, Euglena).\n2. <b>Multicellular organisms</b> – Made up of many cells that perform specialized functions (e.g. plants and animals).\n\nCells can also be grouped as:\n• Plant cells\n• Animal cells\n\nAlthough plant and animal cells share similarities, they also have important differences which are commonly tested in JAMB."
+        },
+        {
+          "type": "image",
+          "data": "./images (79).jpeg"
+        },
+        {
+          "type": "text",
+          "data": "<b>Structure of Plant and Animal Cells</b>\n\nBoth plant and animal cells consist of a cell membrane, cytoplasm, and nucleus. However, plant cells possess additional structures such as cell wall, chloroplasts, and a large vacuole.\n\nAnimal cells lack a cell wall and chloroplasts but may contain centrioles.\n\nUnderstanding these similarities and differences is very important for JAMB multiple-choice questions."
+        },
+        {
+          "type": "image",
+          "data": "./images (40).jpeg"
+        },
+        {
+          "type": "image",
+          "data": "./images (41).jpeg"
+        },
+        {
+          "type": "text",
+          "data": "<b>Cell Organelles and Their Functions</b>\n\n<b>Cell Wall</b>\n• Found only in plant cells.\n• Made of cellulose.\n• Provides support, protection, and maintains cell shape.\n\n<b>Cell Membrane (Plasma Membrane)</b>\n• Found in all cells.\n• Semi-permeable.\n• Controls movement of substances into and out of the cell.\n\n<b>Cytoplasm</b>\n• Jelly-like substance containing organelles.\n• Site of most metabolic reactions.\n\n<b>Nucleus</b>\n• Controls all cell activities.\n• Contains genetic material (DNA).\n• Responsible for cell division and inheritance.\n\n<b>Mitochondria</b>\n• Site of cellular respiration.\n• Produces energy (ATP).\n• Known as the powerhouse of the cell.\n\n<b>Ribosomes</b>\n• Site of protein synthesis.\n• Found freely in cytoplasm or attached to endoplasmic reticulum.\n\n<b>Endoplasmic Reticulum (ER)</b>\n• Rough ER – has ribosomes and synthesizes proteins.\n• Smooth ER – synthesizes lipids and aids detoxification.\n\n<b>Golgi Apparatus</b>\n• Modifies, packages, and transports proteins.\n\n<b>Lysosomes</b>\n• Contain digestive enzymes.\n• Responsible for intracellular digestion.\n• Known as suicide bags of the cell.\n\n<b>Vacuole</b>\n• Stores food, water, and waste materials.\n• Large and permanent in plant cells.\n\n<b>Chloroplast</b>\n• Found in green plant cells.\n• Contains chlorophyll.\n• Site of photosynthesis.\n\n<b>Centrioles</b>\n• Found in animal cells.\n• Involved in cell division."
+        },
+        {
+          "type": "text",
+          "data": "<b>Differences Between Plant and Animal Cells</b>\n\nPlant Cells:\n• Have cell wall\n• Have chloroplasts\n• Large central vacuole\n• Usually rectangular\n\nAnimal Cells:\n• No cell wall\n• No chloroplasts\n• Small or temporary vacuoles\n• Usually irregular or round\n\nThese differences are frequently tested in JAMB objective questions."
+        },
+        
+        {
+  "type": "text",
+  "data": "<b>Transport of Materials in Cells</b>\n\nCells exchange materials with their environment through the selectively permeable cell membrane.\n\n• <b>Diffusion</b> – Movement of substances from a region of higher concentration to a region of lower concentration without energy.\n• <b>Osmosis</b> – Movement of water through a semi-permeable membrane from a dilute solution to a concentrated solution.\n• <b>Active transport</b> – Movement of substances against their concentration gradient using energy (ATP).\n\nThese processes are essential for nutrition, respiration, and excretion."
 },
 {
-  type: "text",
-  data: "<b>Levels of Organization</b>\n1. Cell – the basic unit of life (e.g., red blood cell, nerve cell).\n2. Tissue – a group of similar cells performing a common function (e.g., muscle tissue, xylem tissue).\n3. Organ – made up of different tissues working together (e.g., heart, leaf, kidney).\n4. System – a group of organs performing related functions (e.g., circulatory system, digestive system).\n5. Organism – a complete living being capable of independent existence."
+  "type": "text",
+  "data": "<b>Forms in Which Cells Exist</b>\n\nCells exist in different forms depending on the organism and its level of organization.\n\n• <b>independent or free living</b> – Organisms made up of a single cell that carries out all life activities (e.g. Amoeba, Paramecium, Euglena).\n\n• <b>As colony</b> – Groups of similar cells living together but not fully specialized (e.g. Volvox).\n\n• <b>Multicellular organisms</b> – Organisms made up of many cells with specialized functions organized into tissues and organs (e.g. humans, flowering plants).\n\n• <b>As filament</b> – Cells arranged end to end to form long threads (e.g. Spirogyra).\n\nEach form of cellular organization allows organisms to adapt to their environment and perform life processes efficiently."
 },
 {
   type: "image",
-  data: "./images (39).jpeg"
+  data: "./Structure of Spirogyra with its Labels.webp"
 },
-{
-  type: "text",
-  data:"<b>Forms in which cell exists</b>\n1. Independent or free living e.g. Amoeba, Paramecium, plasmodium\n2. As colony e.g. Volvox, pandorina, endorina\n3. As filament e.g. Spyrogyra"
-},
-{
-  type: "text",
-  data: "Examples:\n• In plants: root cells form root tissue, tissues form the root organ, and together with the stem and leaves form the shoot system.\n• In animals: muscle cells form muscle tissue, which combines with bones to form organs like limbs, and systems like the skeletal or muscular system."
-},
-{
-  type: "text",
-  data: "Specialization (cell differentiation) occurs when cells develop structures suited to their specific functions. For instance, nerve cells transmit impulses, while xylem cells conduct water in plants."
-}
+        {
+          "type": "text",
+          "data": "<b>Importance of Cells</b>\n\n• Cells form the structural basis of living organisms.\n• They carry out all life processes.\n• Cell specialization allows division of labour.\n• Understanding cells helps explain growth, reproduction, and inheritance.\n• Cells are central to medical and biological research."
+        },
+        {
+          "type": "text",
+          "data": "<b>Evaluation Questions</b>\n1. Define a cell.\n2. State the cell theory.\n3. Differentiate between unicellular and multicellular organisms.\n4. Describe the structure of a plant cell.\n5. State five differences between plant and animal cells.\n6. Explain the functions of the nucleus and mitochondria.\n7. Why are ribosomes important to the cell?\n8. Explain diffusion and osmosis.\n9. Describe the role of the cell membrane.\n10. Why is the cell regarded as the basic unit of life?"
+        }
       ]
     }
   },
+
+  //level of organization 
   
+  {
+    "topic": "Levels of Organization of Life",
+    "notes": {
+      "title": "Levels of Organization — Cell, Tissue, Organ, System, and Organism",
+      "content": [
+        {
+          "type": "text",
+          "data": "<b>Meaning of Levels of Organization</b>\n\nLevels of organization refer to the hierarchical arrangement of living structures in organisms, from the simplest to the most complex. This organization allows living things to carry out life processes efficiently through division of labour.\n\nIn biology, especially in JAMB examinations, understanding levels of organization helps explain how simple cells form complex organisms."
+        },
+        {
+          "type": "image",
+          "data": "./9180-bd8f51db34f0870a30e40ae664de6346.jpg"
+        },
+        {
+          "type": "text",
+          "data": "<b>The Cell Level</b>\n\nThe cell is the smallest unit of life capable of performing all vital functions. In unicellular organisms, a single cell performs all life activities such as movement, nutrition, respiration, and reproduction.\n\nExamples:\n• Amoeba\n• Paramecium\n• Euglena\n\nIn multicellular organisms, cells are specialized to perform specific functions, leading to greater efficiency."
+        },
+        {
+          "type": "text",
+          "data": "<b>The Tissue Level</b>\n\nA tissue is a group of similar cells that work together to perform a specific function.\n\n<b>Animal Tissues</b>:\n1. Epithelial tissue – Covers body surfaces and lines organs.\n2. Muscle tissue – Responsible for movement.\n3. Nervous tissue – Transmits impulses.\n4. Connective tissue – Supports and binds other tissues."
+        },
+        {
+          "type": "image",
+          "data": "./images (81).jpeg"
+        },
+        {
+          type: "text",
+          data: ""
+        },
+        {
+          "type": "text",
+          "data": "<b>The Organ Level</b>\n\nAn organ is a structure made up of different tissues working together to perform a specific function.\n\nExamples in animals:\n• Heart – pumping blood\n• Lungs – gaseous exchange\n• Kidney – excretion\n\nExamples in plants:\n• Leaf – photosynthesis\n• Root – absorption\n• Stem – support and transport\n\nOrgans allow more complex functions to be carried out efficiently."
+        },
+        {
+          "type": "text",
+          "data": "<b>The System Level</b>\n\nA system consists of several organs working together to perform major life functions.\n\nExamples of systems in animals:\n• Digestive system\n• Circulatory system\n• Respiratory system\n• Nervous system\n• Excretory system\n• Reproductive system\n\nPlants also have systems such as the root system and shoot system.\n\nSystem-level organization enables complex organisms to function effectively."
+        },
+        {
+          "type": "text",
+          "data": "<b>The Organism Level</b>\n\nAn organism is a complete living individual capable of carrying out all life processes independently.\n\nExamples:\n• A human being\n• A dog\n• A maize plant\n\nAt this level, all systems work together harmoniously to sustain life."
+        },
+        {
+          "type": "text",
+          "data": "<b>Advantages of Increasing Complexity</b>\n\n• Division of labour improves efficiency.\n• Specialized cells perform specific functions better.\n• Large organisms can survive in diverse environments.\n• Damage to one part does not necessarily result in death of the organism.\n\nThese advantages explain why multicellular organisms are generally more advanced than unicellular ones."
+        },
+        {
+          "type": "text",
+          "data": "<b>Comparison Between Unicellular and Multicellular Organisms</b>\n\nUnicellular Organisms:\n• One cell performs all functions\n• No tissue or organ level\n• Simple structure\n\nMulticellular Organisms:\n• Many specialized cells\n• Have tissues, organs, and systems\n• Complex structure\n\nJAMB frequently tests this comparison."
+        },
+        {
+          "type": "text",
+          "data": "<b>Importance of Levels of Organization</b>\n\n• Explains the complexity of living organisms.\n• Helps understand structure and function in biology.\n• Forms the basis for anatomy and physiology.\n• Important for medical and biological studies.\n• Frequently tested in JAMB Biology."
+        },
+        {
+          "type": "text",
+          "data": "<b>Evaluation Questions</b>\n1. Define levels of organization.\n2. List the levels of organization in living organisms.\n3. Define a tissue and give two examples in animals.\n4. State three differences between unicellular and multicellular organisms.\n5. Explain the organ level of organization with examples.\n6. What is a system? Give three examples.\n7. Explain why multicellular organisms are more complex.\n8. Describe the levels of organization in plants.\n9. State two advantages of division of labour.\n10. Explain the importance of levels of organization in biology."
+        }
+      ]
+    }
+  },
+
   //classification of living things
   
-  {  
-  topic: "Classification of Living Things",  
-  notes: {  
-    title: "Classification of Living Things.",  
-    content: [  
-      {  
-        type: "text",  
-        data: "<b>Definition</b>\nClassification is the systematic arrangement of living organisms into groups based on similarities and differences. It helps scientists to identify, name, and study organisms effectively."  
-      },  
-      {  
-        type: "text",  
-        data: "Early classification was done by Aristotle who grouped organisms into plants and animals. The modern system of classification was proposed by Carl Linnaeus, who introduced the binomial nomenclature system (Genus + Species)."  
-      },  
-      {  
-        type: "text",  
-        data: "<b>The Five Kingdom System includes</b>\n1. Monera – unicellular organisms without a true nucleus (e.g., bacteria).\n2. Protista – mostly unicellular organisms with a true nucleus (e.g., amoeba, euglena).\n3. Fungi – multicellular decomposers that feed on dead matter (e.g., mushroom, mould).\n4. Plantae – multicellular, photosynthetic organisms (e.g., maize, fern).\n5. Animalia – multicellular heterotrophs that move and respond to stimuli (e.g., man, fish, insects)."  
+  {
+  "topic": "Classification of Living Organisms",
+  "notes": {
+    "title": "Classification of Living Organisms — Meaning, Basis, Kingdoms, and Examples",
+    "content": [
+      {
+  "type": "text",
+  "data": "<b>Meaning of Classification</b>\n\nClassification is the scientific and systematic arrangement of living organisms into groups based on their similarities and differences in structure, function, and evolutionary relationships. It makes the study of the great diversity of organisms easier, orderly, and meaningful.\n\nThe Swedish scientist <b>Carl Linnaeus</b> is regarded as the father of classification. He introduced the system of naming organisms using two names known as binomial nomenclature.\n\nOther notable scientists who contributed to classification include <b>Aristotle</b>, who grouped organisms based on habitat, and <b>Ernst Haeckel</b>, who proposed the three-kingdom system. <b>R.H. Whittaker</b> later introduced the five-kingdom classification system commonly taught in biology.\n\nBecause millions of organisms exist on Earth, classification helps biologists to identify organisms, study them systematically, and understand relationships among them without confusion. In JAMB Biology, classification is a frequently tested topic."
+},
+      
+      {
+        "type": "text",
+        "data": "<b>Importance of Classification</b>\n\n• Makes identification of organisms easy.\n• Shows relationships among organisms.\n• Helps predict characteristics of organisms.\n• Facilitates effective communication among scientists.\n• Prevents confusion caused by common names.\n• Helps in the study of evolution.\n\nUnderstanding the importance of classification helps students answer theory-based JAMB questions."
       },
-       {
-          type: "image",
-          data: "./images (43).jpeg"
-        },
-      {  
-        type: "text",  
-        data: "Each kingdom is further divided into smaller groups: Phylum → Class → Order → Family → Genus → Species."  
+      {
+        "type": "text",
+        "data": "<b>Basis of Classification</b>\n\nLiving organisms are classified based on several criteria:\n\n• Cell structure (prokaryotic or eukaryotic)\n• Level of organization (unicellular or multicellular)\n• Mode of nutrition (autotrophic or heterotrophic)\n• Presence or absence of cell wall\n• Body symmetry\n• Mode of reproduction\n• Evolutionary relationship\n\nJAMB often tests classification based on nutrition, cell type, and complexity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Taxonomic Hierarchy</b>\n\nThe taxonomic hierarchy shows levels of classification from the largest group to the smallest:\n\nKingdom → Phylum (Division in plants) → Class → Order → Family → Genus → Species\n\nThe species is the smallest unit of classification and consists of organisms that can interbreed to produce fertile offspring."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Five-Kingdom Classification System</b>\n\nModern classification divides living organisms into five kingdoms:\n\n1. Monera\n2. Protista\n3. Fungi\n4. Plantae\n5. Animalia\n\nEach kingdom has unique characteristics which are commonly tested in JAMB Biology."
+      },
+      {
+  "type": "text",
+  "data": "<b>Kingdom Monera</b>\n\nKingdom Monera consists of the simplest and most primitive living organisms. Members of this kingdom are microscopic and lack a true nucleus.\n\n<b>General Characteristics of Monerans</b>\n• Unicellular organisms.\n• Prokaryotic cells (no true nucleus; nuclear material not enclosed by membrane).\n• Lack membrane-bound organelles such as mitochondria and chloroplasts.\n• Cell wall usually present and made of peptidoglycan.\n• Reproduce mainly by asexual means, especially binary fission.\n• Can be autotrophic or heterotrophic.\n\n<b>Sub-divisions of Kingdom Monera</b>\n\n1. <b>Schizophyta</b>\n• Includes true bacteria.\n• Mostly heterotrophic, though some are autotrophic.\n• Can be parasitic, saprophytic, or symbiotic.\n• Found in soil, water, air, and inside living organisms.\n• Examples include bacteria: Escherichia coli, Vibrio cholerae, Salmonella.\n\n2. <b>Cyanophyta</b>\n• Commonly known as blue-green algae (cyanobacteria).\n• Autotrophic and photosynthetic.\n• Contain chlorophyll but lack chloroplasts.\n• Often found in water bodies and moist soils.\n• Some species can fix atmospheric nitrogen.\n• Examples: Nostoc, Anabaena, Oscillatoria.\n\n<b>Importance of Kingdom Monera</b>\n• Some cause diseases in plants, animals, and humans.\n• Some are useful in decomposition of organic matter.\n• Certain cyanobacteria help in nitrogen fixation.\n• Used in industrial processes such as fermentation and biotechnology."
+},
+{
+  type: "image",
+  data: "./360_F_465361076_FNJQDqyva55vVwQE9RTPWtkJbHzdYo7F.jpg"
+},
+{
+   type: "text",
+   data: "<i>Below is the structure and anatomy of the blue-green algae</i>"
+   
+},
+{
+  type: "image",
+  data: "./ee9d071c38f6827f38c708e3f92b8b28.jpg"
+},
+      {
+  "type": "text",
+  "data": "<b>Kingdom Protista</b>\n\nKingdom Protista consists of simple eukaryotic organisms that are mostly unicellular and lack complex tissue organization. They represent a link between plants, animals, and fungi.\n\n<b>General Characteristics of Protists</b>\n• Mostly unicellular, though some are colonial or simple multicellular forms.\n• Eukaryotic cells with a true nucleus and membrane-bound organelles.\n• Mostly aquatic or found in moist environments.\n• Some are autotrophic (photosynthetic), others are heterotrophic, while some show both modes of nutrition.\n• Reproduce mainly asexually, though sexual reproduction occurs in some forms.\n• Movement in many protists is by pseudopodia, cilia, or flagella.\n\n<b>Major Groups of Protists</b>\n• <b>Animal-like protists (Protozoa)</b> – heterotrophic and motile (e.g. Amoeba, Paramecium).\n• <b>Plant-like protists (Algae)</b> – autotrophic and photosynthetic (e.g. Euglena, Chlamydomonas).\n• <b>Fungus-like protists</b> – saprophytic or parasitic (e.g. slime moulds).\n\n<b>Examples of Protists</b>\n• Amoeba\n• Paramecium\n• Euglena\n• Chlamydomonas\n\nProtists exhibit characteristics of both plants and animals and play important roles in aquatic food chains.\n\n<i>Below are some examples of protists</i>"
+},
+      {
+        "type": "image",
+        "data": "./download.jpeg"
+      },
+      {
+  "type": "text",
+  "data": "<b>Kingdom Fungi</b>\n\nKingdom Fungi consists of non-green, eukaryotic organisms that obtain their food by absorption. They do not possess chlorophyll and therefore cannot photosynthesize.\n\n<b>General Characteristics of Fungi</b>\n• Mostly multicellular, except yeast which is unicellular.\n• Eukaryotic cells with a true nucleus and membrane-bound organelles.\n• Cell wall made of chitin.\n• Heterotrophic in nutrition; mainly saprophytic, parasitic, or symbiotic.\n• Body usually made up of thread-like structures called hyphae which form a network known as mycelium.\n• Reproduce mainly by spores, either asexually or sexually.\n\n<b>Modes of Nutrition in Fungi</b>\n• <b>Saprophytic</b> – feed on dead and decaying organic matter.\n• <b>Parasitic</b> – obtain food from living hosts and often cause diseases.\n• <b>Symbiotic</b> – live in mutual association with other organisms (e.g. lichens and mycorrhiza).\n\n<b>Examples of Fungi</b>\n• Mushroom\n• Rhizopus (bread mould)\n• Yeast\n• Penicillium\n\n<b>Importance of Fungi</b>\n• Decompose dead plants and animals, recycling nutrients.\n• Used in food production such as bread, alcohol, and cheese.\n• Some produce antibiotics (e.g. Penicillin).\n• Some cause diseases in plants and humans.\n\n<i>Labelled diagram of Rhizopus</i>"
+},
+{
+  type: "image",
+  data: "./images (1).png"
+},
+{
+  type: "image",
+  data: "./istockphoto-1204471308-612x612.jpg"
+},
+      {
+  "type": "text",
+  "data": "<b>Kingdom Plantae</b>\n\nKingdom Plantae consists of multicellular, eukaryotic organisms that possess chlorophyll and manufacture their own food through photosynthesis. They are mostly terrestrial and form the base of most food chains."
+},
+{
+  "type": "text",
+  "data": "<b>General Characteristics of Plants</b>\n• Multicellular and eukaryotic organisms.\n• Possess chlorophyll and carry out photosynthesis.\n• Cell wall made of cellulose.\n• Store food mainly as starch.\n• Mostly non-motile.\n• Reproduce sexually and/or asexually.\n• Have specialized tissues and organs such as roots, stems, and leaves."
+},
+{
+  "type": "text",
+  "data": "<b>Major Divisions of Kingdom Plantae</b>\n\nPlants are broadly classified based on the presence of vascular tissues, seeds, and flowers into the following groups:\n\n• Thallophyta\n• Bryophyta\n• Pteridophyta\n• Spermatophyta (Seed-bearing plants)"
+},
+{
+  "type": "text",
+  "data": "<b>Thallophyta (Algae)</b>\n\nThallophyta are simple plants with no true roots, stems, or leaves.\n\n<b>Characteristics</b>\n• Body is a thallus.\n• Mostly aquatic.\n• Contain chlorophyll.\n• Reproduce mainly asexually.\n\n<b>Examples</b>\n• Spirogyra\n• Chlamydomonas\n• Volvox\n\n<i>Labelled diagram of chlamydomonas-A thallophyte</i>"
+},
+{
+  type: "image",
+  data: "./images (2).png"
+},
+{
+  "type": "text",
+  "data": "<b>Bryophyta</b>\n\nBryophytes are small, non-vascular plants commonly found in moist environments and are known as amphibians of the plant kingdom.\n\n<b>Characteristics</b>\n• Lack vascular tissues (xylem and phloem).\n• Possess rhizoids instead of true roots.\n• Require water for fertilization.\n• Reproduce by spores.\n\n<b>Examples</b>\n• Mosses\n• Liverworts"
+},
+{
+  type: "image",
+  data: "./images (82).jpeg"
+},
+{
+  "type": "text",
+  "data": "<b>Pteridophyta</b>\n\nPteridophytes are vascular plants that reproduce by spores and do not produce seeds.\n\n<b>Characteristics</b>\n• Possess true roots, stems, and leaves.\n• Have vascular tissues.\n• Reproduce by spores.\n• Fertilization depends on water.\n\n<b>Examples</b>\n• Ferns\n• Horsetails"
+},
+{
+  "type": "text",
+  "data": "<b>Spermatophyta (Seed-Bearing Plants)</b>\n\nSpermatophytes are advanced plants that reproduce by seeds and have well-developed vascular tissues."
+},
+{
+  "type": "text",
+  "data": "<b>Subdivision of Spermatophyta</b>\n\nSpermatophyta is divided into:\n\n• Gymnosperms\n• Angiosperms"
+},
+{
+  "type": "text",
+  "data": "<b>Gymnosperms</b>\n\nGymnosperms are seed-bearing plants whose seeds are not enclosed in fruits.\n\n<b>Characteristics</b>\n• Seeds are naked.\n• Do not produce flowers or fruits.\n• Mostly evergreen.\n\n<b>Examples</b>\n• Pine\n• Cycas"
+},
+{
+  "type": "text",
+  "data": "<b>Angiosperms</b>\n\nAngiosperms are flowering plants whose seeds are enclosed within fruits.\n\n<b>Characteristics</b>\n• Produce flowers and fruits.\n• Seeds enclosed in ovary.\n• Well-developed vascular system."
+},
+{
+  "type": "text",
+  "data": "<b>Subdivision of Angiosperms</b>\n\nAngiosperms are divided into:\n\n• Monocotyledons\n• Dicotyledons"
+},
+{
+  "type": "text",
+  "data": "<b>Monocotyledons</b>\n\n<b>Characteristics</b>\n• One cotyledon.\n• Parallel venation in leaves.\n• Fibrous root system.\n• Floral parts in multiples of three.\n\n<b>Examples</b>\n• Maize\n• Rice\n• Onion"
+},
+{
+  "type": "text",
+  "data": "<b>Dicotyledons</b>\n\n<b>Characteristics</b>\n• Two cotyledons.\n• Reticulate venation in leaves.\n• Tap root system.\n• Floral parts in multiples of four or five.\n\n<b>Examples</b>\n• Bean\n• Mango\n• Groundnut"
+},
+      
+      {
+        "type": "image",
+        "data": "./images (3).png"
       },
       
-      //classification of plants
-      
-        
-      {  
-        type: "text",  
-        data: "Classification of plants\nPlants are classified based on the presence or absence of vascular tissues, seeds, and flowers. This helps in understanding their evolution and functions."  
-      },  
-      {  
-        type: "text",  
-        data: "Main Groups of Plants:\n1. Thallophyta (Algae) – simple, non-vascular plants found mostly in water (e.g., Spirogyra).\n2. Bryophyta (Mosses and Liverworts) – non-vascular, found in damp places, reproduce by spores.\n3. Pteridophyta (Ferns) – vascular plants that reproduce by spores, have roots, stems, and leaves.\n4. Gymnosperms – vascular plants with naked seeds not enclosed in fruits (e.g., pine, cycas).\n5. Angiosperms – flowering plants with seeds enclosed in fruits (e.g., maize, hibiscus)."  
-      },  
-       {
-          type: "image",
-          data: "./images (44).jpeg"
-        },
-      {  
-        type: "text",  
-        data: "Angiosperms are further divided into:\n• Monocotyledons – one seed leaf, parallel venation (e.g., maize, rice).\n• Dicotyledons – two seed leaves, net-like venation (e.g., beans, hibiscus)."  
-      },
-      
-      //classification of animals 
-      
-        
-      {  
-        type: "text",  
-        data: "Animals are broadly divided into invertebrates (without backbone) and vertebrates (with backbone). Each group has unique characteristics that suit their mode of life."  
-      },
-      {  
-        type: "text",  
-        data: "Major Groups of Invertebrates:\n1. Protozoa – single-celled animals (e.g., Amoeba, Paramecium).\n2. Coelenterata – aquatic animals with tentacles (e.g., Hydra, Jellyfish).\n3. Platyhelminthes – flatworms (e.g., Tapeworm).\n4. Nematoda – roundworms (e.g., Ascaris).\n5. Annelida – segmented worms (e.g., Earthworm).\n6. Arthropoda – jointed-legged animals (e.g., insects, crabs, spiders).\n7. Mollusca – soft-bodied animals (e.g., Snail, Octopus).\n8. Echinodermata – marine animals with spiny skin (e.g., Starfish)."  
-      },
-       {
-          type: "image",
-          data: "./images (45).jpeg"
-       },
-      {  
-        type: "text",  
-        data: "Major Groups of Vertebrates:\n1. Pisces (Fish) – aquatic, breathe with gills.\n2. Amphibia – live on land and water (e.g., Frog).\n3. Reptilia – cold-blooded, scaly skin (e.g., Lizard).\n4. Aves (Birds) – warm-blooded, have feathers (e.g., Hen).\n5. Mammalia – warm-blooded, give birth to young ones (e.g., Man, Goat)."  
-      },
-       {
-          type: "image",
-          data: "./images (47).jpeg"
-        },
-      {  
-        type: "text",  
-        data: "Evaluation:\n1. Explain why classification is necessary in biology.\n2. What are the differences between vertebrates and invertebrates? \n3. State 8 classes of invertebrates. \n4. Make a labelled drawing of an arthropod."  
-      }  
-    ]  
-  }  
+      {
+  "type": "text",
+  "data": "<b>Kingdom Animalia</b>\n\nKingdom Animalia consists of multicellular, eukaryotic organisms that lack cell walls and are heterotrophic. Animals are highly organized, with specialized tissues, organs, and organ systems. They are mostly motile and reproduce sexually."
+},
+{
+  "type": "text",
+  "data": "<b>General Characteristics of Animals</b>\n• Multicellular and eukaryotic.\n• Cells lack cellulose cell wall.\n• Heterotrophic in nutrition.\n• Possess specialized tissues, organs, and organ systems.\n• Usually capable of movement at some stage of life.\n• Mostly reproduce sexually, some reproduce asexually.\n• Store food mainly as glycogen.\n• Exhibit complex sensory and nervous systems."
+},
+{
+  "type": "text",
+  "data": "<b>Major Divisions of Animalia</b>\nAnimals are broadly divided based on the presence or absence of a backbone into:\n\n• Invertebrates – animals without a backbone.\n• Vertebrates – animals with a backbone."
+},
+{
+  "type": "text",
+  "data": "<b>Invertebrates</b>\n\nInvertebrates are animals that lack a backbone. They display a wide range of body structures and modes of reproduction.\n\n<b>Major Phyla of Invertebrates and Examples</b>\n• Porifera – sponges\n• Cnidaria – hydra, jellyfish\n• Platyhelminthes – flatworms\n• Nematoda – roundworms\n• Annelida – earthworms, leeches\n• Mollusca – snails, clams, octopus\n• Arthropoda – insects, spiders, crabs\n• Echinodermata – starfish, sea urchins"
+},
+{
+  type: "image",
+  data: "images (83).jpeg"
+},
+{
+  "type": "text",
+  "data": "<b>Characteristics of Invertebrates</b>\n• Lack vertebral column.\n• May have exoskeleton (e.g., arthropods) or hydrostatic skeleton (e.g., annelids).\n• Exhibit various body symmetries: radial (cnidarians) or bilateral (annelids, arthropods).\n• Reproduce sexually and/or asexually.\n• Some have specialized systems (digestive, circulatory, nervous)."
+},
+{
+  "type": "text",
+  "data": "<b>Vertebrates</b>\n\nVertebrates are animals that possess a backbone and an internal skeleton (endoskeleton). They are more advanced in structure and function compared to invertebrates.\n\n<b>Classes of Vertebrates and Examples</b>\n• Pisces – fish\n• Amphibia – frogs, toads\n• Reptilia – lizards, snakes, turtles\n• Aves – birds\n• Mammalia – humans, lions, whales"
+},
+{
+  type: "image",
+  data: "./images (84).jpeg"
+},
+{
+  type: "image",
+  data: "./images (85).jpeg"
+},
+{
+  type: "image",
+  data: "./d0cf48c3a26e7ed067d9ff2a3897047e.jpg"
+},
+{
+  "type": "text",
+  "data": "<b>Characteristics of Vertebrates</b>\n• Possess a backbone and internal skeleton.\n• Highly organized body systems (circulatory, respiratory, nervous).\n• Usually have paired appendages (limbs, fins, wings).\n• Reproduce mostly sexually; some lay eggs, others give live birth.\n• Endoskeleton provides support, protection, and leverage for movement."
+},
+{
+  "type": "text",
+  "data": "<b>Importance of Animals</b>\n• Serve as sources of food, clothing, and medicine.\n• Maintain ecological balance as predators, prey, and decomposers.\n• Aid in pollination, seed dispersal, and soil aeration.\n• Some animals are used in scientific research.\n• Some cause diseases affecting humans, animals, and plants."
 },
 
-  //nutrition
-  
-  {  
-  topic: "Nutrition in Living Organisms",  
-  notes: {  
-    title: "Nutrition in Living Organisms",  
-    content: [  
-      {  
-        type: "text",  
-        data: "<b>Definition</b>\nNutrition is the process by which living organisms obtain and utilize food substances for energy, growth, and repair of tissues. All living things need nutrients to survive."  
-      },  
-      {  
-        type: "text",  
-        data: "<b>Modes of Nutrition</b>\n1. Autotrophic Nutrition – organisms make their own food from simple substances. Example: green plants through photosynthesis.\n2. Heterotrophic Nutrition – organisms depend on others for food. Examples: animals, fungi, and most bacteria."  
-      },  
       {
-          type: "image",
-          data: "./Heterotroph.jpg"
-        },
-      {  
-        type: "text",  
-        data: "<b>Types of Heterotrophic Nutrition:</b>\n1. Holozoic – ingestion and digestion of solid food (e.g., humans).\n2. Saprophytic – feeding on dead organic matter (e.g., fungi).\n3. Parasitic – living on or inside a host and feeding from it (e.g., tapeworm, mistletoe)."  
-      }, 
-      {
-          type: "image",
-          data: "./Other-Modes-Of-Nutrition-In-Plants-1.png"
-      },
-      {  
-        type: "text",  
-        data: "<b>Importance of Nutrition:</b>\n• Provides energy for daily activities.\n• Supplies materials for growth and repair.\n• Helps in maintaining healthy body functions."  
-      },
-      
-      //photosynthesis in plants
-      {  
-        type: "text",  
-        data: "<b>Photosynthesis</b>\nPhotosynthesis is the process by which green plants manufacture food (glucose) from carbon dioxide and water using sunlight energy trapped by chlorophyll."  
-      }, 
-      {
-        type: "image",
-        data:"./diagram-showing-process-of-photosynthesis-in-plant-free-vector.jpg"
-      },
-      {  
-        type: "text",  
-        data: "The overall chemical equation is:\n6CO<sub>2</sub> + 6H<sub>2</sub>O → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>\nThis means that six molecules of carbon dioxide combine with six molecules of water to produce one molecule of glucose and six molecules of oxygen."  
-      },  
-      {  
-        type: "text",  
-        data: "<b>Stages of Photosynthesis</b>\n1. Light Reaction – occurs in the chloroplast grana, uses sunlight to split water (photolysis) into hydrogen and oxygen while forming ATP and NADPH.\n2. Dark Reaction – occurs in the stroma, uses hydrogen and carbon dioxide to form glucose using ATP produced in the light stage."  
-      },
-      {
-        type: "image",
-        data: "./images (49).jpeg"
-      },
-      {  
-        type: "text",  
-        data: "<b>Importance of Photosynthesis</b>\n• Provides food for plants and animals.\n• Releases oxygen necessary for respiration.\n• Reduces carbon dioxide in the atmosphere.\n• Forms the basis of most food chains."  
-      },
-      
-      //nutrition in animals
-      {
-        type: "text",
-        data: "<b>Types of animal Nutrition</b>\n• Herbivores – feed on plants.\n• Carnivores – feed on other animals.\n• Omnivores – feed on both plants and animals.\n• Parasites – live on or in other organisms and feed from them."
-      },
-      {
-        type: "text",
-        data: "<b>Balanced Diet</b>\nIt contains all food classes including carbohydrates, proteins, fats, vitamins, minerals, water, and roughage in correct proportions for health and energy."
-      },
-      {
-        type: "text",
-        data: "Malnutrition occurs when the body receives inadequate or excess nutrients. Examples include kwashiorkor, ricket, scurvy, marasmus, and obesity."
-      },
-      {
-        type: "image",
-        
-        //child suffering from obesity 
-        
-        data: ""
-      },
-      
-      //digestive system in mammal
-      
-      {
-        type: "text",
-        data: "<b>Digestion in Mammals</b>\nDigestion is the process by which large, insoluble food molecules are broken down into small, soluble ones that can be absorbed into the bloodstream."
-      },
-      
-      {
-        type: "image",
-        
-        //human digestive system 
-        data:""
-      },
-      {
-        type: "text",
-        data: "<b>Human Digestive Tract includes</b>\n• Mouth – mechanical breakdown by teeth and chemical digestion by saliva (amylase).\n• Oesophagus – moves food to the stomach via peristalsis.\n• Stomach – secretes gastric juice containing hydrochloric acid and pepsin to digest proteins.\n• Small Intestine – final digestion and absorption occur here with help of bile and pancreatic enzymes.\n• Large Intestine – absorbs water and forms faeces."
-      },
-      {
-        type: "text",
-        data: "<b>Organs associated with digestion in man</b>\n• Liver – produces bile.\n• Pancreas – produces digestive enzymes.\n• Gall Bladder – stores bile."
-      },
-      {
-        type: "text",
-        data: "<b>End Products of Digestion</b>\n• Carbohydrates → glucose\n• Proteins → amino acids\n• Fats → fatty acids and glycerol"
-      },
-      {
-        type: "image",
-        
-        //
-        data: ""
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define classification.\n2. State five importance of classification.\n3. List the basis of classification of living organisms.\n4. Outline the taxonomic hierarchy.\n5. Describe the characteristics of Kingdom Monera.\n6. Differentiate between Protista and Fungi.\n7. State three characteristics of plants.\n8. List two differences between plants and animals.\n9. Explain binomial nomenclature.\n10. Why is classification important in the study of biology?"
       }
-    
-    
-    ]  
-  }  
-},  
+    ]
+  }
+},
+  
+  //nutrition in plants and animals 
+  
+  {
+  "topic": "Nutrition in Living Organisms",
+  "notes": {
+    "title": "Nutrition — Meaning, Types, Plant and Animal Nutrition",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Nutrition</b>\n\nNutrition is the process by which living organisms obtain food and utilize it for energy, growth, repair of tissues, and regulation of body processes. Food provides organisms with nutrients needed to carry out life activities.\n\nNutrition is one of the major characteristics of living things and is very important for survival. In JAMB Biology, questions on nutrition often focus on types of nutrition and differences between plant and animal nutrition."
+      },
+      {
+  "type": "text",
+  "data": "<b>Balanced Diet</b>\n\nA balanced diet is a diet that contains all the essential nutrients in the correct proportions needed for good health, growth, and proper functioning of the body.\n\nComponents of a Balanced Diet include:\n\n• Carbohydrates – Provide energy for daily activities.\n• Proteins – Required for growth, repair, and maintenance of body tissues.\n• Fats and Oils – Supply concentrated energy and help in the absorption of fat-soluble vitamins.\n• Vitamins – Protect the body against diseases and regulate body processes.\n• Mineral Salts – Needed for strong bones, teeth, blood formation, and nerve function.\n• Water – Aids digestion, transportation of nutrients, and temperature regulation.\n• Dietary Fibre (Roughage) – Helps digestion and prevents constipation.\n\nA balanced diet varies with age, sex, occupation, and health status. An unbalanced diet may result in malnutrition, deficiency diseases, or obesity."
+},
+      {
+        "type": "text",
+        "data": "<b>Types of Nutrition</b>\n\nLiving organisms are grouped based on how they obtain food:\n\n1. Autotrophic Nutrition\n2. Heterotrophic Nutrition\n\nUnderstanding these types helps explain feeding relationships in ecosystems."
+      },
+      {
+        "type": "text",
+        "data": "<b>Autotrophic Nutrition</b>\n\nAutotrophic nutrition is the mode of nutrition in which organisms manufacture their own food using simple inorganic substances.\n\n• Green plants use sunlight, carbon dioxide, and water to produce food through photosynthesis.\n• Autotrophs are also called producers.\n\nExamples:\n• Green plants\n• Algae\n• Some bacteria\n\nAutotrophic nutrition forms the foundation of food chains."
+      },
+      {
+        "type": "image",
+        "data": "./Heterotroph.jpg"
+      },
+      {
+        "type": "text",
+        "data": "<b>Heterotrophic Nutrition</b>\n\nHeterotrophic nutrition is the mode of nutrition in which organisms depend on other organisms for food because they cannot manufacture their own food.\n\nTypes of heterotrophic nutrition include:\n\n• Holozoic nutrition\n• Saprophytic nutrition\n• Parasitic nutrition\n• Symbiotic nutrition"
+      },
+      {
+        "type": "text",
+        "data": "<b>Holozoic Nutrition</b>\n\nHolozoic nutrition involves the ingestion and digestion of solid food.\n\nIt occurs in most animals and involves five stages:\n1. Ingestion\n2. Digestion\n3. Absorption\n4. Assimilation\n5. Egestion\n\nExamples:\n• Humans\n• Dogs\n• Birds\n\nThis is the most common mode of nutrition in animals."
+      },
+      {
+        "type": "text",
+        "data": "<b>Saprophytic Nutrition</b>\n\nSaprophytic nutrition occurs in organisms that feed on dead and decaying organic matter.\n\n• They secrete enzymes on food externally.\n• Digestion occurs outside the body.\n\nExamples:\n• Fungi\n• Some bacteria\n\nSaprophytes play a vital role in nutrient recycling.\n\n<i>Below are the structure of some saprophytes</i>"
+      },
+{
+  type: "image",
+  data: "./images (1).png"
+},
+{
+  type: "image",
+  data: "./istockphoto-1204471308-612x612.jpg"
+},
+      {
+        "type": "text",
+        "data": "<b>Parasitic Nutrition</b>\n\nParasitic nutrition occurs when one organism (parasite) lives on or inside another organism (host) and derives nourishment from it.\n\n• Parasites harm the host.\n\nExamples:\n• Tapeworm in humans\n• Lice on human hair\n• Mistletoe on trees\n\n<i>See the structure of some major parasites</i>"
+      },
+      {
+        "type": "image",
+        "data": "./images (87).jpeg"
+      },
+{
+  type: "text",
+  data: "<i>See diagram of tapeworm - An endoparasite</i>"
+},
+      {
+        type: "image",
+        data: "./images (88).jpeg"
+      },
+      {
+        "type": "text",
+        "data": "<b>Symbiotic Nutrition</b>\n\nSymbiotic nutrition occurs when two different organisms live together and benefit from each other.\n\nExamples:\n• Algae and fungi in lichen\n• Bacteria in the human intestine\n\nBoth organisms benefit from the relationship."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Nutrition in Plants</b>\n\nPlants obtain nutrients through:\n\n• Photosynthesis – manufacture of food using sunlight.\n• Absorption of mineral salts from the soil.\n\nPlants require mineral elements such as nitrogen, phosphorus, potassium, magnesium, and iron for proper growth."
+      },
+      {
+        "type": "text",
+        "data": "<b>Nutrition in Animals</b>\n\nAnimals obtain food by feeding on plants or other animals.\n\n• Herbivores feed on plants.\n• Carnivores feed on other animals.\n• Omnivores feed on both plants and animals.\n\nFood consumed by animals is digested into simpler substances for absorption."
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Nutrition</b>\n\n• Provides energy for life activities.\n• Supports growth and development.\n• Repairs damaged tissues.\n• Maintains body temperature.\n• Regulates metabolic processes.\n• Ensures survival of organisms."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define nutrition.\n2. List the major classes of nutrients.\n3. Differentiate between autotrophic and heterotrophic nutrition.\n4. Explain holozoic nutrition.\n5. State two examples of saprophytic organisms.\n6. What is parasitic nutrition? Give two examples.\n7. Explain symbiotic nutrition with an example.\n8. Describe nutrition in plants.\n9. State three types of animals based on feeding habits.\n10. Explain the importance of nutrition in living organisms."
+      }
+    ]
+  }
+},
+  
+  //photosynthesis 
+  
+  {
+  "topic": "Photosynthesis",
+  "notes": {
+    "title": "Photosynthesis — Meaning, Process, Requirements, Stages, and Importance",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Photosynthesis</b>\n\nPhotosynthesis is the process by which green plants manufacture their own food using carbon dioxide and water in the presence of sunlight and chlorophyll. During this process, energy from sunlight is converted into chemical energy stored in food.\n\nPhotosynthesis is the basis of all food chains and life on earth because it provides food and oxygen needed by most living organisms.\n\nJAMB frequently asks direct and indirect questions on the meaning, equation, stages, and importance of photosynthesis."
+      },
+      {
+        "type": "image",
+        "data": "./photosynthesis_process.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Word and Chemical Equations of Photosynthesis</b>\n\n<b>Word Equation:</b>\nCarbon dioxide + Water → Glucose + Oxygen\n\n<b>Chemical Equation:</b>\n6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂\n\nThis reaction occurs in the chloroplast and requires light energy and chlorophyll.\n\nUnderstanding the equation helps students answer JAMB questions involving reactants and products of photosynthesis."
+      },
+      {
+        "type": "text",
+        "data": "<b>Requirements for Photosynthesis</b>\n\nPhotosynthesis requires the following conditions:\n\n• Sunlight – provides energy for the reaction.\n• Chlorophyll – traps light energy.\n• Carbon dioxide – obtained from the air through stomata.\n• Water – absorbed from the soil by roots.\n• Suitable temperature – affects enzyme activity.\n\nIf any of these requirements is absent, photosynthesis cannot occur."
+      },
+      {
+        "type": "image",
+        "data": "./requirements_photosynthesis.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Stages of Photosynthesis</b>\n\nPhotosynthesis occurs in two main stages:\n\n<b>1. Light Reaction (Light-dependent Stage)</b>\n• Takes place in the grana of the chloroplast.\n• Requires light energy.\n• Water is split into hydrogen and oxygen (photolysis).\n• Oxygen is released as a by-product.\n• Energy is stored in ATP.\n\n<b>2. Dark Reaction (Light-independent Stage)</b>\n• Takes place in the stroma of the chloroplast.\n• Does not require light directly.\n• Uses carbon dioxide and hydrogen to form glucose.\n\nJAMB often tests the location and significance of each stage."
+      },
+      {
+        "type": "text",
+        "data": "<b>Mechanism of Photosynthesis (Summary)</b>\n\n1. Light energy is absorbed by chlorophyll.\n2. Water molecules are split into hydrogen and oxygen.\n3. Energy is used to form ATP.\n4. Carbon dioxide combines with hydrogen to form glucose.\n5. Oxygen is released into the atmosphere."
+      },
+      {
+        "type": "text",
+        "data": "<b>Leaf Adaptations for Photosynthesis</b>\n\nLeaves are specially adapted for photosynthesis:\n\n• Broad surface – large surface area for light absorption.\n• Thin structure – short distance for diffusion of gases.\n• Presence of chlorophyll – traps light energy.\n• Numerous stomata – allow gas exchange.\n• Veins – transport water and manufactured food.\n\nThese adaptations are commonly tested in JAMB examinations."
+      },
+      {
+        "type": "image",
+        "data": "./leaf_adaptations.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Factors Affecting the Rate of Photosynthesis</b>\n\n• Light intensity\n• Carbon dioxide concentration\n• Temperature\n• Water availability\n• Chlorophyll content\n\nAn increase in any factor increases the rate of photosynthesis until a limiting factor is reached."
+      },
+      {
+        "type": "text",
+        "data": "<b>Experiments to Show Photosynthesis</b>\n\n• Test for starch in leaves using iodine solution.\n• Use of variegated leaves to show chlorophyll is necessary.\n• Use of bell jar experiment to show carbon dioxide is required.\n\nThese experiments are important for understanding practical biology."
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Photosynthesis</b>\n\n• Produces food for plants and animals.\n• Releases oxygen for respiration.\n• Maintains balance of gases in the atmosphere.\n• Forms the base of food chains.\n• Provides raw materials for industries.\n• Supports life on earth."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define photosynthesis.\n2. State the word and chemical equations of photosynthesis.\n3. List the requirements for photosynthesis.\n4. Differentiate between light and dark reactions.\n5. State three adaptations of the leaf for photosynthesis.\n6. Explain two factors affecting the rate of photosynthesis.\n7. Describe an experiment to show that chlorophyll is required.\n8. Why is photosynthesis important to animals?\n9. Explain the role of sunlight in photosynthesis.\n10. State two reasons why photosynthesis is vital to life on earth."
+      }
+    ]
+  }
+},
+
+  //transport system 
+  
+  {
+  "topic": "Transport in Living Organisms",
+  "notes": {
+    "title": "Transport in Living Organisms — Meaning, Mechanisms, Systems in Plants and Animals",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Transport</b>\n\nTransport is the process by which substances such as water, mineral salts, nutrients, gases, and metabolic wastes are moved within living organisms to ensure that all cells function properly. Efficient transport ensures that nutrients reach all cells and waste products are removed to maintain homeostasis.\n\nTransport systems are more developed in multicellular organisms due to their larger size and higher metabolic demands."
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Transport</b>\n\n• Supplies oxygen and nutrients to every cell.\n• Removes carbon dioxide and other metabolic wastes.\n• Maintains osmotic balance and pH.\n• Distributes hormones and enzymes for regulation of physiological processes.\n• Supports growth, repair, and energy production.\n• Ensures plants maintain turgidity and animals maintain blood pressure.\n• Enables plants and animals to survive and adapt to their environment."
+      },
+      {
+        "type": "image",
+        "data": "./transport_overview.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Transport in Plants</b>\n\nPlants have two major transport systems: xylem and phloem.\n\n1. <b>Xylem Transport</b>\n• Xylem transports water and dissolved minerals from the roots to the leaves.\n• Composed of tracheids, vessel elements, xylem parenchyma, and fibers.\n• Water transport is passive, driven by transpiration, root pressure, and capillary action.\n\n<b>Mechanisms of Water Transport:</b>\n• <b>Root Pressure:</b> Accumulation of water in roots pushes it upwards through xylem.\n• <b>Capillary Action:</b> Adhesion and cohesion of water molecules allow water to rise in narrow xylem vessels.\n• <b>Transpiration Pull:</b> Evaporation of water from leaves creates suction, pulling water up from roots. This is the most significant mechanism.\n\n<b>Factors Affecting Water Transport:</b>\n• Light intensity – increases transpiration.\n• Temperature – higher temperatures increase evaporation.\n• Wind – removes water vapour, increasing transpiration rate.\n• Humidity – high humidity decreases transpiration.\n• Soil water content – affects root absorption."
+      },
+      {
+        "type": "image",
+        "data": "./plant_transport.png"
+      },
+      {
+        "type": "text",
+        "data": "2. <b>Phloem Transport</b>\n• Phloem transports manufactured food (mainly sucrose) from leaves to other parts of the plant (source to sink).\n• Composed of sieve tubes, companion cells, phloem parenchyma, and fibers.\n• Transport is through translocation, which can be bidirectional.\n• Energy from ATP is required.\n• Pressure flow (mass flow) is the accepted mechanism.\n\n<b>Source:</b> Leaves and green parts (photosynthetic tissues)\n<b>Sink:</b> Roots, fruits, seeds, and storage organs"
+      },
+      {
+        "type": "text",
+        "data": "<b>Adaptations of Leaves for Efficient Transport</b>\n• Broad surface area – maximizes light absorption and transpiration.\n• Thin lamina – short diffusion distance for gases.\n• Veins (xylem and phloem) – provide structural support and efficient transport.\n• Stomata – regulate gas exchange and transpiration.\n• Cuticle – prevents excessive water loss."
+      },
+      {
+        "type": "text",
+        "data": "<b>Transport in Animals</b>\n\nAnimals have a circulatory system to transport materials. Components include:\n\n• <b>Blood:</b> Connective tissue transporting oxygen, carbon dioxide, nutrients, hormones, and wastes.\n• <b>Heart:</b> Muscular organ pumping blood throughout the body.\n• <b>Blood Vessels:</b> Arteries (carry blood away from heart), veins (carry blood to heart), capillaries (site of exchange).\n• <b>Lymph:</b> Fluid transporting tissue fluid and immune cells.\n\nAnimals may have open or closed circulatory systems."
+      },
+      {
+        "type": "text",
+        "data": "<b>Open Circulatory System</b>\n• Blood is not confined to vessels, flows into body cavities (hemocoel).\n• Found in arthropods (e.g., insects, crustaceans) and most mollusks.\n• Less efficient, suitable for animals with low metabolic rates.\n• Example: Grasshopper."
+      },
+      {
+        "type": "text",
+        "data": "<b>Closed Circulatory System</b>\n• Blood flows entirely within vessels.\n• Found in annelids, cephalopods, and all vertebrates.\n• More efficient, allows higher metabolic activity.\n• In vertebrates, the heart may be two-chambered (fish), three-chambered (amphibians, reptiles), or four-chambered (birds and mammals)."
+      },
+      {
+        "type": "image",
+        "data": "./animal_circulatory_system.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Components of Blood and Their Functions</b>\n\n• <b>Red Blood Cells (Erythrocytes):</b> Transport oxygen using hemoglobin.\n• <b>White Blood Cells (Leukocytes):</b> Defend against pathogens.\n• <b>Platelets:</b> Aid in blood clotting to prevent excessive bleeding.\n• <b>Plasma:</b> Transports nutrients, hormones, carbon dioxide, and metabolic wastes."
+      },
+      {
+        "type": "text",
+        "data": "<b>Mechanisms of Circulation</b>\n\n• <b>Arterial Blood Flow:</b> Under high pressure, moves oxygenated blood from heart to tissues.\n• <b>Venous Blood Flow:</b> Assisted by valves and skeletal muscle contraction, returns deoxygenated blood to heart.\n• <b>Capillary Exchange:</b> Nutrients and gases diffuse across thin capillary walls.\n• <b>Lymphatic System:</b> Collects excess tissue fluid and returns it to circulatory system, participates in immunity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Adaptations for Efficient Transport in Animals</b>\n\n• Closed circulatory system allows rapid distribution of substances.\n• Heart chambers prevent mixing of oxygenated and deoxygenated blood.\n• Arteries have thick walls to withstand pressure.\n• Veins have valves to prevent backflow.\n• Capillaries have thin walls for easy exchange."
+      },
+      {
+        "type": "text",
+        "data": "<b>Comparison Between Plant and Animal Transport</b>\n\n| Feature               | Plant Transport                       | Animal Transport                     |\n|-----------------------|--------------------------------------|-------------------------------------|\n| Medium                | Xylem & Phloem                       | Blood & Lymph                        |\n| Energy Requirement    | Mostly passive (xylem), active (phloem) | Mostly active                        |\n| Direction             | Xylem: unidirectional; Phloem: bidirectional | Arteries: away; Veins: to heart      |\n| Driving Force         | Transpiration pull, root pressure     | Heartbeat, muscular movement         |\n| Adaptations           | Veins, stomata, root hairs            | Valves, thick arteries, thin capillaries |"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define transport in living organisms.\n2. Explain the importance of transport.\n3. Describe the structure and function of xylem and phloem.\n4. Explain the mechanisms of water transport in plants.\n5. List five factors affecting transpiration.\n6. Differentiate between open and closed circulatory systems.\n7. Describe the components of blood and their functions.\n8. Explain adaptations of leaves for efficient transport.\n9. Compare plant and animal transport systems.\n10. Why is a closed circulatory system more efficient than an open system?"
+      }
+    ]
+  }
+},
+
+  //respiration 
+  
+  {
+  "topic": "Respiration in Living Organisms",
+  "notes": {
+    "title": "Respiration — Meaning, Types, Mechanisms, and Respiratory Systems in Plants and Animals",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Respiration</b>\n\nRespiration is the biochemical process by which living organisms break down food substances, especially glucose, in the presence or absence of oxygen to release energy required for life processes. This energy is stored in the form of ATP (Adenosine Triphosphate) and is used for growth, movement, repair, reproduction, and maintenance of body functions.\n\nRespiration occurs in all living organisms and at all times, unlike breathing which occurs only in animals."
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Respiration</b>\n\n• Releases energy needed for metabolic activities.\n• Supplies energy for growth, movement, and repair of tissues.\n• Produces heat to maintain body temperature in warm-blooded animals.\n• Enables active transport and synthesis of complex molecules.\n• Supports cellular activities such as division and secretion.\n• Removes waste products like carbon dioxide and water.\n• Ensures survival of organisms."
+      },
+      {
+        "type": "image",
+        "data": "./respiration_overview.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Respiration</b>\n\nThere are two main types of respiration:\n\n1. <b>Aerobic Respiration</b>\n• Occurs in the presence of oxygen.\n• Glucose is completely broken down.\n• Produces a large amount of energy.\n• End products are carbon dioxide and water.\n• Occurs mainly in mitochondria.\n\n<b>Equation:</b>\nC₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + Energy (ATP)\n\n2. <b>Anaerobic Respiration</b>\n• Occurs in the absence of oxygen.\n• Glucose is partially broken down.\n• Produces less energy.\n• End products depend on the organism.\n\nIn plants and yeast:\nC₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ + Energy\n\nIn animals:\nC₆H₁₂O₆ → 2C₃H₆O₃ + Energy"
+      },
+      {
+        "type": "text",
+        "data": "<b>Differences Between Aerobic and Anaerobic Respiration</b>\n\n| Feature | Aerobic Respiration | Anaerobic Respiration |\n|-------|--------------------|----------------------|\n| Oxygen | Required | Not required |\n| Energy Yield | High | Low |\n| End Products | CO₂ and H₂O | Lactic acid / Alcohol + CO₂ |\n| Site | Mitochondria | Cytoplasm |\n| Efficiency | Very efficient | Less efficient |"
+      },
+      {
+        "type": "image",
+        "data": "./aerobic_vs_anaerobic.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Respiration in Plants</b>\n\nPlants respire continuously to release energy for growth and metabolic activities.\n\n• Oxygen enters plant cells through stomata, lenticels, and root hairs.\n• Carbon dioxide produced diffuses out through the same structures.\n• Respiration occurs in all living parts of the plant.\n• Energy released is used for cell division, growth, repair, and transport of materials.\n• Plants respire both during the day and night.\n\nRespiration in plants should not be confused with photosynthesis, although both occur in green plants."
+      },
+      {
+        "type": "text",
+        "data": "<b>Respiratory Structures in Animals</b>\n\nDifferent animals possess different respiratory organs depending on their habitat:\n\n• <b>Body Surface:</b> Simple animals like Amoeba respire by diffusion.\n• <b>Gills:</b> Aquatic animals such as fish use gills to extract oxygen from water.\n• <b>Tracheal System:</b> Insects use spiracles, tracheae, and tracheoles.\n• <b>Lungs:</b> Terrestrial vertebrates use lungs for gaseous exchange.\n• <b>Skin:</b> Amphibians such as frogs respire through moist skin."
+      },
+      {
+        "type": "image",
+        "data": "./animal_respiratory_organs.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Respiration in Humans</b>\n\nHuman respiration involves breathing and cellular respiration:\n\n• Air enters through the nose → trachea → bronchi → bronchioles → alveoli.\n• Oxygen diffuses into the blood through alveolar walls.\n• Carbon dioxide diffuses from blood into alveoli and is expelled.\n• The diaphragm and rib muscles aid inhalation and exhalation.\n• Oxygen is transported by hemoglobin in red blood cells.\n• Cellular respiration occurs in mitochondria."
+      },
+      {
+        "type": "text",
+        "data": "<b>Mechanism of Breathing in Humans</b>\n\n1. <b>Inhalation:</b>\n• Diaphragm contracts and flattens.\n• Ribs move upward and outward.\n• Thoracic cavity volume increases.\n• Air pressure decreases and air enters the lungs.\n\n2. <b>Exhalation:</b>\n• Diaphragm relaxes and becomes dome-shaped.\n• Ribs move downward and inward.\n• Thoracic cavity volume decreases.\n• Air pressure increases and air is expelled."
+      },
+      {
+        "type": "text",
+        "data": "<b>Adaptations of Respiratory Organs</b>\n\n• Alveoli have large surface area for gas exchange.\n• Thin walls allow rapid diffusion.\n• Moist surfaces dissolve gases.\n• Rich blood supply maintains concentration gradient.\n• Gills have filaments and lamellae to increase surface area.\n• Tracheoles in insects deliver oxygen directly to tissues."
+      },
+      {
+        "type": "text",
+        "data": "<b>Factors Affecting the Rate of Respiration</b>\n\n• Availability of oxygen.\n• Temperature (enzyme activity).\n• Type and amount of food.\n• Age of organism.\n• Level of physical activity.\n• Presence of respiratory diseases.\n• Environmental conditions."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define respiration and explain its importance.\n2. Differentiate between aerobic and anaerobic respiration.\n3. Write balanced equations for aerobic and anaerobic respiration.\n4. Describe respiration in plants.\n5. List respiratory organs in animals and state their functions.\n6. Describe the mechanism of breathing in humans.\n7. Explain adaptations of alveoli for gaseous exchange.\n8. State factors affecting the rate of respiration.\n9. Why is respiration essential for living organisms?\n10. Distinguish between respiration and breathing."
+      }
+    ]
+  }
+},
+
+  //excretion
+  
+  {
+  "topic": "Excretion in Living Organisms",
+  "notes": {
+    "title": "Excretion — Meaning, Types, Excretory Organs in Plants and Animals",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Excretion</b>\n\nExcretion is the process by which living organisms remove metabolic waste products produced during cellular activities. These wastes are often toxic if allowed to accumulate and can interfere with normal metabolic processes. Excretion is essential for maintaining homeostasis, regulating water balance, electrolyte levels, and pH in body fluids."
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Excretion</b>\n\n• Removes toxic nitrogenous wastes such as urea, uric acid, and ammonia.\n• Maintains osmotic balance and water content within cells.\n• Regulates electrolyte levels in the body.\n• Maintains pH balance in body fluids.\n• Prevents accumulation of harmful substances.\n• Supports proper functioning of organs and tissues.\n• Ensures survival of cells and overall organism health."
+      },
+      {
+        "type": "image",
+        "data": "./excretion_overview.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Excretion in Plants</b>\n\nPlants also excrete metabolic wastes, though not as visibly as animals. Key excretory processes include:\n\n• <b>Oxygen Release:</b> Produced during photosynthesis and released through stomata.\n• <b>Excess Water:</b> Removed via transpiration through stomata and lenticels.\n• <b>Salt Excretion:</b> Certain plants like mangroves excrete excess salts through salt glands.\n• <b>Storage of Wastes:</b> Some plants store wastes in older leaves, bark, latex, or resin, which are later shed to remove the waste from the plant body.\n\nThese mechanisms prevent the accumulation of toxic substances and maintain internal balance in plants."
+      },
+      {
+        "type": "text",
+        "data": "<b>Excretion in Animals</b>\n\nAnimals have specialized excretory organs for the removal of metabolic wastes. Excretion is critical for maintaining homeostasis and supporting high metabolic rates in animals. The main excretory organs include:\n\n1. <b>Kidneys</b> – Major organs for excretion in vertebrates, especially mammals. They remove nitrogenous wastes (urea), regulate water balance, and maintain electrolyte concentration.\n2. <b>Lungs</b> – Remove carbon dioxide and water vapor during respiration.\n3. <b>Skin</b> – Sweat glands excrete water, salts, and small amounts of urea.\n4. <b>Liver</b> – Detoxifies harmful substances and produces bile for excretion of certain wastes."
+      },
+      {
+        "type": "text",
+        "data": "<b>Nitrogenous Wastes and Their Excretion</b>\n\nNitrogenous wastes result from protein and nucleic acid metabolism. Their type and excretion method depend on the organism’s habitat and water availability:\n\n• <b>Ammonia:</b> Highly soluble, toxic, requires large water amounts for excretion. Excreted directly by most aquatic animals (e.g., fish, amphibians in water).\n• <b>Urea:</b> Less toxic, requires less water. Excreted by mammals, amphibians on land.\n• <b>Uric Acid:</b> Insoluble, excreted as paste or crystals. Conserves water, typical in birds, reptiles, and insects."
+      },
+      {
+        "type": "text",
+        "data": "<b>Structure and Function of the Human Kidney</b>\n\nThe kidney is a paired excretory organ in mammals with the primary function of filtering blood, producing urine, and maintaining homeostasis.\n\n• <b>Functional Unit:</b> Nephron (about 1 million per kidney).\n• <b>Structure of a Nephron:</b> Glomerulus (site of filtration), Bowman’s capsule, proximal convoluted tubule, loop of Henle, distal convoluted tubule, and collecting duct.\n• <b>Processes in the Nephron:</b>\n   1. <b>Filtration:</b> Blood pressure forces water and solutes into Bowman’s capsule.\n   2. <b>Reabsorption:</b> Useful substances like glucose, amino acids, and some water are reabsorbed into the blood.\n   3. <b>Secretion:</b> Additional wastes and excess ions are secreted into the tubules.\n   4. <b>Excretion:</b> Urine is formed and transported to the bladder via ureters."
+      },
+      {
+        "type": "image",
+        "data": "./human_kidney_nephron.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Excretion in Other Animals</b>\n\n• <b>Fish:</b> Excrete ammonia directly into surrounding water through gills.\n• <b>Insects:</b> Excrete uric acid via Malpighian tubules, conserving water.\n• <b>Amphibians:</b> Excrete ammonia or urea depending on aquatic or terrestrial habitat.\n• <b>Birds:</b> Excrete uric acid to reduce water loss.\n\nThese adaptations reflect the environment and water availability of the organisms."
+      },
+      {
+        "type": "text",
+        "data": "<b>Adaptations for Efficient Excretion</b>\n\nPlants:\n• Stomata facilitate removal of oxygen and water vapor.\n• Shedding leaves removes stored wastes.\n• Salt glands in halophytes excrete excess salts.\n\nAnimals:\n• Kidneys have a loop of Henle to concentrate urine and conserve water.\n• Sweat glands help in excreting salts and water.\n• Lungs expel carbon dioxide efficiently.\n• Excretory structures are adapted to the habitat (e.g., desert animals conserve water, aquatic animals excrete ammonia)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Summary of Excretory Mechanisms</b>\n\n| Organism/Organ       | Excretory Product       | Mechanism/Adaptation                                      |\n|--------------------|----------------------|----------------------------------------------------------|\n| Aquatic animals     | Ammonia               | Excreted directly into water; highly soluble            |\n| Mammals             | Urea                  | Produced in liver; excreted via kidneys                 |\n| Birds and Reptiles  | Uric acid             | Excreted as paste; conserves water                      |\n| Humans              | Urea, CO2, water      | Kidneys, lungs, skin; multiple mechanisms              |\n| Plants              | Oxygen, water, salts  | Transpiration, stomata, glands, leaf shedding          |"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define excretion and explain its importance in living organisms.\n2. Describe how plants remove excess oxygen and water.\n3. List and describe the main excretory organs in humans.\n4. Explain the structure and function of a nephron.\n5. Describe the processes of filtration, reabsorption, secretion, and excretion.\n6. Name three nitrogenous wastes and the organisms that excrete them.\n7. Explain how insects conserve water during excretion.\n8. Describe the adaptations of kidneys for water conservation.\n9. Explain the role of lungs in excretion.\n10. Why is excretion important for maintaining homeostasis in animals?"
+      }
+    ]
+  }
+},
+
+  //tissue and supportive system 
+
+  {
+  "topic": "Supportive and Skeletal System",
+  "notes": {
+    "title": "Supportive and Skeletal System — Definition, Types, Structure, Functions, and Movement",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of the Supportive and Skeletal System</b>\n\nThe supportive and skeletal system is the body system made up mainly of bones, cartilage, ligaments, and joints, which provides support, shape, and protection to the body. It also works with the muscular system to bring about movement.\n\nIn animals, especially vertebrates, the skeletal system forms a rigid framework that supports soft tissues, protects delicate organs, and serves as points of attachment for muscles."
+      },
+      {
+        "type": "text",
+        "data": "<b>Functions of the Skeletal System</b>\n\n• Provides support and shape to the body.\n• Protects vital organs such as the brain, heart, and lungs.\n• Enables movement in conjunction with muscles.\n• Produces blood cells (haematopoiesis) in the bone marrow.\n• Stores minerals such as calcium and phosphorus.\n• Maintains posture and balance.\n• Provides attachment sites for muscles."
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Skeleton Based on Position</b>\n\n1. <b>Endoskeleton</b> – Skeleton found inside the body, made of bones and cartilage (e.g. humans, vertebrates).\n2. <b>Exoskeleton</b> – Hard outer covering that supports and protects the body (e.g. insects, crabs).\n3. <b>Hydrostatic Skeleton</b> – Support provided by fluid pressure within the body (e.g. earthworm, jellyfish)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Skeleton Based on Structure</b>\n\n• Bony skeleton – made mainly of hard bone tissue (e.g. adult humans).\n• Cartilaginous skeleton – made mainly of cartilage (e.g. shark, rays).\n• Mixed skeleton – contains both bone and cartilage (e.g. humans)."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Human Skeletal System</b>\n\nThe human skeleton consists of about 206 bones arranged into two major divisions:\n\n1. Axial skeleton\n2. Appendicular skeleton"
+      },
+      {
+        type: "image",
+        data: "./images (70).jpeg"
+      },
+      {
+        "type": "text",
+        "data": "<b>Axial Skeleton</b>\n\nThe axial skeleton forms the central axis of the body and consists of the skull, vertebral column, ribs, and sternum.\n\n<b>Components of the Axial Skeleton</b>\n• Skull\n• Vertebral column (backbone)\n• Rib cage (ribs and sternum)"
+      },
+      {
+        type: "image",
+        data: "./images (71).jpeg"
+      },
+      {
+        "type": "text",
+        "data": "<b>The Skull</b>\n\nThe skull is made up of 22 bones divided into:\n\n• Cranial bones – protect the brain.\n• Facial bones – form the face and jaws.\n\n<b>Functions of the Skull</b>\n• Protects the brain.\n• Supports facial structures.\n• Houses sense organs (eyes, ears, nose).\n• Provides attachment for facial and jaw muscles."
+      },
+      {
+        "type": "text",
+        "data": "<b>Vertebral Column (Backbone)</b>\n\nThe vertebral column is a flexible column of bones extending from the skull to the pelvis. It supports the body and protects the spinal cord.\n\nIt is made up of small bones called vertebrae separated by intervertebral discs.\n<i>See skull diagram above</i>"
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Vertebrae, Their Location and Functions</b>\n\n1. <b>Cervical Vertebrae (7)</b>\n• Location: Neck region.\n• Functions: Support the head and allow head movement.\n• Special vertebrae: Atlas (supports skull) and Axis (allows rotation).\n\n2. <b>Thoracic Vertebrae (12)</b>\n• Location: Chest region.\n• Functions: Attachment of ribs; protect heart and lungs.\n\n3. <b>Lumbar Vertebrae (5)</b>\n• Location: Lower back.\n• Functions: Support body weight; allow bending and lifting.\n\n4. <b>Sacral Vertebrae (5 fused)</b>\n• Location: Pelvic region.\n• Functions: Attach the backbone to the pelvic girdle.\n\n5. <b>Coccygeal Vertebrae (4 fused)</b>\n• Location: Tail end.\n• Functions: Provide attachment for muscles and ligaments."
+      },
+      {
+        type: "image",
+        data: "./images (72).jpeg"
+      },
+      {
+        type: "image",
+        data: "./images (73).jpeg"
+      },
+      {
+        "type": "text",
+        "data": "<b>Rib Cage</b>\n\nThe rib cage consists of 12 pairs of ribs, the sternum, and thoracic vertebrae.\n\n<b>Functions of the Rib Cage</b>\n• Protects the heart and lungs.\n• Aids breathing by expanding and contracting.\n• Supports the chest region."
+      },
+      {
+        "type": "text",
+        "data": "<b>Appendicular Skeleton</b>\n\nThe appendicular skeleton consists of the limbs and the girdles that attach them to the axial skeleton.\n\n<b>Components</b>\n• Upper limbs\n• Lower limbs\n• Pectoral girdle\n• Pelvic girdle"
+      },
+      {
+        "type": "text",
+        "data": "<b>Pectoral Girdle</b>\n\nThe pectoral girdle consists of the clavicle (collar bone) and scapula (shoulder blade).\n\n<b>Functions of the Pectoral Girdle</b>\n• Attaches the upper limbs to the axial skeleton.\n• Allows a wide range of arm movements.\n• Provides attachment for arm and shoulder muscles."
+      },
+      {
+        type: "image",
+        data: "./images (74).jpeg"
+      },
+      {
+        "type": "text",
+        "data": "<b>Pelvic Girdle</b>\n\nThe pelvic girdle is made up of the hip bones fused together.\n\n<b>Functions of the Pelvic Girdle</b>\n• Attaches the lower limbs to the axial skeleton.\n• Supports body weight.\n• Protects pelvic organs such as the bladder and reproductive organs.\n• Provides stability for standing and walking."
+      },
+      {
+        type: "image",
+        data: "./images (75).jpeg"
+      },
+      {
+        "type": "text",
+        "data": "<b>Joints</b>\n\nA joint is the point where two or more bones meet. Joints allow movement and flexibility.\n\n<b>Types of Joints</b>\n• Fixed joints – no movement (e.g. skull sutures).\n• Slightly movable joints – limited movement (e.g. between vertebrae).\n• Freely movable joints – wide range of movement."
+      },
+      {
+        type: "image",
+        data: "./images (76).jpeg"
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Freely Movable Joints</b>\n\n• Hinge joint – movement in one direction (e.g. elbow, knee).\n• Ball and socket joint – movement in all directions (e.g. shoulder, hip).\n• Pivot joint – rotational movement (e.g. atlas and axis).\n• Gliding joint – sliding movement (e.g. wrist, ankle)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Mechanism of Movement Using the Arm as an Example</b>\n\nMovement occurs when muscles contract and relax, pulling on bones at joints.\n\nIn the arm:\n• The biceps muscle contracts while the triceps relaxes to bend the arm.\n• The triceps contracts while the biceps relaxes to straighten the arm.\n\nThis type of muscle arrangement is called an antagonistic muscle system.\n\nBones act as levers, joints act as fulcrums, and muscles provide effort."
+      },
+      {
+        type: "image",
+        data: "./images (77).jpeg"
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of the Skeletal System to Movement</b>\n\n• Provides rigid structures for muscle attachment.\n• Allows leverage for efficient movement.\n• Protects organs during movement.\n• Maintains balance and posture."
+      },
+{
+  "type": "text",
+  "data": "<b>Support in Plants</b>\n\nPlants lack bones but possess specialized tissues that provide support and strength. Support in plants allows them to grow upright, spread their leaves for photosynthesis, and bear flowers and fruits."
+},
+{
+  "type": "text",
+  "data": "<b>Supporting Tissues in Plants</b>\n\n• <b>Cellulose cell wall</b> – provides rigidity and strength to plant cells.\n• <b>Collenchyma</b> – provides flexible support in young stems and leaves.\n• <b>Sclerenchyma</b> – provides strong mechanical support due to thick, lignified walls.\n• <b>Xylem tissue</b> – provides support and conducts water and minerals."
+},
+      {
+        type: "image",
+        data: "./images (78.).jpeg"
+      },
+{
+  "type": "text",
+  "data": "<b>Role of Turgidity in Plant Support</b>\n\n• Turgidity results from water pressure inside plant cells.\n• It keeps herbaceous plants upright.\n• Loss of turgidity leads to wilting.\n• Maintained by continuous absorption of water by roots."
+},
+{
+  "type": "text",
+  "data": "<b>Support in Woody Plants</b>\n\n• Provided mainly by lignified tissues.\n• Xylem vessels and fibres form hard woody stems.\n• Enables trees to grow tall and withstand wind pressure.\n• Provides long-term permanent support."
+},
+{
+  "type": "text",
+  "data": "<b>Support in Insects</b>\n\nInsects possess an exoskeleton which supports the body externally.\n\nThe exoskeleton is made mainly of chitin and covers the entire body surface."
+},
+{
+  "type": "text",
+  "data": "<b>Functions of the Insect Exoskeleton</b>\n\n• Provides support and shape to the body.\n• Protects internal organs from injury.\n• Prevents excessive water loss.\n• Serves as attachment sites for muscles.\n• Aids movement through jointed appendages."
+},
+{
+  "type": "text",
+  "data": "<b>Limitations of Exoskeleton in Insects</b>\n\n• Does not grow with the insect.\n• Must be shed periodically through moulting.\n• Limits maximum body size.\n• Can restrict flexibility."
+},
+{
+  "type": "text",
+  "data": "<b>Comparison of Support in Plants and Animals</b>\n\n• Plants rely mainly on cell walls, tissues, and turgidity.\n• Animals rely on skeletons, shells, or fluid pressure.\n• Plant support is mostly passive.\n• Animal support is closely linked with movement."
+},
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define the skeletal system.\n2. List the functions of the skeletal system.\n3. Differentiate between axial and appendicular skeleton.\n4. Describe the structure and functions of the skull.\n5. Name the types of vertebrae and state their functions.\n6. Explain the functions of the pelvic and pectoral girdles.\n7. Define a joint and list its types.\n8. Describe how movement occurs at the elbow joint.\n9. Explain antagonistic muscle action using the arm.\n10. State the importance of the skeletal system in humans."
+      }
+    ]
+  }
+},
+
+  //movement
+  
+  {
+  "topic": "Locomotion and Movement in Animals",
+  "notes": {
+    "title": "Locomotion and Movement — Types, Mechanisms, and Adaptations in Animals",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Locomotion and Movement</b>\n\nLocomotion refers to the ability of an organism to move from one place to another. Movement refers to any change in position or posture, which may include internal movement of body parts. Both locomotion and movement are essential for survival, allowing animals to obtain food, escape predators, find mates, and interact with their environment."
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Locomotion and Movement</b>\n\n• Helps animals search for food and water.\n• Enables escape from predators.\n• Facilitates mating and reproduction.\n• Allows animals to find suitable habitats.\n• Supports circulation of body fluids in some animals.\n• Essential for social interactions and territorial behaviors."
+      },
+      {
+        "type": "image",
+        "data": "./locomotion_overview.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Movement in Animals</b>\n\n1. <b>Amoeboid Movement:</b>\n• Performed by protozoans and white blood cells.\n• Involves the formation of pseudopodia (extensions of the cytoplasm) to pull the organism forward.\n• Allows slow, flexible movement in liquid or semi-solid environments.\n\n2. <b>Ciliary or Flagellar Movement:</b>\n• Movement by the coordinated beating of cilia or flagella.\n• Found in protozoa (e.g., Paramecium) and sperm cells.\n• Allows swimming through water or other fluids.\n\n3. <b>Muscular Movement:</b>\n• Found in higher animals.\n• Involves contraction and relaxation of muscles attached to the skeleton.\n• Can be voluntary (skeletal muscles) or involuntary (smooth muscles in intestines, heart muscles)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Movement in Invertebrates</b>\n\n• <b>Hydrostatic Skeleton:</b> Fluid-filled cavities provide support. Movement occurs by changing the shape of the body. Example: Earthworms.\n• <b>Exoskeleton:</b> Rigid outer covering provides attachment for muscles. Movement occurs at joints. Example: Insects and crustaceans.\n• <b>Muscular Foot:</b> Mollusks like snails use a muscular foot to glide using mucus.\n• <b>Cilia and Flagella:</b> Protozoa like Paramecium and Euglena use cilia or flagella for swimming."
+      },
+      {
+        "type": "text",
+        "data": "<b>Movement in Vertebrates</b>\n\n• <b>Endoskeleton:</b> Internal skeleton made of bone or cartilage provides support and attachment points for muscles.\n• <b>Muscle Types:</b> Skeletal muscles (voluntary), smooth muscles (involuntary), cardiac muscles (heart).\n• <b>Mechanism:</b> Muscles work in antagonistic pairs (one contracts, the other relaxes) to produce movement.\n• <b>Locomotion Methods:</b> Walking, running, swimming, flying, jumping, and burrowing.\n• <b>Adaptations:</b> Webbed feet in aquatic birds, wings in birds and bats, fins in fish, limbs in terrestrial mammals."
+      },
+      {
+        "type": "image",
+        "data": "./vertebrate_locomotion.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Muscular System in Animals</b>\n\n• Muscles are responsible for movement by contracting and relaxing.\n• Muscles are attached to bones by tendons.\n• Antagonistic pairs allow precise and coordinated movement (e.g., biceps and triceps in humans).\n• Muscle fibers contain myofibrils, which are made of actin and myosin filaments.\n• Sliding filament theory explains muscle contraction: myosin heads pull actin filaments, shortening the sarcomere."
+      },
+      {
+        "type": "text",
+        "data": "<b>Skeletal System in Animals</b>\n\n• Provides support, protection, and attachment for muscles.\n• Endoskeleton made of bone/cartilage in vertebrates, exoskeleton made of chitin in insects, hydrostatic skeleton in worms.\n• Joints allow flexibility:\n   - Hinge joints (elbow, knee)\n   - Ball and socket joints (shoulder, hip)\n   - Pivot joints (neck)\n• Ligaments connect bones and provide stability."
+      },
+      {
+        "type": "text",
+        "data": "<b>Adaptations for Efficient Locomotion</b>\n\n• Limbs adapted to environment: wings for flight, fins for swimming, strong legs for running/jumping.\n• Streamlined body shape in aquatic animals reduces resistance.\n• Muscles arranged in antagonistic pairs provide controlled movement.\n• Exoskeletons provide protection and muscle attachment in invertebrates.\n• Hydrostatic skeletons allow flexibility in soft-bodied animals."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define locomotion and movement.\n2. State the importance of movement in animals.\n3. Describe amoeboid movement and give examples.\n4. Explain ciliary and flagellar movement with examples.\n5. Describe muscular movement and its types.\n6. Explain how the endoskeleton supports movement in vertebrates.\n7. Describe adaptations for locomotion in aquatic, terrestrial, and aerial animals.\n8. Explain the sliding filament theory of muscle contraction.\n9. Describe the role of antagonistic muscles in movement.\n10. Compare hydrostatic and exoskeletal locomotion in invertebrates."
+      }
+    ]
+  }
+},
+
+  //hormonal coordination 
+  
+  {
+  "topic": "Hormonal Coordination",
+  "notes": {
+    "title": "Hormonal Coordination — Human and Plant Hormones, Glands, Functions, and Disorders",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Hormonal Coordination</b>\n\nHormonal coordination is the regulation of body activities through chemical messengers known as hormones, which are secreted by endocrine glands and transported by blood to target organs where they produce specific effects.\n\nHormonal coordination is slow but long-lasting and works together with the nervous system to maintain homeostasis, regulate growth, metabolism, reproduction, and response to environmental changes."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>The Endocrine System</b>\n\nThe endocrine system consists of ductless glands that release hormones directly into the bloodstream. These hormones act on specific target organs and tissues.\n\nExamples of endocrine glands include the pituitary, thyroid, adrenal, pancreas, testes, ovaries, and thymus."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Properties of Hormones</b>\n\n• Secreted in very small quantities.\n• Highly specific in action.\n• Transported by blood.\n• Effects are slow but prolonged.\n• Can stimulate or inhibit body processes.\n• Imbalance leads to disorders."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Pituitary Gland (Master Gland)</b>\n\nThe pituitary gland controls other endocrine glands and is located at the base of the brain."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Pituitary Hormones, Functions and Disorders</b>\n\n• <b>Growth Hormone (GH)</b>\nFunction: Stimulates growth of bones and tissues.\nUnder-secretion: Dwarfism.\nOver-secretion: Gigantism (children), Acromegaly (adults).\n\n• <b>Thyroid Stimulating Hormone (TSH)</b>\nFunction: Stimulates thyroid to produce thyroxine.\nUnder-secretion: Hypothyroidism.\nOver-secretion: Hyperthyroidism.\n\n• <b>Adrenocorticotropic Hormone (ACTH)</b>\nFunction: Stimulates adrenal cortex.\nUnder-secretion: Addison’s disease.\nOver-secretion: Cushing’s syndrome.\n\n• <b>Follicle Stimulating Hormone (FSH)</b>\nFunction: Spermatogenesis in males; egg development in females.\nUnder-secretion: Infertility.\nOver-secretion: Early puberty.\n\n• <b>Luteinizing Hormone (LH)</b>\nFunction: Ovulation and testosterone secretion.\nUnder-secretion: Delayed puberty.\nOver-secretion: Hormonal imbalance.\n\n• <b>Prolactin</b>\nFunction: Milk production.\nUnder-secretion: Failure of lactation.\nOver-secretion: Abnormal milk secretion.\n\n• <b>Antidiuretic Hormone (ADH)</b>\nFunction: Water reabsorption in kidneys.\nUnder-secretion: Diabetes insipidus.\nOver-secretion: Water retention and high blood pressure.\n\n• <b>Oxytocin</b>\nFunction: Uterine contraction and milk ejection.\nUnder-secretion: Weak labour.\nOver-secretion: Prolonged contractions."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Thyroid Gland</b>\n\nHormone: <b>Thyroxine</b>\n\nFunction:\n• Regulates metabolism.\n• Controls growth and development.\n\nUnder-secretion:\n• Cretinism (children).\n• Myxoedema (adults).\n\nOver-secretion:\n• Exophthalmic goitre."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Parathyroid Glands</b>\n\nHormone: <b>Parathyroid Hormone (PTH)</b>\n\nFunction:\n• Regulates calcium and phosphorus balance.\n\nUnder-secretion:\n• Muscle spasms (tetany).\n\nOver-secretion:\n• Weak bones (osteoporosis)."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Adrenal Glands</b>\n\n<b>Adrenal Medulla</b>\nHormone: Adrenaline\nFunction: Prepares body for emergency.\nOver-secretion: High blood pressure, anxiety.\n\n<b>Adrenal Cortex</b>\nHormones: Aldosterone, Cortisol\nUnder-secretion: Addison’s disease.\nOver-secretion: Cushing’s syndrome."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Pancreas (Islets of Langerhans)</b>\n\n• <b>Insulin</b>\nFunction: Lowers blood glucose.\nUnder-secretion: Diabetes mellitus.\nOver-secretion: Hypoglycaemia.\n\n• <b>Glucagon</b>\nFunction: Raises blood glucose.\nUnder-secretion: Low blood sugar.\nOver-secretion: High blood sugar."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Sex Hormones</b>\n\n<b>Testes</b>\nHormone: Testosterone\nFunction: Male secondary sexual characteristics and sperm production.\nUnder-secretion: Poor sexual development.\nOver-secretion: Early puberty.\n\n<b>Ovaries</b>\nHormones: Oestrogen and Progesterone\nFunctions: Menstrual cycle, pregnancy, female secondary sexual characteristics.\nUnder-secretion: Infertility.\nOver-secretion: Hormonal imbalance."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Thymus Gland</b>\n\nHormone: Thymosin\nFunction: Immune system development.\nUnder-secretion: Weak immunity.\nOver-secretion: Autoimmune disorders."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Plant Hormones (Phytohormones)</b>\n\nPlant hormones are chemical substances produced in plants that control growth, development, and responses to stimuli."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Types of Plant Hormones and Their Functions</b>\n\n• <b>Auxins</b>\nFunctions: Cell elongation, apical dominance, root initiation.\nExcess: Abnormal growth.\n\n• <b>Gibberellins</b>\nFunctions: Stem elongation, seed germination, flowering.\nExcess: Excessive elongation.\n\n• <b>Cytokinins</b>\nFunctions: Cell division, delay of ageing in leaves.\nExcess: Abnormal shoot growth.\n\n• <b>Ethylene</b>\nFunctions: Fruit ripening, leaf fall.\nExcess: Premature ripening.\n\n• <b>Abscisic Acid (ABA)</b>\nFunctions: Growth inhibition, dormancy, stomatal closure.\nExcess: Reduced growth."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Importance of Hormonal Coordination</b>\n\n• Maintains internal balance.\n• Regulates growth and development.\n• Controls metabolism.\n• Coordinates reproduction.\n• Enables adaptation to stress.\n• Controls plant growth and responses."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define hormonal coordination.\n2. List five human endocrine glands and their hormones.\n3. State effects of under and over secretion of insulin.\n4. Describe the functions of plant hormones.\n5. Differentiate between animal and plant hormones.\n6. Explain disorders caused by hormonal imbalance.\n7. State the functions of pituitary hormones.\n8. Describe the role of auxins in plants.\n9. Explain negative feedback mechanism.\n10. State the importance of hormonal coordination."
+      }
+    ]
+  }
+},
+
+  //nervous coordination 
+  
+  {
+  "topic": "Nervous Coordination",
+  "notes": {
+    "title": "Nervous Coordination — Structure, Functions, Transmission of Impulses, Reflex Action and Sense Organs",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Nervous Coordination</b>\n\nNervous coordination is the regulation and integration of body activities through the nervous system by means of electrical and chemical signals known as nerve impulses. It enables organisms to detect changes in their internal and external environment, interpret these changes, and respond rapidly and appropriately. Nervous coordination is characterized by speed, accuracy, and short duration of effect, making it especially useful in situations that require immediate response such as danger, movement, and balance. It works closely with hormonal coordination to maintain homeostasis in living organisms."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>The Nervous System and Its Divisions</b>\n\nThe nervous system is a complex network of specialized cells, tissues, and organs that coordinate and control activities in the body. It receives information from receptors, processes the information, and transmits impulses to effectors such as muscles and glands. The nervous system is divided into three major parts: the Central Nervous System (CNS), the Peripheral Nervous System (PNS), and the Autonomic Nervous System (ANS). These divisions work together to ensure effective coordination of voluntary and involuntary activities."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Central Nervous System (CNS)</b>\n\nThe central nervous system consists of the brain and the spinal cord. It serves as the control center of the body and is responsible for receiving sensory impulses, interpreting them, and issuing appropriate responses. The brain is protected by the skull while the spinal cord is enclosed within the vertebral column. The CNS plays a major role in intelligence, memory, learning, reasoning, coordination of movement, and control of vital involuntary actions."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>The Brain and Its Parts</b>\n\nThe brain is the most complex organ of the nervous system and acts as the command center of the body. It is divided into several parts, each with specific functions. The cerebrum controls voluntary actions such as walking, speaking, thinking, learning, memory, and emotions. It is also the seat of intelligence and consciousness. The cerebellum is responsible for coordinating muscle movements, maintaining balance, posture, and ensuring smooth and precise actions. The medulla oblongata controls involuntary activities such as breathing, heartbeat, swallowing, coughing, and vomiting. The hypothalamus regulates body temperature, hunger, thirst, sleep, emotional behavior, and links the nervous system with the endocrine system."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>The Spinal Cord</b>\n\nThe spinal cord is a long, cylindrical structure extending from the medulla oblongata down the vertebral column. It serves as a communication pathway between the brain and the rest of the body by transmitting nerve impulses to and from the brain. In addition, the spinal cord acts as the center for reflex actions, enabling quick responses to harmful stimuli without involving the brain directly. This helps to reduce reaction time and protect the body from injury."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Peripheral and Autonomic Nervous Systems</b>\n\nThe peripheral nervous system consists of nerves that connect the central nervous system to various parts of the body. These nerves may be sensory, motor, or mixed. Sensory nerves transmit impulses from receptors to the CNS, while motor nerves carry impulses from the CNS to effectors. Mixed nerves perform both functions. The autonomic nervous system controls involuntary activities of internal organs such as the heart, lungs, digestive system, and blood vessels. It is divided into the sympathetic nervous system, which prepares the body for emergency situations by increasing heart rate and breathing, and the parasympathetic nervous system, which restores the body to normal conditions by slowing down body activities."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Neurones: Structure and Types</b>\n\nNeurones are specialized nerve cells adapted for the transmission of nerve impulses. Each neurone consists of dendrites, a cell body, and an axon. Dendrites receive impulses from receptors or other neurones, while the axon transmits impulses away from the cell body. The axon may be covered by a myelin sheath which insulates it and increases the speed of impulse transmission. Neurones are of three main types: sensory neurones, which carry impulses from receptors to the CNS; motor neurones, which transmit impulses from the CNS to effectors; and relay neurones, which connect sensory and motor neurones within the CNS."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Transmission of Nerve Impulses and Synapse</b>\n\nNerve impulses are transmitted along neurones as electrical signals and across synapses as chemical signals. A synapse is the junction between two neurones or between a neurone and an effector. When an impulse reaches the end of a neurone, it causes the release of chemical substances called neurotransmitters. These chemicals diffuse across the synaptic gap and stimulate the next neurone or effector to generate a new impulse. This ensures one-way transmission of impulses and allows control of nerve signals."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Reflex Action and Reflex Arc</b>\n\nA reflex action is a rapid, automatic, and involuntary response to a stimulus. It does not require conscious thought and is usually mediated by the spinal cord. The pathway followed by the nerve impulse during a reflex action is called the reflex arc. It consists of a receptor, sensory neurone, relay neurone, motor neurone, and effector. Reflex actions are important for protection, survival, maintenance of posture, and quick response to danger."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Effectors and Sense Organs</b>\n\nEffectors are organs that respond to nerve impulses and produce an action. They include muscles, which contract or relax, and glands, which secrete substances. Sense organs are specialized structures that detect stimuli and convert them into nerve impulses. The major sense organs are the eye for sight, the ear for hearing and balance, the nose for smell, the tongue for taste, and the skin for touch, temperature, pain, and pressure. These organs enable organisms to interact effectively with their environment."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Importance of Nervous Coordination</b>\n\nNervous coordination enables organisms to respond quickly and effectively to stimuli, ensuring survival in a constantly changing environment. It helps in the control of voluntary and involuntary actions, coordination of body movements, maintenance of balance and posture, and regulation of vital body processes. Together with hormonal coordination, it ensures proper functioning of the body and maintenance of internal stability."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n\n1. Define nervous coordination and explain its importance in living organisms.\n2. Describe the structure and functions of the central nervous system.\n3. Explain the functions of the cerebrum, cerebellum, and medulla oblongata.\n4. Describe the structure of a neurone and explain how it is adapted for its function.\n5. Differentiate between sensory, motor, and relay neurones.\n6. Explain how a nerve impulse is transmitted across a synapse.\n7. What is a reflex action? Describe the reflex arc with the aid of a labeled diagram.\n8. State the functions of the spinal cord in mammals.\n9. Differentiate between the sympathetic and parasympathetic nervous systems.\n10. List the major sense organs and explain the function of each.\n11. Explain the role of nervous coordination in maintaining homeostasis.\n12. Describe the relationship between nervous coordination and hormonal coordination."
+      }
+    ]
+  }
+},
+
+  //sense organs 
+  
+  {
+  "topic": "Sense Organs",
+  "notes": {
+    "title": "Sense Organs — Structure, Function, Mechanism of Sensation, and Common Disorders",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Sense Organs</b>\n\nSense organs are specialized organs that detect stimuli from the environment or from within the body and convert them into nerve impulses that are transmitted to the brain for interpretation. They enable organisms to perceive changes, respond appropriately, and maintain homeostasis. In humans, the major sense organs are the eyes (sight), ears (hearing and balance), skin (touch, temperature, pain, pressure), tongue (taste), and nose (smell). These organs work in coordination with the nervous system to ensure effective interaction with the environment."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>The Eye — Structure and Function</b>\n\nThe eye is the organ of vision that detects light and images.\n\n<b>Structure of the Eye:</b>\n• Cornea — transparent layer that refracts light.\n• Sclera — white outer layer that provides protection.\n• Choroid — vascular layer that supplies nutrients to the eye.\n• Retina — contains photoreceptor cells (rods and cones) that detect light intensity and color.\n• Lens — transparent, flexible structure that focuses light onto the retina.\n• Iris — colored part that controls the amount of light entering the eye.\n• Pupil — opening in the iris for light entry.\n• Optic nerve — transmits impulses from retina to brain.\n• Ciliary muscles — adjust lens shape for focusing."
+      },
+      {
+        type: "image",
+        data: "./images (60).jpeg"
+      },
+      {
+        type: "text",
+        data: "<b>Mechanism of Vision:</b>\n• Light enters through cornea → pupil → lens.\n• Lens focuses light on the retina.\n• Photoreceptors convert light into nerve impulses.\n• Optic nerve transmits impulses to the brain’s visual cortex.\n\n<b>Common Eye Disorders:</b>\n• Myopia (short-sightedness), hypermetropia (long-sightedness), cataract, glaucoma, color blindness."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Ear — Structure and Function</b>\n\nThe ear is responsible for hearing and balance.\n\n<b>Structure of the Ear:</b>\n1. Outer ear: Pinna (auricle) collects sound, auditory canal transmits sound to tympanic membrane.\n2. Middle ear: Tympanic membrane (ear drum) vibrates in response to sound; ossicles (malleus, incus, stapes) amplify vibrations; Eustachian tube maintains pressure balance.\n3. Inner ear: Cochlea (hearing) converts vibrations into nerve impulses; semicircular canals and vestibule (balance) detect head movement and position."
+      },
+      
+      {
+        type: "image",
+        data: "./images (62).jpeg"
+      },
+      {
+        type: "text",
+        data: "<b>Mechanism of Hearing:</b>\n• Sound waves → tympanic membrane → ossicles → cochlea.\n• Cochlea’s hair cells detect vibrations and generate impulses.\n• Auditory nerve transmits signals to brain for interpretation.\n\n<b>Common Ear Disorders:</b>\n• Ear infections, deafness, tinnitus, balance disorders."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Skin — Structure and Function</b>\n\nSkin is the largest organ of the body and is responsible for touch, temperature, pressure, and pain detection.\n\n<b>Structure:</b>\n• Epidermis — outer protective layer.\n• Dermis — contains sensory receptors, blood vessels, and sweat glands.\n• Hypodermis — fatty layer providing insulation and cushioning.\n\n<b>Mechanism of Sensation:</b>\n• Meissner’s corpuscles — detect light touch.\n• Pacinian corpuscles — detect pressure and vibrations.\n• Free nerve endings — detect pain and temperature.\n• Hair follicles — detect movement of hair."
+      },
+      {
+        type: "image",
+        data: "./images (61).jpeg"
+      },
+      {
+        type: "text",
+        data: "<b>Functions of the skin:</b>\n• Protects against physical injury, pathogens, and water loss.\n• Regulates body temperature through sweat and blood flow.\n• Detects sensory stimuli enabling responses to the environment.\n\n<b>Common Skin Disorders:</b>\n• Burns, cuts, eczema, acne, dermatitis."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Tongue — Structure and Function</b>\n\nThe tongue is the organ of taste and speech.\n\n<b>Structure:</b>\n• Papillae — contain taste buds.\n• Taste buds — sensory structures detecting chemical stimuli.\n• Different taste regions: sweet (tip), salty & sour (sides), bitter (back).\n\n<b>Mechanism of Taste:</b>\n• Chemicals in food dissolve in saliva and stimulate taste buds.\n• Receptor cells generate impulses transmitted via facial and glossopharyngeal nerves.\n• Brain interprets impulses as specific tastes.\n\n<b>Common Disorders:</b>\n• Loss of taste, inflammation of taste buds, infections."
+      },
+      {
+        type: "image",
+        data: "Tongue.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>The Nose — Structure and Function</b>\n\nThe nose is the organ of smell and also helps in respiration.\n\n<b>Structure:</b>\n• Nasal cavity — lined with mucous membrane and cilia.\n• Olfactory epithelium — contains olfactory receptor cells.\n• Olfactory nerve — transmits impulses to brain.\n\n<b>Mechanism of Smell:</b>\n• Odor molecules dissolve in mucus and stimulate olfactory receptors.\n• Receptor cells generate impulses carried to the olfactory bulb.\n• Brain interprets impulses as specific smells.\n\n<b>Common Disorders:</b>\n• Loss of smell (anosmia), infections, nasal polyps."
+      },
+      {
+        type: "image",
+        data: "./images (63).jpeg"
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Sense Organs</b>\n• Enable interaction with the environment.\n• Protect the body by detecting danger.\n• Aid in communication (speech and gestures).\n• Maintain balance, coordination, and orientation.\n• Contribute to learning, memory, and survival.\n• Allow perception of taste, sound, sight, smell, and touch which are critical for feeding, avoiding hazards, and reproduction."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n\n1. Define sense organs and explain their general function.\n2. Describe the structure of the human eye and explain the mechanism of vision.\n3. List and explain three common disorders of the eye.\n4. Describe the structure of the human ear and explain how it enables hearing and balance.\n5. Explain the role of different sensory receptors in the skin.\n6. Describe the structure of the tongue and explain how taste is perceived.\n7. Explain the structure of the nose and mechanism of olfaction.\n8. Discuss the importance of sense organs in maintaining homeostasis.\n9. Compare the mechanisms of vision and hearing.\n10. How do sense organs work with the nervous system to coordinate responses to stimuli?"
+      }
+    ]
+  }
+},
+
+  //reproduction 
+  
+  {
+  "topic": "Reproduction",
+  "notes": {
+    "title": "Reproduction — Asexual and Sexual, Human Reproductive System, Fertilization, Development, and Reproductive Strategies",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Reproduction</b>\n\nReproduction is the biological process by which living organisms produce new individuals of their own kind. It ensures the continuity of species and enables the transfer of genetic information from parents to offspring. Reproduction may occur through asexual or sexual means, and it is a fundamental characteristic of all living organisms. While asexual reproduction produces genetically identical offspring, sexual reproduction introduces genetic variation, enhancing adaptability and survival of species."
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Reproduction</b>\n\n1. <b>Asexual Reproduction</b>\nAsexual reproduction involves the production of offspring from a single parent without the fusion of gametes. The offspring are genetically identical to the parent. It is common in unicellular organisms, many plants, and some animals. \n\n<b>Types of Asexual Reproduction:</b>\n• <b>Binary Fission:</b> The parent cell divides into two equal halves. Common in bacteria, amoeba, and some protozoa.\n• <b>Budding:</b> A new individual develops from an outgrowth or bud on the parent. Examples include Hydra and yeast.\n• <b>Fragmentation:</b> The parent body breaks into fragments, each of which develops into a new individual. Seen in Planaria.\n• <b>Spore Formation:</b> Organisms produce spores that can develop into new individuals. Examples: fungi like Rhizopus.\n• <b>Vegetative Propagation:</b> Occurs in plants through runners, tubers, bulbs, rhizomes, and suckers. Examples: potato (tuber), onion (bulb), strawberry (runner).\n• <b>Parthenogenesis:</b> Development of an unfertilized egg into a complete individual. Common in honeybees and some lizards."
+      },
+      {
+        type: "image",
+        data: "./images (64).jpeg"
+      },
+      {
+        type: "image",
+        data: "./images (65).jpeg"
+      },
+
+      {
+        "type": "text",
+        "data": "2. <b>Sexual Reproduction</b>\nSexual reproduction involves the fusion of male and female gametes (fertilization) to produce genetically diverse offspring. This type of reproduction is common in most animals and flowering plants.\n\n<b>General Process:</b>\n• Production of gametes through meiosis.\n• Fertilization (fusion of sperm and egg in animals or pollen and ovule in plants).\n• Development of zygote into a new individual.\n\n<b>Advantages:</b>\n• Produces genetic variation.\n• Enhances adaptability and survival of species.\n• Enables elimination of harmful mutations over generations.\n\n<b>Disadvantages:</b>\n• Requires two parents.\n• Slower and energy-consuming compared to asexual reproduction."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Reproduction in Plants</b>\n\nPlants exhibit both asexual and sexual reproduction. Sexual reproduction in plants can be classified as:\n\n• <b>Flowering Plants (Angiosperms):</b>\n   - Male gametes are produced in pollen grains within the anther.\n   - Female gametes are produced in the ovule inside the ovary.\n   - Fertilization occurs after pollination, leading to seed and fruit formation.\n\n• <b>Pollination:</b>\n   - Transfer of pollen from anther to stigma.\n   - Types: Self-pollination (same flower) and Cross-pollination (different flower/plant).\n\n• <b>Fertilization in Plants:</b>\n   - Pollen tube grows from stigma to ovule.\n   - Sperm nuclei travel to the ovule.\n   - Double fertilization occurs: one sperm fuses with egg (zygote), another fuses with polar nuclei (endosperm).\n\n• <b>Seed and Fruit Formation:</b>\n   - Zygote develops into an embryo inside the seed.\n   - Ovule becomes seed, ovary becomes fruit.\n   - Dispersal mechanisms include wind, water, and animals."
+      },
+      {
+        type: "image",
+        data: "./images (66).jpeg"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Reproduction in Animals</b>\n\nAnimal reproduction can be external or internal:\n\n• <b>External Fertilization:</b>\n   - Gametes are released into the environment, usually water.\n   - Fertilization occurs outside the body.\n   - Examples: Frogs, fishes.\n\n• <b>Internal Fertilization:</b>\n   - Male gametes (sperm) deposited inside female reproductive tract.\n   - Fertilization occurs within female.\n   - Examples: Mammals, birds.\n\n<b>Human Reproductive System:</b>\n\n<b>Male Reproductive System:</b>\n• Testes – produce sperm and testosterone.\n• Epididymis – store and mature sperm.\n• Vas deferens – transport sperm to urethra.\n• Prostate gland, seminal vesicles – produce seminal fluid.\n• Penis – delivers sperm into female reproductive tract."
+      },
+      {
+        type: "image",
+        data: "./images (68).jpeg"
+      },
+      {
+        type: "text",
+        data: "<b>Female Reproductive System:</b>\n• Ovaries – produce eggs (ova) and estrogen/progesterone.\n• Fallopian tubes (oviducts) – transport egg to uterus, site of fertilization.\n• Uterus – site of embryo implantation and development.\n• Cervix – opening of uterus.\n• Vagina – receives penis during copulation."
+      },
+      {
+        type: "image",
+        data: "./images (69).jpeg"
+      },
+      {
+        "type": "text",
+        "data": "<b>Fertilization and Pregnancy in Humans</b>\n\n• Fertilization occurs when sperm fuses with egg in the fallopian tube, forming a zygote.\n• Zygote undergoes cleavage to form a blastocyst, which implants in the uterine wall.\n• Pregnancy lasts about 9 months (gestation), during which the embryo develops into a fetus.\n• Placenta forms to facilitate nutrient, oxygen, and waste exchange between mother and fetus.\n• Hormones like estrogen, progesterone, and HCG regulate pregnancy and parturition.\n• Childbirth (parturition) involves coordinated contractions of uterine muscles, controlled by oxytocin."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Secondary Sexual Characteristics and Hormonal Control</b>\n\n• Male: Testosterone stimulates facial and pubic hair, deep voice, muscle development.\n• Female: Estrogen and progesterone stimulate breast development, menstruation, fat deposition, and menstrual cycle regulation.\n• Hormones regulate gamete production, sexual maturity, and reproductive cycles."
+      },
+      {
+  type: "text",
+  data: "<b>Reproductive Health:</b>\n• State of complete physical, mental, and social well-being in all matters relating to reproduction.\n• Not merely the absence of disease or infirmity.\n• Includes the right to safe, satisfying, and responsible sexual life.\n• Encourages informed decision-making about reproduction."
+},
+{
+  type: "text",
+  data: "<b>Adolescent Reproductive Health:</b>\n• Focuses on reproductive health issues affecting young people.\n• Includes education on puberty, menstruation, and bodily changes.\n• Aims to prevent teenage pregnancy and STIs.\n• Promotes responsible sexual behavior."
+},
+{
+  type: "text",
+  data: "<b>Responsible Sexual Behaviour:</b>\n• Involves abstinence or protected sexual intercourse.\n• Reduces risk of unwanted pregnancies.\n• Prevents sexually transmitted infections.\n• Encourages self-control and respect for others."
+},
+{
+  type: "text",
+  data: "<b>Family Planning:</b>\n• Practice of controlling the number and spacing of children.\n• Helps couples decide when to have children.\n• Improves standard of living.\n• Reduces maternal and infant mortality."
+},
+{
+  type: "text",
+  data: "<b>Importance of Family Planning:</b>\n• Prevents overpopulation.\n• Enhances economic stability of families.\n• Improves health of mothers and children.\n• Encourages responsible parenthood."
+},
+{
+  type: "text",
+  data: "<b>Natural Family Planning Methods:</b>\n• Based on identifying fertile and infertile periods.\n• Includes calendar method, basal body temperature method, and cervical mucus method.\n• No drugs or devices involved.\n• Less effective if not properly practiced."
+},
+{
+  type: "text",
+  data: "<b>Artificial Family Planning Methods:</b>\n• Involves use of drugs, devices, or surgery.\n• Includes condoms, oral pills, injectables, IUDs, implants, and sterilization.\n• Highly effective when correctly used.\n• Some methods provide protection against STIs."
+},
+{
+  type: "text",
+  data: "<b>Barrier Methods of Family Planning:</b>\n• Prevent sperm from reaching the ovum.\n• Examples include male and female condoms and diaphragms.\n• Provide protection against STIs.\n• Widely accessible and easy to use."
+},
+{
+  type: "text",
+  data: "<b>Hormonal Methods of Family Planning:</b>\n• Use hormones to prevent ovulation or implantation.\n• Includes oral contraceptive pills, injectables, and implants.\n• Very effective when used consistently.\n• May cause side effects such as nausea or weight changes."
+},
+{
+  type: "text",
+  data: "<b>Surgical Methods of Family Planning:</b>\n• Permanent methods of contraception.\n• Includes vasectomy in males and tubal ligation in females.\n• Suitable for couples who do not want more children.\n• Does not protect against STIs."
+},
+{
+  type: "text",
+  data: "<b>Sexually Transmitted Infections (STIs):</b>\n• Infections transmitted mainly through sexual contact.\n• Examples include HIV/AIDS, syphilis, gonorrhea, and herpes.\n• Can cause infertility and death if untreated.\n• Prevented through abstinence, condom use, and medical testing."
+},
+{
+  type: "text",
+  data: "<b>Effects of Poor Reproductive Health:</b>\n• Increased rate of unwanted pregnancies.\n• Spread of sexually transmitted infections.\n• Unsafe abortions and maternal deaths.\n• Social and economic challenges."
+},
+{
+  type: "text",
+  data: "<b>Role of Health Education in Reproductive Health:</b>\n• Provides accurate information on sexual health.\n• Promotes healthy lifestyle choices.\n• Reduces myths and misconceptions.\n• Encourages early medical attention when needed."
+},
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n\n1. Define reproduction and explain its importance in living organisms.\n2. Differentiate between asexual and sexual reproduction.\n3. List and explain five types of asexual reproduction with examples.\n4. Describe the structure of male and female human reproductive systems.\n5. Explain the process of fertilization and implantation in humans.\n6. Define pollination and fertilization in flowering plants.\n7. Describe double fertilization and its significance in angiosperms.\n8. Explain the difference between internal and external fertilization with examples.\n9. Discuss the roles of hormones in human reproduction.\n10. Explain the advantages and disadvantages of asexual and sexual reproduction.\n11. Describe the development of a human zygote into a fetus.\n12. Explain the mechanisms of seed dispersal in plants."
+      }
+    ]
+  }
+},
 
   //growth
-{  
-  topic: "Growth",  
-  notes: {  
-    title: "Growth — Increase in Size and Complexity",  
-    content: [  
-      {  
-        type: "text",  
-        data: "Growth is a permanent increase in size, mass, and complexity of an organism due to cell division and enlargement. It is one of the basic characteristics of living things."  
-      },  
-      {  
-        type: "text",  
-        data: "In plants, growth occurs mainly at regions called meristems, found at root and shoot tips. In animals, growth is more uniform but slows down after maturity."  
-      },  
-      {  
-        type: "text",  
-        data: "Phases of Growth:\n1. Lag Phase – slow initial growth.\n2. Log Phase – rapid growth.\n3. Stationary Phase – growth slows or stops as maturity is reached."  
-      }, 
+
+  {
+  "topic": "Growth",
+  "notes": {
+    "title": "Growth — Meaning, Types, Patterns, Factors, and Measurement",
+    "content": [
       {
-        type: "image",
-        data: "./Sigmoid-growth-curve.png"
+        "type": "text",
+        "data": "<b>Meaning of Growth</b>\n\nGrowth is the irreversible increase in size, mass, or number of cells in an organism, resulting in an increase in the organism’s overall body size. Growth is a fundamental characteristic of living organisms and is influenced by genetic and environmental factors. It can occur at the cellular level (cell division and enlargement), tissue level, organ level, and whole-organism level. Growth is different from development, which includes qualitative changes such as differentiation and maturation of tissues and organs."
       },
-      {  
-        type: "text",  
-        data: "Measurement of Growth:\n• Increase in length, height, or weight.\n• Use of instruments like measuring tape, weighing balance, or growth curves."  
-      },  
-      {  
-        type: "text",  
-        data: "Factors Affecting Growth:\n• Internal: heredity, hormones.\n• External: temperature, water, light, nutrients, and oxygen availability."  
-      }
-    ]  
-  }  
-}, 
-{  
-  topic: "Reproduction in Living Organisms",  
-  notes: {  
-    title: "Reproduction — Continuity of Life",  
-    content: [  
-      {  
-        type: "text",  
-        data: "Reproduction is the biological process by which living organisms produce new individuals of their own kind. It ensures the continuity of species."  
-      },  
-      {  
-        type: "text",  
-        data: "Types of Reproduction:\n1. Asexual Reproduction – involves only one parent; offspring are identical to the parent. Examples include binary fission in amoeba, budding in yeast, and vegetative propagation in plants.\n2. Sexual Reproduction – involves two parents and the fusion of male and female gametes to form a zygote. The offspring show variations."  
+
+      {
+        "type": "text",
+        "data": "<b>Characteristics of Growth</b>\n\n• It is permanent and irreversible.\n• It occurs through cell division, enlargement, and differentiation.\n• It is influenced by genetic and environmental factors.\n• It can be measured quantitatively (mass, height, volume) or qualitatively (structural and functional changes).\n• Growth is often accompanied by development but they are distinct processes."
       },
+
       {
-        type: "image",
-        data: "./images (53).jpeg"
+        "type": "text",
+        "data": "<b>Types of Growth</b>\n\n1. <b>Primary Growth:</b> Increases the length of an organism. In plants, this occurs in apical meristems, while in animals, it occurs mainly through elongation of cells during early development.\n\n2. <b>Secondary Growth:</b> Increases the girth or thickness of an organism. In plants, this occurs in lateral meristems (cambium). In animals, it occurs in bones and muscles.\n\n3. <b>Exponential Growth:</b> Rapid, unrestricted growth, often seen in bacteria and microorganisms under ideal conditions.\n\n4. <b>Sigmoid Growth:</b> S-shaped growth pattern commonly observed in higher animals and plants.\n   - Lag phase: slow growth.\n   - Log phase: rapid growth.\n   - Plateau phase: growth slows and stabilizes due to limiting factors."
       },
+
       {
-        type: "image",
-        data: "./images (52).jpeg"
+        "type": "text",
+        "data": "<b>Patterns of Growth in Animals</b>\n\n• <b>Continuous Growth:</b> Steady growth throughout life, e.g., human hair, nails.\n• <b>Discontinuous Growth:</b> Growth occurs in bursts, e.g., insects (larva to adult) and seasonal growth in plants.\n• <b>Allometric Growth:</b> Different body parts grow at different rates. Example: human head grows slower than limbs.\n• <b>Isometric Growth:</b> All body parts grow at the same rate, maintaining proportionality."
       },
-      {  
-        type: "text",  
-        data: "In plants, sexual reproduction occurs through flowers, which contain male and female organs:\n• Male part (stamen) produces pollen grains.\n• Female part (carpel) contains the ovary and ovules.\nPollination is the transfer of pollen from the anther to the stigma, followed by fertilization inside the ovary."  
-      },  
+
       {
-        type: "image", 
-        data: "./images (51).jpeg"
+        "type": "text",
+        "data": "<b>Factors Affecting Growth</b>\n\n1. <b>Genetic Factors:</b> Growth is determined by the genetic makeup inherited from parents.\n2. <b>Nutrition:</b> Adequate supply of carbohydrates, proteins, fats, vitamins, and minerals is essential.\n3. <b>Hormones:</b> Growth hormone (somatotropin), thyroid hormones, insulin, sex hormones, and cortisol regulate growth.\n4. <b>Environmental Factors:</b> Light, temperature, water availability, and oxygen supply affect growth.\n5. <b>Health Status:</b> Diseases, infections, and parasitic infestations can inhibit growth.\n6. <b>Exercise and Activity:</b> Physical activity can stimulate muscle and bone growth."
       },
-      {  
-        type: "text",  
-        data: "In animals, reproduction involves the fusion of sperm (male gamete) and ovum (female gamete). Fertilization may be internal (as in humans) or external (as in fish and frogs)."  
-      },  
-      {  
-        type: "image",  
-        data: "./2018125-134649628-1228-sperm-cell.png"  
-      }  
-    ]  
-  }  
-},  
-{  
-  topic: "Irritability (Response to Stimuli)",  
-  notes: {  
-    title: "Irritability — Response and Coordination in Organisms",  
-    content: [  
-      {  
-        type: "text",  
-        data: "Irritability is the ability of living organisms to detect and respond to changes in their environment, called stimuli. It helps them survive by maintaining balance and avoiding danger."  
-      },  
-      {  
-        type: "text",  
-        data: "In plants, responses are mainly slow and growth-oriented. These are called tropisms:\n• Phototropism – response to light.\n• Geotropism – response to gravity.\n• Hydrotropism – response to water.\n• Thigmotropism – response to touch."  
+
+      {
+        "type": "text",
+        "data": "<b>Measurement of Growth</b>\n\nGrowth can be measured in several ways depending on the organism and level of organization:\n\n• <b>Linear Measurements:</b> Height, length of body or organs.\n• <b>Mass Measurements:</b> Body weight, dry mass, fresh mass.\n• <b>Cellular Measurements:</b> Number of cells, size of cells, rate of mitosis.\n• <b>Volume:</b> Used for microorganisms or plant organs.\n• <b>Growth Rate:</b> Calculated as change in size, mass, or cell number per unit time.\n• <b>Growth Curves:</b> Graphical representation of growth pattern over time, useful to study phases like lag, log, and plateau."
       },
+
       {
-        type: "image",
-        data: "./images (54).jpeg"
-      },      
-      {
-        type: "image",
-        data: "./images (55).jpeg"
+        "type": "text",
+        "data": "<b>Significance of Growth</b>\n\n• Ensures proper development and maturation of tissues and organs.\n• Maintains structural and functional integrity of the organism.\n• Enables adaptation to the environment.\n• Provides insight into health status and nutritional adequacy.\n• Important in agriculture and aquaculture for improving yield and productivity.\n• Helps in understanding developmental biology and evolutionary patterns."
       },
-      {  
-        type: "text",  
-        data: "In animals, irritability is controlled by the nervous system and hormonal system:\n• Receptors (sense organs) detect changes.\n• The brain and spinal cord process information.\n• Effectors (muscles or glands) carry out responses."  
-      },      
+
       {
-        type: "image",
-        data: "./istockphoto-1384608331-612x612.jpg"
-      },
-      {  
-        type: "text",  
-        data: "Examples of animal responses include pulling the hand away from a hot object and closing the eyes when exposed to bright light."  
-      }
-    ]  
-  }  
-},  
-{  
-  topic: "Movement",  
-  notes: {  
-    title: "Movement — Locomotion in Animals and Plants",  
-    content: [  
-      {  
-        type: "text",  
-        data: "Movement is a change in position or place of a part or whole organism. In animals, it often involves locomotion — moving from one place to another."  
-      },  
-      {  
-        type: "text",  
-        data: "Types of Movement:\n1. Movement in Animals – involves bones, muscles, and joints. Animals move to find food, escape danger, or seek mates.\n2. Movement in Plants – slower and growth-related, caused by external stimuli such as light, water, and gravity."  
-      },  
-      {  
-        type: "text",  
-        data: "Types of Plant Movements:\n• Tropic Movements – directional and permanent (e.g., bending of stem towards light).\n• Nastic Movements – non-directional and temporary (e.g., closing of mimosa leaves when touched)."  
-      },  
-      {  
-        type: "text",  
-        data: "In humans and other vertebrates, locomotion is aided by the skeletal system (bones and joints) and muscular system (muscles contracting and relaxing to create motion)."  
-      },  
-      {  
-        type: "image",  
-        data: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Human_muscular_system_back_and_front_labelled.svg/640px-Human_muscular_system_back_and_front_labelled.svg.png"  
-      }  
-    ]  
-  }  
-},  
-{  
-  topic: "Excretion and Homeostasis",  
-  notes: {  
-    title: "Excretion and Homeostasis — Removing Wastes and Maintaining Balance",  
-    content: [  
-      {  
-        type: "text",  
-        data: "Excretion is the process by which living organisms remove metabolic waste products such as carbon dioxide, urea, and excess water from their bodies."  
-      },  
-      {  
-        type: "text",  
-        data: "Excretory Organs in Humans:\n• Lungs – remove carbon dioxide and water vapour.\n• Kidneys – remove urea, salts, and excess water as urine.\n• Skin – removes water, salts, and some urea through sweat."  
-      },  
-      {  
-        type: "text",  
-        data: "In plants, excretion occurs through:\n• Stomata – release of oxygen and water vapour.\n• Lenticels – exchange of gases.\n• Leaf fall and exudation of gums or resins."  
-      },  
-      {  
-        type: "text",  
-        data: "Homeostasis is the maintenance of a stable internal environment despite external changes. Examples include regulation of body temperature, water balance, and blood sugar levels."  
-      },  
-      {  
-        type: "image",  
-        data: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Human_excretory_system_diagram_en.svg/640px-Human_excretory_system_diagram_en.svg.png"  
-      }  
-    ]  
-  }  
-},
-{
-  topic: "Transport System",
-  notes: {
-    title: "Transport System — Movement of Substances in Plants and Animals",
-    content: [
-      {
-        type: "text",
-        data: "All living organisms need to transport materials such as water, gases, and nutrients to maintain life. Small organisms rely on diffusion, while larger ones have specialized transport systems."
-      },
-      {
-        type: "text",
-        data: "In Plants:\n• Xylem – transports water and mineral salts from the roots to the leaves.\n• Phloem – transports manufactured food (sucrose and amino acids) from leaves to other parts of the plant.\nMovement of water through the plant occurs by transpiration pull, cohesion, and adhesion forces."
-      },
-      {
-        type: "text",
-        data: "In Animals:\nTransport is carried out by the circulatory system, which consists of:\n• Heart – pumps blood.\n• Blood vessels – arteries, veins, and capillaries.\n• Blood – carries oxygen, nutrients, hormones, and waste products."
-      },
-      {
-        type: "text",
-        data: "Human Blood Components:\n• Red Blood Cells – carry oxygen using haemoglobin.\n• White Blood Cells – fight diseases.\n• Platelets – help in blood clotting.\n• Plasma – transports dissolved substances."
-      },
-      {
-        type: "image",
-        data: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Human_circulatory_system.svg/640px-Human_circulatory_system.svg.png"
-      }
-    ]
-  }
-},
-{
-  topic: "Respiration in Living Things",
-  notes: {
-    title: "Gaseous Exchange — Breathing and Respiration",
-    content: [
-      {
-        type: "text",
-        data: "Gaseous exchange is the process by which oxygen enters and carbon dioxide leaves the body of an organism. It occurs by diffusion across thin, moist membranes."
-      },
-      {
-        type: "text",
-        data: "In Plants:\n• Takes place through stomata (in leaves) and lenticels (in stems).\n• Oxygen is released during photosynthesis, and carbon dioxide is taken in during respiration."
-      },
-      {
-        type: "text",
-        data: "In Animals:\nDifferent animals have specialized organs for gaseous exchange:\n• Fish – gills\n• Insects – tracheae\n• Amphibians – skin and lungs\n• Mammals – lungs"
-      },
-      {
-        type: "text",
-        data: "In humans, gaseous exchange occurs in the alveoli of the lungs where oxygen diffuses into the blood and carbon dioxide diffuses out. The diaphragm and rib muscles help in breathing movements."
-      },
-      {
-        type: "image",
-        data: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Respiratory_system_complete_en.svg/640px-Respiratory_system_complete_en.svg.png"
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n\n1. Define growth and differentiate it from development.\n2. Describe the characteristics of growth.\n3. Differentiate between primary and secondary growth in plants with examples.\n4. Explain sigmoid growth pattern and its phases.\n5. Compare allometric and isometric growth with examples.\n6. List five factors that affect growth and explain their influence.\n7. Explain how hormones regulate growth in humans.\n8. Describe methods used to measure growth in animals and plants.\n9. Discuss the significance of growth in living organisms.\n10. Draw a growth curve and label lag, log, and plateau phases."
       }
     ]
   }
 },
 
-  //adaptation of living organisms
-  {  
-  topic: "Adaptations of Living Organisms",  
-  notes: {  
-    title: "Functions and Adaptations — How Organisms Survive",  
-    content: [  
-      {  
-        type: "text",  
-        data: "All living organisms perform basic life functions such as nutrition, respiration, movement, reproduction, excretion, and response to stimuli. These functions ensure survival and continuity of life."  
-      },  
-      {  
-        type: "text",  
-        data: "Adaptation refers to special features or behaviors that help organisms survive in their environments. It can be structural, behavioral, or physiological."  
-      },  
-      {  
-        type: "text",  
-        data: "Examples of Adaptations:\n• Plants: cactus has thick stems to store water; mangroves have breathing roots.\n• Animals: fish have gills for respiration in water; birds have hollow bones for flight; desert animals conserve water and are active at night."  
-      },
-        {
-          type: "image",
-          data: "./cactus-plant.png"
-        },
-      {  
-        type: "text",  
-        data: "Through adaptation, organisms maintain a balance between their internal processes and the external environment — this is known as homeostasis."  
-      }
-    ]  
-  }  
-},
-
+//basic ecological concept 
 
 {
-  topic: "Respiration in Living Organisms",
-  notes: {
-    title: "Respiration — Energy Production in Cells",
-    content: [
+  "topic": "Ecology",
+  "notes": {
+    "title": "Ecology — Key Concepts, Interactions, and Processes",
+    "content": [
       {
-        type: "text",
-        data: "Respiration is the process by which energy is released from food substances, mainly glucose, in the cells of living organisms."
+        "type": "text",
+        "data": "<b>Meaning of Ecology</b>\n\nEcology is the scientific study of interactions between organisms and their environment. It focuses on understanding how biotic (living) and abiotic (non-living) components interact to influence the distribution, abundance, and survival of organisms. Ecological studies aim to explain patterns in nature and predict how ecosystems respond to changes."
       },
+      
       {
-        type: "text",
-        data: "Types of Respiration:\n• Aerobic respiration – occurs in the presence of oxygen and produces carbon dioxide, water, and large amounts of energy (ATP).\n  Equation: Glucose + Oxygen → Carbon dioxide + Water + Energy.\n• Anaerobic respiration – occurs without oxygen, producing less energy and by-products like lactic acid or alcohol."
+        "type": "text",
+        "data": "<b>Basic Ecological Concepts</b>\n\n• <b>Habitat:</b> The specific natural environment in which an organism lives, e.g., forest, desert, freshwater.\n• <b>Niche:</b> The role and position an organism occupies in its ecosystem, including its interactions with other organisms and use of resources.\n• <b>Population:</b> A group of individuals of the same species living in a specific area at a given time.\n• <b>Community:</b> All populations of different species living and interacting in a particular area.\n• <b>Ecosystem:</b> A system formed by interactions of a community with its abiotic environment.\n• <b>Biome:</b> A large geographic area with similar climate, vegetation, and organisms (e.g., tropical rainforest, savanna, tundra).\n• <b>Biosphere:</b> The global ecological system integrating all living beings and their relationships with the atmosphere, hydrosphere, and lithosphere."
       },
+
       {
-        type: "text",
-        data: "Importance of Respiration:\n• Provides energy for growth, repair, movement, and transport of materials.\n• Maintains body temperature in warm-blooded animals."
+        "type": "text",
+        "data": "<b>Interactions in Ecology</b>\n\n1. <b>Intraspecific Interaction:</b> Interaction within the same species (e.g., competition for mates or food).\n2. <b>Interspecific Interaction:</b> Interaction between different species, which can be:\n   - <b>Competition:</b> Both species are harmed while competing for the same resource.\n   - <b>Predation:</b> One species (predator) feeds on another (prey).\n   - <b>Parasitism:</b> One species benefits (parasite) while the other is harmed (host).\n   - <b>Mutualism:</b> Both species benefit.\n   - <b>Commensalism:</b> One benefits, the other is unaffected.\n   - <b>Amensalism:</b> One species is harmed, the other is unaffected."
       },
+
       {
-        type: "text",
-        data: "Respiration takes place in the mitochondria of cells, which are known as the 'powerhouse' of the cell."
+        "type": "text",
+        "data": "<b>Population Ecology</b>\n\n• <b>Population Density:</b> Number of individuals per unit area or volume.\n• <b>Population Distribution:</b> Pattern of spacing among individuals (uniform, random, clumped).\n• <b>Age Structure:</b> Proportion of individuals in different age groups (pre-reproductive, reproductive, post-reproductive).\n• <b>Population Growth:</b>\n   - <b>Exponential (J-shaped):</b> Rapid growth under ideal conditions.\n   - <b>Logistic (S-shaped):</b> Growth slows as population reaches carrying capacity.\n• <b>Factors Affecting Population:</b>\n   - Biotic: predation, competition, disease.\n   - Abiotic: temperature, water availability, habitat space."
       },
+
       {
-        type: "image",
-        data: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Mitochondrion_mini.svg/640px-Mitochondrion_mini.svg.png"
+        "type": "text",
+        "data": "<b>Community Ecology</b>\n\n• <b>Species Diversity:</b> Number of species and their relative abundance.\n• <b>Keystone Species:</b> A species that has a disproportionately large effect on its community.\n• <b>Succession:</b> Gradual, directional change in community composition over time.\n   - <b>Primary Succession:</b> Occurs on bare, lifeless substrate.\n   - <b>Secondary Succession:</b> Occurs in areas previously occupied by living organisms.\n• <b>Climax Community:</b> Stable, mature community in equilibrium with the environment."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Ecosystem Concepts</b>\n\n• <b>Energy Flow:</b> Sun → producers → consumers → decomposers. Energy decreases at each trophic level (~10% transferred).\n• <b>Trophic Levels:</b>\n   - Producers (autotrophs)\n   - Primary consumers (herbivores)\n   - Secondary consumers (carnivores)\n   - Tertiary consumers\n   - Decomposers (bacteria, fungi)\n• <b>Food Chain:</b> Linear sequence of energy flow.\n• <b>Food Web:</b> Interconnected food chains.\n• <b>Biogeochemical Cycles:</b> Movement of elements through biotic and abiotic components, e.g., carbon, nitrogen, oxygen, phosphorus, water cycles."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Biodiversity and Conservation</b>\n\n• <b>Biodiversity:</b> Variety of life in an ecosystem, biome, or the biosphere.\n• <b>Importance:</b> Ecological stability, resilience, genetic resources, food, medicine, cultural and aesthetic value.\n• <b>Threats:</b> Habitat destruction, pollution, overexploitation, invasive species, climate change.\n• <b>Conservation Strategies:</b> Protected areas, afforestation, sustainable use of resources, environmental education, wildlife laws."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Human Impact on Ecosystems</b>\n\n• Deforestation: Habitat loss, soil erosion, and reduced carbon sequestration.\n• Pollution: Air, water, and soil contamination affecting organisms.\n• Global warming: Climate change affecting species distribution and ecosystem function.\n• Overfishing & Hunting: Decrease in populations, disruption of food chains.\n• Urbanization: Fragmentation of habitats and reduced biodiversity.\n• Conservation efforts are critical to maintain ecological balance."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n\n1. Define ecology and explain its scope.\n2. Differentiate between habitat and niche with examples.\n3. Describe the types of species interactions in an ecosystem.\n4. Explain the concept of trophic levels and energy flow.\n5. Distinguish between food chain and food web.\n6. Define succession and differentiate between primary and secondary succession.\n7. Explain the importance of biodiversity and threats to it.\n8. Describe how human activities affect ecosystems and suggest conservation strategies.\n9. Explain carrying capacity and factors affecting population growth.\n10. Discuss the role of keystone species in maintaining community structure."
       }
     ]
   }
 },
+
+//population 
+
 {
-  topic: "Excretion in Plants and Animals",
-  notes: {
-    title: "Excretion — Removal of Metabolic Waste",
-    content: [
+  "topic": "Population Ecology",
+  "notes": {
+    "title": "Population Ecology — Characteristics, Growth, Distribution, and Regulation",
+    "content": [
       {
-        type: "text",
-        data: "Excretion is the process by which living organisms remove metabolic waste products from their bodies. These wastes result from chemical reactions such as respiration and digestion."
+        "type": "text",
+        "data": "<b>Meaning of Population</b>\n\nA population is a group of individuals of the same species living in a defined area at a given time. Population ecology studies the size, structure, dynamics, and interactions of populations and how they are influenced by biotic and abiotic factors."
       },
+
       {
-        type: "text",
-        data: "In Humans:\nMain excretory organs are the kidneys, lungs, and skin.\n• Kidneys remove urea, excess water, and salts in urine.\n• Lungs remove carbon dioxide and water vapour.\n• Skin removes water and salts through sweat."
+        "type": "text",
+        "data": "<b>Characteristics of a Population</b>\n\n• <b>Population Size:</b> Number of individuals in a population.\n• <b>Population Density:</b> Number of individuals per unit area or volume.\n• <b>Population Distribution:</b> Spatial arrangement of individuals, which may be:\n   - <b>Clumped:</b> Individuals grouped in patches (e.g., schools of fish).\n   - <b>Uniform:</b> Evenly spaced (e.g., territorial birds).\n   - <b>Random:</b> Individuals spaced irregularly (e.g., dandelions).\n• <b>Age Structure:</b> Distribution of individuals among different age groups (pre-reproductive, reproductive, post-reproductive).\n• <b>Birth Rate (Natality):</b> Number of births per unit time.\n• <b>Death Rate (Mortality):</b> Number of deaths per unit time.\n• <b>Immigration:</b> Movement of individuals into a population.\n• <b>Emigration:</b> Movement of individuals out of a population."
       },
+
       {
-        type: "text",
-        data: "In Plants:\nPlants excrete through diffusion of gases via stomata and lenticels. Waste products include carbon dioxide, oxygen, and water vapour.\nSome wastes like gums, resins, and latex are stored in special tissues."
+        "type": "text",
+        "data": "<b>Population Growth</b>\n\nPopulation growth is the change in population size over time and can be:\n\n1. <b>Exponential Growth:</b> Rapid, unrestricted growth in ideal conditions (J-shaped curve).\n2. <b>Logistic Growth:</b> Growth slows and stabilizes due to limiting factors, forming an S-shaped curve.\n   - <b>Lag Phase:</b> Slow growth at the beginning.\n   - <b>Log Phase:</b> Rapid exponential growth.\n   - <b>Plateau Phase:</b> Population stabilizes near carrying capacity (K).\n\n<b>Factors Affecting Population Growth:</b>\n• <b>Density-Dependent Factors:</b> Predation, competition, disease, resource limitation.\n• <b>Density-Independent Factors:</b> Climate, natural disasters, pollution, human activities."
       },
+
       {
-        type: "text",
-        data: "Excretion is important to prevent accumulation of toxic substances that can harm cells and organs."
+        "type": "text",
+        "data": "<b>Carrying Capacity (K)</b>\n\nCarrying capacity is the maximum population size that an environment can sustainably support over time, given available resources, habitat space, and ecological constraints."
       },
+
       {
-        type: "image",
-        data: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Urinary_system_complete_en.svg/640px-Urinary_system_complete_en.svg.png"
+        "type": "text",
+        "data": "<b>Population Regulation</b>\n\nPopulations are regulated by:\n• <b>Biotic Factors:</b> Predation, competition, parasitism, disease.\n• <b>Abiotic Factors:</b> Climate, temperature, water availability, nutrients, sunlight.\n• <b>Human Influence:</b> Hunting, urbanization, deforestation, pollution.\n\nPopulation regulation maintains ecological balance and prevents overpopulation."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Population Interactions</b>\n\n• <b>Intraspecific Competition:</b> Competition among individuals of the same species for resources.\n• <b>Interspecific Competition:</b> Competition between different species for similar resources.\n• <b>Predation:</b> One organism (predator) feeds on another (prey).\n• <b>Parasitism:</b> One organism (parasite) benefits at the expense of another (host).\n• <b>Mutualism:</b> Both species benefit.\n• <b>Commensalism:</b> One species benefits; the other is unaffected.\n• <b>Amensalism:</b> One species is harmed; the other is unaffected."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Population Pyramids and Age Structure</b>\n\n• <b>Population Pyramid:</b> Graphical representation of age structure.\n• <b>Expanding Pyramid:</b> Broad base; high birth rate; typical of developing countries.\n• <b>Stable Pyramid:</b> Evenly distributed; low birth and death rates.\n• <b>Declining Pyramid:</b> Narrow base; low birth rate; population may decrease.\n• Age structure affects growth trends, reproductive potential, and social planning."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Human Impact on Populations</b>\n\n• Overexploitation: Hunting and fishing reduce populations.\n• Habitat Destruction: Urbanization, deforestation, and agriculture fragment habitats.\n• Pollution: Contaminants reduce reproductive success and survival.\n• Introduction of Invasive Species: Can outcompete native populations.\n• Conservation: Wildlife reserves, legal protection, sustainable resource use help maintain populations."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n\n1. Define population and explain its ecological significance.\n2. Describe the characteristics of a population with examples.\n3. Explain the differences between clumped, uniform, and random distribution.\n4. Distinguish between exponential and logistic growth and draw the corresponding graphs.\n5. Define carrying capacity and explain its importance.\n6. List and explain biotic and abiotic factors regulating population.\n7. Describe intraspecific and interspecific interactions.\n8. Explain the importance of age structure and population pyramids.\n9. Discuss the impact of human activities on population dynamics.\n10. How does population ecology contribute to conservation biology and resource management?"
       }
     ]
   }
 },
+
 {
-  topic: "Ecology and Ecosystem",
-  notes: {
-    title: "Ecology — The Study of Organisms and Their Environment",
-    content: [
+  "topic": "Soil Biology",
+  "notes": {
+    "title": "Soil Biology — Composition, Types, Soil Organisms, Fertility, and Ecosystem Roles",
+    "content": [
       {
-        type: "text",
-        data: "Ecology is the study of relationships between living organisms and their physical environment. An ecosystem is a natural unit where organisms interact with each other and with non-living components."
+        "type": "text",
+        "data": "<b>Meaning of Soil Biology</b>\n\nSoil biology is the study of living organisms in the soil and their interactions with each other and the soil environment. It includes microorganisms, plants, and animals that contribute to the formation, structure, fertility, and nutrient cycling of soil."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Components of Soil</b>\n\n1. <b>Mineral Particles:</b> Sand, silt, and clay that determine soil texture.\n2. <b>Organic Matter:</b> Decayed plant and animal residues (humus) that improve fertility.\n3. <b>Water:</b> Moisture in soil pores essential for chemical reactions and organism survival.\n4. <b>Air:</b> Provides oxygen for aerobic soil organisms and roots.\n5. <b>Soil Microorganisms:</b> Bacteria, fungi, algae, protozoa, actinomycetes involved in decomposition and nutrient cycling."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Types of Soil</b>\n\n• <b>Sandy Soil:</b> Coarse texture, well-drained, low water retention, poor fertility.\n• <b>Clay Soil:</b> Fine texture, high water retention, nutrient-rich but poorly aerated.\n• <b>Loamy Soil:</b> Balanced mixture of sand, silt, clay, and organic matter; ideal for agriculture.\n• <b>Peaty Soil:</b> High organic matter, acidic, retains water, low mineral content.\n• <b>Saline Soil:</b> High salt content, unsuitable for most plants.\n• <b>Lateritic Soil:</b> Rich in iron and aluminum, common in tropical regions."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Soil Organisms</b>\n\n1. <b>Microorganisms:</b>\n   - <b>Bacteria:</b> Nitrogen-fixing, decomposers, pathogens.\n   - <b>Fungi:</b> Decompose organic matter, form mycorrhizal associations with plant roots.\n   - <b>Actinomycetes:</b> Decompose complex organic compounds like cellulose and chitin.\n   - <b>Algae:</b> Contribute organic matter, photosynthesis in soil surface.\n2. <b>Macroorganisms:</b>\n   - <b>Earthworms:</b> Aerate soil, mix organic matter, improve fertility.\n   - <b>Termites:</b> Break down cellulose, improve soil structure.\n   - <b>Ants:</b> Tunnel soil, redistribute nutrients.\n   - <b>Soil Insects:</b> Feed on organic matter, affect decomposition rates."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Roles of Soil Organisms</b>\n\n• Decomposition of organic matter to release nutrients.\n• Nitrogen fixation by bacteria for plant use.\n• Formation of humus to improve soil structure and fertility.\n• Aeration and drainage improvement through burrowing organisms.\n• Control of pests and diseases through natural soil predators.\n• Support plant growth through mycorrhizal associations."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Soil Fertility</b>\n\n• <b>Definition:</b> The ability of soil to provide essential nutrients and support plant growth.\n• <b>Factors Affecting Fertility:</b> Organic matter content, soil texture, pH, nutrient availability, microbial activity, and water retention.\n• <b>Enhancement:</b> Compost addition, crop rotation, green manure, controlled irrigation, and use of biofertilizers."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Soil and Ecosystem Function</b>\n\n• Supports plant growth, forming the base of terrestrial food chains.\n• Stores and cycles nutrients like nitrogen, phosphorus, and carbon.\n• Acts as a habitat for diverse microorganisms and invertebrates.\n• Regulates water infiltration, retention, and purification.\n• Helps in carbon sequestration and climate regulation."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Human Impact on Soil</b>\n\n• <b>Deforestation:</b> Loss of topsoil and reduced fertility.\n• <b>Overgrazing:</b> Soil compaction, erosion, and nutrient depletion.\n• <b>Intensive Agriculture:</b> Nutrient depletion, salinization, and pesticide accumulation.\n• <b>Urbanization:</b> Soil sealing and loss of arable land.\n• <b>Pollution:</b> Heavy metals, chemicals, and oil spills affecting soil organisms and fertility."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n\n1. Define soil biology and explain its importance.\n2. List and describe the main components of soil.\n3. Differentiate between sandy, clay, loamy, peaty, saline, and lateritic soils.\n4. Describe the roles of soil microorganisms in nutrient cycling.\n5. Explain how earthworms and termites improve soil fertility.\n6. What factors affect soil fertility and how can fertility be enhanced?\n7. Discuss the role of soil in supporting ecosystem functions.\n8. Describe human activities that negatively impact soil and suggest conservation measures.\n9. Explain the relationship between soil texture and water retention.\n10. How do mycorrhizal associations benefit plants and soil health?"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "Adaptation",
+  "notes": {
+    "title": "Adaptation — Meaning, Types, Examples, and Significance in Plants and Animals",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Adaptation</b>\n\nAdaptation refers to the structural, physiological, or behavioral features that enable an organism to survive, reproduce, and thrive in its environment. Adaptations develop over generations through natural selection and evolutionary processes."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Types of Adaptation</b>\n\n1. <b>Structural (Morphological) Adaptation:</b> Physical features of an organism that enhance survival.\n   - Examples in animals: Camouflage in chameleons, webbed feet in ducks, thick fur in polar bears.\n   - Examples in plants: Thick cuticle in cacti, needle-shaped leaves, deep roots in desert plants.\n\n2. <b>Physiological (Functional) Adaptation:</b> Internal processes that help organisms survive environmental stresses.\n   - Examples in animals: Production of concentrated urine in desert animals, hibernation in bears, antifreeze proteins in Arctic fish.\n   - Examples in plants: C4 and CAM photosynthesis in hot, arid environments, salt excretion in mangroves.\n\n3. <b>Behavioral Adaptation:</b> Actions or behaviors that enhance survival and reproduction.\n   - Examples in animals: Migration of birds, nocturnal activity of desert rodents, herding behavior in wildebeests.\n   - Examples in plants: Phototropism (growing towards light), nyctinasty (night-time leaf folding)."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Adaptations in Specific Environments</b>\n\n• <b>Desert Adaptations:</b> Water storage in succulent tissues, reduced leaf surface area, nocturnal behavior in animals.\n• <b>Aquatic Adaptations:</b> Streamlined body, gills in fish, floating leaves in water lilies, swimming appendages.\n• <b>Arctic/Tundra Adaptations:</b> Thick fur or blubber in animals, antifreeze proteins, dark-colored feathers for heat absorption.\n• <b>Forest/Jungle Adaptations:</b> Climbing vines, epiphytes, large leaves to capture light, camouflaged animals.\n• <b>Grassland/Savanna Adaptations:</b> Deep roots, fire-resistant seeds, herd behavior, long legs for fast movement."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Significance of Adaptation</b>\n\n• Ensures survival in specific habitats.\n• Enhances reproductive success.\n• Reduces competition by specialization.\n• Increases ability to cope with environmental changes.\n• Plays a key role in evolution and speciation."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Structural vs Functional vs Behavioral Adaptation</b>\n\n| Type        | Definition                                | Examples in Animals                 | Examples in Plants                  |\n|------------|------------------------------------------|-----------------------------------|-----------------------------------|\n| Structural | Physical features of organisms           | Camouflage, thick fur, webbed feet | Thick cuticle, needle-shaped leaves, deep roots |\n| Functional | Internal physiological processes         | Hibernation, concentrated urine, antifreeze proteins | C4 photosynthesis, CAM photosynthesis, salt excretion |\n| Behavioral | Actions or habits to survive             | Migration, nocturnal activity, herding | Phototropism, nyctinasty, seed dispersal timing |"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n\n1. Define adaptation and explain its importance in survival.\n2. Distinguish between structural, physiological, and behavioral adaptations with examples.\n3. Explain how desert plants and animals are adapted to their environment.\n4. Describe aquatic adaptations in plants and animals.\n5. Discuss the significance of behavioral adaptations in animals.\n6. Compare structural adaptations in arctic and tropical organisms.\n7. Explain the role of adaptations in evolution and speciation.\n8. Provide examples of plant adaptations to hot and dry climates.\n9. Describe functional adaptations in animals for temperature regulation.\n10. How do behavioral adaptations enhance reproductive success and survival?"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "Variation",
+  "notes": {
+    "title": "Variation — Types, Causes, Examples, and Significance",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Variation</b>\n\nVariation refers to the differences observed among individuals of the same species. These differences may be in structure, function, or behavior. Variation is fundamental to evolution and allows populations to adapt to changing environments."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Types of Variation</b>\n\n1. <b>Continuous Variation:</b> Traits that show a range of small differences and can take any value within a range.\n   - Examples: Height, weight, skin color in humans.\n   - Often influenced by multiple genes (polygenic) and environment.\n\n2. <b>Discontinuous (Discrete) Variation:</b> Traits that fall into distinct categories with no intermediates.\n   - Examples: Blood groups, presence of attached or free earlobes, ability to roll the tongue.\n   - Usually controlled by a single gene and less influenced by the environment."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Causes of Variation</b>\n\n1. <b>Genetic Causes:</b>\n   - <b>Mutation:</b> Sudden changes in DNA sequence creating new alleles.\n   - <b>Gene Recombination:</b> During sexual reproduction, crossing over and independent assortment produce new combinations.\n   - <b>Sexual Reproduction:</b> Combines genetic material from two parents, creating genetic diversity.\n\n2. <b>Environmental Causes:</b>\n   - Nutrient availability, temperature, light, water, and climate can influence traits (phenotypic plasticity).\n   - Examples: Plant height affected by soil fertility, fur color intensity in animals due to temperature."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Significance of Variation</b>\n\n• Provides material for natural selection and evolution.\n• Allows populations to adapt to changing environments.\n• Helps in survival under disease, predation, and competition.\n• Important in agriculture for selective breeding of crops and animals.\n• Contributes to biodiversity."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Examples of Variation in Humans and Animals</b>\n\n• Height, weight, skin color, hair type (continuous variation)\n• Blood groups, earlobe attachment, tongue rolling (discontinuous variation)\n• Beak shape in Darwin's finches (adaptive variation)\n• Fur color in arctic foxes (seasonal/temperature adaptation)"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Variation in Plants</b>\n\n• Leaf shape, size, and color\n• Flower color and arrangement\n• Fruit size and shape\n• Seed dormancy periods\n• Adaptations to environmental stress (e.g., drought-resistant vs water-loving varieties)"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Human Impact on Variation</b>\n\n• <b>Selective Breeding:</b> Humans enhance desired traits in crops and livestock.\n• <b>Deforestation & Habitat Loss:</b> Reduces genetic diversity.\n• <b>Pollution & Climate Change:</b> Alters selection pressures and may reduce or increase variation.\n• <b>Introduction of Exotic Species:</b> Can affect local genetic diversity."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n\n1. Define variation and explain its importance in evolution.\n2. Distinguish between continuous and discontinuous variation with examples.\n3. Describe the genetic and environmental causes of variation.\n4. How does sexual reproduction contribute to variation?\n5. Explain the role of mutation in creating variation.\n6. Give examples of variation in humans, animals, and plants.\n7. Discuss the significance of variation in agriculture and natural selection.\n8. How can human activities impact variation in populations?\n9. Explain adaptive variation using an example from nature.\n10. Why is variation essential for the survival of species in changing environments?"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "Genetics and Heredity",
+  "notes": {
+    "title": "Genetics and Heredity — Principles, Inheritance, DNA, Chromosomes, and Applications",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Genetics and Heredity</b>\n\n• <b>Genetics:</b> The branch of biology that studies genes, heredity, and variation in organisms.\n• <b>Heredity:</b> The transmission of genetic information from parents to offspring.\n\nGenetics explains how traits are inherited, how variation arises, and how populations evolve over generations."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Basic Concepts</b>\n\n• <b>Gene:</b> A unit of heredity made of DNA that determines a specific trait.\n• <b>Allele:</b> Different forms of a gene (dominant or recessive).\n• <b>Genotype:</b> Genetic makeup of an organism (e.g., AA, Aa, aa).\n• <b>Phenotype:</b> Observable traits of an organism influenced by genotype and environment.\n• <b>Chromosome:</b> Thread-like structures of DNA and protein carrying genes.\n• <b>Genome:</b> Complete set of genes in an organism."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Mendelian Inheritance</b>\n\n• <b>Law of Segregation:</b> Each individual has two alleles for a trait, which segregate during gamete formation.\n• <b>Law of Independent Assortment:</b> Alleles of different genes assort independently during gamete formation.\n• <b>Monohybrid Cross:</b> Involves one trait (e.g., flower color).\n• <b>Dihybrid Cross:</b> Involves two traits (e.g., seed shape and color).\n• <b>Dominant and Recessive Traits:</b> Dominant alleles mask the effect of recessive alleles in heterozygotes."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Types of Inheritance</b>\n\n1. <b>Complete Dominance:</b> One allele completely masks the other.\n2. <b>Incomplete Dominance:</b> Heterozygotes show intermediate phenotype (e.g., red × white = pink).\n3. <b>Co-dominance:</b> Both alleles are expressed (e.g., AB blood group).\n4. <b>Sex-linked Inheritance:</b> Genes located on sex chromosomes; e.g., hemophilia, color blindness.\n5. <b>Multiple Alleles:</b> More than two alleles exist for a gene (e.g., ABO blood groups).\n6. <b>Polygenic Inheritance:</b> Trait controlled by multiple genes (e.g., skin color, height).\n7. <b>Epistasis:</b> One gene masks or modifies the expression of another gene."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Chromosomes and DNA</b>\n\n• Chromosomes carry genetic information in the form of DNA.\n• DNA is composed of nucleotides (adenine, thymine, guanine, cytosine) arranged in a double helix.\n• Genes are segments of DNA coding for proteins or RNA.\n• Chromosome number is species-specific (humans have 46 chromosomes, 23 pairs).\n• Meiosis produces gametes with half the chromosome number, ensuring genetic variation."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Mutations</b>\n\n• Permanent changes in DNA sequence.\n• Types: Point mutations, deletions, insertions, frameshift, and chromosomal mutations.\n• Can be beneficial, neutral, or harmful.\n• Mutations are sources of genetic variation for evolution."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Genetic Disorders</b>\n\n• <b>Autosomal Dominant:</b> Trait appears in heterozygotes (e.g., Huntington’s disease).\n• <b>Autosomal Recessive:</b> Trait appears only in homozygotes (e.g., albinism, sickle cell anemia).\n• <b>Sex-linked Disorders:</b> Mostly X-linked, affecting males more (e.g., hemophilia, color blindness).\n• <b>Chromosomal Disorders:</b> Caused by abnormal chromosome number or structure (e.g., Down syndrome, Turner syndrome)."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Applications of Genetics</b>\n\n• <b>Medical:</b> Diagnosis of genetic disorders, gene therapy, pharmacogenomics.\n• <b>Agriculture:</b> Selective breeding, hybridization, GMO crops.\n• <b>Forensics:</b> DNA fingerprinting, paternity testing.\n• <b>Conservation:</b> Genetic diversity studies, endangered species breeding programs."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n\n1. Define genetics and heredity.\n2. Distinguish between genotype and phenotype with examples.\n3. Explain Mendel’s laws of inheritance and their significance.\n4. Describe monohybrid and dihybrid crosses with Punnett square examples.\n5. Differentiate between complete dominance, incomplete dominance, and co-dominance.\n6. Explain sex-linked inheritance and give examples.\n7. Describe the structure and function of DNA and chromosomes.\n8. What are mutations and how do they contribute to variation?\n9. List and describe three major types of genetic disorders.\n10. Discuss the applications of genetics in medicine, agriculture, and conservation."
+      }
+    ]
+  }
+},
+
+//evolution
+
+{
+  "topic": "Evolution",
+  "notes": {
+    "title": "Evolution — Meaning, Theories, Evidence, Mechanisms, Natural Selection, and Speciation",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Evolution</b>\n\nEvolution is the gradual change in the genetic composition of populations over successive generations, leading to the development of new species and adaptations. It explains the diversity of life on Earth and the relationships among organisms."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Theories of Evolution</b>\n\n1. <b>Lamarckism (Jean-Baptiste Lamarck, 1744–1829):</b>\n   - Proposed that organisms evolve due to the use or disuse of organs.\n   - Traits acquired during an organism’s lifetime could be passed to offspring.\n   - Example: Giraffes stretched their necks to reach leaves; offspring inherited longer necks.\n   - Weakness: Acquired traits are generally not inherited genetically.\n\n2. <b>Darwinism (Charles Darwin, 1809–1882):</b>\n   - Proposed natural selection as the main mechanism of evolution.\n   - Populations show variation; individuals with favorable traits survive and reproduce.\n   - Over time, advantageous traits become more common.\n   - Example: Peppered moths changing color during industrial pollution.\n   - Modern synthesis incorporates genetics and Darwin’s ideas (Neo-Darwinism)."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evidence for Evolution</b>\n\n1. <b>Fossil Record:</b> Shows transitional forms and gradual changes in species over time.\n2. <b>Comparative Anatomy:</b> \n   - <b>Homologous Structures:</b> Similar structures with different functions indicating common ancestry (e.g., forelimbs of humans, bats, whales).\n   - <b>Analogous Structures:</b> Different structures with similar functions due to convergent evolution (e.g., wings of insects and birds).\n3. <b>Comparative Embryology:</b> Similar embryonic development among related species suggests common ancestry.\n4. <b>Biochemical Evidence:</b> Similarities in DNA, RNA, and proteins among species.\n5. <b>Vestigial Organs:</b> Remnants of organs with no current function (e.g., human appendix, whale pelvis).\n6. <b>Biogeography:</b> Distribution of species supports evolutionary history."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Mechanisms of Evolution</b>\n\n1. <b>Mutation:</b> Source of new alleles, introducing genetic variation.\n2. <b>Natural Selection:</b> Differential survival and reproduction of organisms with favorable traits.\n3. <b>Genetic Drift:</b> Random changes in allele frequencies, especially in small populations.\n4. <b>Gene Flow:</b> Movement of genes between populations through migration.\n5. <b>Recombination:</b> Crossing over and independent assortment during meiosis produces new gene combinations.\n6. <b>Sexual Selection:</b> Preference for mates with certain traits, influencing reproductive success."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Natural Selection</b>\n\n• Process by which organisms with favorable traits are more likely to survive and reproduce.\n• <b>Steps in Natural Selection:</b>\n  1. Variation exists in the population.\n  2. Some traits provide a survival or reproductive advantage.\n  3. Organisms with advantageous traits survive and reproduce.\n  4. Favorable traits increase in frequency over generations.\n• <b>Examples:</b> Peppered moth color variation, antibiotic resistance in bacteria."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Types of Natural Selection</b>\n\n1. <b>Stabilizing Selection:</b> Favors intermediate phenotypes; reduces extremes.\n2. <b>Directional Selection:</b> Favors one extreme phenotype; shifts population trait distribution.\n3. <b>Disruptive Selection:</b> Favors both extremes; can lead to speciation."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Speciation</b>\n\n• Formation of new species from a common ancestor.\n• <b>Types:</b>\n   - <b>Allopatric:</b> Geographic isolation separates populations (e.g., Darwin’s finches).\n   - <b>Sympatric:</b> New species arise without physical barriers, often through polyploidy in plants.\n• <b>Reproductive Isolation Mechanisms:</b> Behavioral, temporal, mechanical, or genetic barriers preventing interbreeding."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Human Impact on Evolution</b>\n\n• <b>Selective Breeding:</b> Humans accelerate evolution by selecting desired traits in plants and animals.\n• <b>Habitat Destruction:</b> Causes population bottlenecks and reduces genetic diversity.\n• <b>Pesticides and Antibiotics:</b> Lead to resistance and rapid evolutionary change.\n• <b>Climate Change:</b> Alters selective pressures, favoring adaptive traits.\n• <b>Introduction of Exotic Species:</b> Changes local selection pressures and competition."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n\n1. Define evolution and explain its significance.\n2. Compare Lamarckism and Darwinism, citing examples.\n3. Describe at least five types of evidence that support evolution.\n4. Explain the difference between homologous and analogous structures.\n5. What are vestigial organs? Give examples.\n6. Discuss the mechanisms of evolution including mutation, gene flow, genetic drift, recombination, and natural selection.\n7. Explain the process and types of natural selection with examples.\n8. What is speciation and how do reproductive isolation mechanisms contribute to it?\n9. Describe human activities that influence evolution.\n10. Explain the significance of Darwin’s theory in understanding the diversity of life."
+      }
+    ]
+  }
+},
+
+//conservation of natural resources
+{
+  "topic": "Conservation",
+  "notes": {
+    "title": "Conservation of natural resources, advantages and organization",
+    "content": [
+      {
+  type: "text",
+  data: "<b>Conservation:</b>\n• Refers to the protection and wise management of natural resources.\n• Aims at preventing wasteful exploitation of resources.\n• Ensures resources are available for present and future generations.\n• Involves sustainable use of the environment."
+},
+{
+  type: "text",
+  data: "<b>Reasons for Conservation:</b>\n• To prevent extinction of plant and animal species.\n• To maintain ecological balance.\n• To ensure continuous supply of natural resources.\n• To preserve biodiversity."
+},
+{
+  type: "text",
+  data: "<b>Natural Resources:</b>\n• Materials obtained from nature.\n• Includes renewable and non-renewable resources.\n• Examples: forests, wildlife, water, minerals, soil, and air.\n• Require proper management to prevent depletion."
+},
+{
+  type: "text",
+  data: "<b>Renewable Natural Resources:</b>\n• Resources that can be replaced naturally within a short time.\n• Examples include forests, wildlife, water, and soil.\n• Can be exhausted if overused.\n• Require sustainable management."
+},
+{
+  type: "text",
+  data: "<b>Non-Renewable Natural Resources:</b>\n• Resources that cannot be replaced once exhausted.\n• Examples include coal, crude oil, natural gas, and minerals.\n• Formed over millions of years.\n• Must be used wisely to avoid rapid depletion."
+},
+{
+  type: "text",
+  data: "<b>Conservation of Wildlife:</b>\n• Involves protection of animals in their natural habitats.\n• Prevents hunting, poaching, and habitat destruction.\n• Maintains biodiversity.\n• Ensures survival of endangered species."
+},
+{
+  type: "text",
+  data: "<b>Methods of Wildlife Conservation:</b>\n• Establishment of game reserves and national parks.\n• Enforcement of wildlife laws.\n• Captive breeding of endangered species.\n• Public education on wildlife protection."
+},
+{
+  type: "text",
+  data: "<b>Game Reserves:</b>\n• Areas set aside for the protection of wild animals.\n• Hunting is restricted or prohibited.\n• Animals live in their natural habitats.\n• Managed by government or conservation agencies."
+},
+{
+  type: "text",
+  data: "<b>National Parks:</b>\n• Large areas reserved for conservation and tourism.\n• Protect plants, animals, and natural landscapes.\n• Human activities are strictly controlled.\n• Serve educational and recreational purposes."
+},
+{
+  type: "text",
+  data: "<b>Endangered Species:</b>\n• Species with very low population size.\n• At risk of extinction.\n• Caused by habitat destruction, poaching, and pollution.\n• Require urgent conservation measures."
+},
+{
+  type: "text",
+  data: "<b>Conservation of Forest Resources:</b>\n• Involves protection and management of forest vegetation.\n• Prevents deforestation.\n• Maintains soil fertility and climate balance.\n• Provides raw materials and habitats for wildlife."
+},
+{
+  type: "text",
+  data: "<b>Deforestation:</b>\n• Large-scale removal of forest vegetation.\n• Caused by logging, farming, bush burning, and urbanization.\n• Leads to soil erosion and loss of biodiversity.\n• Negatively affects climate."
+},
+{
+  type: "text",
+  data: "<b>Afforestation:</b>\n• Planting of trees in areas where none existed before.\n• Helps combat desertification.\n• Improves air quality.\n• Restores ecological balance."
+},
+{
+  type: "text",
+  data: "<b>Reforestation:</b>\n• Replanting trees in deforested areas.\n• Prevents soil erosion.\n• Restores lost forest resources.\n• Enhances biodiversity."
+},
+{
+  type: "text",
+  data: "<b>Conservation of Soil:</b>\n• Protection of soil from erosion and degradation.\n• Maintains soil fertility.\n• Ensures sustainable agricultural production.\n• Prevents desertification."
+},
+{
+  type: "text",
+  data: "<b>Soil Conservation Methods:</b>\n• Crop rotation and mulching.\n• Contour ploughing.\n• Terracing on slopes.\n• Avoidance of bush burning."
+},
+{
+  type: "text",
+  data: "<b>Conservation of Water Resources:</b>\n• Protection of rivers, lakes, and oceans from pollution.\n• Ensures adequate water supply.\n• Supports aquatic life.\n• Prevents water-borne diseases."
+},
+{
+  type: "text",
+  data: "<b>Causes of Resource Depletion:</b>\n• Overpopulation.\n• Over-exploitation of resources.\n• Pollution.\n• Poor resource management."
+},
+{
+  type: "text",
+  data: "<b>Role of Government in Conservation:</b>\n• Establishment of conservation laws.\n• Creation of national parks and reserves.\n• Environmental monitoring and enforcement.\n• Public awareness campaigns."
+},
+{
+  type: "text",
+  data: "<b>Importance of Conservation:</b>\n• Prevents extinction of species.\n• Maintains ecosystem stability.\n• Ensures sustainable development.\n• Protects the environment for future generations."
+},
+{
+  type: "text",
+  data: "<b>Nigerian Conservation Bodies:</b>\n• Organizations established to protect and manage Nigeria’s natural resources.\n• Operate at federal, state, and non-governmental levels.\n• Enforce environmental laws and policies.\n• Promote sustainable use of natural resources."
+},
+{
+  type: "text",
+  data: "<b>Federal Ministry of Environment:</b>\n• Formulates national environmental policies.\n• Coordinates conservation activities across the country.\n• Ensures protection of forests, wildlife, and ecosystems.\n• Oversees environmental impact assessments."
+},
+{
+  type: "text",
+  data: "<b>Nigerian Conservation Foundation (NCF):</b>\n• Non-governmental organization focused on biodiversity conservation.\n• Protects endangered species and habitats.\n• Promotes environmental education and awareness.\n• Partners with government and international bodies."
+},
+{
+  type: "text",
+  data: "<b>National Parks Service (Nigeria):</b>\n• Manages and protects national parks in Nigeria.\n• Conserves wildlife and plant species.\n• Prevents poaching and illegal activities in parks.\n• Promotes eco-tourism and research."
+},
+{
+  type: "text",
+  data: "<b>Forestry Department:</b>\n• Responsible for management of forest reserves.\n• Controls logging and forest exploitation.\n• Implements afforestation and reforestation programmes.\n• Prevents bush burning and deforestation."
+},
+{
+  type: "text",
+  data: "<b>National Environmental Standards and Regulations Enforcement Agency (NESREA):</b>\n• Enforces environmental laws and regulations.\n• Monitors pollution and environmental degradation.\n• Ensures compliance with environmental standards.\n• Protects air, land, and water resources."
+},
+{
+  type: "text",
+  data: "<b>Nigerian Institute for Oceanography and Marine Research (NIOMR):</b>\n• Conducts research on marine and coastal ecosystems.\n• Promotes conservation of aquatic resources.\n• Advises government on marine resource management.\n• Supports sustainable fishing practices."
+},
+{
+  type: "text",
+  data: "<b>State Environmental Protection Agencies (SEPAs):</b>\n• Implement environmental policies at state level.\n• Control pollution and waste management.\n• Monitor environmental health within states.\n• Support conservation awareness programs."
+},
+{
+  type: "text",
+  data: "<b>Local Government Authorities:</b>\n• Enforce environmental sanitation laws.\n• Protect local forest and water resources.\n• Educate communities on conservation practices.\n• Support grassroots environmental protection."
+},
+{
+  type: "text",
+  data: "<b>Role of Traditional Institutions in Conservation:</b>\n• Protect sacred forests and water bodies.\n• Enforce traditional laws against environmental abuse.\n• Promote indigenous conservation practices.\n• Support community-based resource management."
+}
+    ]
+  }
+},
+
+//microorganisms and diseases
+{
+  "topic": "Microorganisms and Disease",
+  "notes": {
+    "title": "Microorganisms and Disease — Types, Roles, Diseases, Transmission, and Control",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Microorganisms</b>\n\nMicroorganisms are tiny, microscopic organisms that are too small to be seen with the naked eye. They include bacteria, viruses, fungi, protozoa, and algae. They can be found in soil, water, air, and living organisms."
       },
       {
-        type: "text",
-        data: "Components of an Ecosystem:\n• Biotic components – living things such as plants, animals, and microorganisms.\n• Abiotic components – non-living things like sunlight, water, temperature, and minerals."
+        "type": "text",
+        "data": "<b>Types of Microorganisms</b>\n\n1. <b>Bacteria:</b> Single-celled prokaryotes with diverse shapes such as cocci, bacilli, and spirilla. They can be beneficial or pathogenic.\n2. <b>Viruses:</b> Non-cellular infectious agents consisting of nucleic acid (DNA or RNA) and a protein coat.\n3. <b>Fungi:</b> Eukaryotic organisms including yeasts, molds, and mushrooms. They can decompose organic matter or cause disease.\n4. <b>Protozoa:</b> Unicellular eukaryotes, often motile, such as Amoeba and Plasmodium.\n5. <b>Algae:</b> Photosynthetic eukaryotes; mostly aquatic and mostly beneficial."
       },
       {
-        type: "text",
-        data: "Feeding Relationships:\n• Producers – plants that make food through photosynthesis.\n• Consumers – animals that feed on other organisms.\n• Decomposers – break down dead organisms, returning nutrients to the soil."
+        "type": "text",
+        "data": "<b>Beneficial Roles of Microorganisms</b>\n\n• <b>Decomposition:</b> Break down dead organisms and recycle nutrients.\n• <b>Food Production:</b> Fermentation in bread, yogurt, cheese, and alcohol.\n• <b>Medicine:</b> Production of antibiotics, vaccines, and insulin.\n• <b>Agriculture:</b> Nitrogen fixation by Rhizobium and decomposition of organic matter.\n• <b>Biotechnology:</b> Genetic engineering, enzyme production, and bioremediation."
       },
       {
-        type: "text",
-        data: "Examples of Ecosystems:\n• Forest, grassland, desert, pond, and marine ecosystems."
+        "type": "text",
+        "data": "<b>Diseases Caused by Microorganisms</b>\n\n1. <b>Bacterial Diseases:</b>\n   - Cholera (Vibrio cholerae)\n   - Typhoid (Salmonella typhi)\n   - Tuberculosis (Mycobacterium tuberculosis)\n   - Pneumonia (Streptococcus pneumoniae, Klebsiella pneumoniae)\n   - Whooping cough (Bordetella pertussis)\n   - Diphtheria (Corynebacterium diphtheriae)\n   - Tetanus (Clostridium tetani)\n   - Leprosy (Mycobacterium leprae)\n   - Gonorrhea (Neisseria gonorrhoeae)\n   - Syphilis (Treponema pallidum)\n\n2. <b>Viral Diseases:</b>\n   - HIV/AIDS (Human Immunodeficiency Virus)\n   - Influenza (Flu virus)\n   - Measles (Measles virus)\n   - Mumps (Mumps virus)\n   - Rubella (Rubella virus)\n   - Chickenpox (Varicella-zoster virus)\n   - Smallpox (Variola virus)\n   - Polio (Poliovirus)\n   - COVID-19 (SARS-CoV-2)\n   - Dengue fever (Dengue virus)\n   - Yellow fever (Yellow fever virus)\n   - Rabies (Rabies virus)\n\n3. <b>Fungal Diseases:</b>\n   - Ringworm (Trichophyton, Microsporum)\n   - Athlete's foot (Tinea pedis)\n   - Candidiasis (Candida albicans)\n   - Aspergillosis (Aspergillus)\n   - Histoplasmosis (Histoplasma capsulatum)\n   - Cryptococcosis (Cryptococcus neoformans)\n\n4. <b>Protozoan Diseases:</b>\n   - Malaria (Plasmodium falciparum, P. vivax)\n   - Amoebiasis (Entamoeba histolytica)\n   - African sleeping sickness (Trypanosoma brucei)\n   - Chagas disease (Trypanosoma cruzi)\n   - Giardiasis (Giardia lamblia)\n   - Leishmaniasis (Leishmania species)\n\n5. <b>Helminthic (Worm) Diseases:</b>\n   - Ascariasis (Ascaris lumbricoides)\n   - Hookworm infection (Ancylostoma duodenale, Necator americanus)\n   - Schistosomiasis (Schistosoma species)\n   - Filariasis (Wuchereria bancrofti)\n   - Tapeworm infection (Taenia species)\n\n6. <b>Other Pathogens:</b> Some algae and prions can cause diseases, such as neurodegenerative prion diseases."
       },
       {
-        type: "text",
-        data: "Energy flow in ecosystems follows food chains and food webs, showing how energy passes from producers to consumers and decomposers."
+        "type": "text",
+        "data": "<b>Transmission of Microbial Diseases</b>\n\n• <b>Direct Contact:</b> Person-to-person contact, e.g., HIV and measles.\n• <b>Indirect Contact:</b> Contaminated surfaces, water, or food, e.g., cholera and typhoid.\n• <b>Vectors:</b> Animals or insects carry pathogens, e.g., mosquitoes transmitting malaria.\n• <b>Airborne:</b> Droplets from coughs and sneezes, e.g., influenza and tuberculosis.\n• <b>Waterborne:</b> Pathogens in contaminated water, e.g., cholera.\n• <b>Soil-borne:</b> Pathogens in soil, e.g., tetanus.\n• <b>Food-borne:</b> Contaminated food, e.g., Salmonellosis.\n• <b>Sexually Transmitted:</b> Through sexual contact, e.g., gonorrhea and syphilis."
       },
       {
-        type: "image",
-        data: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Foodweb-en.svg/640px-Foodweb-en.svg.png"
+        "type": "text",
+        "data": "<b>Prevention and Control of Microbial Diseases</b>\n\n• <b>Hygiene:</b> Regular handwashing and safe food handling.\n• <b>Sanitation:</b> Clean water supply and proper waste disposal.\n• <b>Vaccination:</b> Immunization against viral and bacterial diseases.\n• <b>Vector Control:</b> Use of insecticides, bed nets, and removing breeding sites.\n• <b>Antibiotics and Antivirals:</b> Treat bacterial and viral infections where applicable.\n• <b>Quarantine:</b> Isolate infected individuals to prevent spread.\n• <b>Food Safety:</b> Proper cooking and storage of food.\n• <b>Environmental Control:</b> Prevent stagnant water accumulation and maintain clean surroundings."
+      },
+      {
+        "type": "text",
+        "data": "<b>Beneficial Microorganisms in Industry and Research</b>\n\n• <b>Fermentation:</b> Saccharomyces cerevisiae in bread and alcohol production.\n• <b>Antibiotic Production:</b> Penicillium fungi produce penicillin.\n• <b>Biodegradation:</b> Microbes degrade oil spills and toxic wastes.\n• <b>Genetic Engineering:</b> E. coli used in recombinant DNA technology.\n• <b>Probiotics:</b> Improve gut health in humans and animals."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n\n1. Define microorganisms and list their main types.\n2. Explain the beneficial roles of microorganisms in the environment, agriculture, and industry.\n3. List ten human diseases caused by bacteria, five by viruses, three by fungi, and three by protozoa with their causative organisms.\n4. Describe the transmission routes of microbial diseases with examples.\n5. How do viruses differ from bacteria in structure and replication?\n6. Describe fungal and protozoan diseases in humans.\n7. Explain methods of preventing microbial diseases in communities.\n8. Discuss the use of microorganisms in biotechnology and medicine.\n9. Give examples of microorganisms used in fermentation and antibiotic production.\n10. Why are some microorganisms harmful while others are beneficial?"
+      }
+    ]
+  }
+},
+
+//human impacts on the environment
+{
+  "topic": "Human Impacts on the Environment",
+  "notes": {
+    "title": "Human Impacts on the Environment — Causes, Effects, and Management",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Human Impact on the Environment</b>\n\nHuman impact on the environment refers to the ways in which human activities alter, degrade, or influence the natural environment. These impacts can affect air, water, soil, biodiversity, and ecosystems, often leading to environmental challenges such as pollution, climate change, and habitat destruction."
+      },
+      {
+        "type": "text",
+        "data": "<b>Major Human Activities Affecting the Environment</b>\n\n1. <b>Deforestation:</b> The clearing of forests for agriculture, urban development, and logging.\n2. <b>Industrialization:</b> Release of pollutants from factories, mining, and manufacturing.\n3. <b>Agricultural Practices:</b> Use of chemical fertilizers, pesticides, and overgrazing.\n4. <b>Urbanization:</b> Expansion of cities leading to habitat loss and increased waste.\n5. <b>Transportation:</b> Emissions of greenhouse gases and pollutants from vehicles.\n6. <b>Waste Generation:</b> Improper disposal of solid and liquid waste, including plastics.\n7. <b>Overfishing:</b> Excessive harvesting of aquatic species leading to ecosystem imbalance.\n8. <b>Energy Production:</b> Fossil fuel burning, oil spills, and nuclear energy accidents.\n9. <b>Tourism and Recreation:</b> Habitat disruption and pollution in sensitive ecosystems."
+      },
+      {
+        "type": "image",
+        "data": "./human_environment_impact.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Effects of Human Activities on the Environment</b>\n\n1. <b>Air Pollution:</b> Emission of carbon monoxide, sulfur dioxide, nitrogen oxides, and particulate matter causing respiratory illnesses, acid rain, and smog formation.\n2. <b>Water Pollution:</b> Contamination of rivers, lakes, and oceans from industrial effluents, sewage, and agricultural runoff leading to eutrophication and unsafe drinking water.\n3. <b>Soil Degradation:</b> Loss of soil fertility due to over-farming, deforestation, and improper waste disposal.\n4. <b>Climate Change:</b> Global warming due to increased greenhouse gas emissions, resulting in rising temperatures, extreme weather, and sea-level rise.\n5. <b>Loss of Biodiversity:</b> Habitat destruction, poaching, and pollution lead to extinction and reduced genetic diversity.\n6. <b>Deforestation Effects:</b> Soil erosion, reduced rainfall, desertification, and disruption of carbon cycle.\n7. <b>Ocean Acidification:</b> Absorption of excess carbon dioxide by oceans affecting marine life.\n8. <b>Noise Pollution:</b> Urban and industrial noise affecting wildlife and human health.\n9. <b>Overexploitation of Resources:</b> Depletion of natural resources like forests, minerals, and fish stocks."
+      },
+      {
+        "type": "text",
+        "data": "<b>Management and Mitigation of Human Impacts</b>\n\n1. <b>Afforestation and Reforestation:</b> Planting trees to restore degraded lands and absorb carbon dioxide.\n2. <b>Pollution Control:</b> Installation of emission filters, treatment of industrial effluents, and reducing vehicle emissions.\n3. <b>Sustainable Agriculture:</b> Crop rotation, organic fertilizers, integrated pest management, and conservation tillage.\n4. <b>Waste Management:</b> Recycling, composting, proper landfill use, and reduction of plastic usage.\n5. <b>Renewable Energy:</b> Adoption of solar, wind, hydroelectric, and bioenergy to reduce fossil fuel reliance.\n6. <b>Environmental Laws and Policies:</b> Implementation of regulations to control pollution, conserve habitats, and protect endangered species.\n7. <b>Public Awareness and Education:</b> Educating communities on sustainable practices and environmental stewardship.\n8. <b>Conservation Areas and Wildlife Reserves:</b> Protecting natural habitats and endangered species.\n9. <b>Eco-friendly Urban Planning:</b> Promoting green spaces, efficient public transport, and energy-efficient buildings."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n\n1. Define human impact on the environment and give examples.\n2. Explain how deforestation affects soil, climate, and biodiversity.\n3. List five human activities that contribute to air and water pollution.\n4. Describe the effects of climate change caused by human activities.\n5. Explain sustainable agricultural practices and their benefits.\n6. How can renewable energy reduce environmental degradation?\n7. Discuss methods of waste management in urban areas.\n8. Explain the role of afforestation and reforestation in environmental conservation.\n9. Describe the importance of environmental laws and policies in protecting ecosystems.\n10. How can public awareness and education help reduce human impact on the environment?"
       }
     ]
   }
 }
+
+
+
 ],
 
 "Chemistry": [
   
   //introduction to chemisty
+  
   {
-    topic: "Introduction to Chemistry",
-    notes: {
-      title: "Chemistry — Meaning, Branches, and Importance",
-      content: [
-        { 
-          type: "text", 
-          data: "Chemistry is the branch of science that studies the composition, structure, properties, and transformation of matter. It explains what substances are made of, how they interact, and how new substances can be formed through chemical reactions. The term 'chemistry' comes from the ancient practice of alchemy, which involved the search for ways to transform materials (like turning base metals into gold)." 
-        },
-        { 
-          type: "text", 
-          data: "Chemistry connects other branches of science — it explains how biological systems function at the molecular level (in biochemistry), and how physical changes in matter relate to energy (in physical chemistry). It is often called 'the central science' because it bridges physics, biology, and geology." 
-        },
-        { 
-          type: "text", 
-          data: "Major Branches of Chemistry:\n1. Physical Chemistry – studies energy changes and physical properties of matter.\n2. Organic Chemistry – focuses on compounds that contain carbon.\n3. Inorganic Chemistry – deals with elements and compounds that are not carbon-based.\n4. Analytical Chemistry – involves identifying and measuring the composition of substances.\n5. Biochemistry – studies the chemical processes within living organisms." 
-        },
-        { 
-          type: "text", 
-          data: "Importance of Chemistry:\n• Medicine – development of drugs and vaccines.\n• Agriculture – production of fertilizers, pesticides, and preservatives.\n• Industry – manufacturing of plastics, fuels, cosmetics, and detergents.\n• Environment – understanding pollution and developing eco-friendly materials.\n• Daily life – cooking, cleaning, and preservation all involve chemical processes." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Chemistry_flasks.svg/640px-Chemistry_flasks.svg.png" 
-        }
-      ]
-    }
-  },
+  "topic": "Introduction to Chemistry",
+  "notes": {
+    "title": "Chemistry — Meaning, Branches, Importance, and Career Opportunities",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Chemistry</b>\n\nChemistry is the branch of natural science concerned with the study of matter, its composition, structure, properties, and changes it undergoes during chemical reactions. The term 'chemistry' originates from the Egyptian word 'khem', meaning earth, which evolved through alchemy into the modern science of chemistry. Essentially, chemistry explains the behavior of substances and how they interact, combine, and transform to form new substances.\n\nChemistry acts as a bridge between physical sciences and life sciences, providing insights into everything from the molecular composition of living organisms to industrial processes and environmental systems."
+      },
+      {
+        "type": "image",
+        "data": "./Screenshot_20251217-160753.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Scope of Chemistry</b>\nChemistry covers a vast range of phenomena and applications, including:\n• Understanding the structure and behavior of atoms, molecules, and ions.\n• Studying chemical reactions and the energy changes associated with them.\n• Designing new materials such as plastics, alloys, pharmaceuticals, and nanomaterials.\n• Exploring biochemical processes in living organisms.\n• Investigating environmental issues such as pollution, waste management, and climate change.\n• Analyzing substances for quality control in industries and laboratories."
+      },
+      {
+        "type": "text",
+        "data": "<b>Branches of Chemistry</b>\nChemistry is divided into several specialized branches, including:\n\n1. Organic Chemistry – Study of carbon-containing compounds, including hydrocarbons, alcohols, and polymers.\n2. Inorganic Chemistry – Focuses on inorganic compounds such as metals, salts, minerals, and non-metals.\n3. Physical Chemistry – Examines the physical principles underlying chemical processes, including thermodynamics, kinetics, and quantum chemistry.\n4. Analytical Chemistry – Involves identifying and quantifying chemical substances through techniques like spectroscopy, chromatography, and titration.\n5. Biochemistry – Studies the chemistry of living organisms, including proteins, carbohydrates, lipids, nucleic acids, and metabolism.\n6. Industrial Chemistry – Focuses on chemical processes and production of industrial materials, fuels, and chemicals.\n7. Environmental Chemistry – Examines chemical processes in the environment and addresses pollution, waste management, and sustainability.\n8. Theoretical Chemistry – Uses mathematical models and computational methods to predict chemical behavior and reactions.\n9. Medicinal Chemistry – Design and development of pharmaceutical compounds and drugs.\n10. Materials Chemistry – Studies new materials, including nanomaterials, ceramics, polymers, and semiconductors."
+      },
+      {
+        "type": "image",
+        "data": "./Screenshot_20251217-161813.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Chemistry</b>\nChemistry plays a vital role in science, industry, health, and daily life:\n• Understanding Nature: Explains phenomena such as chemical bonding, reactions, and the properties of substances.\n• Foundation for Other Sciences: Serves as the backbone for biology, physics, geology, medicine, and environmental science.\n• Industrial Development: Supports production of fuels, plastics, fertilizers, textiles, medicines, and electronics.\n• Technological Advancements: Enables creation of new materials, energy solutions, and medical technologies.\n• Environmental Protection: Helps manage pollution, water treatment, and sustainable resource usage.\n• Agriculture: Improves crop yield through fertilizers, pesticides, and soil chemistry.\n• Health and Medicine: Assists in drug development, diagnostics, and understanding biochemical processes.\n• Daily Life: Influences household products, food preservation, cosmetics, and personal care items."
+      },
+      {
+        "type": "text",
+        "data": "<b>Benefits of Studying Chemistry</b>\n• Develops analytical, critical thinking, and problem-solving skills.\n• Provides a foundation for careers in medicine, pharmacy, engineering, environmental science, and research.\n• Enhances understanding of natural and synthetic materials.\n• Encourages innovation in industries, medicine, and technology.\n• Improves laboratory skills, including experimentation, observation, and precise measurement.\n• Prepares students for advanced studies in science and technology.\n• Cultivates curiosity about the composition and transformation of matter."
+      },
+      {
+        "type": "text",
+        "data": "<b>Career Opportunities in Chemistry</b>\nChemistry opens a wide array of career paths in research, industry, medicine, and education:\n\n1. Pharmaceuticals and Medicinal Chemistry – Drug design, formulation, and quality control.\n2. Chemical Engineering – Industrial process design, production of chemicals, and energy solutions.\n3. Biochemistry and Molecular Biology – Research in genetics, metabolism, and biotechnology.\n4. Environmental Chemistry – Pollution monitoring, waste management, and sustainable practices.\n5. Materials Science – Development of polymers, alloys, ceramics, and nanomaterials.\n6. Food Chemistry – Quality control, food safety, and nutritional analysis.\n7. Education and Research – Teaching, curriculum development, and laboratory research.\n8. Forensic Chemistry – Crime scene analysis, toxicology, and evidence testing.\n9. Analytical Laboratories – Testing of water, air, soil, and industrial products.\n10. Cosmetic and Personal Care Industry – Formulation of beauty and hygiene products.\n11. Petroleum and Energy Sector – Refining, petrochemical production, and renewable energy development.\n12. Government and Regulatory Bodies – Policy formulation, standardization, and environmental protection."
+      },
+      {
+        "type": "image",
+        "data": "./Screenshot_20251217-161334.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Methods Used in Chemistry</b>\nChemists use a combination of scientific methods to study matter and reactions:\n• Observation: Identifying properties, changes, and phenomena in substances.\n• Experimentation: Conducting controlled tests to study reactions and behavior.\n• Measurement: Accurate quantification of mass, volume, temperature, and concentration.\n• Data Analysis: Interpreting experimental results using statistical and computational methods.\n• Formulation of Laws and Theories: Developing general principles to explain chemical behavior.\n• Modeling and Simulation: Using mathematical and computer models to predict chemical phenomena."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define chemistry and explain its significance in science.\n2. List and describe five branches of chemistry with examples.\n3. Explain the importance of chemistry in daily life and industrial development.\n4. Discuss the benefits of studying chemistry for students and society.\n5. Identify six career opportunities for chemistry graduates and explain each.\n6. Describe the methods commonly used in chemistry to study substances.\n7. How does chemistry contribute to medicine and healthcare?\n8. Explain the role of chemistry in environmental protection.\n9. Discuss how chemistry supports technological and material innovations.\n10. Why is chemistry considered a central science linking other scientific disciplines?"
+      }
+    ]
+  }
+},
+
   
   //states of matter and phase change
+  
   {
-    topic: "States of Matter",
-    notes: {
-      title: "States of Matter — Solids, Liquids, and Gases",
-      content: [
-        { 
-          type: "text", 
-          data: "Matter is anything that has mass and occupies space. It exists mainly in three physical states: solid, liquid, and gas. Each state has distinct particle arrangements and energy levels that determine its properties." 
-        },
-        { 
-          type: "text", 
-          data: "Solids: Particles are closely packed in fixed positions, giving solids a definite shape and volume. The particles vibrate about fixed points but do not move freely. Solids are usually incompressible and have high density. Examples: ice, salt, iron." 
-        },
-        { 
-          type: "text", 
-          data: "Liquids: Particles are close together but not in fixed positions, allowing them to slide over one another. Liquids have definite volume but take the shape of their container. They are slightly compressible and flow easily. Examples: water, oil, alcohol." 
-        },
-        { 
-          type: "text", 
-          data: "Gases: Particles are far apart and move rapidly in all directions. Gases have neither definite shape nor volume. They fill their containers completely and are easily compressed. Examples: air, carbon dioxide, nitrogen." 
-        },
-        //image of three states of matter 
-        {
-          type: "image",
-          data: "./Screenshot_20251118-075804.png"
-        },
-        { 
-          type: "text", 
-          data: "Changes of State: Matter can change from one state to another through heating or cooling — melting (solid → liquid), freezing (liquid → solid), evaporation (liquid → gas), condensation (gas → liquid), sublimation (solid → gas), and deposition (gas → solid)." 
-        },
-        //diagram of phase triangle
-        {
-          type: "image",
-          data: "./Screenshot_20251118-075449.png"
-        },
-        { 
-          type: "text", 
-          data: "The Kinetic Theory of Matter explains these states by describing matter as composed of tiny particles in constant motion. The energy and spacing between particles determine the state of matter." 
-        },
-        
-        {
-          type:"text",
-          data:"Under suitable conditions, the three states of matter can coexist. The point at which this occurs is known as the triple point. It is marked O in the diagram below"
-        },
-        { 
-          type: "image", 
-          data: "./Screenshot_20251118-075539_1.png"
-        }
-      ]
-    }
-  },
+  "topic": "States of Matter",
+  "notes": {
+    "title": "States of Matter — Solids, Liquids, Gases, and Plasma",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of States of Matter</b>\n\nMatter is anything that has mass and occupies space. The physical form in which matter exists is referred to as its state. Matter primarily exists in four states: solids, liquids, gases, and plasma. The state of matter depends on the arrangement and motion of particles (atoms or molecules) and the forces acting between them. Understanding states of matter is fundamental in chemistry because it explains how substances behave under different conditions of temperature and pressure."
+      },
+      {
+        "type": "image",
+        "data": "./Screenshot_20251217-162122.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Classification and Properties of Matter</b>\n\n1. <b>Solids</b>:\n• Particles are closely packed in a fixed, orderly arrangement.\n• Have a definite shape and definite volume.\n• Particles vibrate in place but do not move freely.\n• Strong forces of attraction between particles.\n• Examples: Ice, iron, diamond, wood.\n\n2. <b>Liquids</b>:\n• Particles are closely packed but can move past one another.\n• Have a definite volume but no fixed shape; they take the shape of their container.\n• Weaker forces of attraction than solids.\n• Examples: Water, oil, milk, mercury.\n\n3. <b>Gases</b>:\n• Particles are far apart and move randomly at high speeds.\n• No definite shape or volume; they expand to fill their container.\n• Very weak forces of attraction between particles.\n• Highly compressible.\n• Examples: Oxygen, nitrogen, carbon dioxide, hydrogen.\n\n4. <b>Plasma</b>:\n• Ionized gas containing free electrons and ions.\n• No definite shape or volume.\n• Conducts electricity and responds to magnetic fields.\n• Occurs naturally in stars, lightning, and neon signs.\n• Examples: Sun, auroras, fluorescent lamps."
+      },
+      {
+        "type": "text",
+        "data": "<b>Changes of State</b>\nMatter can change from one state to another when energy (usually in the form of heat) is added or removed. Common changes of state include:\n• <b>Melting:</b> Solid to liquid (e.g., ice to water).\n• <b>Freezing:</b> Liquid to solid (e.g., water to ice).\n• <b>Vaporization:</b> Liquid to gas (e.g., boiling water to steam).\n• <b>Condensation:</b> Gas to liquid (e.g., water vapor to liquid water).\n• <b>Sublimation:</b> Solid to gas without passing through liquid (e.g., dry ice).\n• <b>Deposition:</b> Gas to solid without becoming liquid (e.g., frost formation)."
+      },
+      {
+        "type": "image",
+        "data": "/Screenshot_20251217-162242.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Properties Related to Particle Theory</b>\nParticle theory explains the behavior of matter in different states:\n• <b>Density:</b> Mass per unit volume; solids are generally denser than liquids and gases.\n• <b>Compressibility:</b> Gases are highly compressible; liquids slightly compressible; solids almost incompressible.\n• <b>Diffusion:</b> The spreading of particles from high to low concentration; occurs fastest in gases.\n• <b>Fluidity:</b> Liquids and gases can flow; solids cannot.\n• <b>Pressure:</b> Particles in gases exert pressure when they collide with container walls."
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Studying States of Matter</b>\n• Helps in understanding physical and chemical changes.\n• Provides insight into phase transitions in industrial processes, such as distillation and crystallization.\n• Explains properties of materials in engineering, manufacturing, and daily life.\n• Essential in studying thermodynamics, kinetics, and chemical reactions.\n• Supports environmental studies, such as water cycle, atmospheric behavior, and pollution."
+      },
+      {
+        "type": "text",
+        "data": "<b>Examples of Applications</b>\n• Refrigeration and air conditioning: Using phase changes to transfer heat.\n• Boiling and evaporation in cooking and industrial processes.\n• Plasma TVs and neon lights use plasma state.\n• Compressed gases for medical oxygen and industrial processes.\n• Ice production and freezing for food preservation."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define matter and explain what is meant by states of matter.\n2. List the four states of matter and describe the arrangement and movement of particles in each.\n3. Explain why solids have a definite shape but gases do not.\n4. Describe the process of melting, freezing, vaporization, condensation, sublimation, and deposition with examples.\n5. Explain how particle theory accounts for the compressibility and fluidity of matter.\n6. Discuss the importance of understanding states of matter in industrial and daily life applications.\n7. Provide examples of plasma in natural and artificial environments.\n8. Compare the density of solids, liquids, and gases and explain why these differences occur.\n9. How does temperature affect the kinetic energy and movement of particles in different states?\n10. Explain the role of energy in changes of state."
+      }
+    ]
+  }
+},
   
   //elements, compounds and mixtures
   
   {
-  topic: "Elements, Compounds and Mixtures",
+  topic: "Elements, Compounds & Mixtures",
   notes: {
     title: "Elements, Compounds and Mixtures — Definitions, Examples, Valency and Formula Writing",
     content: [
@@ -3047,6 +4411,10 @@ window.studyData = {
       {
         type: "text",
         data: "A mixture is a combination of two or more substances that are physically combined and can be separated by simple physical methods. The components are not chemically bonded and retain their original properties. Examples: air, seawater, crude oil, blood."
+      },
+      {
+        type: "image",
+        data: "./Screenshot_20251217-162931.png"
       },
 
       {
@@ -3125,521 +4493,875 @@ window.studyData = {
   }
 },
 
+  //separation techniques 
+  
+  {
+  "topic": "Separation Techniques",
+  "notes": {
+    "title": "Separation Techniques — Meaning, Types, Principles, Procedures and Applications",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Separation Techniques</b><br><br>Separation techniques are <b>physical methods</b> used to separate the components of a mixture based on differences in their <b>physical properties</b> such as particle size, density, solubility, boiling point, magnetism, and ability to sublime. These methods do not involve chemical changes, and the substances retain their original properties after separation."
+      },
 
-  {
-    topic: "Atomic Structure",
-    notes: {
-      title: "Atomic Structure — Protons, Neutrons, and Electrons",
-      content: [
-        { 
-          type: "text", 
-          data: "All matter is made up of atoms — the smallest particles that can take part in chemical reactions. An atom consists of a dense central nucleus surrounded by electrons moving in energy levels or shells." 
-        },
-        { 
-          type: "text", 
-          data: "The nucleus contains positively charged protons and neutral neutrons, giving it most of the atom’s mass. Electrons are negatively charged and occupy specific energy levels around the nucleus. The number of protons equals the number of electrons in a neutral atom." 
-        },
-        { 
-          type: "text", 
-          data: "Subatomic particles:\n• Proton — positive charge (+1), mass ≈ 1 atomic mass unit (amu).\n• Neutron — no charge (0), mass ≈ 1 amu.\n• Electron — negative charge (−1), mass ≈ 1/1836 amu.\nThe atomic number (Z) is the number of protons, while the mass number (A) is the sum of protons and neutrons (A = Z + N)." 
-        },
-        { 
-          type: "text", 
-          data: "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons. For example, carbon-12, carbon-13, and carbon-14 are isotopes of carbon." 
-        },
-        { 
-          type: "text", 
-          data: "Electron Arrangement: Electrons occupy energy levels (shells) in increasing order of energy — K, L, M, N, etc. The maximum number of electrons in a shell is given by 2n², where n is the shell number. Example: Sodium (Na, atomic number 11) has the configuration 2, 8, 1." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Atomic_structure.svg/640px-Atomic_structure.svg.png" 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Electron_shell_011_Sodium.svg/512px-Electron_shell_011_Sodium.svg.png" 
-        }
-      ]
-    }
-  },
-  
-  {
-    topic: "Periodicity and  Periodic Trends",
-    notes: {
-      title: "Periodic Table — Arrangement and Trends",
-      content: [
-        { 
-          type: "text", 
-          data: "The periodic table is a systematic arrangement of elements based on increasing atomic number. It helps predict the properties and behaviors of elements. Elements are placed in periods (horizontal rows) and groups (vertical columns) according to their electron configurations." 
-        },
-        { 
-          type: "text", 
-          data: "Each group contains elements with similar chemical properties because they have the same number of valence electrons. Metals are found on the left and center, non-metals on the right, and metalloids between them. The table is divided into s, p, d, and f blocks based on the outermost electron sub-shell." 
-        },
-        { 
-          type: "text", 
-          data: "Periodic Law: The chemical and physical properties of elements are periodic functions of their atomic numbers. This means that properties repeat at regular intervals when elements are arranged by atomic number." 
-        },
-        { 
-          type: "text", 
-          data: "Periodic Trends:\n1. **Atomic Size (Radius)** — decreases across a period (due to increasing nuclear charge) and increases down a group (due to additional energy levels).\n2. **Ionization Energy** — increases across a period and decreases down a group.\n3. **Electronegativity** — increases across a period and decreases down a group.\n4. **Metallic Character** — decreases across a period and increases down a group." 
-        },
-        { 
-          type: "text", 
-          data: "The periodic table helps chemists understand and predict how elements form compounds, their reactivity, and the types of bonds they form. For example, Group 1 (Alkali metals) are highly reactive, while Group 18 (Noble gases) are inert." 
-        },
-        { 
-          type: "image", 
-          data: "https://chem.libretexts.org/@api/deki/files/5531/Periodic_trends.png" 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Periodic_table_large.svg/640px-Periodic_table_large.svg.png" 
-        }
-      ]
-    }
-  },
-  
-  {
-  topic: "Chemical Bonding",
-  notes: {
-    title: "Chemical Bonding — Types and Properties",
-    content: [
-      { 
-        type: "text", 
-        data: "Chemical bonding refers to the forces that hold atoms or ions together to form compounds. Atoms bond to achieve stable electron configurations, usually resembling the nearest noble gas (the octet rule). The main types of bonds are ionic, covalent, and metallic bonds." 
-      },
-      { 
-        type: "text", 
-        data: "1. Ionic Bonding: Occurs when electrons are completely transferred from one atom to another, forming oppositely charged ions that attract each other electrostatically. Example: Sodium chloride (NaCl). Metals lose electrons to form cations, while nonmetals gain electrons to form anions." 
-      },
       {
-        type: "image",
-        data: "./Screenshot_20251108-074115.png"
+        "type": "text",
+        "data": "<b>Why Separation of Mixtures is Important</b><br><br>- To obtain pure substances for laboratory and industrial use.<br>- To remove unwanted or harmful substances (e.g., water purification).<br>- To separate useful products from raw materials (e.g., crude oil refining).<br>- To analyze the components of a mixture in chemistry and biology.<br>- To improve the quality of food and drinks (e.g., sieving flour, filtering juice)."
       },
+
       {
-        type: "image",
-        data: "./Screenshot_20251108-074148.png"
-      },  
-      { 
-        type: "text", 
-        data: "2. Covalent Bonding: Involves sharing of electrons between two nonmetal atoms. Each shared pair of electrons constitutes a bond. Example: H₂, O₂, H₂O, and CH₄. Covalent bonds can be single, double, or triple depending on the number of shared pairs." 
+        "type": "text",
+        "data": "<b>Basis of Separation Techniques</b><br><br>Separation methods depend on differences in:<br>- Particle size<br>- Density<br>- Solubility<br>- Boiling point<br>- Magnetic property<br>- Volatility<br>- Adsorption ability"
       },
+
       {
-        type: "image",
-        data: "./Screenshot_20251108-074256.png"
+        "type": "text",
+        "data": "<b>1. Hand Picking</b><br><br><b>Principle:</b> Difference in size, shape, or colour of components.<br><b>Description:</b> The unwanted or wanted particles are manually picked out by hand.<br><b>Examples:</b> Removing stones from rice or beans.<br><b>Limitations:</b> Only suitable when components are large and visible."
       },
+
       {
-        type: "images",
-        data:"./Screenshot_20251108-074256.png"
+        "type": "text",
+        "data": "<b>2. Sieving</b><br><br><b>Principle:</b> Difference in particle size.<br><b>Description:</b> A sieve allows smaller particles to pass through while larger particles remain on the mesh.<br><b>Examples:</b> Separating sand from gravel; sieving flour to remove bran.<br><b>Limitation:</b> Not effective if particles are of similar size."
       },
-      { 
-        type: "text", 
-        data: "3. Metallic Bonding: Occurs between metal atoms where valence electrons are delocalized, forming a 'sea of electrons' around positive ions. This explains metallic properties such as conductivity, malleability, and ductility." 
+
+      {
+        "type": "text",
+        "data": "<b>3. Winnowing</b><br><br><b>Principle:</b> Difference in density and weight.<br><b>Description:</b> Lighter particles are blown away by wind while heavier particles fall straight down.<br><b>Examples:</b> Separating chaff from grains.<br><b>Application:</b> Commonly used in agriculture."
       },
-      { 
-        type: "text", 
-        data: "Other types include coordinate (dative) bonds, where one atom donates both electrons to the shared pair. Example: formation of NH₄⁺ from NH₃ and H⁺." 
+
+      {
+        "type": "text",
+        "data": "<b>4. Magnetic Separation</b><br><br><b>Principle:</b> Magnetic property of substances.<br><b>Description:</b> A magnet is used to attract magnetic materials from a mixture.<br><b>Examples:</b> Separating iron filings from sulphur or sand.<br><b>Industrial Use:</b> Removing iron contaminants in food processing industries."
       },
-      { 
-        type: "text", 
-        data: "Evaluation Questions:\n1. Define a chemical bond.\n2. Differentiate between ionic and covalent bonds with examples.\n3. Explain how metallic bonding accounts for the properties of metals.\n4. What is a coordinate bond? Give one example." 
+
+      {
+        "type": "text",
+        "data": "<b>5. Sedimentation and Decantation</b><br><br><b>Principle:</b> Difference in density.<br><b>Sedimentation:</b> Heavier insoluble particles settle at the bottom of a liquid.<br><b>Decantation:</b> The clear liquid above the settled solid is gently poured off.<br><b>Examples:</b> Separating sand from water; muddy water clarification.<br><b>Limitation:</b> Does not give complete separation."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>6. Filtration</b><br><br><b>Principle:</b> Difference in particle size and insolubility.<br><b>Description:</b> The mixture is passed through a filter paper which traps solid particles while the liquid passes through.<br><b>Examples:</b> Separating sand from water; preparing coffee.<br><b>Residue:</b> Solid left on filter paper.<br><b>Filtrate:</b> Liquid that passes through."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>7. Evaporation</b><br><br><b>Principle:</b> Difference in volatility.<br><b>Description:</b> The solvent is heated and allowed to evaporate, leaving the solid behind.<br><b>Examples:</b> Obtaining salt from seawater.<br><b>Limitation:</b> The solvent cannot be recovered."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>8. Crystallization</b><br><br><b>Principle:</b> Difference in solubility at different temperatures.<br><b>Description:</b> A hot saturated solution is cooled to form pure crystals of the solute.<br><b>Examples:</b> Purification of sugar, copper(II) sulphate crystals.<br><b>Advantage:</b> Produces very pure solids."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>9. Sublimation</b><br><br><b>Principle:</b> Ability of some solids to change directly from solid to gas.<br><b>Description:</b> The sublimable substance vaporizes on heating and re-solidifies on cooling.<br><b>Examples:</b> Separating ammonium chloride from sand; iodine purification.<br><b>Non-sublimable substances:</b> Sand, sodium chloride."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>10. Simple Distillation</b><br><br><b>Principle:</b> Difference in boiling points.<br><b>Description:</b> Used to separate a solvent from a solution by boiling and condensing it.<br><b>Examples:</b> Obtaining distilled water from salt solution.<br><b>Requirement:</b> Large boiling point difference."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>11. Fractional Distillation</b><br><br><b>Principle:</b> Difference in boiling points of miscible liquids.<br><b>Description:</b> Uses a fractionating column to separate liquids with close boiling points.<br><b>Examples:</b> Separation of ethanol and water; refining crude oil into petrol, kerosene, diesel.<br><b>Application:</b> Petroleum and alcohol industries."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>12. Separating Funnel</b><br><br><b>Principle:</b> Difference in density of immiscible liquids.<br><b>Description:</b> Heavier liquid settles at the bottom and is released first.<br><b>Examples:</b> Separation of oil and water; kerosene and water."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>13. Chromatography</b><br><br><b>Principle:</b> Difference in adsorption and solubility.<br><b>Description:</b> Components move at different speeds through a stationary medium.<br><b>Examples:</b> Separating dyes in ink; pigments in leaves.<br><b>Types:</b> Paper chromatography, thin-layer chromatography.<br><b>Application:</b> Forensic science, medicine, biochemistry."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation / Revision Questions</b><br><br>\
+        1. What is meant by separation of mixtures?<br>\
+        2. Explain why separation techniques are regarded as physical methods.<br>\
+        3. State five physical properties used in separating mixtures.<br>\
+        4. Differentiate between sedimentation and decantation.<br>\
+        5. Explain how filtration differs from decantation.<br>\
+        6. Why is sieving not suitable for separating salt and sand?<br>\
+        7. Describe how you would separate a mixture of iron filings and sulphur.<br>\
+        8. Explain the process of obtaining salt from seawater.<br>\
+        9. What type of mixture can be separated using a separating funnel?<br>\
+        10. State two differences between simple distillation and fractional distillation.<br>\
+        11. Why is crystallization preferred to evaporation in the purification of solids?<br>\
+        12. Give two examples of substances that sublime and two that do not.<br>\
+        13. Explain the principle behind chromatography.<br>\
+        14. Mention three industrial applications of separation techniques.<br>"
       }
     ]
   }
 },
 
 
+  //atomic structures
+  
   {
-      topic: "Stoichiometry and Chemical Calculations",
-      notes: {
-        title: "Stoichiometry — Mole Concept and Chemical Equations",
-        content: [
-          { 
-            type: "text", 
-            data: "Stoichiometry is the quantitative relationship between reactants and products in a chemical reaction. It involves calculations based on balanced chemical equations using the mole concept." 
-          },
-          { 
-            type: "text", 
-            data: "The Mole: One mole of a substance contains 6.022 × 10²³ particles (Avogadro’s number). It relates the mass of a substance to the number of atoms or molecules present." 
-          },
-          { 
-            type: "text", 
-            data: "Molar Mass: The mass of one mole of a substance, expressed in grams per mole (g/mol). Example: 1 mole of water (H₂O) = 2(1.01) + 16 = 18.02 g/mol." 
-          },
-          { 
-            type: "text", 
-            data: "Balanced chemical equations show the ratio in which substances react. From this ratio, you can calculate the amount of one substance given another. For example, in 2H₂ + O₂ → 2H₂O, 2 moles of hydrogen react with 1 mole of oxygen to produce 2 moles of water." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. Define the mole.\n2. Calculate the number of molecules in 18 g of water (H₂O).\n3. If 4 g of hydrogen reacts with oxygen, how many grams of water are produced?\n4. Why must chemical equations be balanced before use in stoichiometric calculations?" 
-          }
-        ]
+  "topic": "Atomic Structure",
+  "notes": {
+    "title": "Atomic Structure — Atoms, Subatomic Particles, and Isotopes",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Atomic Structure</b>\n\nAtomic structure is the study of the internal composition and arrangement of atoms, the basic building blocks of matter. Atoms consist of a nucleus containing protons and neutrons, surrounded by electrons moving in specific regions called electron shells or energy levels. Understanding atomic structure is fundamental to chemistry because it explains the properties, reactivity, and bonding behavior of elements."
+      },
+      {
+        "type": "image",
+        "data": "./Screenshot_20251217-163103.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Subatomic Particles</b>\nAtoms are made up of three main subatomic particles:\n\n1. <b>Protons:</b> Positively charged particles found in the nucleus. They determine the atomic number and identity of an element.\n2. <b>Neutrons:</b> Neutral particles in the nucleus. They contribute to the mass and stability of the atom.\n3. <b>Electrons:</b> Negatively charged particles orbiting the nucleus in electron shells. They are responsible for chemical bonding and reactivity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Atomic Number and Mass Number</b>\n• <b>Atomic Number (Z):</b> The number of protons in the nucleus of an atom. It determines the element.\n• <b>Mass Number (A):</b> The total number of protons and neutrons in the nucleus.\n• <b>Example:</b> Carbon-12 has 6 protons and 6 neutrons, so Z = 6, A = 12."
+      },
+      {
+        "type": "text",
+        "data": "<b>Isotopes</b>\nIsotopes are atoms of the same element that have the same number of protons but different numbers of neutrons. They have similar chemical properties but different physical properties.\n• <b>Example:</b> Carbon-12 and Carbon-14 are isotopes of carbon.\n• Isotopes are used in medicine (e.g., radioactive tracers), archaeology (carbon dating), and nuclear energy."
+      },
+      {
+        "type": "text",
+        "data": "<b>Electron Arrangement</b>\nElectrons occupy energy levels or shells around the nucleus. The arrangement determines the chemical behavior of the atom.\n• The first shell can hold up to 2 electrons.\n• The second shell can hold up to 8 electrons.\n• The third shell can hold up to 18 electrons, and so on.\n\nExample: Oxygen (atomic number 8) has 2 electrons in the first shell and 6 in the second shell."
+      },
+      {
+        "type": "image",
+        "data": "./Screenshot_20251217-163216.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Development of Atomic Models</b>\n1. <b>Dalton’s Model:</b> Atoms are indivisible particles.\n2. <b>Thomson’s Model:</b> Atoms contain negatively charged electrons embedded in a positive 'pudding.'\n3. <b>Rutherford’s Model:</b> Atoms have a dense, positively charged nucleus with electrons around it.\n4. <b>Bohr’s Model:</b> Electrons orbit the nucleus in fixed energy levels.\n5. <b>Quantum Mechanical Model:</b> Electrons exist in probabilistic regions called orbitals, described by quantum numbers."
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Atomic Structure</b>\n• Explains the chemical properties and reactivity of elements.\n• Helps predict how atoms will bond and form molecules.\n• Provides the foundation for understanding the periodic table.\n• Essential in fields such as chemistry, physics, materials science, and biochemistry.\n• Enables the study of isotopes, nuclear reactions, and spectroscopy."
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Atomic Structure</b>\n• Medicine: Use of isotopes in diagnostics and treatment.\n• Energy: Nuclear power generation relies on understanding atomic nuclei.\n• Materials Science: Designing materials at the atomic and molecular level.\n• Chemistry: Predicting reactions, bonding, and compound formation.\n• Research: Atomic models guide experiments in physics and chemistry."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define atomic structure and explain why it is important in chemistry.\n2. List and describe the three main subatomic particles.\n3. Explain the difference between atomic number and mass number.\n4. What are isotopes? Give two examples and their applications.\n5. Describe the arrangement of electrons in shells for elements with atomic numbers 1–20.\n6. Outline the development of atomic models from Dalton to the Quantum Mechanical Model.\n7. How does atomic structure influence chemical bonding and reactivity?\n8. Explain the significance of electrons in determining the properties of an element.\n9. Discuss two practical applications of atomic structure in medicine and industry.\n10. Why is the Quantum Mechanical Model considered the most accurate representation of the atom?"
       }
-    },
-    
-    
+    ]
+  }
+},
+
+  
+  //chemical combination 
+  
   {
-      topic: "Chemical Reactions and Energy Changes",
-      notes: {
-        title: "Chemical Reactions — Types and Energy Effects",
-        content: [
-          { 
-            type: "text", 
-            data: "A chemical reaction involves the breaking and formation of bonds, leading to the transformation of substances into new products. Reactions can be classified based on energy change, nature, or direction." 
-          },
-          { 
-            type: "text", 
-            data: "Types of Chemical Reactions:\n1. Combination (Synthesis): Two or more substances combine to form one product. Example: 2H₂ + O₂ → 2H₂O.\n2. Decomposition: A compound breaks down into simpler substances. Example: 2H₂O → 2H₂ + O₂.\n3. Single Displacement: One element replaces another in a compound.\n4. Double Displacement: Exchange of ions between two compounds.\n5. Combustion: Reaction with oxygen producing heat and light." 
-          },
-          { 
-            type: "text", 
-            data: "Energy Changes: Reactions are either exothermic (release heat) or endothermic (absorb heat). Energy diagrams help visualize the energy difference between reactants and products." 
-          },
-          { 
-            type: "text", 
-            data: "Activation Energy: The minimum energy required for a reaction to occur. Catalysts lower activation energy, speeding up reactions without being consumed." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. Define exothermic and endothermic reactions with examples.\n2. Describe the main types of chemical reactions.\n3. What role do catalysts play in chemical reactions?\n4. Explain activation energy using an energy profile diagram." 
-          }
-        ]
+  "topic": "Chemical Bonding",
+  "notes": {
+    "title": "Chemical Bonding — Types, Properties, and Examples",
+    "content": [
+      {
+        "type": "text",
+        "data": "Chemical bonding refers to the forces that hold atoms or ions together to form compounds. Atoms bond to achieve stability, usually following the octet rule, which states that atoms tend to have eight electrons in their valence shell (or two for hydrogen and helium) to achieve the stable configuration of the nearest noble gas. Bonding explains the structure, properties, and behavior of substances in chemistry."
+      },
+      {
+        "type": "text",
+        "data": "1. Ionic Bonding: Ionic bonding occurs when electrons are completely transferred from one atom to another. Typically, a metal atom loses one or more electrons to form a positively charged cation, while a nonmetal gains those electrons to form a negatively charged anion. The resulting electrostatic attraction between these oppositely charged ions forms the ionic bond.\n\nExample: Sodium chloride (NaCl). Sodium (Na) loses one electron to form Na⁺, while chlorine (Cl) gains one electron to form Cl⁻. The Na⁺ and Cl⁻ ions attract each other, forming a crystalline lattice.\n\nProperties of Ionic Compounds:\n• High melting and boiling points due to strong electrostatic forces.\n• Usually soluble in water.\n• Conduct electricity when molten or dissolved in water (electrolytes).\n• Generally brittle and crystalline in solid form."
+      },
+      {
+        "type": "image",
+        "data": "./ionic-bonding-diagram.png"
+      },
+      {
+        "type": "text",
+        "data": "2. Covalent Bonding: Covalent bonding involves the sharing of electron pairs between nonmetal atoms. Each shared pair constitutes a single bond. Atoms share electrons to complete their valence shells. Covalent bonds can be single (one shared pair), double (two shared pairs), or triple (three shared pairs).\n\nExample: Water (H₂O) – each hydrogen atom shares one electron with oxygen, forming two single covalent bonds.\nExample: Carbon dioxide (CO₂) – carbon shares two electrons with each oxygen atom, forming double bonds.\nExample: Methane (CH₄) – carbon shares one electron with each of four hydrogens, forming four single covalent bonds.\n\nProperties of Covalent Compounds:\n• Low to moderate melting and boiling points.\n• May be gases, liquids, or solids at room temperature.\n• Poor conductors of electricity.\n• Often insoluble in water but soluble in organic solvents.\n• Molecules have definite shapes, explained by VSEPR theory."
+      },
+      {
+        "type": "image",
+        "data": "./covalent-bonding-diagram.png"
+      },
+      {
+        "type": "text",
+        "data": "3. Metallic Bonding: Metallic bonding occurs between metal atoms, where valence electrons are delocalized and free to move throughout the lattice, forming a 'sea of electrons' around positively charged metal ions. This delocalization explains many characteristic properties of metals.\n\nExample: Copper (Cu) and Iron (Fe) in solid metallic form.\n\nProperties of Metals:\n• Good conductors of heat and electricity due to mobile electrons.\n• Malleable and ductile because layers of ions can slide over one another without breaking the metallic bond.\n• High melting and boiling points (varies with the metal).\n• Lustrous appearance due to interaction of electrons with light."
+      },
+      {
+        "type": "text",
+        "data": "4. Coordinate (Dative) Covalent Bonding: A coordinate bond occurs when one atom donates both electrons to the shared pair in a covalent bond, typically forming between a Lewis base (electron donor) and a Lewis acid (electron acceptor).\n\nExample: Ammonium ion (NH₄⁺) – ammonia (NH₃) donates a lone pair of electrons to a hydrogen ion (H⁺), forming a coordinate covalent bond.\n\nProperties are similar to covalent compounds, but coordinate bonds are often distinguished in structural representation by arrows pointing from the donor to the acceptor atom."
+      },
+      {
+        "type": "text",
+        "data": "5. Hydrogen Bonding (Special Type of Intermolecular Bonding):\nHydrogen bonding is a weak bond formed between a hydrogen atom covalently bonded to an electronegative atom (like O, N, or F) and another electronegative atom with a lone pair of electrons.\n\nExample: Water (H₂O) – hydrogen of one molecule interacts with oxygen of another molecule, giving water high boiling point and surface tension.\n\nOther examples: HF, NH₃.\n\nImportance:\n• Explains the high boiling points and melting points of water and hydrogen fluoride.\n• Responsible for unique properties of biological molecules like DNA and proteins."
+      },
+      {
+        "type": "image",
+        "data": "./hydrogen-bonding-diagram.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Summary of Bond Types and Key Examples</b>\n• Ionic Bond: NaCl, KBr.\n• Covalent Bond: H₂O, CO₂, CH₄.\n• Metallic Bond: Fe, Cu, Al.\n• Coordinate Bond: NH₄⁺.\n• Hydrogen Bond: H₂O, NH₃, HF."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define chemical bonding and explain why atoms bond.\n2. Differentiate between ionic, covalent, metallic, and coordinate bonds with examples.\n3. Explain the properties of ionic and covalent compounds and the reasons behind these properties.\n4. How does metallic bonding account for the conductivity and malleability of metals?\n5. What is a coordinate bond? Provide an example.\n6. Describe hydrogen bonding and give two examples in molecules.\n7. Explain how the octet rule is satisfied in ionic and covalent bonding.\n8. Compare and contrast the electron arrangements in ionic, covalent, and metallic bonds.\n9. Give three real-life applications of each type of chemical bond.\n10. Why is understanding chemical bonding essential in predicting chemical reactions and properties of substances?"
       }
-    },
-    
+    ]
+  }
+},
+
+  //periodicity and periodic trends
+  
   {
-      topic: "Acids, Bases, and Salts",
-      notes: {
-        title: "Acids, Bases, and Salts — Properties and Reactions",
-        content: [
-          { 
-            type: "text", 
-            data: "Acids are substances that produce hydrogen ions (H⁺) in aqueous solution, while bases produce hydroxide ions (OH⁻). Neutralization between an acid and base forms salt and water." 
-          },
-          { 
-            type: "text", 
-            data: "According to theories:\n• Arrhenius theory — Acids produce H⁺, bases produce OH⁻.\n• Bronsted-Lowry theory — Acids donate protons, bases accept protons.\n• Lewis theory — Acids accept electron pairs, bases donate electron pairs." 
-          },
-          { 
-            type: "text", 
-            data: "Properties:\n- Acids have sour taste, turn blue litmus red, and react with metals to produce hydrogen.\n- Bases are slippery, turn red litmus blue, and neutralize acids.\n- Salts are formed when the hydrogen ion of an acid is replaced by a metal or ammonium ion." 
-          },
-          { 
-            type: "text", 
-            data: "Examples:\n• Acid: HCl, H₂SO₄\n• Base: NaOH, NH₄OH\n• Salt: NaCl, K₂SO₄\nCommon laboratory preparation includes neutralization, precipitation, and titration methods." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. State three theories of acids and bases.\n2. Write equations for the reactions of acids with metals, bases, and carbonates.\n3. How is a salt formed?\n4. Differentiate between strong and weak acids with examples." 
-          }
-        ]
+  "topic": "Periodic Table & Periodicity",
+  "notes": {
+    "title": "The Periodic Table — Structure, Groups, Periods, and Periodic Trends",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of the Periodic Table</b>\n\nThe periodic table is an organized arrangement of chemical elements based on increasing atomic number and recurring chemical properties. It allows chemists to predict the behavior, reactivity, and properties of elements. Elements are arranged in rows called periods and columns called groups or families.\n\n<i>Rotate your device for clearer periodic table diagram</i>"
+      },
+      {
+        "type": "image",
+        "data": "./Screenshot_20251217-180900.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Structure of the Periodic Table</b>\n\n1. <b>Groups (Vertical Columns):</b> Elements in the same group have the same number of valence electrons, which gives them similar chemical properties. There are 18 groups in the modern periodic table.\n• Group 1: Alkali metals (Li, Na, K) — highly reactive metals.\n• Group 2: Alkaline earth metals (Be, Mg, Ca) — reactive metals, less so than Group 1.\n• Group 17: Halogens (F, Cl, Br) — highly reactive nonmetals.\n• Group 18: Noble gases (He, Ne, Ar) — inert, full valence shell.\n\n2. <b>Periods (Horizontal Rows):</b> Elements in the same period have the same number of electron shells. Moving across a period, elements gradually change from metals to metalloids to nonmetals.\n• Period 1: H, He (2 elements, 1 shell)\n• Period 2: Li to Ne (2 shells)\n• Period 3: Na to Ar (3 shells)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Classification of Elements</b>\n\nElements are broadly classified into:\n• <b>Metals:</b> Found on the left and center of the table. They are generally shiny, malleable, ductile, conduct heat and electricity, and form positive ions.\n• <b>Nonmetals:</b> Found on the right. They are brittle, poor conductors, and tend to gain electrons to form negative ions.\n• <b>Metalloids:</b> Found along the staircase line (B, Si, Ge, As, Sb, Te). Exhibit properties of both metals and nonmetals."
+      },
+      {
+        "type": "text",
+        "data": "<b>Periodic Law</b>\nThe properties of elements are a periodic function of their atomic numbers. This means that elements with similar properties recur at regular intervals when arranged by increasing atomic number. For example, sodium (Na) and potassium (K) are in the same group and share similar chemical reactivity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Periodic Trends</b>\n\n1. <b>Atomic Radius:</b> The distance from the nucleus to the outermost electron.\n• Across a period: Decreases due to increasing nuclear charge pulling electrons closer.\n• Down a group: Increases due to addition of electron shells.\n• Example: Li > Be > B in period 2; Na < K < Rb down group 1.\n\n2. <b>Ionization Energy:</b> Energy required to remove an electron from a gaseous atom.\n• Across a period: Increases (more protons, stronger attraction).\n• Down a group: Decreases (electrons farther from nucleus, weaker attraction).\n• Example: Ionization energy of Li < Be < B; Na > K > Rb.\n\n3. <b>Electron Affinity:</b> Energy change when an atom gains an electron.\n• Generally becomes more negative across a period (atoms more likely to gain electrons).\n• Less consistent down a group.\n• Example: Cl has a higher electron affinity than F.\n\n4. <b>Electronegativity:</b> Ability of an atom to attract electrons in a chemical bond.\n• Across a period: Increases (smaller radius, stronger attraction).\n• Down a group: Decreases (larger radius, weaker attraction).\n• Example: F > O > N; Cl > Br > I down group 17.\n\n5. <b>Metallic Character:</b> Tendency to lose electrons and form positive ions.\n• Across a period: Decreases (more nonmetallic behavior).\n• Down a group: Increases (more metallic behavior).\n• Example: Li > Be < B; Na > K > Rb.\n\n6. <b>Nonmetallic Character:</b> Tendency to gain electrons and form negative ions.\n• Opposite trend to metallic character.\n• Across a period: Increases.\n• Down a group: Decreases.\n\n7. <b>Reactivity:</b> \n• Metals: Reactivity increases down a group (easier to lose electrons).\n• Nonmetals: Reactivity decreases down a group (harder to gain electrons).\n• Example: Alkali metals: Li < Na < K; Halogens: F > Cl > Br.\n\n8. <b>Electropositivity:</b> The tendency of an atom to lose electrons and form positive ions (cations). \n• Across a period: Decreases. As nuclear charge (protons) increases, the nucleus holds onto the outer electrons more tightly, making them harder to lose. \n• Down a group: Increases. Additional electron shells increase the distance between the nucleus and the outer electrons, reducing the grip and allowing electrons to leave easily.\n• Example: Li > Be > B across Period 2 (Li is most likely to lose an electron); Li < Na < K down Group 1 (K is far more reactive/electropositive than Li)."
+      },
+      {
+        "type": "image",
+        "data": "./Screenshot_20251217-181746.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Special Groups and Properties</b>\n• Alkali Metals (Group 1): Soft, highly reactive with water, form hydroxides and hydrogen gas.\n• Alkaline Earth Metals (Group 2): Less reactive than Group 1, form oxides and hydroxides.\n• Halogens (Group 17): Form salts with metals, exist as diatomic molecules (Cl₂, Br₂).\n• Noble Gases (Group 18): Chemically inert due to full valence shells.\n• Transition Metals (Groups 3-12): Exhibit variable oxidation states, form colored compounds, good conductors.\n• Lanthanides and Actinides: Inner transition metals, often radioactive (actinides), used in high-tech materials and nuclear applications."
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Periodic Table and Periodicity</b>\n• Predicting chemical behavior of elements and compounds.\n• Explaining trends in physical and chemical properties.\n• Selecting elements for industrial, medical, and technological purposes.\n• Understanding reactivity in metals and nonmetals for chemical reactions.\n• Designing new materials, catalysts, and pharmaceuticals."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Explain the structure of the periodic table and the meaning of periods and groups.\n2. What is the periodic law and how does it explain similarities in element properties?\n3. Define atomic radius and describe its trend across a period and down a group.\n4. Define ionization energy and explain its periodic trends with examples.\n5. Discuss electronegativity and its variation across the periodic table.\n6. Compare metallic and nonmetallic character and describe their trends.\n7. Explain the reactivity of alkali metals and halogens with examples.\n8. Describe the special properties of transition metals and noble gases.\n9. Give real-life applications of periodic trends in chemistry and industry.\n10. How can knowledge of periodicity be used to predict the chemical behavior of unknown elements?"
       }
-    },
-    
-  {
-      topic: "Oxidation and Reduction",
-      notes: {
-        title: "Redox Reactions — Oxidation and Reduction",
-        content: [
-          { 
-            type: "text", 
-            data: "Oxidation and reduction (redox) reactions involve the transfer of electrons between substances. Oxidation is the loss of electrons, while reduction is the gain of electrons." 
-          },
-          { 
-            type: "text", 
-            data: "Definitions:\n• Oxidation: Addition of oxygen or removal of hydrogen or electrons.\n• Reduction: Removal of oxygen or addition of hydrogen or electrons.\nThese processes always occur simultaneously — one substance is oxidized while another is reduced." 
-          },
-          { 
-            type: "text", 
-            data: "Oxidizing agents accept electrons (get reduced), while reducing agents donate electrons (get oxidized). Examples:\n• Oxidizing agents — KMnO₄, K₂Cr₂O₇\n• Reducing agents — H₂, CO, Fe²⁺" 
-          },
-          { 
-            type: "text", 
-            data: "Applications: Redox reactions are essential in respiration, photosynthesis, corrosion, and industrial processes like electrolysis and metal extraction." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. Define oxidation and reduction in terms of electron transfer.\n2. Identify the oxidizing and reducing agents in: Zn + CuSO₄ → ZnSO₄ + Cu.\n3. Mention two industrial applications of redox reactions.\n4. Explain why oxidation and reduction always occur together." 
-          }
-        ]
-      }
-    },
-    
-    
-  {
-      topic: "Electrolysis",
-      notes: {
-        title: "Electrolysis — Definition, Principles, and Applications",
-        content: [
-          { 
-            type: "text", 
-            data: "Electrolysis is the chemical decomposition of an electrolyte (a substance that conducts electricity in molten or aqueous form) by passing an electric current through it. The process occurs in an electrolytic cell consisting of two electrodes immersed in the electrolyte and connected to a direct current (DC) source." 
-          },
-          { 
-            type: "text", 
-            data: "At the cathode (negative electrode), reduction occurs — cations gain electrons.\nAt the anode (positive electrode), oxidation occurs — anions lose electrons." 
-          },
-          { 
-            type: "text", 
-            data: "Example 1: Electrolysis of molten sodium chloride (NaCl)\nAt cathode: Na⁺ + e⁻ → Na\nAt anode: 2Cl⁻ → Cl₂ + 2e⁻\nOverall reaction: 2NaCl(l) → 2Na(s) + Cl₂(g)" 
-          },
-          { 
-            type: "text", 
-            data: "Example 2: Electrolysis of acidified water\nAt cathode: 2H⁺ + 2e⁻ → H₂(g)\nAt anode: 4OH⁻ → O₂(g) + 2H₂O + 4e⁻\nOverall: 2H₂O(l) → 2H₂(g) + O₂(g)" 
-          },
-          { 
-            type: "text", 
-            data: "Applications of electrolysis:\n• Extraction of metals (e.g., Na, Al)\n• Electroplating (e.g., coating metals with silver or nickel)\n• Purification of metals (e.g., copper refining)\n• Manufacture of chemicals like chlorine and hydrogen." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. Define electrolysis.\n2. Write the half-cell equations for the electrolysis of acidified water.\n3. Explain why direct current (DC) is used in electrolysis.\n4. Mention two industrial applications of electrolysis." 
-          }
-        ]
-      }
-    },
-    
-  {
-      topic: "Rates of Reaction",
-      notes: {
-        title: "Rates of Reaction — Factors and Measurement",
-        content: [
-          { 
-            type: "text", 
-            data: "The rate of a chemical reaction refers to how fast reactants are converted into products. It is measured by the change in concentration of reactants or products per unit time." 
-          },
-          { 
-            type: "text", 
-            data: "Example: The reaction between magnesium and hydrochloric acid.\nEquation: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g)\nThe rate can be measured by the volume of hydrogen gas evolved per second." 
-          },
-          { 
-            type: "text", 
-            data: "Factors affecting rate of reaction:\n1. Temperature — higher temperature increases particle energy and collision frequency.\n2. Concentration — higher concentration increases collision rate.\n3. Surface area — smaller particle size increases exposure and reaction rate.\n4. Catalysts — lower activation energy, speeding up reactions.\n5. Pressure — affects gas reactions by increasing frequency of collisions." 
-          },
-          { 
-            type: "text", 
-            data: "Example: Decomposition of hydrogen peroxide (catalyzed by MnO₂):\n2H₂O₂(aq) → 2H₂O(l) + O₂(g)\nWithout catalyst, the reaction is very slow; manganese(IV) oxide accelerates it." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. Define rate of reaction.\n2. State four factors that affect reaction rate.\n3. Write the balanced equation for the reaction between magnesium and hydrochloric acid.\n4. Explain how a catalyst affects the rate of a chemical reaction." 
-          }
-        ]
-      }
-    },
+    ]
+  }
+},
+
+  //chemical reaction
     
   {
-      topic: "Chemical Equilibrium",
-      notes: {
-        title: "Chemical Equilibrium — Reversible Reactions and Le Chatelier’s Principle",
-        content: [
-          { 
-            type: "text", 
-            data: "A reversible reaction is one that can proceed in both the forward and backward directions under suitable conditions. When the rate of the forward reaction equals the rate of the backward reaction, the system is said to be in dynamic equilibrium." 
-          },
-          { 
-            type: "text", 
-            data: "Example: N₂(g) + 3H₂(g) ⇌ 2NH₃(g)\nThis is the Haber process for the manufacture of ammonia. The reaction never goes to completion; equilibrium is reached where the rate of ammonia formation equals its decomposition rate." 
-          },
-          { 
-            type: "text", 
-            data: "Le Chatelier’s Principle states that when a system at equilibrium is disturbed by changes in temperature, pressure, or concentration, the system adjusts to counteract the disturbance and restore equilibrium." 
-          },
-          { 
-            type: "text", 
-            data: "Applications:\n• In the Haber process, increasing pressure favors ammonia formation (fewer gas molecules on the right).\n• In the Contact process, 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), lowering temperature favors the forward exothermic reaction." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. Define chemical equilibrium.\n2. State Le Chatelier’s principle.\n3. Explain how pressure and temperature affect the yield of ammonia in the Haber process.\n4. Write the equilibrium expression for N₂ + 3H₂ ⇌ 2NH₃." 
-          }
-        ]
+  "topic": "Chemical Formulas & Equations",
+  "notes": {
+    "title": "Chemical Formulas, Equations, and the Mole Concept — Definitions, Calculations, and Examples",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Chemical Formulas</b>\n\nA chemical formula represents the types and numbers of atoms in a compound. It shows how elements combine to form molecules or ions.\n\n1. <b>Molecular Formula:</b> Shows the actual number of atoms of each element in a molecule.\n• Example: H₂O (2 hydrogen, 1 oxygen), CO₂ (1 carbon, 2 oxygen), C₆H₁₂O₆ (glucose).\n\n2. <b>Empirical Formula:</b> Shows the simplest whole-number ratio of atoms in a compound.\n• Example: CH₂O is the empirical formula for glucose (C₆H₁₂O₆).\n\n3. <b>Structural Formula:</b> Shows how atoms are connected in a molecule.\n• Example: H-O-H for water, H-C-H-H-H for methane (CH₄)."
+      },
+      {
+        "type": "image",
+        "data": "./molecular-and-structural-formulas.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Chemical Equations</b>\n\nA chemical equation represents a chemical reaction, showing reactants and products with their proportions.\n\n1. <b>General Form:</b> Reactants → Products\n\n2. <b>Example:</b> Combustion of methane:\nCH₄ + 2O₂ → CO₂ + 2H₂O\n\n3. <b>Balancing Equations:</b> The number of atoms of each element must be equal on both sides of the equation.\n• Example: Unbalanced: H₂ + O₂ → H₂O\n• Balanced: 2H₂ + O₂ → 2H₂O"
+      },
+      {
+        "type": "image",
+        "data": "./balancing-chemical-equations-diagram.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Chemical Reactions</b>\n1. <b>Combination (Synthesis) Reaction:</b> Two or more reactants form a single product.\n• Example: 2H₂ + O₂ → 2H₂O\n\n2. <b>Decomposition Reaction:</b> A single compound breaks down into two or more simpler substances.\n• Example: 2HgO → 2Hg + O₂\n\n3. <b>Single Displacement Reaction:</b> An element replaces another in a compound.\n• Example: Zn + 2HCl → ZnCl₂ + H₂\n\n4. <b>Double Displacement Reaction:</b> Exchange of ions between two compounds.\n• Example: AgNO₃ + NaCl → AgCl + NaNO₃\n\n5. <b>Combustion Reaction:</b> Reaction of a substance with oxygen to produce heat and light.\n• Example: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O"
+      },
+      {
+        "type": "text",
+        "data": "<b>The Mole Concept</b>\n\nThe mole is the SI unit for the amount of substance, allowing chemists to count particles by weighing them.\n• 1 mole contains 6.022 × 10²³ particles (Avogadro's number).\n• Molar mass (g/mol) is the mass of 1 mole of a substance.\n\nExample:\n• Hydrogen atom: 1 mole = 1.008 g contains 6.022 × 10²³ H atoms\n• Water: 1 mole H₂O = 18.0 g contains 6.022 × 10²³ molecules"
+      },
+      {
+        "type": "text",
+        "data": "<b>Calculations Involving the Mole</b>\n\n1. <b>Number of moles (n):</b>\n• n = Mass of substance (g) / Molar mass (g/mol)\n• Example: Calculate moles in 36 g of water.\n  - Molar mass H₂O = 18 g/mol\n  - n = 36 / 18 = 2 moles\n\n2. <b>Number of Particles:</b>\n• Number of particles = n × Avogadro’s number\n• Example: Number of molecules in 2 moles of H₂O = 2 × 6.022 × 10²³ = 1.204 × 10²⁴ molecules\n\n3. <b>Mass from Moles:</b>\n• Mass = Number of moles × Molar mass\n• Example: Mass of 0.5 moles of NaCl = 0.5 × 58.44 g/mol = 29.22 g"
+      },
+      {
+        "type": "text",
+        "data": "<b>Stoichiometry</b>\n\nStoichiometry involves calculations of reactants and products in chemical reactions using balanced equations.\n\nExample: 2H₂ + O₂ → 2H₂O\n• If 4 moles of H₂ react with 2 moles of O₂, how many moles of water are produced?\n• From equation: 2 moles H₂ produce 2 moles H₂O\n• Therefore, 4 moles H₂ produce 4 moles H₂O\n\nExample: How many grams of CO₂ are produced when 10 g of C reacts with O₂?\n• Balanced equation: C + O₂ → CO₂\n• Molar mass C = 12 g/mol, CO₂ = 44 g/mol\n• Moles of C = 10 / 12 ≈ 0.833 mol\n• Mass of CO₂ = 0.833 × 44 ≈ 36.65 g"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Chemical Formulas, Equations, and the Mole Concept</b>\n• Predicting quantities of reactants and products in chemical manufacturing.\n• Calculating dosages in pharmaceuticals.\n• Determining reactant amounts in laboratory experiments.\n• Environmental studies: calculating emissions and pollutant quantities.\n• Understanding reactions in biology, like respiration and photosynthesis."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define chemical formula, molecular formula, and empirical formula with examples.\n2. Explain how to balance a chemical equation and provide an example.\n3. Differentiate between combination, decomposition, single displacement, double displacement, and combustion reactions with examples.\n4. Define the mole and Avogadro's number.\n5. Calculate the number of moles, mass, and number of particles for given substances.\n6. Solve stoichiometry problems using a balanced chemical equation.\n7. How is the mole concept used in industrial and laboratory applications?\n8. Explain the relationship between molar mass, number of moles, and mass.\n9. Provide a worked example calculating the mass of product from a given mass of reactant.\n10. Discuss the importance of chemical equations in predicting chemical reactions."
       }
-    },
+    ]
+  }
+},
+
+  //acids, bases and salts
     
   {
-      topic: "Gas Laws",
-      notes: {
-        title: "Gas Laws — Boyle’s, Charles’, and Avogadro’s Laws",
-        content: [
-          { 
-            type: "text", 
-            data: "Gas laws describe the relationships between pressure (P), volume (V), and temperature (T) of a gas. These laws are derived from experimental observations and can be combined to form the ideal gas law (PV = nRT)." 
-          },
-          { 
-            type: "text", 
-            data: "1. Boyle’s Law: At constant temperature, the pressure of a gas is inversely proportional to its volume.\nP ∝ 1/V or PV = constant.\nExample: Doubling pressure halves volume." 
-          },
-          { 
-            type: "text", 
-            data: "2. Charles’ Law: At constant pressure, the volume of a gas is directly proportional to its absolute temperature.\nV ∝ T or V/T = constant.\nEquation form: V₁/T₁ = V₂/T₂." 
-          },
-          { 
-            type: "text", 
-            data: "3. Avogadro’s Law: Equal volumes of gases under the same temperature and pressure contain equal number of molecules.\nV ∝ n or V/n = constant.\nExample: 1 mole of any gas occupies 22.4 dm³ at STP." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. State Boyle’s, Charles’, and Avogadro’s laws.\n2. A gas occupies 500 cm³ at 27°C and 1 atm. What will be its volume at 87°C at the same pressure?\n3. Derive the ideal gas equation from the gas laws.\n4. Explain the meaning of STP." 
-          }
-        ]
+  "topic": "Acids, Bases, and Salts",
+  "notes": {
+    "title": "Acids, Bases, and Salts — Definitions, Properties, Preparation, Tests, Uses, and Examples",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definitions</b>\n\n1. <b>Acid:</b> A substance that releases hydrogen ions (H⁺) in aqueous solution. Acids have a sour taste and turn blue litmus red.\n• Example: Hydrochloric acid (HCl), Sulfuric acid (H₂SO₄), Nitric acid (HNO₃)\n\n2. <b>Base:</b> A substance that releases hydroxide ions (OH⁻) in aqueous solution. Bases are bitter, slippery to touch, and turn red litmus blue.\n• Example: Sodium hydroxide (NaOH), Calcium hydroxide (Ca(OH)₂)\n\n3. <b>Salt:</b> A neutral compound formed when an acid reacts with a base, with the release of water.\n• Example: Sodium chloride (NaCl), Potassium sulfate (K₂SO₄)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Classification of Acids</b>\n\n1. <b>Strong Acids:</b> Completely ionize in water.\n• Examples: HCl, HNO₃, H₂SO₄\n\n2. <b>Weak Acids:</b> Partially ionize in water.\n• Examples: CH₃COOH (acetic acid), H₂CO₃ (carbonic acid)\n\n3. <b>Organic Acids:</b> Contain carbon and hydrogen.\n• Examples: CH₃COOH (acetic acid), C₆H₅COOH (benzoic acid)\n\n4. <b>Inorganic Acids:</b> Do not contain carbon.\n• Examples: HCl, HNO₃, H₂SO₄"
+      },
+      {
+        "type": "text",
+        "data": "<b>Classification of Bases</b>\n\n1. <b>Strong Bases:</b> Completely ionize in water.\n• Examples: NaOH, KOH, Ba(OH)₂\n\n2. <b>Weak Bases:</b> Partially ionize in water.\n• Examples: NH₄OH, Al(OH)₃\n\n3. <b>Organic Bases:</b> Contain carbon.\n• Example: CH₃NH₂ (methylamine)\n\n4. <b>Inorganic Bases:</b> Do not contain carbon.\n• Examples: NaOH, Ca(OH)₂"
+      },
+      {
+  "type": "text",
+  "data": "<b>Classification of Salts</b>\n\n1. <b>Normal Salts:</b> Formed by the complete replacement of the replaceable hydrogen ions of an acid by a metal or ammonium ion.\n• Characteristics: Neutral to litmus; no replaceable hydrogen or hydroxyl ions.\n• Examples: NaCl (Sodium chloride), KNO₃ (Potassium nitrate), Na₂SO₄ (Sodium tetraoxosulphate (VI)).\n\n2. <b>Acid Salts:</b> Formed by the partial replacement of the replaceable hydrogen ions of a dibasic or tribasic acid by a metal ion.\n• Characteristics: Still contain replaceable hydrogen; turn blue litmus red.\n• Examples: NaHSO₄ (Sodium hydrogen tetraoxosulphate (VI)), NaHCO₃ (Sodium hydrogen trioxocarbonate (IV)), KH₂PO₄ (Potassium dihydrogen tetraoxophosphate (V)).\n\n3. <b>Basic Salts:</b> Formed by the partial replacement of the hydroxyl ions ($OH⁻$) of a base by an acid radical.\n• Characteristics: Contain both the metal ion and hydroxyl ions; turn red litmus blue.\n• Examples: Zn(OH)Cl (Zinc hydroxychloride), Mg(OH)NO₃ (Magnesium hydroxynitrate), Pb(OH)Cl (Lead (II) hydroxychloride).\n\n4. <b>Double Salts:</b> Consist of two different simple salts that crystallize together in a fixed stoichiometric ratio but ionize independently in solution.\n• Examples: KAl(SO₄)₂·12H₂O (Potash alum), (NH₄)₂Fe(SO₄)₂·6H₂O (Mohr's salt), FeNH₄(SO₄)₂·12H₂O (Iron alum).\n\n5. <b>Complex Salts:</b> Formed by the combination of simple salts to create a complex ion that does not dissociate into its constituent individual ions in water.\n• Examples: K₄[Fe(CN)₆] (Potassium hexacyanoferrate (II)), [Cu(NH₃)₄]SO₄ (Tetraaminecopper (II) sulphate), Na[Ag(CN)₂] (Sodium dicyanoargentate (I))."
+},
+      {
+        "type": "text",
+        "data": "<b>Physical Properties</b>\n\n• <b>Acids:</b> Sour taste, soluble in water, conduct electricity, turn blue litmus red, corrosive.\n• <b>Bases:</b> Bitter taste, slippery feel, soluble (strong bases) in water, conduct electricity, turn red litmus blue, caustic.\n• <b>Salts:</b> Usually crystalline solids, soluble in water (depends on type), do not conduct electricity when solid but conduct when molten or in solution."
+      },
+      {
+        "type": "text",
+        "data": "<b>Chemical Properties</b>\n\n1. <b>Acids:</b>\n• React with metals to produce hydrogen gas: Zn + 2HCl → ZnCl₂ + H₂\n• React with bases to produce salt and water (neutralization): HCl + NaOH → NaCl + H₂O\n• React with carbonates to produce CO₂: 2HCl + CaCO₃ → CaCl₂ + CO₂ + H₂O\n\n2. <b>Bases:</b>\n• React with acids to form salt and water: NaOH + HCl → NaCl + H₂O\n• React with ammonium salts to release ammonia: NaOH + NH₄Cl → NaCl + NH₃ + H₂O\n• Some react with fats to produce soap (saponification): NaOH + C₁₇H₃₅COOH → C₁₇H₃₅COONa + H₂O\n\n3. <b>Salts:</b>\n• May be acidic, basic, or neutral depending on parent acid/base.\n• Can be hydrated or anhydrous.\n• Some absorb water from air (hygroscopic or deliquescent)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Preparation Methods</b>\n\n1. <b>Acids:</b>\n• Direct combination: S + O₂ → SO₂; SO₂ + H₂O → H₂SO₃\n• Reaction of salt with acid: NaCl + H₂SO₄ → HCl + NaHSO₄\n• Laboratory method: Dilution of concentrated acid.\n\n2. <b>Bases:</b>\n• Reaction of metal with water: Na + H₂O → NaOH + H₂\n• Neutralization of acid with metal oxide: CaO + H₂O → Ca(OH)₂\n• Precipitation from soluble salts: BaCl₂ + NaOH → Ba(OH)₂ + NaCl\n\n3. <b>Salts:</b>\n• Neutralization of acid with base: HCl + NaOH → NaCl + H₂O\n• Reaction of acid with metal: 2HCl + Zn → ZnCl₂ + H₂\n• Reaction of acid with carbonate: 2HCl + Na₂CO₃ → 2NaCl + H₂O + CO₂"
+      },
+      {
+        "type": "text",
+        "data": "<b>Tests for Acids, Bases, and Salts</b>\n\n• <b>Litmus Test:</b> Acids turn blue litmus red; Bases turn red litmus blue.\n• <b>Phenolphthalein:</b> Acid: colorless; Base: pink.\n• <b>Methyl Orange:</b> Acid: red; Base: yellow.\n• <b>Test for CO₃²⁻ in salts:</b> React with acid to release CO₂ gas: Na₂CO₃ + HCl → NaCl + H₂O + CO₂\n• <b>Test for SO₄²⁻:</b> Add BaCl₂ to solution; white precipitate indicates sulfate.\n• <b>Test for Cl⁻:</b> Add AgNO₃; white precipitate forms."
+      },
+      {
+        "type": "text",
+        "data": "<b>Uses and Applications</b>\n\n1. <b>Acids:</b>\n• HCl: Cleaning metals, stomach digestion aid, production of PVC.\n• H₂SO₄: Fertilizers, batteries, industrial chemicals.\n• HNO₃: Explosives, fertilizers, nitration of compounds.\n\n2. <b>Bases:</b>\n• NaOH: Soap making, paper, detergents.\n• Ca(OH)₂: Water treatment, construction (mortar, plaster).\n• NH₄OH: Cleaning agent, fertilizers.\n\n3. <b>Salts:</b>\n• NaCl: Food seasoning, preservation.\n• KNO₃: Fertilizer, gunpowder.\n• CaCO₃: Cement, chalk, antacid."
+      },
+      {
+  "type": "text",
+  "data": "<b>The pH Scale and Calculations</b>\n\n1. <b>The pH Scale:</b> A logarithmic scale used to specify the acidity or basicity of an aqueous solution, ranging typically from 0 to 14.\n• <b>Acidic:</b> pH < 7 (High concentration of H<sup>+</sup> ions).\n• <b>Neutral:</b> pH = 7 (Pure water at 25°C).\n• <b>Basic (Alkaline):</b> pH > 7 (Low concentration of H<sup>+</sup> ions).\n\n2. <b>pH Calculation Formula:</b> The pH is defined as the negative base-10 logarithm of the molar concentration of hydrogen ions (H<sup>+</sup>) in a solution.\n• <b>Formula:</b> pH = -log[H<sup>+</sup>]\n• <b>Inverse Formula:</b> [H<sup>+</sup>] = 10<sup>-pH</sup>\n\n3. <b>Calculation Examples:</b>\n• <b>Example 1:</b> Find the pH of a 0.01 M HCl solution.\n  Since HCl is a strong acid, [H<sup>+</sup>] = 10<sup>-2</sup> M.\n  pH = -log(10<sup>-2</sup>) = 2.\n• <b>Example 2:</b> Find the pH of a solution where [H<sup>+</sup>] = 3.2 × 10<sup>-5</sup> M.\n  pH = -log(3.2 × 10<sup>-5</sup>) ≈ 4.5.\n\n4. <b>Common Examples in Daily Life:</b>\n• <b>Strongly Acidic (pH 1–3):</b> Battery acid, Gastric juice, Lemon juice.\n• <b>Weakly Acidic (pH 4–6):</b> Tomato juice, Black coffee, Milk.\n• <b>Weakly Basic (pH 8–10):</b> Baking soda solution, Sea water, Antacids.\n• <b>Strongly Basic (pH 12–14):</b> Soapy water, Bleach, Liquid drain cleaner."
+},
+      {
+        "type": "text",
+        "data": "<b>Special Types of Salts</b>\n\n1. <b>Hygroscopic Salts:</b> Absorb water from air but do not dissolve completely.\n• Example: CuSO₄·5H₂O (turns blue when hydrated)\n\n2. <b>Deliquescent Salts:</b> Absorb so much water from air that they dissolve in it.\n• Example: CaCl₂, NaOH\n\n3. <b>Efflorescent Salts:</b> Lose water of crystallization to air, often becoming powdery.\n• Example: Na₂CO₃·10H₂O, CuSO₄·5H₂O when left exposed"
+      },
+      {
+        "type": "image",
+        "data": "./hygroscopic-deliquescent-efflorescent-diagram.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define acids, bases, and salts with examples.\n2. Classify acids and bases with examples.\n3. Describe physical and chemical properties of acids, bases, and salts.\n4. Explain methods of preparation of acids, bases, and salts with examples.\n5. How can you test for an acid or a base using indicators?\n6. What is pH? Explain its scale and significance.\n7. Distinguish between hygroscopic, deliquescent, and efflorescent salts with examples.\n8. Give five industrial and laboratory uses of acids, bases, and salts.\n9. Write chemical equations showing neutralization reactions.\n10. How does hydrogen ion concentration relate to the acidity or alkalinity of a solution?"
       }
-    },
+    ]
+  }
+},
+
+    
+  //oxidation and reduction 
+  
+  {
+  "topic": "Redox Reactions",
+  "notes": {
+    "title": "Oxidation, Reduction, and Redox Reactions — Definitions, Types, Examples, and Applications",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definitions</b>\n\n1. <b>Oxidation:</b> The process in which an atom, ion, or molecule loses electrons or gains oxygen.\n• Example: 2Mg → 2Mg²⁺ + 4e⁻ (Magnesium is oxidized)\n• Example: 2H₂ + O₂ → 2H₂O (Hydrogen is oxidized)\n\n2. <b>Reduction:</b> The process in which an atom, ion, or molecule gains electrons or loses oxygen.\n• Example: Cu²⁺ + 2e⁻ → Cu (Copper ion is reduced)\n• Example: 2Fe₂O₃ + 3C → 4Fe + 3CO₂ (Iron oxide is reduced)\n\n3. <b>Redox Reaction:</b> A chemical reaction in which both oxidation and reduction occur simultaneously.\n• Example: Zn + Cu²⁺ → Zn²⁺ + Cu (Zinc is oxidized, Copper is reduced)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Oxidizing and Reducing Agents</b>\n\n1. <b>Oxidizing Agent:</b> A substance that causes oxidation by accepting electrons and is itself reduced.\n• Example: H₂O₂, Cl₂, KMnO₄, O₂\n\n2. <b>Reducing Agent:</b> A substance that causes reduction by donating electrons and is itself oxidized.\n• Example: H₂, CO, Zn, Na"
+      },
+      {
+        "type": "text",
+        "data": "<b>Identification of Oxidation and Reduction</b>\n\n• <b>Using Electron Transfer:</b> Identify which species loses electrons (oxidation) and which gains electrons (reduction).\n• <b>Using Oxygen:</b> Oxidation involves gain of oxygen; reduction involves loss of oxygen.\n• <b>Using Hydrogen:</b> Oxidation involves loss of hydrogen; reduction involves gain of hydrogen.\n\nExample: Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag\n• Cu → Cu²⁺ + 2e⁻ (Oxidation)\n• Ag⁺ + e⁻ → Ag (Reduction)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Redox Reactions</b>\n\n1. <b>Combination (Synthesis) Redox Reaction:</b> Two substances combine to form one product.\n• Example: 2H₂ + O₂ → 2H₂O\n\n2. <b>Decomposition Redox Reaction:</b> A compound breaks down into two or more simpler substances.\n• Example: 2HgO → 2Hg + O₂\n\n3. <b>Displacement Reaction:</b> One element replaces another in a compound.\n• Example: Zn + CuSO₄ → ZnSO₄ + Cu\n\n4. <b>Combustion:</b> Substance reacts with oxygen releasing energy; typically both oxidation and reduction occur.\n• Example: CH₄ + 2O₂ → CO₂ + 2H₂O\n\n5. <b>Disproportionation:</b> A single substance is simultaneously oxidized and reduced.\n• Example: 2H₂O₂ → 2H₂O + O₂ (Oxygen in H₂O₂ is both oxidized and reduced)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Redox Reactions</b>\n\n1. <b>Industrial Applications:</b>\n• Extraction of metals from ores (Fe from Fe₂O₃, Al from Al₂O₃)\n• Production of chemicals like Cl₂, H₂, and NaOH\n• Electroplating and corrosion prevention\n\n2. <b>Biological Applications:</b>\n• Cellular respiration: Glucose is oxidized to release energy\n• Photosynthesis: Water is oxidized, CO₂ is reduced\n• Enzyme-catalyzed redox reactions\n\n3. <b>Everyday Applications:</b>\n• Bleaching with Cl₂, H₂O₂\n• Combustion in fuels\n• Batteries and fuel cells (redox reactions provide electrical energy)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Redox in Electrochemistry</b>\n\n• <b>Galvanic Cells:</b> Spontaneous redox reactions produce electricity.\n• Example: Daniell Cell — Zn + Cu²⁺ → Zn²⁺ + Cu\n\n• <b>Electrolysis:</b> Non-spontaneous redox reactions driven by external electrical energy.\n• Example: Electrolysis of molten NaCl: 2NaCl → 2Na + Cl₂"
+      },
+      {
+        "type": "text",
+        "data": "<b>Balancing Redox Reactions</b>\n\n1. <b>Ion-Electron Method:</b> Balance electrons lost in oxidation with electrons gained in reduction.\n2. <b>Oxidation Number Method:</b> Assign oxidation numbers to identify which atoms are oxidized or reduced and balance accordingly.\n\nExample: Fe²⁺ + MnO₄⁻ + H⁺ → Fe³⁺ + Mn²⁺ + H₂O\n• Oxidation: Fe²⁺ → Fe³⁺\n• Reduction: Mn⁷⁺ → Mn²⁺\n• Balance electrons and atoms to complete the equation"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define oxidation, reduction, and redox reactions with examples.\n2. Identify oxidizing and reducing agents in given reactions.\n3. Explain how to determine which species is oxidized and which is reduced.\n4. Give examples of combination, decomposition, displacement, and disproportionation redox reactions.\n5. Describe the role of redox reactions in industrial processes.\n6. Explain the difference between galvanic cells and electrolysis in terms of redox reactions.\n7. Balance the redox reaction: Cr₂O₇²⁻ + Fe²⁺ → Cr³⁺ + Fe³⁺ in acidic medium.\n8. Discuss the biological significance of redox reactions in respiration and photosynthesis.\n9. Provide three real-life examples of redox reactions.\n10. Why are electrons transferred in redox reactions and how does this relate to energy change?"
+      }
+    ]
+  }
+},
+
+  //electrolysis 
     
   {
-      topic: "Solubility and Solutions",
-      notes: {
-        title: "Solubility and Solutions — Concepts and Calculations",
-        content: [
-          { 
-            type: "text", 
-            data: "A solution is a uniform mixture of two or more substances. The component present in the larger amount is the solvent, while the one in smaller amount is the solute." 
-          },
-          { 
-            type: "text", 
-            data: "Solubility is the maximum amount of solute that can dissolve in 100 g of solvent at a specific temperature to form a saturated solution. It is usually expressed in g per 100 g of solvent." 
-          },
-          { 
-            type: "text", 
-            data: "Example: Solubility of NaCl in water at 25°C = 36 g per 100 g water.\nEquation for preparing a solution:\nMass of solute = Molarity × Molar Mass × Volume (in dm³)" 
-          },
-          { 
-            type: "text", 
-            data: "Factors affecting solubility:\n1. Temperature — increases solubility of solids but may decrease that of gases.\n2. Pressure — affects solubility of gases (Henry’s law).\n3. Nature of solute and solvent — 'like dissolves like' principle.\n4. Presence of other substances." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. Define solubility and saturated solution.\n2. Calculate the solubility of a salt if 20 g dissolves in 50 g of water at 30°C.\n3. State three factors that affect solubility.\n4. Explain Henry’s law." 
-          }
-        ]
+  "topic": "Electrolysis",
+  "notes": {
+    "title": "Electrolysis and Electrochemical Cells — Principles, Examples, and Applications",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition of Electrolysis</b>\nElectrolysis is the process of breaking down an ionic compound or electrolyte into its constituent elements using an external electric current. It occurs in a liquid or molten state that allows ions to move freely."
+      },
+      {
+        "type": "text",
+        "data": "<b>Components of Electrolysis</b>\n1. <b>Electrolyte:</b> Substance containing ions that can conduct electricity (molten salt or aqueous solution).\n• Example: NaCl (molten), CuSO₄ (aqueous)\n2. <b>Electrodes:</b>\n• <b>Anode:</b> Positive electrode where oxidation occurs.\n• <b>Cathode:</b> Negative electrode where reduction occurs.\n3. <b>Power Supply:</b> Provides external electric current to drive the non-spontaneous reaction."
+      },
+      {
+        "type": "text",
+        "data": "<b>General Principles</b>\n• Cations (positive ions) migrate to the cathode for reduction.\n• Anions (negative ions) migrate to the anode for oxidation.\n• Only ions in solution or molten state can move and participate in electrolysis.\n• In aqueous solutions, water can also be reduced or oxidized depending on the preferential discharge of ions."
+      },
+      {
+        "type": "text",
+        "data": "<b>Factors Affecting Preferential Discharge of Ions</b>\n1. <b>Electrochemical Series:</b> Less reactive (higher reduction potential) ions are discharged preferentially.\n• Example: In aqueous solution of CuSO₄, Cu²⁺ is discharged instead of H⁺ because copper is less reactive than hydrogen.\n2. <b>Concentration of Ions:</b> Higher concentration of an ion increases its chance of being discharged.\n• Example: In concentrated NaCl solution, Cl⁻ is discharged preferentially at the anode over OH⁻.\n3. <b>Nature of Electrode:</b> Inert electrodes (platinum, graphite) do not react; reactive electrodes may influence the products.\n4. <b>Overvoltage:</b> Additional voltage required for certain reactions, especially for discharge of gases like oxygen."
+      },
+            {
+        "type": "text",
+        "data": "<b>Electrolysis of Common Electrolytes</b>\n1. <b>Electrolysis of Sodium Chloride solution (NaCl + H<sub>2</sub>0):</b>\n• Electrolyte: Molten NaCl\n• Electrodes: Graphite anode and cathode\n• At Cathode: Na⁺ and H⁺ migrate to where H⁺ is preferencially discharged due to lower postion in electrochemical series.\nH⁺ + e⁻ → H + H → H<sub>2</sub> (reduction)\n• At Anode: Cl⁻ and OH⁻ migrates to the anode where Cl⁻ is preferencially discharged due to higher concentration\n2Cl⁻ → Cl₂ + 2e⁻ (oxidation)\n• Products: Hydrogen gas and chlorine gas\n2. <b>Electrolysis of Acidified Water:</b>\n• Electrolyte: H₂O + dilute H₂SO₄\n• Electrode: Graphite anode and cathode\nAt Cathode: 2H⁺ + 2e⁻ → H₂ (reduction)\n• At Anode: 0H<sub>-</sub> is discharged at the anode 2H₂O → O₂ + 4H⁺ + 4e⁻ (oxidation)\n• Products: Hydrogen gas at cathode, oxygen gas at anode (volume ratio H₂:O₂ = 2:1)\n3. <b>Electrolysis of Aqueous Copper(II) Sulfate with Inert Electrodes:</b>\n• Electrolyte: CuSO₄ (aq)\n• Cathode: Cu²⁺ + 2e⁻ → Cu (copper deposited)\n• Anode: 2H₂O → O₂ + 4H⁺ + 4e⁻ (oxygen released)\n• Observation: Blue solution fades as copper is deposited and oxygen evolves"
+      },,
+      {
+        "type": "text",
+        "data": "<b>Applications of Electrolysis</b>\n1. <b>Industrial Applications:</b>\n• Electrolysis of brine: Produces Cl₂, H₂, and NaOH (important industrial chemicals)\n• Electrorefining of metals: Purification of copper, silver, gold\n• Electroplating: Coating metals with thin layers of another metal for corrosion protection and decoration\n• Production of aluminum from Al₂O₃ using Hall-Héroult process\n• Electrolytic production of Na, K, Mg, and other reactive metals\n\n2. <b>Laboratory Applications:</b>\n• Splitting water into hydrogen and oxygen\n• Preparation of gases like Cl₂, H₂, O₂, and F₂\n• Demonstrating redox reactions and electron flow\n3. <b>Everyday Applications:</b>\n• Electroplated jewelry and cutlery\n• Batteries (primary and secondary cells rely on redox/electrolytic principles)\n• Metal extraction and purification in metallurgy"
+      },
+      {
+        "type": "text",
+        "data": "<b>Electrochemical Cells</b>\n1. <b>Definition:</b> A device that converts chemical energy into electrical energy using redox reactions.\n2. <b>Types:</b>\n• Galvanic Cell (Voltaic Cell): Spontaneous redox reaction produces electricity\n<b>Example:</b>\n Daniell Cell: Zn + Cu²⁺ → Zn²⁺ + Cu\n  - Anode: Zn → Zn²⁺ + 2e⁻ (oxidation)\n  - Cathode: Cu²⁺ + 2e⁻ → Cu (reduction)\n• Electrolytic Cell: Non-spontaneous reaction driven by external current\n  - Example: Electrolysis of molten NaCl\n3. <b>Components of a Galvanic Cell:</b>\n• Two electrodes: Anode (negative, oxidation), Cathode (positive, reduction)\n• Electrolytes: Solutions containing ions\n• Salt bridge: Allows ion flow to maintain electrical neutrality\n• External circuit: Allows electron flow"
+      },
+      {
+        "type": "text",
+        "data": "<b>Factors Affecting Electrolysis</b>\n1. <b>Concentration of Ions:</b> Higher concentration increases current and product formation.\n2. <b>Nature of Electrolyte:</b> Molten salts vs aqueous solution affects which ions are discharged.\n3. <b>Electrode Material:</b> Inert electrodes favor predictable products; reactive electrodes may participate in the reaction. For examlple, Mercury cathode favours the discharge of Na ion\n4. <b>Voltage Applied:</b> Minimum voltage required must be exceeded for electrolysis to occur; higher voltage can affect product formation.\n5. <b>Temperature:</b> Increases ion mobility and rate of electrolysis."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define electrolysis and electrochemical cell with examples.\n2. Explain the role of cathode, anode, and electrolyte in electrolysis.\n3. Discuss the factors that affect preferential discharge of ions.\n4. Describe the electrolysis of brine, acidified water, CuSO₄ solution, and molten NaCl with equations.\n5. Give five industrial applications of electrolysis.\n6. Explain the difference between a galvanic cell and an electrolytic cell.\n7. How does ion concentration affect the products of electrolysis?\n8. Why are inert electrodes used in electrolysis experiments?\n9. Draw and label a simple diagram of a galvanic cell and an electrolytic cell.\n10. Describe the laboratory preparation of hydrogen and chlorine using electrolysis."
       }
-    },
+    ]
+  }
+},
+
+  //rate of chemical reaction
+  
+  {
+  "topic": "Chemical reactions",
+  "notes": {
+    "title": "Chemical Kinetics — Definitions, Factors, and Examples",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition of Chemical Kinetics</b>\nChemical kinetics is the branch of chemistry that studies the speed or rate at which chemical reactions occur and the factors that influence these rates."
+      },
+      {
+        "type": "text",
+        "data": "<b>Rate of Reaction</b>\n• The rate of reaction is the change in concentration of a reactant or product per unit time.\n• Rate = <sup>Δ[Reactant]</sup>/<sub>Δt</sub> or Rate = <sup>Δ[Product]</sup>/<sub>Δt</sub>\n• Example: For 2H₂ + O₂ → 2H₂O, rate can be expressed as the change in [H₂] or [H₂O] per second."
+      },
+      {
+        "type": "text",
+        "data": "<b>Factors Affecting Rate of Reaction</b>\n1. <b>Concentration of Reactants:</b>\n• Higher concentration → more frequent collisions → faster reaction.\n• Example: 2H₂ + O₂ → 2H₂O reacts faster with higher [H₂] or [O₂].\n2. <b>Temperature:</b>\n• Higher temperature → particles move faster → more energetic collisions → increased reaction rate.\n• Example: Reaction between sodium thiosulfate and HCl is faster at higher temperatures.\n3. <b>Surface Area:</b>\n• Increased surface area → more particles exposed → more collisions → faster reaction.\n• Example: Powdered calcium carbonate reacts faster with HCl than large lumps.\n\n4. <b>Catalyst:</b>\n• Substance that increases reaction rate without being consumed.\n• Provides alternative pathway with lower activation energy.\n• Example: MnO₂ catalyzes decomposition of H₂O₂: 2H₂O₂ → 2H₂O + O₂\n5. <b>Pressure:</b>\n• For gases, increasing pressure (reducing volume) increases rate due to higher concentration of gas molecules.\n• Example: N₂ + 3H₂ → 2NH₃ (Haber process is faster at higher pressure).\n6. <b>Nature of Reactants:</b>\n• Reactions involving ionic compounds in aqueous solution are usually faster than reactions with covalent compounds.\n• Example: NaOH + HCl is faster than CH₃COOH + NaOH."
+      },
+      {
+        "type": "text",
+        "data": "<b>Reaction Order and Rate Equation</b>\n• <b>Rate Law:</b> Rate = k[A]²m[B]², where k is rate constant, m and n are reaction orders with respect to A and B.\n• Overall reaction order = m + n\n• Example: For reaction A + B → products, Rate = k[A]^2[B], second order with respect to A, first order with respect to B, overall third order."
+      },
+      {
+        "type": "text",
+        "data": "<b>Activation Energy (Ea)</b>\n• Minimum energy required for reactant particles to undergo reaction.\n• Higher Ea → slower reaction at given temperature.\n• Catalysts lower Ea, increasing rate without being consumed.\n• Example: Decomposition of H₂O₂ is slow at room temperature but faster with MnO₂ catalyst."
+      },
+      {
+        "type": "text",
+        "data": "<b>Collision Theory</b>\n• Particles must collide to react.\n• Only collisions with proper orientation and sufficient energy lead to reaction.\n• Factors like temperature, concentration, and surface area affect frequency and effectiveness of collisions."
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Chemical Kinetics</b>\n1. <b>Industrial:</b> Optimizing conditions for maximum yield and efficiency in chemical production (Haber process, contact process).\n2. <b>Pharmaceutical:</b> Controlling reaction rates in drug synthesis.\n3. <b>Environmental:</b> Understanding pollutant degradation rates.\n4. <b>Food Industry:</b> Controlling rates of spoilage and fermentation.\n5. <b>Laboratory:</b> Studying reaction mechanisms and effect of catalysts."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define chemical kinetics and rate of reaction.\n2. List and explain five factors affecting the rate of reaction with examples.\n3. How does temperature influence the rate of reaction?\n4. Explain the role of a catalyst in a reaction with a chemical equation.\n5. Describe how surface area affects reaction rate with an example.\n6. Define activation energy and explain its significance.\n7. Write the rate law for a reaction A + 2B → C + D, explaining orders of reaction.\n8. Discuss how concentration of reactants affects collision frequency.\n9. Provide three industrial applications of chemical kinetics.\n10. Explain how gas pressure affects the rate of reaction using a suitable example."
+      }
+    ]
+  }
+},
+
+
+  //chemical equilibrium 
+  
+  {
+  "topic": "Chemical Equilibrium",
+  "notes": {
+    "title": "Chemical Equilibrium — Concepts, Le Chatelier’s Principle, and Examples",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition of Chemical Equilibrium</b>\n\nChemical equilibrium is the state in a reversible reaction where the rate of the forward reaction equals the rate of the backward reaction, and the concentrations of reactants and products remain constant over time.\n• Example: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) (Haber process)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Characteristics of Chemical Equilibrium</b>\n\n1. The reaction is reversible.\n2. The rates of forward and backward reactions are equal.\n3. Concentrations of reactants and products remain constant (dynamic equilibrium).\n4. Equilibrium can be approached from either direction.\n5. Equilibrium is affected by temperature, pressure, and concentration."
+      },
+      {
+        "type": "text",
+        "data": "<b>Equilibrium Constant (K)</b>\n\n• Expresses the ratio of product concentrations to reactant concentrations at equilibrium.\n• For reaction: aA + bB ⇌ cC + dD\n  Kc = [C]^c[D]^d / [A]^a[B]^b\n• Example: For N₂ + 3H₂ ⇌ 2NH₃, Kc = [NH₃]^2 / [N₂][H₂]^3\n• K > 1 → products favored; K < 1 → reactants favored."
+      },
+      {
+        "type": "text",
+        "data": "<b>Le Chatelier’s Principle</b>\n\n• States that if a system at equilibrium is disturbed, it will adjust to minimize the disturbance and restore a new equilibrium.\n\n1. <b>Effect of Concentration:</b>\n• Increasing reactant concentration shifts equilibrium toward products.\n• Example: Adding more H₂ to N₂ + 3H₂ ⇌ 2NH₃ increases NH₃ formation.\n\n2. <b>Effect of Pressure:</b>\n• For gaseous systems, increasing pressure shifts equilibrium toward the side with fewer moles.\n• Example: N₂ + 3H₂ ⇌ 2NH₃, increasing pressure favors NH₃ (4 moles → 2 moles).\n\n3. <b>Effect of Temperature:</b>\n• Endothermic reaction: Increasing temperature favors forward reaction.\n• Exothermic reaction: Increasing temperature favors reverse reaction.\n• Example: N₂ + 3H₂ ⇌ 2NH₃ + heat, increasing temperature favors decomposition of NH₃.\n\n4. <b>Effect of Catalysts:</b>\n• Catalysts do not shift equilibrium; they only help equilibrium to be reached faster."
+      },
+      {
+        "type": "text",
+        "data": "<b>Examples of Chemical Equilibria</b>\n\n1. <b>Haber Process:</b> N₂ + 3H₂ ⇌ 2NH₃\n   - High pressure favors NH₃ formation.\n   - Low temperature favors NH₃, but reaction rate is slower.\n\n2. <b>Contact Process (Sulfuric Acid):</b> 2SO₂ + O₂ ⇌ 2SO₃\n   - High pressure and catalyst (V₂O₅) favor SO₃ formation.\n\n3. <b>Decomposition of Dinitrogen Tetroxide:</b> N₂O₄ ⇌ 2NO₂\n   - Increasing temperature shifts equilibrium toward NO₂ (brown gas).\n\n4. <b>Formation of Carbonic Acid:</b> CO₂ + H₂O ⇌ H₂CO₃\n   - Increasing CO₂ increases H₂CO₃ formation.\n\n5. <b>Acid-Base Equilibria:</b> CH₃COOH ⇌ CH₃COO⁻ + H⁺\n   - Adding NaOH shifts equilibrium toward CH₃COO⁻ and H₂O formation."
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Chemical Equilibrium</b>\n\n1. <b>Industrial:</b>\n• Haber process for ammonia production.\n• Contact process for sulfuric acid.\n• Manufacture of methanol (CO + 2H₂ ⇌ CH₃OH).\n\n2. <b>Biological:</b>\n• Oxygen transport by hemoglobin (O₂ + Hb ⇌ HbO₂).\n• Carbon dioxide buffering in blood (CO₂ + H₂O ⇌ H₂CO₃).\n\n3. <b>Environmental:</b>\n• Understanding atmospheric reactions such as NO₂ ⇌ N₂O₄ affecting pollution levels.\n\n4. <b>Everyday Life:</b>\n• Carbonated beverages: CO₂ dissolved in water establishes equilibrium.\n• Baking: CO₂ from NaHCO₃ ⇌ Na₂CO₃ + CO₂ + H₂O helps dough rise."
+      },
+      {
+        "type": "text",
+        "data": "<b>Factors That Shift Equilibrium — Summary Table</b>\n\n| Factor | Effect on Equilibrium |\n|--------|--------------------|\n| Concentration | Increase in reactants → shift toward products; increase in products → shift toward reactants |\n| Pressure | Increase → favors side with fewer moles of gas; decrease → favors side with more moles |\n| Temperature | Endothermic: increase → favors products; Exothermic: increase → favors reactants |\n| Catalyst | No effect on position of equilibrium; speeds up attainment of equilibrium |"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define chemical equilibrium with an example.\n2. Explain the characteristics of a system at equilibrium.\n3. Write the expression for equilibrium constant Kc and explain its meaning.\n4. Using Le Chatelier’s principle, predict the effect of increasing pressure on N₂ + 3H₂ ⇌ 2NH₃.\n5. How does temperature affect an endothermic and exothermic reaction at equilibrium?\n6. Give three examples of industrial reactions that involve chemical equilibrium.\n7. Explain why a catalyst does not shift the position of equilibrium.\n8. Describe the effect of adding more reactant or product on equilibrium.\n9. Using examples, explain equilibrium in biological systems.\n10. Discuss how CO₂ solubility in water illustrates chemical equilibrium in daily life."
+      }
+    ]
+  }
+},
+
+
+  //Gas laws
     
   {
-      topic: "Ionic Equilibrium",
-      notes: {
-        title: "Ionic Equilibrium — Weak Electrolytes and Ionization Constants",
-        content: [
-          { 
-            type: "text", 
-            data: "Ionic equilibrium occurs in solutions of weak electrolytes that do not completely ionize. These electrolytes establish a reversible equilibrium between their unionized molecules and ions. For example, weak acids and weak bases partially dissociate in water." 
-          },
-          { 
-            type: "text", 
-            data: "Example: CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq)\nThis shows that acetic acid ionizes slightly in water, forming acetate and hydrogen ions." 
-          },
-          { 
-            type: "text", 
-            data: "The strength of weak acids and bases is represented by their ionization constant:\nKa = [H⁺][A⁻] / [HA]\nFor weak bases: Kb = [BH⁺][OH⁻] / [B]\nA larger Ka or Kb indicates a stronger acid or base respectively." 
-          },
-          { 
-            type: "text", 
-            data: "The degree of ionization (α) is the fraction of solute molecules that ionize:\nα = number of ionized molecules / total number of molecules.\nIt depends on concentration, temperature, and the nature of the solute." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. What is ionic equilibrium?\n2. Write the equilibrium expression for acetic acid ionization.\n3. Define and explain Ka.\n4. How does the value of Ka relate to acid strength?" 
-          }
-        ]
+  "topic": "Gas Laws",
+  "notes": {
+    "title": "Gas Laws — Definitions, Equations, and Worked Examples",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction to Gas Laws</b>\n\nGas laws describe the relationships between the pressure, volume, temperature, and amount of a gas. They are derived from experimental observations and can be combined to understand the behavior of gases under various conditions."
+      },
+      {
+        "type": "text",
+        "data": "<b>1. Boyle’s Law</b>\n\n• Definition: At constant temperature, the volume of a given mass of gas is inversely proportional to its pressure.\n• Mathematical form: P₁V₁ = P₂V₂\n• Worked Example: A gas occupies 500 cm³ at 1 atm. If the pressure is increased to 2 atm at constant temperature, what is the new volume?\n  - Solution: P₁V₁ = P₂V₂ → 1 × 500 = 2 × V₂ → V₂ = 250 cm³"
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Charles’ Law</b>\n\n• Definition: At constant pressure, the volume of a gas is directly proportional to its absolute temperature (Kelvin).\n• Mathematical form: V₁/T₁ = V₂/T₂\n• Worked Example: A gas has a volume of 200 cm³ at 27°C. If heated to 127°C at constant pressure, what is the new volume?\n  - Convert temperatures to Kelvin: T₁ = 27 + 273 = 300 K, T₂ = 127 + 273 = 400 K\n  - V₂ = V₁ × (T₂/T₁) = 200 × (400/300) = 266.7 cm³"
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Gay-Lussac’s Law (Pressure-Temperature Law)</b>\n\n• Definition: At constant volume, the pressure of a gas is directly proportional to its absolute temperature.\n• Mathematical form: P₁/T₁ = P₂/T₂\n• Worked Example: A gas in a sealed container has a pressure of 1.5 atm at 27°C. What is its pressure at 127°C?\n  - T₁ = 27 + 273 = 300 K, T₂ = 127 + 273 = 400 K\n  - P₂ = P₁ × (T₂/T₁) = 1.5 × (400/300) = 2 atm"
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Avogadro’s Law</b>\n\n• Definition: Equal volumes of gases at the same temperature and pressure contain equal number of molecules.\n• Mathematical form: V ∝ n (V₁/n₁ = V₂/n₂)\n• Worked Example: 2 moles of a gas occupy 44.8 L at STP. What volume will 5 moles occupy at the same conditions?\n  - V₂ = V₁ × (n₂/n₁) = 44.8 × (5/2) = 112 L"
+      },
+      {
+        "type": "text",
+        "data": "<b>5. General Gas Equation</b>\n\n• Definition: Combines Boyle’s, Charles’, and Avogadro’s laws.\n• Mathematical form: P₁V₁/T₁n₁ = P₂V₂/T₂n₂\n• Worked Example: 1 mole of a gas occupies 24 L at 1 atm and 300 K. Find the volume of 2 moles at 2 atm and 400 K.\n  - P₁V₁/n₁T₁ = P₂V₂/n₂T₂ → V₂ = (P₁V₁n₂T₂)/(P₂n₁T₁) = (1×24×2×400)/(2×1×300) = 32 L"
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Ideal Gas Equation</b>\n\n• Definition: Relates pressure, volume, temperature, and moles of an ideal gas.\n• Mathematical form: PV = nRT, where R = 0.0821 L·atm/mol·K or 8.314 J/mol·K\n• Worked Example: Calculate the volume of 2 moles of an ideal gas at 1 atm and 273 K.\n  - V = nRT/P = (2 × 0.0821 × 273)/1 = 44.8 L"
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Graham’s Law of Diffusion</b>\n\n• Definition: The rate of diffusion of a gas is inversely proportional to the square root of its molar mass.\n• Mathematical form: Rate₁/Rate₂ = √(M₂/M₁)\n• Worked Example: Compare the diffusion rates of H₂ (M = 2 g/mol) and O₂ (M = 32 g/mol).\n  - Rate H₂ / Rate O₂ = √(32/2) = √16 = 4\n  - H₂ diffuses 4 times faster than O₂"
+      },
+      {
+        "type": "text",
+        "data": "<b>Summary of Gas Laws</b>\n\n| Law | Relationship | Equation | Example |\n|-----|-------------|---------|---------|\n| Boyle’s | P ∝ 1/V | P₁V₁ = P₂V₂ | Gas volume halves if pressure doubles |\n| Charles’ | V ∝ T | V₁/T₁ = V₂/T₂ | Gas volume increases with temperature |\n| Gay-Lussac | P ∝ T | P₁/T₁ = P₂/T₂ | Gas pressure increases with temperature |\n| Avogadro | V ∝ n | V₁/n₁ = V₂/n₂ | More moles occupy more volume |\n| General Gas | Combines P, V, T, n | P₁V₁/n₁T₁ = P₂V₂/n₂T₂ | Change in P, V, T, n simultaneously |\n| Ideal Gas | PV = nRT | PV = nRT | Volume of ideal gas at given conditions |\n| Graham’s | Rate ∝ 1/√M | Rate₁/Rate₂ = √(M₂/M₁) | Lighter gas diffuses faster |"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. State Boyle’s, Charles’, and Gay-Lussac’s laws with examples.\n2. Calculate the new volume of a gas if its pressure changes from 1 atm to 3 atm at constant temperature.\n3. Determine the final volume of 100 cm³ of gas when heated from 27°C to 127°C at constant pressure.\n4. Find the volume of 3 moles of gas at 2 atm and 300 K using the ideal gas equation.\n5. Compare the rates of diffusion of CO₂ (M = 44 g/mol) and N₂ (M = 28 g/mol).\n6. A gas occupies 20 L at 1 atm and 300 K. Find the volume at 2 atm and 400 K using the general gas equation.\n7. Explain Avogadro’s law with a worked example.\n8. Why does hydrogen diffuse faster than oxygen according to Graham’s law?\n9. Solve a problem combining Boyle’s and Charles’ law for a gas undergoing simultaneous changes in pressure and temperature.\n10. Derive the ideal gas equation from Boyle’s, Charles’, and Avogadro’s laws."
       }
-    },
-    
-    
+    ]
+  }
+},
+
+
+  //gas calculations 
+  
   {
-      topic: "Acid-Base Titration",
-      notes: {
-        title: "Acid-Base Titration — Principles and Calculations",
-        content: [
-          { 
-            type: "text", 
-            data: "Acid-base titration is a quantitative analysis technique used to determine the concentration of an unknown acid or base solution by reacting it with a standard solution of known concentration." 
-          },
-          { 
-            type: "text", 
-            data: "The reaction between acid and base involves neutralization:\nHCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)\nThe volume of acid and base required for complete neutralization (the equivalence point) is measured using an indicator like methyl orange or phenolphthalein." 
-          },
-          { 
-            type: "text", 
-            data: "At the equivalence point:\nMoles of acid (Ma × Va) = Moles of base (Mb × Vb)\nwhere M = molarity, V = volume in dm³.\nFrom this, unknown concentration can be calculated." 
-          },
-          { 
-            type: "text", 
-            data: "Example: 25.0 cm³ of 0.1 M NaOH neutralizes 20.0 cm³ of HCl.\nMaVa = MbVb → Ma = (0.1 × 25) / 20 = 0.125 M." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. Define acid-base titration.\n2. Write a balanced equation for the reaction between H₂SO₄ and NaOH.\n3. Explain the purpose of an indicator in titration.\n4. A 25.0 cm³ sample of NaOH requires 30.0 cm³ of 0.1 M HCl for neutralization. Calculate the molarity of the NaOH." 
-          }
-        ]
+  "topic": "Stoichiometry",
+  "notes": {
+    "title": "Stoichiometry and Gas Calculations — Concepts, Formulas, and Examples",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction to Stoichiometry</b>\nStoichiometry is the branch of chemistry that deals with the quantitative relationships between reactants and products in a chemical reaction. It uses balanced chemical equations to calculate amounts of substances involved in reactions."
+      },
+      {
+        "type": "text",
+        "data": "<b>Basic Concepts</b>\n1. <b>Mole:</b> The amount of substance containing Avogadro’s number of particles (6.022 × 10²³).\n2. <b>Molar Mass:</b> Mass of 1 mole of a substance (g/mol).\n3. <b>Balanced Chemical Equation:</b> Represents the ratio of reactants to products, which is essential for stoichiometric calculations.\n4. <b>Limiting Reactant:</b> Reactant that determines the maximum amount of product that can be formed."
+      },
+      {
+        "type": "text",
+        "data": "<b>Stoichiometric Calculations</b>\n\n• Steps:\n1. Write the balanced chemical equation.\n2. Convert given quantities to moles (if needed).\n3. Use mole ratio to calculate moles of unknown substance.\n4. Convert moles to desired unit (grams, liters, molecules).\n\n• Example 1: How many moles of water are produced when 2 moles of hydrogen react with excess oxygen?\n  - Reaction: 2H₂ + O₂ → 2H₂O\n  - Mole ratio: 2 moles of H₂ reacts with 1 mole of O₂ to produce 2 moles of H₂O \n 2 moles H₂ + 1 mole O₂ → 2 moles H₂O"
+      },
+      { "type": "text", "data": "<b>Chemical Reactions: Mole Calculations</b>\n\n<b>Example 1: Reaction Stoichiometry</b>\n2H₂ + O₂ → 2H₂O\nHow many moles of H₂O are produced from 3 moles of H₂?\n<b>Solution:</b>\n2 moles H₂ → 2 moles H₂O\n3 moles H₂ → x\nx = (3 × 2)/2 = 3 moles H₂O\n<b>Answer:</b> 3 moles\n\n<b>Example 2: Limiting Reagent</b>\nN₂ + 3H₂ → 2NH₃\nIf 1 mole N₂ reacts with 2 moles H₂, which is limiting?\n<b>Solution:</b>\nN₂ needs 3H₂\n1 mole N₂ needs 3 moles H₂ (but only 2 moles available)\n→ H₂ is limiting\n<b>Answer:</b> H₂ is limiting\n\n<b>Example 3: Mass-Volume at STP</b>\n2Na + 2H₂O → 2NaOH + H₂\nWhat volume of H₂ (STP) from 2.3g Na? (Na=23)\n<b>Solution:</b>\nMoles Na = 2.3/23 = 0.1 mol\n2Na → 1H₂\n0.1 mol Na → 0.05 mol H₂\nVolume = 0.05 × 22.4 = 1.12 dm³\n<b>Answer:</b> 1.12 dm³\n\n<b>Example 4: Reaction Yield</b>\n2Mg + O₂ → 2MgO\n4.8g Mg → MgO (Mg=24, actual yield=6g)\n<b>Solution:</b>\nMoles Mg = 4.8/24 = 0.2 mol\n→ 0.2 mol MgO (40g/mol) = 8g (theoretical)\n% yield = (6g/8g) × 100 = 75%\n<b>Answer:</b> 75%" },
+      {
+        "type": "text",
+        "data": "<b>Gas Stoichiometry</b>\nFor reactions involving gases, volume ratios can be used at the same temperature and pressure using Avogadro’s law (equal volumes contain equal moles)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Examples of Gas Calculations</b>\n\n1. <b>Volume of Gas Produced:</b> How many liters of oxygen gas are produced at STP when 4 g of KClO₃ decomposes?\n  - Reaction: 2KClO₃ → 2KCl + 3O₂\n  - Molar mass KClO₃ = 122.55 + 35.45 + 3×16 = 122.55 + 35.45 + 48 = 206 g/mol\n  - Moles KClO₃ = 4/122.55 ≈ 0.0327 mol (per 2 moles KClO₃ → 3 moles O₂)\n  - Moles O₂ = 0.0327 × (3/2) ≈ 0.049 mol\n  - Volume O₂ at STP = 0.049 × 22.4 ≈ 1.10 L\n\n2. <b>Mass of Gas Required:</b> How many grams of H₂ are needed to react with 32 g of O₂ to produce water?\n  - Reaction: 2H₂ + O₂ → 2H₂O\n  - Moles O₂ = 32/32 = 1 mole\n  - Mole ratio H₂:O₂ = 2:1 → moles H₂ = 2 × 1 = 2 moles\n  - Mass H₂ = 2 × 2 = 4 g"
+      },
+      {
+        "type": "text",
+        "data": "<b>Using Ideal Gas Equation in Stoichiometry</b>\n\n• PV = nRT can be used to calculate volume, pressure, or moles of a gas.\n• Example: Calculate volume of 1 mole of CO₂ at 2 atm and 300 K (R = 0.0821 L·atm/mol·K)\n  - V = nRT/P = 1 × 0.0821 × 300 / 2 ≈ 12.32 L"
+      },
+      {
+        "type": "text",
+        "data": "<b>Limiting Reactant and Excess Reactant</b>\n\n• Identify the reactant that produces the least amount of product.\n• Example: 4 g of H₂ reacts with 32 g O₂. Reaction: 2H₂ + O₂ → 2H₂O\n  - Moles H₂ = 4/2 = 2 moles\n  - Moles O₂ = 32/32 = 1 mole\n  - Required mole ratio H₂:O₂ = 2:1 → Both are in perfect stoichiometric ratio → no excess\n  - If 5 g H₂ were used, moles H₂ = 5/2 = 2.5 moles → H₂ in excess; O₂ is limiting reactant"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Examples of Gas Mixtures</b>\n\n1. A mixture of 2 moles of N₂ and 3 moles of H₂ reacts according to N₂ + 3H₂ → 2NH₃. Which is limiting reactant?\n  - Required ratio N₂:H₂ = 1:3\n  - Given ratio = 2:3 → Less H₂ than required → H₂ is limiting reactant\n  - Moles of NH₃ formed = moles H₂ / 3 × 2 = 3/3 × 2 = 2 moles NH₃"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Gas Stoichiometry</b>\n\n1. Industrial processes like Haber process (NH₃ synthesis), Contact process (SO₃ production).\n2. Determining yields of gases in laboratory experiments.\n3. Gas collection and storage calculations.\n4. Combustion analysis in fuels and energy generation."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define stoichiometry and explain its importance.\n2. Calculate the moles of water formed when 5 g H₂ reacts with excess O₂.\n3. Determine the volume of CO₂ produced from 44 g of CaCO₃ at STP.\n4. Identify the limiting reactant in the reaction of 4 g H₂ with 32 g O₂.\n5. How many liters of H₂ are required to react with 16 L of O₂ at STP?\n6. Using PV = nRT, calculate the pressure of 2 moles of O₂ in a 10 L container at 300 K.\n7. Explain the concept of excess reactant with an example.\n8. Determine the mass of H₂O produced when 0.5 mole of O₂ reacts with excess H₂.\n9. In N₂ + 3H₂ → 2NH₃, if 1 mole N₂ reacts with 4 moles H₂, calculate moles of NH₃ formed.\n10. Discuss industrial significance of stoichiometry in gas production."
       }
-    },
-    
-    
+    ]
+  }
+},
+
+
+  //thermodynamics 
+
   {
-      topic: "Gas Laws Calculations",
-      notes: {
-        title: "Gas Laws — Numerical Applications",
-        content: [
-          { 
-            type: "text", 
-            data: "The quantitative relationships among pressure (P), volume (V), temperature (T), and number of moles (n) of a gas can be expressed as the ideal gas equation:\nPV = nRT\nwhere R = 0.0821 dm³·atm·mol⁻¹·K⁻¹ or 8.314 J·mol⁻¹·K⁻¹." 
-          },
-          { 
-            type: "text", 
-            data: "Example 1: A gas occupies 2.0 dm³ at 1 atm and 300 K. Find its volume at 2 atm and 400 K.\nUsing the combined gas law: P₁V₁/T₁ = P₂V₂/T₂\n(1×2)/300 = (2×V₂)/400 → V₂ = 1.33 dm³." 
-          },
-          { 
-            type: "text", 
-            data: "Example 2: Calculate the number of moles of gas occupying 5.0 dm³ at 2 atm and 300 K.\nPV = nRT → n = PV/RT = (2×5)/(0.0821×300) = 0.406 mol." 
-          },
-          { 
-            type: "text", 
-            data: "The ideal gas equation is applicable for gases under low pressure and high temperature. Real gases deviate under extreme conditions due to molecular interactions and finite volume." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. State the ideal gas equation.\n2. A gas occupies 1.5 dm³ at 27°C and 2 atm. Find its volume at 87°C and 1 atm.\n3. Explain why real gases deviate from ideal behavior.\n4. Calculate the pressure exerted by 0.5 mol of a gas in a 2 dm³ container at 27°C." 
-          }
-        ]
+  "topic": "Thermodynamics",
+  "notes": {
+    "title": "Thermodynamics — Energy Changes and Enthalpy in Chemical Reactions",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction to Thermodynamics</b>\nThermodynamics is the branch of chemistry that studies the flow of energy during chemical reactions and physical changes. It focuses on heat transfer, work done, and energy transformations."
+      },
+      {
+        "type": "text",
+        "data": "<b>Definition of Enthalpy (H)</b>\nEnthalpy is the total heat content of a system at constant pressure. It represents the energy absorbed or released during a chemical reaction.\n• it is Measured in joules (J) or kilojoules (kJ)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Change in Enthalpy (ΔH)</b>\n• ΔH = H<sub>products</sub> − H<sub>reactants</sub>\n• ΔH < 0 → Exothermic reaction (heat released)\n• ΔH > 0 → Endothermic reaction (heat absorbed)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Enthalpy Changes</b>\n1. <b>Enthalpy of Formation (ΔH<sub>f</sub>):</b> Heat change when 1 mole of a compound is formed from its elements in standard states.\n   - Example: C(s) + O₂(g) → CO₂(g), ΔH<sub>f</sub> = -393.5 kJ/mol\n2. <b>Enthalpy of Combustion (ΔH<sub>c</sub>):</b> Heat released when 1 mole of a substance is completely burned in oxygen.\n   - Example: CH₄ + 2O₂ → CO₂ + 2H₂O, ΔH<sub>c</sub> = -890 kJ/mol\n3. <b>Enthalpy of Neutralization (ΔH<sub>n</sub>):</b> Heat released when an acid reacts with a base to form 1 mole of water.\n   - Example: HCl + NaOH → NaCl + H₂O, ΔH<sub>n</sub>≈ -57 kJ/mol\nn4. <b>Enthalpy of Solution (ΔH<sub>sol</sub>):</b> Heat change when 1 mole of solute dissolves in a large amount of solvent.\n   - Example: NaOH(s) → Na⁺ + OH⁻ in water, ΔH<sub>sol</sub>≈ -44 kJ/mol\n5. <b>Enthalpy of Vaporization (ΔH<sub>vap</sub>):</b> Heat required to convert 1 mole of liquid to vapor at constant temperature.\n   - Example: H₂O(l) → H₂O(g), ΔH<sub>vap</sub>= 40.7 kJ/mol\n6. <b>Enthalpy of Fusion (ΔH<sub>fus</sub>):</b> Heat required to convert 1 mole of solid to liquid at melting point.\n   - Example: H₂O(s) → H₂O(l), ΔHfus = 6.01 kJ/mol"
+      },
+      { 
+        "type": "text", 
+        "data": "<b>Exothermic and Endothermic Reactions</b>\n\n<b>Exothermic Reactions:</b>\n- Heat is released to surroundings\n- Products have lower energy than reactants\n- ΔH is negative (<0)\n- Temperature of surroundings increases\n<b> Examples:</b>\n  • Combustion of methane: CH₄ + 2O₂ → CO₂ + 2H₂O, ΔH = -890 kJ/mol\n  • Neutralization: HCl + NaOH → NaCl + H₂O, ΔH ≈ -57 kJ/mol\n  • Respiration: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O, ΔH = -2800 kJ/mol\n  • Slowing lime: CaO + H₂O → Ca(OH)₂, ΔH = -65 kJ/mol\n  • Combustion of gasoline in engines\n  • Setting of cement\n  • Rusting of iron\n  • Nuclear fission reactions\n"
+      },
+      
+      {
+        type: "text",
+        data: "<b>Endothermic Reactions:</b>\n- Heat is absorbed from surroundings\n- Products have higher energy than reactants\n- ΔH is positive (>0)\n- Temperature of surroundings decreases\n<b> Examples:</b>\n  • N₂ + O₂ → 2NO, ΔH = +180 kJ/mol\n  • Photosynthesis: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, ΔH = +2800 kJ/mol\n  • Decomposition of CaCO₃: CaCO₃ → CaO + CO₂, ΔH = +178 kJ/mol\n  • Melting of ice: H₂O(s) → H₂O(l), ΔH = +6.01 kJ/mol\n  • Evaporation of water\n  • Dissolution of ammonium nitrate in water\n  • Cooking an egg\n  • Decomposition of hydrogen peroxide: 2H₂O₂ → 2H₂O + O₂ (requires heat)\n\n<b>Key Differences:</b>\n- Exothermic: Feels hot, temperature increases\n- Endothermic: Feels cold, temperature decreases\n- Energy diagrams show energy changes in reactions"
+      },
+      {
+        "type": "text",
+        "data": "<b>Hess’s Law of Constant Heat Summation</b>\n• The enthalpy change of a reaction is independent of the path and depends only on initial and final states.\n• Example: ΔHcombustion of C(graphite) to CO₂ can be calculated via C → CO → CO₂ or directly C → CO₂\n• ΔHtotal = ΣΔHsteps"
+      },
+      { "type": "text", "data": "<b>Worked Examples: Enthalpy Calculations</b>\n\n<b>Example 1: Formation of CO</b>\nCalculate ΔH for C + ½O₂ → CO given:\n• ΔH<sub>f</sub> of CO₂ = -393.5 kJ/mol\n• ΔH<sub>f</sub> of CO = -110.5 kJ/mol\n<b>Solution:</b>\n1. Write equations:\n   C + O₂ → CO₂, ΔH = -393.5 kJ...(i)\n   CO + ½O₂ → CO₂, ΔH = -283 kJ...(ii)\n2. Target: C + ½O₂ → CO\n3. (i) - (ii): C + ½O₂ → CO, ΔH = -393.5 - (-283) = -110.5 kJ/mol\n<b>Answer:</b> ΔH = -110.5 kJ/mol\n\n<b>Example 2: Combustion of Methane</b>\nCH₄ + 2O₂ → CO₂ + 2H₂O, ΔH<sub>c</sub> = -890 kJ/mol\nCalculate heat released from 2 moles of CH₄\n<b>Solution:</b>\n1 mole CH₄ → ΔH = -890 kJ\n2 moles CH₄ → ΔH = 2 × (-890) = -1780 kJ\n<b>Answer:</b> -1780 kJ\n\n<b>Example 3: Enthalpy of Neutralization</b>\nHCl + NaOH → NaCl + H₂O, ΔH<sub>n</sub> = -57 kJ/mol\nCalculate heat released when 0.5 moles react\n<b>Solution:</b>\n1 mole → ΔH = -57 kJ\n0.5 mole → ΔH = 0.5 × (-57) = -28.5 kJ\n<b>Answer:</b> -28.5 kJ\n\n<b>Example 4: Using Hess’s Law</b>\nGiven: (1) C + O₂ → CO₂, ΔH = -394 kJ\n     (2) H₂ + ½O₂ → H₂O, ΔH = -286 kJ\nCalculate ΔH for CH₄ + 2O₂ → CO₂ + 2H₂O\n<b>Solution:</b>\nCH₄ → C + 2H₂, ΔH = +75 kJ [decomposition]\nC + O₂ → CO₂, ΔH = -394 kJ\n2H₂ + O₂ → 2H₂O, ΔH = 2(-286) kJ\nAdding: CH₄ + 2O₂ → CO₂ + 2H₂O, ΔH = 75 - 394 - 572 = -891 kJ\n<b>Answer:</b> -891 kJ" },
+      {
+        "type": "text",
+        "data": "<b>Factors Affecting Enthalpy Change</b>\n1. Nature of reactants and products\n2. Physical states of reactants (solid, liquid, gas)\n3. Temperature and pressure conditions\n4. Bond energies involved in breaking and forming bonds"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Enthalpy Changes</b>\n1. Industrial processes like Haber process, Contact process, and production of fertilizers.\n2. Design of fuels and explosives based on energy output.\n3. Understanding metabolism and biochemical energy in living organisms.\n4. Determination of heat of formation and stability of compounds.\n5. Thermochemical calculations in laboratory and engineering processes."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define enthalpy and change in enthalpy.\n2. Differentiate between exothermic and endothermic reactions with examples.\n3. Explain the enthalpy of formation and combustion with worked examples.\n4. State Hess’s law and show how it is used to calculate ΔH of a reaction.\n5. Calculate heat released when 3 moles of HCl react with NaOH.\n6. Determine ΔHfus and ΔHvap for water given experimental data.\n7. Explain factors affecting enthalpy change.\n8. Discuss the industrial significance of enthalpy changes.\n9. Given bond energies, calculate ΔH for CH₄ + 2O₂ → CO₂ + 2H₂O.\n10. Why is enthalpy important in chemical and biological processes?"
       }
-    },
-    
-    
+    ]
+  }
+},
+
+  //solubility 
+  
   {
-      topic: "Water and Its Treatment",
-      notes: {
-        title: "Water and Its Treatment — Hardness, Purification, and Uses",
-        content: [
-          { 
-            type: "text", 
-            data: "Water is a vital solvent in chemistry and essential for life. Natural water contains dissolved gases, salts, and microorganisms that may make it impure. Water hardness is mainly due to the presence of calcium and magnesium ions." 
-          },
-          { 
-            type: "text", 
-            data: "Types of Hardness:\n1. Temporary hardness — caused by bicarbonates (Ca(HCO₃)₂, Mg(HCO₃)₂) and removed by boiling.\n2. Permanent hardness — caused by sulfates and chlorides (CaSO₄, MgCl₂) and removed by chemical treatment." 
-          },
-          { 
-            type: "text", 
-            data: "Removal methods:\n• Boiling — removes temporary hardness.\n• Addition of washing soda: CaSO₄ + Na₂CO₃ → CaCO₃↓ + Na₂SO₄\n• Ion exchange process — exchanges Ca²⁺ and Mg²⁺ with Na⁺ ions using zeolite." 
-          },
-          { 
-            type: "text", 
-            data: "Purification for drinking involves sedimentation, filtration, chlorination, and sometimes distillation. Distilled water is pure H₂O, free from ions and microorganisms." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. What causes water hardness?\n2. Differentiate between temporary and permanent hardness.\n3. Write the chemical equation for removing hardness using washing soda.\n4. Mention two methods used in purifying water for domestic use." 
-          }
-        ]
+  "topic": "Solubility",
+  "notes": {
+    "title": "Solubility — Meaning, Factors, Types, and Applications",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction to Solubility</b>\n\nSolubility is a fundamental concept in chemistry that explains how substances dissolve and form solutions. It plays a vital role in chemical reactions, industrial processes, environmental chemistry, and everyday life such as cooking, medicine, and water treatment."
+      },
+      {
+        "type": "text",
+        "data": "<b>Definition of Solubility</b>\n\nSolubility is defined as the maximum amount of a solute that can dissolve in a given quantity of solvent at a specified temperature and pressure to form a saturated solution.\n\nSolubility is commonly expressed as:\n• grams of solute per 100 g of solvent\n• moles per cubic decimeter (mol dm⁻³)\n\nExample:\nThe solubility of sodium chloride in water at 25°C is about 36 g per 100 g of water."
+      },
+      {
+        "type": "text",
+        "data": "<b>Basic Terms Related to Solubility</b>\n\n1. Solute: The substance that is dissolved.\n   Examples: Sodium chloride, sugar, copper(II) sulfate.\n\n2. Solvent: The substance that dissolves the solute.\n   Examples: Water, ethanol, benzene.\n\n3. Solution: A homogeneous mixture of a solute and a solvent.\n   Examples: Salt solution, sugar solution."
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Solutions Based on Solubility</b>\n\n1. Unsaturated Solution: Contains less solute than the maximum amount that can dissolve at a given temperature.\n   Example: A salt solution that can still dissolve more salt.\n\n2. Saturated Solution: Contains the maximum amount of solute that can dissolve at a given temperature.\n   Example: A salt solution with undissolved salt at the bottom.\n\n3. Supersaturated Solution: Contains more solute than a saturated solution at the same temperature and is unstable.\n   Example: Hot saturated sugar solution cooled without disturbance."
+      },
+      {
+        "type": "text",
+        "data": "<b>Factors Affecting Solubility</b>\n\n1. Temperature:\n• Solubility of most solids increases with temperature.\n• Solubility of gases decreases with increase in temperature.\nExamples:\nSugar dissolves better in hot water.\nCarbon dioxide is more soluble in cold water.\n\n2. Pressure:\nPressure affects gases only.\nIncrease in pressure increases gas solubility.\nExample: Carbonated drinks contain dissolved CO₂ under pressure.\n\n3. Nature of Solute and Solvent:\nPolar solutes dissolve in polar solvents, while non-polar solutes dissolve in non-polar solvents.\nRule: Like dissolves like.\nExamples:\nSalt dissolves in water.\nOil does not dissolve in water.\nIodine dissolves in alcohol.\n\n4. Presence of Other Substances:\nCommon ions reduce solubility.\nExample: Solubility of AgCl decreases in NaCl solution."
+      },
+      {
+        "type": "text",
+        "data": "<b>Solubility of Solids in Liquids</b>\n\nMost ionic solids dissolve by dissociating into ions.\nExamples:\nNaCl(s) → Na⁺(aq) + Cl⁻(aq)\nKNO₃(s) → K⁺(aq) + NO₃⁻(aq)\n\nSome solids are sparingly soluble.\nExamples:\nAgCl, BaSO₄, PbSO₄"
+      },
+      {
+        "type": "text",
+        "data": "<b>Solubility of Gases in Liquids</b>\n\nThe solubility of gases in liquids:\n• Decreases with increase in temperature\n• Increases with increase in pressure\n\nExamples:\nOxygen dissolved in water supports aquatic life.\nCarbon dioxide dissolved in soft drinks.\nAmmonia is highly soluble in water."
+      },
+      {
+        "type": "text",
+        "data": "<b>Solubility Curve</b>\n\nA solubility curve is a graph showing how the solubility of a substance varies with temperature.\n\nUses of Solubility Curves:\n• Determining solubility at a given temperature\n• Calculating mass of crystals formed on cooling\n• Comparing solubilities of substances\n\nExamples:\nPotassium nitrate has a steep solubility curve.\nSodium chloride has a nearly flat solubility curve."
+      },
+      {
+        "type": "text",
+        "data": "<b>Solubility Product (Ksp)</b>\n\nSolubility product is the equilibrium constant for the dissolution of a sparingly soluble salt.\n\nExample:\nAgCl(s) ⇌ Ag⁺(aq) + Cl⁻(aq)\nKsp = [Ag⁺][Cl⁻]\n\nA smaller Ksp value indicates lower solubility."
+      },
+      {
+        "type": "text",
+        "data": "<b>Common Ion Effect</b>\n\nThe common ion effect is the decrease in solubility of a salt due to the presence of another substance with a common ion.\n\nExample:\nAdding NaCl to AgCl solution reduces its solubility because of excess Cl⁻ ions."
+      },
+      {
+        "type": "text",
+        "data": "<b>Solubility Rules</b>\n\n1. All nitrates are soluble.\n2. All sodium, potassium, and ammonium salts are soluble.\n3. Most chlorides are soluble except AgCl and PbCl₂.\n4. Most sulfates are soluble except BaSO₄ and PbSO₄.\n5. Most carbonates are insoluble except sodium, potassium, and ammonium carbonates.\n6. Most hydroxides are insoluble except NaOH and KOH."
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Solubility</b>\n\n1. Purification of substances by recrystallization\n2. Extraction of salts from natural sources\n3. Pharmaceutical drug formulation\n4. Chemical analysis and separation techniques\n5. Environmental pollution control\n6. Industrial crystallization processes"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Examples</b>\n\n1. If 40 g of salt dissolves in 100 g of water at 30°C, the solubility is 40 g per 100 g of water.\n\n2. If 50 g of KNO₃ dissolves at 60°C and 20 g dissolves at 20°C, the mass crystallized on cooling is 30 g."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define solubility.\n2. Distinguish between saturated and supersaturated solutions.\n3. State four factors affecting solubility.\n4. Explain the common ion effect with an example.\n5. What is solubility product?\n6. Why does gas solubility decrease with temperature?\n7. State five solubility rules.\n8. Explain the importance of solubility curves.\n9. Give four applications of solubility.\n10. Describe the effect of temperature on solubility of solids and gases."
       }
-    },
-    
+    ]
+  }
+},
+
+  //water and water hardness
+  
+  {
+  "topic": "Water and Water Hardness",
+  "notes": {
+    "title": "Water — Properties, Sources, Treatment, and Hardness",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction to Water</b>\nWater is one of the most important substances on Earth and is essential for all forms of life. It serves as a universal solvent and plays a crucial role in chemical reactions, biological processes, industrial operations, and environmental systems. Chemically, water is a compound made up of hydrogen and oxygen with the molecular formula H₂O."
+      },
+      {
+        "type": "text",
+        "data": "<b>Composition and Structure of Water</b>\nWater is composed of two hydrogen atoms covalently bonded to one oxygen atom.\n• Molecular formula: H₂O\n• Relative molecular mass: 18\n• Bond type: Polar covalent bond\nThe oxygen atom is more electronegative than hydrogen, giving water its polar nature. This polarity enables water to dissolve many ionic and polar substances."
+      },
+      {
+        "type": "text",
+        "data": "<b>Sources of Water</b>\nWater occurs naturally in several forms:\n1. Rainwater – The purest natural form of water, though it may contain dissolved gases and dust particles.\n2. River water – Contains dissolved salts, organic matter, and microorganisms.\n3. Lake water – Often contains suspended impurities and algae.\n4. Well water – Usually contains dissolved minerals such as calcium and magnesium salts.\n5. Sea water – Contains high concentrations of dissolved salts, mainly sodium chloride.\n6. Spring water – Often rich in dissolved minerals."
+      },
+      {
+        "type": "text",
+        "data": "<b>Physical Properties of Water</b>\n1. Colourless, odourless, and tasteless liquid.\n2. Boils at 100°C and freezes at 0°C at standard atmospheric pressure.\n3. Exists in three states: solid (ice), liquid (water), and gas (steam).\n4. High specific heat capacity, allowing it to regulate temperature.\n5. High surface tension due to hydrogen bonding.\n6. Density anomaly: Ice is less dense than liquid water, allowing it to float."
+      },
+      {
+        "type": "text",
+        "data": "<b>Chemical Properties of Water</b>\n1. Reaction with metals:\n• Reactive metals like sodium and potassium react vigorously with water.\n  Example: 2Na + 2H₂O → 2NaOH + H₂\n2. Reaction with metal oxides:\n• Metal oxides dissolve in water to form alkaline solutions.\n  Example: CaO + H₂O → Ca(OH)₂\n3. Reaction with non-metal oxides:\n• Non-metal oxides dissolve in water to form acids.\n  Example: CO₂ + H₂O → H₂CO₃\n4. Electrolysis of water:\n• Water decomposes into hydrogen and oxygen gases when electricity is passed through acidified water.\n  2H₂O(l) → 2H₂(g) + O₂(g)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Uses of Water</b>\n1. Drinking and domestic use\n2. Industrial processes such as cooling and steam generation\n3. Agriculture and irrigation\n4. Solvent for chemical reactions\n5. Generation of hydroelectric power\n6. Firefighting\n7. Transportation (waterways)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Purification and Treatment of Water</b>\nWater must be treated before use to remove impurities and harmful microorganisms.\nStages of Water Treatment:\n1. Sedimentation – Allows heavy particles to settle.\n2. Coagulation – Alum is added to form flocs that trap impurities.\n3. Filtration – Removes suspended solids using sand filters.\n4. Chlorination – Kills harmful bacteria and germs.\n5. Distillation – Produces pure water by boiling and condensation."
+      },
+      {
+        "type": "text",
+        "data": "<b>Hardness of Water</b>\nHardness of water refers to the presence of dissolved calcium (Ca²⁺) and magnesium (Mg²⁺) salts in water. Hard water does not lather easily with soap and forms scum instead."
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Hardness of Water</b>\n1. Temporary Hardness:\n• Caused by dissolved bicarbonates of calcium and magnesium.\n• Can be removed by boiling.\nExamples:\nCa(HCO₃)₂, Mg(HCO₃)₂\n2. Permanent Hardness:\n• Caused by dissolved chlorides and sulfates of calcium and magnesium.\n• Cannot be removed by boiling.\nExamples:\nCaSO₄, MgSO₄, CaCl₂"
+      },
+      {
+        "type": "text",
+        "data": "<b>Effects of Hard Water</b>\n1. Wastes soap by forming scum.\n2. Causes scaling in kettles and boilers.\n3. Reduces efficiency of heating systems.\n4. Affects industrial processes.\n5. Unsuitable for washing and dyeing."
+      },
+      {
+        "type": "text",
+        "data": "<b>Removal of Temporary Hardness</b>\n1. Boiling:\nCa(HCO₃)₂ → CaCO₃ + CO₂ + H₂O\n\n2. Clark’s method (Addition of slaked lime):\nCa(HCO₃)₂ + Ca(OH)₂ → 2CaCO₃ + 2H₂O"
+      },
+      {
+        "type": "text",
+        "data": "<b>Removal of Permanent Hardness</b>\n1. Addition of washing soda:\nCaSO₄ + Na₂CO₃ → CaCO₃ + Na₂SO₄\n2. Ion-exchange (zeolite) method:\nCa²⁺ ions are replaced with Na⁺ ions.\n3. Distillation – Removes all dissolved salts."
+      },
+      {
+        "type": "text",
+        "data": "<b>Soft Water</b>\nSoft water is water that lathers easily with soap and contains little or no calcium and magnesium ions.\nExamples:\nRainwater, distilled water."
+      },
+      {
+        "type": "text",
+        "data": "<b>Advantages of Hard Water</b>\n1. Provides calcium and magnesium for healthy bones and teeth.\n2. Less corrosive to pipes.\n3. Better taste for drinking in some cases."
+      },
+      {
+        "type": "text",
+        "data": "<b>Comparison Between Hard and Soft Water</b>\nHard Water:\n• Does not lather easily\n• Contains Ca²⁺ and Mg²⁺ ions\n• Forms scale\nSoft Water:\n• Lathers easily\n• Contains little or no Ca²⁺ and Mg²⁺ ions\n• No scale formation"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define water and state its chemical formula.\n2. List five sources of water.\n3. State four physical properties of water.\n4. Explain temporary and permanent hardness of water.\n5. Describe two methods of removing temporary hardness.\n6. Describe two methods of removing permanent hardness.\n7. State three effects of hard water.\n8. Compare hard water and soft water.\n9. Explain the importance of water treatment.\n10. Write equations for reactions involved in water hardness."
+      }
+    ]
+  }
+},
+
   //hydrogen and its compounds
   
   {
-  topic: "Hydrogen and Its Compounds",
+  topic: "Hydrogen",
   notes: {
     title: "Hydrogen and Its Compounds — Properties, Preparation, Uses, and Important Compounds",
     content: [
@@ -3810,10 +5532,10 @@ window.studyData = {
   }
 },
 
-//carbon and its compounds
+  //carbon and its compounds
 
-{
-  topic: "Carbon and Its Compounds",
+  {
+  topic: "Carbon",
   notes: {
     title: "Carbon and Its Compounds — Occurrence, Allotropes, Coal Formation, Properties, Oxides, and the Carbon Cycle",
     content: [
@@ -4014,10 +5736,10 @@ window.studyData = {
   }
 },
 
-//oxygen and its compounds
+  //oxygen and its compounds
 
-{
-  topic: "Oxygen and Its Compounds",
+  {
+  topic: "Oxygen",
   notes: {
     title: "Oxygen and Its Compounds — Occurrence, Preparation, Properties, Uses and Important Reactions",
     content: [
@@ -4167,10 +5889,10 @@ window.studyData = {
 },
 
 
-//nitrogen and its compounds 
+  //nitrogen and its compounds 
 
-{
-  topic: "Nitrogen and Its Compounds",
+  {
+  topic: "Nitrogen ",
   notes: {
     title: "Nitrogen and Its Compounds — Occurrence, Preparation, Properties, Uses and Important Reactions",
     content: [
@@ -4346,10 +6068,10 @@ window.studyData = {
   }
 },
 
-//halogen and chlorine 
+  //halogen and chlorine 
 
-{
-  topic: "Halogens and Chlorine",
+  {
+  topic: "Halogens",
   notes: {
     title: "Halogens and Chlorine — Properties, Trends, Compounds, Preparation and Reactions",
     content: [
@@ -4565,10 +6287,10 @@ window.studyData = {
   }
 },
 
-//sulphur and its compounds 
+  //sulphur and its compounds 
 
-{
-  "topic": "Sulphur and Its Compounds",
+  {
+  "topic": "Sulphur",
   "notes": {
     "title": "Sulphur — Occurrence, Extraction, Allotropes, Properties, and Compounds",
     "content": [
@@ -4579,105 +6301,89 @@ window.studyData = {
 
       {
         "type": 'text',
-        "data": "Occurrence of Sulphur: Sulphur occurs free in volcanic regions and combined as metal sulphides (PbS, ZnS, FeS), sulphates (CaSO4·2H2O), and as hydrogen sulphide from decaying organic matter. It is also present in crude oil and natural gas."
+        "data": "<b>Occurrence of Sulphur</b>\nSulphur occurs free in volcanic regions and combined as metal sulphides (PbS, ZnS, FeS), sulphates (CaSO<sub>4</sub>·2H<sub>2</sub>O), and as hydrogen sulphide from decaying organic matter. It is also present in crude oil and natural gas."
       },
 
       {
         "type": "text",
-        "data": "Extraction of Sulphur — Frasch Process: This industrial method is used to extract pure sulphur from underground deposits. Superheated water (165°C) is pumped down to melt the sulphur. Compressed air forces the molten sulphur to the surface as a yellow froth which hardens to over 99% pure sulphur."
+        "data": "<b>Extraction of Sulphur (Frasch Process)</b>\nThis industrial method is used to extract pure sulphur from underground deposits. Superheated water (165°C) is pumped down to melt the sulphur. Compressed air forces the molten sulphur to the surface as a yellow froth which hardens to over 99% pure sulphur."
       },
 
       {
         "type": "text",
-        "data": "Allotropes of Sulphur: Sulphur has two major crystalline allotropes — rhombic sulphur and monoclinic sulphur — and several amorphous forms. Allotropes are different forms of the same element in the same physical state."
+        "data": "<b>Allotropes of Sulphur </b>\nSulphur has two major crystalline allotropes — rhombic sulphur and monoclinic sulphur — and several amorphous forms. Allotropes are different forms of the same element in the same physical state."
       },
 
       {
         "type": "text",
-        "data": "Rhombic Sulphur (α-sulphur): Stable below 96°C. Yellow, crystalline, forms octahedral shapes. Insoluble in water but dissolves in CS2. It is brittle, non-conductive, and melts at 113°C. This is the most stable form at room temperature."
+        "data": "<b>Rhombic Sulphur (α-sulphur):</b> Stable below 96°C. Yellow, crystalline, forms octahedral shapes. Insoluble in water but dissolves in CS<sub>2</sub>. It is brittle, non-conductive, and melts at 113°C. This is the most stable form at room temperature."
       },
       {
         "type": "text",
-        "data": "Monoclinic Sulphur (β-sulphur): Stable between 96°C and 119°C. Formed when molten sulphur is allowed to cool slowly. Needle-shaped crystals. Converts back to rhombic sulphur at room temperature."
+        "data": "<b>Monoclinic Sulphur (β-sulphur):</b> Stable between 96°C and 119°C. Formed when molten sulphur is allowed to cool slowly. Needle-shaped crystals. Converts back to rhombic sulphur at room temperature."
       },
 
       {
         "type": "text",
-        "data": "Amorphous Sulphur: Produced when molten sulphur is poured into cold water forming a soft rubbery substance called plastic sulphur. It is dark, elastic, and non-crystalline. Over time it becomes brittle and converts to crystalline sulphur."
+        "data": "<b>Amorphous Sulphur:</b> Produced when molten sulphur is poured into cold water forming a soft rubbery substance called plastic sulphur. It is dark, elastic, and non-crystalline. Over time it becomes brittle and converts to crystalline sulphur."
       },
 
       {
         "type": "text",
-        "data": "Preparation of Sulphur: Sulphur can be obtained from natural deposits, natural gas processing (removal of hydrogen sulphide), and from mineral ores like pyrite (FeS2)."
+        "data": "<b>Preparation of Sulphur</b>\nSulphur can be obtained from natural deposits, natural gas processing (removal of hydrogen sulphide), and from mineral ores like pyrite (FeS<sub>2</sub>).\nIn the laboratory, sulfur is obtained by adding powdered sulfur to CS<sub>2</sub>\nCS<sub>2</sub> + 2S → C + 4S"
       },
 
       {
         "type": "text",
-        "data": "Chemical Properties of Sulphur: Sulphur burns in air with a blue flame forming sulphur dioxide (SO2). It reacts with metals like iron, copper, and zinc to form metal sulphides. With hydrogen, it forms hydrogen sulphide (H2S). It also acts as an oxidising or reducing agent depending on the reaction."
+        "data": "<b>Chemical Properties of Sulphur</b>\n1. Sulphur burns in air with a blue flame forming sulphur dioxide\n S + O<sub>2</sub> → SO<sub>2</sub>\n2. It reacts with metals like iron, copper, and zinc to form metal sulphides.\n2S + Fe → FeS<sub>2</sub>\nZn + S → ZnS\n3. With hydrogen, it forms hydrogen sulphide.\nH<sub>2</sub> + S → H<sub>2</sub>S.\nIt also acts as an oxidising or reducing agent depending on the reaction."
       },
 
       {
         "type": "text",
-        "data": "Reaction with Oxygen: S + O2 → SO2. This reaction produces sulphur dioxide, a pungent, suffocating gas. When SO2 is further oxidised, it forms sulphur trioxide (SO3)."
+        "data": "<b>Important compounds of Sulfur</b>\n1. <b>Hydrogen Sulphide (H<sub>2</sub>S)</b>\n A colourless gas with a rotten-egg smell. It is poisonous and heavier than air. It acts as a reducing agent and can precipitate metal sulphides from salt solutions, making it useful in qualitative analysis.\nH<sub>2</sub>S + FeO → FeS + H<sub>2</sub>"
       },
 
       {
         "type": "text",
-        "data": "Reaction with Metals: Sulphur reacts with red-hot iron to form iron (II) sulphide: Fe + S → FeS. This reaction releases heat and occurs during the preparation of hydrogen sulphide in the lab."
+        "data": "<b>2. Sulphur IV oxide (SO<sub>2</sub>)</b>\nA colourless gas with choking smell. Acidic in nature. It acts as a bleaching agent for wool, silk, and straw. It is also used in food preservation due to its antimicrobial nature. \nLab preparation: Heating sodium sulphite with dilute HCl.\nNa<sub>2</sub>SO<sub>3</sub> + HCl → NaCl + SO<sub>2</sub> + H<sub>2</sub>O"
+      },
+      
+
+      {
+        "type": "text",
+        "data": "<b>3. Sulphur VI oxide (SO<sub>3</sub>)</b>\nFormed industrially in the contact process. It reacts vigorously with water to form sulphuric acid. SO<sub>3</sub> cannot be absorbed directly in water due to violent reaction; instead, it is absorbed in concentrated H2SO4 to form oleum."
       },
 
       {
         "type": "text",
-        "data": "Reaction with Hydrogen: H2 + S (heated) → H2S. Hydrogen sulphide is a poisonous gas with a rotten-egg smell."
+        "data": "<b>4. Tetraoxosulphate VI Acid (H<sub>2</sub>SO<sub>4</sub>)</b>\n A very important industrial chemical known as the 'king of chemicals'. Properties include strong dehydration, oxidising ability, and high affinity for water. It turns blue litmus red, chars sugar, and reacts with metals above hydrogen."
       },
+      { 
+        "type": "text", 
+        "data": "<b>Contact Process for Manufacturing tetraoxosulphate VI Acid (H₂SO₄)</b>\n<b>Steps:</b>\n1. <b>Production of SO₂</b>: Sulfur or sulfide ores are burned in air to produce sulfur dioxide.\n   S + O<sub>2</sub> → SO<sub>2</sub>\n   4FeS<sub>2</sub> + 11O<sub>2</sub> → 2Fe<sub>2</sub>O<sub>3</sub> + 8SO<sub>2</sub>\n2. <b>Purification</b>: The SO₂ gas is purified to remove impurities (dust, arsenic compounds).\n3. <b>Oxidation of SO₂ to SO₃</b>: SO₂ is oxidized to SO₃ using V<sub>2</sub>O<sub>5</sub> catalyst at 450°C and 1-2 atm.\n   2SO<sub>2</sub> + O<sub>2</sub> ⇌ 2SO<sub>3</sub> (ΔH = -196 kJ/mol)\n4. <b>Absorption of SO₃</b>: SO₃ is absorbed in concentrated H₂SO₄ to form oleum (H₂S₂O₇).\n   SO<sub>3</sub> + H₂SO₄ → H₂S₂O₇\n5. <b>Dilution of Oleum</b>: Oleum is diluted with water to produce concentrated H₂SO₄.\n   H₂S₂O₇ + H₂O → 2H₂SO₄" 
+},
 
       {
-        "type": "text",
-        "data": "Hydrogen Sulphide (H2S): A colourless gas with a rotten-egg smell. It is poisonous and heavier than air. It acts as a reducing agent and can precipitate metal sulphides from salt solutions, making it useful in qualitative analysis."
+        type: "text",
+        data: "<b>Conditions for Optimum Yield:</b>\n• Temperature: 450°C\n• Pressure: 1-2 atm\n• Catalyst: V<sub>2</sub>O<sub>5</sub>\n<b>Uses of H₂SO₄:</b>\n• Fertilizer production (superphosphate, ammonium sulfate)\n• Chemical manufacturing (detergents, plastics)\n• Petroleum refining\n• Battery acid (lead-acid batteries)\n• Laboratory reagent"
       },
-
-      {
-        "type": "text",
-        "data": "Sulphur Dioxide (SO2): Colourless gas with choking smell. Acidic in nature. It acts as a bleaching agent for wool, silk, and straw. It is also used in food preservation due to its antimicrobial nature. Lab preparation: Heating sodium sulphite with dilute HCl."
+      { 
+        "type": "text", 
+        "data": "<b>Uses of Sulphur</b>\n• Vulcanising rubber (improves durability and elasticity)\n• Making gunpowder and explosives\n• Fungicides and pesticides (agriculture)\n• Production of sulphuric acid (H₂SO₄)\n• Matches and fireworks\n• Bleaching agents (textile and paper industry)\n• Medicine: sulphur ointments and anti-fungal treatments\n• Pharmaceuticals (sulfa drugs)\n• Fertilizers (ammonium sulfate)\n• Food preservation (sulphites)\n• Water treatment\n• Cosmetics and skincare products\n• Production of dyes and pigments" 
       },
-
-      {
-        "type": "text",
-        "data": "Sulphur Trioxide (SO3): Formed industrially in the contact process. It reacts vigorously with water to form sulphuric acid. SO3 cannot be absorbed directly in water due to violent reaction; instead, it is absorbed in concentrated H2SO4 to form oleum."
-      },
-
-      {
-        "type": "text",
-        "data": "Sulphuric Acid (H2SO4): A very important industrial chemical known as the 'king of chemicals'. Properties include strong dehydration, oxidising ability, and high affinity for water. It turns blue litmus red, chars sugar, and reacts with metals above hydrogen."
-      },
-
-      {
-        "type": "text",
-        "data": "Uses of Sulphur: Used in vulcanising rubber, making gunpowder, fungicides, sulphuric acid, matches, fireworks, bleaching agents, and in medicine as ointments and anti-fungal treatments."
-      },
-
-      {
-        "type": "text",
-        "data": "Contact Process for Making H2SO4: Steps include: (1) Burning sulphur or sulphide ores to produce SO2. (2) Purifying the gases. (3) Passing SO2 over V2O5 catalyst at 450°C to produce SO3. (4) Absorbing SO3 in H2SO4 to form oleum. (5) Diluting oleum to form H2SO4."
-      },
-
-      {
-        "type": "text",
-        "data": "Environmental Effects: SO2 contributes to acid rain which damages crops, corrodes metals, and acidifies water bodies. Proper industrial control methods like scrubbers are required to reduce emissions."
-      },
-
-      {
-        "type": "image",
-        "data": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sulfur-sample.jpg/640px-Sulfur-sample.jpg"
+      
+      { "type": "text", "data": "<b>Evaluation Questions</b>\n1. Describe the allotropes of sulphur and their properties.\n2. Explain the extraction of sulphur using the Frasch process.\n3. List four physical properties of sulphur.\n4. Describe the reaction of sulphur with oxygen and write equations.\n5. Explain the manufacture of sulphuric acid by the Contact Process.\n6. State four uses of sulphur and its compounds.\n7. Describe the properties and uses of SO₂ as a bleaching agent.\n8. Compare the acidity of H₂SO₃ and H₂SO₄.\n9. Write the reaction of sulphuric acid with metals and non-metals.\n10. Explain the environmental impact of sulphur dioxide emissions.\n11. Describe the test for sulphate ions (SO₄²⁻).\n12. List three biological roles of sulphur compounds." 
+        
       }
+
     ]
   }
 },
 
 //phosphorus and its compounds 
 
-{
-  "topic": "Phosphorus and Its Compounds",
+  {
+  "topic": "Phosphorus",
   "notes": {
     "title": "Phosphorus — Occurrence, Allotropes, Properties, and Compounds",
     "content": [
@@ -4805,486 +6511,1118 @@ window.studyData = {
         - Red and black phosphorus are safer to handle."
       },
 
-      {
-        "type": "image",
-        "data": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Phosphorus_sample.jpg/640px-Phosphorus_sample.jpg"
+      { 
+        "type": "text", 
+        "data": "<b>Evaluation Questions: Phosphorus</b>\n1. Describe the occurrence of phosphorus in nature.\n2. Explain the allotropes of phosphorus and their properties.\n3. How is phosphorus industrially prepared?\n4. Compare the reactivity of white and red phosphorus.\n5. Describe the reaction of phosphorus with oxygen.\n6. List four important compounds of phosphorus and their uses.\n7. Explain the manufacture of phosphoric acid.\n8. State three uses of phosphorus and its compounds.\n9. Describe safety precautions when handling white phosphorus.\n10. Explain the biological importance of phosphorus." 
       }
     ]
   }
 },
 
-//metals 
+//metals and their compounds 1
 
-{
-  "topic": "Alkali and Alkaline Earth Metals: Sodium, Calcium, Magnesium, and Aluminium",
+  {
+  "topic": "Metals 1",
   "notes": {
-    "title": "Sodium, Calcium, Magnesium, and Aluminium — Occurrence, Preparation, Properties and Reactions",
+    "title": "Group 1 and Group 2 Metals — Sodium and Calcium",
     "content": [
       {
         "type": "text",
-        "data": "These metals are important in both laboratory and industrial chemistry. Sodium and Aluminium are highly reactive, while Calcium and Magnesium are moderately reactive. They all form oxides, hydroxides, and salts with acids."
+        "data": "<b>Introduction to Metals</b>\nMetals are elements that readily lose electrons to form positive ions. They are generally good conductors of heat and electricity and are mostly found on the left and middle of the periodic table. Metals form a wide range of compounds that are essential in industry, agriculture, medicine, and daily life."
+      },
+      {
+        "type": "text",
+        "data": "<b>Classification of Metals</b>\n1. Group 1 Metals (Alkali Metals): Lithium, Sodium, Potassium, Rubidium, Caesium.\n2. Group 2 Metals (Alkaline Earth Metals): Beryllium, Magnesium, Calcium, Strontium, Barium.\nIn this note, emphasis is placed on Sodium (Na) from Group 1 and Calcium (Ca) from Group 2."
+      },
+      {
+        "type": "text",
+        "data": "<b>Group 1 Metals – General Characteristics</b>\n1. Soft metals that can be cut with a knife.\n2. Low density and low melting points.\n3. Very reactive, especially with water and air.\n4. Form +1 ions.\n5. Stored under oil to prevent reaction with air or moisture.\n6. Reactivity increases down the group."
+      },
+      {
+        "type": "text",
+        "data": "<b>Sodium (Na)</b>\n• Atomic number: 11\n• Electronic configuration: 2,8,1\n• Valency: +1\n• Symbol: Na (from Latin word Natrium)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Occurrence of Sodium</b>\nSodium does not occur freely in nature because of its high reactivity. It is found combined as:\n• Sodium chloride (NaCl) in seawater and rock salt\n• Sodium carbonate (Na₂CO₃)\n• Sodium nitrate (NaNO₃)\n• Sodium bicarbonate (NaHCO₃)"
+      },
+      { "type": "text", "data": "<b>Extraction of Sodium</b>\nSodium is extracted by the electrolysis of molten sodium chloride (NaCl) using the Downs cell.\nProcess Details:\n• The Downs cell operates at ~600°C with molten NaCl and CaCl₂ (to lower melting point).\n• Cathode (iron): Na⁺ + e⁻ → Na\n• Anode (graphite): 2Cl⁻ → Cl₂ + 2e⁻\n• Overall reaction: 2NaCl(l) → 2Na(l) + Cl₂(g)" 
+        
+      },
+      {
+        "type": "text",
+        "data": "<b>Physical Properties of Sodium</b>\n1. Soft, silvery metal\n2. Low density (floats on water)\n3. Good conductor of heat and electricity\n4. Low melting point\n5. Can be easily cut with a knife"
+      },
+      {
+        "type": "text",
+        "data": "<b>Chemical Properties of Sodium</b>\n1. Reaction with water:\n2Na + 2H₂O → 2NaOH + H₂\n2. Reaction with oxygen:\n4Na + O₂ → 2Na₂O\n3. Reaction with chlorine:\n2Na + Cl₂ → 2NaCl\n4. Sodium forms ionic compounds readily."
+      },
+      {
+        "type": "text",
+        "data": "<b>Important Compounds of Sodium</b>\n1. Sodium Chloride (NaCl):\n• Used in cooking and food preservation\n• Raw material for many chemicals\n2. Sodium Hydroxide (NaOH):\n• Used in soap making\n• Manufacture of paper and detergents\n3. Sodium Carbonate (Na₂CO₃):\n• Used in glass making\n• Softening of hard water\n4. Sodium Bicarbonate (NaHCO₃):\n• Used in baking powder\n• Fire extinguishers"
+      },
+      {
+        "type": "text",
+        "data": "<b>Tests for Sodium Ion</b>\nFlame test:\n• Produces a bright yellow flame.\nChemical test:\n• Formation of white precipitate with silver nitrate after adding nitric acid."
+      },
+      {
+        "type": "text",
+        "data": "<b>Group 2 Metals</b>\n<b>General Characteristics</b>\n1. Harder than Group 1 metals\n2. Less reactive than Group 1 metals\n3. Form +2 ions\n4. Higher melting points than Group 1 metals\n5. Reactivity increases down the group"
+      },
+      {
+        "type": "text",
+        "data": "<b>Calcium (Ca)</b>\n• Atomic number: 20\n• Electronic configuration: 2,8,8,2\n• Valency: +2\n• Symbol: Ca"
+      },
+      {
+        "type": "text",
+        "data": "<b>Occurrence of Calcium</b>\nCalcium occurs abundantly in combined forms such as:\n• Limestone (CaCO₃)\n• Marble and chalk\n• Gypsum (CaSO₄·2H₂O)\n• Dolomite (CaCO₃·MgCO₃)"
+      },
+      { "type": "text", "data": "<b>Extraction of Calcium</b>\nCalcium is extracted by the electrolysis of molten calcium chloride (CaCl₂).\n\nProcess:\n• Calcium chloride is melted in an electrolytic cell.\n• The cell has a graphite anode and an iron cathode.\n• When an electric current is passed, calcium ions (Ca²⁺) are reduced at the cathode:\n  Ca²⁺ + 2e⁻ → Ca\n• Chloride ions (Cl⁻) are oxidized at the anode:\n  2Cl⁻ → Cl₂ + 2e⁻"
+      },
+      {
+        "type": "text",
+        "data": "<b>Physical Properties of Calcium</b>\n1. Greyish-white metal\n2. Harder than sodium\n3. Good conductor of heat and electricity\n4. Higher melting point than sodium"
+      },
+      {
+        "type": "text",
+        "data": "<b>Chemical Properties of Calcium</b>\n1. Reaction with water:\nCa + 2H₂O → Ca(OH)₂ + H₂\n2. Reaction with oxygen:\n2Ca + O₂ → 2CaO\n3. Reaction with acids:\nCa + 2HCl → CaCl₂ + H₂"
+      },
+      {
+        "type": "text",
+        "data": "<b>Important Compounds of Calcium</b>\n1. Calcium Oxide (Quicklime, CaO):\n• Used in cement manufacture\n• Neutralization of acidic soils\n2. Calcium Hydroxide (Slaked Lime, Ca(OH)₂):\n• Used in water treatment\n• Whitewashing walls\n3. Calcium Carbonate (CaCO₃):\n• Used in cement and chalk production\n• Manufacture of lime\n4. Calcium Sulfate (Gypsum):\n• Used in plaster of Paris"
+      },
+      {
+        "type": "text",
+        "data": "<b>Tests for Calcium Ion</b>\nFlame test:\n• Brick-red flame.\nChemical test:\n• White precipitate with ammonium oxalate solution."
+      },
+      { 
+        "type": "text", 
+        "data": "<b>Importance of Sodium and Calcium</b>\n1. Sodium is essential for nerve transmission and fluid balance.\n2. Calcium is essential for strong bones and teeth.\n3. Both metals are vital in industrial and biological processes.\n4. Sodium is used in manufacturing soap, paper, and textiles.\n5. Calcium is crucial for muscle contraction and blood clotting.\n6. Sodium compounds are used in food preservation and seasoning.\n7. Calcium carbonate is used in construction (cement, lime).\n8. Sodium vapor lamps are used for street lighting.\n9. Calcium is used in metallurgy (alloying agent).\n10. Both elements play roles in regulating cellular functions." },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. State three general properties of metals.\n2. Describe the extraction of sodium.\n3. List four physical and chemical properties of sodium.\n4. Name four important compounds of sodium and state their uses.\n5. Describe the occurrence and extraction of calcium.\n6. State three chemical properties of calcium.\n7. Compare Group 1 and Group 2 metals.\n8. Describe flame tests for sodium and calcium.\n9. Explain two uses of calcium compounds.\n10. State two biological roles of sodium and calcium."
+      }
+    ]
+  }
+},
+
+//metals and their compounds 2
+
+  {
+  "topic": "Metals 2",
+  "notes": {
+    "title": "Group 3 Metal (Aluminium) and Other Important Metals — Tin and Lead",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nMetals are elements that readily lose electrons to form positive ions. They are generally good conductors of heat and electricity, malleable, ductile, and shiny. Apart from Group 1 and Group 2 metals, several other metals such as aluminium, tin, and lead are of great industrial and economic importance."
       },
 
       {
         "type": "text",
-        "data": "<b>1. Sodium (Na)</b>"
-      },
-      {
-        "type": "text",
-        "data": "<b>Occurrence:</b> Found in seawater (NaCl), rock salt, and minerals such as soda ash (Na2CO3) and natron."
-      },
-      {
-        "type": "text",
-        "data": "<b>Preparation:</b> Industrially by electrolysis of molten sodium chloride (Downs cell)."
-      },
-      {
-        "type": "text",
-        "data": "<b>Physical Properties:</b> Soft, silvery metal, low density, low melting point, good conductor of heat and electricity, malleable."
-      },
-      {
-        "type": "text",
-        "data": "<b>Chemical Properties:</b><br>\
-        1. Reaction with water: 2Na + 2H2O → 2NaOH + H2 (fizzes vigorously)<br>\
-        2. Reaction with oxygen: 2Na + O2 → Na2O2 (forms sodium peroxide)<br>\
-        3. Reaction with chlorine: 2Na + Cl2 → 2NaCl<br>\
-        4. Reaction with acids: Na + HCl → NaCl + H2 (vigorous)"
+        "data": "<b>Group 13 (Group III) Metals</b>\nGroup 13 metals include Boron, Aluminium, Gallium, Indium, and Thallium. Aluminium is the most important member of this group and the only one commonly studied at secondary school level."
       },
 
       {
         "type": "text",
-        "data": "<b>2. Calcium (Ca)</b>"
-      },
-      {
-        "type": "text",
-        "data": "<b>Occurrence:</b> Found in limestone (CaCO3), gypsum (CaSO4·2H2O), fluorite (CaF2), and in bones and shells."
-      },
-      {
-        "type": "text",
-        "data": "<b>Preparation:</b> By electrolysis of molten calcium chloride."
-      },
-      {
-        "type": "text",
-        "data": "<b>Physical Properties:</b> Silvery-white, relatively soft, conducts electricity, higher melting point than sodium, denser."
-      },
-      {
-        "type": "text",
-        "data": "<b>Chemical Properties:</b><br>\
-        1. Reaction with water: Ca + 2H2O → Ca(OH)2 + H2 (reacts slowly at room temperature)<br>\
-        2. Reaction with oxygen: 2Ca + O2 → 2CaO<br>\
-        3. Reaction with acids: Ca + 2HCl → CaCl2 + H2"
+        "data": "<b>Aluminium (Al)</b>\n• Atomic number: 13\n• Relative atomic mass: 27\n• Electronic configuration: 2,8,3\n• Valency: 3\n• Common oxidation state: +3\n• Nature: Amphoteric metal (reacts with both acids and bases)"
       },
 
       {
         "type": "text",
-        "data": "<b>3. Magnesium (Mg)</b>"
-      },
-      {
-        "type": "text",
-        "data": "<b>Occurrence:</b> Found in dolomite (CaMg(CO3)2), magnesite (MgCO3), and seawater as MgCl2."
-      },
-      {
-        "type": "text",
-        "data": "<b>Preparation:</b> Electrolysis of molten MgCl2 (from seawater or minerals)."
-      },
-      {
-        "type": "text",
-        "data": "<b>Physical Properties:</b> Silvery-white, moderately hard, low density, good conductor of electricity, burns with bright white flame."
-      },
-      {
-        "type": "text",
-        "data": "<b>Chemical Properties:</b><br>\
-        1. Reaction with water: Mg + 2H2O → Mg(OH)2 + H2 (slow at room temperature, faster with steam)<br>\
-        2. Reaction with oxygen: 2Mg + O2 → 2MgO<br>\
-        3. Reaction with acids: Mg + 2HCl → MgCl2 + H2"
+        "data": "<b>Occurrence of Aluminium</b>\nAluminium is the most abundant metal in the Earth’s crust, but it does not occur freely due to its high reactivity. It is found combined with oxygen and other elements.\nMajor ores of aluminium include:\n• Bauxite (Al₂O₃·2H₂O) – principal ore\n• Cryolite (Na₃AlF₆)\n• Feldspar and clay minerals\nBauxite is usually reddish-brown due to the presence of iron(III) oxide impurities."
       },
 
       {
         "type": "text",
-        "data": "<b>4. Aluminium (Al)</b>"
-      },
-      {
-        "type": "text",
-        "data": "<b>Occurrence:</b> Found in bauxite (Al2O3·2H2O), cryolite (Na3AlF6), and other aluminium ores."
-      },
-      {
-        "type": "text",
-        "data": "<b>Preparation:</b> By electrolysis of molten alumina (Al2O3) dissolved in cryolite (Hall-Héroult process)."
-      },
-      {
-        "type": "text",
-        "data": "<b>Physical Properties:</b> Silvery-white, lightweight, malleable, ductile, good conductor of electricity, resistant to corrosion due to protective oxide layer."
-      },
-      {
-        "type": "text",
-        "data": "<b>Chemical Properties:</b><br>\
-        1. Reaction with oxygen: 4Al + 3O2 → 2Al2O3<br>\
-        2. Reaction with water: Al + 3H2O → Al(OH)3 + 3/2 H2 (occurs slowly because of oxide layer)<br>\
-        3. Reaction with acids: 2Al + 6HCl → 2AlCl3 + 3H2<br>\
-        4. Reaction with alkalis: 2Al + 2NaOH + 6H2O → 2Na[Al(OH)4] + 3H2 (forms aluminate)"
+        "data": "<b>Extraction of Aluminium</b>\nAluminium is extracted in two major stages:\n<b>1. Purification of Bauxite (Bayer Process)</b>\n• Bauxite is crushed and treated with hot concentrated sodium hydroxide solution.\n• Aluminium oxide dissolves to form sodium aluminate, while impurities remain insoluble.\n• Aluminium hydroxide is precipitated and heated to give pure aluminium oxide.\n<b>2. Electrolytic Extraction (Hall–Héroult Process)</b>\n• Aluminium oxide is dissolved in molten cryolite to lower melting point and improve conductivity.\n• Electrolysis is carried out using carbon electrodes.\nCathode reaction:\nAl³⁺ + 3e⁻ → Al\nAnode reaction:\n2O²⁻ → O₂ + 4e⁻\nOverall reaction:\n2Al₂O₃ → 4Al + 3O₂"
       },
 
       {
         "type": "text",
-        "data": "<b>Summary of Reactions with Water and Acids (Table)</b><br>\
-        <table border='1' cellspacing='0' cellpadding='5'>\
-        <tr><th>Metal</th><th>Reaction with Water</th><th>Reaction with Acid</th></tr>\
-        <tr><td>Sodium</td><td>2Na + 2H2O → 2NaOH + H2</td><td>2Na + 2HCl → 2NaCl + H2</td></tr>\
-        <tr><td>Calcium</td><td>Ca + 2H2O → Ca(OH)2 + H2</td><td>Ca + 2HCl → CaCl2 + H2</td></tr>\
-        <tr><td>Magnesium</td><td>Mg + 2H2O → Mg(OH)2 + H2 (slow)</td><td>Mg + 2HCl → MgCl2 + H2</td></tr>\
-        <tr><td>Aluminium</td><td>Al + 3H2O → Al(OH)3 + 3/2 H2 (slow)</td><td>2Al + 6HCl → 2AlCl3 + 3H2</td></tr>\
-        </table>"
+        "data": "<b>Reasons Aluminium Is Extracted by Electrolysis</b>\n• Aluminium is very reactive.\n• It is higher than carbon in the reactivity series.\n• It cannot be reduced by carbon.\n• Electrolysis is required to break strong Al–O bonds."
       },
 
       {
         "type": "text",
-        "data": "<b>Uses:</b><br>\
-        - Sodium: soap, chemical industry, reducing agent.<br>\
-        - Calcium: cement, metallurgy, construction.<br>\
-        - Magnesium: alloys, fireworks, light metals, reducing agent.<br>\
-        - Aluminium: aircraft, packaging, electrical wires, construction."
+        "data": "<b>Physical Properties of Aluminium</b>\n1. Silvery-white appearance\n2. Low density (light metal)\n3. Good conductor of heat and electricity\n4. Malleable and ductile\n5. High tensile strength when alloyed\n6. Resistant to corrosion due to formation of a thin oxide layer"
       },
 
       {
-        "type": "image",
-        "data": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Aluminium_sodium_magnesium_calcium_sample.jpg/640px-Aluminium_sodium_magnesium_calcium_sample.jpg"
+        "type": "text",
+        "data": "<b>Chemical Properties of Aluminium</b>\n<b>1. Reaction with Oxygen:</b>\n4Al + 3O₂ → 2Al₂O₃\n<b>2. Reaction with Dilute Acids:</b>\n2Al + 6HCl → 2AlCl₃ + 3H₂\n<b>3. Reaction with Alkalis (Amphoteric Behavior):</b>\n2Al + 2NaOH + 6H₂O → 2NaAl(OH)₄ + 3H₂\n<b>4. Displacement Reactions:</b>\nAluminium displaces less reactive metals such as iron and copper from their compounds."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Important Compounds of Aluminium</b>\n<b>1. Aluminium Oxide (Al₂O₃)</b>\n• Used as abrasive\n• Used in extraction of aluminium\n• Occurs naturally as corundum\n<b>2. Aluminium Sulfate (Al₂(SO₄)₃)</b>\n• Used in water purification\n• Acts as a coagulating agent\n<b>3. Potash Alum (KAl(SO₄)₂·12H₂O)</b>\n• Used in dyeing\n• Used as antiseptic\n• Used to stop bleeding\n• Used in water treatment"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Test for Aluminium Ion (Al³⁺)</b>\n• With sodium hydroxide: white gelatinous precipitate forms\n• Precipitate dissolves in excess NaOH\n• Confirms amphoteric nature"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Uses of Aluminium</b>\n1. Aircraft bodies\n2. Cooking utensils\n3. Roofing sheets\n4. Packaging materials\n5. Electrical transmission cables\n6. Making alloys such as duralumin"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Other Important Metals</b>\nApart from aluminium, metals such as tin and lead are very important due to their industrial uses, alloys, and compounds."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Tin (Sn)</b>\n• Atomic number: 50\n• Electronic configuration: 2,8,18,18,4\n• Common oxidation states: +2 and +4\n• Symbol derived from Latin 'Stannum'"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Occurrence of Tin</b>\nTin occurs mainly as cassiterite (SnO₂). It is found in alluvial deposits."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Extraction of Tin</b>\n• Cassiterite is concentrated by gravity separation.\n• The ore is roasted to remove impurities.\n• Reduction is done using carbon.\nSnO₂ + 2C → Sn + 2CO"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Properties and Uses of Tin</b>\nProperties:\n• Low melting point\n• Resistant to corrosion\n• Malleable\nUses:\n• Tin-plating steel\n• Manufacture of bronze\n• Making solder\n• Food preservation"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Lead (Pb)</b>\n• Atomic number: 82\n• Electronic configuration: 2,8,18,32,18,4\n• Common oxidation states: +2 and +4\n• Very dense and toxic metal"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Occurrence and Extraction of Lead</b>\nLead occurs mainly as galena (PbS).\nExtraction involves:\n1. Roasting: PbS → PbO\n2. Reduction: PbO + C → Pb + CO"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Properties, Compounds, and Hazards of Lead</b>\nProperties:\n• Soft and heavy\n• Low melting point\n• Poor electrical conductivity\nImportant compounds:\n• PbO – used in glass\n• PbSO₄ – used in batteries\n• Pb(NO₃)₂ – used in dyes\nHazards:\n• Causes lead poisoning\n• Damages brain and kidneys\n• Accumulates in the body"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Describe the extraction of aluminium.\n2. Explain why aluminium is amphoteric.\n3. Compare aluminium and tin.\n4. State the uses and hazards of lead.\n5. Describe two compounds of aluminium and their uses.\n6. Explain why aluminium resists corrosion."
+      }
+    ]
+  }
+},
+
+//transition metals
+
+  {
+  "topic": "Transition Metals",
+  "notes": {
+    "title": "Transition Metals — Properties, Extraction, Compounds, and Uses",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nTransition metals are metallic elements found in the d-block of the periodic table, between Groups 2 and 13. They show gradual change in properties across each period and possess unique characteristics due to partially filled d-orbitals."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Definition of Transition Metals</b>\nTransition metals are elements whose atoms or at least one of their ions possess partially filled d-orbitals. This electronic structure gives rise to properties such as variable oxidation states, colored compounds, and catalytic activity."
+      },
+
+      {
+         "type": "text",
+         "data": "<b>General Electronic Configuration</b>\nExamples:\n• Scandium (Sc): [Ar] 3d¹ 4s²\n• Titanium (Ti): [Ar] 3d² 4s²\n• Vanadium (V): [Ar] 3d³ 4s²\n• Chromium (Cr): [Ar] 3d⁵ 4s¹\n• Manganese (Mn): [Ar] 3d⁵ 4s²\n• Iron (Fe): [Ar] 3d⁶ 4s²\n• Cobalt (Co): [Ar] 3d⁷ 4s²\n• Nickel (Ni): [Ar] 3d⁸ 4s²\n• Copper (Cu): [Ar] 3d¹⁰ 4s¹\n• Zinc (Zn): [Ar] 3d¹⁰ 4s²"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>General Physical Properties</b>\n1. Hard and strong\n2. High melting and boiling points\n3. High density\n4. Good conductors of heat and electricity\n5. Malleable and ductile\n6. Lustrous appearance"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>General Chemical Properties</b>\nTransition metals show various special chemical properties including:"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>1. Variable Oxidation States</b>\nDue to the small energy difference between ns and (n−1)d electrons, transition metals can lose different numbers of electrons.\nExamples:\n• Fe: +2, +3\n• Cu: +1, +2\n• Cr: +3, +6\n• Mn: +2, +4, +7"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>2. Colored Compounds</b>\nTransition metal compounds are usually colored because electrons in d-orbitals absorb specific wavelengths of light.\nExamples:\n• CuSO₄ – blue\n• FeSO₄ – pale green\n• FeCl₃ – brown\n• KMnO₄ – purple\n• K₂Cr₂O₇ – orange\n• CoCl₂ – pink\n• NiCl₂ – green\n• CrCl₃ – green\n• MnO₂ – black\n• TiCl₃ – purple"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>3. Catalytic Properties</b>\nTransition metals and their compounds act as catalysts due to their ability to change oxidation states and form intermediate compounds.\nExamples:\n• Iron – Haber process\n• Nickel – hydrogenation of oils\n• Vanadium(V) oxide – Contact process\n• MnO₂ – decomposition of hydrogen peroxide"
+      },
+      { 
+        "type": "text", 
+        "data": "<b>4. Magnetic Properties</b>\nTransition metals exhibit magnetic properties due to unpaired electrons in their d-orbitals.\nExamples:\n• Iron (Fe) – ferromagnetic\n• Nickel (Ni) – ferromagnetic\n• Cobalt (Co) – ferromagnetic\n• Chromium (Cr) – antiferromagnetic\n• Manganese (Mn) – antiferromagnetic\n• Copper (Cu) – diamagnetic" 
+        
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Important Transition Metals</b>"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Iron (Fe)</b>\n• Atomic number: 26\n• Oxidation states: +2, +3\n• Important ores: Haematite (Fe₂O₃), Magnetite (Fe₃O₄)"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Extraction of Iron — Blast Furnace</b>\nIron is extracted from its ores by reduction with carbon in a blast furnace.\n<b>Raw materials:</b>\n• Iron ore (haematite)\n• Coke (carbon)\n• Limestone (CaCO₃)\n<b>Main reactions:</b>\n1. Formation of carbon monoxide:\nC + O₂ → CO₂\nCO₂ + C → 2CO\n2. Reduction of iron ore:\nFe₂O₃ + 3CO → 2Fe + 3CO₂\n3. Formation of slag:\nCaCO₃ → CaO + CO₂\nCaO + SiO₂ → CaSiO₃ (slag)\n<b>Products:</b>\n• Molten iron\n• Slag\n• Waste gases"
+      },
+      { 
+        "type": "text", 
+        "data": "<b>Types of Iron</b>\n• <b>Pig Iron:</b> The product of smelting iron ore, high in carbon content (3.5-4.5%), brittle, and used for making cast iron products.\n• <b>Cast Iron:</b> A type of iron that is hard, brittle, and has a high carbon content (2-4%), used for making pipes, engine blocks, and other machinery parts.\n• <b>Wrought Iron:</b> A type of iron that is soft, ductile, and has a low carbon content (0.1-0.2%), used for making gates, railings, and other decorative items." 
+      },
+
+      { 
+        "type": "text", 
+        "data": "<b>Uses of Iron</b>\n• Construction of buildings and bridges\n• Manufacture of machines\n• Production of steel and alloys\n• Making of tools and equipment\n• Production of cast iron products\n• Used in the medical field for oxygen transport (hemoglobin)\n• Used in electronics (ferrites)" 
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Copper (Cu)</b>\n\n• Atomic number: 29\n• Oxidation states: +1, +2\n• Important ore: Chalcopyrite (CuFeS₂)"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Extraction of Copper</b>\n<b>Step 1: Concentration</b>\n• Froth flotation method\n<b>Step 2: Roasting</b>\n• Removes sulfur impurities\n2CuFeS₂ + O₂ → Cu₂S + 2FeO + SO₂\n<b>Step 3: Smelting</b>\n• Iron oxide reacts with silica to form slag\nFeO + SiO₂ → FeSiO₃\n<b>Step 4: Bessemerization</b>\n• Air blown through molten copper(I) sulfide\nCu₂S + O₂ → 2Cu + SO₂n\n<b>Step 5: Electrolytic Refining</b>\n• Impure copper as anode\n• Pure copper deposited at cathode"
+      },
+
+      { 
+        "type": "text", 
+        "data": "<b>Uses of Copper</b>\n• Electrical wiring and electronics\n• Plumbing and piping\n• Making alloys (brass, bronze, cupronickel)\n• Coins and currency\n• Roofing and architectural features\n• Industrial machinery and equipment\n• Medical equipment and instruments\n• Jewelry and decorative items\n• Electrical motors and generators\n• Heat exchangers and radiators"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Zinc (Zn)</b>\n• Atomic number: 30\n• Oxidation state: +2 only\n• Important ore: Zinc blende (ZnS)"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Extraction of Zinc</b>\n<b>Step 1: Concentration</b>\n• Froth flotation\n<b>Step 2: Roasting</b>\n2ZnS + 3O₂ → 2ZnO + 2SO₂\n<b>Step 3: Reduction</b>\nZnO + C → Zn + CO\n<b>Alternative method:</b>\n• Electrolysis of zinc sulfate solution"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Uses of Zinc</b>\n• Galvanization of iron\n• Manufacture of alloys\n• Dry cells\n• Production of zinc oxide"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Importance of Transition Metals</b>\n1. Industrial catalysis\n2. Electrical and thermal conductivity\n3. Formation of alloys\n4. Biological importance (iron in blood)\n5. Manufacturing and construction"
+      },
+      { 
+        "type": "text", 
+        "data": "<b>Common Alloys</b>\n• <b>Steel:</b> Composition - Iron (Fe) + Carbon (C) (0.2-2%); Importance - High strength, widely used in construction and manufacturing.\n• <b>Stainless Steel:</b> Composition - Iron (Fe) + Chromium (Cr) (10-20%) + Nickel (Ni); Importance - Corrosion-resistant, used in kitchenware, medical equipment.\n• <b>Brass:</b> Composition - Copper (Cu) (60-80%) + Zinc (Zn) (20-40%); Importance - Durable, used in musical instruments, fittings.\n• <b>Bronze:</b> Composition - Copper (Cu) (80-90%) + Tin (Sn) (10-20%); Importance - Strong, used in sculptures, bearings.\n• <b>Duralumin:</b> Composition - Aluminium (Al) + Copper (Cu) + Manganese (Mn) + Magnesium (Mg); Importance - Lightweight, strong, used in aircraft.\n• <b>Cast Iron:</b> Composition - Iron (Fe) + Carbon (C) (2-4%); Importance - Hard, brittle, used for engine block, pipes.\n• <b>Monel:</b> Composition - Nickel (Ni) (60-70%) + Copper (Cu); Importance - Corrosion-resistant, used in marine applications.\n• <b>Invar:</b> Composition - Iron (Fe) (64%) + Nickel (Ni) (36%); Importance - Low thermal expansion, used in precision instruments.\n• <b>Nichrome:</b> Composition - Nickel (Ni) + Chromium (Cr); Importance - High resistance, used in heating elements.\n• <b>Solder:</b> Composition - Tin (Sn) + Lead (Pb); Importance - Low melting point, used for joining metals." },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define transition metals.\n2. Explain why transition metals show variable oxidation states.\n3. Describe the extraction of iron.\n4. Outline the extraction of copper from chalcopyrite.\n5. Explain the extraction of zinc.\n6. Why are transition metal compounds colored?\n7. State three uses each of iron, copper, and zinc."
+      }
+    ]
+  }
+},
+ 
+  //volumetric analysis 
+ 
+  {
+  "topic": "Volumetric Analysis and Titration",
+  "notes": {
+    "title": "Volumetric Analysis — Titration, Calculations, and Applications",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nVolumetric analysis is a quantitative analytical technique used in chemistry to determine the concentration of a solution by reacting it with another solution of known concentration. It is one of the most important practical aspects of chemistry and forms a major part of laboratory work and examinations."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Definition of Volumetric Analysis</b>\nVolumetric analysis is a method of chemical analysis in which the volume of a solution of known concentration required to react completely with a given volume of another solution is measured in order to determine its concentration.\nIt works on the principle of chemical equivalence. At the point of complete reaction, the reacting substances combine in definite mole ratios according to the balanced chemical equation"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Titration</b>\nTitration is the experimental process in volumetric analysis in which a solution of known concentration (titrant) is added gradually from a burette to a measured volume of another solution of unknown concentration (analyte) until the reaction is complete.\n<em>See titration table below.</em>"
+      },
+      {
+        type: "image",
+        data: ""
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Key Terms in Titration</b>\n• Titrant: Solution of known concentration in the burette. Usually an acid or a base.\n• Analyte: Solution of unknown concentration in the flask\n• Indicator: Substance that changes color at the end point. e.g methylorange, methylred, phenolphthalein. \n• End point: Point at which the indicator changes color\n• Equivalence point: Point at which the reaction is exactly complete\n• Standard solution: A solution of accurately known concentration"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Types of Volumetric Analysis"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>1. Acid–Base Titration</b>\nThis involves the reaction between an acid and a base to form salt and water.\nExample:\nHCl + NaOH → NaCl + H₂O\nIndicators used:\n• Methyl orange\n• Phenolphthalein\n• Litmus"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>2. Redox Titration</b>\nThis involves oxidation and reduction reactions.\nExamples:\n• KMnO₄ vs FeSO₄\n• K₂Cr₂O₇ vs Fe²⁺\nKMnO₄ acts as a self-indicator due to its purple color."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>3. Precipitation Titration</b>\nInvolves formation of an insoluble precipitate.\nExample:\nAgNO₃ + NaCl → AgCl↓ + NaNO₃"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>4. Complexometric Titration</b>\nInvolves formation of complex ions.\nExample:\nEDTA titration for Ca²⁺ and Mg²⁺ ions in water hardness determination."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Laboratory Apparatus Used</b>\n• Burette\n• Pipette\n• Conical flask\n• Volumetric flask\n• Funnel\n• White tile"
+      },
+      {
+        //titration setup image
+        
+        type: "image",
+        data: "."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>General Titration Procedure</b>\n1. Rinse burette with titrant and fill.\n2. Pipette known volume of analyte into conical flask.\n3. Add few drops of suitable indicator.\n4. Titrate until end point is reached.\n5. Record initial and final burette readings.\n6. Repeat to obtain concordant results."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Calculations in Volumetric Analysis</b>\nGeneral formula:\nC<sub>a</sub>V<sub>a</sub>/C<sub>b</sub>V<sub>b</sub> = n<sub>a</sub>/ n<sub>b</sub>\nWhere:\n• C<sub>a</sub> = concentration of acid\n• C<sub>b</sub> = concentration of base\n• V<sub>a</sub> = volume of acid\n• V<sub>b</sub> = volume of base (usually 20 or 25 cm³ pipette)\n• n<sub>a</sub> = mole ratio of acid from balanced equation\nn<sub>b</sub> = mole ratio of base from balanced equation"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1</b>\n25.0 cm³ of HCl was neutralized by 20.0 cm³ of 0.1 mol/dm³ NaOH. Calculate the concentration of HCl.\n<b>Solution:</b>\nHCl + NaOH → NaCl + H₂O\nsince ratio of HCl to NaOH is 1:1, then\nC₁V₁ = C₂V₂\nC₁ × 25 = 0.1 × 20\nC₁ = 0.08 mol/dm³"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2</b>\nWhat volume of 0.2 mol/dm³ H₂SO₄ is required to neutralize 25 cm³ of 0.1 mol/dm³ NaOH?\nEquation:\nH₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O\n<b>Solution:</b>\nUsing mole ratio:\nC₁V₁/C₂V₂ = 1/2\n0.2 × V₁ / 0.1 × 25 = 1/2\n0.2V₁/2.5 = 1/2\nV₁ = 2.5/(0.2 × 2)\nV₁=2.5/0.4\nV₁ = 6.25 cm³"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Indicators and Their Color Changes</b>\n\n• Methyl orange: Red (acid) → Yellow (alkali)\n• Phenolphthalein: Colorless (acid) → Pink (alkali)\n• Litmus: Red (acid) → Blue (alkali)"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Errors in Volumetric Analysis</b>\n\n1. Parallax error when reading burette\n2. Incorrect end point detection\n3. Use of wrong indicator\n4. Dirty apparatus\n5. Air bubbles in burette"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Precautions</b>\n\n1. Read burette at eye level\n2. Use appropriate indicator\n3. Ensure apparatus are clean\n4. Perform titration slowly near end point\n5. Obtain at least two concordant results"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Applications of Volumetric Analysis</b>\n\n1. Determination of acid or base concentration\n2. Quality control in industries\n3. Water analysis\n4. Pharmaceutical analysis\n5. Environmental monitoring\n6. Food and beverage testing"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define volumetric analysis.\n2. Explain the principle of titration.\n3. Differentiate between end point and equivalence point.\n4. List laboratory apparatus used in titration.\n5. Explain acid–base titration with an example.\n6. Calculate the concentration of an acid given titration data.\n7. State four sources of error in titration.\n8. Mention five applications of volumetric analysis."
+      }
+    ]
+  }
+},
+
+  //qualitative analysis
+
+  {
+  "topic": "Qualitative Analysis",
+  "notes": {
+    "title": "Qualitative Analysis — Identification of Ions and Gases",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nQualitative analysis is the branch of analytical chemistry concerned with identifying the substances present in a sample. Unlike quantitative analysis, which measures the amount of a substance, qualitative analysis focuses on determining what substances are present, such as ions, gases, acids, bases, or salts."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Definition of Qualitative Analysis</b>\nQualitative analysis is a systematic method used to detect and identify ions, radicals, or compounds in a given substance through physical observation and chemical tests."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Objectives of Qualitative Analysis</b>\n1. To identify cations (positive ions)\n2. To identify anions (negative ions)\n3. To identify gases evolved during reactions\n4. To classify substances as acidic, basic, or neutral\n5. To confirm the nature of unknown salts"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Classification of Qualitative Analysis</b>\nQualitative analysis can be grouped into:\n1. Dry Tests\n2. Wet Tests"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Dry Tests</b>\nDry tests are carried out on solid samples without dissolving them in water. They give preliminary information about the substance."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>1. Physical Examination</b>\n• Color of solid\n• Crystalline or powdery nature\n• Odor (if any)\n• Texture\n\nExamples:\n• Blue crystals suggest CuSO₄\n• Green crystals suggest FeSO₄\n• White powder may indicate NaCl, ZnSO₄, or NH₄Cl"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>2. Heating Test</b>\nThe solid is heated in a dry test tube.\nObservations and inferences:\n• Water droplets on tube → hydrated salt\n• Brown gas → nitrogen dioxide\n• Sublimation → ammonium chloride\n• Black residue → decomposition of carbonate"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>3. Flame Test</b>\nThe flame test helps identify certain metal ions based on flame color.\nFlame colors:\n• Sodium (Na⁺): Golden yellow\n• Potassium (K⁺): Lilac\n• Calcium (Ca²⁺): Brick red\n• Copper (Cu²⁺): Blue-green\n• Barium (Ba²⁺): Apple green\nNote: Cobalt glass is used to distinguish potassium from sodium."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Wet Tests</b>\nWet tests involve dissolving the substance in water and adding specific reagents to identify ions."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Tests for Cations (Positive Ions)</b>"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Ammonium Ion (NH₄⁺)</b>\nTest:\n• Add sodium hydroxide solution and warm.\nObservation:\n• Pungent gas evolved that turns moist red litmus blue.\nInference:\n• Ammonium ion present."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Copper(II) Ion (Cu²⁺)</b>\nTest:\n• Add sodium hydroxide solution.\nObservation:\n• Blue precipitate insoluble in excess.\nConfirmatory test:\n• Add excess ammonia solution → deep blue solution."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Iron(II) Ion (Fe²⁺)</b>\nTest:\n• Add sodium hydroxide solution.\nObservation:\n• Green precipitate that turns brown on standing."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Iron(III) Ion (Fe³⁺)</b>\nTest:\n• Add sodium hydroxide solution.\nObservation:\n• Brown precipitate insoluble in excess."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Zinc Ion (Zn²⁺)</b>\nTest:\n• Add sodium hydroxide solution.\nObservation:\n• White precipitate soluble in excess NaOH.\nConfirmatory test:\n• Dissolves in excess ammonia to form colorless solution."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Aluminium Ion (Al³⁺)</b>\nTest:\n• Add sodium hydroxide solution.\nObservation:\n• White gelatinous precipitate soluble in excess NaOH.\nNote:\n• Does not dissolve in excess ammonia."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Calcium Ion (Ca²⁺)</b>\nTest:\n• Add sodium hydroxide solution.\nObservation:\n• White precipitate insoluble in excess.\nConfirmatory test:\n• Brick-red flame."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Tests for Anions (Negative Ions)</b>"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Carbonate Ion (CO₃²⁻)</b>\nTest:\n• Add dilute hydrochloric acid.\nObservation:\n• Effervescence.\n• Gas turns limewater milky.\nInference:\n• Carbon dioxide present."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Sulfate Ion (SO₄²⁻)</b>\nTest:\n• Acidify with dilute HCl, then add barium chloride solution.\n\nObservation:\n• White precipitate insoluble in acid."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Chloride Ion (Cl⁻)</b>\nTest:\n• Add dilute nitric acid, then silver nitrate solution.\nObservation:\n• White precipitate soluble in ammonia."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Nitrate Ion (NO₃⁻)</b>\nTest:\n• Add sodium hydroxide and aluminium foil, then warm.\n\nObservation:\n• Ammonia gas evolved."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Tests for Gases</b>"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Carbon Dioxide (CO₂)</b>\n• Turns limewater milky."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Hydrogen (H₂)</b>\n• Burns with a popping sound."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Oxygen (O₂)</b>\n• Rekindles a glowing splint."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Ammonia (NH₃)</b>\n• Turns moist red litmus blue.\n• Forms white fumes with HCl."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Hydrogen Chloride (HCl)</b>\n• Turns moist blue litmus red.\n• Forms white fumes with ammonia."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Systematic Approach to Qualitative Analysis</b>\n1. Physical observation\n2. Dry tests\n3. Wet tests for cations\n4. Wet tests for anions\n5. Confirmatory tests\n6. Logical conclusion"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Common Laboratory Precautions</b>\n1. Use clean apparatus\n2. Add reagents dropwise\n3. Observe color changes carefully\n4. Avoid contamination\n5. Follow proper safety rules"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Applications of Qualitative Analysis</b>\n1. Identification of unknown salts\n2. Medical diagnosis\n3. Environmental monitoring\n4. Industrial quality control\n5. Forensic science\n6. Water analysis"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define qualitative analysis.\n2. Differentiate between dry and wet tests.\n3. Describe the test for Cu²⁺ ion.\n4. How can chloride ion be identified?\n5. State two tests each for NH₃ and CO₂.\n6. Outline a systematic method for identifying an unknown salt.\n7. Why is nitric acid used before testing for halides?\n8. List five gases and their confirmatory tests."
+      }
+    ]
+  }
+},
+
+  //hydrocarbons 
+
+  {
+  "topic": "Hydrocarbons",
+  "notes": {
+    "title": "Hydrocarbons — Classification, Properties, Reactions, and Uses",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nHydrocarbons are organic compounds composed entirely of carbon and hydrogen atoms. They form the basis of organic chemistry and are the primary components of fuels, lubricants, and petrochemical products."
+      },
+      {
+        "type": "text",
+        "data": "<b>Definition of Hydrocarbons</b>\nHydrocarbons are compounds consisting only of carbon (C) and hydrogen (H) atoms. They can exist as chains or rings and can be saturated or unsaturated."
+      },
+      {
+        "type": "text",
+        "data": "<b>Classification of Hydrocarbons</b>\nHydrocarbons are classified based on the type of bonds between carbon atoms:\n1. <b>Alkanes (Saturated)</b>\n• Only single C–C bonds\n• General formula: CₙH₂ₙ₊₂\n• Examples: Methane (CH₄), Ethane (C₂H₆), Propane (C₃H₈)\n• Physical state: Gas (C₁–C₄), Liquid (C₅–C₁₇), Solid (C₁₈+)\n• Properties: Relatively unreactive, flammable, undergo combustion"
+      },
+      {
+        "type": "text",
+        "data": "2. <b>Alkenes (Unsaturated)</b>\n• Contain at least one C=C double bond\n• General formula: CₙH₂ₙ\n• Examples: Ethene (C₂H₄), Propene (C₃H₆)\n• Reactions: Addition reactions (hydrogenation, halogenation, hydration, polymerization)\n• Uses: Production of plastics, alcohols, and synthetic materials"
+      },
+      {
+        "type": "text",
+        "data": "3. <b>Alkynes (Unsaturated)</b>\n• Contain at least one C≡C triple bond\n• General formula: CₙH₂ₙ₋₂\n• Examples: Ethyne (C₂H₂), Propyne (C₃H₄)\n• Reactions: Addition reactions (hydrogenation, halogenation), polymerization, combustion\n• Uses: Welding torches (acetylene), chemical synthesis"
+      },
+      {
+        "type": "text",
+        "data": "4. <b>Aromatic Hydrocarbons</b>\n• Contain benzene ring or derivatives\n• Examples: Benzene (C₆H₆), Toluene (C₇H₈), Phenol (C₆H₅OH)\n• Properties: Stable due to resonance\n• Reactions: Electrophilic substitution (nitration, halogenation, sulfonation)\n• Uses: Solvents, dyes, drugs, explosives"
+      },
+      {
+        "type": "text",
+        "data": "<b>Physical Properties of Hydrocarbons</b>\n• Insoluble in water but soluble in organic solvents\n• Low melting and boiling points for small molecules, increases with chain length\n• Density generally less than water\n• Non-polar molecules"
+      },
+      {
+        "type": "text",
+        "data": "<b>Chemical Properties of Hydrocarbons</b>\n1. <b>Combustion:</b> Hydrocarbons burn in oxygen to produce CO₂ and H₂O\n• Example: CH₄ + 2O₂ → CO₂ + 2H₂O\n2. <b>Substitution (for alkanes):</b> Halogenation in presence of UV light\n• Example: CH₄ + Cl₂ → CH₃Cl + HCl\n3. <b>Addition (for alkenes/alkynes):</b> Addition of halogens, hydrogen, water\n• Example: C₂H₄ + Br₂ → C₂H₄Br₂\n4. <b>Polymerization:</b> Formation of polymers from alkenes\n• Example: nCH₂=CH₂ → –(CH₂–CH₂)–ₙ"
+      },
+      {
+        "type": "text",
+        "data": "<b>Isomerism in Hydrocarbons</b>\nHydrocarbons exhibit:\n• Structural isomerism: Same molecular formula, different arrangement\n• Example: Butane (C₄H₁₀) → n-butane, isobutane\n• Geometrical (cis-trans) isomerism: Alkenes with restricted rotation around C=C\n• Optical isomerism: Chiral carbon atoms in some hydrocarbons"
+      },
+      {
+        "type": "text",
+        "data": "<b>Tests for Hydrocarbons</b>\n1. <b>Bromine Water Test:</b> \n• Alkanes: No decolorization\n• Alkenes/Alkynes: Decolorize bromine water\n2. <b>Baeyer's Test (Potassium Permanganate Test):</b>\n• Alkanes: No reaction\n• Alkenes: Purple KMnO₄ solution turns brown\n3. <b>Combustion Test:</b>\n• Complete combustion → blue flame, CO₂ and H₂O\n• Incomplete combustion → smoky yellow flame, CO and soot"
+      },
+      {
+        "type": "text",
+        "data": "<b>Uses of Hydrocarbons</b>\n1. Fuels: Methane, propane, petrol, diesel\n2. Raw materials for petrochemical industry: Plastics, synthetic fibers, rubbers\n3. Solvents: Benzene, toluene, hexane\n4. Industrial chemicals: Ammonia, methanol, ethylene oxide\n5. Laboratory reagents"
+      },
+      {
+        "type": "text",
+        "data": "<b>Environmental Impact of Hydrocarbons</b>\n• Combustion produces CO₂ contributing to greenhouse effect\n• Spills cause water and soil pollution\n• Incomplete combustion produces CO, a toxic gas\n• Some aromatic hydrocarbons are carcinogenic"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define hydrocarbons.\n2. Classify hydrocarbons and give examples for each class.\n3. State the general formula of alkanes, alkenes, and alkynes.\n4. Explain the difference between saturated and unsaturated hydrocarbons.\n5. Write balanced chemical equations for the combustion of methane and ethene.\n6. Describe the bromine water test and its significance.\n7. Explain structural and geometrical isomerism with examples.\n8. List five uses of hydrocarbons in daily life and industry.\n9. Discuss the environmental effects of hydrocarbon use.\n10. Differentiate between addition and substitution reactions in hydrocarbons."
+      }
+    ]
+  }
+},
+
+  //organic chemistry
+  
+  {
+  "topic": "Introduction to Organic Chemistry",
+  "notes": {
+    "title": "Organic Chemistry — Concepts, Classifications, and Importance",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nOrganic chemistry is the branch of chemistry that deals with the study of carbon compounds, especially those containing hydrogen, oxygen, nitrogen, sulfur, and halogens. It focuses on the structure, properties, composition, reactions, and synthesis of carbon-containing compounds."
+      },
+      {
+        "type": "text",
+        "data": "<b>Definition of Organic Chemistry</b>\nOrganic chemistry can be defined as the study of the structure, properties, reactions, and synthesis of carbon-based compounds."
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Organic Chemistry</b>\n1. Explains the chemistry of life (biochemistry of carbohydrates, proteins, and lipids)\n2. Foundation for pharmaceuticals, agrochemicals, and polymers\n3. Basis for fuel and petrochemical industries\n4. Essential for understanding dyes, perfumes, and food additives\n5. Supports research in synthetic materials and nanotechnology"
+      },
+      {
+        "type": "text",
+        "data": "<b>Characteristics of Organic Compounds</b>\n1. Predominantly covalent bonding\n2. Low melting and boiling points for small molecules\n3. Insoluble in water but soluble in organic solvents (e.g., ethanol, benzene)\n4. Flammable and combustible\n5. Exhibit isomerism (structural, geometric, optical)"
+      },
+      {
+  "type": "text",
+  "data": "<b>Classification of Organic Compounds</b>\nOrganic compounds can be classified based on structure and functional groups into the following categories:\n1. <b>Aliphatic Compounds:</b> Contain straight, branched, or cyclic carbon chains. They can be further divided into:\n   - <b>Saturated hydrocarbons (Alkanes):</b> Only single bonds (C–C). Examples:\n     • Methane (CH<sub>4</sub>)\n     • Ethane (C<sub>2</sub>H<sub>6</sub>)\n     • Propane (C<sub>3</sub>H<sub>8</sub>)\n     • Butane (C<sub>4</sub>H<sub>10</sub>)\n   - <b>Unsaturated hydrocarbons:</b>\n     • <b>Alkenes (C=C):</b> Ethene (C<sub>2</sub>H<sub>4</sub>), Propene (C<sub>3</sub>H<sub>6</sub>), But-1-ene (C<sub>4</sub>H<sub>8</sub>)\n     • <b>Alkynes (C≡C):</b> Ethyne (C<sub>2</sub>H<sub>2</sub>), Propyne (C<sub>3</sub>H<sub>4</sub>)\n   - <b>Cyclic aliphatic compounds:</b> Carbon atoms form rings without aromaticity. Examples:\n     • Cyclohexane (C<sub>6</sub>H<sub>12</sub>)\n     • Cyclopentane (C<sub>5</sub>H<sub>10</sub>)\n     • Methylcyclobutane (C<sub>5</sub>H<sub>10</sub>)\n\n2. <b>Aromatic Compounds:</b> Contain one or more benzene rings (delocalized π-electrons) in their structure. Examples:\n   - Benzene (C<sub>6</sub>H<sub>6</sub>)\n   - Toluene (C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub>)\n   - Phenol (C<sub>6</sub>H<sub>5</sub>OH)\n   - Aniline (C<sub>6</sub>H<sub>5</sub>NH<sub>2</sub>)\n   - Naphthalene (C<sub>10</sub>H<sub>8</sub>)\n\n3. <b>Alcohols:</b> Contain hydroxyl (-OH) group attached to carbon. Examples:\n   • Methanol (CH<sub>3</sub>OH), Ethanol (C<sub>2</sub>H<sub>5</sub>OH), Glycerol (C<sub>3</sub>H<sub>5</sub>(OH)<sub>3</sub>)\n\n4. <b>Phenols:</b> Hydroxyl group directly attached to an aromatic ring. Examples:\n   • Phenol (C<sub>6</sub>H<sub>5</sub>OH), Cresol (CH<sub>3</sub>C<sub>6</sub>H<sub>4</sub>OH)\n\n5. <b>Ethers:</b> Contain an oxygen atom bonded to two carbon atoms (C–O–C). Examples:\n   • Diethyl ether (C<sub>2</sub>H<sub>5</sub>–O–C<sub>2</sub>H<sub>5</sub>), Methyl tert-butyl ether (CH<sub>3</sub>–O–C(CH<sub>3</sub>)<sub>3</sub>)\n\n6. <b>Aldehydes:</b> Contain –CHO group. Examples:\n   • Formaldehyde (CH<sub>2</sub>O), Acetaldehyde (CH<sub>3</sub>CHO), Benzaldehyde (C<sub>6</sub>H<sub>5</sub>CHO)\n\n7. <b>Ketones:</b> Contain carbonyl (C=O) group within the carbon chain. Examples:\n   • Acetone (CH<sub>3</sub>COCH<sub>3</sub>), Butanone (CH<sub>3</sub>CH<sub>2</sub>COCH<sub>3</sub>)\n\n8. <b>Carboxylic Acids:</b> Contain –COOH group. Examples:\n   • Methanoic acid (HCOOH), Ethanoic acid (CH<sub>3</sub>COOH), Benzoic acid (C<sub>6</sub>H<sub>5</sub>COOH)\n\n9. <b>Esters:</b> Derived from carboxylic acids and alcohols. Examples:\n   • Methyl ethanoate (CH<sub>3</sub>COOCH<sub>3</sub>), Ethyl propanoate (C<sub>2</sub>H<sub>5</sub>COOC<sub>2</sub>H<sub>5</sub>)\n\n10. <b>Amines:</b> Contain –NH<sub>2</sub> group. Examples:\n    • Methylamine (CH<sub>3</sub>NH<sub>2</sub>), Aniline (C<sub>6</sub>H<sub>5</sub>NH<sub>2</sub>)\n\n11. <b>Amides:</b> Contain –CONH<sub>2</sub> group. Examples:\n    • Formamide (HCONH<sub>2</sub>), Acetamide (CH<sub>3</sub>CONH<sub>2</sub>)"
+},
+      {
+  "type": "text",
+  "data": "<b>Functional Groups in Organic Chemistry</b>\nA functional group is an atom or group of atoms that determines the chemical properties of a compound.\n<b>Examples of Functional Groups:</b>\n• Hydroxyl (-OH) → Alcohols (Ethanol, Methanol), Phenols (Phenol, Cresol)\n• Carbonyl (C=O) → Aldehydes (Formaldehyde, Acetaldehyde), Ketones (Acetone, Butanone)\n• Carboxyl (-COOH) → Carboxylic acids (Methanoic acid, Ethanoic acid, Benzoic acid)\n• Amino (-NH₂) → Amines (Methylamine, Aniline)\n• Halogen (-Cl, -Br, -I) → Alkyl halides (Chloroethane, Bromoethane)\n• Ether (C–O–C) → Ethers (Diethyl ether, Methyl tert-butyl ether)\n• Ester (-COO-) → Esters (Methyl ethanoate, Ethyl propanoate)\n• Amide (-CONH₂) → Amides (Formamide, Acetamide)\n• Nitro (-NO₂) → Nitro compounds (Nitrobenzene, Trinitrotoluene)\n• Sulfhydryl (-SH) → Thiols (Ethanethiol, Cysteine)\n• Phosphate (-PO₄) → Organophosphates (ATP, Phospholipids)\n• Phenyl (-C₆H₅) → Aromatic compounds (Benzene, Toluene)\n• Alkene (-C=C-) → Alkenes (Ethene, Propene)\n• Alkyne (-C≡C-) → Alkynes (Ethyne, Propyne)"
+},
+      {
+        "type": "text",
+        "data": "<b>Isomerism in Organic Chemistry</b>\n1. <b>Structural isomerism:</b> Same molecular formula, different arrangement of atoms.\n   - Example: C₄H₁₀ → n-butane, isobutane\n2. <b>Geometrical (cis-trans) isomerism:</b> Restricted rotation around double bonds.\n   - Example: cis-but-2-ene and trans-but-2-ene\n3. <b>Optical isomerism:</b> Molecules with chiral centers producing non-superimposable mirror images.\n   - Example: Lactic acid"
+      },
+      {
+        "type": "text",
+        "data": "<b>Nomenclature of Organic Compounds</b>\nIUPAC rules are used to name organic compounds systematically:\n1. Identify the longest carbon chain\n2. Identify functional groups\n3. Number the chain to give functional groups the lowest number\n4. Use prefixes and suffixes to indicate substituents and functional groups."
+      },
+      {
+        "type": "text",
+        "data": "<b>Reactions of Organic Compounds</b>\nOrganic compounds typically undergo:\n1. <b>Addition reactions:</b> Unsaturated compounds add atoms or groups (alkenes, alkynes)\n2. <b>Substitution reactions:</b> Replacement of an atom or group by another (alkanes, aromatic hydrocarbons)\n3. <b>Elimination reactions:</b> Removal of atoms or groups to form multiple bonds\n4. <b>Oxidation-reduction reactions:</b> Changes in oxidation state (alcohol → aldehyde → carboxylic acid)\n5. <b>Polymerization:</b> Formation of long-chain molecules (alkenes forming polyethylene)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Functional Groups and Reactions</b>\n• Functional groups determine chemical reactivity\n• Guide organic synthesis and drug design\n• Determine solubility, acidity/basicity, and polarity\n• Enable identification of unknown compounds via tests"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Organic Chemistry</b>\n1. Pharmaceuticals: Drugs, antibiotics, and vitamins\n2. Agriculture: Pesticides, herbicides, fertilizers\n3. Industry: Plastics, synthetic fibers, dyes\n4. Food: Flavorings, preservatives\n5. Environment: Detergents, soaps, biodegradable polymers"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define organic chemistry.\n2. List four characteristics of organic compounds.\n3. Differentiate between saturated and unsaturated hydrocarbons.\n4. Define functional group and give five examples.\n5. Explain structural, geometrical, and optical isomerism with examples.\n6. Outline IUPAC rules for naming organic compounds.\n7. Give examples of addition and substitution reactions.\n8. Discuss the importance of organic chemistry in daily life.\n9. Describe the reactions of alcohols and alkenes.\n10. Why is carbon versatile in forming organic compounds?"
       }
     ]
   }
 },
 
 
-    {
-      topic: "Qualitative Analysis",
-      notes: {
-        title: "Qualitative Analysis — Detection of Ions and Gases",
-        content: [
-          { 
-            type: "text", 
-            data: "Qualitative analysis is the identification of chemical substances based on their characteristic reactions. It helps determine the ions or gases present in a sample without measuring quantity." 
-          },
-          { 
-            type: "text", 
-            data: "Common test for gases:\n• Oxygen — relights a glowing splint.\n• Hydrogen — burns with a ‘pop’ sound.\n• Carbon dioxide — turns limewater milky.\n• Ammonia — turns moist red litmus paper blue.\n• Chlorine — bleaches damp litmus paper." 
-          },
-          { 
-            type: "text", 
-            data: "Tests for cations:\n• Fe²⁺: green ppt with NaOH → Fe(OH)₂.\n• Fe³⁺: reddish-brown ppt → Fe(OH)₃.\n• Cu²⁺: blue ppt with NaOH → Cu(OH)₂.\n• Ca²⁺: white ppt with Na₂CO₃.\n• NH₄⁺: releases ammonia on heating with NaOH." 
-          },
-          { 
-            type: "text", 
-            data: "Tests for anions:\n• CO₃²⁻: effervescence with acid, CO₂ gas evolved.\n• SO₄²⁻: white ppt with BaCl₂ (insoluble in HCl).\n• Cl⁻: white ppt with AgNO₃ (soluble in NH₃).\n• NO₃⁻: brown ring test with FeSO₄ and H₂SO₄." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. Mention two tests each for identifying gases and ions.\n2. Write equations for the reaction between Na₂CO₃ and HCl.\n3. What is observed when AgNO₃ is added to a solution containing Cl⁻?\n4. Explain how to identify Fe³⁺ ions in an unknown sample." 
-          }
-        ]
+  //petroleum and its fractions
+    
+  {
+  "topic": "Petroleum",
+  "notes": {
+    "title": "Petroleum — Sources, Extraction, Fractions, and Uses",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nPetroleum, also called crude oil, is a naturally occurring liquid found beneath the Earth's surface, composed mainly of hydrocarbons along with small amounts of sulfur, nitrogen, and oxygen compounds. It is the primary raw material for fuels and many petrochemical products."
+      },
+      {
+        "type": "text",
+        "data": "<b>Definition of Petroleum</b>\nPetroleum is a complex mixture of hydrocarbons in liquid form, obtained from underground reservoirs. It is formed from the remains of ancient marine plants and animals subjected to heat and pressure over millions of years."
+      },
+      {
+        "type": "text",
+        "data": "<b>Sources of Petroleum</b>\n1. <b>Natural Reservoirs:</b> Crude oil deposits trapped in porous rocks, often beneath impermeable layers.\n2. <b>Oil Shale:</b> Sedimentary rock containing kerogen that can be processed to obtain shale oil.\n3. <b>Tar Sands:</b> Mixtures of sand, clay, water, and bitumen from which oil can be extracted.\n4. <b>Offshore Deposits:</b> Under the seabed, extracted via offshore drilling platforms."
+      },
+      {
+        "type": "text",
+        "data": "<b>Extraction of Petroleum</b>\n1. <b>Exploration:</b> Geologists identify potential oil reserves using seismic surveys and geological mapping.\n2. <b>Drilling:</b> Wells are drilled to reach underground reservoirs.\n3. <b>Primary Recovery:</b> Natural pressure in the reservoir forces crude oil to the surface.\n4. <b>Secondary Recovery:</b> Water or gas is injected to increase reservoir pressure.\n5. <b>Tertiary Recovery:</b> Techniques like steam injection, chemicals, or CO₂ are used to extract remaining oil."
+      },
+      {
+        "type": "text",
+        "data": "<b>Refining of Petroleum</b>\nCrude oil is refined to separate useful components through <b>fractional distillation</b>. The process involves heating crude oil in a fractionating column; components with different boiling points condense at various levels."
+      },
+      {
+        "type": "text",
+        "data": "<b>Fractions of Petroleum and Their Uses</b>\n1. <b>Refinery Gas (C₁–C₄):</b> Methane, ethane, propane, butane\n   - Uses: Domestic fuel, LPG, petrochemical feedstock\n2. <b>Petrol (C₅–C₁₂):</b> Gasoline fraction\n   - Uses: Fuel for cars and motorcycles\n3. <b>Naphtha (C₆–C₁₂):</b>\n   - Uses: Petrochemical industry, solvent\n4. <b>Kerosene (C₁₂–C₁₆):</b>\n   - Uses: Jet fuel, lamps, heating\n5. <b>Diesel (C₁₂–C₂₀):</b>\n   - Uses: Fuel for diesel engines, generators\n6. <b>Lubricating Oil (C₂₀–C₄₀):</b>\n   - Uses: Engine lubrication, machinery oils\n7. <b>Fuel Oil / Heavy Oil (C₃₀–C₆₀):</b>\n   - Uses: Ships, power plants, industrial heating\n8. <b>Bitumen / Asphalt (C₆₀+):</b>\n   - Uses: Road surfacing, roofing, waterproofing"
+      },
+      {
+        "type": "text",
+        "data": "<b>Chemical Composition of Petroleum Fractions</b>\n• Hydrocarbons: Alkanes (paraffins), cycloalkanes (naphthenes), aromatics (benzene derivatives)\n• Small amounts of sulfur, nitrogen, oxygen compounds, and metals\n• Fraction properties vary: lower boiling point fractions are lighter and more volatile; higher boiling point fractions are heavier and viscous."
+      },
+      {
+        "type": "text",
+        "data": "<b>Physical Properties of Petroleum Fractions</b>\n• Density increases with molecular size\n• Viscosity increases with chain length\n• Boiling point increases from top to bottom of fractionating column\n• Volatility decreases with increasing molecular weight"
+      },
+      {
+        "type": "text",
+        "data": "<b>Chemical Properties of Petroleum Fractions</b>\n1. <b>Combustion:</b> Hydrocarbons burn in oxygen to produce energy, CO₂, and H₂O\n   - Example: C₈H₁₈ + 12.5O₂ → 8CO₂ + 9H₂O\n2. <b>Cracking:</b> Breaking large hydrocarbon molecules into smaller ones using heat and catalysts\n   - Example: C₁₆H₃₄ → C₈H₁₈ + C₈H₁₆\n3. <b>Reforming:</b> Converting straight-chain hydrocarbons into branched or cyclic hydrocarbons to improve octane number\n4. <b>Polymerization:</b> Unsaturated hydrocarbons (alkenes) can polymerize to form plastics and synthetic rubbers"
+      },
+      {
+        "type": "text",
+        "data": "<b>Uses of Petroleum Fractions</b>\n• Domestic fuel: LPG, kerosene, diesel, petrol\n• Industrial fuel: Heavy fuel oil, furnace oil\n• Lubrication: Engine oils, greases\n• Petrochemical industry: Production of plastics, synthetic fibers, detergents, pharmaceuticals\n• Road construction: Bitumen for asphalt\n• Aviation: Kerosene (jet fuel)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Environmental Impact of Petroleum</b>\n• Air pollution: CO, CO₂, NOx, SO₂ from combustion\n• Water pollution: Oil spills affecting aquatic life\n• Soil contamination: Leakage from pipelines and storage\n• Greenhouse effect: Global warming from fossil fuel emissions\n• Acid rain: From sulfur compounds in petroleum"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define petroleum and explain how it is formed.\n2. List four sources of petroleum.\n3. Describe the extraction methods of petroleum.\n4. Explain fractional distillation of crude oil.\n5. List petroleum fractions and give their major uses.\n6. Write chemical reactions for combustion and cracking of hydrocarbons.\n7. Discuss the physical and chemical properties of petroleum fractions.\n8. Explain the environmental hazards associated with petroleum use.\n9. How is petrol refined to improve octane rating?\n10. Describe the use of bitumen in industry."
       }
-    },
-    {
-      topic: "Quantitative Analysis (Volumetric)",
-      notes: {
-        title: "Quantitative Analysis — Volumetric Analysis",
-        content: [
-          { 
-            type: "text", 
-            data: "Volumetric analysis is a quantitative method used to determine the concentration of a solution by reacting it with a measured volume of another solution of known concentration. It involves the accurate measurement of volumes during titration." 
-          },
-          { 
-            type: "text", 
-            data: "Types of volumetric analysis include:\n1. Acid-base titration\n2. Redox titration\n3. Complexometric titration\n4. Precipitation titration" 
-          },
-          { 
-            type: "text", 
-            data: "Example: Determination of Na₂CO₃ using HCl.\nNa₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂\nHere, the amount of acid required to neutralize the base is used to find the molarity or concentration of the solution." 
-          },
-          { 
-            type: "text", 
-            data: "Calculation:\nNumber of moles = Molarity × Volume (dm³)\nAt equivalence point: Moles of acid = Moles of base\nFrom this, the unknown concentration can be deduced." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. What is volumetric analysis?\n2. List four types of titration.\n3. Write the balanced equation for the titration between HCl and Na₂CO₃.\n4. Calculate the molarity of HCl if 25 cm³ of 0.1 M Na₂CO₃ requires 40 cm³ of HCl for neutralization." 
-          }
-        ]
+    ]
+  }
+},
+
+  //alkanes, alkenes and alkynes
+    
+  {
+  "topic": "Alkanes, Alkenes & Alkynes",
+  "notes": {
+    "title": "Alkanes, Alkenes, and Alkynes — Classification, Properties, Reactions, and Uses",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nAlkanes, alkenes, and alkynes are the three main classes of hydrocarbons studied in organic chemistry. They are distinguished by the types of carbon-carbon bonds they contain: single, double, or triple."
+      },
+      {
+        "type": "text",
+        "data": "<b>1. Alkanes (Saturated Hydrocarbons)</b>\n• Contain only single C–C bonds.\n• General formula: CₙH₂ₙ₊₂\n• Examples: Methane (CH₄), Ethane (C₂H₆), Propane (C₃H₈), Butane (C₄H₁₀)\n• Physical state: Gas (C₁–C₄), Liquid (C₅–C₁₇), Solid (C₁₈+)\n• Properties: Colourless, odourless, insoluble in water, soluble in organic solvents, low reactivity.\n• Uses: Domestic fuel (methane, propane), industrial fuel, raw materials for plastics."
+      },
+      {
+        "type": "text",
+        "data": "<b>Chemical Reactions of Alkanes</b>\n1. Combustion: \nCH₄ + 2O₂ → CO₂ + 2H₂O\n2. Substitution with halogens (in UV light):\nCH₄ + Cl₂ → CH₃Cl + HCl\n3. Cracking: Breaking larger alkanes into smaller alkanes and alkenes\nC₁₆H₃₄ → C₈H₁₈ + C₈H₁₆"
+      },
+      {
+        "type": "text",
+        "data": "<b>Isomerism in Alkanes</b>\n• Structural isomerism: Same molecular formula, different arrangement\n• Example: Butane (C₄H₁₀) → n-butane, isobutane"
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Alkenes (Unsaturated Hydrocarbons with C=C Double Bond)</b>\n• Contain at least one carbon-carbon double bond.\n• General formula: CₙH₂ₙ\n• Examples: Ethene (C₂H₄), Propene (C₃H₆), Butene (C₄H₈)\n• Physical properties: Colourless, odourless, low density, insoluble in water\n• Uses: Production of plastics, alcohols, antifreeze, synthetic fibers"
+      },
+      {
+        "type": "text",
+        "data": "<b>Chemical Reactions of Alkenes</b>\n1. Addition reactions:\n   - Hydrogenation: C₂H₄ + H₂ → C₂H₆ (in presence of Ni catalyst)\n   - Halogenation: C₂H₄ + Br₂ → C₂H₄Br₂\n   - Hydration: C₂H₄ + H₂O → C₂H₅OH (H₂SO₄ catalyst)\n2. Combustion: C₂H₄ + 3O₂ → 2CO₂ + 2H₂O\n3. Polymerization: nC₂H₄ → –(CH₂–CH₂)–ₙ (polyethylene)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Isomerism in Alkenes</b>\n1. Structural isomerism: Position of double bond changes\n   - Example: But-1-ene, But-2-ene\n2. Geometrical (cis-trans) isomerism: Restricted rotation around C=C bond\n   - Example: cis-but-2-ene and trans-but-2-ene"
+      },
+      {
+        "type": "text",
+        "data": "<b>Tests for Alkenes</b>\n• Bromine water test: Decolourizes bromine water\n• Baeyer's test (KMnO₄): Purple solution turns brown (oxidation to diols)"
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Alkynes (Unsaturated Hydrocarbons with C≡C Triple Bond)</b>\n• Contain at least one carbon-carbon triple bond\n• General formula: CₙH₂ₙ₋₂\n• Examples: Ethyne (C₂H₂), Propyne (C₃H₄)\n• Physical properties: Colourless, low boiling points, insoluble in water\n• Uses: Fuel for welding (acetylene), synthesis of chemicals"
+      },
+      {
+        "type": "text",
+        "data": "<b>Chemical Reactions of Alkynes</b>\n1. Addition reactions:\n   - Hydrogenation: C₂H₂ + 2H₂ → C₂H₆\n   - Halogenation: C₂H₂ + Br₂ → C₂H₂Br₂\n2. Combustion: 2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O\n3. Polymerization: Alkynes can undergo polymerization to form polyacetylene"
+      },
+      {
+        "type": "text",
+        "data": "<b>Isomerism in Alkynes</b>\n• Structural isomerism: Change in position of triple bond\n   - Example: Butyne → But-1-yne, But-2-yne\n• No cis-trans isomerism for terminal alkynes due to linear structure"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define alkanes, alkenes, and alkynes.\n2. Write the general formula for each type of hydrocarbon.\n3. Give three examples of each hydrocarbon type.\n4. Explain the difference in reactivity between alkanes and alkenes.\n5. Describe addition and substitution reactions with examples.\n6. Explain cis-trans isomerism with an alkene example.\n7. Write balanced equations for combustion of methane, ethene, and ethyne.\n8. Outline tests to distinguish alkanes, alkenes, and alkynes.\n9. Discuss uses of alkanes, alkenes, and alkynes in industry and daily life.\n10. Draw the structures of Butane, But-2-ene, and But-1-yne showing isomerism."
       }
-    },
-    {
-      topic: "Introduction to Organic Chemistry",
-      notes: {
-        title: "Organic Chemistry — Characteristics, Sources, and Classification",
-        content: [
-          { 
-            type: "text", 
-            data: "Organic chemistry is the branch of chemistry that studies carbon-containing compounds and their reactions. Most organic compounds contain carbon, hydrogen, and often oxygen, nitrogen, or halogens." 
-          },
-          { 
-            type: "text", 
-            data: "Sources of organic compounds include:\n1. Natural sources — plants, animals, and fossil fuels.\n2. Synthetic sources — laboratory and industrial processes such as polymerization." 
-          },
-          { 
-            type: "text", 
-            data: "Characteristics of organic compounds:\n• Covalent bonding\n• Low melting and boiling points\n• Insolubility in water but soluble in organic solvents\n• Flammability" 
-          },
-          { 
-            type: "text", 
-            data: "Classification:\n1. Aliphatic compounds — open-chain structures (e.g. alkanes, alkenes, alkynes)\n2. Aromatic compounds — contain benzene rings\n3. Heterocyclic compounds — contain atoms other than carbon in the ring (e.g. pyridine)." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. Define organic chemistry.\n2. Mention three characteristics of organic compounds.\n3. Differentiate between aliphatic and aromatic compounds.\n4. Give two natural sources of organic compounds." 
-          }
-        ]
+    ]
+  }
+},
+
+  //alkanols
+    
+  {
+  "topic": "Alcohols",
+  "notes": {
+    "title": "Alcohols — Classification, Preparation, Reactions, Properties, and Uses",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction:</b>\nAlcohols are organic compounds containing one or more hydroxyl (–OH) groups attached to a carbon atom. Their general formula is C<sub>n</sub>H<sub>2n+1</sub>OH for monohydric alcohols. They can be derived from alkanes by replacing hydrogen atoms with hydroxyl groups or from reactions such as hydration of alkenes."
+      },
+      {
+        "type": "text",
+        "data": "<b>Classification of Alcohols:</b>\n1. <b>Primary alcohols (1°)</b> – The –OH group is attached to a carbon bonded to only one other carbon atom. Example: Ethanol (CH<sub>3</sub>CH<sub>2</sub>OH)\n2. <b>Secondary alcohols (2°)</b> – The –OH group is attached to a carbon bonded to two other carbon atoms. Example: Propan-2-ol (CH<sub>3</sub>CHOHCH<sub>3</sub>)\n3. <b>Tertiary alcohols (3°)</b> – The –OH group is attached to a carbon bonded to three other carbon atoms. Example: 2-Methylpropan-2-ol ((CH<sub>3</sub>)<sub>3</sub>COH)\n4. <b>Polyhydric alcohols</b> – Alcohols containing more than one hydroxyl group. Example: Ethylene glycol (HOCH<sub>2</sub>CH<sub>2</sub>OH), Glycerol (C<sub>3</sub>H<sub>5</sub>(OH)<sub>3</sub>)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Physical Properties of Alcohols:</b>\n1. Generally colourless liquids or solids at room temperature.\n2. Lower alcohols are miscible with water due to hydrogen bonding (ethanol, methanol).\n3. Higher alcohols are less soluble in water and more viscous.\n4. Higher boiling points than alkanes of similar molecular mass due to hydrogen bonding.\n5. Flammable; burn with a blue flame."
+      },
+      {
+        "type": "text",
+        "data": "<b>Preparation of Alcohols:</b>\n1. <b>Fermentation of sugars:</b>\nC<sub>6</sub>H<sub>12</sub>O<sub>6</sub> → 2C<sub>2</sub>H<sub>5</sub>OH + 2CO<sub>2</sub> (using yeast at 30–35°C)\n2. <b>Hydration of alkenes:</b>\nC<sub>2</sub>H<sub>4</sub> + H<sub>2</sub>O → C<sub>2</sub>H<sub>5</sub>OH (in presence of H<sub>3</sub>PO<sub>4</sub> catalyst at 300°C)\n3. <b>Reduction of aldehydes and ketones:</b>\nCH<sub>3</sub>CHO + H<sub>2</sub> → CH<sub>3</sub>CH<sub>2</sub>OH (using NaBH<sub>4</sub> or H<sub>2</sub>/Pt)\n4. <b>Hydrolysis of alkyl halides:</b>\nC<sub>2</sub>H<sub>5</sub>Br + NaOH → C<sub>2</sub>H<sub>5</sub>OH + NaBr (aqueous solution)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Chemical Properties of Alcohols:</b>\n1. <b>Combustion:</b>\nC<sub>2</sub>H<sub>5</sub>OH + 3O<sub>2</sub> → 2CO<sub>2</sub> + 3H<sub>2</sub>O\n2. <b>Oxidation:</b>\n- Primary alcohols → aldehydes → carboxylic acids\nCH<sub>3</sub>CH<sub>2</sub>OH + [O] → CH<sub>3</sub>CHO + H<sub>2</sub>O\nCH<sub>3</sub>CHO + [O] → CH<sub>3</sub>COOH\n- Secondary alcohols → ketones\nCH<sub>3</sub>CHOHCH<sub>3</sub> + [O] → CH<sub>3</sub>COCH<sub>3</sub> + H<sub>2</sub>O\n- Tertiary alcohols resist oxidation under mild conditions\n3. <b>Dehydration:</b>\nC<sub>2</sub>H<sub>5</sub>OH → CH<sub>2</sub>=CH<sub>2</sub> + H<sub>2</sub>O (conc. H<sub>2</sub>SO<sub>4</sub> at 170°C)\n4. <b>Esterification:</b>\nC<sub>2</sub>H<sub>5</sub>OH + CH<sub>3</sub>COOH → CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + H<sub>2</sub>O (acid catalyst)\n5. <b>Reaction with halogens:</b>\nC<sub>2</sub>H<sub>5</sub>OH + PCl<sub>5</sub> → C<sub>2</sub>H<sub>5</sub>Cl + POCl<sub>3</sub> + HCl"
+      },
+      {
+        "type": "text",
+        "data": "<b>Tests for Alcohols:</b>\n1. <b>Lucas Test:</b> Distinguishes 1°, 2°, 3° alcohols using ZnCl<sub>2</sub>/HCl solution. Tertiary react immediately, secondary in minutes, primary very slowly.\n2. <b>Sodium Metal Test:</b> Alcohols react with sodium to produce hydrogen gas.\n2C<sub>2</sub>H<sub>5</sub>OH + 2Na → 2C<sub>2</sub>H<sub>5</sub>ONa + H<sub>2</sub>↑\n3. <b>Acidified Potassium Dichromate Test:</b> Primary alcohols turn orange dichromate green; secondary also green; tertiary do not react.\n4. <b>Bromine Water Test:</b> Alcohols decolorize bromine water very slowly compared to alkenes."
+      },
+      {
+        "type": "text",
+        "data": "<b>Uses of Alcohols:</b>\n1. Ethanol: Solvent, alcoholic beverages, fuel, antiseptic\n2. Methanol: Industrial solvent, formaldehyde production, fuel\n3. Glycerol: Cosmetics, pharmaceuticals, antifreeze, explosives (nitroglycerin)\n4. Ethylene glycol: Antifreeze, polyester production\n5. Secondary alcohols: Solvents and intermediates in chemical synthesis\n6. Tertiary alcohols: Used in cosmetics and as solvents in certain reactions"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions:</b>\n1. Define alcohols and give the general formula.\n2. Classify alcohols with examples.\n3. Describe the physical properties of alcohols.\n4. Write chemical equations for the fermentation and hydration of ethanol.\n5. Outline the oxidation reactions of primary, secondary, and tertiary alcohols.\n6. Explain the dehydration and esterification reactions of alcohols.\n7. Describe at least two tests used to identify alcohols.\n8. Give the industrial and domestic uses of methanol, ethanol, and glycerol.\n9. Explain why alcohols have higher boiling points than alkanes of similar molecular mass.\n10. Distinguish between primary, secondary, and tertiary alcohols using the Lucas test."
       }
-    },
-    {
-      topic: "Hydrocarbons",
-      notes: {
-        title: "Hydrocarbons — Classification and General Formulas",
-        content: [
-          { 
-            type: "text", 
-            data: "Hydrocarbons are organic compounds composed entirely of carbon and hydrogen. They form the basis of organic chemistry and can be classified into alkanes, alkenes, and alkynes." 
-          },
-          { 
-            type: "text", 
-            data: "1. **Alkanes (CnH2n+2)** — saturated hydrocarbons containing single bonds only.\nExample: Methane (CH₄), Ethane (C₂H₆)\nCombustion: CH₄ + 2O₂ → CO₂ + 2H₂O" 
-          },
-          { 
-            type: "text", 
-            data: "2. **Alkenes (CnH2n)** — unsaturated hydrocarbons containing one double bond.\nExample: Ethene (C₂H₄), Propene (C₃H₆)\nCombustion: C₂H₄ + 3O₂ → 2CO₂ + 2H₂O" 
-          },
-          { 
-            type: "text", 
-            data: "3. **Alkynes (CnH2n−2)** — unsaturated hydrocarbons containing one triple bond.\nExample: Ethyne (C₂H₂), Propyne (C₃H₄)\nCombustion: 2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O" 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. What are hydrocarbons?\n2. Give the general formula of alkanes, alkenes, and alkynes.\n3. Write the combustion equation for ethyne.\n4. Distinguish between saturated and unsaturated hydrocarbons." 
-          }
-        ]
+    ]
+  }
+},
+
+  //alkanoic acids
+
+  {
+  "topic": "Carboxylic Acids",
+  "notes": {
+    "title": "Carboxylic Acids — Properties, Preparation, Reactions, and Uses",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction:</b>\nCarboxylic acids are organic compounds that contain the carboxyl functional group (–COOH). Their general formula is C<sub>n</sub>H<sub>2n+1</sub>COOH for monocarboxylic acids. They are weak acids and partially dissociate in water to release hydrogen ions (H<sup>+</sup>)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Examples of Carboxylic Acids:</b>\n1. Methanoic acid (HCOOH)\n2. Ethanoic acid (CH<sub>3</sub>COOH)\n3. Propanoic acid (C<sub>2</sub>H<sub>5</sub>COOH)\n4. Butanoic acid (C<sub>3</sub>H<sub>7</sub>COOH)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Physical Properties:</b>\n1. Generally colourless liquids or solids at room temperature.\n2. Lower carboxylic acids are soluble in water due to hydrogen bonding (e.g., methanoic and ethanoic acids).\n3. Higher boiling points than alcohols and alkanes of similar molecular mass.\n4. Characteristic sour taste and pungent smell.\n5. Weak acids; react with carbonates to produce carbon dioxide."
+      },
+      {
+        "type": "text",
+        "data": "<b>Preparation Methods:</b>\n1. Oxidation of primary alcohols:\nCH<sub>3</sub>CH<sub>2</sub>OH + 2[O] → CH<sub>3</sub>COOH + H<sub>2</sub>O\n2. Oxidation of aldehydes:\nCH<sub>3</sub>CHO + [O] → CH<sub>3</sub>COOH\n3. Hydrolysis of nitriles:\nCH<sub>3</sub>CN + 2H<sub>2</sub>O + H<sup>+</sup> → CH<sub>3</sub>COOH + NH<sub>4</sub><sup>+</sup>\n4. From esters (acid hydrolysis or saponification):\nCH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + H<sub>2</sub>O → CH<sub>3</sub>COOH + C<sub>2</sub>H<sub>5</sub>OH\n5. From Grignard reagents (with CO<sub>2</sub>):\nCH<sub>3</sub>MgBr + CO<sub>2</sub> → CH<sub>3</sub>COOMgBr → CH<sub>3</sub>COOH (on hydrolysis)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Chemical Properties:</b>\n1. Reaction with metals:\n2CH<sub>3</sub>COOH + 2Na → 2CH<sub>3</sub>COONa + H<sub>2</sub>↑\n2. Reaction with bases (neutralization):\nCH<sub>3</sub>COOH + NaOH → CH<sub>3</sub>COONa + H<sub>2</sub>O\n3. Reaction with carbonates/bicarbonates:\n2CH<sub>3</sub>COOH + Na<sub>2</sub>CO<sub>3</sub> → 2CH<sub>3</sub>COONa + H<sub>2</sub>O + CO<sub>2</sub>↑\n4. Esterification with alcohols:\nCH<sub>3</sub>COOH + C<sub>2</sub>H<sub>5</sub>OH ⇌ CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + H<sub>2</sub>O (acid catalyst: H<sub>2</sub>SO<sub>4</sub>)\n5. Reduction to primary alcohols:\nCH<sub>3</sub>COOH + LiAlH<sub>4</sub> → CH<sub>3</sub>CH<sub>2</sub>OH\n6. Formation of acid chlorides:\nCH<sub>3</sub>COOH + SOCl<sub>2</sub> → CH<sub>3</sub>COCl + SO<sub>2</sub> + HCl"
+      },
+      {
+        "type": "text",
+        "data": "<b>Tests for Carboxylic Acids:</b>\n1. Effervescence Test with Carbonates: \nCH<sub>3</sub>COOH + NaHCO<sub>3</sub> → CH<sub>3</sub>COONa + H<sub>2</sub>O + CO<sub>2</sub>↑\n2. Litmus Test: Turns blue litmus paper red (acidic nature).\n3. Sodium Hydrogen Carbonate Test: Effervescence confirms –COOH group presence.\n4. Reaction with alcohols (ester formation): Formation of fruity-smelling esters indicates carboxylic acid."
+      },
+      {
+        "type": "text",
+        "data": "<b>Uses of Carboxylic Acids:</b>\n1. Methanoic acid: Preservative, cleaning agent, textile and leather processing.\n2. Ethanoic acid: Vinegar, food preservation, production of esters and synthetic fibers.\n3. Propanoic and butanoic acids: Food preservatives, flavoring agents.\n4. Industrial applications: Manufacture of soaps (saponification), detergents, pharmaceuticals, and plasticizers.\n5. Laboratory use: Reagent for esterification, reduction, and formation of derivatives like acid chlorides and amides."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions:</b>\n1. Define carboxylic acids and give the general formula.\n2. List four examples of carboxylic acids with their molecular formulas.\n3. Explain two methods of preparing carboxylic acids from alcohols and nitriles.\n4. Write equations for the reaction of ethanoic acid with sodium metal and sodium carbonate.\n5. Describe the esterification reaction of carboxylic acids with alcohols.\n6. Outline the reduction of ethanoic acid to ethanol.\n7. Explain the physical properties of carboxylic acids that distinguish them from alcohols.\n8. Describe tests to identify carboxylic acids in the laboratory.\n9. Discuss the industrial and domestic uses of methanoic and ethanoic acids.\n10. Explain why carboxylic acids are considered weak acids compared to mineral acids."
       }
-    },
-    {
-      topic: "Petroleum and Its Fractions",
-      notes: {
-        title: "Petroleum — Composition, Fractional Distillation, and Uses",
-        content: [
-          { 
-            type: "text", 
-            data: "Petroleum (crude oil) is a complex mixture of hydrocarbons formed from the decomposition of plant and animal remains under high pressure and temperature over millions of years." 
-          },
-          { 
-            type: "text", 
-            data: "The process of separating petroleum into useful components is called **fractional distillation**. The column separates mixtures based on boiling points, with lighter fractions collected at the top and heavier ones at the bottom." 
-          },
-          { 
-            type: "text", 
-            data: "Main fractions and uses:\n• Refinery gas (C₁–C₄) — fuel for cooking.\n• Petrol (C₅–C₉) — motor fuel.\n• Kerosene (C₁₀–C₁₆) — jet fuel.\n• Diesel (C₁₅–C₁₈) — engines.\n• Lubricating oil (C₂₀+) — reduces friction.\n• Bitumen — road surfacing." 
-          },
-          { 
-            type: "text", 
-            data: "Cracking converts long-chain hydrocarbons into shorter, more useful ones:\nC₁₀H₂₂ → C₈H₁₈ + C₂H₄\nThis process increases the yield of petrol and alkenes used in polymer industries." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. What is petroleum?\n2. Explain fractional distillation.\n3. Write a chemical equation for cracking decane.\n4. State two uses of kerosene and diesel." 
-          }
-        ]
+    ]
+  }
+},
+
+  //alkanoates/esters
+  
+  {
+  "topic": "Esters",
+  "notes": {
+    "title": "Esters — Formation, Properties, Reactions, and Uses",
+    "content": [
+      {
+        "type": "text",
+        "data": "Esters are organic compounds formed from the reaction between a carboxylic acid and an alcohol. Their general formula is R-COO-R', where R and R' are hydrocarbon groups. Esters are known for their pleasant fruity odours and are widely used in perfumes, flavourings, and as solvents."
+      },
+      {
+  "type": "text",
+  "data": "<b>Formation (Esterification Reaction):</b>\nCH<sub>3</sub>COOH + C<sub>2</sub>H<sub>5</sub>OH ⇌ CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + H<sub>2</sub>O \n(using concentrated H<sub>2</sub>SO<sub>4</sub> as catalyst)\n\n<b>Examples:</b>\n1. <b>Ethanoic acid + Ethanol:</b>\n   CH<sub>3</sub>COOH + C<sub>2</sub>H<sub>5</sub>OH ⇌ CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + H<sub>2</sub>O\n   (Formation of ethyl ethanoate)\n\n2. <b>Ethanoic acid + Methanol:</b>\n   CH<sub>3</sub>COOH + CH<sub>3</sub>OH ⇌ CH<sub>3</sub>COOCH<sub>3</sub> + H<sub>2</sub>O\n   (Formation of methyl ethanoate)\n\n3. <b>Methanoic acid + Ethanol:</b>\n   HCOOH + C<sub>2</sub>H<sub>5</sub>OH ⇌ HCOOC<sub>2</sub>H<sub>5</sub> + H<sub>2</sub>O\n   (Formation of ethyl methanoate)\n\n4. <b>Propanoic acid + Ethanol:</b>\n   C<sub>2</sub>H<sub>5</sub>COOH + C<sub>2</sub>H<sub>5</sub>OH ⇌ C<sub>2</sub>H<sub>5</sub>COOC<sub>2</sub>H<sub>5</sub> + H<sub>2</sub>O\n   (Formation of ethyl propanoate)\n\n<b>General reaction:</b>\nCarboxylic acid + Alcohol ⇌ Ester + Water"
+},
+      {
+        "type": "text",
+        "data": "<b>Hydrolysis of Esters (Breaking Down Esters):</b>\n\n<b>1. Acid hydrolysis:</b>\nCH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + H<sub>2</sub>O ⇌ CH<sub>3</sub>COOH + C<sub>2</sub>H<sub>5</sub>OH \n(in the presence of dilute H<sub>2</sub>SO<sub>4</sub>; reversible reaction)\n<b>2. Base hydrolysis (Saponification):</b>\nCH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + NaOH → CH<sub>3</sub>COONa + C<sub>2</sub>H<sub>5</sub>OH\n\nThis reaction is <b>irreversible</b> and forms a <b>salt of the acid (sodium ethanoate)</b> and an alcohol."
+      },
+      {
+        "type": "text",
+        "data": "<b>Physical Properties of Esters:</b>\n1. They are volatile liquids with characteristic fruity or sweet odours.\n2. Lower esters are more soluble in water due to hydrogen bonding.\n3. They are generally colourless and soluble in organic solvents.\n4. They have moderate boiling points compared to alcohols and carboxylic acids of similar molecular mass."
+      },
+      {
+  "type": "text",
+  "data": "<b>Chemical Properties of Esters:</b>\n\n1. <b>Hydrolysis:</b>\nEsters undergo hydrolysis to form an alcohol and a carboxylic acid (under acidic conditions) or a carboxylate salt (under basic conditions).\n\n• Acid hydrolysis:\nCH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + H<sub>2</sub>O ⇌ CH<sub>3</sub>COOH + C<sub>2</sub>H<sub>5</sub>OH\n\n• Base hydrolysis (saponification):\nCH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + NaOH → CH<sub>3</sub>COONa + C<sub>2</sub>H<sub>5</sub>OH\n\n2. <b>Reduction:</b>\nEsters are reduced to alcohols using strong reducing agents such as lithium aluminium hydride (LiAlH<sub>4</sub>) or sodium borohydride (NaBH<sub>4</sub>).\n\nExample:\nCH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + 4[H] → 2C<sub>2</sub>H<sub>5</sub>OH\n\n3. <b>Transesterification:</b>\nEsters react with another alcohol in the presence of an acid or base catalyst to form a different ester and a new alcohol.\n\nExample:\nCH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + CH<sub>3</sub>OH ⇌ CH<sub>3</sub>COOCH<sub>3</sub> + C<sub>2</sub>H<sub>5</sub>OH\n\n4. <b>Reaction with Ammonia or Amines (Ammonolysis):</b>\nEsters react with ammonia or amines to form amides and alcohols.\n\nExample:\nCH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + NH<sub>3</sub> → CH<sub>3</sub>CONH<sub>2</sub> + C<sub>2</sub>H<sub>5</sub>OH"
+},
+      {
+        "type": "text",
+        "data": "<b>Uses of Esters:</b>\n1. Flavouring agents in food (ethyl butanoate, isoamyl acetate).\n2. Perfumes and cosmetics for pleasant scents.\n3. Solvents for paints, plastics, and synthetic resins.\n4. Production of synthetic lubricants.\n5. Manufacture of plasticizers for PVC and other polymers."
+      },
+      ,
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions:</b>\n1. Define esters and give their general formula.\n2. Write the chemical equation for the esterification of ethanol with ethanoic acid.\n3. Describe two physical properties of esters.\n4. Explain acid and base hydrolysis of esters with examples.\n5. Give two chemical reactions of esters other than hydrolysis.\n6. Mention at least three uses of esters in daily life.\n7. Identify the ester formed when methanol reacts with ethanoic acid.\n8. Explain transesterification and give an example.\n9. Why are esters commonly used in perfumes and flavourings?\n10. Write the saponification reaction of ethyl ethanoate with NaOH."
       }
-    },
+    ]
+  }
+},
+
+    //soaps and detergents
+
     {
-      topic: "Alkanes, Alkenes, and Alkynes — Properties and Reactions",
-      notes: {
-        title: "Alkanes, Alkenes, and Alkynes — Physical and Chemical Properties",
-        content: [
-          { 
-            type: "text", 
-            data: "1. **Alkanes (CnH2n+2)** — saturated hydrocarbons. They are relatively unreactive but undergo combustion and substitution reactions.\nExample reaction:\nCH₄ + Cl₂ → CH₃Cl + HCl (in the presence of sunlight)" 
-          },
-          { 
-            type: "text", 
-            data: "2. **Alkenes (CnH2n)** — unsaturated hydrocarbons with double bonds. They undergo addition reactions.\nExample reactions:\nC₂H₄ + H₂ → C₂H₆ (hydrogenation)\nC₂H₄ + Br₂ → C₂H₄Br₂ (bromination, used as a test for unsaturation — decolorizes bromine water)" 
-          },
-          { 
-            type: "text", 
-            data: "3. **Alkynes (CnH2n−2)** — unsaturated hydrocarbons with triple bonds. They undergo addition reactions similar to alkenes.\nExample:\nC₂H₂ + 2Br₂ → C₂H₂Br₄" 
-          },
-          { 
-            type: "text", 
-            data: "Combustion reactions of hydrocarbons:\nCₙH₂ₙ₊₂ + (3n+1)/2 O₂ → nCO₂ + (n+1)H₂O" 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. State the general formula of alkanes, alkenes, and alkynes.\n2. What reaction shows unsaturation in hydrocarbons?\n3. Write the equation for the substitution of methane with chlorine.\n4. Compare the reactivity of alkanes, alkenes, and alkynes." 
-          }
-        ]
+  "topic": "Soaps and Detergents",
+  "notes": {
+    "title": "Soaps and Detergents — Composition, Preparation, Properties, and Uses",
+    "content": [
+      {
+        "type": "text",
+        "data": "Soaps and detergents are substances used for cleaning and removing grease and dirt. Soaps are the sodium or potassium salts of long-chain fatty acids, whereas detergents are synthetic surfactants, often sodium salts of sulfonic acids or alkyl benzene sulfonates."
+      },
+      
+      {
+  "type": "text",
+  "data": "<b>Preparation of Soap (Saponification):</b>\nSoaps are produced by the alkaline hydrolysis of fats or oils. The general reaction is:\n\nFat or oil + NaOH → Glycerol + Soap (sodium salt of fatty acid)\n<b>Example:</b>\nC<sub>3</sub>H<sub>5</sub>(OOCC<sub>17</sub>H<sub>35</sub>)<sub>3</sub> + 3NaOH → 3C<sub>17</sub>H<sub>35</sub>COONa + C<sub>3</sub>H<sub>5</sub>(OH)<sub>3</sub>\nHere, <b>tristearin</b> reacts with sodium hydroxide to produce <b>sodium stearate</b> (soap) and <b>glycerol</b>."
+},
+      {
+        "type": "text",
+        "data": "<b>Types of Soaps:</b>\n1. Hard soaps — Sodium salts of fatty acids; solid at room temperature (e.g., sodium stearate).\n2. Soft soaps — Potassium salts of fatty acids; soft or liquid at room temperature (e.g., potassium oleate).\n3. Medicated soaps — Contain additives like antiseptics or moisturizers.\n4. Transparent soaps — Contain glycerol for transparency and mildness."
+      },
+      {
+        "type": "text",
+        "data": "<b>Mode of Action of Soap:</b>\nSoap molecules are amphiphilic, having a hydrophilic (water-attracting) head and a hydrophobic (water-repelling) tail. When soap is added to water containing grease:\n- The hydrophobic tail attaches to oil or grease.\n- The hydrophilic head remains in water.\n- This forms micelles where grease is emulsified, allowing it to be washed away."
+      },
+      {
+        "type": "text",
+        "data": "<b>Detergents:</b>\nDetergents are synthetic surfactants that are effective in both soft and hard water. Common examples include sodium dodecylbenzenesulfonate and sodium lauryl sulfate. Unlike soaps, detergents do not form insoluble scum with calcium or magnesium ions in hard water."
+      },
+      {
+        "type": "text",
+        "data": "<b>Differences Between Soaps and Detergents:</b>\n1. Soaps are biodegradable; many detergents are synthetic and less biodegradable.\n2. Soaps react with hard water ions (Ca<sup>2+</sup>, Mg<sup>2+</sup>) to form scum; detergents remain effective in hard water.\n3. Soaps are generally milder and used for personal cleaning; detergents are more versatile and used in laundry and industrial cleaning.\n4. Soaps are usually derived from natural fats and oils; detergents are synthesized from petroleum products."
+      },
+      {
+        "type": "text",
+        "data": "<b>Uses of Soaps and Detergents:</b>\n1. Cleaning of clothes, dishes, and surfaces.\n2. Personal hygiene (handwashing, bathing).\n3. Industrial cleaning applications (machinery, engines).\n4. Medicinal purposes in antiseptic soaps.\n5. Emulsifying agents in cosmetics and pharmaceuticals.\n6. Detergents are used in laundry powders, shampoos, and dishwashing liquids."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions:</b>\n1. Define soap and detergent.\n2. Write the saponification reaction for a fat with NaOH.\n3. Explain the amphiphilic nature of soap and how it helps in cleaning.\n4. Why does soap not lather well in hard water?\n5. Mention two advantages of detergents over soaps.\n6. Differentiate between hard and soft soaps with examples.\n7. What are micelles and how are they formed?\n8. Give two industrial uses of detergents.\n9. Explain why detergents are preferred over soaps in hard water.\n10. Describe the role of glycerol in transparent soap."
       }
-    },
+    ]
+  }
+},
+
+    //polymers
+    
     {
-      topic: "Alcohols",
-      notes: {
-        title: "Alcohols — Classification, Preparation, and Reactions",
-        content: [
-          { 
-            type: "text", 
-            data: "Alcohols are organic compounds containing one or more hydroxyl (–OH) groups attached to a carbon atom. Their general formula is CnH2n+1OH. They are derived from alkanes by replacing one hydrogen atom with a hydroxyl group." 
-          },
-          { 
-            type: "text", 
-            data: "Classification of Alcohols:\n1. **Primary (1°)** – OH group attached to a carbon bonded to one other carbon. Example: Ethanol (CH₃CH₂OH)\n2. **Secondary (2°)** – OH group attached to a carbon bonded to two other carbons. Example: Propan-2-ol (CH₃CHOHCH₃)\n3. **Tertiary (3°)** – OH group attached to a carbon bonded to three other carbons. Example: 2-Methylpropan-2-ol [(CH₃)₃COH]" 
-          },
-          { 
-            type: "text", 
-            data: "Preparation Methods:\n1. **Fermentation of sugars:**\nC₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ (using yeast, at 30–35°C)\n2. **Hydration of alkenes:**\nC₂H₄ + H₂O → C₂H₅OH (in presence of H₃PO₄ catalyst at 300°C)" 
-          },
-          { 
-            type: "text", 
-            data: "Reactions of Alcohols:\n1. **Combustion:**\nC₂H₅OH + 3O₂ → 2CO₂ + 3H₂O\n2. **Oxidation:**\nCH₃CH₂OH + [O] → CH₃CHO + H₂O (ethanol to ethanal)\nCH₃CHO + [O] → CH₃COOH (ethanal to ethanoic acid)" 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. Define alcohols and give the general formula.\n2. Write the equations for fermentation and combustion of ethanol.\n3. Classify ethanol, propan-2-ol, and 2-methylpropan-2-ol.\n4. Describe two methods of preparing alcohols." 
-          }
-        ]
+  "topic": "Polymers",
+  "notes": {
+    "title": "Polymers — Types, Formation, Properties, and Uses",
+    "content": [
+      {
+        "type": "text",
+        "data": "Polymers are macromolecules formed by joining many small repeating units called monomers. The process of forming polymers is known as <em>polymerization</em>. Polymers can be natural or synthetic and are widely used in daily life and industry."
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Polymerization:</b>\n1. Addition Polymerization: Monomers with double bonds add together without the loss of any atom.\nExample:\nn(CH<sub>2</sub>=CH<sub>2</sub>) → –(CH<sub>2</sub>CH<sub>2</sub>)n– (polyethene)\nOther examples include:\n- Polypropene from propene: nCH<sub>3</sub>CH=CH<sub>2</sub> → –(CH<sub>3</sub>CHCH<sub>2</sub>)n–\n- Polystyrene from styrene: nC<sub>6</sub>H<sub>5</sub>CH=CH<sub>2</sub> → –(C<sub>6</sub>H<sub>5</sub>CH=CH<sub>2</sub>)n–"
+      },
+      
+      {
+  "type": "text",
+  "data": "<b>2. Condensation Polymerization: </b>Monomers combine with the elimination of a small molecule such as water (H<sub>2</sub>O), hydrochloric acid (HCl), or methanol (CH<sub>3</sub>OH).\n\n<b>Example:</b>\nnHOCH<sub>2</sub>CH<sub>2</sub>OH + nHOOC–C<sub>6</sub>H<sub>4</sub>–COOH → –[OCH<sub>2</sub>CH<sub>2</sub>OOC–C<sub>6</sub>H<sub>4</sub>–CO]<sub>n</sub>– + 2nH<sub>2</sub>O (polyester)\n\n<b>Other examples include:</b>\n- <b>Nylon 6,6</b> from hexamethylenediamine and adipic acid:\n  nH<sub>2</sub>N(CH<sub>2</sub>)<sub>6</sub>NH<sub>2</sub> + nHOOC(CH<sub>2</sub>)<sub>4</sub>COOH → –[NH(CH<sub>2</sub>)<sub>6</sub>NHCO(CH<sub>2</sub>)<sub>4</sub>CO]<sub>n</sub>– + H<sub>2</sub>O\n- <b>Bakelite</b> from phenol and formaldehyde:\n  C<sub>6</sub>H<sub>5</sub>OH + CH<sub>2</sub>O → cross-linked polymer + H<sub>2</sub>O"
+},
+      {
+        "type": "text",
+        "data": "<b>Classification of Polymers:</b>\n1. Natural Polymers: Found in nature. Examples: cellulose, proteins, natural rubber, starch.\n2. Synthetic Polymers: Man-made polymers. Examples: polyethene, PVC, nylon, polystyrene, polyester.\n3. Thermoplastics: Soften on heating and can be remolded. Examples: polyethene, PVC.\n4. Thermosetting Plastics: Hard and infusible on heating. Examples: bakelite, melamine."
+      },
+      {
+        "type": "text",
+        "data": "<b>Properties of Polymers:</b>\n1. Low density and lightweight.\n2. Electrical and thermal insulation.\n3. High tensile strength.\n4. Chemical resistance to acids, bases, and corrosion.\n5. Can be flexible or rigid depending on the structure and cross-linking."
+      },
+      {
+        "type": "text",
+        "data": "<b>Uses of Polymers:</b>\n1. Polyethene — plastic bags, containers, bottles.\n2. Polyvinyl chloride (PVC) — pipes, window frames, cable insulation.\n3. Nylon — textiles, ropes, parachutes, fishing nets.\n4. Polyester — fabrics, PET bottles, conveyor belts.\n5. Bakelite — electrical insulators, handles, and kitchenware.\n6. Polystyrene — packaging material, disposable cups, insulation.\n7. Natural polymers — cellulose in paper, proteins in food and materials."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions:</b>\n1. Define polymers and monomers with examples.\n2. Differentiate between addition and condensation polymerization with examples.\n3. Explain the difference between natural and synthetic polymers.\n4. Write the polymerization equation for ethene and propene.\n5. Name two thermoplastics and two thermosetting plastics and explain their differences.\n6. List four applications of synthetic polymers in daily life.\n7. Describe the properties of polymers that make them suitable for industrial applications.\n8. Explain how nylon 6,6 is formed from its monomers.\n9. What is the role of cross-linking in thermosetting plastics?\n10. Discuss environmental concerns related to polymer use and disposal."
       }
-    },
+    ]
+  }
+},
+
+    //carbohydrates 
+
     {
-      topic: "Carboxylic Acids",
-      notes: {
-        title: "Carboxylic Acids — Properties, Preparation, and Reactions",
-        content: [
-          { 
-            type: "text", 
-            data: "Carboxylic acids are organic compounds containing the carboxyl functional group (–COOH). Their general formula is CnH2n+1COOH. They are weak acids that partially dissociate in water to form hydrogen ions." 
-          },
-          { 
-            type: "text", 
-            data: "Examples:\nMethanoic acid (HCOOH)\nEthanoic acid (CH₃COOH)\nPropanoic acid (C₂H₅COOH)" 
-          },
-          { 
-            type: "text", 
-            data: "Preparation:\n1. **Oxidation of primary alcohols:**\nCH₃CH₂OH + 2[O] → CH₃COOH + H₂O\n2. **Hydrolysis of nitriles:**\nCH₃CN + 2H₂O + H⁺ → CH₃COOH + NH₄⁺" 
-          },
-          { 
-            type: "text", 
-            data: "Chemical Properties:\n1. **Reaction with bases:**\nCH₃COOH + NaOH → CH₃COONa + H₂O\n2. **Reaction with metals:**\n2CH₃COOH + 2Na → 2CH₃COONa + H₂\n3. **Esterification:**\nCH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O (in presence of H₂SO₄ catalyst)" 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. What is the functional group of carboxylic acids?\n2. Write the balanced equation for oxidation of ethanol to ethanoic acid.\n3. What happens when ethanoic acid reacts with sodium metal?\n4. Explain esterification with an equation." 
-          }
-        ]
+  "topic": "Carbohydrates",
+  "notes": {
+    "title": "Carbohydrates — Classification, Structure, Reactions, and Uses",
+    "content": [
+      {
+        "type": "text",
+        "data": "Carbohydrates are organic compounds composed of carbon, hydrogen, and oxygen, usually in the ratio C<sub>x</sub>(H<sub>2</sub>O)<sub>y</sub>. They are the primary source of energy for living organisms and play structural and storage roles in cells."
+      },
+      {
+        "type": "text",
+        "data": "<b>Classification of Carbohydrates:</b>\n1. Monosaccharides — simplest sugars that cannot be hydrolyzed further. Examples: Glucose (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>), Fructose (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>), Galactose (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>). They can be classified as aldoses (contain an aldehyde group) or ketoses (contain a ketone group).\n2. Disaccharides — formed by condensation of two monosaccharides, releasing water. Examples: Sucrose (Glucose + Fructose), Maltose (Glucose + Glucose), Lactose (Glucose + Galactose).\n3. Oligosaccharides — consist of 3–10 monosaccharide units. Example: Raffinose.\n4. Polysaccharides — large polymers of monosaccharide units; can be storage or structural carbohydrates. Examples: Starch (storage in plants), Glycogen (storage in animals), Cellulose (structural in plant cell walls), Chitin (structural in exoskeletons of arthropods)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Condensation of monosaccharides(formation of disaccharides)</b>:\nC<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> → C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> + H<sub>2</sub>O\nGlucose + Glucose → Maltose + Water\nFructose + Glucose → Sucrose + Water\nGalactose + Glucose → Lactose + Water"
+      },
+      {
+        "type": "text",
+        "data": "<b>Hydrolysis of Disaccharides:</b>\nSucrose + H<sub>2</sub>O → Glucose + Fructose (in presence of acid or enzyme sucrase)\nMaltose + H<sub>2</sub>O → 2 Glucose (enzyme maltase)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Oxidation of Carbohydrates (Respiration):</b>\nC<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> → 6CO<sub>2</sub> + 6H<sub>2</sub>O + Energy (ATP)\nThis reaction releases energy used by living cells for metabolic activities."
+      },
+      {
+        "type": "text",
+        "data": "<b>Reduction of Monosaccharides:</b>\nMonosaccharides can be reduced to sugar alcohols (polyols). Example:\nGlucose + H<sub>2</sub> → Sorbitol"
+      },
+      {
+        "type": "text",
+        "data": "<b>Structural Roles of Carbohydrates:</b>\n1. Cellulose forms plant cell walls.\n2. Chitin forms exoskeletons of arthropods and fungal cell walls.\n3. Glycoproteins and glycolipids are components of cell membranes."
+      },
+      {
+        "type": "text",
+        "data": "<b>Storage Roles of Carbohydrates:</b>\n1. Starch in plants stores glucose for energy.\n2. Glycogen in animals stores glucose in liver and muscle cells."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions:</b>\n1. Define carbohydrates and state their general formula.\n2. Classify carbohydrates and give one example of each type.\n3. Write the condensation reaction for formation of maltose from glucose.\n4. Explain hydrolysis of sucrose and maltose with equations.\n5. Write the balanced equation for the oxidation of glucose and explain its significance.\n6. Describe two structural roles and two storage roles of carbohydrates.\n7. Explain the difference between aldose and ketose sugars with examples.\n8. How are monosaccharides converted to sugar alcohols?\n9. Give two examples each of polysaccharides used for storage and structural purposes.\n10. Why are carbohydrates considered the primary source of energy in living organisms?"
       }
-    },
-    {
-      topic: "Esters",
-      notes: {
-        title: "Esters — Formation, Properties, and Uses",
-        content: [
-          { 
-            type: "text", 
-            data: "Esters are organic compounds formed from the reaction between a carboxylic acid and an alcohol. They have the general formula RCOOR'. Esters are characterized by pleasant fruity odours and are used in perfumes, flavourings, and as solvents." 
-          },
-          { 
-            type: "text", 
-            data: "Formation (Esterification reaction):\nCH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O (in presence of concentrated H₂SO₄)\nHere, ethanoic acid reacts with ethanol to form ethyl ethanoate and water." 
-          },
-          { 
-            type: "text", 
-            data: "Hydrolysis (breaking down of esters):\nCH₃COOC₂H₅ + H₂O → CH₃COOH + C₂H₅OH (in presence of acid or base)\nThis reaction is the reverse of esterification." 
-          },
-          { 
-            type: "text", 
-            data: "Properties:\n• Volatile liquids with sweet smell.\n• Insoluble in water but soluble in organic solvents.\n• Undergo hydrolysis to yield alcohol and acid." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. What is an ester?\n2. Write the equation for esterification of ethanol with ethanoic acid.\n3. Mention two physical properties of esters.\n4. What products are formed when an ester is hydrolyzed?" 
-          }
-        ]
-      }
-    },
-    {
-      topic: "Soaps and Detergents",
-      notes: {
-        title: "Soaps and Detergents — Composition and Mode of Action",
-        content: [
-          { 
-            type: "text", 
-            data: "Soaps and detergents are cleansing agents. Soaps are sodium or potassium salts of long-chain fatty acids, while detergents are sodium salts of sulfonic acids or alkyl benzene sulfonates." 
-          },
-          { 
-            type: "text", 
-            data: "Preparation of Soap (Saponification):\nFat or oil + NaOH → Glycerol + Soap (sodium salt of fatty acid)\nExample:\nC₃H₅(OOCC₁₇H₃₅)₃ + 3NaOH → 3C₁₇H₃₅COONa + C₃H₅(OH)₃" 
-          },
-          { 
-            type: "text", 
-            data: "Mode of Action:\nSoap molecules have two ends — a hydrophobic (water-repelling) tail and a hydrophilic (water-attracting) head. The tail attaches to grease, while the head remains in water, allowing grease to be emulsified and washed away." 
-          },
-          { 
-            type: "text", 
-            data: "Difference between Soaps and Detergents:\n• Soaps are biodegradable, detergents are often not.\n• Soaps are less effective in hard water due to formation of insoluble scum.\n• Detergents are effective in both soft and hard water." 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. Define soap and detergent.\n2. Write the saponification reaction.\n3. Explain why soap does not lather well in hard water.\n4. What are the advantages of detergents over soaps?" 
-          }
-        ]
-      }
-    },
-    {
-      topic: "Polymers",
-      notes: {
-        title: "Polymers — Types, Formation, and Uses",
-        content: [
-          { 
-            type: "text", 
-            data: "Polymers are large molecules formed by joining many small repeating units called monomers. The process of forming polymers is called polymerization." 
-          },
-          { 
-            type: "text", 
-            data: "Types of Polymerization:\n1. **Addition Polymerization:** Monomers add together without loss of atoms.\nExample:\nnCH₂=CH₂ → –(CH₂CH₂)n– (polyethene)\n2. **Condensation Polymerization:** Monomers combine with elimination of small molecules like water or HCl.\nExample:\nnHOCH₂CH₂OH + nHOOC–C₆H₄–COOH → –[OCH₂CH₂OOC–C₆H₄–CO]n– + 2nH₂O (polyester)" 
-          },
-          { 
-            type: "text", 
-            data: "Examples and Uses:\n• Polyethene — plastic bags, containers\n• Polyvinyl chloride (PVC) — pipes, cables\n• Nylon — textiles\n• Bakelite — electrical insulators\n• Polystyrene — packaging material" 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. What are polymers and monomers?\n2. Differentiate between addition and condensation polymerization.\n3. Write the polymerization equation for ethene.\n4. State two uses each of PVC and nylon." 
-          }
-        ]
-      }
-    },
-    {
-      topic: "Carbohydrates",
-      notes: {
-        title: "Carbohydrates — Classification, Structure, and Reactions",
-        content: [
-          { 
-            type: "text", 
-            data: "Carbohydrates are organic compounds composed of carbon, hydrogen, and oxygen, usually in the ratio Cx(H₂O)y. They serve as the primary source of energy for living organisms and are also used in building cell structures." 
-          },
-          { 
-            type: "text", 
-            data: "Classification:\n1. Monosaccharides — simplest sugars (e.g., glucose C₆H₁₂O₆, fructose).\n2. Disaccharides — formed by condensation of two monosaccharides (e.g., sucrose, maltose).\n3. Polysaccharides — large molecules of many monosaccharide units (e.g., starch, cellulose, glycogen)." 
-          },
-          { 
-            type: "text", 
-            data: "Example of condensation reaction:\nC₆H₁₂O₆ + C₆H₁₂O₆ → C₁₂H₂₂O₁₁ + H₂O\n(Glucose + Glucose → Maltose + Water)" 
-          },
-          { 
-            type: "text", 
-            data: "Carbohydrates undergo oxidation to form carbon dioxide and water, releasing energy:\nC₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + Energy" 
-          },
-          { 
-            type: "text", 
-            data: "Evaluation Questions:\n1. Define carbohydrates.\n2. Write the chemical equation for glucose oxidation.\n3. Differentiate between monosaccharides and polysaccharides.\n4. State two uses of carbohydrates in living organisms." 
-          }
-        ]
-      }
-    },
+    ]
+  }
+},
+    
+    //amides
+    
     {
       topic: "Amides",
       notes: {
@@ -5296,23 +7634,26 @@ window.studyData = {
           },
           { 
             type: "text", 
-            data: "Example: Methanamide (formamide) → HCONH₂\nEthanamide (acetamide) → CH₃CONH₂" 
+              data: "<b>Example:</b>\n 1. Methanamide (formamide) → HCONH₂\n2. Ethanamide (acetamide) → CH₃CONH₂\n3. Propanamide → CH₃CH₂CONH₂" 
           },
           { 
             type: "text", 
-            data: "Preparation:\nAmides can be prepared by heating ammonium salts of carboxylic acids:\nCH₃COONH₄ → CH₃CONH₂ + H₂O" 
+            data: "<b>Preparation:</b>\nAmides can be prepared by heating ammonium salts of carboxylic acids:\nCH₃COONH₄ → CH₃CONH₂ + H₂O\nCH₃CH₂COONH₄ → CH₃CH₂CONH₂ + H₂" 
           },
           { 
             type: "text", 
-            data: "Reactions:\n1. Hydrolysis: Amides react with water in the presence of acid or base to form carboxylic acids or salts and ammonia.\nCH₃CONH₂ + H₂O → CH₃COOH + NH₃\n2. Dehydration: On heating, amides can form nitriles.\nCH₃CONH₂ → CH₃CN + H₂O" 
+            data: "<b>Reactions:</b>\n1. Hydrolysis: Amides react with water in the presence of acid or base to form carboxylic acids or salts and ammonia.\nCH₃CONH₂ + H₂O → CH₃COOH + NH₃\nCH₃CH₂CONH₂ + H₂O → CH₃CH₂COOH + NH₃\n2. Dehydration: On heating, amides can form nitriles.\nCH₃CONH₂ → CH₃CN + H₂O" 
           },
           { 
             type: "text", 
-            data: "Evaluation Questions:\n1. What is the general formula of an amide?\n2. Write the equation for the hydrolysis of ethanamide.\n3. How can an amide be converted into a nitrile?\n4. Mention one use of amides." 
+            data: "<b>Evaluation Questions:</b>\n1. What is the general formula of an amide?\n2. Write the equation for the hydrolysis of ethanamide.\n3. How can an amide be converted into a nitrile?\n4. Mention one use of amides.\n5. Write the molecular formulae of: Butanamide, Hexanamide and draw their structure" 
           }
         ]
       }
     },
+    
+    //proteins
+    
     {
       topic: "Proteins",
       notes: {
@@ -5324,23 +7665,26 @@ window.studyData = {
           },
           { 
             type: "text", 
-            data: "Structure:\nA peptide bond is formed when the carboxyl group (-COOH) of one amino acid reacts with the amino group (-NH₂) of another:\nR–COOH + H₂N–R' → R–CO–NH–R' + H₂O" 
+            data: "<b>Structure:</b>\nA peptide bond is formed when the carboxyl group (-COOH) of one amino acid reacts with the amino group (-NH₂) of another:\nR–COOH + H₂N–R' → R–CO–NH–R' + H₂O\nFor example:\n CH<sub>3</sub>-COOH + H<sub>2</sub>N-CH<sub>3</sub> → CH<sub>3</sub>-CO-NH-CH<sub>3</sub> + H<sub>2</sub>O" 
           },
           { 
             type: "text", 
-            data: "Hydrolysis:\nProteins can be broken down into amino acids by boiling with dilute acids or enzymes:\nProtein + H₂O → Amino acids" 
+            data: "<b>Hydrolysis:</b>\nProteins can be broken down into amino acids by boiling with dilute acids or enzymes:\nProtein + H₂O → Amino acids" 
           },
           { 
             type: "text", 
-            data: "Test for proteins:\nBiuret test — proteins give a violet color when treated with sodium hydroxide and a few drops of copper(II) sulfate solution." 
+            data: "<b>Test for proteins:</b>\nBiuret test — proteins give a violet color when treated with sodium hydroxide and a few drops of copper(II) sulfate solution." 
           },
           { 
             type: "text", 
-            data: "Evaluation Questions:\n1. What are proteins made of?\n2. Write the reaction showing formation of a peptide bond.\n3. Name one reagent used to test for proteins.\n4. State two functions of proteins in living organisms." 
+            data: "<b>Evaluation Questions:</b>\n1. What are proteins made of?\n2. Write the reaction showing formation of a peptide bond.\n3. Name one reagent used to test for proteins.\n4. State two functions of proteins in living organisms." 
           }
         ]
       }
     },
+    
+    //amines 
+    
     {
       topic: "Amines",
       notes: {
@@ -5352,19 +7696,19 @@ window.studyData = {
           },
           { 
             type: "text", 
-            data: "Examples:\n• Methylamine — CH₃NH₂ (primary)\n• Dimethylamine — (CH₃)₂NH (secondary)\n• Trimethylamine — (CH₃)₃N (tertiary)" 
+            data: "<b>Examples:</b>\n• Methylamine — CH₃NH₂ (primary)\n• Dimethylamine — (CH₃)₂NH (secondary)\n• Trimethylamine — (CH₃)₃N (tertiary)" 
           },
           { 
             type: "text", 
-            data: "Preparation:\nAmines are prepared by the reduction of nitro compounds:\nR–NO₂ + 6H → R–NH₂ + 2H₂O\nExample: C₆H₅NO₂ + 6H → C₆H₅NH₂ + 2H₂O" 
+            data: "<b>Preparation:</b>\nAmines are prepared by the reduction of nitro compounds:\nR–NO₂ + 6H → R–NH₂ + 2H₂O\nExample: C₆H₅NO₂ + 6H → C₆H₅NH₂ + 2H₂O" 
           },
           { 
             type: "text", 
-            data: "Reactions:\n1. Basicity — Amines act as weak bases and react with acids to form ammonium salts.\nCH₃NH₂ + HCl → CH₃NH₃Cl\n2. Acylation — Amines react with acyl chlorides to form amides.\nCH₃NH₂ + CH₃COCl → CH₃CONHCH₃ + HCl" 
+            data: "<b>Reactions:</b>\n1. Basicity — Amines act as weak bases and react with acids to form ammonium salts.\nCH₃NH₂ + HCl → CH₃NH₃Cl\n2. Acylation — Amines react with acyl chlorides to form amides.\nCH₃NH₂ + CH₃COCl → CH₃CONHCH₃ + HCl" 
           },
           { 
             type: "text", 
-            data: "Evaluation Questions:\n1. Define amines and classify them with examples.\n2. Write an equation for the reduction of nitrobenzene to aniline.\n3. How do amines behave as bases?\n4. What is the product of the reaction between methylamine and ethanoyl chloride?" 
+            data: "<b>Evaluation Questions:</b>\n1. Define amines and classify them with examples.\n2. Write an equation for the reduction of nitrobenzene to aniline.\n3. How do amines behave as bases?\n4. What is the product of the reaction between methylamine and ethanoyl chloride?" 
           }
         ]
       }
@@ -5372,146 +7716,1440 @@ window.studyData = {
 ],
 
 "Physics": [
+  //definition of physics 
+  
   {
-    topic: "Introduction to Physics",
-    notes: {
-      title: "Physics — Meaning, Branches, and Importance",
-      content: [
-        { 
-          type: "text", 
-          data: "Physics is the branch of science that deals with the study of matter, energy, and their interactions. It explains natural phenomena such as motion, heat, light, sound, electricity, magnetism, and atomic structure. The word 'physics' originates from the Greek word 'physis' meaning nature." 
-        },
-        { 
-          type: "text", 
-          data: "Branches of Physics:\n1. Mechanics – studies motion, forces, and energy.\n2. Heat (Thermodynamics) – deals with heat, temperature, and energy transfer.\n3. Waves and Optics – explains light, sound, and wave motion.\n4. Electricity and Magnetism – deals with electric charges, fields, and magnetism.\n5. Modern Physics – studies atomic and nuclear processes, relativity, and quantum mechanics." 
-        },
-        { 
-          type: "text", 
-          data: "Importance of Physics:\n• It forms the foundation for other sciences and engineering.\n• Explains the operation of machines, vehicles, and communication systems.\n• Aids in the development of technologies like computers, lasers, medical imaging, and satellites.\n• Promotes logical and problem-solving thinking through scientific methods." 
-        },
-        { 
-          type: "text", 
-          data: "Physics uses two key methods: (1) Observation and experimentation — to discover and verify laws of nature; (2) Measurement and analysis — to quantify results and make predictions." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Physics_equations.svg/640px-Physics_equations.svg.png" 
-        }
-      ]
-    }
-  },
+  "topic": "Introduction to Physics",
+  "notes": {
+    "title": "Physics — Meaning, Benefits, and Career Opportunities",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Physics</b>\nPhysics is the branch of science that deals with the study of matter, energy, motion, force, and the interactions between them. It attempts to explain how and why objects behave the way they do in the natural world. The term 'physics' originates from the Greek word 'physis', which means nature, showing that physics is the study of natural laws and physical phenomena.\nPhysics seeks to discover fundamental principles that govern the universe, from the motion of tiny particles to the structure of galaxies. These principles are expressed through laws, theories, equations, observations, and experiments."
+      },
+      {
+        type: "image",
+        data: "./physics-lab-and-school-class-science-education-scene-with-miniature-people-students-isometric-vector-concept-design-PHEET6.jpg"
+      },
+      {
+        "type": "text",
+        "data": "<b>Scope of Physics</b>\nPhysics covers a wide range of phenomena including motion, heat, sound, electricity, magnetism, light, nuclear processes, and the structure of matter. It uses mathematical models, laboratory investigations, and scientific reasoning to explain, predict, and apply natural laws."
+      },
+      {
+        "type": "text",
+        "data": "<b>Branches of Physics</b>\n1. Mechanics – Studies forces, motion, energy, work, and momentum.\n2. Thermodynamics – Deals with heat, temperature, and energy transformations.\n3. Waves and Optics – Studies light, lenses, reflection, refraction, and sound waves.\n4. Electricity and Magnetism – Investigates electric charges, electric fields, circuits, induction, and magnetic fields.\n5. Modern Physics – Deals with quantum mechanics, relativity, atomic structure, and nuclear physics.\n6. Astrophysics – Studies celestial bodies, space, and the universe.\n7. Particle Physics – Focuses on fundamental particles such as quarks, electrons, and photons.\n8. Solid State Physics – Studies crystals, semiconductors, and solid materials.\n9. Acoustics – Studies the production, transmission, and effects of sound.\n10. Nuclear Physics – Concerns nuclear reactions, radioactivity, and nuclear energy."
+      },
+      {
+        type: "image",
+        data: "./Image_fx.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Physics</b>\nPhysics is one of the most essential scientific disciplines because:\n• It explains basic natural phenomena such as gravity, motion, light, heat, and electricity.\n• It forms the foundation for other sciences including chemistry, biology, geology, astronomy, and environmental science.\n• It is the backbone of engineering fields such as mechanical, electrical, civil, chemical, petroleum, and aerospace engineering.\n• It drives technological advancement such as mobile phones, computers, the internet, medical imaging, solar power, and space exploration.\n• It improves industrial development by supporting manufacturing, transportation, energy generation, and communication technologies.\n• It enhances logical thinking, creativity, critical reasoning, and problem-solving skills, which are valuable in all fields.\n• It contributes to national development through innovations in energy, transport, medicine, agriculture, and defense."
+      },
+      {
+        "type": "text",
+        "data": "<b>Benefits of Studying Physics</b>\n• Provides a strong analytical and mathematical foundation.\n• Helps students understand how devices and technologies work.\n• Encourages innovation and invention.\n• Improves quantitative reasoning skills.\n• Equips learners for scientific research and technical careers.\n• Encourages curiosity and exploration of nature.\n• Builds skills needed in computing, engineering, astronomy, robotics, and other high-demand fields."
+      },
+      {
+        "type": "text",
+        "data": "<b>Career Opportunities in Physics</b>\nPhysics opens the door to numerous career paths in science, technology, engineering, research, and industry. Some major areas include:\n\n1. Engineering – Physics principles are essential in electrical, mechanical, civil, chemical, petroleum, nuclear, and aeronautical engineering.\n2. Medical Physics – Careers in radiology, radiation therapy, medical imaging (MRI, CT scan, X-ray), and diagnostic technology.\n3. Research Scientist – In fields such as particle physics, astrophysics, nuclear physics, materials science, and quantum physics.\n4. Astronomy and Space Science – Astronomers, astrophysicists, satellite engineers, planetary scientists, and space researchers.\n5. Education and Academia – Physics teachers, lecturers, curriculum planners, laboratory technologists, and science communicators.\n6. Information Technology – Data science, computer programming, software engineering, machine learning, and algorithm design.\n7. Energy Sector – Renewable energy experts, solar engineers, geothermal specialists, hydroelectric engineers, and nuclear plant operators.\n8. Geophysics and Meteorology – Weather forecasting, earthquake studies, mineral exploration, and environmental science.\n9. Robotics and Artificial Intelligence – Motion control, automation, robot design, and intelligent systems.\n10. Aviation and Aerospace – Aircraft design, spacecraft development, flight engineering, and navigation systems.\n11. Material Science – Semiconductor technology, nanotechnology, superconductors, and industrial materials design.\n12. Manufacturing and Industry – Instrumentation, quality control, industrial design, and production engineering."
+      },
+      {
+        type: "image",
+        data: "./Image_fx (1).png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Methods Used in Physics</b>\nPhysics makes use of several scientific methods including observation, experimentation, measurement, data analysis, formulation of laws, and mathematical modelling. Through these methods, physicists test hypotheses, verify theories, and make accurate predictions about natural events."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Explain the meaning of physics.\n2. List and describe five branches of physics.\n3. Highlight five reasons why physics is important.\n4. Explain how physics contributes to technological development.\n5. Identify six career opportunities for physics students and explain each.\n6. Why is physics considered a fundamental science? Give two reasons.\n7. Describe the scientific methods commonly used in physics.\n8. State three engineering fields where physics is applied.\n9. Explain how physics contributes to the medical field.\n10. Discuss the role of physics in space science and exploration."
+      }
+    ]
+  }
+},
+
+  //fundamental and derived quantities and units
   {
-    topic: "Physical Quantities and Units",
-    notes: {
-      title: "Physical Quantities — Fundamental, Derived, and Units of Measurement",
-      content: [
-        { 
-          type: "text", 
-          data: "A physical quantity is any quantity that can be measured and expressed in numbers with units. Examples include length, mass, time, velocity, and force." 
-        },
-        { 
-          type: "text", 
-          data: "There are two types of physical quantities:\n1. Fundamental Quantities – cannot be defined in terms of other quantities. Examples: length (metre), mass (kilogram), time (second), electric current (ampere), temperature (kelvin), luminous intensity (candela), and amount of substance (mole).\n2. Derived Quantities – obtained by combining fundamental quantities. Examples: area (m²), volume (m³), velocity (m/s), acceleration (m/s²), force (newton = kg·m/s²)." 
-        },
-        { 
-          type: "text", 
-          data: "The SI (Systeme Internationale) system is the internationally accepted system of units. It ensures uniformity in scientific communication." 
-        },
-        { 
-          type: "text", 
-          data: "Prefixes are used to express very large or very small quantities conveniently. For example: kilo (10³), mega (10⁶), centi (10⁻²), milli (10⁻³), micro (10⁻⁶), and nano (10⁻⁹)." 
-        },
-        { 
-          type: "text", 
-          data: "Measurement is the process of comparing an unknown quantity with a known standard. Errors can occur due to limitations of instruments, human reaction, or environmental factors, and should be minimized using proper techniques and calibrations." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/SI_base_units.svg/640px-SI_base_units.svg.png" 
-        }
-      ]
-    }
-  },
+  "topic": "Fundamental & Derived Units",
+  "notes": {
+    "title": "Fundamental and Derived Quantities and Units",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Physical Quantities</b><br>Physical quantities are properties of objects or phenomena that can be measured. They describe the physical world in numerical terms. Examples include length, mass, time, speed, force, temperature, and density.<br>These quantities are measured using standard units to ensure accuracy, uniformity, and consistency in scientific communication."
+      },
+      {
+        "type": "text",
+        "data": "<b>Fundamental Quantities</b><br>Fundamental quantities (also called base quantities) are the simplest and most basic physical quantities that cannot be derived from other quantities. They serve as the foundation for all other measurements in physics.<br>The International System of Units (SI) recognizes seven fundamental quantities and their base units."
+      },
+      {
+        type: "image",
+        data: "./Screenshot_20251129-163704.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Table of Fundamental Quantities and Units</b><br><table style='border-collapse: collapse;'> <tr> <th style='border:1px solid #000; padding:8px;'>Fundamental Quantity</th> <th style='border:1px solid #000; padding:8px;'>Symbol</th> <th style='border:1px solid #000; padding:8px;'>SI Unit</th> <th style='border:1px solid #000; padding:8px;'>Unit Symbol</th> </tr> <tr><td style='border:1px solid #000; padding:8px;'>Length</td><td style='border:1px solid #000; padding:8px;'>l</td><td style='border:1px solid #000; padding:8px;'>metre</td><td style='border:1px solid #000; padding:8px;'>m</td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Mass</td><td style='border:1px solid #000; padding:8px;'>m</td><td style='border:1px solid #000; padding:8px;'>kilogram</td><td style='border:1px solid #000; padding:8px;'>kg</td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Time</td><td style='border:1px solid #000; padding:8px;'>t</td><td style='border:1px solid #000; padding:8px;'>second</td><td style='border:1px solid #000; padding:8px;'>s</td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Electric Current</td><td style='border:1px solid #000; padding:8px;'>I</td><td style='border:1px solid #000; padding:8px;'>ampere</td><td style='border:1px solid #000; padding:8px;'>A</td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Temperature</td><td style='border:1px solid #000; padding:8px;'>T</td><td style='border:1px solid #000; padding:8px;'>kelvin</td><td style='border:1px solid #000; padding:8px;'>K</td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Amount of Substance</td><td style='border:1px solid #000; padding:8px;'>n</td><td style='border:1px solid #000; padding:8px;'>mole</td><td style='border:1px solid #000; padding:8px;'>mol</td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Luminous Intensity</td><td style='border:1px solid #000; padding:8px;'>I<sub>v</sub></td><td style='border:1px solid #000; padding:8px;'>candela</td><td style='border:1px solid #000; padding:8px;'>cd</td></tr> </table>"
+      },
+      {
+        "type": "text",
+        "data": "<b>Derived Quantities</b><br>Derived quantities are obtained by combining two or more fundamental quantities through mathematical relationships such as multiplication or division. Their units (derived units) are created from the base units.<br>Examples include area, volume, velocity, acceleration, force, density, pressure, momentum, work, and power."
+      },
+      {
+        type: "image",
+        data: "./Image_fx (3).png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Table of Derived Quantities, Symbols and Unit Expressions</b><br><table style='border-collapse: collapse;'> <tr> <th style='border:1px solid #000; padding:8px;'>Derived Quantity</th> <th style='border:1px solid #000; padding:8px;'>Symbol</th> <th style='border:1px solid #000; padding:8px;'>Unit Expression</th> </tr> <tr><td style='border:1px solid #000; padding:8px;'>Area</td><td style='border:1px solid #000; padding:8px;'>A</td><td style='border:1px solid #000; padding:8px;'>m<sup>2</sup></td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Volume</td><td style='border:1px solid #000; padding:8px;'>V</td><td style='border:1px solid #000; padding:8px;'>m<sup>3</sup></td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Speed / Velocity</td><td style='border:1px solid #000; padding:8px;'>v</td><td style='border:1px solid #000; padding:8px;'>m s<sup>-1</sup></td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Acceleration</td><td style='border:1px solid #000; padding:8px;'>a</td><td style='border:1px solid #000; padding:8px;'>m s<sup>-2</sup></td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Force</td><td style='border:1px solid #000; padding:8px;'>F</td><td style='border:1px solid #000; padding:8px;'>kg m s<sup>-2</sup></td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Pressure</td><td style='border:1px solid #000; padding:8px;'>P</td><td style='border:1px solid #000; padding:8px;'>kg m<sup>-1</sup> s<sup>-2</sup></td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Density</td><td style='border:1px solid #000; padding:8px;'>ρ</td><td style='border:1px solid #000; padding:8px;'>kg m<sup>-3</sup></td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Work / Energy</td><td style='border:1px solid #000; padding:8px;'>W</td><td style='border:1px solid #000; padding:8px;'>kg m<sup>2</sup> s<sup>-2</sup></td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Power</td><td style='border:1px solid #000; padding:8px;'>P</td><td style='border:1px solid #000; padding:8px;'>kg m<sup>2</sup> s<sup>-3</sup></td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Charge</td><td style='border:1px solid #000; padding:8px;'>Q</td><td style='border:1px solid #000; padding:8px;'>A s</td></tr> <tr><td style='border:1px solid #000; padding:8px;'>Momentum</td><td style='border:1px solid #000; padding:8px;'>p</td><td style='border:1px solid #000; padding:8px;'>kg m s<sup>-1</sup></td></tr> </table>"
+      },
+      {
+        "type": "text",
+        "data": "<b>Differences Between Fundamental and Derived Quantities</b><br>1. Fundamental quantities are basic physical quantities; derived quantities are formed from fundamental ones.<br>2. Fundamental quantities have independent units; derived units are combinations of base units.<br>3. There are seven SI fundamental quantities; derived quantities are unlimited.<br>4. Fundamental quantities cannot be mathematically reduced; derived quantities can be expressed using fundamental ones.<br>5. Examples of fundamental quantities: length, mass, time. Examples of derived quantities: force, pressure, density."
+      },
+      {
+        "type": "text",
+        "data": "<b>Dimensions of Physical Quantities</b><br>Dimensions show how a physical quantity depends on the fundamental quantities. They are expressed using M (mass), L (length), and T (time).<br><br><b>Examples</b><br>1. Speed (v) = distance/time → [v] = L T<sup>-1</sup><br>2. Acceleration (a) → [a] = L T<sup>-2</sup><br>3. Force (F) → [F] = M L T<sup>-2</sup><br>4. Pressure (P) → [P] = M L<sup>-1</sup> T<sup>-2</sup><br>5. Work (W) → [W] = M L<sup>2</sup> T<sup>-2</sup><br>6. Power → [P] = M L<sup>2</sup> T<sup>-3</sup><br>7. Density (ρ) → [ρ] = M L<sup>-3</sup><br>8. Momentum (p) → [p] = M L T<sup>-1</sup><br>9. Period (T) → [T] = T<br>10. Frequency (f) → [f] = T<sup>-1</sup>"
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Dimensions</b><br>• Checking correctness of equations.<br>• Converting units in different systems.<br>• Deriving formulas.<br>• Understanding how quantities relate to one another."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define fundamental quantities and list the seven SI fundamental quantities.<br>2. Explain derived quantities with examples.<br>3. State five differences between fundamental and derived units.<br>4. Write the unit expressions of force, power, pressure, and density.<br>5. Write the dimensions of speed, acceleration, momentum, and energy.<br>6. Convert 20 m s<sup>-1</sup> to cm s<sup>-1</sup>.<br>7. State three uses of dimensional analysis.<br>8. Write the unit expression of electric charge in base units.<br>9. Express pressure in terms of M, L, and T.<br>10. Give two examples each of fundamental and derived quantities."
+      }
+    ]
+  }
+},
+
+//position, distance and displacement 
+
   {
-    topic: "Scalars and Vectors",
-    notes: {
-      title: "Scalars and Vectors — Direction and Magnitude",
-      content: [
-        { 
-          type: "text", 
-          data: "Physical quantities can be classified as scalars or vectors based on whether they have direction." 
-        },
-        { 
-          type: "text", 
-          data: "Scalar quantities have magnitude only. Examples include distance, speed, mass, time, energy, and temperature." 
-        },
-        { 
-          type: "text", 
-          data: "Vector quantities have both magnitude and direction. Examples include displacement, velocity, acceleration, force, and momentum." 
-        },
-        { 
-          type: "text", 
-          data: "Vector Representation: A vector is represented by an arrow — the length of the arrow shows its magnitude, and the arrowhead shows direction. Vectors are denoted in bold or with an arrow sign (e.g., **v** or →v)." 
-        },
-        { 
-          type: "text", 
-          data: "Vector Addition:\n1. Triangle Law — place vectors head-to-tail; the resultant vector is drawn from the start of the first to the end of the last.\n2. Parallelogram Law — two vectors from a common point form adjacent sides of a parallelogram; the diagonal gives the resultant.\n3. Resolution — a vector can be broken into horizontal and vertical components using trigonometry." 
-        },
-        { 
-          type: "text", 
-          data: "Vector subtraction, multiplication by a scalar, and dot/cross products are also used in physics to determine resultant forces, work done, and torque." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Vector_addition_parallelogram_law.svg/640px-Vector_addition_parallelogram_law.svg.png" 
-        }
-      ]
-    }
-  },
+  "topic": "Distance & Displacement",
+  "notes": {
+    "title": "Position, Distance, and Displacement",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Position</b><br>Position is the location of an object at a particular point in space relative to a reference point. It is usually represented by coordinates in one, two, or three dimensions. Position tells us 'where' an object is."
+      },
+      {
+        type: "image",
+        data: "./Image_fx (4).png"
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Meaning of Distance</b><br>Distance is the total length of the path traveled by an object, regardless of its direction. It is a scalar quantity and is always positive.<br><b>Unit:</b> metre (m)"
+      },
+      {
+        type: "image",
+        data: "./Image_fx (5).png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Meaning of Displacement</b><br>Displacement is the shortest straight-line distance between the initial and final positions of an object. It is a vector quantity; it has both magnitude and direction.<br><b>Unit:</b> metre (m)<br><b>Example:</b> If a person walks 5 m east and 3 m west, total distance = 8 m, displacement = 2 m east."
+      },
+      {
+        type: "image",
+        data: "./Image_fx (6).png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Differences Between Distance and Displacement</b><br>1. Distance is scalar; displacement is vector.<br>2. Distance can never be negative; displacement can be negative depending on direction.<br>3. Distance depends on the path; displacement depends only on initial and final positions.<br>4. Distance ≥ magnitude of displacement."
+      },
+      {
+        "type": "text",
+        "data": "<b>Measurement of Distance</b><br>Distance can be measured using different instruments depending on the precision required."
+      },
+      {
+        type: "image",
+        data: "./Image_fx (8).png"
+      },
+      {
+        "type": "text",
+        "data": "<b>1. Meter Rule</b><br>- A meter rule measures lengths typically up to 1 m.<br>- Least count: 1 mm.<br><b>Example:</b> A pencil measures 15.7 cm using a meter rule."
+      },
+      {
+        type: "image",
+        data: "./Image_fx (9).png"
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Vernier Calipers</b><br>- Used for measuring internal, external dimensions and depth accurately.<br>- Least count = 0.01 cm (0.1 mm).<br><b>Example:</b> Outer diameter of a pipe measured = 2.36 cm using vernier calipers."
+      },
+      {
+        type: "image",
+        data: "./Image_fx (7).png"
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Micrometer Screw Gauge</b><br>- Used for very small lengths like wire diameters.<br>- Least count = 0.01 mm.<br><b>Example:</b> Diameter of wire measured = 0.52 mm using micrometer screw gauge."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Distance Measurement</b><br>Question: Measure the length of a metal rod using vernier calipers.<br>Reading: Main scale = 3.2 cm, Vernier scale coinciding = 0.06 cm.<br>Length = Main scale + Vernier scale = 3.2 + 0.06 = 3.26 cm."
+      },
+      {
+        type: "image",
+        data: "./Image_fx (10).png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Displacement Calculation</b><br>Question: A car moves 50 m east, then 30 m west. Find distance and displacement.<br>Distance = 50 + 30 = 80 m.<br>Displacement = 50 - 30 = 20 m east."
+      },
+      {
+        "type": "text",
+        "data": "<b>Position, Distance and Displacement-Time Graphs</b><br>1. <b>Distance-Time Graph:</b> Shows how distance changes over time. mm Slope = speed.<br>2. <b>Displacement-Time Graph:</b> Shows how displacement changes over time. Slope = velocity."
+      },
+      {
+        type: "image",
+        data: "./Image_fx (11).png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Distance-Time Graph</b><br>Question: A runner runs 100 m in 20 s. Calculate the runner's speed.<br>Solution: Speed = distance/time = 100 / 20 = 5 m/s"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4: Displacement-Time Graph</b><br>Question: A car moves 60 m east in 10 s, then 40 m west in 5 s. Draw displacement-time graph and calculate velocity for each interval.<br>Interval 1: Velocity = 60 / 10 = 6 m/s east.<br>Interval 2: Velocity = -40 / 5 = -8 m/s (west).<br>Graph: Line with positive slope 6 m/s for first 10 s, then line with negative slope -8 m/s for next 5 s."
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Understanding Position, Distance, and Displacement</b><br>• Helps in describing motion of objects accurately.<br>• Useful in kinematics calculations such as speed, velocity, and acceleration.<br>• Essential for plotting and interpreting motion graphs."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define position, distance, and displacement.<br>2. Differentiate between distance and displacement with examples.<br>3. Explain how to measure length using a meter rule, vernier calipers, and micrometer screw gauge.<br>4. A particle moves 20 m north, then 15 m south. Find distance and displacement.<br>5. Draw a distance-time graph for a car moving at 10 m/s for 15 s.<br>6. Draw a displacement-time graph for a particle moving 30 m east in 5 s and then 20 m west in 5 s.<br>7. Why is displacement a vector and distance a scalar quantity?<br>8. A rod has length measured as 12.34 cm using vernier calipers. What is the reading of the main and vernier scales?<br>9. A wire has diameter measured as 0.56 mm using a micrometer screw gauge. Explain how the measurement is done.<br>10. Explain the significance of the slope in distance-time and displacement-time graphs."
+      }
+    ]
+  }
+},
+
+
+//motion
+
   {
-    topic: "Motion",
-    notes: {
-      title: "Motion — Speed, Velocity, Acceleration, and Graphical Analysis",
-      content: [
-        { 
-          type: "text", 
-          data: "Motion is the change in position of an object with time. It can be uniform (constant speed) or non-uniform (changing speed). Motion is described in terms of distance, displacement, speed, velocity, and acceleration." 
-        },
-        { 
-          type: "text", 
-          data: "Key terms:\n• Distance — total path covered (scalar).\n• Displacement — shortest path between initial and final points (vector).\n• Speed — rate of change of distance (scalar).\n• Velocity — rate of change of displacement (vector).\n• Acceleration — rate of change of velocity with time." 
-        },
-        { 
-          type: "text", 
-          data: "Equations of Uniformly Accelerated Motion:\n1. v = u + at\n2. s = ut + ½at²\n3. v² = u² + 2as\nwhere u = initial velocity, v = final velocity, a = acceleration, s = displacement, and t = time." 
-        },
-        { 
-          type: "text", 
-          data: "Graphs of motion:\n• Displacement–time graph: slope = velocity.\n• Velocity–time graph: slope = acceleration, area under the curve = distance or displacement.\nThese graphs help visualize motion relationships." 
-        },
-        { 
-          type: "text", 
-          data: "Uniform motion occurs when velocity remains constant (zero acceleration). Non-uniform motion involves changing velocity (acceleration or deceleration). Examples include free fall, car acceleration, and projectile motion." 
-        },
-        { 
-          type: "text", 
-          data: "Newton’s Laws of Motion (introduced later) explain how forces cause motion. The study of motion forms the foundation of mechanics and engineering physics." 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Velocity_vs_time_graph.png/640px-Velocity_vs_time_graph.png" 
-        },
-        { 
-          type: "image", 
-          data: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Displacement_time_graphs.png/640px-Displacement_time_graphs.png" 
-        }
-      ]
-    }
-  },
+  "topic": "Motion",
+  "notes": {
+    "title": "Motion",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Motion</b><br>Motion is the change in the position of an object with respect to time. It occurs when an object moves from one point to another relative to a reference point.<br><b>Key Idea:</b> Motion is always relative."
+      },
+      {
+        type: "image",
+        data: "./Image_fx (12).png"
+      },
+      {
+        type: "image",
+        data: "./Image_fx (13).png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Motion</b><br>1. <b>Translational Motion:</b> Motion along a straight or curved path.<br>2. <b>Rotational Motion:</b> Motion around an axis.<br>3. <b>Oscillatory Motion:</b> Back and forth motion about a mean position (e.g., pendulum).<br>4. <b>Periodic Motion:</b> Motion that repeats at regular intervals (e.g., earth around the sun).<br>5. <b>Random Motion:</b> Motion in no definite path (e.g., pollen grains in water)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Causes of Motion</b><br>Motion occurs due to the application of forces.<br>1. <b>Contact Forces:</b> Forces that require physical contact between objects (e.g., push, pull, friction).<br>2. <b>Force Field Forces:</b> Forces that act at a distance without contact (e.g., gravity, magnetic force, electrostatic force)."
+      },
+      {
+        type: "image",
+        data: "./Image_fx (14).png"
+      },
+      {
+        type: "image",
+        data: "./Image_fx (15).png"
+      },
+      {
+        type: "text",
+        data: "<b>Equations of motion:</b> \n1. v = u + at \n2. s = ut + ½at² \n3. v² = u² + 2as"
+      },
+      {
+        type: "text",
+        data: "<b>Worked examples:</b>\n1. A particle accelerates uniformly from rest at 6.0m/s² for 8s and then decelerates uniformly to rest in the next 5s. Determine the magnitude of the deceleration.\n<b>Solution:</b>\nInitial velocity, u = 0; acceleration, a = 6m/s² ; t = 8s; velocity attained, v = ? \nSubstituting into the most appropriate equation, v = u + at \nv = 0 + 6 x 8\nv = 48m/s\nNext the particle decelerated to rest from a velocity of 48m/s, therefore, the deceleration is calculated thus:\nInitial velocity, u = 48m/s; final velocity, v = 0; time, t = 5s; deceleration, a = ?\nSubstituting into the most appropriate equation, \nv = u + at 0 = 48 + a x 5\n0 = 48 + 5a\n- 5a = 48\n a = -9.8m/s²"
+      },
+      {
+        type: "text",
+        data: "2. A body accelerates uniformly from rest at the rate of 3m/s² for 8s. Calculate the distance covered by the body during acceleration.\n<b>Solution</b>\n Given: Acceleration, a = 3m/s²; initial velocity, u = 0; time, t = 8s; distance, s = ? \n The most appropriate equation that includes a, u, t and s is \n s = ut + ½at²\n Substituting:\n s = 0 x 8 + ½ x 3 x 8²\n s = 3 × 32\n s = 96 m"
+      },
+      {
+        "type": "text",
+        "data": "<b>Friction</b><br>Friction is the resistive force that opposes motion when two surfaces are in contact.<br><b>Types of Friction:</b><br>1. <b>Static Friction:</b> Prevents motion of stationary objects.<br>2. <b>Kinetic (Sliding) Friction:</b> Opposes motion of objects sliding over a surface.<br>3. <b>Rolling Friction:</b> Opposes motion of objects rolling over a surface.<br>4. <b>Fluid Friction:</b> Resistance offered by fluids (liquids or gases)."
+      },
+      {
+         type: "image",
+         data: "./Screenshot_20251204-193447.png"
+      },
+      {
+        type: "image",
+        data: "./Screenshot_20251204-193505.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>Methods of Reducing Friction</b><br>• Lubrication (using oil, grease).<br>• Using ball bearings or rollers.<br>• Polishing surfaces.<br>• Streamlining objects moving through fluids.<br>• Using smoother surfaces."
+      },
+      {
+        "type": "text",
+        "data": "<b>Formula for Friction</b><br>Frictional force, f = μ N<br>Where:<br>f = frictional force (N), μ = coefficient of friction (dimensionless), R = normal reaction force (N)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1:</b><br>Question: A block of mass 10 kg rests on a horizontal surface. The coefficient of static friction between block and surface is 0.4. Find the maximum static friction.<br>Solution: R = mg = 10 × 9.8 = 98 N<br>f<sub>max</sub> = μ R = 0.4 × 98 = 39.2 N"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2:</b><br>Question: A 5 kg box is pushed across a floor with μ = 0.2. Calculate the frictional force.<br>Solution: R = mg = 5 × 9.8 = 49 N<br>f = μ N = 0.2 × 49 = 9.8 N"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3:</b><br>Question: A wooden block of mass 1.6 kg rests on a rough horizontal surface. If the limiting frictional force between the block and the surface is 8 N, calculate the coefficient of friction (g = 10 m/s²)."
+      },
+      {
+        type: "image",
+        data: "./Screenshot_20251215-210942.png"
+      },
+      {
+        type: "text",
+        data: "<b>Solution: </b>\nFrictional force, F = 8N\n normal reaction, R = W = mg = 1.6 × 10 = 16N\nCoefficient of friction, μ = F/R = 8N/16N\nμ = 0.5"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4:</b><br>Question: An object of mass 15kg is at the point of sliding down a plane inclined at 36° to the horizontal. Find the least force parallel to the plane required to make the object to begin to move up the plane. (g = 10m/s²).\n<b>Solution: </b>"
+      },
+      {
+        type: "image",
+        data: "./Screenshot_20251215-211941.png"
+      },
+      {
+        type: "text",
+        data: "From the question; ∆ = 36°; m = 15kg; g = 10 m/s²; W = mg = 15 x 10 = 150N\nP = Parallel component of weight + Limiting frictional force\nP = Wsin 0 + F \nP= Wsin ∆ + F [F = μR]\nP = Wsin ∆ + μR\nP = Wsin ∆ + μWcos∆ [R = Wcos ∆] \nμ = wsin∆/wcos∆\nμ =150 x sin 36/150 x cos 36\n μ = 0.73\nSubstitute into P = Wsin ∆ + μWcos ∆\n= 150 sin36 + 0.73 × 150 × Cos36 \n= 150 × 0.588 + 0.73 × 150 × 0.809\n= 88.20 + 88.59 \n P = 176.79N"
+      },
+      {
+        "type": "text",
+        "data": "<b>Circular Motion</b><br>Circular motion is the motion of an object along a circular path. The object constantly changes direction, so it accelerates even if speed is constant.<br><b>Key Terms:</b><br>- <b>Radius (r):</b> Distance from the center of the circle.<br>- <b>Velocity (v):</b> Tangential speed along the circle.<br>- <b>Period (T):</b> Time for one complete revolution."
+      },
+      {
+  "type": "text",
+  "data": "<b>Centripetal Force</b><br>The net force directed toward the center of a circular path that keeps an object in circular motion is called <b>centripetal force</b>.<br><br><b>Formula:</b><br>F<sub>c</sub> = m v<sup>2</sup> / r<br>Where: F<sub>c</sub> = centripetal force (N), m = mass (kg), v = tangential velocity (m/s), r = radius (m)<br><br><b>Alternative Forms:</b><br>F<sub>c</sub> = m ω<sup>2</sup> r, where ω = angular velocity (rad/s)"
+},
+{
+  "type": "text",
+  "data": "<b>Worked Example 1:</b><br><b>Question:</b> A 2 kg ball moves in a circle of radius 0.5 m at a speed of 4 m/s. Find the centripetal force.<br><b>Solution:</b><br>F<sub>c</sub> = m v<sup>2</sup> / r = 2 × 4<sup>2</sup> / 0.5 = 2 × 16 / 0.5 = 32 / 0.5 = 64 N"
+},
+{
+  "type": "text",
+  "data": "<b>Worked Example 2:</b><br><b>Question:</b> A car of mass 800 kg rounds a curve of radius 50 m at 10 m/s. Find the centripetal acceleration and force.<br><b>Solution:</b><br>a<sub>c</sub> = v<sup>2</sup> / r = 10<sup>2</sup> / 50 = 100 / 50 = 2 m/s²<br>F<sub>c</sub> = m a<sub>c</sub> = 800 × 2 = 1600 N"
+},
+      {
+        "type": "text",
+        "data": "<b>Importance of Understanding Motion</b><br>• Helps in analyzing how objects move.<br>• Essential for mechanics and kinematics calculations.<br>• Crucial in designing vehicles, machines, and understanding natural phenomena."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define motion and state its types.<br>2. Differentiate contact forces and force field forces with examples.<br>3. Define friction and state its types.<br>4. How can friction be reduced?<br>5. Calculate the maximum static friction if μ = 0.3 and mass = 20 kg.<br>6. A 3 kg object slides on a surface with μ = 0.15. Find frictional force.<br>7. Define circular motion and centripetal force.<br>8. A 5 kg object moves in a circle of radius 2 m at speed 6 m/s. Find centripetal force.<br>9. Explain centripetal acceleration and give formula.<br>10. Why is centripetal force always directed toward the center of the circle?"
+      }
+    ]
+  }
+},
+
+//equilibrium of forces
+
+  {
+  "topic": "Force and Equilibrium",
+  "notes": {
+    "title": "Force and Equilibrium",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition of Force</b><br>Force is a push or a pull that can cause an object to move, stop, change its speed, or change its shape.<br><b>SI Unit:</b> Newton (N)<br><b>1 Newton:</b> The force required to accelerate a mass of 1 kg at 1 m/s²."
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Forces</b><br>1. <b>Contact Forces:</b> Require physical contact.<br>• Frictional force<br>• Tension force<br>• Normal reaction<br>• Applied force (push or pull)<br>2. <b>Non-contact / Force Field Forces:</b> Act at a distance.<br>• Gravitational force<br>• Electrostatic force<br>• Magnetic force"
+      },
+      {
+        "type": "text",
+        "data": "<b>Resultant Force</b><br>The single force that can replace all the forces acting on an object without changing the effect on the object.<br><b>Methods:</b> Vector addition (graphical: parallelogram/triangle law; analytical: using components)<br><b>Formula for two forces at angle θ:</b> R = √(F₁² + F₂² + 2F₁F₂ cosθ)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Resultant Force</b><br>Question: Two forces of 10 N and 15 N act on a particle at 60° to each other. Find the resultant force.<br>Solution:<br>R = √(10² + 15² + 2×10×15×cos60°) = √(100 + 225 + 300×0.5) = √(100 + 225 + 150) = √475 ≈ 21.8 N"
+      },
+      {
+        "type": "text",
+        "data": "<b>Equilibrium of Forces</b><br>An object is in equilibrium when the net force acting on it is zero.<br>• <b>Conditions:</b> ΣF = 0 (no linear motion), Στ = 0 (no rotation)<br>• Types: <br>1. <b>Translational Equilibrium:</b> Object remains at rest or moves with constant velocity.<br>2. <b>Rotational Equilibrium:</b> Object does not rotate; moments about any point sum to zero."
+      },
+      {
+        "type": "text",
+        "data": "<b>Moments of Force (Torque)</b><br>The moment of a force about a point is the turning effect of the force.<br><b>Formula:</b> Moment (τ) = Force × Perpendicular distance from pivot<br>τ = F × d<br><b>SI Unit:</b> Newton meter (N·m)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Moment of Force</b><br>Question: A wrench 0.3 m long is used to apply a force of 40 N at right angles to its handle. Calculate the moment.<br>Solution: τ = F × d = 40 × 0.3 = 12 N·m"
+      },
+      {
+        "type": "text",
+        "data": "<b>Principle of Moments</b><br>For a body in rotational equilibrium: Σ(clockwise moments) = Σ(anticlockwise moments)<br>• Used in levers, seesaws, beams, and bridges."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Principle of Moments</b><br>Question: A seesaw is 4 m long. A child of mass 30 kg sits 1 m from the pivot. Where should a child of mass 20 kg sit on the other side to balance?<br>Solution: Σ clockwise = Σ anticlockwise<br>30 × 1 = 20 × d → 30 = 20d → d = 1.5 m"
+      },
+      {
+        "type": "text",
+        "data": "<b>Friction (Revisited)</b><br>• Resists relative motion between surfaces.<br>• Types: Static, Sliding, Rolling, Fluid.<br>• Formula: f = μ N<br>• Reducing friction: lubrication, ball bearings, streamlining, polishing."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4: Friction</b><br>Question: A block of mass 12 kg rests on a horizontal surface with μ = 0.35. Find maximum static friction.<br>Solution: N = mg = 12 × 9.8 = 117.6 N<br>f_max = μ N = 0.35 × 117.6 ≈ 41.2 N"
+      },
+      {
+        "type": "text",
+        "data": "<b>Stability of Bodies</b><br>• <b>Stable:</b> Returns to original position after small displacement (centre of gravity low).<br>• <b>Unstable:</b> Moves away from original position after small displacement.<br>• <b>Neutral:</b> Remains in new position after displacement.<br>• A low centre of gravity and wide base increases stability."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 5: Stability</b><br>Question: A uniform rod of length 2 m and mass 5 kg is hinged at one end. Find torque when a 10 N force is applied at the free end perpendicular to the rod.<br>Solution: τ = F × d = 10 × 2 = 20 N·m"
+      },
+      {
+        type: "text",
+        data: "<b>More worked examples:</b>\n1. A uniform half-metre metal rod is balanced horizontally on a knife edge placed 20cm from A and with a mass of 35g at A. What is the mass of the rod?\n<b>Solution:</b>\nApplying principle of moment, 35 × 20 = m × 5\n m = (35 × 20)/5\nm = 140g (see diagram)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Force and Equilibrium</b><br>• Helps in analyzing structures, bridges, and machinery.<br>• Essential for solving problems in mechanics and engineering.<br>• Basis for understanding friction, levers, and rotational dynamics."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define force and give examples.<br>2. State the SI unit of force and define 1 N.<br>3. Differentiate contact and non-contact forces.<br>4. Two forces of 12 N and 16 N act at 90°. Find the resultant force.<br>5. Define equilibrium and state the conditions for a body in equilibrium.<br>6. Calculate the moment of a 50 N force applied at 0.4 m from the pivot at right angles.<br>7. Explain the principle of moments with an example.<br>8. A block of 15 kg rests on a horizontal surface with μ = 0.3. Find maximum static friction.<br>9. Explain stable, unstable, and neutral equilibrium with examples.<br>10. A uniform rod 3 m long is hinged at one end. A force of 20 N is applied at the free end perpendicular to the rod. Find the torque."
+      }
+    ]
+  }
+},
+
+//work, energy and power
+
+  {
+  "topic": "Work, Energy & Power",
+  "notes": {
+    "title": "Work, Energy, and Power",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition of Work</b><br>Work is said to be done when a force is applied on an object and the object is displaced in the direction of the force.<br>• <b>Formula:</b> W = F × d × cosθ<br>Where W = work done (J), F = force applied (N), d = displacement (m), θ = angle between force and displacement."
+      },
+      {
+        type: "image",
+        data: "/Screenshot_20251213-171238.png"
+      },
+      {
+        "type": "text",
+        "data": "<b>SI Unit of Work:</b> Joule (J)<br>1 Joule = work done when a force of 1 N moves an object 1 m in the direction of the force."
+      },
+      {
+        "type": "text",
+        "data": "<b>Positive and Negative Work</b><br>• <b>Positive Work:</b> Force and displacement in the same direction.<br>• <b>Negative Work:</b> Force and displacement in opposite directions.<br>• <b>Zero Work:</b> No displacement or force perpendicular to displacement."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1:</b><br>Question: A person pushes a box with a force of 50 N at an angle of 30° to the horizontal for a distance of 4 m. Calculate the work done.<br>Solution: W = F × d × cosθ = 50 × 4 × cos30° = 200 × 0.866 ≈ 173.2 J"
+      },
+      {
+        "type": "text",
+        "data": "<b>Energy</b><br>Energy is the capacity to do work.<br>• <b>SI Unit:</b> Joule (J)<br>• Energy can exist in different forms: mechanical, thermal, chemical, electrical, nuclear, etc."
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Mechanical Energy</b><br>1. <b>Kinetic Energy (KE):</b> Energy possessed by a moving body.<br>• KE = ½ m v²<br>Where m = mass (kg), v = velocity (m/s)<br>2. <b>Potential Energy (PE):</b> Energy possessed due to position or configuration.<br>• Gravitational PE = m g h<br>• Elastic PE = ½kx²<br>Where g = 9.8 m/s², h = height, k = spring constant, x = extension/compression"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2:</b><br>Question: A 2 kg ball moves at 5 m/s. Calculate its kinetic energy.<br>Solution: KE = ½ m v² = 0.5 × 2 × 25 = 25 J"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Potential Energy</b><br>Question: A 5 kg object is raised to a height of 3 m. Calculate gravitational potential energy.<br>Solution: PE = m g h = 5 × 9.8 × 3 = 147 J"
+      },
+      {
+        "type": "text",
+        "data": "<b>Work-Energy Theorem</b><br>• The net work done on a body is equal to the change in its kinetic energy.<br>• W_net = ΔKE = KE<sub>final</sub> - KE<sub>initial</sub>"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4:</b><br>Question: A 3 kg object accelerates from 2 m/s to 6 m/s. Find work done.<br>Solution: W = ΔKE = ½ m (v² - u²) = 0.5 × 3 × (36 - 4) = 1.5 × 32 = 48 J"
+      },
+      {
+        "type": "text",
+        "data": "<b>Power</b><br>Power is the rate of doing work.<br>• <b>Formula:</b> P = W / t<br>Where P = power (W), W = work done (J), t = time (s)<br>• 1 Watt = 1 Joule/second"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 5:</b><br>Question: A person lifts a 20 kg mass vertically through 5 m in 10 s. Calculate power.<br>Solution: W = m g h = 20 × 9.8 × 5 = 980 J<br>P = W / t = 980 / 10 = 98 W"
+      },
+      {
+        "type": "text",
+        "data": "<b>Mechanical Efficiency</b><br>• Efficiency = (Useful work output / Total work input) × 100%<br>• Always less than 100% due to friction and energy losses"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 6:</b><br>Question: A machine does 250 J of useful work while consuming 400 J of energy. Find efficiency.<br>Solution: Efficiency = (250/400) × 100 = 62.5%"
+      },
+      {
+        "type": "text",
+        "data": "<b>Energy Transformations</b><br>• Potential ↔ Kinetic energy (e.g., pendulum, roller coaster)<br>• Mechanical → Thermal (friction)<br>• Chemical → Mechanical (engine)<br>• Electrical → Light & Thermal (bulb)<br>• Nuclear → Electrical / Thermal (power plant)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 7: Conservation of Energy</b><br>Question: A 2 kg ball is dropped from a height of 5 m. Find velocity just before hitting the ground (ignore air resistance).<br>Solution: PE<sub>top</sub> = KE<sub>bottom</sub> → m g h = ½ m v² → 2 × 9.8 × 5 = 1 × v² → 98 = v² → v = √98 ≈ 9.9 m/s"
+      },
+      {
+        type: "text",
+        data: "<b>More worked examples</b>\n1. A boy drags a bag of rice along a smooth horizontal floor with a force of 2N applied at an angle 60° to the floor. The work done after a distance of 3m is [JAMB 2007]\n <b>Solution</b>\nForce F = 2N; angle of inclination ∆ = 60°; Distance s = 3m\nWork done, W = Fcos∆ x s \n W = 2cos60 x 3\n W = 2 x 0 .5 x 3\n W = 3J"
+      },
+      {
+        type: "text",
+        data: "2. A constant force of 40N acting on a body initially at rest gives an acceleration of 0.1 m/s² for 4s. Calculate the work done by the force.[JAMB 1987]\n<b>Solution</b>\nGiven: Force, F = 40N; initial velocity, u =0; acceleration, a = 0.1m/s²; time, t = 4s.\nDistance, s is obtained from 2nd equation of motion, s = ut + ½at²\ns = 0 × 4 + ½ × 0.1 × 4²\ns = 0 + 0.05 × 16\ns = 0.8m\nWork done = F × s = 40 x 0.8 = 32J"
+      },
+      {
+         type: "text",
+         data: "3. A car of mass 800kg attains a speed of 25m/s in 20 seconds. The power developed in the engine is?\n<b>Solution</b>\nGiven mass m = 800kg, velocity v = 25m/s, time t = 20s.\nAcceleration, a = velocity/time\n a = 25/20 = 1.25 m/s²\nForce, F = ma = 800 × 1.25 = 1000N \nPower, P = Force × Velocity\n P = 1000 × 25 \nP = 25000W or 25KW "
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define work and give the SI unit.<br>2. Differentiate positive, negative, and zero work with examples.<br>3. Calculate work done when a 15 N force moves an object 3 m at 60° to the force.<br>4. Define kinetic and potential energy and state formulas.<br>5. A 3 kg ball moves at 4 m/s. Find its KE.<br>6. An object of mass 5 kg is raised 2 m. Find PE.<br>7. State the work-energy theorem and solve a related problem.<br>8. Define power and find the power when lifting 25 kg through 4 m in 8 s.<br>9. A machine does 300 J of useful work consuming 500 J. Find efficiency.<br>10. A pendulum of mass 1 kg swings from height 0.5 m. Find speed at the lowest point.<br>11. Draw a graph showing KE vs velocity.<br>12. Explain energy transformations in a falling object.<br>13. Solve a problem involving mechanical energy conservation for a roller coaster."
+      }
+    ]
+  }
+},
+
+//hookes law and elasticity 
+
+  {
+  "topic": "Elasticity",
+  "notes": {
+    "title": "Hooke's Law and Elasticity",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition of Elasticity</b><br>Elasticity is the property of a material to regain its original shape and size after the removal of a deforming force. Materials that exhibit this property are called elastic materials, while those that do not are called plastic."
+      },
+      {
+        "type": "text",
+        "data": "<b>Hooke's Law</b><br>Hooke's Law states that within the elastic limit, the extension of a material is directly proportional to the applied force.<br>• <b>Formula:</b> F = k × x<br>Where F = force applied (N), x = extension or compression (m), k = force constant or stiffness (N/m).<br>• <b>Condition:</b> Only valid within the elastic limit of the material."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Hooke's Law</b><br>Question: A spring stretches 0.05 m when a force of 20 N is applied. Find the force constant of the spring.<br>Solution: k = F / x = 20 / 0.05 = 400 N/m"
+      },
+      {
+        "type": "text",
+        "data": "<b>Elastic and Plastic Deformation</b><br>• <b>Elastic Deformation:</b> Temporary change in shape that disappears when force is removed.<br>• <b>Plastic Deformation:</b> Permanent change in shape after force is removed.<br>• Elastic limit: Maximum force that a material can withstand without permanent deformation."
+      },
+      {
+        "type": "text",
+        "data": "<b>Stress and Strain</b><br>• <b>Stress:</b> Force applied per unit cross-sectional area of a material.<br>• Formula: σ = F / A (Pa or N/m²)<br>• <b>Strain:</b> Fractional change in length.<br>• Formula: ε = ΔL / L₀ (dimensionless)<br>Where ΔL = change in length, L₀ = original length."
+      },
+      {
+        "type": "text",
+        "data": "<b>Young’s Modulus</b><br>Young’s modulus is a measure of the stiffness of a material.<br>• Formula: Y = Stress / Strain = σ / ε = (F/A) / (ΔL/L₀)<br>• SI Unit: Pascal (Pa)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Young's Modulus</b><br>Question: A wire of cross-sectional area 2 × 10⁻⁶ m² and length 2 m stretches by 1 mm under a load of 10 N. Find Young's modulus.<br>Solution:<br>ΔL = 0.001 m, F = 10 N, A = 2 × 10⁻⁶ m², L₀ = 2 m<br>Y = (F/A)/(ΔL/L₀) = (10 / 2×10⁻⁶) / (0.001 / 2) = (5×10⁶) / 0.0005 = 1 × 10¹⁰ Pa"
+      },
+      {
+        "type": "text",
+        "data": "<b>Elastic Potential Energy</b><br>The energy stored in a stretched or compressed spring is called elastic potential energy.<br>• Formula: E = 1/2 k x²"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Elastic Potential Energy</b><br>Question: A spring with k = 500 N/m is stretched by 0.1 m. Find the energy stored.<br>Solution: E = 1/2 k x² = 0.5 × 500 × (0.1)² = 2.5 J"
+      },
+      {
+        "type": "text",
+        "data": "<b>Stress-Strain Graph</b><br>• Shows relationship between stress (σ) and strain (ε)<br>• <b>Proportional Limit:</b> Maximum stress for linear relation (Hooke’s law valid)<br>• <b>Elastic Limit:</b> Maximum stress before permanent deformation<br>• <b>Yield Point:</b> Stress at which material begins plastic deformation<br>• <b>Ultimate Stress:</b> Maximum stress before fracture<br>• <b>Fracture Point:</b> Point at which material breaks"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4: Stress and Strain</b><br>Question: A steel wire of length 2 m and diameter 1 mm is stretched by 2 mm under a load of 100 N. Calculate stress and strain.<br>Solution:<br>Area, A = π r² = π (0.0005)² ≈ 7.85 × 10⁻⁷ m²<br>Stress, σ = F / A = 100 / 7.85×10⁻⁷ ≈ 1.27 × 10⁸ Pa<br>Strain, ε = ΔL / L₀ = 0.002 / 2 = 0.001"
+      },
+      {
+        "type": "text",
+        "data": "<b>Factors Affecting Elasticity</b><br>1. Type of material (steel > rubber)<br>2. Temperature (increase decreases elasticity)<br>3. Cross-sectional area (thicker wires less extension)<br>4. Length of material (longer wires extend more under same force)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Hooke’s Law and Elasticity</b><br>• Springs in vehicles and machines<br>• Measuring devices (spring balance)<br>• Engineering and construction (rods, beams, bridges)<br>• Musical instruments (string tension)<br>• Shock absorbers"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define elasticity and Hooke's law.<br>2. A spring stretches 4 cm under a 12 N force. Find the spring constant.<br>3. Differentiate elastic and plastic deformation with examples.<br>4. Define stress and strain, give formulas and units.<br>5. A wire of cross-sectional area 1 × 10⁻⁶ m² and length 1.5 m stretches 0.5 mm under 50 N. Find Young’s modulus.<br>6. Calculate elastic potential energy for a spring k = 200 N/m stretched 0.2 m.<br>7. Draw a stress-strain graph and label all key points.<br>8. Explain factors affecting elasticity.<br>9. State applications of Hooke’s law in real life.<br>10. A steel wire 2 m long and 1 mm diameter stretches 1 mm under a load. Calculate stress, strain, and discuss if Hooke’s law is obeyed."
+      }
+    ]
+  }
+},
+
+//fluids and electrostatics
+
+  {
+  "topic": "Hydrostatics",
+  "notes": {
+    "title": "Fluids / Hydrostatics",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition of a Fluid</b><br>A fluid is a substance that can flow and take the shape of its container. It includes liquids and gases. Fluids offer no fixed shape and deform continuously under a shear force."
+      },
+      {
+        "type": "text",
+        "data": "<b>Density (ρ)</b><br>Density is the mass per unit volume of a substance.<br>• Formula: ρ = m / V<br>• SI Unit: kg/m³<br>• Example: Density of water = 1000 kg/m³"
+      },
+      {
+        "type": "text",
+        "data": "<b>Pressure in Fluids</b><br>Pressure is the force per unit area applied perpendicular to the surface of an object.<br>• Formula: P = F / A<br>• SI Unit: Pascal (Pa) = N/m²<br>• Pressure in liquids at depth h: P = P₀ + ρ g h<br>Where P₀ = atmospheric pressure, ρ = density of liquid, g = acceleration due to gravity, h = depth."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Pressure in Liquid</b><br>Question: Calculate the pressure at a depth of 5 m in water. (ρ = 1000 kg/m³, g = 9.8 m/s²)<br>Solution: P = ρ g h = 1000 × 9.8 × 5 = 49,000 Pa = 49 kPa"
+      },
+      {
+        "type": "text",
+        "data": "<b>Pascal's Principle</b><br>Pascal’s Principle states that pressure applied to a confined fluid is transmitted undiminished in all directions.<br>• Applications: Hydraulic lifts, brakes, presses<br>• Formula for hydraulic lift: F₁ / A₁ = F₂ / A₂"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Pascal’s Principle</b><br>Question: A hydraulic lift has a small piston of area 0.02 m² and a large piston of area 0.5 m². If a force of 200 N is applied to the small piston, find the force on the large piston.<br>Solution: F₂ = F₁ × (A₂ / A₁) = 200 × (0.5 / 0.02) = 200 × 25 = 5000 N"
+      },
+      {
+        "type": "text",
+        "data": "<b>Archimedes’ Principle and Upthrust</b><br>Archimedes’ Principle states that a body wholly or partially immersed in a fluid experiences an upthrust equal to the weight of the fluid displaced.<br>• Formula: U = ρ_f V g<br>Where U = upthrust, ρ_f = density of fluid, V = volume displaced, g = 9.8 m/s²"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Upthrust</b><br>Question: A cube of side 0.1 m is fully immersed in water. Find upthrust. (ρ = 1000 kg/m³)<br>Solution: V = 0.1³ = 0.001 m³<br>U = ρ g V = 1000 × 9.8 × 0.001 = 9.8 N"
+      },
+      {
+        "type": "text",
+        "data": "<b>Density and Floatation</b><br>• Body floats if density of body < density of fluid.<br>• Body sinks if density of body > density of fluid.<br>• Fraction of volume submerged = density of body / density of fluid"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4: Floatation</b><br>Question: A wooden block of density 600 kg/m³ floats in water. Find the fraction of its volume submerged.<br>Solution: Fraction submerged = ρ_block / ρ_water = 600 / 1000 = 0.6 → 60% submerged"
+      },
+      {
+        "type": "text",
+        "data": "<b>Atmospheric Pressure and Barometer</b><br>• Atmospheric pressure is the pressure exerted by the weight of air.<br>• Measured using a mercury barometer.<br>• Standard atmospheric pressure = 101,325 Pa ≈ 1 atm"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 5: Barometer</b><br>Question: Mercury column in barometer is 76 cm high. Find atmospheric pressure. (ρ = 13,600 kg/m³, g = 9.8 m/s²)<br>Solution: P = ρ g h = 13600 × 9.8 × 0.76 ≈ 1.01 × 10⁵ Pa"
+      },
+      {
+        "type": "text",
+        "data": "<b>Pressure Variation with Depth Graph</b><br>• Pressure increases linearly with depth<br>• Graph: Pressure (y-axis) vs Depth (x-axis) shows a straight line passing through atmospheric pressure at surface"
+      },
+      {
+        "type": "text",
+        "data": "<b>Bernoulli’s Principle (Optional Advanced)</b><br>For an incompressible, non-viscous fluid, the sum of pressure, kinetic, and potential energy per unit volume is constant along a streamline.<br>• Formula: P + 1/2 ρ v² + ρ g h = constant<br>• Applications: Venturi effect, airplane wings, atomizers"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 6: Bernoulli</b><br>Question: Water flows through a pipe of cross-section 0.02 m² at 2 m/s and narrows to 0.01 m². Find velocity in narrow section.<br>Solution: A₁v₁ = A₂v₂ → 0.02 × 2 = 0.01 × v₂ → v₂ = 4 m/s"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define fluid and density.<br>2. Calculate pressure at 8 m depth in water.<br>3. Explain Pascal’s principle and solve a hydraulic lift problem.<br>4. State Archimedes’ principle and calculate upthrust on a submerged object.<br>5. Wooden cube of density 700 kg/m³ floats in oil (ρ = 900 kg/m³). Find fraction submerged.<br>6. Standard atmospheric pressure in Pa and atm.<br>7. Mercury barometer reads 0.76 m. Find atmospheric pressure.<br>8. Draw pressure vs depth graph.<br>9. Apply Bernoulli’s principle to find velocity in a narrowing pipe.<br>10. Explain floatation and sinking criteria with examples."
+      }
+    ]
+  }
+}, 
+
+//simple harmonic motion
+
+  {
+  "topic": "Simple Harmonic Motion",
+  "notes": {
+    "title": "Oscillations / Simple Harmonic Motion",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition of Oscillation</b><br>An oscillation is a repetitive to-and-fro motion of a body about a fixed point called the equilibrium position. Examples: swinging pendulum, vibrating spring, tuning fork."
+      },
+      {
+        "type": "text",
+        "data": "<b>Simple Harmonic Motion (SHM)</b><br>SHM is a type of oscillation in which the acceleration of the body is directly proportional to its displacement from the equilibrium position and acts towards it.<br>• <b>Mathematical Form:</b> a = -ω² x<br>Where a = acceleration, x = displacement from equilibrium, ω = angular frequency."
+      },
+      {
+        "type": "text",
+        "data": "<b>Characteristics of SHM</b><br>1. <b>Amplitude (A):</b> Maximum displacement from equilibrium<br>2. <b>Period (T):</b> Time for one complete oscillation<br>3. <b>Frequency (f):</b> Number of oscillations per second<br>4. <b>Angular Frequency (ω):</b> ω = 2π / T = 2π f<br>5. <b>Displacement, Velocity, Acceleration:</b><br>• x = A sin(ω t) or x = A cos(ω t)<br>• v = dx/dt = ω A cos(ω t) or v = -ω A sin(ω t)<br>• a = dv/dt = -ω² x"
+      },
+      {
+        "type": "text",
+        "data": "<b>SHM in Spring-Mass System</b><br>• Force: F = -k x (Hooke’s law)<br>• Acceleration: a = F / m = - (k/m) x → ω² = k / m<br>• Period: T = 2π √(m/k)<br>• Frequency: f = 1 / T = 1 / (2π) √(k/m)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Spring-Mass System</b><br>Question: A mass of 0.5 kg is attached to a spring of force constant 200 N/m. Find the period and frequency of oscillation.<br>Solution:<br>T = 2π √(m/k) = 2π √(0.5/200) = 2π √0.0025 ≈ 0.314 s<br>f = 1/T ≈ 3.18 Hz"
+      },
+      {
+        "type": "text",
+        "data": "<b>SHM in Simple Pendulum</b><br>• Restoring force: F = - m g sinθ ≈ - m g θ (for small angles θ in radians)<br>• Acceleration: a = - (g/L) x → ω² = g / L<br>• Period: T = 2π √(L/g)<br>• Frequency: f = 1 / T = 1 / (2π) √(g/L)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Simple Pendulum</b><br>Question: A pendulum has a length of 1 m. Find its period and frequency. (g = 9.8 m/s²)<br>Solution:<br>T = 2π √(L/g) = 2π √(1/9.8) ≈ 2.006 s<br>f = 1 / T ≈ 0.499 Hz"
+      },
+      {
+        "type": "text",
+        "data": "<b>Energy in SHM</b><br>1. <b>Kinetic Energy:</b> KE = 1/2 m v² = 1/2 m ω² (A² - x²)<br>2. <b>Potential Energy:</b> PE = 1/2 k x² = 1/2 m ω² x²<br>3. <b>Total Mechanical Energy:</b> E = KE + PE = 1/2 k A² = constant"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Energy in SHM</b><br>Question: A spring-mass system has m = 0.2 kg, k = 50 N/m, amplitude A = 0.1 m. Find total energy and KE when displacement is 0.05 m.<br>Solution:<br>E = 1/2 k A² = 0.5 × 50 × 0.01 = 0.25 J<br>KE = E - PE = 0.25 - 0.5 × 50 × 0.0025 = 0.25 - 0.0625 = 0.1875 J"
+      },
+      {
+        "type": "text",
+        "data": "<b>Graphical Representation</b><br>1. <b>Displacement-Time (x-t) Graph:</b> Sinusoidal curve<br>2. <b>Velocity-Time (v-t) Graph:</b> Cosine curve, zero crossings at max displacement<br>3. <b>Acceleration-Time (a-t) Graph:</b> Sinusoidal, 180° out of phase with displacement<br>4. <b>Energy vs Displacement Graph:</b> PE increases from 0 to max as x → A, KE decreases accordingly, total energy constant"
+      },
+      {
+        "type": "text",
+        "data": "<b>Damping and Resonance (Advanced)</b><br>• <b>Damping:</b> Gradual decrease in amplitude due to friction or resistance<br>• <b>Resonance:</b> Maximum amplitude occurs when driving frequency equals natural frequency of system"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4: SHM Problem</b><br>Question: A mass 0.1 kg oscillates on a spring of k = 20 N/m. Find maximum velocity if amplitude is 0.05 m.<br>Solution:<br>ω = √(k/m) = √(20/0.1) = √200 ≈ 14.14 rad/s<br>v_max = ω A = 14.14 × 0.05 ≈ 0.707 m/s"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define oscillation and simple harmonic motion.<br>2. Write the displacement, velocity, and acceleration equations of SHM.<br>3. A mass 0.3 kg on spring k = 120 N/m. Find period, frequency, and angular frequency.<br>4. A pendulum length 0.5 m oscillates. Find period and frequency.<br>5. Derive KE, PE, and total energy in SHM.<br>6. Calculate total energy and KE for a spring-mass system with m = 0.2 kg, k = 50 N/m, amplitude 0.1 m at displacement 0.04 m.<br>7. Draw displacement-time, velocity-time, and acceleration-time graphs.<br>8. Explain damping and resonance with examples.<br>9. A mass of 0.05 kg on a spring has amplitude 0.02 m. Find maximum velocity and acceleration.<br>10. Explain phase difference between displacement, velocity, and acceleration in SHM."
+      }
+    ]
+  }
+},
+
+//newtons law of unversal gravitation 
+
+{
+  "topic": "Newton law of gravitation",
+  "notes": {
+    "title": "Gravitation",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition of Gravitation</b><br>Gravitation is the force of attraction between any two masses in the universe. It is a fundamental force that governs planetary motion, tides, and falling objects."
+      },
+      {
+        "type": "text",
+        "data": "<b>Newton’s Law of Universal Gravitation</b><br>Every point mass attracts every other point mass with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.<br>• Formula: F = G (m₁ m₂) / r²<br>Where F = gravitational force (N), m₁ and m₂ = masses (kg), r = distance between centers (m), G = 6.67 × 10⁻¹¹ N·m²/kg²"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Newton’s Law</b><br>Question: Find the force of attraction between two masses of 10 kg and 5 kg separated by 2 m.<br>Solution: F = G (m₁ m₂) / r² = 6.67×10⁻¹¹ × (10×5)/2² = 6.67×10⁻¹¹ × 50 / 4 ≈ 8.34 × 10⁻¹⁰ N"
+      },
+      {
+        "type": "text",
+        "data": "<b>Gravitational Field Strength (g)</b><br>The gravitational field strength at a point is the force experienced per unit mass at that point.<br>• Formula: g = F / m = G M / r²<br>Where M = mass of attracting body, r = distance from center"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Gravitational Acceleration</b><br>Question: Find the acceleration due to gravity on the surface of Earth. (M = 5.98 × 10²⁴ kg, R = 6.37 × 10⁶ m)<br>Solution: g = G M / R² = 6.67×10⁻¹¹ × 5.98×10²⁴ / (6.37×10⁶)² ≈ 9.8 m/s²"
+      },
+      {
+        "type": "text",
+        "data": "<b>Variation of g with Altitude</b><br>g_h = g (R / (R + h))²<br>Where h = height above Earth’s surface, R = radius of Earth"
+      },
+      {
+        "type": "text",
+        "data": "<b>Variation of g with Depth</b><br>g_d = g (1 - d / R)<br>Where d = depth below surface, R = radius of Earth"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Variation of g</b><br>Question: Find g at 500 m above Earth’s surface. R = 6.37×10⁶ m, g = 9.8 m/s²<br>Solution: g_h = 9.8 × (6.37×10⁶ / (6.37×10⁶ + 500))² ≈ 9.7992 m/s²"
+      },
+      {
+        "type": "text",
+        "data": "<b>Orbital Motion</b><br>A satellite in circular orbit around Earth experiences centripetal force provided by gravity:<br>• Centripetal force: F_c = m v² / r<br>• Gravitational force: F_g = G M m / r²<br>Equating: m v² / r = G M m / r² → v = √(G M / r)<br>• Period of orbit: T = 2π r / v = 2π √(r³ / G M)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4: Orbital Velocity</b><br>Question: Calculate the orbital velocity of a satellite at 300 km above Earth. R = 6.37×10⁶ m, M = 5.98×10²⁴ kg<br>Solution: r = R + h = 6.37×10⁶ + 3×10⁵ = 6.67×10⁶ m<br>v = √(G M / r) = √(6.67×10⁻¹¹ × 5.98×10²⁴ / 6.67×10⁶) ≈ 7.73 km/s"
+      },
+      {
+        "type": "text",
+        "data": "<b>Escape Velocity</b><br>Escape velocity is the minimum velocity a body must have to escape gravitational attraction without further propulsion.<br>• Formula: v_e = √(2 G M / R)<br>• For Earth: v_e ≈ 11.2 km/s"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 5: Escape Velocity</b><br>Question: Find escape velocity from Earth. R = 6.37×10⁶ m, M = 5.98×10²⁴ kg<br>Solution: v_e = √(2 G M / R) = √(2 × 6.67×10⁻¹¹ × 5.98×10²⁴ / 6.37×10⁶) ≈ 11.2 km/s"
+      },
+      {
+        "type": "text",
+        "data": "<b>Kepler’s Laws of Planetary Motion</b><br>1. <b>First Law:</b> Planets move in elliptical orbits with the Sun at one focus<br>2. <b>Second Law:</b> Line joining planet to Sun sweeps equal areas in equal times (law of areas)<br>3. <b>Third Law:</b> Square of period of revolution is proportional to cube of mean distance from Sun: T² ∝ r³"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 6: Kepler’s Third Law</b><br>Question: If Earth takes 1 year to orbit the Sun at 1 AU, how long does a planet at 4 AU take?<br>Solution: (T₂/T₁)² = (r₂/r₁)³ → (T₂/1)² = 4³ → T₂² = 64 → T₂ = 8 years"
+      },
+      {
+        "type": "text",
+        "data": "<b>Graphical Interpretation</b><br>1. Variation of g with altitude: g decreases slightly as h increases<br>2. Variation of g with depth: g decreases linearly with depth<br>3. Orbital velocity vs radius: v decreases with increase in orbital radius"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define gravitation and Newton’s law of gravitation.<br>2. Two masses 12 kg and 6 kg are 3 m apart. Find the gravitational force.<br>3. Define gravitational field strength and derive g on Earth’s surface.<br>4. Find g at 2 km above Earth and 2 km below surface.<br>5. Calculate orbital velocity of satellite 500 km above Earth.<br>6. Determine escape velocity from Earth.<br>7. State and explain Kepler’s three laws.<br>8. If Earth takes 1 year to orbit, find period of planet at 9 AU.<br>9. Draw graphs of g vs altitude and g vs depth.<br>10. Derive formula for period of satellite orbiting Earth."
+      }
+    ]
+  }
+},
+
+//simple machines
+
+{
+  "topic": "Simple Machines",
+  "notes": {
+    "title": "Simple Machines",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition of a Simple Machine</b><br>A simple machine is a device that changes the magnitude or direction of a force to make work easier. It helps in reducing effort or increasing speed of work."
+      },
+      {
+        "type": "text",
+        "data": "<b>Work, Mechanical Advantage, and Efficiency</b><br>• <b>Work done:</b> W = F × d, where F = force, d = distance along line of action<br>• <b>Mechanical Advantage (MA):</b> Ratio of load to effort: MA = Load / Effort<br>• <b>Velocity Ratio (VR):</b> Ratio of distance moved by effort to distance moved by load: VR = Distance_effort / Distance_load<br>• <b>Efficiency (η):</b> η = (MA / VR) × 100% = (Work_output / Work_input) × 100%"
+      },
+      {
+        "type": "text",
+        "data": "<b>1. Lever</b><br>A lever is a rigid bar that rotates about a fixed point called the fulcrum.<br>• Types:<br>  - Class I: Fulcrum between effort and load<br>  - Class II: Load between effort and fulcrum<br>  - Class III: Effort between load and fulcrum<br>• Formula: MA = Load / Effort = Effort arm / Load arm"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Lever</b><br>Question: A class I lever has effort arm 0.6 m and load arm 0.2 m. Find the mechanical advantage.<br>Solution: MA = Effort arm / Load arm = 0.6 / 0.2 = 3"
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Pulley</b><br>A pulley is a wheel with a groove for a rope. It changes direction of force and can provide mechanical advantage.<br>• Single fixed pulley: MA = 1 (changes direction)<br>• Single movable pulley: MA = 2<br>• System of pulleys: MA = Number of supporting ropes"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Pulley</b><br>Question: A load of 120 N is lifted using a single movable pulley. Find the effort required.<br>Solution: MA = 2 → Effort = Load / MA = 120 / 2 = 60 N"
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Inclined Plane</b><br>An inclined plane is a flat surface tilted at an angle to the horizontal, used to raise a load with less effort.<br>• Formula: MA = Load / Effort = Length of slope / Height<br>• VR = Distance moved by effort / Distance moved by load = Length of slope / Height"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Inclined Plane</b><br>Question: A load of 50 N is lifted to 2 m height using a 6 m long ramp. Find effort and MA.<br>Solution: MA = L / h = 6 / 2 = 3<br>Effort = Load / MA = 50 / 3 ≈ 16.67 N"
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Wheel and Axle</b><br>The wheel and axle is a circular device where effort applied to the wheel turns the axle.<br>• Formula: MA = Radius of wheel / Radius of axle"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4: Wheel and Axle</b><br>Question: Wheel radius 0.5 m, axle radius 0.1 m. Find mechanical advantage.<br>Solution: MA = R_wheel / R_axle = 0.5 / 0.1 = 5"
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Screw</b><br>A screw is an inclined plane wrapped around a cylinder.<br>• MA = 2π r / p, where r = radius of handle, p = pitch (distance between threads)<br>• Used in clamps, jacks, and presses"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 5: Screw</b><br>Question: A screw has pitch 0.01 m and handle radius 0.05 m. Find MA.<br>Solution: MA = 2π r / p = 2 × 3.142 × 0.05 / 0.01 ≈ 31.4"
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Wedge</b><br>A wedge is a double inclined plane used to split objects.<br>• Formula: MA = Length of wedge / Thickness<br>• Example: Axe blade, knife"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 6: Wedge</b><br>Question: Wedge length = 0.12 m, thickness = 0.03 m. Find MA.<br>Solution: MA = L / t = 0.12 / 0.03 = 4"
+      },
+      {
+        "type": "text",
+        "data": "<b>Efficiency and Friction</b><br>• Efficiency = (MA / VR) × 100%<br>• Friction reduces efficiency<br>• Example: For a lever with MA = 3, VR = 3.5 → Efficiency = 3/3.5 ×100 ≈ 85.7%"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define simple machine and give examples.<br>2. A lever has load arm 0.4 m, effort arm 0.8 m. Find MA.<br>3. Single movable pulley lifts 200 N. Find effort required.<br>4. Ramp 5 m long raises load 1.25 m. Find effort and MA if load = 100 N.<br>5. Wheel radius 0.6 m, axle radius 0.1 m. Find MA.<br>6. Screw pitch = 0.02 m, handle radius = 0.06 m. Find MA.<br>7. Wedge length 0.15 m, thickness 0.05 m. Find MA.<br>8. Define velocity ratio and mechanical advantage.<br>9. Explain effect of friction on efficiency.<br>10. Draw diagrams of lever, pulley, wheel and axle, inclined plane."
+      }
+    ]
+  }
+},
+
+//gas laws
+
+{
+  "topic": "Gas Laws",
+  "notes": {
+    "title": "Kinetic Theory of Matter and Gas Laws",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition of Matter</b><br>Matter is anything that has mass and occupies space. It exists in three main states: solid, liquid, and gas."
+      },
+      {
+        "type": "text",
+        "data": "<b>Kinetic Theory of Matter</b><br>The kinetic theory explains the behavior of matter in terms of motion of its particles. It is based on the following postulates:<br>1. Matter is made up of tiny particles (atoms/molecules).<br>2. Particles are in constant random motion.<br>3. Particles collide elastically with each other and the walls of the container.<br>4. The average kinetic energy of particles is directly proportional to the absolute temperature (T) of the substance."
+      },
+      {
+        "type": "text",
+        "data": "<b>Pressure of a Gas</b><br>Pressure is the force exerted per unit area by gas molecules as they collide with the walls of their container.<br>• Formula: P = F / A<br>• According to kinetic theory: P = (1/3) (N m v²_avg / V)<br>Where N = number of molecules, m = mass of one molecule, v²_avg = mean square speed, V = volume"
+      },
+      {
+        "type": "text",
+        "data": "<b>Temperature and Kinetic Energy</b><br>Average translational kinetic energy of a gas particle: K.E_avg = (3/2) k_B T<br>Where k_B = Boltzmann constant (1.38 × 10⁻²³ J/K), T = absolute temperature"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Kinetic Energy</b><br>Question: Calculate average kinetic energy of an oxygen molecule at 300 K. k_B = 1.38 × 10⁻²³ J/K<br>Solution: K.E_avg = (3/2) k_B T = 1.5 × 1.38×10⁻²³ × 300 ≈ 6.21 × 10⁻²¹ J"
+      },
+      {
+        "type": "text",
+        "data": "<b>Gas Laws</b><br>1. <b>Boyle’s Law:</b> Pressure is inversely proportional to volume at constant temperature<br>• P ∝ 1/V → P₁V₁ = P₂V₂<br>2. <b>Charles’s Law:</b> Volume is directly proportional to temperature at constant pressure<br>• V ∝ T → V₁/T₁ = V₂/T₂<br>3. <b>Gay-Lussac’s Law:</b> Pressure is directly proportional to temperature at constant volume<br>• P ∝ T → P₁/T₁ = P₂/T₂<br>4. <b>Avogadro’s Law:</b> Volume is proportional to number of moles at constant temperature and pressure<br>• V ∝ n → V₁/n₁ = V₂/n₂"
+      },
+      {
+        "type": "text",
+        "data": "<b>Combined Gas Law and Ideal Gas Equation</b><br>• Combined gas law: (P₁V₁)/T₁ = (P₂V₂)/T₂<br>• Ideal gas equation: PV = nRT<br>Where n = number of moles, R = gas constant (8.314 J/mol·K)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Boyle’s Law</b><br>Question: A gas occupies 4 L at 1 atm. If compressed to 2 L at constant temperature, find new pressure.<br>Solution: P₁V₁ = P₂V₂ → 1×4 = P₂×2 → P₂ = 2 atm"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Charles’s Law</b><br>Question: Gas volume = 5 L at 27°C. Find volume at 127°C at constant pressure.<br>Solution: Convert to Kelvin: T₁ = 27+273=300K, T₂=127+273=400K<br>V₁/T₁ = V₂/T₂ → 5/300 = V₂/400 → V₂ = 6.67 L"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4: Ideal Gas Equation</b><br>Question: 2 moles of gas at 300 K in 0.05 m³. Find pressure.<br>Solution: PV = nRT → P = nRT / V = 2 × 8.314 × 300 / 0.05 ≈ 9.97 × 10⁴ Pa"
+      },
+      {
+        "type": "text",
+        "data": "<b>Graphical Representation</b><br>1. P-V graph (Boyle’s law): hyperbolic curve<br>2. V-T graph (Charles’s law): straight line through origin<br>3. P-T graph (Gay-Lussac): straight line through origin"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications</b><br>• Behavior of gases under compression and heating<br>• Determining molecular mass<br>• Gas thermometers<br>• Understanding atmospheric pressure and weather patterns"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. State the postulates of kinetic theory of gases.<br>2. Define pressure of a gas and derive P = (1/3) (N m v²_avg / V).<br>3. Calculate average kinetic energy of hydrogen molecule at 300 K.<br>4. A gas occupies 6 L at 2 atm. Find volume at 1 atm at constant temperature.<br>5. Volume of 3 L gas at 27°C heated to 127°C at constant pressure. Find new volume.<br>6. 1 mole of gas at 1 atm and 273 K. Find volume using ideal gas equation.<br>7. Derive formula for velocity of gas molecules in terms of temperature.<br>8. Draw P-V, V-T, P-T graphs.<br>9. Explain difference between ideal and real gases.<br>10. If 5 moles of gas at 300 K occupies 0.1 m³, calculate pressure."
+      }
+    ]
+  }
+},
+
+//heat and temperature 
+
+{
+  "topic": "Heat and Temperature",
+  "notes": {
+    "title": "Heat, Temperature and Thermal Physics",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definitions</b><br>• <b>Heat:</b> Energy transferred between bodies due to temperature difference.<br>• <b>Temperature:</b> A measure of the average kinetic energy of the particles of a substance.<br>• <b>Thermal Physics:</b> Study of heat, temperature, and energy transfer."
+      },
+      {
+        "type": "text",
+        "data": "<b>Temperature Scales and Measurement</b><br>• Celsius (°C), Kelvin (K), Fahrenheit (°F)<br>• Conversion: K = °C + 273, °F = (9/5)°C + 32<br>• Thermometers: Mercury, alcohol, thermocouples, resistance thermometers<br>• Examples: Measuring body temperature, weather temperature"
+      },
+      {
+        "type": "text",
+        "data": "<b>Thermal Expansion</b><br>1. <b>Linear expansion (solids):</b> ΔL = α L ΔT<br>Where α = coefficient of linear expansion, L = original length, ΔT = temperature change<br>2. <b>Area expansion:</b> ΔA = 2 α A ΔT<br>3. <b>Volume expansion (solids/liquids):</b> ΔV = β V ΔT, β ≈ 3α for solids<br>• Gases: PV = nRT shows volume increases with temperature at constant pressure"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Linear Expansion</b><br>Question: A 2 m steel rod has α = 1.2×10⁻⁵ /°C. Find change in length when heated from 20°C to 120°C.<br>Solution: ΔL = α L ΔT = 1.2×10⁻⁵ × 2 × (120-20) = 0.0024 m = 2.4 mm"
+      },
+      {
+        "type": "text",
+        "data": "<b>Heat Transfer</b><br>• <b>Conduction:</b> Transfer of heat through solids by molecular vibration<br>• <b>Convection:</b> Transfer of heat in fluids by bulk movement of molecules<br>• <b>Radiation:</b> Transfer of energy by electromagnetic waves, requires no medium"
+      },
+      {
+        "type": "text",
+        "data": "<b>Specific Heat Capacity</b><br>• Amount of heat required to raise temperature of 1 kg of substance by 1 K<br>• Formula: Q = m c ΔT<br>Where m = mass, c = specific heat capacity, ΔT = temperature change"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Specific Heat</b><br>Question: 500 g of water is heated from 20°C to 80°C. Find heat absorbed. (c_water = 4200 J/kg·K)<br>Solution: m = 0.5 kg, ΔT = 60 K<br>Q = m c ΔT = 0.5 × 4200 × 60 = 126,000 J = 126 kJ"
+      },
+      {
+        "type": "text",
+        "data": "<b>Latent Heat</b><br>• <b>Fusion:</b> Heat required to change 1 kg of substance from solid to liquid at constant temperature, L_f<br>• <b>Vaporization:</b> Heat required to change 1 kg of substance from liquid to gas at constant temperature, L_v<br>• Formula: Q = m L"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Latent Heat</b><br>Question: 200 g of ice at 0°C melts. Find heat absorbed. L_f (ice) = 3.34 × 10⁵ J/kg<br>Solution: m = 0.2 kg<br>Q = m L_f = 0.2 × 3.34×10⁵ = 66,800 J = 66.8 kJ"
+      },
+      {
+        "type": "text",
+        "data": "<b>Calorimetry</b><br>• Principle: Heat lost by hot body = Heat gained by cold body (ignoring losses)<br>• Formula: m₁ c₁ (T_hot - T_final) = m₂ c₂ (T_final - T_cold)<br>• Used in determining specific heat, latent heat"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4: Calorimetry</b><br>Question: 100 g of 80°C water mixed with 200 g of 20°C water. Find final temperature. (c_water = 4200 J/kg·K)<br>Solution:<br>m₁ c ΔT₁ = m₂ c ΔT₂<br>0.1 × 4200 × (80 - T) = 0.2 × 4200 × (T - 20)<br>420 × (80 - T) = 840 × (T - 20)<br>33,600 - 420T = 840T - 16,800 → 1,260T = 50,400 → T ≈ 40°C"
+      },
+      {
+        "type": "text",
+        "data": "<b>Graphical Representation</b><br>• Heating curve of water: shows flat regions at melting and boiling points (phase change)<br>• Expansion graphs: linear for solids, volume for liquids and gases"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications</b><br>• Thermometers and temperature measurement<br>• Designing bridges, railways with expansion gaps<br>• Heating systems, steam engines<br>• Refrigeration and air conditioning"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define heat and temperature.<br>2. Convert 100°C to Kelvin and Fahrenheit.<br>3. A 1.5 m brass rod α = 1.9×10⁻⁵ /°C is heated by 50°C. Find ΔL.<br>4. 250 g of water heated from 30°C to 90°C. Find Q absorbed. c_water = 4200 J/kg·K<br>5. 500 g of steam at 100°C condensed. Find heat released. L_v (water) = 2.26 ×10⁶ J/kg<br>6. Explain conduction, convection, and radiation with examples.<br>7. In a calorimeter, 200 g hot water at 60°C mixed with 300 g cold water at 20°C. Find final temperature.<br>8. Draw heating curve of water showing fusion and vaporization.<br>9. State applications of thermal expansion.<br>10. Derive formula for specific heat capacity and latent heat."
+      }
+    ]
+  }
+},
+
+//waves and sound 
+
+{
+  "topic": "Waves and Sound",
+  "notes": {
+    "title": "Waves and Sound",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition of a Wave</b><br>A wave is a disturbance that travels through a medium, transferring energy without the transfer of matter."
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Waves</b><br>1. <b>Mechanical Waves:</b> Require a medium to propagate (sound, water waves)<br>2. <b>Electromagnetic Waves:</b> Do not require a medium (light, radio waves)<br>3. <b>Longitudinal Waves:</b> Particles vibrate parallel to wave direction (sound waves)<br>4. <b>Transverse Waves:</b> Particles vibrate perpendicular to wave direction (water waves, light)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Wave Properties</b><br>• Wavelength (λ): distance between successive crests or troughs<br>• Frequency (f): number of waves per second, measured in Hz<br>• Period (T): time to complete one wave, T = 1/f<br>• Amplitude (A): maximum displacement of a particle from equilibrium<br>• Wave speed (v): v = f λ"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Wave Speed</b><br>Question: A wave has wavelength 0.5 m and frequency 200 Hz. Find wave speed.<br>Solution: v = f λ = 200 × 0.5 = 100 m/s"
+      },
+      {
+        "type": "text",
+        "data": "<b>Reflection, Refraction, Diffraction, and Superposition</b><br>• <b>Reflection:</b> Wave bounces back when hitting a surface. Angle of incidence = angle of reflection<br>• <b>Refraction:</b> Change in direction of wave due to change in speed across mediums<br>• <b>Diffraction:</b> Bending of waves around obstacles or through narrow openings<br>• <b>Superposition:</b> When two waves meet, resulting in constructive or destructive interference"
+      },
+      {
+        "type": "text",
+        "data": "<b>Sound Waves</b><br>• Longitudinal mechanical waves<br>• Properties: frequency, wavelength, speed, amplitude, intensity<br>• Speed in air: v ≈ 331 + 0.6 T (m/s), T in °C<br>• Pitch: depends on frequency<br>• Intensity: power per unit area (I = P/A)<br>• Resonance: when an object vibrates at natural frequency due to external frequency"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Speed of Sound</b><br>Question: Air temperature = 27°C. Find speed of sound.<br>Solution: v = 331 + 0.6 T = 331 + 0.6 × 27 ≈ 347.2 m/s"
+      },
+      {
+        "type": "text",
+        "data": "<b>Doppler Effect</b><br>• Change in frequency of sound due to relative motion between source and observer<br>• f' = f (v ± v_o) / (v ∓ v_s)<br>Where f = source frequency, f' = observed frequency, v = speed of sound, v_o = speed of observer, v_s = speed of source<br>• '+' used when moving towards, '-' when moving away"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Doppler Effect</b><br>Question: Ambulance siren 800 Hz approaches a stationary observer at 30 m/s. Speed of sound = 340 m/s. Find observed frequency.<br>Solution: f' = f (v / (v - v_s)) = 800 × (340 / (340-30)) ≈ 870 Hz"
+      },
+      {
+        "type": "text",
+        "data": "<b>Graphical Representations</b><br>• Waveform diagrams: show crests, troughs, wavelength, amplitude<br>• Sound intensity vs. distance: decreases with square of distance (inverse square law)<br>• Standing wave pattern: nodes and antinodes"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Waves and Sound</b><br>• Musical instruments (resonance, pitch)<br>• Sonar and ultrasound imaging<br>• Communication systems (radio, mobile phones)<br>• Noise control, acoustics in auditoriums<br>• Doppler radar for speed measurement and weather analysis"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define wave, frequency, wavelength, amplitude, and period.<br>2. State differences between transverse and longitudinal waves.<br>3. A wave has speed 120 m/s and wavelength 0.6 m. Find frequency.<br>4. Explain reflection, refraction, diffraction, and superposition with examples.<br>5. Speed of sound in air at 20°C is 343 m/s. Find speed at 30°C.<br>6. A tuning fork of 512 Hz vibrates. Calculate wavelength in air at 25°C.<br>7. Derive formula for Doppler effect for moving source.<br>8. Explain resonance with example.<br>9. Draw waveform showing nodes and antinodes of standing wave.<br>10. Explain applications of sound in daily life and technology."
+      }
+    ]
+  }
+},
+
+//light and optics
+
+{
+  "topic": "Light and Optics",
+  "notes": {
+    "title": "Light and Optics",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition of Light</b><br>Light is electromagnetic radiation that is visible to the human eye and travels in straight lines in a homogeneous medium."
+      },
+      {
+        "type": "text",
+        "data": "<b>Nature of Light</b><br>• <b>Ray model:</b> Light travels in straight lines and can be represented by rays.<br>• <b>Wave model:</b> Light behaves as a wave, explaining interference, diffraction, and polarization.<br>• Light speed in vacuum: c = 3 × 10⁸ m/s"
+      },
+      {
+        "type": "text",
+        "data": "<b>Reflection of Light</b><br>• Laws of reflection: Angle of incidence = angle of reflection; incident ray, reflected ray, and normal lie in the same plane.<br>• Plane mirror: virtual, upright, same size as object.<br>• Spherical mirrors: concave (converging), convex (diverging).<br>• Mirror formula: 1/f = 1/u + 1/v, Magnification: m = -v/u"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Concave Mirror</b><br>Question: Object 10 cm in front of concave mirror of focal length 15 cm. Find image distance and magnification.<br>Solution: 1/f = 1/u + 1/v → 1/15 = 1/(-10) + 1/v → 1/v = 1/15 + 1/10 = 1/6 → v = 6 cm<br>m = -v/u = -6 / -10 = 0.6 (image smaller and upright)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Refraction of Light</b><br>• Bending of light when passing from one medium to another.<br>• Snell’s law: n₁ sin θ₁ = n₂ sin θ₂, where n = refractive index<br>• Critical angle: sin C = n₂/n₁ for total internal reflection<br>• Lenses: convex (converging), concave (diverging)<br>• Lens formula: 1/f = 1/v - 1/u, Magnification: m = v/u"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Convex Lens</b><br>Question: Object 20 cm from convex lens of focal length 10 cm. Find image distance and magnification.<br>Solution: 1/f = 1/v - 1/u → 1/10 = 1/v - 1/(-20) → 1/v = 1/10 - (-1/20) = 1/10 + 1/20 = 3/20 → v = 6.67 cm<br>m = v/u = 6.67 / -20 ≈ -0.33 (image inverted and smaller)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Dispersion and Spectrum</b><br>• Separation of white light into constituent colors due to different refractive indices.<br>• Prism produces visible spectrum (ROYGBIV)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Total Internal Reflection</b><br>• Occurs when light moves from denser to rarer medium at angle > critical angle<br>• Applications: optical fibers, prisms in binoculars, periscopes"
+      },
+      {
+        "type": "text",
+        "data": "<b>Optical Instruments</b><br>• <b>Microscope:</b> Uses two lenses to magnify small objects.<br>• <b>Telescope:</b> Uses lenses or mirrors to view distant objects.<br>• <b>Camera:</b> Uses convex lens to form real image on film or sensor.<br>• <b>Human Eye:</b> Lens adjusts focal length to focus on near/far objects."
+      },
+      {
+        "type": "text",
+        "data": "<b>Wave Optics</b><br>• <b>Interference:</b> Superposition of two coherent light waves producing bright/dark fringes.<br>• <b>Diffraction:</b> Bending of light around edges or slits.<br>• <b>Polarization:</b> Restriction of vibrations of light to one plane."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Refraction through Glass Slab</b><br>Question: Light enters glass slab of n=1.5 at 30° incidence. Find angle of refraction.<br>Solution: n₁ sin θ₁ = n₂ sin θ₂ → 1 × sin 30° = 1.5 × sin θ₂ → 0.5 = 1.5 sin θ₂ → sin θ₂ = 0.333 → θ₂ ≈ 19.5°"
+      },
+      {
+        "type": "text",
+        "data": "<b>Graphical Representations</b><br>• Ray diagrams for plane mirror, concave/convex mirrors<br>• Ray diagrams for convex and concave lenses<br>• Spectrum diagram for dispersion<br>• Interference fringes and diffraction patterns"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Light and Optics</b><br>• Eyeglasses, contact lenses, microscopes, telescopes<br>• Optical fibers for communication<br>• Prisms for dispersion, spectrometry<br>• Cameras, projectors, and laser technology"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define reflection, refraction, dispersion, diffraction, and polarization.<br>2. State laws of reflection.<br>3. Concave mirror: object 12 cm from mirror, f = 8 cm. Find image distance and magnification.<br>4. Convex lens: object 15 cm, f = 10 cm. Find image distance and magnification.<br>5. Calculate critical angle for glass (n=1.5) in air.<br>6. Draw ray diagrams for plane mirror, concave mirror, convex lens.<br>7. Explain total internal reflection and give two applications.<br>8. Describe dispersion of light through a prism.<br>9. Define interference, diffraction, and polarization with examples.<br>10. Explain optical instruments: microscope, telescope, camera, human eye."
+      }
+    ]
+  }
+},
+
+//electrostatics
+
+{
+  "topic": "Electrostatics",
+  "notes": {
+    "title": "Electrostatics",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition</b><br>Electrostatics is the branch of physics that studies stationary electric charges, the forces they exert, and their behavior in electric fields."
+      },
+      {
+        "type": "text",
+        "data": "<b>Electric Charge</b><br>• Two types: Positive (+) and Negative (-)<br>• SI unit: Coulomb (C)<br>• Fundamental charge: e = 1.6 × 10⁻¹⁹ C<br>• Conservation of charge: total charge in an isolated system remains constant<br>• Charging methods: friction, conduction, induction"
+      },
+      {
+        "type": "text",
+        "data": "<b>Coulomb’s Law</b><br>• Force between two point charges: F = k q₁ q₂ / r²<br>• k = 9 × 10⁹ N·m²/C², q₁ and q₂ = charges, r = distance between them<br>• Force is along line joining charges, repulsive for like charges, attractive for unlike charges"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Coulomb’s Law</b><br>Question: Two charges 2 μC and -3 μC are 0.5 m apart. Find the force.<br>Solution: F = k q₁ q₂ / r² = 9×10⁹ × (2×10⁻⁶ × -3×10⁻⁶) / 0.5² = -0.216 N (attractive)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Electric Field (E)</b><br>• Defined as force per unit positive charge: E = F / q<br>• Unit: N/C<br>• Field lines: directed away from positive, toward negative, never cross<br>• For a point charge: E = k Q / r²"
+      },
+      {
+        "type": "text",
+        "data": "<b>Electric Potential (V)</b><br>• Work done to bring unit positive charge from infinity to a point<br>• V = k Q / r<br>• Potential difference: V = W / q, unit = Volt (V)<br>• Equipotential surfaces: surfaces where potential is constant"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Electric Field</b><br>Question: Point charge Q = 5 μC. Find E at 0.2 m away.<br>Solution: E = k Q / r² = 9×10⁹ × 5×10⁻⁶ / 0.2² = 1.125 × 10⁶ N/C"
+      },
+      {
+        "type": "text",
+        "data": "<b>Capacitors</b><br>• Store charge and energy<br>• Capacitance C = Q / V, unit = Farad (F)<br>• Energy stored: U = 1/2 C V²<br>• Parallel: C_total = C₁ + C₂; Series: 1/C_total = 1/C₁ + 1/C₂"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Capacitor</b><br>Question: Capacitor 10 μF charged to 100 V. Find charge stored and energy.<br>Solution: Q = C V = 10×10⁻⁶ × 100 = 1×10⁻³ C<br>U = 1/2 C V² = 0.5 × 10×10⁻⁶ × 10000 = 0.05 J"
+      },
+      {
+        "type": "text",
+        "data": "<b>Conductors and Insulators</b><br>• Conductors: allow free movement of charges (metals, graphite)<br>• Insulators: do not allow free movement (rubber, glass)<br>• Charging by friction: rubbing two insulators transfers electrons<br>• Charging by conduction: touching a charged object<br>• Charging by induction: redistribution of charges without contact"
+      },
+      {
+        "type": "text",
+        "data": "<b>Graphical Representations</b><br>• Electric field lines for point charges, dipoles<br>• Equipotential surfaces around point charge and parallel plates<br>• Capacitor circuit diagrams in series and parallel"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Electrostatics</b><br>• Electrostatic precipitators in industry<br>• Photocopiers, inkjet printers<br>• Van de Graaff generator for high voltage<br>• Capacitors in circuits and energy storage<br>• Lightning rods and protection against electric discharge"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define electrostatics, electric charge, electric field, and electric potential.<br>2. State two types of electric charge and give examples.<br>3. State Coulomb’s law and its formula.<br>4. Two charges 3 μC and -4 μC are 0.2 m apart. Find force.<br>5. Define capacitance. Calculate charge and energy of 20 μF capacitor at 50 V.<br>6. Explain charging by friction, conduction, and induction.<br>7. Draw electric field lines for single positive charge and a dipole.<br>8. Explain equipotential surface and give examples.<br>9. Give two applications of electrostatics in everyday life.<br>10. Derive expression for electric field due to point charge."
+      }
+    ]
+  }
+},
+
+//current electricity 
+
+{
+  "topic": "Current Electricity",
+  "notes": {
+    "title": "Current Electricity",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition</b><br>Current electricity is the flow of electric charge (electrons) in a conductor. It involves movement of charges under the influence of potential difference (voltage)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Electric Current (I)</b><br>• Rate of flow of charge: I = Q / t, unit: Ampere (A)<br>• Direction: conventional current flows from positive to negative<br>• EMF (ε): Maximum potential difference a source can provide, unit: Volt (V)<br>• Potential difference (V): Work done per unit charge, V = W / Q"
+      },
+      {
+        "type": "text",
+        "data": "<b>Ohm’s Law</b><br>• V ∝ I for a conductor at constant temperature<br>• V = IR, R = resistance, unit: Ohm (Ω)<br>• Factors affecting resistance: material, length, cross-sectional area, temperature"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Ohm’s Law</b><br>Question: A resistor of 20 Ω has 2 A current. Find potential difference.<br>Solution: V = IR = 20 × 2 = 40 V"
+      },
+      {
+        "type": "text",
+        "data": "<b>Series and Parallel Circuits</b><br>• <b>Series:</b> I same in all components, V divides, R_total = R₁ + R₂ + ...<br>• <b>Parallel:</b> V same across all components, I divides, 1/R_total = 1/R₁ + 1/R₂ + ..."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Series Resistance</b><br>Question: Three resistors 5 Ω, 10 Ω, 15 Ω in series. Find R_total.<br>Solution: R_total = 5 + 10 + 15 = 30 Ω"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 3: Parallel Resistance</b><br>Question: Resistors 6 Ω and 3 Ω in parallel. Find R_total.<br>Solution: 1/R_total = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 → R_total = 2 Ω"
+      },
+      {
+        "type": "text",
+        "data": "<b>Internal Resistance of a Cell</b><br>• Real cells have internal resistance r<br>• Terminal voltage V = ε - Ir<br>• Reduces current delivered to external circuit"
+      },
+      {
+        "type": "text",
+        "data": "<b>Electric Power and Energy</b><br>• Power: P = VI = I²R = V²/R, unit: Watt (W)<br>• Energy: E = Pt = VI t, unit: Joule (J)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4: Power and Energy</b><br>Question: Current 3 A flows through 10 Ω resistor for 5 min. Find power and energy.<br>Solution: P = I²R = 3² × 10 = 90 W<br>E = P × t = 90 × 5×60 = 27000 J"
+      },
+      {
+        "type": "text",
+        "data": "<b>Heating Effect of Current (Joule’s Law)</b><br>• Heat produced: H = I² R t<br>• Basis for electric heaters, fuses, filament lamps"
+      },
+      {
+        "type": "text",
+        "data": "<b>Graphical Representations</b><br>• V–I graph: straight line through origin for ohmic conductor<br>• Series circuit diagram: resistors in line<br>• Parallel circuit diagram: resistors across same two points"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Current Electricity</b><br>• Electric heaters, electric bulbs, fuses, kettles<br>• Transmission of electricity using series and parallel circuits<br>• Batteries, mobile chargers, electrical gadgets"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define electric current, EMF, potential difference, and resistance.<br>2. State Ohm’s law and formula.<br>3. Resistor 15 Ω, current 2 A. Find V.<br>4. Three resistors 4 Ω, 6 Ω, 12 Ω in series. Find R_total.<br>5. Two resistors 8 Ω and 12 Ω in parallel. Find R_total.<br>6. A cell of ε = 12 V, internal resistance 1 Ω, connected to 5 Ω resistor. Find terminal voltage.<br>7. Find power and energy dissipated by 4 A current through 20 Ω resistor for 10 minutes.<br>8. Explain heating effect of current with example.<br>9. Draw V–I graph of ohmic conductor.<br>10. Give three applications of current electricity in everyday life."
+      }
+    ]
+  }
+},
+
+//magnetism and electromagnetism 
+
+{
+  "topic": "Electromagnetism",
+  "notes": {
+    "title": "Magnetism and Electromagnetism",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition</b><br>Magnetism is the phenomenon associated with magnetic materials, magnetic fields, and the forces they exert. Electromagnetism studies the interaction between electric currents and magnetic fields."
+      },
+      {
+        "type": "text",
+        "data": "<b>Magnetic Field</b><br>• Region where magnetic force can be felt by a magnetic pole or moving charge<br>• Represented by field lines: directed from North to South outside a magnet<br>• Magnetic flux density (B): B = F / (q v sin θ), unit: Tesla (T)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Magnetic Force on a Current</b><br>• F = B I L sin θ, where θ = angle between current and magnetic field, L = length of conductor<br>• Fleming’s left-hand rule for force direction<br>• Torque on current loop: τ = n I A B sin θ"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Magnetic Force</b><br>Question: Conductor 0.5 m in field B = 0.3 T carries 2 A perpendicular to field. Find force.<br>Solution: F = B I L sin θ = 0.3 × 2 × 0.5 × sin 90° = 0.3 N"
+      },
+      {
+        "type": "text",
+        "data": "<b>Biot–Savart Law</b><br>• Magnetic field due to small element of current: dB = μ₀ / (4π) * (I dl × r̂) / r²<br>• For long straight wire: B = μ₀ I / (2π r)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Ampere’s Law</b><br>• ∮ B · dl = μ₀ I_enclosed<br>• Magnetic field around solenoid: B = μ₀ n I, n = turns per unit length"
+      },
+      {
+        "type": "text",
+        "data": "<b>Electromagnets and Solenoids</b><br>• Solenoid: coil of wire producing magnetic field when current flows<br>• Electromagnet: solenoid with soft iron core to enhance field<br>• Applications: relays, electric bells, MRI machines"
+      },
+      {
+        "type": "text",
+        "data": "<b>Electromagnetic Induction</b><br>• Faraday’s law: Induced EMF = -dΦ/dt<br>• Lenz’s law: Induced current opposes change causing it<br>• Applications: electric generators, transformers, induction cookers"
+      },
+      {
+        "type": "text",
+        "data": "<b>Self-Induction and Mutual Induction</b><br>• Self-induction: EMF induced in same coil due to changing current<br>• Mutual induction: EMF induced in secondary coil due to changing current in primary coil<br>• Inductance L = Φ / I, unit: Henry (H)"
+      },
+      {
+        "type": "text",
+        "data": "<b>AC and DC Generators</b><br>• DC generator: commutator ensures unidirectional current<br>• AC generator: slip rings allow alternating current<br>• EMF: E = NABω sin ωt, where N = turns, A = area, B = flux density, ω = angular speed"
+      },
+      {
+        "type": "text",
+        "data": "<b>Transformers</b><br>• Step-up: V_s > V_p; Step-down: V_s < V_p<br>• V_s / V_p = N_s / N_p, I_p V_p = I_s V_s (ideal transformer)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Electromagnetic Induction</b><br>Question: Solenoid with 100 turns, area 0.01 m², B changes from 0 to 0.5 T in 0.1 s. Find induced EMF.<br>Solution: E = - N dΦ/dt = -100 × (0.01 × 0.5 - 0) / 0.1 = -5 V"
+      },
+      {
+        "type": "text",
+        "data": "<b>Graphical Representations</b><br>• Magnetic field lines of bar magnet, solenoid<br>• Induced EMF vs. time graph for AC generator<br>• Field around current-carrying wire and loop"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Magnetism and Electromagnetism</b><br>• Electric motors, generators, transformers<br>• Relays, electric bells, MRI machines<br>• Magnetic storage devices, magnetic levitation<br>• Induction cookers, wireless charging"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define magnetism, magnetic field, and electromagnetism.<br>2. State Biot–Savart law and Ampere’s law.<br>3. Calculate magnetic force on 0.3 m conductor carrying 5 A in 0.2 T field perpendicular to current.<br>4. Explain Lenz’s law and Faraday’s law with example.<br>5. Calculate induced EMF in solenoid with 50 turns, area 0.02 m², B changes from 0.1 T to 0.5 T in 0.2 s.<br>6. Draw field lines of bar magnet and solenoid.<br>7. Explain AC and DC generators with diagrams.<br>8. Derive formula for magnetic field at center of circular loop.<br>9. Give three applications of electromagnets.<br>10. Explain step-up and step-down transformers with formula."
+      }
+    ]
+  }
+},
+
+//modern physics
+
+{
+  "topic": "Modern Physics",
+  "notes": {
+    "title": "Modern Physics",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition</b><br>Modern physics deals with phenomena that classical physics cannot explain. It includes studies of atomic structure, quantum theory, nuclear physics, radioactivity, and the interaction of matter and energy at subatomic scales. It explains effects such as photoelectric emission, atomic spectra, and nuclear reactions."
+      },
+      {
+        "type": "text",
+        "data": "<b>Atomic Structure</b><br>• <b>Rutherford Model:</b> Atom has a dense positively charged nucleus containing protons and neutrons, electrons move around nucleus.<br>• Limitations: Could not explain stability of atom or discrete spectral lines.<br>• <b>Bohr Model:</b> Electrons occupy discrete energy levels (n=1,2,3...). Energy of electron: E_n = -13.6/n² eV (hydrogen atom).<br>• <b>Electronic Configuration:</b> Arrangement of electrons in shells follows Aufbau principle, Pauli exclusion principle, and Hund's rule."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 1: Bohr Model Energy Level</b><br>Question: An electron in hydrogen atom jumps from n=4 to n=2. Find energy of photon emitted.<br>Solution: E = R (1/n_2² - 1/n_1²), R = 2.18×10⁻¹⁸ J<br>E = 2.18×10⁻¹⁸ (1/2² - 1/4²) = 2.18×10⁻¹⁸ (1/4 - 1/16) = 3.28×10⁻¹⁹ J<br>Photon energy = 3.28×10⁻¹⁹ J"
+      },
+      {
+        "type": "text",
+        "data": "<b>Quantum Theory</b><br>• Light exhibits particle-like behavior: photon.<br>• Energy of photon: E = hν = hc/λ, where h = Planck constant = 6.63×10⁻³⁴ J·s.<br>• <b>Photoelectric Effect:</b> Electrons are emitted from a metal surface when exposed to light above threshold frequency.<br>• Einstein’s Equation: K_max = hν - φ, where φ = work function (minimum energy to remove electron).<br>• Important observations: <br>1. No electrons emitted if ν < ν₀<br>2. K_max independent of light intensity<br>3. Current proportional to number of incident photons"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 2: Photoelectric Effect</b><br>Question: Light of frequency 6×10¹⁴ Hz shines on metal with work function φ = 2 eV. Find maximum kinetic energy of emitted electrons.<br>Solution: E_photon = hν = 6.63×10⁻³⁴ × 6×10¹⁴ = 3.978×10⁻¹⁹ J<br>φ = 2 eV = 3.2×10⁻¹⁹ J<br>K_max = E_photon - φ = 3.978×10⁻¹⁹ - 3.2×10⁻¹⁹ = 0.778×10⁻¹⁹ J"
+      },
+      {
+        "type": "text",
+        "data": "<b>Nuclear Physics</b><br>• Nucleus: small dense center of atom containing protons and neutrons.<br>• <b>Mass Defect:</b> Difference between sum of nucleon masses and actual nucleus mass: Δm = (Z m_p + N m_n) - m_nucleus<br>• <b>Binding Energy:</b> Energy required to disassemble nucleus into protons and neutrons: E_b = Δm c² (in MeV).<br>• <b>Worked Example 3:</b> Nucleus mass 3.016 u, Z=2, N=2, proton mass 1.007 u, neutron mass 1.009 u. Δm = 0.014 u, E_b = 0.014×931 = 13.03 MeV"
+      },
+      {
+        "type": "text",
+        "data": "<b>Radioactivity</b><br>• <b>Alpha decay:</b> emission of α-particle (2p + 2n)<br>• <b>Beta decay:</b> emission of e⁻ (β-) or e⁺ (β+)<br>• <b>Gamma decay:</b> emission of γ-rays, high energy photons<br>• <b>Half-life (t_½):</b> Time for half of radioactive nuclei to decay. t_½ = 0.693/λ<br>• <b>Decay Constant (λ):</b> Probability of decay per unit time, N = N₀ e^-λt"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4: Radioactive Decay</b><br>Question: Sample t_½ = 5 days. Initial mass 100 g. Find remaining after 15 days.<br>Solution: N = N₀ (1/2)^(t/t_½) = 100 × (1/2)^(15/5) = 100 × (1/2)^3 = 12.5 g"
+      },
+      {
+        "type": "text",
+        "data": "<b>Nuclear Reactions</b><br>• <b>Fission:</b> Splitting of heavy nucleus (e.g., U-235) into smaller nuclei, releasing neutrons and energy<br>• <b>Fusion:</b> Combination of light nuclei (e.g., H isotopes) to form heavier nucleus, releasing energy<br>• Applications: nuclear power plants, nuclear weapons, medical isotopes"
+      },
+      {
+        "type": "text",
+        "data": "<b>Graphical Representations</b><br>• Energy level diagram for Bohr atom showing electron transitions<br>• Photoelectric effect: Current vs Frequency graph<br>• Radioactive decay curve: N vs Time<br>• Fission and fusion reaction schematic diagrams"
+      },
+      {
+        "type": "text",
+        "data": "<b>Applications of Modern Physics</b><br>• Nuclear power generation<br>• X-ray imaging, PET scans, radiation therapy<br>• Radiocarbon dating, radioactive tracers<br>• Lasers, semiconductors, solar cells<br>• Photoelectric devices, solar panels, sensors"
+      },
+      {
+        "type": "text",
+        "data": "<b>Additional Worked Example 5: Photon Energy and Wavelength</b><br>Question: Calculate wavelength of photon emitted when 2.0 eV energy is released.<br>Solution: E = hc/λ → λ = hc/E = (6.63×10⁻³⁴ × 3×10⁸) / (2.0×1.602×10⁻¹⁹) ≈ 6.2×10⁻⁷ m = 620 nm"
+      },
+      {
+        "type": "text",
+        "data": "<b>Additional Worked Example 6: Binding Energy per Nucleon</b><br>Question: Helium-4 nucleus has binding energy 28.3 MeV. Find binding energy per nucleon.<br>Solution: Number of nucleons = 4, E_b/nucleon = 28.3/4 = 7.075 MeV"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define modern physics and explain its importance.<br>2. Describe Rutherford and Bohr atomic models.<br>3. Calculate photon energy for light λ = 500 nm.<br>4. Light frequency 8×10¹⁴ Hz, φ = 2.5 eV. Find maximum kinetic energy of electrons.<br>5. Explain mass defect and binding energy with example.<br>6. A radioactive sample t_½ = 5 days, initial 100 g. Find remaining after 15 days.<br>7. Distinguish alpha, beta, and gamma decay.<br>8. Explain fission and fusion with examples.<br>9. Draw energy level diagram for hydrogen atom.<br>10. Calculate wavelength of photon emitted if 2 eV energy released.<br>11. Find binding energy per nucleon for Helium-4 with total E_b = 28.3 MeV.<br>12. Give five practical applications of modern physics."
+      }
+    ]
+  }
+}
+
+
+  
+
+
+  
   
 ],
 
 "Literature": [
+  
+  //introduction to literature in English 
+{ 
+  "topic": "Introduction to Literature", 
+  "notes": { 
+    "title": "Comprehensive Guide to Introduction to Literature in English for WAEC and JAMB", 
+    "content": [
+{ 
+  "type": "text", 
+  "data": "<b>Definition:</b>\nLiterature is written works, especially those considered of superior or lasting artistic merit. It includes poetry, prose, drama, and other forms of creative writing. Literature reflects the human experience, conveying emotions, ideas, and cultures through imaginative language." 
+  
+},
+{ 
+  "type": "text", 
+  "data": "<b>Importance:</b>\n- Literature helps us understand human experiences and emotions, fostering empathy and self-awareness.\n- It develops critical thinking and analytical skills, enabling readers to interpret and evaluate complex texts.\n- Literature exposes us to different cultures, places, and times, broadening our perspectives and understanding of the world.\n- It enhances language skills and vocabulary, improving communication and expression." 
+  
+},
+{ 
+  "type": "text", 
+  "data": "<b>Genres of Literature:</b>\n1. <b>Prose:</b> Novels, short stories, essays, and other forms of written work that use ordinary language.\n2. <b>Poetry:</b> Verse, poems, sonnets, and other forms of written work that use aesthetic and often symbolic language.\n3. <b>Drama:</b> Plays, scripts, and other forms of written work intended for performance." 
+  
+},
+{ 
+  "type": "text",
+  "data": "<b>Popular Works of Literature:</b>\n1. <b>Prose:</b> Things Fall Apart by Chinua Achebe, Animal Farm by George Orwell, The Stranger by Albert Camus, \n2. <b>Poetry:</b> The Waste Land by T.S. Eliot, The Poems of W.B. Yeats, The Sun Rising by John Donne, The leader and the led by Niyi Osundare, Night by Wole Soyinka\n3. <b>Drama:</b> A Doll's House by Henrik Ibsen, Death and the King's Horseman by Wole Soyinka, Hamlet by William Shakespeare" 
+  
+},
+{ "type": "text", "data": "<b>Analysis of Literary Works:</b>\n- Identify themes, characters, plot, setting, and literary devices.\n- Understand the author's purpose and message.\n- Make inferences and draw conclusions based on the text.\n- Consider the historical and cultural context of the work." },
+{ "type": "text", "data": "<b>Tips for WAEC and JAMB:</b>\n- Read widely and critically, exploring different genres and authors.\n- Analyze texts carefully, identifying literary devices and techniques.\n- Practice writing essays and answering questions on literary works, developing clear arguments and supporting evidence.\n- Discuss literature with peers and teachers, deepening understanding and gaining new insights." }
+] 
+    
+ } 
+  
+},
+
   
 //literary devices
 
@@ -5884,7 +9522,7 @@ window.studyData = {
 },
 
 
-//themes and 
+//themes and moral lessons
 
 {
   "topic": "Themes and Moral Lessons",
@@ -6032,7 +9670,7 @@ window.studyData = {
 //Shakespeare's Anthony and Cleopatra 
 
 {
-  "topic": "Shakespeare – Antony and Cleopatra",
+  "topic": "Antony and Cleopatra",
   "notes": {
     "title": "Literary Analysis of Antony and Cleopatra (Shakespeare) for WAEC & JAMB",
     "content": [
@@ -6092,10 +9730,12 @@ window.studyData = {
   }
 },
 
+//Non-African drama starts here
+
 //An inspector calls
 
 {
-  "topic": "Non‑African Drama - An Inspector calls",
+  "topic": "An Inspector calls",
   "notes": {
     "title": "Detailed Analysis of An Inspector Calls",
     "content": [
@@ -6139,18 +9779,37 @@ window.studyData = {
         "type": "text",
         "data": "<b>An Inspector Calls — Exam Tips (WAEC / JAMB)</b>\n1. When answering character-analysis, highlight how each Birling family member contributes to Eva’s fate — give examples.  \n2. For theme essays, use the Inspector’s speeches and Eva’s story to discuss social responsibility.  \n3. In context/objective questions, be ready to explain the significance of the phone call at the end and the ambiguity of the Inspector.  \n4. Use symbolism (light, photograph) to strengthen your argument in essays.  \n5. Relate the play’s moral message to broader societal issues — this helps in application-based exam questions."
       },
+    ]
+  }
+},
+
+//A man for all seasons
+
+{
+  "topic": "A man for all seasons",
+  "notes": {
+    "title": "Detailed Analysis of A man for all seasons",
+    "content": [
       {
         "type": "text",
         "data": "<b>A Man for All Seasons — Author & Background</b>\nRobert Bolt (1924–1995) was an English playwright and screenwriter. *A Man for All Seasons* is a historical drama first performed in 1960, dramatizing the life of Sir Thomas More, his moral conflict, and his refusal to betray his conscience for political gain. 26"
       },
       {
         "type": "text",
-        "data": "<b>A Man for All Seasons — Setting</b>\nThe play is set in 16th-century England, during the reign of King Henry VIII. Key historical moments include the Act of Supremacy, which made Henry VIII head of the Church of England. 27  \nThe protagonist, Sir Thomas More, is embroiled in political and religious tension as he resists signing the Act, adhering to his conscience and Catholic faith. 28"
+        "data": "<b>A Man for All Seasons — Setting</b>\nThe play is set in 16th-century England, during the reign of King Henry VIII. Key historical moments include the Act of Supremacy, which made Henry VIII head of the Church of England.  \nThe protagonist, Sir Thomas More, is embroiled in political and religious tension as he resists signing the Act, adhering to his conscience and Catholic faith."
       },
+      
+      //detailed summary
       {
         "type": "text",
-        "data": "<b>A Man for All Seasons — Detailed Summary</b>\nSir Thomas More, a respected lawyer and man of principle, faces pressure from King Henry VIII and his advisors to endorse the Act of Supremacy, which would make the King the head of the Church of England. More refuses, based on his religious convictions and his moral integrity. 29  \n\nMore’s family and friends try to persuade him to relent, but he remains steadfast: he believes that a man’s conscience is more important than power or safety. 30  \n\nHe resigns from his role as Lord Chancellor rather than compromise. Meanwhile, Thomas Cromwell (the King’s minister) and Richard Rich plot against him. More is eventually arrested and put on trial: Rich lies, saying that More denied the King’s title, when in fact More simply refused to sign. 31  \n\nMore is found guilty of treason and executed in 1535. Throughout the play, the “Common Man” character comments to the audience, reflecting on how ordinary people serve and witness great political events, often complicitly. 32"
+        "data": "<b>A Man for All Seasons — Detailed Summary</b>\n<b>Act 1 Summary</b>\nThe play opens with the Common Man, a narrator who breaks the fourth wall, introducing the audience to the world of 16th-century England. He's dressed in black and complains about being chosen to introduce a play about royalty and nobility. \nThe scene shifts to Thomas More's house, where More and Richard Rich are debating whether every man has his price. Rich believes that everyone can be bribed, while More argues that some things are priceless. More offers Rich a teaching position, but Rich declines, hoping to gain a more lucrative post through his connections with Cardinal Wolsey.\nMore's family, including his wife Alice and daughter Margaret, enter, and Rich tries to ingratiate himself with them. The Duke of Norfolk announces that Cromwell has become Cardinal Wolsey's secretary, and Rich admits he likes Cromwell.\nA letter arrives from Wolsey, summoning More to a meeting. More's family prays together, and he prepares to leave.\nThe scene changes to Hampton Court, where Cromwell and Rich discuss their plans to manipulate More. Rich accepts a position as Collector of Revenues for York Diocese in exchange for information about More.\nThe Common Man reappears, setting the stage for More's meeting with Wolsey. Wolsey asks More to support the King's divorce from Catherine of Aragon, but More refuses, citing his conscience.\nThe King arrives, and More's family tries to hide his absence. The King flirts with Margaret and praises her intelligence, but is unhappy when she proves better at Latin than he is.\nThe scene ends with More's family searching for him, as the King prepares to visit their home."
+    
       },
+
+{
+"type": "text",
+"data": "<b>Act 2 Summary</b>\nThe scene opens with the Common Man introducing the audience to the next part of the story. Thomas More is now the Lord Chancellor of England, and his conflict with King Henry VIII is escalating.\nMore's home is visited by the Duke of Norfolk and Chapuis, the Spanish ambassador, who try to persuade More to support the King's divorce from Catherine of Aragon. More refuses, citing his conscience and the law.\nThe scene shifts to the Parliament, where More resigns as Lord Chancellor, citing ill health. The King visits More's home, still trying to persuade him to support his divorce. More remains firm, and the King leaves in anger.\nCromwell, now the King's chief advisor, orders More's arrest on charges of accepting bribes. More is taken away, and his family is left to worry about his fate.\nThe scene changes to the Council Chamber, where More is interrogated by Cromwell and the King. More refuses to answer questions about his opposition to the King's divorce, citing his conscience and the law.\nThe scene ends with More's family visiting him in prison, where he's being held indefinitely without trial.\nMore's family is desperate to save him, and his daughter Margaret tries to persuade him to swear to the Oath of Supremacy, recognizing the King as the head of the Church of England. More refuses, knowing it would go against his conscience and the Pope's authority.\nThe tension builds as More's fate hangs in the balance, and the story moves towards its climax with More's trial, where he is charged with treason and ultimately found guilty. Despite his eloquent defense, More is sentenced to death, but in the end, he is beheaded, becoming a martyr for his faith and his principles."
+},
       {
         "type": "text",
         "data": "<b>A Man for All Seasons — Characters</b>\n- <b>Sir Thomas More</b>: The protagonist, a man of conscience and principle.  \n- <b>The Common Man</b>: A narrator / everyman character who switches roles (boatman, executioner, jailer), symbolizing ordinary people’s complicity.  \n- <b>Thomas Cromwell</b>: The scheming minister who manipulates legal and political power.  \n- <b>Richard Rich</b>: Ambitious, betrays More under pressure.  \n- <b>King Henry VIII</b>: Demands More’s support for his religious and political reforms.  \n- <b>Margaret More</b>: More’s daughter, concerned for her father but respects his principles."
@@ -6179,10 +9838,375 @@ window.studyData = {
   }
 },
 
+//Non-African drama ends here
+
+
+
+//African drama
+
+//once upon an elephant 
+
+{
+"topic": "Once Upon an Elephant",
+"notes": {
+"title": "Detailed Analysis of Once Upon an Elephant",
+"content": [
+{
+"type": "text",
+"data": "<b>Once Upon an Elephant — Author & Background</b>\nBosede Ademilua-Afolayan is a Nigerian playwright known for her exploration of social issues and cultural themes. Once Upon an Elephant is a play that delves into the complexities of power, tradition, and social change in a Nigerian context. The play's narrative is woven around the intricate relationships between characters and their struggles with identity, power, and morality."
+},
+{
+"type": "text",
+"data": "<b>Once Upon an Elephant — Setting</b>\nThe play is set in a traditional Nigerian society, where cultural values and power dynamics are central to the narrative. The setting is crucial in understanding the characters' motivations and actions, as it reflects the societal norms and expectations that govern their lives."
+},
+{
+"type": "text",
+"data": "<b>Once Upon an Elephant — Plot Summary</b>\nThe play revolves around the story of a king who is struggling to maintain his power and relevance in a rapidly changing society. The king's daughter, the princess, is a strong-wild character who is navigating the complexities of tradition and personal desire. The plot thickens as the king's power is challenged by external forces, leading to a confrontation that exposes the underlying tensions in the society."
+},
+{
+"type": "text",
+"data": "<b>Detailed Summary</b>\n<b>Act 1 Summary</b>\nThe play opens with the introduction of the king, a traditional ruler struggling to maintain his power and relevance in a rapidly changing society. The king is shown to be grappling with the challenges of modernity, as his people begin to question his authority and the traditional ways of doing things. The king's daughter, the princess, is introduced as a strong-wild character who is navigating the complexities of tradition and personal desire. The princess is shown to be educated and modern, and her views often clash with those of her father. The act ends with the king's announcement of his decision to send the princess to a neighboring kingdom to marry a prince, a decision that is meant to strengthen the king's alliances and secure his power."
+},
+{
+"type": "text",
+"data": "<b>Act 2 Summary</b>\nThe second act explores the tensions between the king and the princess. The princess is shown to be resistant to the idea of marrying the prince, and she expresses her desire to pursue her own goals and ambitions. The king is adamant that the princess must obey him, and he uses his power to try to control her. The act also introduces the character of the commoner, a young man who is in love with the princess and is willing to challenge the king's authority to be with her. The act ends with the princess's decision to defy her father and pursue her own path, leading to a confrontation with the king."
+},
+{
+"type": "text",
+"data": "<b>Act 3 Summary</b>\nThe final act is a climax of the tensions and conflicts that have been building throughout the play. The king's power is challenged by the commoner, who accuses him of being out of touch with the people and their needs. The princess also confronts her father, telling him that she will not be forced into a marriage that she does not want. The king is faced with the reality of his own irrelevance and the changing times, and he is forced to confront his own mortality. The play ends with the king's realization that he must adapt to the changing times and allow his daughter to pursue her own path, symbolizing a new era of progress and change."
+},
+{
+"type": "text",
+"data": "<b>Once Upon an Elephant — Characters</b>\n- <b>The King</b>: A traditional ruler struggling with the changing times. He is a complex character with a deep sense of duty and responsibility, but also a desire to maintain his power and status.\n- <b>The Princess</b>: A strong-wild character navigating tradition and personal desire. She is a symbol of hope and change, but also a source of conflict and tension.\n- <b>The Commoners</b>: Representing the voice of the people and social change. They are the backbone of the society, but also the ones who are most affected by the power struggles of the elite."
+},
+{
+"type": "text",
+"data": "<b>Once Upon an Elephant — Themes</b>\n1. <b>Tradition vs Change</b>: The play explores the tension between traditional values and modernity. The king's struggle to maintain his power is a metaphor for the broader societal struggle to adapt to changing times.\n2. <b>Power Dynamics</b>: Examines power structures and their impact on individuals and society. The play highlights the ways in which power can be used and abused, and the consequences of such actions.\n3. <b>Social Change</b>: Reflects on the challenges and opportunities of social transformation. The play suggests that social change is necessary, but it must be approached with caution and sensitivity."
+},
+{
+"type": "text",
+"data": "<b>Once Upon an Elephant — Symbols & Motifs</b>\n- <b>The Elephant</b>: Symbolizes power, strength, and tradition. The elephant is a revered animal in Nigerian culture, and its presence in the play is a reminder of the importance of respecting tradition and cultural heritage.\n- <b>The Forest</b>: Represents the unknown and the space for change. The forest is a symbol of the untamed and the unpredictable, and it serves as a backdrop for the characters' journeys of self-discovery and transformation."
+},
+{
+"type": "text",
+"data": "<b>Once Upon an Elephant — Style and Language</b>\n- The play uses a mix of traditional and modern language, reflecting the cultural context. The language is rich and poetic, with a strong emphasis on imagery and symbolism.\n- The play's structure is non-linear, with multiple narrative threads and flashbacks. This structure adds to the complexity and depth of the narrative, and allows the audience to piece together the story in a non-linear fashion."
+},
+{
+"type": "text",
+"data": "<b>Once Upon an Elephant — Moral / Lessons</b>\n- The importance of adapting to change while respecting tradition. The play suggests that social change is necessary, but it must be approached with caution and sensitivity.\n- The need for social change and the empowerment of marginalized voices. The play highlights the importance of giving voice to the voiceless and empowering those who are marginalized or oppressed."
+},
+{
+"type": "text",
+"data": "<b>Once Upon an Elephant — Exam Tips (WAEC / JAMB)</b>\n1. Focus on themes of tradition, power, and social change in essays. Be sure to provide specific examples from the play to support your arguments.\n2. Analyze character development and symbolism in context questions. Pay attention to the ways in which the characters evolve and grow throughout the play, and how the symbols and motifs contribute to the overall meaning of the narrative.\n3. Discuss the play's relevance to contemporary Nigerian society. Think about how the themes and issues raised in the play are still relevant today, and how they can be applied to real-life situations."
+},
+{
+  type: "text",
+  data: "<b>Practice questions:</b>\n1. Describe the character of the king in Once Upon an Elephant. (150 words)\n2. Discuss the theme of tradition vs. modernity in the play. (250 words)\n3. Analyze the role of the commoner in the play. (150 words)\n4. The king's struggle to maintain his power is a metaphor for the broader societal struggle to adapt to changing times. Discuss this statement in relation to Once Upon an Elephant. (450 words)\n5. Examine the portrayal of women in Once Upon an Elephant. How does the princess's character contribute to the play's themes? (450 words)\nOnce Upon an Elephant is a play about the complexities of power and tradition. Discuss this statement in relation to the play's themes and characters. (450 words)"
+}
+]
+}
+},
+
+//The marriage of Anansewa
+
+{
+"topic": "The Marriage of Anansewa",
+"notes": {
+"title": "Detailed Analysis of The Marriage of Anansewa",
+"content": [
+{
+"type": "text",
+"data": "<b>The Marriage of Anansewa — Author & Background</b>\nEfua Sutherland (1924-1996) was a Ghanaian playwright, director, and writer. The Marriage of Anansewa is a play that combines elements of traditional Ghanaian folklore with modern themes and styles. The play is based on a traditional Ghanaian folktale about Ananse, a trickster figure who is known for his cunning and cleverness."
+},
+{
+"type": "text",
+"data": "<b>The Marriage of Anansewa — Setting</b>\nThe play is set in a traditional Ghanaian village, where Ananse, the trickster, lives with his wife, Anansewa, and their children. The setting is crucial in understanding the characters' motivations and actions, as it reflects the societal norms and expectations of the community."
+},
+{
+"type": "text",
+"data": "<b>The Marriage of Anansewa — Plot Summary</b>\nThe play tells the story of Ananse, a poor but cunning trickster who is seeking to marry his daughter, Anansewa, to a wealthy chief. Ananse's plan is to use Anansewa's beauty and charm to secure a wealthy husband and improve his own financial situation. However, things become complicated when Anansewa falls in love with a young man who is not chosen by her father. The play explores themes of love, family, and social class, as well as the consequences of Ananse's trickery and deception."
+},
+{
+"type": "text",
+"data": "<b>Detailed Summary</b>\n<b>Act 1 Summary</b>\nThe play opens with Ananse, a poor but cunning trickster, introducing himself and his family to the audience. Ananse's wife, Mother, and their daughter, Anansewa, are also introduced. Ananse explains that he is seeking to marry Anansewa to a wealthy chief, and he is willing to do whatever it takes to make this happen. Ananse's friend, Akufo, brings news of a wealthy chief who is looking for a wife, and Ananse sees this as an opportunity to improve his financial situation. Ananse and Akufo concoct a plan to present Anansewa as a potential bride to the chief."
+},
+{
+"type": "text",
+"data": "<b>Act 2 Summary</b>\nThe second act takes place at the chief's palace, where Ananse and Akufo are presenting Anansewa as a potential bride. Anansewa is shown to be a beautiful and intelligent young woman, and the chief is impressed with her. However, Anansewa is not interested in marrying the chief and is instead in love with a young man named Kweku. Ananse is determined to go through with the marriage, despite Anansewa's protests. The act ends with the chief agreeing to marry Anansewa, and Ananse's plan appearing to be successful."
+},
+{
+"type": "text",
+"data": "<b>Act 3 Summary</b>\nThe third act takes place on the day of the wedding, where Anansewa is to be married to the chief. However, Kweku and his friends intervene, and Anansewa reveals that she does not want to marry the chief. The chief is angry and feels deceived by Ananse, and Ananse's plan is exposed. The act ends with Anansewa and Kweku reuniting, and Ananse being left to face, having learned a valuable lesson about the dangers of greed and deception."
+},
+{
+"type": "text",
+"data": "<b>The Marriage of Anansewa — Characters</b>\n<b>Ananse</b>: The trickster and protagonist of the play, Ananse is a cunning and clever character who is driven by his desire for wealth and status.\n<b>Anansewa</b>: Ananse's daughter, Anansewa is a beautiful and intelligent young woman who is caught between her love for her father and her own desires.\n<b>Mother</b>: Ananse's wife and Anansewa's mother, Mother is a strong and wise character who tries to keep her family together despite Ananse's antics.\n<b>Kweku</b>: A young man who is in love with Anansewa, Kweku is a kind and determined character who is willing to challenge Ananse's plans to marry Anansewa to the chief.\n<b>The Chief</b>: A wealthy and powerful man who is seeking to marry Anansewa, The Chief is a complex character who is driven by his own desires and ambitions."
+},
+{
+"type": "text",
+"data": "<b>The Marriage of Anansewa — Themes</b>\n1. <b>Love vs. Materialism</b>: The play explores the tension between love and materialism, as Ananse's desire for wealth and status is pitted against Anansewa's desire for love and happiness.\n2. <b>Family and Community</b>: The play highlights the importance of family and community in traditional Ghanaian society, as well as the consequences of Ananse's individualism and selfishness.\n3. <b>Trickery and Deception</b>: The play showcases Ananse's cunning and cleverness, but also explores the consequences of his trickery and deception."
+},
+{
+"type": "text",
+"data": "<b>The Marriage of Anansewa — Style and Language</b>\n- The play uses a mix of traditional Ghanaian language and modern English, reflecting the cultural context.\n- The play's structure is non-linear, with multiple narrative threads and can be seen as a form of oral storytelling."
+},
+{
+"type": "text",
+"data": "<b>The Marriage of Anansewa — Moral / Lessons</b>\n- The play highlights the importance of honesty and integrity, as Ananse's deception ultimately leads to his downfall.\n- The play also emphasizes the importance of family and community, as well as the need for individuals to prioritize their relationships with others."
+},
+{
+"type": "text",
+"data": "<b>The Marriage of Anansewa — Exam Tips (WAEC / JAMB)</b>\n1. Focus on themes of love, family, and social class in essays.\n2. Analyze character development and symbolism in context questions.\n3. Discuss the play's use of traditional Ghanaian folklore and its significance in the context of African literature."
+},
+{
+"type": "text",
+"data": "<b>The Marriage of Anansewa — Evaluation questions</b>\n1. Discuss the character of Ananse and how he drives the plot of the play.\n2. Analyze the theme of love and marriage in the play, focusing on Anansewa's relationships with Kweku and the Chief.\n3. Examine the use of traditional Ghanaian folklore in the play, particularly the character of Ananse as a trickster figure.\n4. Discuss the portrayal of women in the play, focusing on the characters of Anansewa and Mother.\n5. Analyze the symbolism of the marriage in the play, exploring its significance in the context of the story."
+}
+
+
+]
+}
+},
+
+
+//african prose
+
+//redemption road 
+{
+"topic": "Redemption Road",
+"notes": {
+"title": "Detailed Analysis of Redemption Road",
+"content": [
+{
+"type": "text",
+"data": "<b>Redemption Road — Author & Background</b>\nElma Shaw is a Liberian-American author and human rights advocate. Redemption Road is a novel that tells the story of a young Liberian woman's journey to find her place in the world amidst the ravages of war and personal tragedy."
+},
+{
+"type": "text",
+"data": "<b>Redemption Road — Setting</b>\nThe novel is set in Liberia, West Africa, and the United States, spanning several decades from the 1980's to the early 2000's. The setting is crucial in understanding the characters' motivations and actions, as it reflects the societal norms and expectations of the community."
+},
+{
+"type": "text",
+"data": "<b>Redemption Road — Plot Summary</b>\nThe novel tells the story of Helene, a young Liberian woman who is forced to flee her home due to the civil war. Helene's journey is marked by trauma, loss, and resilience as she navigates the complexities of war, culture, and identity. The novel explores themes of survival, redemption, and the power of human relationships."
+},
+
+{
+  type: "text",
+  data: "<b>Part 1 Summary</b>\nThe novel opens with Helene, a young Liberian woman, living in a refugee camp in Ghana. Helene's past is marked by trauma and loss, and she is struggling to come to terms with her new reality. As Helene navigates the complexities of refugee life, she begins to find solace in her relationships with others, including a young American woman named Samantha. Samantha is a volunteer at the refugee camp, and she is drawn to Helene's strength and resilience. As Helene and Samantha form a bond, Helene begins to open up about her past and her dreams for the future.\nHelene's past is marked by violence and tragedy. She grew up in Liberia, where she was forced to flee her home due to the civil war. Helene's family was killed, and she was left to fudge for herself. Helene's experiences are a testament to the resilience of the human spirit, and her story is a powerful reminder of the impact of war on individuals and communities.\nAs Helene navigates the refugee camp, she begins to find ways to cope with her trauma. Helene becomes involved in a women's group, where she finds solace in sharing her story and hearing the stories of others. Helene's experiences in the refugee camp are marked by moments of beauty and joy, as she forms connections with others who have experienced similar traumas.\n<b>Part 2 Summary</b>\nHelene is given the opportunity to resettle in the United States, where she faces new challenges and opportunities. As Helene navigates American culture, she begins to confront her past and find a sense of belonging. Helene's relationships with Samantha and others become a source of strength and support as she works to build a new life.\nHelene's experiences in the United States are marked by culture shock and adjustment. She struggles to navigate the complexities of American culture, and she faces challenges in her daily life. Despite these challenges, Helene is determined to make a new life for herself, and she works hard to learn new skills and build relationships.\nAs Helene settles into her new life, she begins to confront her past and find ways to heal. Helene's experiences in the United States are marked by moments of beauty and joy, as she forms connections with others and finds ways to give back to her community.\n<b>Part 3 Summary</b>\nHelene's past and present begin to intersect in unexpected ways, forcing her to confront the traumas of her past. As Helene works to find redemption and healing, she must also navigate the complexities of forgiveness and reconciliation. Helene's journey is marked by moments of beauty and brutality, as she confronts the demons of her past and finds ways to move forward.\nHelene's experiences in this section are marked by a sense of closure and healing. She is able to confront her past and find ways to forgive those who have hurt her. Helene's journey is a testament to the power of resilience and the human spirit, and her story is a powerful reminder of the importance of forgiveness and reconciliation.\nThe novel ends with Helene finding a sense of peace and closure. She is able to look to the future with hope and optimism, and she is grateful for the relationships and experiences that have shaped her life."
+},
+
+{
+"type": "text",
+"data": "<b>Redemption Road — Characters</b>\n<b>Helene</b>: The protagonist of the novel, Helene is a young Liberian woman who is forced to flee her home due to the civil war. Helene's journey is marked by trauma, loss, and resilience.\n<b>Samantha</b>: A young American woman who becomes Helene's friend and supporter, Samantha is a complex character who is struggling to find her own place in the world.\n<b>Joseph</b>: Helene's husband, Joseph is a complex character who is struggling to come to terms with his own past and his role in the civil war."
+},
+{
+"type": "text",
+"data": "<b>Redemption Road — Themes</b>\n1. <b>Survival and Resilience</b>: The novel explores the theme of survival and resilience in the face of trauma and adversity.\n2. <b>Redemption and Forgiveness</b>: The novel highlights the importance of redemption and forgiveness in the healing process.\n3. <b>Identity and Belonging</b>: The novel explores the theme of identity and belonging, as Helene navigates multiple cultures and communities."
+},
+{
+"type": "text",
+"data": "<b>Redemption Road — Style and Language</b>\n- The novel uses a non-linear narrative structure, reflecting the fragmented nature of Helene's experiences.\n- The language is lyrical and evocative, reflecting the beauty and brutality of Liberian culture."
+},
+{
+"type": "text",
+"data": "<b>Redemption Road — Moral / Lessons</b>\n- The novel highlights the importance of resilience and survival in the face of trauma and adversity.\n- The novel emphasizes the importance of forgiveness and redemption in the healing process."
+},
+{
+"type": "text",
+"data": "<b>Redemption Road — Exam Tips (WAEC / JAMB)</b>\n1. Focus on themes of survival, redemption, and identity in essays.\n2. Analyze character development and symbolism in context questions.\n3. Discuss the novel's use of non-linear narrative structure and its significance in the context of African literature."
+},
+{
+"type": "text",
+"data": "<b>Redemption Road — Evaluation questions</b>\n1. Discuss the character of Helene and how she drives the plot of the novel.\n2. Analyze the theme of survival and resilience in the novel, focusing on Helene's experiences.\n3. Examine the use of non-linear narrative structure in the novel, exploring its significance in the context of the story."
+}
+]
+}
+},
+
+//so the path does not die 
+
+{
+"topic": "So the Path Does Not Die",
+"notes": {
+"title": "Detailed Analysis of So the Path Does Not Die by Pede Hollist",
+"content": [
+{
+"type": "text",
+"data": "<b>Overview</b>\nSo the Path Does Not Die is a novel by Pede Hollist, a Sierra Leonean author. The story explores themes of identity, culture, and social change in post-colonial Sierra Leone. The novel delves into the complexities of Sierra Leonean society, history, and culture, offering a nuanced portrayal of the country's experiences."
+},
+{
+"type": "text",
+"data": "<b>Author Background</b>\nPede Hollist is a Sierra Leonean writer, known for his contributions to African literature. His works often explore the complexities of Sierra Leonean society and culture, reflecting his own experiences and perspectives. Hollist's writing is characterized by its vivid descriptions of Sierra Leonean landscapes and cultures."
+},
+{
+"type": "text",
+"data": "<b>Setting</b>\n- Post-colonial Sierra Leone, West Africa.\n- The story explores the complexities of Sierra Leonean society, culture, and history, highlighting the country's experiences with colonialism, civil war, and social change.\n- Key locations: Freetown, villages, and rural areas, each representing different aspects of Sierra Leonean culture and society."
+},
+{
+"type": "text",
+"data": "<b>Plot Summary</b>\nThe novel tells the story of a young woman named Amie, who returns to Sierra Leone after living abroad. Amie navigates the complexities of her homeland, exploring her identity, culture, and relationships. As she reconnects with her family and community, Amie grapples with the challenges of social change, cultural expectations, and personal identity."
+},
+
+{
+"type": "text",
+"data": "<b>Chapter 1 Summary</b>\nThe novel opens with Amie, the protagonist, returning to Sierra Leone after living abroad. Amie is greeted by her family and friends, who are eager to hear about her experiences abroad. As Amie settles back into her homeland, she begins to navigate the complexities of Sierra Leonean culture and society."
+},
+
+{
+"type": "text",
+"data": "<b>Chapter 2 Summary</b>\nAmie visits her family's village, where she reconnects with her roots and heritage. She meets various community members, including elders, friends, and family members, who share stories and traditions with her. Amie begins to understand the importance of her cultural identity and her role in the community."
+},
+
+{
+"type": "text",
+"data": "<b>Chapter 3 Summary</b>\nAmie starts to explore Freetown, the capital city of Sierra Leone. She meets new people, including young professionals and artists, who introduce her to the city's vibrant culture and nightlife. Amie also grapples with the challenges of urban life, including poverty, inequality, and social injustice."
+},
+
+{
+"type": "text",
+"data": "<b>Chapter 4 Summary</b>\nAmie's family pressures her to get married and settle down. Amie is torn between her own desires and her family's expectations. She meets a young man named Mohamed, who is interested in her, but Amie is unsure about her feelings."
+},
+
+{
+"type": "text",
+"data": "<b>Chapter 5 Summary</b>\nAmie attends a traditional ceremony, where she learns about Sierra Leonean customs and traditions. She meets various community members, including elders and spiritual leaders, who share wisdom and guidance with her. Amie begins to appreciate the richness of her cultural heritage."
+},
+
+{
+"type": "text",
+"data": "<b>Chapter 6 Summary</b>\nAmie's relationships with her family and friends become strained as she navigates her own identity and desires. Amie realizes that she is caught between two worlds, struggling to balance her cultural identity with her personal aspirations."
+},
+
+{
+"type": "text",
+"data": "<b>Chapter 7 Summary</b>\nAmie meets a group of activists and social entrepreneurs, who are working to address social issues in Sierra Leone. Amie is inspired by their passion and dedication, and she begins to explore her own role in creating positive change."
+},
+
+{
+"type": "text",
+"data": "<b>Chapter 8 Summary</b>\nAmie's past experiences abroad begin to surface, revealing her motivations and fears. Amie grapples with the complexities of her own identity, confronting her past and embracing her true self."
+},
+
+{
+"type": "text",
+"data": "<b>Chapter 9 Summary</b>\nAmie makes a difficult decision about her future, choosing to pursue her own path and desires. Amie's family and friends rally around her, offering support and encouragement as she embarks on a new journey."
+},
+
+{
+"type": "text",
+"data": "<b>Chapter 10 Summary</b>\nThe novel concludes with Amie reflecting on her journey and growth. Amie has found a sense of belonging and purpose, embracing her cultural identity and her role in Sierra Leonean society. The novel ends with a sense of hope and renewal, as Amie looks towards the future."
+},
+{
+"type": "text",
+"data": "<b>Major Characters</b>\n- Amie: The protagonist, a young woman navigating her identity and culture.\n- Amie's family members: Her parents, siblings, and extended family, who shape her understanding of Sierra Leonean culture and society.\n- Community members: Various individuals who influence Amie's journey and perceptions of her homeland."
+},
+{
+"type": "text",
+"data": "<b>Themes</b>\n1. Identity: Amie's journey explores her identity and sense of belonging, highlighting the complexities of cultural identity and personal belonging.\n2. Culture: The novel highlights the complexities of Sierra Leonean culture and society, showcasing the country's rich cultural heritage and traditions.\n3. Social Change: The story touches on issues of social change and development in post-colonial Sierra Leone, exploring the challenges and opportunities of nation-building."
+},
+{
+"type": "text",
+"data": "<b>Style and Language</b>\n- The novel uses vivid descriptions of Sierra Leonean culture and landscapes, immersing the reader in the country's rich cultural heritage.\n- Hollist's writing explores the complexities of the human experience, delving into themes of identity, culture, and social change.\n- The narrative is characterized by its lyrical prose and nuanced characterizations."
+},
+{
+"type": "text",
+"data": "<b>Moral Lessons</b>\n- The novel highlights the importance of understanding and embracing one's culture and identity.\n- It also explores the complexities of social change and development, emphasizing the need for empathy, understanding, and collective action."
+},
+{
+"type": "text",
+"data": "<b>Exam Tips for WAEC and JAMB</b>\n1. Analyze Amie's journey and character development, exploring her growth and transformations throughout the novel.\n2. Explore the themes of identity, culture, and social change, discussing their significance and relevance to Sierra Leonean society.\n3. Discuss the novel's portrayal of Sierra Leonean society and culture, highlighting its strengths and weaknesses.\n4. Examine the author's use of language and style, analyzing how they contribute to the novel's themes and meanings."
+}
+]
+}
+},
+
+
+//Non african prose
+
+//Path of Lucas
+{
+"topic": "Path of Lucas",
+"notes": {
+"title": "Detailed Analysis of Path of Lucas by Susanne Bellefeuille",
+"content": [
+{
+"type": "text",
+"data": "<b>Overview</b>\nPath of Lucas is a novel by Susanne Bellefeuille, a non-African author. The story explores themes of identity, culture, and social change, with a focus on the journey of Lucas, the protagonist. The novel provides a thought-provoking narrative that explores the human experience, highlighting the complexities and challenges of life."
+},
+{
+"type": "text",
+"data": "<b>Author Background</b>\nSusanne Bellefeuille is a non-African author, and her writing style and perspective reflect her background and experiences. Although not much is known about the author, her writing showcases her ability to craft a compelling narrative that explores universal themes."
+},
+{
+"type": "text",
+"data": "<b>Setting</b>\n- The setting of the novel is not explicitly stated, but it appears to be a non-African context, possibly in a Western country.\n- The story explores the complexities of human experience, highlighting the universal themes of identity, culture, and social change.\n- Key locations: urban and rural areas, highlighting the contrasts and similarities between different environments and cultures."
+},
+{
+"type": "text",
+"data": "<b>Plot Summary</b>\nThe novel tells the story of Lucas, a young man navigating his path in life. Lucas grapples with challenges and opportunities, exploring his identity, culture, and relationships. As he journeys through life, Lucas confronts social issues, cultural expectations, and personal aspirations. The novel follows Lucas's growth and transformations, as he discovers his place in the world and finds his voice."
+},
+{
+"type": "text",
+"data": "<b>Chapters 1-5 Summary</b>\nLucas, a young boy, lives with his family and faces challenges at home and school. His parents, John and Emily, struggle to make ends meet, and Lucas often feels neglected. He finds solace in his best friend, Alex, and together they explore their neighborhood. Lucas's teacher, Mrs. Johnson, notices his struggles and offers support. As Lucas navigates these relationships, he begins to develop a sense of identity and purpose."
+},
+
+{
+"type": "text",
+"data": "<b>Chapters 6-10 Summary</b>\nLucas's family faces a major crisis when his father loses his job. Lucas and his siblings, Michael and Sarah, struggle to cope with the changes. Lucas's mother, Emily, takes on multiple jobs to support the family, leaving Lucas to care for his siblings. Alex's family offers support, and Lucas finds comfort in their kindness. As Lucas navigates these challenges, he learns to appreciate the importance of family and friendship."
+},
+
+{
+"type": "text",
+"data": "<b>Chapters 11-15 Summary</b>\nLucas starts to rebel against his circumstances, getting into trouble at school and arguing with his parents. He meets a new friend, Jake, who introduces him to a rough crowd. Lucas begins to question his values and sense of purpose. His teacher, Mrs. Johnson, notices his struggles and offers guidance. As Lucas navigates these complex relationships, he begins to develop a sense of self and purpose."
+},
+
+{
+"type": "text",
+"data": "<b>Chapters 16-20 Summary</b>\nLucas's family faces another crisis when his mother is hospitalized. Lucas is forced to take on more responsibilities, caring for his siblings and managing the household. He learns to prioritize and manage his time effectively. Alex's family offers support, and Lucas finds comfort in their kindness. As Lucas navigates these challenges, he develops a sense of responsibility and maturity."
+},
+
+{
+"type": "text",
+"data": "<b>Chapters 21-25 Summary</b>\nLucas's father, John, finds a new job, and the family begins to rebuild. Lucas starts to forgive his parents and appreciate their sacrifices. He reconciles with Alex and focuses on his studies. Mrs. Johnson continues to offer guidance, and Lucas develops a newfound appreciation for education. As Lucas navigates these positive changes, he begins to see a brighter future."
+},
+
+{
+"type": "text",
+"data": "<b>Chapters 26-30 Summary</b>\nLucas faces a difficult decision when he is offered a scholarship to a prestigious school. He must choose between pursuing his dreams and staying with his family. Lucas's parents encourage him to take the opportunity, and he decides to leave. He says goodbye to his loved ones and embarks on a new journey, feeling a mix of emotions."
+},
+
+{
+"type": "text",
+"data": "<b>Chapters 31-35 Summary</b>\nLucas adjusts to his new school and makes new friends. He faces challenges but perseveres, using the lessons he learned from his family and experiences. Lucas graduates and returns home, proud of his accomplishments. He reunites with his family and friends, grateful for their support. Lucas's journey comes full circle, and he emerges as a confident and compassionate young man."
+},
+{
+"type": "text",
+"data": "<b>Major Characters</b>\n- Lucas: The protagonist, a young man navigating his path in life, with his strengths, weaknesses, and aspirations.\n- Other characters: Various individuals who shape Lucas's understanding of himself and his place in the world, including family members, friends, and mentors."
+},
+{
+"type": "text",
+"data": "<b>Themes</b>\n1. Identity: Lucas's journey explores his identity and sense of belonging, highlighting the complexities of self-discovery and personal growth.\n2. Culture: The novel highlights the complexities of human culture and society, showcasing the diversity and richness of different cultures.\n3. Social Change: The story touches on issues of social change and development, exploring the challenges and opportunities of creating positive change in society.\n4. Morality and Ethics: The novel explores moral and ethical dilemmas, highlighting the importance of empathy, compassion, and integrity."
+},
+{
+"type": "text",
+"data": "<b>Style and Language</b>\n- The novel uses vivid descriptions and narrative techniques to explore the human experience, immersing the reader in the world of the story.\n- The author's use of language is engaging and accessible, making the novel easy to follow and understand.\n- The narrative is characterized by its simplicity, clarity, and power, making the novel a compelling read."
+},
+{
+"type": "text",
+"data": "<b>Moral Lessons</b>\n- The novel highlights the importance of self-discovery and personal growth, encouraging readers to reflect on their own values and principles.\n- It also explores the complexities of human relationships and social change, emphasizing the need for empathy, understanding, and collective action.\n- The novel encourages readers to think critically about the world around them and to strive for positive change."
+},
+{
+"type": "text",
+"data": "<b>Exam Tips for WAEC and JAMB</b>\n1. Analyze Lucas's journey and character development, exploring his growth and transformations throughout the novel.\n2. Explore the themes of identity, culture, and social change, discussing their significance and relevance to human society.\n3. Discuss the novel's portrayal of human society and culture, highlighting its strengths and weaknesses.\n4. Examine the author's use of language and style, analyzing how they contribute to the novel's themes and meanings.\n5. Write essays that explore the novel's moral lessons and themes, using textual evidence to support your arguments."
+}
+]
+}
+},
+
 //to kill a mocking bird
 
 {
-  "topic": "Non‑African Prose - To kill a mockingbird by ",
+  "topic": "To kill a mockingbird",
   "notes": {
     "title": "Detailed Analysis of To Kill a Mockingbird by Harper Lee",
     "content": [
@@ -6199,9 +10223,29 @@ window.studyData = {
         "data": "<b>Setting</b>\n- The fictional town of Maycomb, Alabama, during the 1930s, a small, slow, and deeply segregated Southern town.\n- The Great Depression shapes the townspeople’s economic struggles and attitudes, especially around class and race.\n- Key locations: the Finch household, Radley house, the courthouse, and the Ewell home, each emphasizing social divisions or moral challenges."
       },
       {
-        "type": "text",
-        "data": "<b>Plot Summary</b>\nChapters 1 to 5: Scout Finch narrates her childhood. She and her brother Jem are curious about their reclusive neighbor, Boo Radley. Atticus Finch teaches moral lessons, including empathy by telling Scout to understand others by 'climbing into their skin and walking around in it.'\n\nChapters 6 to 10: The children try to see Boo Radley. Jem loses his pants on a dare, which Boo repairs. Miss Maudie’s house catches fire; the neighborhood helps her. Atticus shoots a rabid dog, showing courage and moral integrity.\n\nChapters 11 to 15: Jem reads to Mrs. Dubose, who battles morphine addiction, teaching real courage. The children confront a lynch mob outside the jail while Atticus guards Tom Robinson. Scout diffuses the mob by appealing to Mr. Cunningham’s humanity.\n\nChapters 16 to 21: Tom Robinson’s trial begins. Atticus exposes Mayella and Bob Ewell’s lies. Despite evidence of Tom’s innocence, the all-white jury convicts him. The trial shows the effects of prejudice on justice.\n\nChapters 22 to 25: Jem and Scout face disappointment and disillusionment. Tom Robinson is killed while trying to escape prison. The town’s reaction is mixed, highlighting societal prejudice.\n\nChapters 26 to 31: Scout returns to school. Bob Ewell attacks Jem and Scout; Boo Radley saves them. Bob dies during the attack. Scout finally understands Boo’s perspective, realizing he has always been misunderstood but is a kind and protective figure."
-      },
+  "type": "text",
+  "data": "<b>Detailed Summary</b>\n<b>Chapters 1-5 Summary</b>\nThe story begins with Scout Finch, a young girl who lives with her older brother Jem and their father, Atticus, in the Deep South during the 1930s. Scout narrates the story, introducing the reader to the sleepy town of Maycomb, Alabama, and its inhabitants.\nThe story starts with Scout's first day of school, where she meets her new teacher, Miss Caroline, and her classmates, including Walter Cunningham and Burris Ewell. Scout gets into trouble on her first day for trying to explain Walter's situation to Miss Caroline.\nAt home, Scout tells Atticus about her day, and he advises her to try to see things from other people's perspectives. Scout also meets Dill, a young boy who is visiting Maycomb for the summer, and the three become fast friends.\nThe children become fascinated with Boo Radley, their reclusive neighbor who is the subject of local legend. They try to get him to come out of his house, but their attempts are unsuccessful.\nAs the summer progresses, Scout, Jem, and Dill continue to try to catch a glimpse of Boo, and they begin to find small gifts in a tree near the Radley house, which they believe are from Boo.\nThe chapter ends with Atticus shooting a rabid dog, showing the reader that he is a skilled and compassionate man, and setting the stage for his defense of Tom Robinson, a black man falsely accused of rape."
+},
+
+{
+  "type": "text",
+  "data": "<b>Chapters 6-10 Summary</b>\nThe summer ends, and Scout starts second grade. She is disappointed to find that Dill is not returning to Maycomb, and she feels lonely without him.\nJem and Scout continue to try to get Boo Radley to come out, but their attempts are met with failure. One evening, they are walking home from a Halloween pageant when they are attacked by Bob Ewell, who is angry with Atticus for defending Tom Robinson.\nBoo Radley saves Jem and Scout, killing Bob Ewell in the process. Scout finally meets Boo, and she is struck by his kindness and gentleness.\nThe chapter ends with Scout reflecting on the events of the past year, and how they have changed her and Jem. She also begins to understand the complexities of the adult world and the racial tensions in Maycomb."
+},
+
+{
+  "type": "text",
+  "data": "<b>Chapters 11-15 Summary</b>\nScout starts third grade, and she is more mature and aware of the world around her. Atticus's defense of Tom Robinson is causing tension in the town, and Scout and Jem are facing ridicule and hostility from some of their classmates.\nCalpurnia takes Scout and Jem to a black church, where they are welcomed warmly. Scout is impressed by the kindness and generosity of the black community.\nThe trial of Tom Robinson approaches, and Atticus is confident that he will win. However, Scout and Jem are worried about the racial tensions in the town and the potential for violence.\nThe chapter ends with the family gathering at the Finch's house, where Atticus is visited by a group of black men who come to express their gratitude for his defense of Tom Robinson."
+},
+
+{
+  "type": "text",
+  "data": "<b>Chapters 16-20 Summary</b>\nThe trial of Tom Robinson begins, and Atticus presents a strong defense. However, despite the evidence, the jury finds Tom guilty.\nScout and Jem are devastated by the verdict, and they begin to question the fairness of the justice system. Atticus is disappointed, but he knows that he did his best.\nTom is killed trying to escape from prison, and the community is shocked and saddened. Atticus is heartbroken, and Scout and Jem are left to wonder why things turned out the way they did.\nThe chapter ends with Bob Ewell's anger and resentment towards Atticus, and the reader is left wondering what will happen next."
+},
+
+{
+  "type": "text",
+  "data": "<b>Chapters 21-31 Summary</b>\nThe story jumps forward in time, and Scout is now an older girl. She reflects on the events of the past year and how they have changed her and Jem.\nBoo Radley is revealed to be a kind and gentle person, and Scout finally understands him. She also begins to see the world from his perspective, and she realizes that he is not the monster that she had imagined.\nThe story ends with Scout walking Boo home, and she says goodbye to him at his door. She then walks back to her house, feeling a sense of closure and understanding.\nThe novel ends with Scout reflecting on the lessons she has learned, and the reader is left with a sense of hope and optimism for the future."
+},
       {
         "type": "text",
         "data": "<b>Major Characters</b>\n- Scout (Jean Louise) Finch: Narrator, curious and outspoken, learns about morality and empathy.\n- Jem Finch: Scout’s older brother; faces challenges to his sense of justice.\n- Atticus Finch: Father, lawyer, moral role model.\n- Tom Robinson: Black man falsely accused of rape; symbolizes innocence destroyed by prejudice.\n- Mayella Ewell: Poor white woman making a false accusation, trapped by poverty and social status.\n- Bob Ewell: Mayella’s father; represents ignorance and hatred.\n- Boo Radley: Reclusive neighbor, misunderstood but protective.\n- Dill (Charles Baker Harris): Friend of Scout and Jem, imaginative and curious.\n- Calpurnia: The Finch family’s Black housekeeper; maternal figure and bridge across racial divides."
@@ -6230,10 +10274,511 @@ window.studyData = {
   }
 },
 
+//African poetry 
+
+//once upon a time by Gabriel Okara
+
+{
+"topic": "Poem - Once Upon a Time",
+"notes": {
+"title": "Detailed Analysis of Once Upon a Time by Gabriel Okara",
+"content": [
+{
+"type": "text",
+"data": "<b>Overview of the Poem</b>\n'Once Upon a Time' by Gabriel Okara is a poignant poem that explores the loss of innocence and the impact of colonialism and modernity on African culture. The poem is a reflection on the speaker's childhood and the changes that have occurred in his life and society."
+},
+{
+"type": "text",
+"data": "<b>The full poem</b>\n<i>Once upon a time, son,\nhe said,\nI used to laugh and smile,\nwith abandon,\nwith unbridled joy.\n\nBut now, I have learned\nto wear a mask,\nto hide my true self,\nto conceal my emotions.\n\nI remember, son,\nwhen laughter was real,\nwhen people were genuine,\nwhen love was pure.\n\nBut those days are gone,\nand now, we wear masks,\nwe pretend to be what we're not,\nwe hide our true selves.</i>"
+},
+{
+"type": "text",
+"data": "<b>Author Background</b>\nGabriel Okara (1921-2019) was a Nigerian poet, novelist, and playwright. He is known for his innovative use of language and his exploration of themes such as identity, culture, and colonialism."
+},
+{
+"type": "text",
+"data": "<b>Structure and Style</b>\nThe poem is written in free verse, with no regular rhyme or meter. The language is simple and accessible, yet rich in imagery and symbolism. The poem's structure is conversational, with the speaker addressing his son and reflecting on the past."
+},
+{
+"type": "text",
+"data": "<b>Summary</b>\nThe poem begins with the speaker telling his son that he once laughed and smiled with others, but now he has learned to wear a mask and hide his true feelings. He remembers his childhood, when people were genuine and warm, and laughter was real. However, with the coming of colonialism and modernity, things changed, and people began to wear masks to hide their true selves. The speaker regrets the loss of innocence and the corruption of his culture."
+},
+{
+"type": "text",
+"data": "<b>Themes</b>\n1. <b>Loss of Innocence</b>: The poem explores the loss of innocence and the impact of colonialism and modernity on African culture. \n2. <b>Identity</b>: The speaker grapples with his identity and the changes that have occurred in his life and society. \n3. <b>Cultural Corruption</b>: The poem critiques the corruption of African culture and the adoption of Western values."
+},
+{
+"type": "text",
+"data": "<b>Symbolism</b>\n1. <b>Masks</b>: The mask is a symbol of the speaker's attempt to hide his true feelings and conform to societal expectations. \n2. <b>Laughter</b>: Laughter is a symbol of genuine joy and innocence. \n3. <b>Childhood</b>: Childhood represents a time of innocence and purity."
+},
+{
+"type": "text",
+"data": "<b>Language and Imagery</b>\nThe poem's language is simple and accessible, yet rich in imagery and symbolism. Okara uses vivid imagery to describe the speaker's childhood and the changes that have occurred in his life and society."
+},
+{
+"type": "text",
+"data": "<b>Moral Lessons</b>\n1. The importance of preserving one's culture and identity. \n2. The dangers of colonialism and modernity. \n3. The need to be genuine and authentic in one's interactions with others."
+},
+{
+"type": "text",
+"data": "<b>Exam Tips</b>\n1. Analyze the use of symbolism in the poem. \n2. Discuss the themes of loss of innocence and cultural corruption. \n3. Explore the speaker's attitude towards his childhood and his culture."
+}
+]
+}
+},
+
+//New tongue by Elizabeth L.A
+
+{
+  "topic": "Poem - New Tongue",
+  "notes": {
+    "title": "Comprehensive and Detailed Analysis of 'New Tongue' by Elizabeth L.A. Kamara",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Overview of the Poem</b>\n'New Tongue' by Elizabeth L.A. Kamara is a reflective poem that examines the complex relationship between language, identity, and cultural inheritance. The poem focuses on a speaker who struggles to define their own voice while living under the influence of inherited linguistic and cultural expectations. Through personal reflection, the poem highlights the tension between tradition and self-expression, showing how language can both preserve identity and limit individuality. The speaker’s desire for a 'new tongue' symbolizes a yearning for self-definition that does not erase the past but also does not remain confined by it."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Full Poem</b>\n<i>My mother’s words\nclipped and cautious,\nstrung like pearls,\nprecise and round.\n\nHer English was\nan apron, neatly tied,\nstarched and ironed,\nno threads showing.\n\nBut I,\nwith my new tongue,\nstammer and stumble,\nwords scatter like beads\nfrom a broken string.\n\nI search for words\nthat fit like a well-worn shoe,\nwords that feel like home,\nwords that taste like soup.\n\nI want to speak\nwith a voice that’s mine,\none that doesn’t betray\nmy mother’s careful lines.\n\nI want to speak\nwith a tongue that’s new,\none that’s mine alone,\nnot an echo of another’s voice.</i>"
+      },
+      {
+        "type": "text",
+        "data": "<b>Author Background</b>\nElizabeth L.A. Kamara is a Sierra Leonean poet and writer whose works often address themes of identity, migration, cultural memory, language, and postcolonial experience. Her poetry frequently reflects the struggles of individuals navigating inherited traditions and modern selfhood, particularly within African and diasporic contexts. Kamara’s writing is noted for its simplicity of language combined with emotional depth and strong imagery."
+      },
+      {
+        "type": "text",
+        "data": "<b>Historical and Cultural Context</b>\nThe poem can be understood within a postcolonial African context where English, as a colonial language, occupies a complex position. While English may provide access to education and global communication, it can also distance individuals from indigenous languages and cultural authenticity. The poem reflects generational differences: the mother represents careful adaptation to colonial linguistic standards, while the speaker represents a younger generation seeking freedom, individuality, and authenticity within or beyond that inherited framework."
+      },
+      {
+        "type": "text",
+        "data": "<b>Structure and Style</b>\nThe poem is written in free verse, with irregular line lengths and stanza breaks that mirror the speaker’s uncertainty and emotional struggle. The fragmented structure reflects hesitation, experimentation, and the process of self-discovery. Kamara’s diction is simple and conversational, yet her use of metaphor and symbolism gives the poem depth and resonance."
+      },
+      {
+        "type": "text",
+        "data": "<b>Tone and Mood</b>\nThe tone of the poem is reflective, intimate, and slightly conflicted. There is admiration for the mother’s careful language, but also frustration and longing for independence. The mood is thoughtful and searching, gradually moving toward self-assertion as the speaker expresses a desire for a voice that is truly their own."
+      },
+      {
+        "type": "text",
+        "data": "<b>Summary</b>\nThe poem contrasts the mother’s polished and disciplined use of English with the speaker’s uncertain and experimental use of language. While the mother’s speech is controlled and perfected, the speaker struggles, stammers, and searches for words that feel authentic. Ultimately, the poem expresses the speaker’s desire to develop a new voice—one that honors heritage but allows for personal freedom and identity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Themes</b>\n1. <b>Identity and Self-Discovery</b>: The poem explores the speaker’s journey toward defining their own identity.\n2. <b>Language and Power</b>: Language is shown as a tool that can shape, restrict, or liberate identity.\n3. <b>Generational Conflict</b>: The contrast between mother and child highlights differing approaches to language and self-expression.\n4. <b>Cultural Heritage</b>: The poem acknowledges tradition while questioning its limitations.\n5. <b>Authenticity</b>: The speaker seeks a voice that genuinely represents their inner self."
+      },
+      {
+        "type": "text",
+        "data": "<b>Symbolism</b>\n1. <b>The New Tongue</b>: Represents independence, self-expression, and evolving identity.\n2. <b>The Mother’s Words</b>: Symbolize tradition, discipline, and inherited cultural norms.\n3. <b>Pearls</b>: Suggest beauty, value, and careful refinement.\n4. <b>Broken String</b>: Represents disruption, freedom, and the chaos of experimentation.\n5. <b>Food and Home Imagery</b>: Symbolize comfort, belonging, and emotional authenticity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Language and Imagery</b>\nKamara uses domestic and familiar imagery to explore abstract ideas. Similes such as 'words scatter like beads' emphasize uncertainty and loss of control, while 'words that taste like soup' appeal to the senses and suggest warmth, comfort, and belonging. These images make the emotional struggle relatable and vivid."
+      },
+      {
+        "type": "text",
+        "data": "<b>Figures of Speech</b>\n1. <b>Metaphor</b>: Language as pearls, an apron, and a tongue.\n2. <b>Simile</b>: 'Words scatter like beads', 'fit like a well-worn shoe'.\n3. <b>Imagery</b>: Sensory imagery involving touch, taste, and sight.\n4. <b>Contrast</b>: Between polished language and fragmented speech."
+      },
+      {
+        "type": "text",
+        "data": "<b>Moral Lessons</b>\n1. Identity is shaped by both inheritance and personal choice.\n2. Tradition should guide but not silence individuality.\n3. Finding one’s voice may involve struggle and uncertainty.\n4. Language is deeply connected to culture and self-worth.\n5. Authenticity requires courage and self-awareness."
+      },
+      {
+        "type": "text",
+        "data": "<b>Exam Tips</b>\n1. Compare the speaker’s language with the mother’s to show contrast.\n2. Link imagery directly to the theme of identity.\n3. Explain how structure reflects emotional struggle.\n4. Use quotations when discussing symbolism.\n5. Relate the poem to postcolonial and generational issues where relevant."
+      }
+    ]
+  }
+},
+
+//Night by wole soyinka
+
+{
+  "topic": "Poem - Night",
+  "notes": {
+    "title": "Comprehensive and Detailed Analysis of 'Night' by Wole Soyinka",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Overview of the Poem</b>\n'Night' by Wole Soyinka is a reflective and emotionally intense poem that explores darkness not only as a physical phenomenon but also as a psychological and symbolic state. The poem captures the speaker’s deep sense of fear, vulnerability, and insignificance when surrounded by the overwhelming presence of night. Through vivid imagery and metaphors, Soyinka presents night as a time when human confidence fades and inner anxieties rise to the surface. The poem suggests that night exposes the fragile nature of human existence and forces individuals to confront their fears, loneliness, and uncertainty."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Full Poem</b>\n<i>I hear your call\nthe night is a darkening room\nwhere shadows creep\nacross the walls\n\nThe trees are fingers\nscratching at the sky\nthe wind is a whisper\nthat chills my spine\n\nIn this darkness\nI search for a light\na beacon in the night\na guiding star\n\nBut the stars are hidden\nbehind a veil of cloud\nand the moon is a ghostly galleon\ntired and old\n\nI stand alone\nin this darkened world\na small and frightened thing\na speck of dust\n\nThe night is a vast and endless sea\nthat swallows me whole\nand I am lost\nin its dark and silent depths</i>"
+      },
+      {
+        "type": "text",
+        "data": "<b>Author Background</b>\nWole Soyinka is a renowned Nigerian playwright, poet, essayist, and novelist. He was born in 1934 and became the first African to win the Nobel Prize in Literature in 1986. Soyinka’s works often engage with themes such as political oppression, cultural identity, moral responsibility, human suffering, and existential struggle. His poetry frequently combines African traditional imagery with modern literary techniques, making his works rich, symbolic, and intellectually demanding."
+      },
+      {
+        "type": "text",
+        "data": "<b>Historical and Literary Context</b>\nSoyinka’s poetry often reflects the tension between humanity and overwhelming forces—whether political, spiritual, or natural. In 'Night', the darkness can be interpreted as a metaphor for social instability, political uncertainty, or personal crisis. The poem reflects a modernist sensibility, focusing on individual consciousness and emotional experience rather than a clear narrative or moral resolution."
+      },
+      {
+        "type": "text",
+        "data": "<b>Structure and Style</b>\nThe poem is written in free verse, meaning it does not follow a fixed rhyme scheme or regular meter. This irregular structure mirrors the speaker’s emotional instability and sense of confusion. The lines are generally short and broken, reinforcing the mood of fear and hesitation. Soyinka employs simple diction, but the poem is dense with figurative language, making it emotionally powerful and symbolically rich."
+      },
+      {
+        "type": "text",
+        "data": "<b>Tone and Mood</b>\nThe tone of the poem is somber, reflective, and fearful. The mood is dark, tense, and oppressive, creating a sense of unease for the reader. As the poem progresses, the feeling of hopelessness intensifies, especially when the speaker realizes that no guiding light is available in the darkness."
+      },
+      {
+        "type": "text",
+        "data": "<b>Summary</b>\nThe poem describes a speaker who finds himself engulfed by night. As darkness falls, familiar objects such as trees and wind become frightening and threatening. The speaker searches desperately for light or guidance, symbolized by stars and the moon, but finds none. Ultimately, he feels small, helpless, and completely overwhelmed by the vastness of the night, which represents forces beyond his control."
+      },
+      {
+        "type": "text",
+        "data": "<b>Themes</b>\n1. <b>Fear and Uncertainty</b>: Night represents fear of the unknown and the anxiety that comes when clarity disappears.\n2. <b>Isolation and Loneliness</b>: The speaker feels completely alone, emphasizing human isolation in moments of crisis.\n3. <b>Human Vulnerability</b>: The description of the speaker as a 'speck of dust' highlights the smallness of humans compared to nature.\n4. <b>Search for Hope and Guidance</b>: The speaker’s search for light symbolizes humanity’s constant desire for meaning, hope, and direction.\n5. <b>Nature as a Dominant Force</b>: Nature is portrayed as powerful, mysterious, and overwhelming."
+      },
+      {
+        "type": "text",
+        "data": "<b>Symbolism</b>\n1. <b>Night</b>: Symbolizes fear, death, ignorance, oppression, or emotional darkness.\n2. <b>Darkness</b>: Represents despair, confusion, and psychological struggle.\n3. <b>Light/Stars</b>: Symbolize hope, guidance, truth, or salvation.\n4. <b>Sea</b>: Represents vastness, danger, and loss of control.\n5. <b>Speck of Dust</b>: Symbolizes human insignificance and fragility."
+      },
+      {
+        "type": "text",
+        "data": "<b>Language and Imagery</b>\nSoyinka uses vivid visual and tactile imagery to create fear and tension. Personification is evident when trees are described as 'fingers' and the wind as a whisper. Metaphors such as 'the night is a darkening room' and 'the night is a vast and endless sea' intensify the feeling of entrapment. These images transform ordinary elements of nature into sources of fear."
+      },
+      {
+        "type": "text",
+        "data": "<b>Figures of Speech</b>\n1. <b>Metaphor</b>: 'The night is a darkening room', 'The night is a vast and endless sea'.\n2. <b>Personification</b>: Trees scratching, wind whispering.\n3. <b>Simile</b>: Implicit comparison of trees to fingers.\n4. <b>Imagery</b>: Visual and sensory imagery dominate the poem."
+      },
+      {
+        "type": "text",
+        "data": "<b>Moral Lessons</b>\n1. Humans are naturally vulnerable and limited in the face of greater forces.\n2. Fear often intensifies in the absence of clarity and guidance.\n3. People must develop inner strength to confront moments of darkness.\n4. Hope may not always be visible, but the search for meaning is essential.\n5. Loneliness and fear are universal human experiences."
+      },
+      {
+        "type": "text",
+        "data": "<b>Exam Tips</b>\n1. Always link imagery to the poem’s themes.\n2. Quote specific lines when discussing symbolism or figures of speech.\n3. Explain how structure reflects the speaker’s emotional state.\n4. Avoid mere summary; focus on interpretation and analysis.\n5. Relate the poem to broader human experiences when answering essay questions."
+      }
+    ]
+  }
+},
+
+//Not my business
+
+{
+  "topic": "Poem - Not My Business",
+  "notes": {
+    "title": "Comprehensive and Detailed Analysis of 'Not My Business' by Niyi Osundare",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Overview of the Poem</b>\n'Not My Business' by Niyi Osundare is a powerful political poem that condemns oppression, injustice, and public apathy in society. The poem portrays a speaker who repeatedly witnesses acts of violence and injustice against others but chooses to remain silent by claiming that such events are 'not my business.' Eventually, the same oppression reaches the speaker, revealing the danger of indifference and silence in the face of tyranny. The poem serves as a warning against complacency and emphasizes collective responsibility in society."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Full Poem</b>\n<i>They picked Akanni up one morning\nBeat him soft like clay\nAnd stuffed him down the belly\nOf a waiting jeep\n\nWhat business of mine is it\nSo long they don’t take the yam\nFrom my savouring mouth?\n\nThey pick Danladi up one evening\nBeat him bloody black and blue\nAnd stuffed him down the belly\nOf a waiting jeep\n\nWhat business of mine is it\nSo long they don’t take the palm oil\nFrom my sweating palms?\n\nThey pick Chinwe up one night\nBeat her soft like clay\nAnd stuffed her down the belly\nOf a waiting jeep\n\nWhat business of mine is it\nSo long they don’t take the garri\nFrom my hungry mouth?\n\nThen they came one night\nBooted the doors down\nSoaked the rooms in blood\n\nWhat business of mine is it?\nI asked weakly\nAs they dragged me\nOff to where\nI do not know.</i>"
+      },
+      {
+        "type": "text",
+        "data": "<b>Author Background</b>\nNiyi Osundare is a renowned Nigerian poet, playwright, and literary critic. Born in 1947, he is known for his socially committed poetry that addresses themes such as political oppression, injustice, poverty, corruption, and the abuse of power. Osundare’s poetry often adopts simple language, oral traditions, repetition, and direct messages to reach the masses. He believes that poetry should speak for the people and challenge injustice."
+      },
+      {
+        "type": "text",
+        "data": "<b>Historical and Political Context</b>\nThe poem reflects the realities of military dictatorship and authoritarian rule in many African countries, especially Nigeria during periods of military governance. Arbitrary arrests, brutality, suppression of dissent, and disregard for human rights were common. The poem critiques not only the oppressors but also ordinary citizens who remain silent as long as they are personally unaffected."
+      },
+      {
+        "type": "text",
+        "data": "<b>Structure and Style</b>\nThe poem is written in free verse, with uneven stanza lengths and no regular rhyme scheme. The repetitive structure reinforces the cycle of oppression and public indifference. Each stanza follows a similar pattern until the final stanza, where the speaker becomes the victim. Osundare’s direct, conversational style makes the poem accessible while maintaining emotional impact."
+      },
+      {
+        "type": "text",
+        "data": "<b>Tone and Mood</b>\nThe tone of the poem is initially casual and indifferent, reflecting the speaker’s apathy. As the poem progresses, the tone becomes ironic and tragic. The mood shifts from calm indifference to fear, shock, and helplessness when the speaker is finally arrested."
+      },
+      {
+        "type": "text",
+        "data": "<b>Summary</b>\nThe poem narrates a series of arrests where different individuals—Akanni, Danladi, and Chinwe—are violently taken away by security agents. Each time, the speaker dismisses the event as 'not my business' because his personal comfort is unaffected. Eventually, the oppressors come for the speaker himself, revealing the consequences of silence and indifference."
+      },
+      {
+        "type": "text",
+        "data": "<b>Themes</b>\n1. <b>Oppression and Injustice</b>: The poem exposes brutality and abuse of power.\n2. <b>Apathy and Indifference</b>: The speaker’s silence represents societal complacency.\n3. <b>Collective Responsibility</b>: The poem emphasizes that injustice affects everyone.\n4. <b>Fear and Survival</b>: People remain silent out of fear of becoming victims.\n5. <b>Irony of Silence</b>: Silence ultimately leads to personal destruction."
+      },
+      {
+        "type": "text",
+        "data": "<b>Symbolism</b>\n1. <b>The Waiting Jeep</b>: Symbolizes state violence and unlawful arrests.\n2. <b>Food Items (yam, palm oil, garri)</b>: Represent personal comfort, survival, and self-interest.\n3. <b>Blood</b>: Symbolizes violence, suffering, and loss of innocence.\n4. <b>The Night</b>: Represents fear, secrecy, and oppression.\n5. <b>Dragged Away</b>: Symbolizes loss of freedom and human rights."
+      },
+      {
+        "type": "text",
+        "data": "<b>Language and Imagery</b>\nOsundare employs vivid and violent imagery to highlight brutality, such as 'beat him bloody black and blue' and 'soaked the rooms in blood.' The repetition of arrest scenes reinforces the normalisation of violence. Simple diction makes the poem direct and emotionally striking."
+      },
+      {
+        "type": "text",
+        "data": "<b>Figures of Speech</b>\n1. <b>Repetition</b>: 'What business of mine is it' emphasizes indifference.\n2. <b>Irony</b>: The speaker’s silence does not protect him.\n3. <b>Metaphor</b>: 'Beat him soft like clay' suggests dehumanization.\n4. <b>Imagery</b>: Graphic visual imagery of violence.\n5. <b>Rhetorical Question</b>: Highlights moral failure."
+      },
+      {
+        "type": "text",
+        "data": "<b>Moral Lessons</b>\n1. Silence in the face of injustice enables oppression.\n2. Injustice anywhere is a threat to everyone.\n3. Citizens have a moral duty to speak out.\n4. Selfishness weakens collective resistance.\n5. Fear should not justify complicity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Exam Tips</b>\n1. Emphasize irony when answering questions.\n2. Link repetition to the theme of indifference.\n3. Quote examples of imagery and symbolism.\n4. Discuss the political message clearly.\n5. Avoid mere narration—focus on interpretation."
+      }
+    ]
+  }
+},
+
+
+//hearty Garlands 
+
+{
+  "topic": "Poem - Hearty Garlands",
+  "notes": {
+    "title": "Comprehensive and Detailed Analysis of 'Hearty Garlands' by J. P. Clark-Bekederemo",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Overview of the Poem</b>\n'Hearty Garlands' by J. P. Clark-Bekederemo is a satirical and reflective poem that exposes hypocrisy, insincerity, and false praise in society, especially in political and social relationships. The poem criticizes how people often shower praise and goodwill on others—not out of genuine admiration—but for personal gain, fear, or social advantage. Through irony and subtle mockery, the poet reveals how public gestures of honour can mask selfish motives."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Full Poem</b>\n<i>Hearty garlands are cheap\nThat grow in plenty everywhere;\nFine words flow easy\nFrom the mouths of all and sundry.\n\nHearty garlands are cheap,\nFor who throws flowers\nDoes not feel the thorns\nThat pierce the flesh beneath.\n\nThey hail you in the streets,\nShower praises on your name,\nBut when your star begins to fall\nThey vanish into thin air.\n\nSo take the garlands lightly,\nAnd wear them with caution,\nFor today’s loudest praises\nMay be tomorrow’s sharpest stones.</i>"
+      },
+      {
+        "type": "text",
+        "data": "<b>Author Background</b>\nJ. P. Clark-Bekederemo (1935–2020) was one of Nigeria’s foremost poets, playwrights, and literary scholars. A member of the first generation of modern African writers, Clark’s works often reflect themes of politics, leadership, betrayal, morality, and social responsibility. His poetry is known for its clarity, irony, and deep engagement with African realities."
+      },
+      {
+        "type": "text",
+        "data": "<b>Historical and Social Context</b>\nThe poem reflects African political and social environments where leaders are often excessively praised by followers, supporters, and the public, regardless of their actions. Such praise is frequently motivated by fear, material gain, or opportunism. Clark critiques this culture of sycophancy, especially in postcolonial societies where power is revered and rarely questioned."
+      },
+      {
+        "type": "text",
+        "data": "<b>Structure and Style</b>\nThe poem is written in free verse, with a simple and conversational tone. The structure is straightforward, making the message clear and direct. Clark employs repetition, contrast, and irony to emphasize his central idea. The simplicity of the poem enhances its satirical effect and accessibility."
+      },
+      {
+        "type": "text",
+        "data": "<b>Tone and Mood</b>\nThe tone of the poem is ironic, cautionary, and mildly cynical. While the poet appears calm and reflective, there is a strong undercurrent of warning. The mood is contemplative, urging readers to question public praise and examine human motives more carefully."
+      },
+      {
+        "type": "text",
+        "data": "<b>Summary</b>\nThe poem explains that praise and honour—symbolized by garlands—are easily given and often insincere. People praise others without sharing their pain or struggles. Once a person loses power or relevance, the same people who praised them quickly abandon them. The poet advises that such praise should not be taken seriously, as it can easily turn into criticism or hostility."
+      },
+      {
+        "type": "text",
+        "data": "<b>Themes</b>\n1. <b>Hypocrisy and Insincerity</b>: The poem exposes false praise and dishonest admiration.\n2. <b>Sycophancy</b>: Excessive praise is shown as cheap and self-serving.\n3. <b>Power and Influence</b>: People are praised mainly because of their status.\n4. <b>Betrayal</b>: Praise can quickly turn into abandonment or hostility.\n5. <b>Human Self-Interest</b>: Individuals act based on personal gain rather than loyalty."
+      },
+      {
+        "type": "text",
+        "data": "<b>Symbolism</b>\n1. <b>Garlands</b>: Symbolize praise, honour, and public admiration.\n2. <b>Flowers</b>: Represent sweet words and flattery.\n3. <b>Thorns</b>: Represent hidden pain, responsibility, and consequences.\n4. <b>Stones</b>: Symbolize criticism, betrayal, or hostility.\n5. <b>Falling Star</b>: Represents loss of power or influence."
+      },
+      {
+        "type": "text",
+        "data": "<b>Language and Imagery</b>\nClark uses simple but effective imagery drawn from everyday experiences. The contrast between flowers and thorns highlights the difference between praise and suffering. Visual imagery such as garlands, stones, and falling stars strengthens the poem’s moral lesson and makes it memorable."
+      },
+      {
+        "type": "text",
+        "data": "<b>Figures of Speech</b>\n1. <b>Metaphor</b>: Garlands as praise and honour.\n2. <b>Irony</b>: Praise is shown to be unreliable and dangerous.\n3. <b>Repetition</b>: 'Hearty garlands are cheap' emphasizes the central message.\n4. <b>Contrast</b>: Flowers versus thorns, praise versus stones.\n5. <b>Imagery</b>: Strong visual imagery reinforces the poem’s warning."
+      },
+      {
+        "type": "text",
+        "data": "<b>Moral Lessons</b>\n1. Public praise is often insincere.\n2. Leaders should not be deceived by flattery.\n3. True loyalty is revealed in difficult times.\n4. Power attracts opportunists, not genuine friends.\n5. One should value honesty over empty praise."
+      },
+      {
+        "type": "text",
+        "data": "<b>Exam Tips</b>\n1. Explain the symbolism of garlands clearly.\n2. Emphasize irony and satire in the poem.\n3. Relate the poem to political leadership and society.\n4. Use quotations to support your points.\n5. Focus on the poet’s warning rather than mere summary."
+      }
+    ]
+  }
+},
+
+//The beast of the sea
+
+{
+  "topic": "Poem - The Beast of the Sea",
+  "notes": {
+    "title": "Comprehensive and Detailed Analysis of 'The Beast of the Sea'",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Overview of the Poem</b>\n'The Beast of the Sea' is a symbolic and cautionary poem that presents the sea as a powerful, dangerous, and unpredictable force. The poem explores humanity’s relationship with nature, emphasizing human curiosity, ambition, and vulnerability when faced with overwhelming natural powers. The 'beast' of the sea represents danger, destruction, and forces beyond human control. Through vivid imagery and symbolism, the poem warns against arrogance and underestimating nature."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Full Poem</b>\n<i>The beast of the sea\nLies coiled beneath the waves,\nSilent in its waiting,\nPatient as time.\n\nIts breath is the wind,\nIts roar the crashing surf,\nIts teeth the jagged rocks\nThat tear the flesh of ships.\n\nMany have dared its path,\nDrawn by glittering waters,\nPromised wealth and glory\nBeyond the horizon.\n\nBut the sea remembers all:\nBroken masts,\nDrowned cries,\nBones scattered on the sand.\n\nStill men return,\nChallenging the beast,\nArmed with hope and pride,\nAnd prayers whispered too late.</i>"
+      },
+      {
+        "type": "text",
+        "data": "<b>Author Background</b>\nThe poem is often studied as part of African and modern poetry that reflects humanity’s struggle against natural forces. Though sometimes presented anonymously or in adapted form for school anthologies, the poem aligns with African poetic traditions that personify nature and use it as a moral and philosophical teacher."
+      },
+      {
+        "type": "text",
+        "data": "<b>Historical and Cultural Context</b>\nIn many African societies, the sea is viewed with both reverence and fear. It is a source of livelihood, trade, and sustenance, yet also a place of danger, death, and mystery. The poem reflects this dual perception of nature—as both giver and destroyer—and serves as a metaphor for broader human struggles against uncontrollable forces such as fate, power, or oppression."
+      },
+      {
+        "type": "text",
+        "data": "<b>Structure and Style</b>\nThe poem is written in free verse, allowing flexibility and fluidity that mirrors the movement of the sea itself. The lines vary in length, creating a rhythmic rise and fall similar to ocean waves. The poet employs vivid imagery, personification, and metaphor to bring the sea to life as a living, conscious entity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Tone and Mood</b>\nThe tone of the poem is ominous and cautionary. There is a sense of warning throughout the poem, urging respect for nature’s power. The mood is tense and foreboding, filled with suspense and an awareness of impending danger."
+      },
+      {
+        "type": "text",
+        "data": "<b>Summary</b>\nThe poem portrays the sea as a monstrous beast lying silently beneath the waves, waiting for unsuspecting humans. Many are attracted to the sea by promises of wealth and adventure, but they are often met with destruction. Despite past tragedies, people continue to challenge the sea, driven by pride, hope, and ambition, often realizing the danger too late."
+      },
+      {
+        "type": "text",
+        "data": "<b>Themes</b>\n1. <b>Man versus Nature</b>: The poem highlights the struggle between human ambition and natural forces.\n2. <b>Danger of Pride and Arrogance</b>: Human overconfidence leads to disaster.\n3. <b>Fate and Inevitability</b>: The sea symbolizes forces beyond human control.\n4. <b>Human Curiosity and Greed</b>: People are drawn to danger by promises of gain.\n5. <b>Respect for Nature</b>: The poem warns against underestimating natural power."
+      },
+      {
+        "type": "text",
+        "data": "<b>Symbolism</b>\n1. <b>The Beast</b>: Represents danger, death, and uncontrollable forces.\n2. <b>The Sea</b>: Symbolizes nature, mystery, and power.\n3. <b>Broken Masts and Bones</b>: Represent past victims and forgotten warnings.\n4. <b>Horizon</b>: Symbolizes hope, ambition, and temptation.\n5. <b>Waves</b>: Represent continuous cycles of destruction."
+      },
+      {
+        "type": "text",
+        "data": "<b>Language and Imagery</b>\nThe poem uses strong visual and auditory imagery, such as crashing waves, roaring winds, and jagged rocks. Personification makes the sea appear alive and predatory. The imagery of bones and broken ships reinforces the theme of danger and loss."
+      },
+      {
+        "type": "text",
+        "data": "<b>Figures of Speech</b>\n1. <b>Personification</b>: The sea is portrayed as a living beast.\n2. <b>Metaphor</b>: The sea as a monster or predator.\n3. <b>Imagery</b>: Vivid descriptions of destruction and movement.\n4. <b>Symbolism</b>: Objects represent broader human experiences.\n5. <b>Alliteration</b>: Enhances rhythm and mood."
+      },
+      {
+        "type": "text",
+        "data": "<b>Moral Lessons</b>\n1. Nature should be respected, not challenged arrogantly.\n2. Human pride can lead to destruction.\n3. Past warnings should not be ignored.\n4. Ambition must be balanced with caution.\n5. Some forces are beyond human control."
+      },
+      {
+        "type": "text",
+        "data": "<b>Exam Tips</b>\n1. Explain the metaphor of the sea as a beast clearly.\n2. Link imagery to the theme of danger.\n3. Discuss tone and mood with examples.\n4. Avoid mere storytelling—focus on interpretation.\n5. Relate the poem to real-life experiences involving risk and ambition."
+      }
+    ]
+  }
+},
+
+//non-african poetry
+
+//the good morrow
+
+{
+  "topic": "Poem - The Good-Morrow",
+  "notes": {
+    "title": "Comprehensive Analysis of 'The Good-Morrow' by John Donne",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Overview of the Poem</b>\n'The Good-Morrow' by John Donne is a metaphysical love poem that celebrates the awakening of true love and the unity of two souls. The poem explores themes of love, spiritual and emotional intimacy, and the idea that love transforms the speaker’s perception of the world. Donne combines physical and spiritual imagery to illustrate the completeness and perfection found in true romantic partnership."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Full Poem</b>\n<i>I wonder, by my troth, what thou and I\nDid, till we loved? Were we not weaned till then?\nBut sucked on country pleasures, childishly?\nOr snorted we in the Seven Sleepers’ den?\n'Twas so; but this, all pleasures fancies be.\nIf ever any beauty I did see,\nWhich I desired, and got, 'twas but a dream of thee.\n\nAnd now good-morrow to our waking souls,\nWhich watch not one another out of fear;\nFor love all love of other sights controls,\nAnd makes one little room an everywhere.\nLet sea-discoverers to new worlds have gone,\nLet maps to other, worlds on worlds have shown,\nLet us possess one world, each hath one, and is one.\n\nMy face in thine eye, thine in mine appears,\nAnd true plain hearts do in the faces rest;\nWhere can we find two better hemispheres\nWithout sharp north, without declining west?\nWhatever dies, was not mixed equally;\nIf our two loves be one, or, thou and I\nLove so alike that none do slacken, none can die.</i>"
+      },
+      {
+        "type": "text",
+        "data": "<b>Author Background</b>\nJohn Donne (1572–1631) was an English poet, cleric, and one of the most prominent metaphysical poets. His work is known for its use of wit, paradox, and metaphysical conceits to explore themes of love, religion, mortality, and human experience. Donne’s poetry often blends intellectual depth with emotional intensity, and he is particularly celebrated for his love poems and spiritual verse."
+      },
+      {
+        "type": "text",
+        "data": "<b>Historical and Literary Context</b>\nWritten during the early 17th century, 'The Good-Morrow' reflects the metaphysical style of poetry, which was characterized by clever metaphors, philosophical meditation, and argumentation. Donne often wrote for a select audience of educated readers, using love as a lens to explore spiritual and emotional truths. The poem also reflects Renaissance ideas of discovery and exploration, linking love with the discovery of new worlds."
+      },
+      {
+        "type": "text",
+        "data": "<b>Structure and Style</b>\nThe poem is written in three stanzas of nine, seven, and seven lines respectively, following a regular rhyme scheme (ABABCCC). Donne uses metaphysical conceits, witty comparisons, and intellectual argumentation. The style blends sensual imagery with spiritual reflection, connecting physical love with emotional and intellectual union."
+      },
+      {
+        "type": "text",
+        "data": "<b>Tone and Mood</b>\nThe tone is celebratory, reflective, and intimate. Donne expresses admiration and wonder at the completeness of true love. The mood is uplifting, contemplative, and serene, emphasizing harmony, fulfillment, and unity between lovers."
+      },
+      {
+        "type": "text",
+        "data": "<b>Summary</b>\nThe poem begins with the speaker reflecting on life before true love, considering past pleasures as insignificant. The speaker then greets the present 'awakening' of love, recognizing that love has transformed their world. Physical and emotional intimacy merge as the lovers’ souls and perceptions unite. Donne concludes that their love is perfect, complete, and eternal, transcending worldly boundaries and mortal limitations."
+      },
+      {
+        "type": "text",
+        "data": "<b>Themes</b>\n1. <b>True Love</b>: The poem explores love as a complete, transforming force.\n2. <b>Union and Harmony</b>: Physical, emotional, and spiritual unity between lovers.\n3. <b>Transformation</b>: Love transforms perception and life itself.\n4. <b>Eternity</b>: Love is enduring and transcendent.\n5. <b>Exploration and Discovery</b>: Linking love with discovery of new worlds and personal growth."
+      },
+      {
+        "type": "text",
+        "data": "<b>Symbolism</b>\n1. <b>Worlds</b>: Represent the lovers’ inner experiences and discovery of each other.\n2. <b>Sea-Discoverers</b>: Symbolize exploration and the pursuit of knowledge, paralleling emotional discovery in love.\n3. <b>Faces and Eyes</b>: Represent intimate reflection and unity of souls.\n4. <b>Hemispheres</b>: Symbolize completeness and perfect balance in love.\n5. <b>Sleepers’ Den</b>: Represents past ignorance or lack of awakening before love."
+      },
+      {
+        "type": "text",
+        "data": "<b>Language and Imagery</b>\nDonne uses rich metaphysical imagery, blending sensual and spiritual language. Imagery of eyes, faces, and hemispheres conveys intimacy and completeness. Comparisons between love and discovery highlight the depth and novelty of emotional experience. The poem uses metaphors and conceits to merge physical and spiritual dimensions."
+      },
+      {
+        "type": "text",
+        "data": "<b>Figures of Speech</b>\n1. <b>Metaphysical Conceit</b>: Comparing love to exploration and discovery of new worlds.\n2. <b>Metaphor</b>: Life before love is likened to childish or meaningless activity.\n3. <b>Imagery</b>: Visual and tactile images of faces, eyes, and hemispheres.\n4. <b>Hyperbole</b>: Suggests the completeness and perfection of love.\n5. <b>Allusion</b>: References to 'Seven Sleepers’ den' enrich the spiritual and historical resonance."
+      },
+      {
+        "type": "text",
+        "data": "<b>Moral Lessons</b>\n1. True love brings fulfillment and personal growth.\n2. Emotional and spiritual connection is as important as physical intimacy.\n3. Love transforms life and perception, making mundane experiences meaningful.\n4. Mutual respect and recognition deepen the bond between lovers.\n5. Cherish love as a guiding and enduring force in life."
+      },
+      {
+        "type": "text",
+        "data": "<b>Exam Tips</b>\n1. Focus on metaphysical conceits and how Donne links love with discovery.\n2. Analyze the use of imagery and symbolism.\n3. Explain themes of unity, eternity, and transformation.\n4. Quote lines to illustrate how physical and spiritual love merge.\n5. Discuss tone and mood — celebratory, reflective, intimate."
+      }
+    ]
+  }
+},
+
+//the caged bird
+
+{
+  "topic": "Poem - Caged Bird",
+  "notes": {
+    "title": "Comprehensive Analysis of 'Caged Bird' by Maya Angelou",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Overview of the Poem</b>\n'Caged Bird' by Maya Angelou is a powerful poem that explores themes of freedom, oppression, and the struggle for self-expression. The poem contrasts the lives of a free bird and a caged bird, using the birds as metaphors for those who experience liberty versus those who are confined by social, political, or personal limitations. Angelou emphasizes the resilience of the human spirit in the face of oppression."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Full Poem</b>\n<i>The free bird leaps\non the back of the wind\nand floats downstream\nuntil the current ends\nand dips his wing\nin the orange sun rays\nand dares to claim the sky.\n\nBut a bird that stalks\ndown his narrow cage\ncan seldom see through\nhis bars of rage\nhis wings are clipped and\nhis feet are tied\nso he opens his throat to sing.\n\nThe caged bird sings\nwith a fearful trill\nof things unknown\nbut longed for still\nand his tune is heard\non the distant hill for the caged bird\nsings of freedom.</i>"
+      },
+      {
+        "type": "text",
+        "data": "<b>Author Background</b>\nMaya Angelou (1928–2014) was an American poet, memoirist, singer, dancer, and civil rights activist. She is known for her exploration of themes such as identity, race, resilience, and freedom. Her poetry often blends personal experience with social commentary, highlighting struggles against injustice while celebrating the human spirit."
+      },
+      {
+        "type": "text",
+        "data": "<b>Historical and Cultural Context</b>\nWritten during the Civil Rights era, the poem reflects the struggles of African Americans and other oppressed peoples against systemic racism and inequality. The caged bird symbolizes those restricted by societal, political, or racial oppression, while the free bird represents privilege and liberty. The poem’s enduring appeal lies in its universal message about the desire for freedom and justice."
+      },
+      {
+        "type": "text",
+        "data": "<b>Structure and Style</b>\nThe poem is written in free verse, with varying line lengths that create a natural, flowing rhythm. Angelou uses repetition and parallel structure to emphasize the contrast between the free bird and the caged bird. The language is simple but powerful, accessible to a wide audience while conveying deep emotion and social commentary."
+      },
+      {
+        "type": "text",
+        "data": "<b>Tone and Mood</b>\nThe tone alternates between celebratory and somber. The free bird’s sections are uplifting and joyful, while the caged bird’s sections are mournful, reflective, and filled with yearning. The overall mood evokes empathy, awareness, and a call for justice."
+      },
+      {
+        "type": "text",
+        "data": "<b>Summary</b>\nThe poem contrasts a free bird, which enjoys liberty and adventure, with a caged bird, confined and restricted. Despite its limitations, the caged bird continues to sing, expressing hope, desire, and resilience. The poem illustrates the universal human struggle for freedom, dignity, and self-expression."
+      },
+      {
+        "type": "text",
+        "data": "<b>Themes</b>\n1. <b>Freedom and Oppression</b>: Explores the contrasting experiences of liberty and confinement.\n2. <b>Resilience</b>: The caged bird’s song symbolizes enduring hope and courage.\n3. <b>Social Inequality</b>: Highlights discrimination, injustice, and systemic barriers.\n4. <b>Hope and Aspiration</b>: Despite confinement, the desire for freedom persists.\n5. <b>Voice and Expression</b>: The power of expressing oneself, even under restriction."
+      },
+      {
+        "type": "text",
+        "data": "<b>Symbolism</b>\n1. <b>Free Bird</b>: Symbolizes privilege, opportunity, and freedom.\n2. <b>Caged Bird</b>: Represents oppressed individuals and groups.\n3. <b>Bars of Rage</b>: Symbolize societal and systemic oppression.\n4. <b>Singing</b>: Symbolizes hope, resilience, and the human spirit.\n5. <b>Distant Hill</b>: Suggests awareness and recognition beyond immediate confines."
+      },
+      {
+        "type": "text",
+        "data": "<b>Language and Imagery</b>\nAngelou uses vivid visual and auditory imagery to contrast freedom and confinement. Phrases like 'wings are clipped' and 'feet are tied' evoke physical restriction, while the singing of the caged bird conveys emotional and spiritual expression. Repetition emphasizes the ongoing struggle for freedom."
+      },
+      {
+        "type": "text",
+        "data": "<b>Figures of Speech</b>\n1. <b>Metaphor</b>: Birds symbolize humans in different social conditions.\n2. <b>Contrast</b>: Between the free bird and caged bird highlights inequality.\n3. <b>Repetition</b>: Emphasizes themes of hope and oppression.\n4. <b>Imagery</b>: Visual and auditory imagery conveys confinement and liberation.\n5. <b>Personification</b>: The birds’ experiences reflect human emotions and struggles."
+      },
+      {
+        "type": "text",
+        "data": "<b>Moral Lessons</b>\n1. Value and fight for freedom and justice.\n2. Resilience and hope persist even in adversity.\n3. Express your voice, even when constrained.\n4. Recognize and empathize with the struggles of the oppressed.\n5. Liberty is both a right and a responsibility."
+      },
+      {
+        "type": "text",
+        "data": "<b>Exam Tips</b>\n1. Focus on the symbolism of the free and caged birds.\n2. Discuss contrast and imagery to support interpretation.\n3. Highlight themes of resilience, freedom, and hope.\n4. Quote key lines such as 'His wings are clipped' or 'The caged bird sings of freedom.'\n5. Explain tone and mood shifts to show understanding of poetic technique."
+      }
+    ]
+  }
+},
+
+//the journey of maggi
+
+
 ],
 
 
 "Government": [
+  //definition and scope of government 
   {
   "topic": "Meaning & Scope of Government",
   "notes": {
@@ -6278,9 +10823,9 @@ window.studyData = {
     ]
   }
 },
-
+  //basic government concepts
   {
-  "topic": "Basic Concepts in Government",
+  "topic": "Basic Concepts",
   "notes": {
     "title": "Basic Concepts in Government",
     "content": [
@@ -6339,9 +10884,55 @@ window.studyData = {
     ]
   }
 },
-
+  //systems of government 
   {
-  "topic": "Forms and Systems of Government",
+  "topic": "Economic Systems",
+  "notes": {
+    "title": "Systems of Government and Economic Systems",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Capitalism</b>\nCapitalism is an economic system where private individuals or businesses own and control the means of production and distribution of goods and services. The market largely determines prices and production. <br><b>Features:</b> Private ownership, profit motive, competition, market-driven economy, limited government intervention. <br><b>Advantages:</b> Encourages innovation and entrepreneurship, increases efficiency, allows consumer choice, generates wealth. <br><b>Disadvantages:</b> Can create economic inequality, encourages exploitation, may lead to monopolies, neglects social welfare."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Socialism</b>\nSocialism is an economic system in which the government or the community collectively owns the means of production. It seeks to reduce inequality through wealth distribution. <br><b>Features:</b> Public ownership, central planning, focus on social welfare, equitable distribution of resources. <br><b>Advantages:</b> Reduces poverty and inequality, promotes social welfare, ensures essential services for all. <br><b>Disadvantages:</b> Can limit individual freedom, reduce incentives for innovation, may lead to bureaucratic inefficiency."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Communism</b>\nCommunism is a political and economic ideology advocating for a classless society where all property is communally owned. The state often controls production and distribution. <br><b>Features:</b> Classless society, state ownership of resources, abolition of private property, central planning. <br><b>Advantages:</b> Eliminates class distinctions, promotes equality, provides for everyone’s basic needs. <br><b>Disadvantages:</b> Suppresses individual freedoms, may cause inefficiency, often results in authoritarian rule."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Democracy</b>\nDemocracy is a system of government where power resides with the people, who participate in decision-making either directly or through elected representatives. <br><b>Features:</b> Free and fair elections, majority rule with minority rights, rule of law, political freedom, accountability of leaders. <br><b>Advantages:</b> Promotes freedom and equality, encourages participation, prevents abuse of power, allows peaceful change of government. <br><b>Disadvantages:</b> Can be slow in decision-making, risk of majority tyranny, may lead to political instability, sometimes influenced by populism."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Oligarchy</b>\nOligarchy is a system of government in which a small group of people hold power and make decisions for the larger population. <br><b>Features:</b> Rule by a few, concentration of power, limited political participation, often elite-controlled. <br><b>Advantages:</b> Decisions can be made quickly, leaders are often experienced, may ensure stability. <br><b>Disadvantages:</b> Can lead to corruption, oppression of the majority, lack of accountability, restricted freedoms."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Fascism</b>\nFascism is an authoritarian political system characterized by dictatorial power, extreme nationalism, and suppression of opposition. <br><b>Features:</b> Centralized control, strong leader, nationalism, suppression of dissent, militarism. <br><b>Advantages:</b> Can unite a nation quickly, strong centralized control may stabilize the country, rapid decision-making. <br><b>Disadvantages:</b> Violates human rights, suppresses freedoms, promotes intolerance, often leads to war and oppression."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Feudalism</b>\nFeudalism is a hierarchical system of governance and land ownership, where nobles hold land from the monarch in exchange for military service, and peasants work the land for the nobles. <br><b>Features:</b> Hierarchical social structure, land-based economy, reciprocal obligations, decentralized authority. <br><b>Advantages:</b> Provides local governance, security through loyalty, social order is maintained. <br><b>Disadvantages:</b> Restricts social mobility, peasants are exploited, economic development is limited."
+      },
+      {
+        "type": "text",
+        "data": "<b>8. Totalitarianism</b>\nTotalitarianism is a political system where the state holds absolute power over all aspects of public and private life. <br><b>Features:</b> Single-party rule, central control, suppression of opposition, propaganda, restriction of freedoms. <br><b>Advantages:</b> Decisions can be implemented quickly, strong national unity, control over social order. <br><b>Disadvantages:</b> No individual freedoms, high risk of abuse, fear and oppression, stifles creativity and dissent."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define capitalism and list two features.\n2. Explain one advantage and one disadvantage of socialism.\n3. Differentiate between communism and socialism.\n4. State four characteristics of democracy.\n5. What is oligarchy? Mention two disadvantages.\n6. Identify three features of fascism.\n7. Describe feudalism and its major disadvantage.\n8. Explain totalitarianism and state one advantage and one disadvantage.\n9. Compare democracy and totalitarianism in terms of citizens’ participation.\n10. Mention two similarities and two differences between capitalism and communism."
+      }
+    ]
+  }
+},
+  //forms and systems of government 
+  
+  {
+  "topic": "Forms of Government",
   "notes": {
     "title": "Forms and Systems of Government",
     "content": [
@@ -6392,48 +10983,8 @@ window.studyData = {
     ]
   }
 },
-
-  {
-  "topic": "Constitution & Constitutional Development in Nigeria",
-  "notes": {
-    "title": "Constitution & Constitutional Development in Nigeria",
-    "content": [
-      {
-        "type": "text",
-        "data": "<b>1. Meaning of Constitution</b>\nA constitution is a set of fundamental laws that outlines how a country is to be governed. It defines the powers of political institutions, the rights and duties of citizens, and the rules for making and enforcing laws. It serves as the supreme law of the land."
-      },
-      {
-        "type": "text",
-        "data": "<b>2. Importance of a Constitution</b>\n- Provides a framework for governance.\n- Defines and limits the powers of authorities.\n- Protects citizens’ rights and freedoms.\n- Promotes political stability and unity.\n- Guides the functioning of the judiciary, legislature, and executive."
-      },
-      {
-        "type": "text",
-        "data": "<b>3. Historical Development of Nigerian Constitution</b>\nNigeria’s constitutional history can be divided into colonial and post-independence periods."
-      },
-      {
-        "type": "text",
-        "data": "<b>a. Colonial Era</b>\n- 1914: The Clifford Constitution united Northern and Southern protectorates under one administration.\n- 1922: The Richards Constitution introduced elective representation in the south.\n- 1946: The Richards Constitution allowed regional councils and expanded African participation.\n- 1951: The Macpherson Constitution established regional autonomy and the principle of federalism.\n- 1954: The Lyttleton Constitution strengthened federal features and regional governments.\n- 1960: Independence Constitution provided for a parliamentary system with a prime minister and ceremonial governor-general."
-      },
-      {
-        "type": "text",
-        "data": "<b>b. Post-Independence Era</b>\n- 1963: Republican Constitution removed the Queen as head of state and replaced her with a president.\n- 1979: Presidential Constitution introduced a U.S.-style presidential system.\n- 1989–1999: Military regimes suspended constitutions and ruled by decrees.\n- 1999: Current Constitution restored democracy and the presidential system. It defines separation of powers, fundamental rights, federal structure, and electoral procedures."
-      },
-      {
-        "type": "text",
-        "data": "<b>4. Features of the Nigerian Constitution</b>\n- Supremacy: The constitution is the highest law.\n- Federalism: Power is divided between central and state governments.\n- Separation of Powers: The legislature, executive, and judiciary operate independently.\n- Fundamental Rights: Citizens’ basic rights are guaranteed.\n- Rule of Law: Everyone, including leaders, is subject to the law."
-      },
-      {
-        "type": "text",
-        "data": "<b>5. Significance of Constitutional Development</b>\n- Increased political participation.\n- Promoted national unity.\n- Strengthened democracy.\n- Limited arbitrary use of power.\n- Encouraged legal and institutional reforms."
-      },
-      {
-        "type": "text",
-        "data": "<b>Evaluation Questions</b>\n1. Define a constitution and explain its importance.\n2. Describe the Clifford, Richards, and Macpherson constitutions.\n3. What changes did the 1963 Republican Constitution introduce?\n4. List three features of the 1999 Constitution.\n5. Explain the significance of constitutional development in Nigeria.\n6. Differentiate between colonial and post-independence constitutions.\n7. What is the principle of federalism in Nigeria?"
-      }
-    ]
-  }
-},
-
+  
+  //organization of government 
   {
   "topic": "Organs of Government",
   "notes": {
@@ -6471,47 +11022,2210 @@ window.studyData = {
   }
 },
 
+  //political participation 
+  
   {
-  "topic": "Local Government & Administration",
+  "topic": "Political Participation",
   "notes": {
-    "title": "Local Government & Administration",
+    "title": "Political Participation, Governance, and Constitutionalism",
     "content": [
       {
         "type": "text",
-        "data": "<b>1. Introduction</b>\nLocal government refers to the system of administration that brings governance closer to the people at the grassroots level. It is responsible for providing basic services, implementing policies, and ensuring local development."
+        "data": "<b>1. Political Participation</b>\nPolitical participation refers to the involvement of citizens in the political process of a state. It allows people to influence decisions, policies, and governance."
       },
       {
         "type": "text",
-        "data": "<b>2. Objectives of Local Government</b>\n- Promote grassroots participation in decision-making.\n- Provide essential services such as water, sanitation, roads, and healthcare.\n- Mobilize resources and plan for local development.\n- Reduce the burden on central and state governments.\n- Foster political awareness and citizenship at the local level."
+        "data": "<b>Forms of Political Participation</b>\n1. <b>Voting:</b> Participating in elections to choose leaders.\n2. <b>Joining Political Parties:</b> Engaging actively in party activities.\n3. <b>Protests and Demonstrations:</b> Expressing opinions publicly to influence government decisions.\n4. <b>Interest Groups and Pressure Groups:</b> Organizing groups to advocate for specific issues.\n5. <b>Civic Engagement:</b> Participating in community projects, campaigns, or policy discussions.\n6. <b>Petitions:</b> Presenting demands to the government formally."
       },
       {
         "type": "text",
-        "data": "<b>3. Structure of Local Government</b>\nLocal governments in Nigeria consist of:\n- The Chairman (executive head)\n- Vice Chairman\n- Councilors (representing wards)\n- Committees and secretariats\nThe structure may vary slightly between states but generally follows constitutional guidelines."
+        "data": "<b>Purpose of Political Participation</b>\n- Ensures government accountability and transparency.\n- Allows citizens to influence laws, policies, and decisions.\n- Promotes political stability and social cohesion.\n- Protects rights and freedoms.\n- Encourages civic responsibility and national development."
       },
       {
         "type": "text",
-        "data": "<b>4. Functions of Local Government</b>\n- Making by-laws and enforcing local regulations.\n- Collecting taxes and levies to fund local projects.\n- Providing social and infrastructural services such as schools, healthcare, markets, and roads.\n- Resolving local disputes and maintaining law and order.\n- Promoting community development and welfare programs."
+        "data": "<b>2. Political Apathy</b>\nPolitical apathy is the lack of interest, indifference, or disengagement of citizens from political activities and decision-making processes.\n<b>Causes:</b> Lack of education, distrust in government, perceived ineffectiveness of participation, political intimidation.\n<b>Effects:</b> Low voter turnout, weak democracy, concentration of power, poor governance, and lack of representation."
       },
       {
         "type": "text",
-        "data": "<b>5. Challenges of Local Government Administration</b>\n- Inadequate funding from central or state governments.\n- Corruption and mismanagement of resources.\n- Political interference from higher authorities.\n- Poor planning and weak administrative capacity.\n- Low participation by citizens in local governance."
+        "data": "<b>3. Centralization</b>\nCentralization is a system where decision-making power is concentrated at the top levels of government, usually in the hands of national authorities.\n<b>Features:</b> Authority concentrated at the center, uniform policies, centralized administration, limited local autonomy.\n<b>Advantages:</b> Consistent policies, strong national control, efficient resource allocation, rapid decision-making.\n<b>Disadvantages:</b> Can ignore local needs, reduces local participation, may overburden central authorities."
       },
       {
         "type": "text",
-        "data": "<b>6. Importance of Local Government</b>\n- Encourages participatory democracy.\n- Provides essential services close to the people.\n- Facilitates local development and planning.\n- Serves as a training ground for future national leaders.\n- Helps maintain law and order at the grassroots level."
+        "data": "<b>4. Decentralization</b>\nDecentralization is the transfer of decision-making powers and responsibilities from the central government to lower levels of government or local authorities.\n<b>Features:</b> Local autonomy, shared decision-making, community involvement, tailored policies.\n<b>Advantages:</b> Encourages citizen participation, addresses local needs effectively, reduces burden on central government, improves accountability.\n<b>Disadvantages:</b> May lead to inconsistent policies, potential local corruption, slower coordination between regions."
       },
       {
         "type": "text",
-        "data": "<b>Evaluation Questions</b>\n1. Define local government and explain its objectives.\n2. List the main components of a local government structure.\n3. State five functions of local government.\n4. Mention three challenges facing local government administration.\n5. Explain why local government is important for grassroots development.\n6. Give examples of services provided by local government to the community."
+        "data": "<b>5. Constitutionalism</b>\nConstitutionalism is the principle that government authority is derived from and limited by a constitution. It ensures that rulers act according to established laws and protects citizens’ rights.\n<b>Features:</b> Written or unwritten constitution, rule of law, separation of powers, protection of fundamental rights, limits on government power.\n<b>Advantages:</b> Prevents abuse of power, promotes democracy, ensures fairness, protects citizens’ liberties.\n<b>Disadvantages:</b> Can be rigid and slow to adapt, sometimes limits government flexibility in emergencies."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define political participation and mention three forms.\n2. Explain two purposes of political participation.\n3. What is political apathy? State two causes.\n4. Distinguish between centralization and decentralization.\n5. List two advantages and two disadvantages of centralization.\n6. List two advantages and two disadvantages of decentralization.\n7. Define constitutionalism and mention two of its key features.\n8. Explain one advantage and one disadvantage of constitutionalism.\n9. Suggest two ways to reduce political apathy in a country.\n10. Discuss why decentralization can improve local governance."
       }
     ]
   }
 },
 
+//constitutions
+  {
+  "topic": "Constitutions",
+  "notes": {
+    "title": "Constitutions: Features, Sources, Importance, and Types",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Constitution</b>\nA constitution is a set of fundamental principles, rules, and laws that defines the structure, powers, and functions of government and regulates the relationship between the state and its citizens."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Features of a Constitution</b>\n- <b>Supremacy:</b> The constitution is the supreme law of the land.\n- <b>Fundamental Principles:</b> It outlines the basic principles of governance.\n- <b>Distribution of Power:</b> It defines powers between different organs of government.\n- <b>Rights and Duties:</b> It guarantees citizens’ rights and specifies their duties.\n- <b>Amendability:</b> It can be amended under specified conditions.\n- <b>Legitimacy:</b> Provides legal and moral authority for government."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Sources of a Constitution</b>\n- <b>Customary Law:</b> Traditional practices recognized as law.\n- <b>Judicial Decisions:</b> Court rulings that interpret laws.\n- <b>Statutes:</b> Laws passed by the legislature.\n- <b>Conventions:</b> Unwritten rules developed through political practice.\n- <b>Legal Scholars:</b> Opinions and writings that influence constitutional development.\n- <b>Historical Documents:</b> Charters, declarations, and acts that form the basis of constitutional law."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Importance of a Constitution</b>\n- Ensures rule of law and prevents arbitrary use of power.\n- Provides framework for governance.\n- Protects citizens’ fundamental rights and freedoms.\n- Promotes political stability and national unity.\n- Guides the functioning of government institutions.\n- Provides a mechanism for resolving conflicts and disputes."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Types of Constitutions</b>\n1. <b>Written Constitution:</b> A constitution that is formally documented in a single legal instrument. <br>Examples: USA, Nigeria.<br>Features: Codified, clear, specific, legally enforceable.<br>Advantages: Provides clarity and certainty, protects citizens’ rights, difficult for rulers to abuse power.<br>Disadvantages: Can be rigid and hard to amend."
+      },
+      {
+        "type": "text",
+        "data": "2. <b>Unwritten Constitution:</b> A constitution not contained in a single document but derived from statutes, conventions, judicial decisions, and customs. <br>Examples: UK.<br>Features: Flexible, evolves with practice, based on tradition and precedent.<br>Advantages: Adaptable to changing circumstances, avoids rigidity.<br>Disadvantages: Can be unclear, may cause disputes due to lack of codification."
+      },
+      {
+        "type": "text",
+        "data": "3. <b>Rigid Constitution:</b> A constitution that is difficult to amend. Special procedures, often requiring supermajorities or referenda, are needed for changes. <br>Examples: USA.<br>Advantages: Provides stability and protects fundamental principles.<br>Disadvantages: May be inflexible and slow to respond to new challenges."
+      },
+      {
+        "type": "text",
+        "data": "4. <b>Flexible Constitution:</b> A constitution that can be easily amended or adapted through ordinary legislative procedures. <br>Examples: UK.<br>Advantages: Easily adaptable to changing circumstances.<br>Disadvantages: Can be changed too easily, risking instability or abuse."
+      },
+      {
+        "type": "text",
+        "data": "5. <b>Federal Constitution:</b> A constitution that divides powers between a central (federal) government and constituent units (states/provinces). <br>Examples: USA, Nigeria.<br>Features: Dual government, shared powers, autonomy for units, supremacy of federal law in specified areas.<br>Advantages: Allows local autonomy, accommodates diversity, promotes unity while respecting differences.<br>Disadvantages: May lead to conflicts between central and state governments, duplication of services, expensive administration."
+      },
+      {
+        "type": "text",
+        "data": "6. <b>Unitary Constitution:</b> A constitution that vests all sovereign power in a central government. Local authorities exercise powers delegated by the central government. <br>Examples: France, Japan.<br>Features: Centralized authority, uniform laws, administrative efficiency.<br>Advantages: Simplifies governance, ensures uniform policies, easy coordination.<br>Disadvantages: May ignore local needs, overburdens central government, less citizen participation."
+      },
+      {
+        "type": "text",
+        "data": "7. <b>Confederal Constitution:</b> A constitution where independent states or regions retain sovereignty but delegate limited powers to a central authority, mainly for defense or foreign relations. <br>Examples: European Union, early USA under Articles of Confederation.<br>Features: Sovereign member states, weak central authority, voluntary cooperation.<br>Advantages: Preserves state autonomy, flexible, encourages cooperation.\nDisadvantages: Central authority weak, may struggle to enforce decisions, prone to disunity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define constitution and mention three of its features.\n2. List four sources of a constitution.\n3. Explain two importance of a constitution.\n4. Differentiate between written and unwritten constitutions with examples.\n5. State one advantage and one disadvantage of a rigid constitution.\n6. State one advantage and one disadvantage of a flexible constitution.\n7. Compare federal and unitary constitutions.\n8. Explain what a confederal constitution is and give one example.\n9. Mention two disadvantages of a federal constitution.\n10. Why is constitutionalism important in ensuring good governance?"
+      }
+    ]
+  }
+},
+
+  // rule of law
+  {
+  "topic": "Rule of Law",
+  "notes": {
+    "title": "Rule of Law",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Rule of Law</b>\nThe rule of law is the principle that all individuals, institutions, and government authorities are subject to and accountable under the law. It ensures that no one is above the law, including lawmakers and leaders."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Principles of Rule of Law</b>\n- <b>Supremacy of Law:</b> The law is the highest authority, and everyone is bound by it.\n- <b>Equality Before the Law:</b> All citizens are treated equally regardless of status, wealth, or position.\n- <b>Accountability:</b> Government officials and citizens are accountable under the law.\n- <b>Legal Certainty:</b> Laws should be clear, publicized, stable, and applied consistently.\n- <b>Protection of Rights:</b> Fundamental rights of citizens are safeguarded.\n- <b>Separation of Powers:</b> Ensures independence of the judiciary, legislature, and executive to prevent abuse of power."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Features of Rule of Law</b>\n- All persons are equal before the law.\n- Laws are publicly known and accessible.\n- Laws are applied equally and fairly.\n- No one is punished arbitrarily.\n- The judiciary is independent and impartial.\n- Government operates within legal limits.\n- Protection of fundamental human rights is guaranteed."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Factors That Limit the Application of Rule of Law</b>\n- Corruption among government officials and judiciary.\n- Weak legal and judicial institutions.\n- Lack of public awareness and education about laws.\n- Political interference in the judicial process.\n- Inconsistent or outdated laws.\n- Poverty and inequality that prevent access to justice.\n- Abuse of power by rulers or elites."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Factors That Aid the Successful Operation of Rule of Law</b>\n- Independent and well-trained judiciary.\n- Effective legal and enforcement institutions.\n- Transparency and accountability in governance.\n- Political stability and absence of arbitrary rule.\n- Education and awareness of citizens about their rights and laws.\n- Clear, consistent, and accessible laws.\n- Active civil society and media that monitor government actions."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define rule of law.\n2. State three principles of rule of law.\n3. List four features of rule of law.\n4. Mention three factors that limit the application of rule of law.\n5. Explain three factors that aid the successful operation of rule of law.\n6. Why is the independence of the judiciary important for the rule of law?\n7. Discuss how public awareness contributes to the successful application of rule of law.\n8. Explain one effect of corruption on the rule of law.\n9. How does separation of powers support the rule of law?\n10. Give two examples of how rule of law protects citizens’ rights."
+      }
+    ]
+  }
+},
+
+//designated legislation 
+  {
+  "topic": "Designated Legislation",
+  "notes": {
+    "title": "Designated Legislation",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Designated Legislation</b>\nDesignated legislation refers to laws that are specifically enacted to address particular issues, regulate certain sectors, or provide for the protection of rights and welfare in society. They are usually precise and focus on defined areas of governance or social need."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Purpose of Designated Legislation</b>\n- To regulate specific sectors or activities in society.\n- To protect the rights and welfare of citizens.\n- To provide clear rules and procedures for particular matters.\n- To prevent abuse, injustice, or exploitation.\n- To ensure orderly governance and social stability."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Features of Designated Legislation</b>\n- <b>Specificity:</b> Targets a particular issue or sector.\n- <b>Legal Authority:</b> Enacted by the legislature or authorized body.\n- <b>Enforceability:</b> Has clearly defined penalties and sanctions.\n- <b>Clarity:</b> Clearly drafted to avoid ambiguity.\n- <b>Temporal Scope:</b> May be permanent or for a defined period."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Types of Designated Legislation</b>\n1. <b>Constitutional Legislation:</b> Laws that supplement or implement constitutional provisions. <br>Example: Electoral Acts that operationalize voting rights.\n2. <b>Ordinary Legislation:</b> Laws passed by the national or state legislature for general governance. <br>Example: Labour Laws, Education Acts.\n3. <b>Emergency Legislation:</b> Laws enacted to address urgent or exceptional circumstances. <br>Example: Public Health Acts during epidemics.\n4. <b>Regulatory Legislation:</b> Laws that govern specific sectors or professions. <br>Example: Banking Regulation Acts, Environmental Protection Laws."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Importance of Designated Legislation</b>\n- Provides legal framework for sector-specific activities.\n- Protects citizens’ rights and ensures fairness.\n- Promotes efficiency and order in society.\n- Reduces conflicts and misunderstandings.\n- Encourages accountability in governance and administration."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Factors Affecting the Effectiveness of Designated Legislation</b>\n- Enforcement mechanisms: Laws must be actively enforced.\n- Public awareness and education about the law.\n- Adequate resources and trained personnel for implementation.\n- Political will and support from government authorities.\n- Legal clarity and absence of loopholes.\n- Citizen compliance and participation."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define designated legislation.\n2. State three purposes of designated legislation.\n3. Mention four features of designated legislation.\n4. Give two examples of regulatory designated legislation.\n5. Explain why public awareness affects the effectiveness of legislation.\n6. Distinguish between ordinary and emergency legislation.\n7. State two ways designated legislation protects citizens.\n8. How does enforcement influence the success of designated legislation?\n9. Discuss one challenge in implementing designated legislation.\n10. Why is clarity in drafting important for designated legislation?"
+      }
+    ]
+  }
+},
+
+//separation of power and check and balances 
+{
+  "topic": "Separation of Powers",
+  "notes": {
+    "title": "Separation of Powers",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Separation of Powers</b>\nSeparation of powers is a principle of governance in which the functions of government are divided among different branches to prevent the concentration of power and ensure checks and balances. Typically, the powers are divided among the Legislature, Executive, and Judiciary."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Purpose of Separation of Powers</b>\n- To prevent abuse of power and dictatorship.\n- To promote accountability and transparency.\n- To ensure efficiency in governance.\n- To protect the rights and freedoms of citizens.\n- To maintain the rule of law and justice."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Branches of Government and Their Functions</b>\n1. <b>Legislature:</b> Makes laws, approves budgets, and represents the people. <br>Examples: National Assembly, State House of Assembly.\n2. <b>Executive:</b> Implements laws, manages administration, and conducts foreign relations. <br>Examples: President, Governors, Ministers.\n3. <b>Judiciary:</b> Interprets laws, resolves disputes, protects rights, and ensures laws comply with the constitution. <br>Examples: Supreme Court, High Courts."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Features of Separation of Powers</b>\n- Distinct branches with defined powers.\n- Independence of each branch.\n- Checks and balances to prevent abuse.\n- Clear distribution of functions.\n- Protection of citizens’ rights through oversight."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Checks and Balances</b>\nChecks and balances are mechanisms that allow each branch of government to monitor, limit, or influence the powers of the other branches to prevent abuse. Examples include:\n- <b>Legislature over Executive:</b> Approves budgets, can impeach the president or governors.\n- <b>Legislature over Judiciary:</b> Confirms judicial appointments, can amend laws.\n- <b>Executive over Legislature:</b> Can veto bills, recommend legislation.\n- <b>Executive over Judiciary:</b> Appoints judges, grants pardons.\n- <b>Judiciary over Legislature:</b> Can declare laws unconstitutional.\n- <b>Judiciary over Executive:</b> Can review executive actions, ensure legality."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Advantages of Separation of Powers</b>\n- Prevents concentration of power and abuse.\n- Encourages accountability and transparency.\n- Ensures checks and balances between branches.\n- Promotes rule of law and justice.\n- Enhances efficiency by specialization of functions."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Disadvantages of Separation of Powers</b>\n- Can lead to slow decision-making due to checks and balances.\n- May cause conflicts between branches.\n- Requires high level of coordination for effective governance.\n- Complexity may confuse citizens about responsibilities."
+      },
+      {
+        "type": "text",
+        "data": "<b>8. Factors That Strengthen Separation of Powers</b>\n- Strong and independent judiciary.\n- Well-defined constitution and legal framework.\n- Political will to respect institutional boundaries.\n- Active civil society and media oversight.\n- Education and awareness about governance and rights."
+      },
+      {
+        "type": "text",
+        "data": "<b>9. Factors That Weaken Separation of Powers</b>\n- Political interference in judiciary or legislature.\n- Corruption among public officials.\n- Weak legal institutions.\n- Concentration of power in one branch, especially executive.\n- Public apathy and lack of civic participation."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define separation of powers.\n2. List the three branches of government and their main functions.\n3. State three purposes of separation of powers.\n4. Mention four features of separation of powers.\n5. Explain two advantages and two disadvantages of separation of powers.\n6. Define checks and balances and give two examples.\n7. Identify two factors that strengthen separation of powers.\n8. Discuss two factors that can weaken the separation of powers.\n9. How does separation of powers promote accountability?\n10. Why is the independence of the judiciary important in separation of powers?"
+      }
+    ]
+  }
+},
+
+//citizenship 
+{
+  "topic": "Citizenship",
+  "notes": {
+    "title": "Citizenship",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Citizenship</b>\nCitizenship is the legal status that defines a person as a member of a state, granting them rights, privileges, and responsibilities, and requiring them to owe allegiance to that state."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Types of Citizenship</b>\n1. <b>Birthright (Jus Soli):</b> Citizenship acquired automatically by being born within the territory of a state. <br>Example: Children born in Nigeria to Nigerian parents.\n2. <b>Descent (Jus Sanguinis):</b> Citizenship acquired through parentage, regardless of birthplace. <br>Example: Children born abroad to Nigerian parents.\n3. <b>Naturalization:</b> Citizenship granted to a foreigner after fulfilling legal requirements such as residency, good character, and allegiance to the state.\n4. <b>Registration:</b> Citizenship granted to specific categories of persons by law, such as spouses of citizens or persons of a particular ethnic origin.\n5. <b>Honorary Citizenship:</b> Citizenship granted as an honor to individuals who have rendered exceptional service to a state."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Rights of Citizens</b>\n- Right to vote and participate in elections.\n- Right to run for public office.\n- Right to freedom of speech, expression, and association.\n- Right to education, healthcare, and social security.\n- Right to protection by the state.\n- Right to own property."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Duties of Citizens</b>\n- Obeying the laws of the state.\n- Paying taxes.\n- Defending the state in times of war or crisis.\n- Participating in civic duties such as voting.\n- Promoting the welfare of the community.\n- Respecting the rights of other citizens."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Dual Citizenship</b>\nDual citizenship occurs when a person is legally recognized as a citizen of two countries simultaneously. <br>Advantages: Allows travel, business, and work in both countries; preserves family and cultural ties. <br>Disadvantages: Can create conflicts of loyalty and legal obligations."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Factors Affecting Citizenship</b>\n- Legal provisions in the constitution and laws.\n- Immigration policies and naturalization procedures.\n- Parentage and place of birth.\n- Marriage to a citizen.\n- Special grants by the state."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Importance of Citizenship</b>\n- Ensures legal recognition and protection under the law.\n- Grants participation in political and civic activities.\n- Promotes social, economic, and political rights.\n- Strengthens national unity and identity.\n- Obligates citizens to contribute to national development."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define citizenship.\n2. List and explain three types of citizenship.\n3. State four rights of citizens.\n4. State four duties of citizens.\n5. Explain dual citizenship and give one advantage and disadvantage.\n6. Mention two factors that affect citizenship.\n7. Why is citizenship important in a state?\n8. Differentiate between citizenship by birth and by descent.\n9. How does naturalization work?\n10. Give one example of honorary citizenship."
+      }
+    ]
+  }
+},
+
+//political systems and political party
+{
+  "topic": "Political systems & Parties",
+  "notes": {
+    "title": "Political Systems and Political Parties",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Political System</b><br>A political system is the set of formal legal institutions, processes, and practices through which a government is organized and operates. It includes the structures of authority, decision-making processes, and mechanisms for managing power and public affairs."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Types of Political Systems</b><br>1. <b>Democracy:</b> Power resides with the people, directly or through elected representatives. <br>Features: Free elections, rule of law, political freedom, accountability, citizen participation. <br>Example: Nigeria, USA.<br><br>2. <b>Authoritarianism:</b> Power is concentrated in a leader or small group with limited freedoms. <br>Features: Limited opposition, centralized control, restricted civil liberties. <br>Example: North Korea.<br><br>3. <b>Totalitarianism:</b> State controls all aspects of public and private life. <br>Features: Single-party rule, propaganda, censorship, suppression of dissent. <br>Example: Nazi Germany, Stalinist USSR.<br><br>4. <b>Monarchy:</b> Power held by king, queen, or emperor, absolute or constitutional. <br>Example: Saudi Arabia (absolute), UK (constitutional).<br><br>5. <b>Oligarchy:</b> Rule by a small elite group based on wealth, family, or military. <br>Example: Ancient Sparta."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Political Parties</b><br>Political parties are organized groups of people with similar political beliefs and goals who seek to gain power and influence government policy through elections."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Functions of Political Parties</b><br>- Mobilize citizens to participate in politics.<br>- Recruit and select candidates for public office.<br>- Formulate and promote policies and programs.<br>- Serve as a link between government and the people.<br>- Promote political stability and national unity.<br>- Provide opposition to check the ruling party."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Party Systems</b><br>Party systems describe the organization and competition of political parties within a state.<br>1. <b>One-party system:</b> Only one political party is legally allowed to govern. <br>Example: China (Communist Party).<br>2. <b>Two-party system:</b> Two major parties dominate politics, often alternating in power. <br>Example: USA (Democrats and Republicans).<br>3. <b>Multi-party system:</b> Several parties compete for power, coalitions may be formed. <br>Example: Nigeria, India."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Factors Determining Electoral Success of a Political Party</b><br>- Popularity of party ideology and policies.<br>- Organizational strength and structure.<br>- Financial resources for campaigns.<br>- Leadership quality and credibility.<br>- Public perception and media influence.<br>- Historical or regional support base.<br>- Alliances and coalitions.<br>- Electoral laws and system."
+      },
+      {
+        "type": "text",
+        "data": "<b>8. Advantages of Political Parties</b><br>- Promote citizen participation in governance.<br>- Provide representation for different interests.<br>- Facilitate policy formulation and governance.<br>- Ensure accountability of elected leaders.<br>- Promote political stability and social cohesion."
+      },
+      {
+        "type": "text",
+        "data": "<b>9. Disadvantages of Political Parties</b><br>- May encourage political rivalry and conflict.<br>- Can promote corruption and self-interest.<br>- Risk of political violence and instability.<br>- Can deepen ethnic, religious, or regional divisions.<br>- May focus on party interests over national interest."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define political system.<br>2. List and explain three types of political systems.<br>3. Define political parties.<br>4. State four functions of political parties.<br>5. Explain three party systems and give examples of countries for each.<br>6. Compare one-party, two-party, and multi-party systems.<br>7. Explain factors that determine the electoral success of a political party.<br>8. Give two advantages and two disadvantages of political parties.<br>9. How do political parties contribute to national unity?<br>10. Why is opposition important in a democratic political system?"
+      }
+    ]
+  }
+},
+
+//pressure groups 
+
+{
+  "topic": "Pressure Groups",
+  "notes": {
+    "title": "Pressure Groups",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Meaning of Pressure Groups</b><br>Pressure groups are organized groups of individuals who come together to influence government policies, decisions, and actions without seeking to form or control the government. They use persuasion, advocacy, and public pressure to promote the interests of their members or the general public."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Types of Pressure Groups and Examples</b><br><b>(a) Economic Pressure Groups:</b> Protect the economic interests of members.<br>Examples: Manufacturers Association of Nigeria (MAN), Nigeria Labour Congress (NLC), Trade Unions.<br><br><b>(b) Professional Pressure Groups:</b> Represent professionals in various fields.<br>Examples: Nigerian Bar Association (NBA), Nigerian Medical Association (NMA).<br><br><b>(c) Promotional/Cause Groups:</b> Advocate for specific causes or social issues.<br>Examples: Environmental Rights Action (ERA), Human Rights Watch, gender equality groups.<br><br><b>(d) Religious Pressure Groups:</b> Influence government policies based on religious beliefs.<br>Examples: Christian Association of Nigeria (CAN), Supreme Council for Islamic Affairs.<br><br><b>(e) Political Action Groups:</b> Influence political and electoral processes.<br>Examples: Civil Liberty Organisations, election monitoring bodies.<br><br><b>(f) Anomic Pressure Groups:</b> Spontaneous groups with unorganized methods, sometimes violent.<br>Examples: Rioters, student protests, mobs."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Importance of Pressure Groups</b><br>- Promote political participation and awareness.<br>- Protect and defend the rights and interests of citizens.<br>- Serve as watchdogs over government activities.<br>- Influence government policies for public benefit.<br>- Help check abuse of power and promote accountability.<br>- Provide expert advice and specialized information to the government.<br>- Strengthen democracy by representing minority interests."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Methods Employed by Pressure Groups</b><br>- Lobbying government officials.<br>- Public campaigns and protests.<br>- Petitions and written demands.<br>- Use of media (press conferences, social media, adverts).<br>- Court actions and legal advocacy.<br>- Strikes, boycotts, and industrial actions.<br>- Organizing conferences, workshops, and seminars.<br>- Coalition building with other groups."
+      },
+  {
+    "type": "text",
+    "data": "<b>Differences Between Political Parties and Pressure Groups</b>"
+  },
+  {
+    "type": "text",
+    "data": "<b>1. Purpose</b><br>- <b>Political Parties:</b> Aim to gain political power by contesting elections and forming the government. They seek to implement policies and govern the state.<br>- <b>Pressure Groups:</b> Aim to influence government decisions and public policy without seeking political office. Their main goal is advocacy for specific interests."
+  },
+  {
+    "type": "text",
+    "data": "<b>2. Scope of Interests</b><br>- <b>Political Parties:</b> Deal with a broad range of policies such as economy, education, health, security, and foreign relations.<br>- <b>Pressure Groups:</b> Focus on specific issues or interests, e.g., environmental protection, workers’ rights, or trade matters."
+  },
+  {
+    "type": "text",
+    "data": "<b>3. Methods of Operation</b><br>- <b>Political Parties:</b> Use election campaigns, rallies, manifestos, party membership drives, and public debates to gain support.<br>- <b>Pressure Groups:</b> Use lobbying, petitions, demonstrations, strikes, publicity campaigns, and legal action to influence policies."
+  },
+  {
+    "type": "text",
+    "data": "<b>4. Membership</b><br>- <b>Political Parties:</b> Membership is open to citizens who support the party’s ideology; members participate actively in party activities and elections.<br>- <b>Pressure Groups:</b> Membership is voluntary and usually issue-based; members are often directly affected by the cause."
+  },
+  {
+    "type": "text",
+    "data": "<b>5. Timeframe and Longevity</b><br>- <b>Political Parties:</b> Permanent structures that exist over the long term, maintaining continuity across elections.<br>- <b>Pressure Groups:</b> Can be temporary or permanent; some dissolve after achieving their objectives."
+  },
+  {
+    "type": "text",
+    "data": "<b>6. Relation to Government</b><br>- <b>Political Parties:</b> Can form the government or serve as the opposition, playing a formal role in governance.<br>- <b>Pressure Groups:</b> Never hold formal political office but seek to influence government decisions indirectly."
+  },
+  {
+    "type": "text",
+    "data": "<b>7. Political Influence</b><br>- <b>Political Parties:</b> Influence through policy-making, legislation, and governance if elected.<br>- <b>Pressure Groups:</b> Influence indirectly through advocacy, lobbying, and public pressure campaigns."
+  },
+  {
+    "type": "text",
+    "data": "<b>8. Examples</b><br>- <b>Political Parties:</b> APC, PDP, Labour Party (Nigeria).<br>- <b>Pressure Groups:</b> Amnesty International, Trade Unions, Human Rights Organizations."
+  },
+      {
+        "type": "text",
+        "data": "<b>7. Factors That Militate Against the Success of Pressure Groups</b><br>- Government repression and authoritarianism.<br>- Lack of finance and resources.<br>- Internal conflicts and poor leadership.<br>- Low public awareness or support.<br>- Bias or corruption in the judiciary.<br>- Media blackout or censorship.<br>- Ethnic, religious, and political divisions.<br>- Unfavourable laws restricting protests or assemblies.<br>- Co-optation (government buying over leaders)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define pressure groups.<br>2. List five types of pressure groups with examples.<br>3. Explain four importance of pressure groups.<br>4. State and explain four methods used by pressure groups.<br>5. Mention four disadvantages of pressure groups.<br>6. With examples, differentiate between political parties and pressure groups.<br>7. Highlight five factors militating against the success of pressure groups.<br>8. Why are pressure groups important in a democratic society?<br>9. Explain the role of trade unions as pressure groups.<br>10. Distinguish between anomic and promotional pressure groups."
+      }
+    ]
+  }
+},
+
+//public opinion
+
+{
+  "topic": "Public Opinion",
+  "notes": {
+    "title": "Public Opinion in Government",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Public Opinion</b><br>Public opinion refers to the collective attitudes, beliefs, views, and preferences of citizens on political issues, government policies, leaders, and societal matters. It represents how the general public perceives and responds to governmental actions."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Factors Influencing Public Opinion</b><br>- <b>Media:</b> Television, radio, newspapers, social media, and online platforms shape citizens’ perceptions.<br>- <b>Education:</b> Literacy level and access to political education influence understanding and opinions.<br>- <b>Family and Peer Groups:</b> Values and political views are often influenced by close social circles.<br>- <b>Political Leaders and Elites:</b> Statements, speeches, and policies of leaders can sway public opinion.<br>- <b>Religion and Cultural Beliefs:</b> Moral and cultural values affect citizens’ perspectives.<br>- <b>Economic Conditions:</b> Employment, inflation, and poverty levels can shape satisfaction or dissatisfaction with government.<br>- <b>Interest Groups and Pressure Groups:</b> Advocacy and campaigns can influence citizen attitudes."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Functions of Public Opinion</b><br>- Guides government policy by showing the preferences and concerns of the populace.<br>- Holds leaders accountable for their actions.<br>- Serves as a check on misuse of power.<br>- Encourages political participation and civic engagement.<br>- Acts as a basis for debates and democratic decision-making.<br>- Helps in legitimizing government actions through public support."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Advantages of Public Opinion</b><br>- Ensures government policies reflect citizens’ needs and priorities.<br>- Promotes transparency and accountability in governance.<br>- Encourages civic participation and political awareness.<br>- Strengthens democratic institutions and processes.<br>- Acts as a means of social control by curbing arbitrary government actions."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Disadvantages of Public Opinion</b><br>- Can be easily manipulated by propaganda, media bias, or misinformation.<br>- May lead to populism where policies favor majority opinion over long-term benefits.<br>- Can create pressure for quick, short-term solutions instead of sustainable policies.<br>- Conflicting public opinions can cause indecision or policy gridlock.<br>- May encourage political instability if citizens’ expectations are unrealistic."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Weaknesses of Public Opinion</b><br>- Often lacks depth and understanding of complex issues.<br>- Can be inconsistent or change rapidly due to emotions or events.<br>- Not always representative of the entire population, especially marginalized groups.<br>- Susceptible to manipulation by elites, media, or interest groups.<br>- May conflict with expert recommendations or long-term national interests."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b><br>1. Define public opinion.<br>2. List and explain four factors that influence public opinion.<br>3. State five functions of public opinion in government.<br>4. Give three advantages of public opinion.<br>5. Mention three disadvantages of public opinion.<br>6. Explain the weaknesses of public opinion.<br>7. How can public opinion hold government accountable?<br>8. Discuss the role of media in shaping public opinion.<br>9. Give examples of situations where public opinion influenced government decisions.<br>10. Why is it important for governments to consider public opinion in policy-making?"
+      }
+    ]
+  }
+},
+
+//franchise
+
+{
+  "topic": "Franchise",
+  "notes": {
+    "title": "Franchise",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Franchise</b><br>A franchise, in the context of government and politics, refers to the legal right or privilege granted to citizens to participate in elections, either by voting or standing for election. It is often called the right to vote or suffrage."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Types of Franchise</b><br>- <b>Universal Franchise:</b> Every adult citizen has the right to vote without discrimination based on gender, religion, wealth, education, or social status.<br>- <b>Restricted Franchise:</b> Only certain categories of people are allowed to vote based on specific criteria such as property ownership, literacy, income, or tax payment.<br>- <b>Active Franchise:</b> The right to vote in elections.<br>- <b>Passive Franchise:</b> The right to stand for election or contest for public office.<br>- <b>Compulsory Franchise:</b> Citizens are legally required to vote in elections.<br>- <b>Optional Franchise:</b> Citizens have the choice to vote or abstain."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Qualifications for Franchise</b><br>- Must be a citizen of the country.<br>- Must have attained the minimum voting age as stipulated by the constitution (e.g., 18 years in Nigeria).<br>- Must be of sound mind and not declared legally incapacitated.<br>- Must be registered as a voter in accordance with electoral laws.<br>- In some cases, must meet residency requirements in a constituency.<br>- Must not be disqualified due to criminal convictions or certain legal restrictions."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Importance of Franchise</b><br>- Ensures citizen participation in governance and decision-making.<br>- Promotes democracy by allowing citizens to elect representatives.<br>- Enhances legitimacy of government policies and decisions.<br>- Encourages political awareness and civic responsibility.<br>- Serves as a tool for social and political equality.<br>- Provides a mechanism to hold leaders accountable."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Limitations of Franchise</b><br>- Low voter education and illiteracy can affect informed participation.<br>- Disenfranchisement due to legal restrictions or corruption.<br>- Influence of money, bribery, and election malpractice can distort voting outcomes.<br>- Political intimidation or violence may prevent free expression of choice.<br>- Cultural and social biases may limit participation of certain groups, e.g., women or minorities.<br>- Lack of interest or apathy among eligible voters reduces effectiveness."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Evaluation Questions</b><br>1. Define franchise in a political context.<br>2. Explain the difference between active and passive franchise.<br>3. List and describe the types of franchise.<br>4. State five qualifications for franchise.<br>5. Give five reasons why franchise is important in a democracy.<br>6. Discuss three limitations of franchise in Nigeria.<br>7. Explain how franchise promotes political equality.<br>8. What is universal franchise and how does it differ from restricted franchise?<br>9. Why is voter registration necessary?<br>10. How can low voter turnout affect the legitimacy of a government?"
+      }
+    ]
+  }
+},
+
+//the electoral system
+
+{
+  "topic": "The Electoral System",
+  "notes": {
+    "title": "The Electoral System",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Electoral System</b><br>An electoral system is the set of rules, procedures, and methods by which citizens elect representatives to public office. It determines how votes are cast, counted, and translated into seats in government."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Types of Electoral Systems</b><br>- <b>Plurality/Majority System:</b> Candidate with the highest number of votes wins, even if not an absolute majority.<br>- <b>Proportional Representation (PR):</b> Seats are allocated in proportion to the number of votes each party receives.<br>- <b>Mixed System:</b> Combines elements of plurality/majority and proportional representation systems."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Features of a Good Electoral System</b><br>- Ensures free, fair, and credible elections.<br>- Guarantees equality of votes (one person, one vote).<br>- Promotes political stability and national unity.<br>- Encourages political participation and representation.<br>- Prevents electoral fraud, manipulation, or violence.<br>- Reflects the will of the majority while protecting minority rights.<br>- Transparent and accountable electoral processes."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Electoral Commission</b><br>The electoral commission is an independent body responsible for conducting and supervising elections in a country.<br><b>Functions:</b><br>- Organize, supervise, and conduct elections.<br>- Register voters and maintain an updated voters’ list.<br>- Monitor political party activities during elections.<br>- Ensure compliance with electoral laws.<br>- Set election dates and manage logistics.<br>- Resolve disputes and ensure election results are credible."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Electoral Constituency</b><br>An electoral constituency is a geographic area that elects one or more representatives to a legislative body.<br><b>Types:</b><br>- <b>Single-Member Constituency:</b> Elects only one representative per constituency. Common in plurality or majority systems.<br>- <b>Multi-Member Constituency:</b> Elects two or more representatives. Common in proportional representation systems."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Systems of Voting</b><br>- <b>Plurality System:</b> Candidate with the highest number of votes wins, regardless of whether it is an absolute majority.<br>- <b>Absolute Majority:</b> Candidate must obtain more than 50% of the votes to win.<br>- <b>Second Ballot System:</b> If no candidate achieves an absolute majority, a second round is held between the top two candidates.<br>- <b>Alternative Vote (AV) System:</b> Voters rank candidates in order of preference. If no candidate receives an absolute majority initially, the lowest-ranked candidate is eliminated, and their votes are redistributed based on preferences until one candidate has a majority.<br>- <b>Proportional Representation:</b> Parties gain seats in proportion to the percentage of votes received."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Evaluation Questions</b><br>1. Define electoral system.<br>2. Mention three types of electoral systems.<br>3. List five features of a good electoral system.<br>4. Define the role of the electoral commission.<br>5. State at least four functions of the electoral commission.<br>6. Differentiate between single-member and multi-member constituencies.<br>7. Explain the plurality system of voting.<br>8. Describe the absolute majority and second ballot systems.<br>9. Explain the alternative vote system.<br>10. Why is proportional representation important in elections?"
+      }
+    ]
+  }
+},
+
+//elections
+
+{
+  "topic": "Elections",
+  "notes": {
+    "title": "Elections",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Elections</b><br>Elections are formal processes through which citizens choose representatives or express their opinion on political issues. They are essential mechanisms in democratic governance that allow people to exercise their franchise."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Types of Elections</b><br>- <b>General Elections:</b> Held to elect representatives to legislative bodies or to choose a head of state.<br>- <b>Local Elections:</b> Conducted to elect officials for local government councils, municipalities, or local administrative units.<br>- <b>Primary Elections:</b> Used by political parties to select candidates for general elections.<br>- <b>By-Elections:</b> Held to fill vacant seats between general elections.<br>- <b>Referendum:</b> Citizens vote directly on a specific issue or policy rather than electing a candidate."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Characteristics of Free and Fair Elections</b><br>- Free participation of all eligible citizens.<br>- Secret ballot to ensure privacy of choice.<br>- Transparency in vote counting and announcement of results.<br>- Equal opportunity for all candidates and parties.<br>- Independent electoral commission overseeing the process.<br>- Absence of intimidation, violence, or coercion.<br>- Legal framework that guides the conduct of elections."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Electoral Campaign</b><br>An electoral campaign is the organized effort by political parties or candidates to communicate their policies, persuade voters, and gain support before an election.<br>Key elements:<br>- Public rallies and meetings.<br>- Media advertisements and social media campaigns.<br>- Distribution of campaign materials (posters, flyers, etc.).<br>- Debates and interviews to present policies.<br>- Grassroots mobilization of supporters."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Significance of Elections</b><br>- Enable citizens to choose leaders and representatives.<br>- Promote accountability and transparency in governance.<br>- Serve as a tool for political participation and civic engagement.<br>- Facilitate peaceful transfer of power.<br>- Reflect the will of the people in decision-making.<br>- Strengthen democracy and political legitimacy."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Evaluation Questions</b><br>1. Define elections.<br>2. Explain the difference between general and local elections.<br>3. List three types of elections and give examples.<br>4. State five characteristics of free and fair elections.<br>5. What is an electoral campaign and why is it important?<br>6. Discuss the significance of elections in a democracy.<br>7. Differentiate between a referendum and a by-election.<br>8. How does transparency affect the credibility of elections?<br>9. Why is the independence of the electoral commission important?<br>10. Give examples of situations where elections promoted peaceful transfer of power."
+      }
+    ]
+  }
+},
+
+//public administration 
+
+{
+  "topic": "Public Administration",
+  "notes": {
+    "title": "Public Administration",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Public Administration</b><br>Public administration is the implementation of government policies and the management of public affairs by government officials and institutions. It involves planning, organizing, directing, coordinating, and controlling resources and activities to achieve government objectives."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Objectives of Public Administration</b><br>- Ensure effective implementation of government policies.<br>- Promote efficiency and productivity in public service.<br>- Maintain law, order, and social stability.<br>- Provide essential public services to citizens.<br>- Facilitate development and modernization of the society.<br>- Ensure accountability, transparency, and ethical governance."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Principles of Public Administration</b><br>- <b>Accountability:</b> Public officials are responsible for their actions and decisions.<br>- <b>Transparency:</b> Government operations should be open and clear to the public.<br>- <b>Efficiency:</b> Resources should be utilized optimally to achieve desired outcomes.<br>- <b>Equity:</b> Fair treatment of all citizens regardless of status.<br>- <b>Responsiveness:</b> Public administration should address the needs and concerns of citizens promptly.<br>- <b>Rule of Law:</b> All administrative actions should comply with legal frameworks."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Functions of Public Administration</b><br>- Policy formulation and implementation.<br>- Planning and development of public programs.<br>- Organization and management of government agencies.<br>- Provision of public services such as health, education, and infrastructure.<br>- Regulation and enforcement of laws and standards.<br>- Financial management, including budgeting and resource allocation.<br>- Coordination between different levels of government and agencies."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Types of Public Administration</b><br>- <b>Centralized Administration:</b> Decision-making is concentrated at the top levels of government.<br>- <b>Decentralized Administration:</b> Authority is distributed to lower levels of government or local authorities.<br>- <b>Line Administration:</b> Follows a clear chain of command and hierarchical structure.<br>- <b>Staff Administration:</b> Provides advice, support, and specialized services to line administration.<br>- <b>Field Administration:</b> Activities carried out directly in local communities rather than central offices."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Evaluation Questions</b><br>1. Define public administration.<br>2. State five objectives of public administration.<br>3. Explain three principles of public administration.<br>4. List five functions of public administration.<br>5. Differentiate between centralized and decentralized administration.<br>6. What is the difference between line and staff administration?<br>7. Give examples of public services provided by government agencies.<br>8. How does public administration promote accountability?<br>9. Why is efficiency important in public administration?<br>10. Explain the role of public administration in national development."
+      }
+    ]
+  }
+},
+
+// public cooporation and local government 
+
+{
+  "topic": "Public Corporation",
+  "notes": {
+    "title": "Public Corporation and Local Government",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Public Corporation</b><br>A public corporation is a government-owned organization established to provide goods or services to the public. It operates with financial and managerial autonomy but remains accountable to the government."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Features of Public Corporations</b><br>- Owned and controlled by the government.<br>- Operate as separate legal entities.<br>- Funded by government grants, loans, and internally generated revenue.<br>- Provide essential goods and services to the public.<br>- Managed by a board of directors appointed by the government.<br>- Have operational and financial autonomy."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Functions of Public Corporations</b><br>- Provide public goods and services (e.g., electricity, water, transport).<br>- Promote economic development and industrialization.<br>- Generate revenue for government.<br>- Create employment opportunities.<br>- Reduce the monopoly of private businesses in essential services.<br>- Facilitate social welfare programs."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Advantages of Public Corporations</b><br>- Ensure provision of essential services to all citizens.<br>- Stabilize prices of goods and services.<br>- Contribute to national development and industrialization.<br>- Generate employment opportunities.<br>- Reduce exploitation by private monopolies."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Disadvantages of Public Corporations</b><br>- Can be inefficient due to bureaucratic management.<br>- Susceptible to political interference.<br>- May incur financial losses or mismanage resources.<br>- Risk of corruption among managers.<br>- Sometimes operate without profit motive, affecting sustainability."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Local Government</b><br>Local government refers to the administrative body responsible for governing a local area or community within a country. It acts as a link between the central government and the local population."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Features of Local Government</b><br>- Has legal recognition and authority to govern a defined area.<br>- Operates with a degree of autonomy from the central government.<br>- Has elected or appointed officials to manage affairs.<br>- Responsible for delivering basic services such as health, education, sanitation, and infrastructure.<br>- Funded through local taxes, levies, and government allocations."
+      },
+      {
+        "type": "text",
+        "data": "<b>8. Functions of Local Government</b><br>- Collect local taxes and rates.<br>- Provide social services such as primary education, healthcare, and water supply.<br>- Maintain local infrastructure such as roads, markets, and public buildings.<br>- Promote local economic development.<br>- Ensure peace, security, and order within the local area.<br>- Serve as a link between the people and higher levels of government."
+      },
+      {
+        "type": "text",
+        "data": "<b>9. Advantages of Local Government</b><br>- Brings government closer to the people.<br>- Promotes citizen participation in governance.<br>- Facilitates efficient and timely delivery of services.<br>- Encourages local development and planning.<br>- Reduces the burden on the central government."
+      },
+      {
+        "type": "text",
+        "data": "<b>10. Disadvantages of Local Government</b><br>- May suffer from corruption and mismanagement.<br>- Limited financial resources can hinder service delivery.<br>- Susceptible to political interference from higher authorities.<br>- Inexperienced local administrators may affect efficiency.<br>- Conflicts can arise between local and central government policies."
+      },
+      {
+        "type": "text",
+        "data": "<b>11. Evaluation Questions</b><br>1. Define public corporation.<br>2. List and explain four features of public corporations.<br>3. State five functions of public corporations.<br>4. Mention three advantages and disadvantages of public corporations.<br>5. Define local government.<br>6. Explain five features of local government.<br>7. List and discuss five functions of local government.<br>8. Give three advantages and disadvantages of local government.<br>9. How do public corporations contribute to national development?<br>10. Why is local government important in bringing government closer to the people?"
+      }
+    ]
+  }
+},
+
+//pre-colonial administration in Nigeria 
+
+{
+  "topic": "Pre-Colonial Administration",
+  "notes": {
+    "title": "Pre-Colonial Administration in Nigeria",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Pre-Colonial Administration</b><br>Pre-colonial administration refers to the system of governance, political organization, and societal management that existed in Nigeria before European colonization. It includes traditional rulers, councils, and institutions that maintained law, order, and social cohesion."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Yoruba Administration</b><br>- <b>Political Structure:</b> Yoruba states were highly organized kingdoms and city-states, such as Oyo, Ife, and Ijebu. Each state had a centralized administration under a king called the <i>Oba</i>.<br>- <b>Oba (King):</b> Supreme ruler with religious, political, and judicial authority.<br>- <b>Council of Chiefs:</b> Assisted the Oba in governance, policy-making, and administration. Chiefs included the <i>Bale</i>, <i>Balogun</i>, <i>Oloye</i>, and other titled officials.<br>- <b>Oyo Empire:</b> Featured a unique administrative system with the <i>Alafin</i> as the king, the <i>Oyo Mesi</i> as the council of state, and the <i>Bashorun</i> as the prime minister.<br>- <b>Checks and Balances:</b> The Oyo Mesi could compel the Alafin to commit ritual suicide if he misgoverned. This ensured accountability.<br>- <b>Functions:</b> Collection of tribute, defense, law enforcement, and maintaining social order."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Hausa Administration</b><br>- <b>Political Structure:</b> Hausa states, such as Kano, Katsina, and Zaria, were organized under monarchs called <i>Emirs</i>, especially after the Fulani Jihad of the 19th century.<br>- <b>Emir:</b> Chief executive, military leader, and chief judge. Responsible for enforcing Sharia law and collecting taxes.<br>- <b>Council of Chiefs:</b> Assisted the Emir and included officials such as the <i>Galadima</i> (prime minister), <i>Waziri</i> (advisor), <i>Ciroma</i> (heir apparent), and other titled officers.<br>- <b>Decentralized Districts:</b> Hausa kingdoms were divided into districts with local administrators called <i>Hakimai</i> who managed day-to-day governance.<br>- <b>Functions:</b> Tax collection, administration of justice, military organization, and maintenance of law and order."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Igbo Administration</b><br>- <b>Political Structure:</b> Igbo societies, such as those in Onitsha, Nri, and Umuahia, were largely acephalous (without centralized kingship). Authority was based on age, wealth, and title societies.<br>- <b>Village Assembly:</b> The highest decision-making body, composed of elders, title holders, and representatives of families.<br>- <b>Council of Elders:</b> Assisted in dispute resolution, law enforcement, and policy-making.<br>- <b>Ozo and Nze Societies:</b> Prestigious title groups that conferred leadership status and influenced governance.<br>- <b>Methods of Governance:</b> Decisions made collectively, disputes resolved through consensus, and community norms enforced by social sanctions.<br>- <b>Functions:</b> Maintain peace, resolve conflicts, organize communal labor, enforce customary laws, and protect communal property."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Comparison of Yoruba, Hausa, and Igbo Pre-Colonial Administration</b><br>- <b>Centralization:</b> Yoruba and Hausa states were centralized with kings or emirs, while Igbo societies were largely decentralized.<br>- <b>Leadership:</b> Yoruba had Obas, Hausa had Emirs, Igbo had councils of elders and title holders.<br>- <b>Law and Order:</b> Yoruba and Hausa leaders had judicial powers; Igbo relied on collective decision-making and customary laws.<br>- <b>Military Organization:</b> Yoruba and Hausa had organized armies; Igbo relied on community mobilization for defense.<br>- <b>Accountability:</b> Yoruba kings were checked by councils, Hausa Emirs by district heads, Igbo leaders by communal consensus."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Evaluation Questions</b><br>1. Define pre-colonial administration.<br>2. Describe the political structure of Yoruba states.<br>3. Explain the roles of the Oba and the Oyo Mesi.<br>4. Outline the administrative system of Hausa states.<br>5. Explain the functions of Emirs and their councils.<br>6. Describe how Igbo societies were governed.<br>7. Compare centralized and decentralized governance in pre-colonial Nigeria.<br>8. Discuss the methods used to maintain law and order in Yoruba, Hausa, and Igbo societies.<br>9. How did title societies influence governance in Igbo land?<br>10. Why was accountability important in pre-colonial administrations?"
+      }
+    ]
+  }
+},
+
+//colonial administration in Nigeria 
+
+{
+  "topic": "Colonial Administration",
+  "notes": {
+    "title": "Colonial Administration in Nigeria",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Colonial Administration</b><br>Colonial administration refers to the system of governance imposed by European colonial powers to control, manage, and exploit colonies. It involved the introduction of foreign laws, institutions, and officials to administer colonial territories."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. British System of Colonial Administration</b><br>The British used different administrative methods to govern Nigeria, with <b>Indirect Rule</b> being the most prominent system introduced by Lord Lugard.<br>- British officials ruled through existing traditional rulers.<br>- Local chiefs acted as intermediaries between the colonial government and the people.<br>- British officers retained overall authority, but day-to-day administration was left to local rulers."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Features of Indirect Rule</b><br>- Utilized existing political structures and traditional rulers.<br>- Local rulers were made responsible for tax collection, law enforcement, and mobilization of labor.<br>- British officials provided guidance, oversight, and ultimate authority.<br>- Encouraged preservation of local customs and culture (as long as it did not conflict with colonial interests).<br>- Introduced a dual system of authority: local chiefs and British colonial officers."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Reasons for Introduction of Indirect Rule</b><br>- Reduce administrative costs by using existing structures.<br>- Minimize resistance and unrest by ruling through respected local rulers.<br>- Facilitate easier control over vast territories.<br>- Enable faster collection of taxes and resources.<br>- Preserve traditional institutions to maintain social order."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Advantages of Indirect Rule</b><br>- Cheaper and more efficient administration.<br>- Reduced likelihood of rebellion due to use of local rulers.<br>- Preserved local customs and traditions.<br>- Provided a sense of continuity for indigenous populations.<br>- Encouraged cooperation between colonial government and local authorities."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Disadvantages of Indirect Rule</b><br>- Empowered some chiefs, leading to abuse of power.<br>- Favored conservative elites and hindered modernization.<br>- Created divisions and conflicts within communities.<br>- Often ignored voices of ordinary people.<br>- Limited political development and participation for the masses."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. French System of Colonial Administration</b><br>The French used a centralized system based on <b>Assimilation</b> and <b>Association</b> policies.<br>- <b>Policy of Assimilation:</b> The aim was to make colonial subjects adopt French culture, language, laws, and institutions, turning them into French citizens.<br>Features:<br>• French language and culture were taught in schools.<br>• French legal and political institutions were implemented.<br>• Indigenous institutions were replaced or subordinated.<br>- <b>Policy of Association:</b> Recognized local customs and authorities but still maintained ultimate French control.<br>Features:<br>• Local rulers acted under French supervision.<br>• Traditional institutions were respected if compatible with French objectives.<br>• Allowed a mix of local customs and colonial policies."
+      },
+      {
+        "type": "text",
+        "data": "<b>8. Evaluation Questions</b><br>1. Define colonial administration.<br>2. Explain the British system of indirect rule.<br>3. List and describe four features of indirect rule.<br>4. Give five reasons why indirect rule was introduced in Nigeria.<br>5. Mention three advantages and disadvantages of indirect rule.<br>6. Explain the French policy of assimilation.<br>7. Describe the policy of association and its features.<br>8. Compare British and French colonial administration systems.<br>9. How did indirect rule affect local traditional institutions?<br>10. Why was the policy of assimilation unpopular among local populations?"
+      }
+    ]
+  }
+},
+
+//nationalism
+
+{
+  "topic": "Nationalism",
+  "notes": {
+    "title": "Nationalism",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Nationalism</b><br>Nationalism is the political ideology and movement that emphasizes the unity, independence, and self-determination of a nation. It involves a strong sense of pride in one's country and the desire to achieve or maintain national sovereignty."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Factors that Led to the Rise of Nationalism in Nigeria</b><br>- <b>Colonial Exploitation:</b> Economic and political dominance by colonial powers created resentment among Nigerians.<br>- <b>Western Education:</b> Educated elites became aware of political rights and equality.<br>- <b>Urbanization:</b> Movement to towns exposed people to new ideas and inter-ethnic cooperation.<br>- <b>Formation of Political Associations:</b> Groups like the Nigerian Youth Movement (NYM) and Nigerian Union of Teachers (NUT) spread nationalist ideas.<br>- <b>Influence of World Wars:</b> Nigerian soldiers fought in WWI and WWII and returned with new political awareness.<br>- <b>Economic Discontent:</b> Harsh colonial policies, taxation, and poor wages increased dissatisfaction."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Early Nationalist Movements</b><br>- <b>Nigerian National Democratic Party (NNDP):</b> Founded by Herbert Macaulay in 1923 to demand representation in the Legislative Council.<br>- <b>Nigerian Youth Movement (NYM):</b> Formed in 1934, aimed at promoting political awareness, education, and national unity.<br>- <b>National Council of Nigeria and the Cameroons (NCNC):</b> Established in 1944 by Nnamdi Azikiwe, it focused on self-government and ending colonial rule.<br>- <b>Action Group (AG):</b> Founded in 1951 by Obafemi Awolowo, concentrated on Western Nigeria and promoted federalism.<br>- <b>Northern People’s Congress (NPC):</b> Represented Northern interests, founded in 1949, and aimed to preserve northern traditions while seeking political advancement."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Features of Nationalism in Nigeria</b><br>- Desire for independence from colonial rule.<br>- Emphasis on unity among diverse ethnic groups.<br>- Promotion of cultural pride and heritage.<br>- Formation of political parties and associations to articulate national goals.<br>- Advocacy for economic, political, and social reforms.<br>- Use of media, newspapers, and rallies to mobilize public opinion.<br>- Leadership by educated elites who represented the aspirations of the people."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Methods Used by Nationalists</b><br>- Organizing political parties and associations.<br>- Holding rallies, protests, and strikes.<br>- Publishing newspapers, pamphlets, and journals.<br>- Petitioning colonial authorities.<br>- Participation in legislative councils.<br>- Forming alliances across ethnic and regional lines to strengthen the nationalist cause."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Achievements of Nationalism</b><br>- Contributed to constitutional reforms that increased Nigerian participation in government.<br>- Laid the foundation for self-government and eventual independence in 1960.<br>- Promoted political consciousness and national unity.<br>- Encouraged establishment of educational institutions to train future leaders.<br>- Led to the emergence of prominent nationalist leaders like Nnamdi Azikiwe, Obafemi Awolowo, and Ahmadu Bello."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Challenges of Nationalism in Nigeria</b><br>- Ethnic and regional divisions sometimes weakened unified nationalist efforts.<br>- Rivalries among political parties delayed collective action.<br>- Colonial suppression of protests and political movements.<br>- Limited mass literacy hindered the spread of nationalist ideas in rural areas.<br>- Economic dependence on colonial powers constrained full political autonomy initially."
+      },
+      {
+        "type": "text",
+        "data": "<b>8. Evaluation Questions</b><br>1. Define nationalism.<br>2. List five factors that led to the rise of nationalism in Nigeria.<br>3. Describe the objectives of the Nigerian National Democratic Party (NNDP).<br>4. What were the main goals of the NCNC and the Action Group?<br>5. List and explain three features of nationalism in Nigeria.<br>6. Describe at least four methods used by nationalists to achieve their objectives.<br>7. Mention three achievements of nationalism in Nigeria.<br>8. What were the challenges faced by nationalist movements in Nigeria?<br>9. How did western education contribute to the rise of nationalism?<br>10. Explain the role of ethnic and regional cooperation in advancing Nigerian nationalism."
+      }
+    ]
+  }
+},
+
+//constitutional development in Nigeria 
+
+{
+  "topic": "Constitutional Development",
+  "notes": {
+    "title": "Constitutional Development in Nigeria",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Constitutional Development</b><br>Constitutional development refers to the process of establishing, modifying, and evolving the legal framework and governing institutions of a country. In Nigeria, it involves the gradual transition from colonial governance to self-rule and eventual independence."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. The Clifford Constitution (1922)</b><br>- Introduced by Sir Hugh Clifford.<br>- Created regional advisory councils in the North, West, and East.<br>- Expanded the Legislative Council to include more unofficial members.<br>- Gave educated Nigerians the opportunity to participate in governance.<br>- <b>Significance:</b> First step toward political representation for Nigerians.<br>- <b>Limitations:</b> Representation was limited, and the North had fewer educated elites participating."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. The Richards Constitution (1946)</b><br>- Introduced by Governor Arthur Richards.<br>- Aimed to promote national unity and prepare Nigeria for self-government.<br>- Established a central legislative council with regional representation.<br>- Created regional assemblies for the North, West, and East.<br>- Encouraged inter-regional cooperation and consultation.<br>- <b>Significance:</b> Laid foundation for federalism and regional autonomy.<br>- <b>Limitations:</b> Criticized for centralizing powers in the colonial government and for not allowing Nigerians full participation."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. The Macpherson Constitution (1951)</b><br>- Introduced by Sir John Macpherson.<br>- Introduced the principle of \"regionalism\" in governance.<br>- Provided for an all-Nigeria council of ministers.<br>- Gave regions autonomy in their local affairs.<br>- Established a House of Representatives and a regional House of Assembly.<br>- <b>Significance:</b> Strengthened regional governments and allowed more Nigerian participation.<br>- <b>Key Individuals:</b> Nnamdi Azikiwe, Obafemi Awolowo, Ahmadu Bello participated in regional politics."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. The Lyttleton Constitution (1954)</b><br>- Introduced by Oliver Lyttleton.<br>- Created a federal system with three regions: Northern, Western, and Eastern.<br>- Introduced a central government with limited powers.<br>- Allowed each region to have its own premier and regional ministers.<br>- <b>Significance:</b> Laid the groundwork for a federal structure, balancing regional autonomy with central authority.<br>- <b>Key Figures:</b> Abubakar Tafawa Balewa (Northern Premier), Obafemi Awolowo (Western Premier), Nnamdi Azikiwe (Eastern Premier)."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. The Nigerian Independence Constitution (1960)</b><br>- Drafted under the guidance of the British Parliament.<br>- Nigeria gained independence on 1st October 1960.<br>- Adopted a parliamentary system based on the Westminster model.<br>- The Governor-General represented the British monarch; a Prime Minister headed the government.<br>- <b>Significance:</b> Marked the end of colonial rule and full self-governance.<br>- <b>Key Individuals:</b> Sir Abubakar Tafawa Balewa (Prime Minister), Nnamdi Azikiwe (Governor-General)."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. The Republican Constitution (1963)</b><br>- Nigeria became a republic on 1st October 1963.<br>- Replaced the British monarch with a Nigerian President as Head of State.<br>- Retained parliamentary system with Prime Minister as Head of Government.<br>- Strengthened national identity and sovereignty.<br>- <b>Key Individual:</b> Nnamdi Azikiwe became the first President of Nigeria."
+      },
+      {
+        "type": "text",
+        "data": "<b>8. The 1979 Constitution</b><br>- Introduced after military rule (1966–1979) to return Nigeria to civilian rule.<br>- Adopted a presidential system modeled after the United States.<br>- Created an executive President who was both Head of State and Government.<br>- Introduced separation of powers among executive, legislature, and judiciary.<br>- <b>Significance:</b> Strengthened federalism, national unity, and democratic governance.<br>- <b>Key Individual:</b> Shehu Shagari became the first executive President."
+      },
+      {
+        "type": "text",
+        "data": "<b>9. The 1999 Constitution</b><br>- Introduced to return Nigeria to democracy after prolonged military rule.<br>- Adopted a federal presidential system similar to 1979 Constitution.<br>- Emphasized fundamental human rights and national integration.<br>- Created independent institutions to promote checks and balances.<br>- <b>Significance:</b> Provided the legal framework for the Fourth Republic, still in use today.<br>- <b>Key Figures:</b> Olusegun Obasanjo elected President in 1999, marking the transition to civilian rule."
+      },
+      {
+        "type": "text",
+        "data": "<b>10. Summary of Key Features Across Constitutions</b><br>- Gradual increase in Nigerian participation in governance.<br>- Transition from regional representation to federalism.<br>- Shift from colonial oversight to full independence.<br>- Evolution from parliamentary to presidential systems.<br>- Development of legal frameworks for national unity and human rights."
+      },
+      {
+        "type": "text",
+        "data": "<b>11. Evaluation Questions</b><br>1. Define constitutional development.<br>2. Explain the significance of the Clifford Constitution.<br>3. Describe the main features of the Richards Constitution.<br>4. How did the Macpherson Constitution strengthen regional governments?<br>5. What was the importance of the Lyttleton Constitution of 1954?<br>6. List the key features of the Nigerian Independence Constitution of 1960.<br>7. Who became the first President of Nigeria under the Republican Constitution of 1963?<br>8. Compare the 1979 and 1999 Constitutions.<br>9. How did constitutional development contribute to national unity in Nigeria?<br>10. Explain the role of individuals like Nnamdi Azikiwe, Obafemi Awolowo, and Tafawa Balewa in Nigeria's constitutional development."
+      }
+    ]
+  }
+},
+
+//Nigerian Federalism 
+
+{
+  "topic": "Nigerian Federalism",
+  "notes": {
+    "title": "Nigerian Federalism",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Federalism</b><br>Federalism is a system of government in which power is divided between a central (federal) government and regional (state or provincial) governments, each having autonomy in certain matters while sharing authority in others."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Features of Federalism</b><br>- Division of powers between central and regional governments.<br>- Written constitution specifying powers of each level.<br>- Existence of an independent judiciary to resolve conflicts.<br>- Bicameral legislature to represent both people and regions.<br>- Autonomy of regional governments in local affairs.<br>- Financial arrangements that allow revenue sharing between federal and state governments.<br>- Dual citizenship and allegiance to both federal and regional authorities."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Historical Background of Federalism in Nigeria</b><br>- Federalism in Nigeria evolved to manage the country's ethnic, cultural, and religious diversity.<br>- Introduced formally with the <b>Lyttleton Constitution of 1954</b>, creating three regions: Northern, Western, and Eastern.<br>- Nigeria adopted federalism to prevent domination by any single ethnic group and promote national unity.<br>- The 1963 Republican Constitution and subsequent constitutions (1979, 1999) further strengthened federal structures."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Reasons for Adopting Federalism in Nigeria</b><br>- Ethnic and cultural diversity: Prevent domination by one group (Hausa-Fulani, Yoruba, Igbo).<br>- Large geographical area: Needed decentralization for efficient administration.<br>- Political balance: Allowed minority groups to have representation.<br>- Colonial legacy: Regions had different administrative histories, making federalism more suitable.<br>- To maintain national unity while granting regional autonomy."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Structure of Nigerian Federalism</b><br>- <b>Central Government:</b> Responsible for defense, foreign affairs, currency, immigration, and national economic planning.<br>- <b>State Governments:</b> Handle education, health, transportation, and internal security within states.<br>- <b>Local Governments:</b> Created by state governments to administer local affairs.<br>- <b>Revenue Allocation:</b> Revenue is shared among federal, state, and local governments based on constitutional provisions.<br>- <b>Example:</b> Federal Government controls oil revenue; states receive statutory allocation through revenue-sharing formula."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Advantages of Federalism in Nigeria</b><br>- Prevents domination by a single ethnic group.<br>- Promotes regional autonomy and self-governance.<br>- Encourages political participation at state and local levels.<br>- Allows tailored policies for different regions.<br>- Enhances national unity through cooperative governance.<br>- Provides a mechanism for conflict resolution between regions and central government."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Disadvantages of Federalism in Nigeria</b><br>- Ethnic rivalries may lead to tension and conflict.<br>- Inequalities between rich and poor states.<br>- Frequent disputes over revenue allocation.<br>- Duplication of functions leading to inefficiency.<br>- Political parties often align along regional and ethnic lines, causing divisions.<br>- Central government may dominate weaker states through fiscal control."
+      },
+      {
+        "type": "text",
+        "data": "<b>8. Key Individuals and Events in Nigerian Federalism</b><br>- <b>Sir John Macpherson:</b> Advocated for regional autonomy in the Macpherson Constitution (1951).<br>- <b>Oliver Lyttleton:</b> Introduced federal system with the Lyttleton Constitution (1954).<br>- <b>Abubakar Tafawa Balewa:</b> First Prime Minister; worked to maintain federal balance.<br>- <b>Obafemi Awolowo:</b> Premier of Western Region; promoted regional development.<br>- <b>Nnamdi Azikiwe:</b> Premier of Eastern Region and first President; supported federal structure to protect minority interests.<br>- <b>Significant Event:</b> Creation of Mid-Western Region in 1963 to reduce ethnic tensions."
+      },
+      {
+        "type": "text",
+        "data": "<b>9. Evaluation Questions</b><br>1. Define federalism.<br>2. List five features of federalism.<br>3. Why was federalism introduced in Nigeria?<br>4. Describe the structure of Nigerian federalism, including the roles of federal, state, and local governments.<br>5. Explain at least three advantages of federalism in Nigeria.<br>6. Mention three disadvantages of federalism in Nigeria.<br>7. Who were the key figures involved in the introduction and development of Nigerian federalism?<br>8. Explain the significance of the Lyttleton Constitution in promoting federalism.<br>9. How does federalism help to maintain national unity in a diverse country like Nigeria?<br>10. Discuss the role of revenue allocation in the federal system of Nigeria."
+      }
+    ]
+  }
+},
+
+//development of political parties in Nigeria 
+
+{
+  "topic": "Political Parties II",
+  "notes": {
+    "title": "Development of Political Parties in Nigeria",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Political Parties</b><br>Political parties are organized groups of people who share similar political ideologies and objectives. They aim to gain political power through elections to influence government policies and governance."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Early Political Associations and Movements</b><br>- Before formal political parties, political associations emerged to advocate for Nigerian participation in governance.<br>- <b>Nigerian National Democratic Party (NNDP) – 1923:</b> Founded by Herbert Macaulay, focused on Lagos politics and representation in the Legislative Council.<br>- <b>Nigerian Youth Movement (NYM) – 1934:</b> Promoted national consciousness and political awareness among educated elites.<br>- These associations laid the foundation for modern political parties."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Prominent Political Parties in Nigeria</b><br>- <b>Nigerian National Democratic Party (NNDP) – 1923:</b> Herbert Macaulay, Lagos-focused; first party to participate in elections.<br>- <b>Nigerian Youth Movement (NYM) – 1934:</b> Nnamdi Azikiwe and other educated elites; aimed at national unity and education reforms.<br>- <b>National Council of Nigeria and the Cameroons (NCNC) – 1944:</b> Nnamdi Azikiwe; sought self-government and ending colonial rule; strong in Eastern Nigeria.<br>- <b>Action Group (AG) – 1951:</b> Obafemi Awolowo; focused on Western Nigeria; advocated federalism, education, and economic development.<br>- <b>Northern People’s Congress (NPC) – 1949:</b> Ahmadu Bello, Sir Abubakar Tafawa Balewa; dominant in Northern Nigeria; sought to protect Northern interests and preserve traditions.<br>- <b>United Progressive Grand Alliance (UPGA) – 1950s:</b> Alliance between smaller Eastern parties and left-leaning groups.<br>- <b>Others:</b> Northern Elements Progressive Union (NEPU) – radical party in Northern Nigeria advocating social reforms and challenging traditional elites."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Factors that Led to the Formation of Political Parties in Nigeria</b><br>- Demand for greater participation in governance.<br>- Ethnic and regional interests seeking representation.<br>- Influence of western education and exposure to democratic ideals.<br>- Reaction to colonial policies and taxation.<br>- Desire for independence and self-determination.<br>- Influence of world events, e.g., World Wars, which exposed Nigerians to global political ideas."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Features of Nigerian Political Parties</b><br>- Often organized along ethnic, regional, or religious lines.<br>- Have clearly defined objectives and manifestos.<br>- Participate in elections to gain political power.<br>- Mobilize supporters through rallies, newspapers, and propaganda.<br>- Advocate for social, economic, and political reforms.<br>- Leadership often consists of educated elites and traditional leaders."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Contributions of Political Parties in Nigeria</b><br>- Mobilized Nigerians for political awareness and participation.<br>- Promoted nationalism and the fight for independence.<br>- Provided platforms for leadership development and political training.<br>- Advocated for social and economic reforms in different regions.<br>- Facilitated representation of regional and ethnic interests at the national level."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Challenges Faced by Political Parties</b><br>- Ethnic and regional divisions sometimes led to rivalry and tension.<br>- Competition for power often resulted in election violence.<br>- Some parties favored elite interests over the masses.<br>- Weak party ideology led to shifting alliances and instability.<br>- Colonial restrictions limited early party activities."
+      },
+      {
+        "type": "text",
+        "data": "<b>8. Key Individuals in Nigerian Political Parties</b><br>- <b>Herbert Macaulay:</b> Founder of NNDP, Lagos politics pioneer.<br>- <b>Nnamdi Azikiwe:</b> Founder of NCNC, first President of Nigeria.<br>- <b>Obafemi Awolowo:</b> Founder of AG, Western Region Premier, federalism advocate.<br>- <b>Ahmadu Bello:</b> NPC leader, Sardauna of Sokoto, Northern interests advocate.<br>- <b>Sir Abubakar Tafawa Balewa:</b> NPC member, first Prime Minister, federal unity promoter."
+      },
+      {
+        "type": "text",
+        "data": "<b>9. Evaluation Questions</b><br>1. Define political party.<br>2. List three early political associations in Nigeria.<br>3. Discuss the objectives of the NCNC and AG.<br>4. Who founded the NNDP and when?<br>5. Explain the significance of the NYM in Nigerian political development.<br>6. What were the main challenges faced by Nigerian political parties during the colonial period?<br>7. List at least five prominent political parties and their founders.<br>8. How did ethnic and regional interests influence party formation in Nigeria?<br>9. Explain the contributions of political parties to Nigeria’s independence.<br>10. Discuss the role of leaders like Nnamdi Azikiwe, Obafemi Awolowo, and Ahmadu Bello in party development."
+      }
+    ]
+  }
+},
+
+//major political crisis in Nigeria 
+
+{
+  "topic": "Major Political Crises",
+  "notes": {
+    "title": "Major Political Crises in Nigeria",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Political Crisis</b><br>A political crisis is a situation where there is instability, conflict, or breakdown in the political system of a country. It often involves disputes over power, governance, or political authority."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Causes of Political Crises in Nigeria</b><br>- Ethnic and religious diversity leading to competition and mistrust.<br>- Regionalism and struggle for resource control.<br>- Weak political institutions and rule of law.<br>- Corruption and abuse of power.<br>- Electoral malpractice and disputes.<br>- Military interventions in politics.<br>- Socioeconomic inequality and marginalization of certain groups."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Major Political Crises in Nigeria</b><br>- <b>Election Crises of 1964–1965:</b> Disputes over the federal and regional elections; widespread allegations of rigging; tensions between Northern NPC and Eastern NCNC supporters.<br>- <b>1966 Military Coups:</b> First coup (January 15, 1966) led by Major Chukwuma Kaduna Nzeogwu; Prime Minister Tafawa Balewa and Premier Ahmadu Bello were killed. Second coup (July 1966) led by Northern officers; Lt. Colonel Yakubu Gowon became Head of State.<br>- <b>1967–1970 Nigerian Civil War (Biafra War):</b> Triggered by ethnic tensions, economic marginalization, and secession of Eastern Region under Lt. Colonel Odumegwu Ojukwu.<br>- <b>Election Crises of 1979:</b> Tensions between major parties; some states delayed elections due to disputes.<br>- <b>1983 Military Coup:</b> Overthrow of Shehu Shagari’s civilian government due to corruption and election malpractice; General Muhammadu Buhari took power.<br>- <b>1993 Presidential Election Crisis:</b> June 12, 1993, election presumed won by Chief Moshood Abiola; annulment by military government of General Ibrahim Babangida led to nationwide unrest.<br>- <b>Ongoing Ethno-Religious Conflicts:</b> Periodic crises in the Middle Belt, Niger Delta militancy, and Boko Haram insurgency."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Key Individuals in Political Crises</b><br>- <b>Sir Abubakar Tafawa Balewa:</b> Prime Minister killed during the first coup of 1966.<br>- <b>Ahmadu Bello:</b> Sardauna of Sokoto, killed during the 1966 coup.<br>- <b>Major Chukwuma Kaduna Nzeogwu:</b> Leader of the January 1966 coup.<br>- <b>Lt. Colonel Yakubu Gowon:</b> Became Head of State after the July 1966 coup.<br>- <b>Lt. Colonel Odumegwu Ojukwu:</b> Leader of Biafra during the civil war.<br>- <b>Shehu Shagari:</b> President overthrown in 1983 coup.<br>- <b>General Muhammadu Buhari:</b> Took over in 1983 military coup.<br>- <b>Chief Moshood Abiola:</b> Winner of the June 12, 1993, election whose mandate was annulled."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Effects of Political Crises in Nigeria</b><br>- Loss of lives and destruction of property.<br>- Military rule and suspension of democratic institutions.<br>- Deepening ethnic and regional divisions.<br>- Political instability hindering development.<br>- Economic downturn and loss of investor confidence.<br>- Weakening of trust in political leaders and institutions.<br>- Rise of insurgency and civil unrest in some regions."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Measures to Prevent Political Crises</b><br>- Strengthening democratic institutions and rule of law.<br>- Ensuring free, fair, and credible elections.<br>- Promoting national unity and inter-ethnic dialogue.<br>- Decentralizing power and promoting federalism.<br>- Fighting corruption and ensuring accountability.<br>- Encouraging political education and awareness among citizens.<br>- Enforcing security and conflict resolution mechanisms."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Evaluation Questions</b><br>1. Define political crisis.<br>2. List five causes of political crises in Nigeria.<br>3. Describe the events and causes of the first and second military coups in 1966.<br>4. Explain the reasons for the Nigerian Civil War (1967–1970).<br>5. Discuss the June 12, 1993, election crisis and its significance.<br>6. Who were the key individuals involved in major political crises in Nigeria?<br>7. Mention three effects of political crises on Nigerian society.<br>8. How can political crises be prevented in Nigeria?<br>9. Discuss the impact of military interventions on Nigerian democracy.<br>10. Explain the role of ethnic and regional divisions in triggering political crises."
+      }
+    ]
+  }
+},
+
+//military rule in Nigeria 
+{
+  "topic": "Military Rule in Nigeria",
+  "notes": {
+    "title": "Military Rule in Nigeria",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Military Rule</b><br>Military rule refers to a system of government where the armed forces control the administration of a country, usually following the overthrow of a civilian government. It often involves suspension of the constitution and centralized authority under military leaders."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Characteristics of Military Rule in Nigeria</b><br>- Governance by military officers rather than elected civilians.<br>- Suspension or abrogation of the constitution.<br>- Centralized power and decision-making.<br>- Dissolution of political parties and suppression of political activities.<br>- Rule by decrees instead of legislation passed by elected representatives.<br>- Often justified as a temporary measure to restore law, order, and stability.<br>- Limited civil liberties and restriction of press and public dissent."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Reasons for Military Intervention in Nigeria</b><br>- Widespread corruption and mismanagement in civilian governments.<br>- Electoral malpractices and political instability.<br>- Ethnic and regional tensions leading to crises.<br>- Weak democratic institutions and governance.<br>- Threats to national unity and security.<br>- Economic mismanagement and public dissatisfaction with civilian rule."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Structure of Military Government in Nigeria</b><br>- <b>Supreme Military Council (SMC):</b> The highest decision-making body, often chaired by the Head of State.<br>- <b>Head of State:</b> Military ruler who serves as both executive and commander-in-chief of the armed forces.<br>- <b>Federal Executive Council:</b> Composed of senior military officers managing key ministries.<br>- <b>Military Governors:</b> Officers appointed to administer each state, replacing civilian governors.<br>- <b>National Security Apparatus:</b> Military intelligence and special units to enforce policies and maintain law and order.<br>- Decision-making was highly centralized, with little or no legislative oversight."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Achievements of Military Rule in Nigeria</b><br>- Restoration of order during periods of political instability.<br>- Implementation of large-scale infrastructure projects and modernization programs.<br>- Creation of new states to promote administrative efficiency and reduce ethnic tensions.<br>- Introduction of policies aimed at economic development, e.g., Structural Adjustment Program (SAP) under General Ibrahim Babangida.<br>- Maintenance of national unity and prevention of secessionist movements after the civil war.<br>- Reform of public service to reduce bureaucratic inefficiency in some periods."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Weaknesses and Failures of Military Administration in Nigeria</b><br>- Suppression of democracy and civil liberties.<br>- Human rights abuses, including detentions without trial.<br>- Over-centralization of power, leading to bureaucratic inefficiency.<br>- Corruption and nepotism persisted in some regimes.<br>- Frequent coups leading to political instability.<br>- Lack of accountability and transparency in governance.<br>- Weak development of political institutions and civil society.<br>- Policies often lacked popular support and were implemented arbitrarily."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Key Periods of Military Rule in Nigeria</b><br>- <b>1966–1979:</b> After the 1966 coups, military rule under leaders such as General Johnson Aguiyi-Ironsi, General Yakubu Gowon, General Murtala Muhammed, and General Olusegun Obasanjo.<br>- <b>1983–1999:</b> After the 1983 coup, military regimes under General Muhammadu Buhari, General Ibrahim Babangida, General Sani Abacha, and General Abdulsalami Abubakar.<br>- Transitional periods in 1979–1983 (civilian rule) were sandwiched by military governments."
+      },
+      {
+        "type": "text",
+        "data": "<b>8. Evaluation Questions</b><br>1. Define military rule.<br>2. List five characteristics of military governments in Nigeria.<br>3. Explain three reasons for military intervention in Nigeria.<br>4. Describe the structure of military government at federal and state levels.<br>5. Mention at least three achievements of military rule in Nigeria.<br>6. List five weaknesses or failures of military administration.<br>7. Who were the key military rulers in Nigeria from 1966 to 1999?<br>8. How did military rule affect democracy and civil liberties in Nigeria?<br>9. Discuss the impact of military rule on national unity.<br>10. How did the creation of new states under military regimes affect governance in Nigeria?"
+      }
+    ]
+  }
+},
+
+//Nigerian foreign policy 
+
+{
+  "topic": "Nigeria Foreign Policy",
+  "notes": {
+    "title": "Nigeria Foreign Policy",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of Foreign Policy</b><br>Foreign policy refers to the strategies, principles, and objectives adopted by a country in its relations with other countries and international organizations. It guides how a nation interacts politically, economically, and diplomatically with the rest of the world."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. Aims and Objectives of Nigeria’s Foreign Policy</b><br>- Promote and protect Nigeria’s national interest.<br>- Safeguard Nigeria’s sovereignty and territorial integrity.<br>- Foster friendly relations with other countries and international organizations.<br>- Promote African unity and integration through organizations like the African Union (AU).<br>- Support decolonization and liberation movements in Africa.<br>- Contribute to international peace and security.<br>- Promote economic cooperation and trade relations.<br>- Protect the welfare of Nigerians living abroad."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Principles Guiding Nigeria’s Foreign Policy</b><br>- Respect for sovereignty and territorial integrity of other states.<br>- Non-alignment and neutrality in international conflicts.<br>- Promotion of peace, security, and justice.<br>- Support for African unity and the development of the continent.<br>- Non-interference in the internal affairs of other countries.<br>- Promotion of human rights and democratic governance internationally."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Factors Affecting Nigeria’s Foreign Policy</b><br>- <b>Geographical Position:</b> Nigeria’s strategic location in West Africa influences its regional leadership role.<br>- <b>Economic Strength:</b> Nigeria’s oil resources and large population shape its economic diplomacy.<br>- <b>Political Stability:</b> The level of domestic political stability affects Nigeria’s capacity to engage internationally.<br>- <b>Leadership and Ideology:</b> The beliefs and vision of Nigerian leaders influence foreign policy decisions.<br>- <b>Colonial Legacy:</b> Historical ties with Britain and the Commonwealth influence diplomatic relations.<br>- <b>Regional and Global Politics:</b> Conflicts, alliances, and international organizations shape Nigeria’s foreign policy.<br>- <b>Security Considerations:</b> Threats such as insurgency, terrorism, and border disputes impact foreign relations."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Nigeria as the Centerpiece of Africa’s Foreign Policy</b><br>- Nigeria is often regarded as a leader in African diplomacy due to its population, economic strength, and strategic influence.<br>- Played a central role in the Organization of African Unity (OAU) and now African Union (AU).<br>- Actively supported anti-apartheid movements in South Africa and liberation struggles in Namibia, Zimbabwe, and Angola.<br>- Contributed troops to peacekeeping missions under the UN and ECOWAS (e.g., ECOMOG in Liberia and Sierra Leone).<br>- Advocated for African unity, regional integration, and conflict resolution.<br>- Promoted the principle of non-alignment and neutrality in global politics."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Tools of Nigeria’s Foreign Policy</b><br>- Diplomacy through embassies, consulates, and missions.<br>- Participation in international and regional organizations (UN, AU, ECOWAS).<br>- Bilateral and multilateral treaties and agreements.<br>- Peacekeeping and humanitarian assistance.<br>- Economic diplomacy, trade agreements, and foreign investment promotion.<br>- Cultural diplomacy to promote Nigerian heritage and soft power."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Challenges Facing Nigeria’s Foreign Policy</b><br>- Domestic political instability reducing global influence.<br>- Dependence on oil revenue and economic fluctuations.<br>- Corruption affecting credibility and effective diplomacy.<br>- Regional conflicts and terrorism diverting attention and resources.<br>- Competition from emerging African and global powers.<br>- Inadequate infrastructure and diplomatic capacity in some missions abroad."
+      },
+      {
+        "type": "text",
+        "data": "<b>8. Evaluation Questions</b><br>1. Define foreign policy.<br>2. List five objectives of Nigeria’s foreign policy.<br>3. Explain the principles guiding Nigeria’s foreign policy.<br>4. Identify and explain four factors that affect Nigeria’s foreign policy.<br>5. How has Nigeria acted as the center piece of African foreign policy?<br>6. Mention three tools used by Nigeria to implement its foreign policy.<br>7. Discuss two challenges facing Nigeria’s foreign policy.<br>8. Explain Nigeria’s role in peacekeeping operations in Africa.<br>9. How did Nigeria contribute to anti-apartheid movements?<br>10. Why is regional integration important in Nigeria’s foreign policy?"
+      }
+    ]
+  }
+},
+
+//international organization 
+
+{
+  "topic": "International Organizations",
+  "notes": {
+    "title": "International Organizations",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>1. Definition of International Organization</b><br>An international organization is an association of states or countries formed to achieve common objectives through cooperation in political, economic, social, or security matters."
+      },
+      {
+        "type": "text",
+        "data": "<b>2. United Nations (UN)</b><br>- <b>Established:</b> 1945<br>- <b>Headquarters:</b> New York, USA<br>- <b>Aims:</b> Maintain international peace and security, promote human rights, foster social and economic development, provide humanitarian aid, and encourage international cooperation.<br>- <b>Achievements:</b> Peacekeeping missions worldwide, promotion of human rights, support for sustainable development, coordination of humanitarian relief in crises, adoption of Universal Declaration of Human Rights.<br>- <b>Problems:</b> Veto power of permanent Security Council members can block decisions, funding challenges, bureaucracy, failure to prevent some conflicts (e.g., Rwanda 1994), uneven enforcement of resolutions."
+      },
+      {
+        "type": "text",
+        "data": "<b>3. Commonwealth of Nations</b><br>- <b>Established:</b> 1931 (as Commonwealth, evolving from British Empire)<br>- <b>Headquarters:</b> London, UK<br>- <b>Aims:</b> Promote democracy, human rights, economic development, cultural exchange, and cooperation among member states.<br>- <b>Achievements:</b> Regular Commonwealth Heads of Government Meetings (CHOGM), promotion of democracy and good governance, scholarship programs, technical assistance in development.<br>- <b>Problems:</b> Limited enforcement power, diverse interests of members, reliance on voluntary cooperation, occasional political tensions among members."
+      },
+      {
+        "type": "text",
+        "data": "<b>4. Organization of Petroleum Exporting Countries (OPEC)</b><br>- <b>Established:</b> 1960<br>- <b>Headquarters:</b> Vienna, Austria<br>- <b>Aims:</b> Coordinate and unify petroleum policies among member countries, stabilize oil markets, secure fair prices for petroleum producers, ensure reliable supply for consumers.<br>- <b>Achievements:</b> Influential in global oil pricing, promotion of oil producer interests, regular monitoring of global oil markets.<br>- <b>Problems:</b> Internal disagreements among members, external market pressures, oil price volatility, limited influence on non-member countries."
+      },
+      {
+        "type": "text",
+        "data": "<b>5. Economic Community of West African States (ECOWAS)</b><br>- <b>Established:</b> 1975<br>- <b>Headquarters:</b> Abuja, Nigeria<br>- <b>Aims:</b> Promote economic integration and cooperation, maintain peace and security in West Africa, facilitate free movement of goods and people, harmonize policies among member states.<br>- <b>Achievements:</b> Established free trade agreements, ECOWAS Monitoring Group (ECOMOG) peacekeeping missions in Liberia and Sierra Leone, regional integration initiatives, conflict mediation.<br>- <b>Problems:</b> Political instability in member states, weak implementation of agreements, funding challenges, border disputes, security threats from insurgent groups."
+      },
+      {
+        "type": "text",
+        "data": "<b>6. Organization of African Unity (OAU) / African Union (AU)</b><br>- <b>Established:</b> OAU in 1963; replaced by AU in 2002<br>- <b>Headquarters:</b> Addis Ababa, Ethiopia<br>- <b>Aims:</b> Promote African unity and solidarity, eradicate colonialism and apartheid, protect sovereignty of African states, coordinate development programs, promote peace and security.<br>- <b>Achievements:</b> End of apartheid in South Africa, mediation in conflicts (e.g., Burundi, Sudan), promotion of continental integration, establishment of African Court and peacekeeping initiatives.<br>- <b>Problems:</b> Limited enforcement power, financial constraints, political disagreements among member states, corruption, slow implementation of policies."
+      },
+      {
+        "type": "text",
+        "data": "<b>7. Evaluation Questions</b><br>1. Define an international organization.<br>2. List the main aims of the United Nations.<br>3. What are the achievements of the Commonwealth of Nations?<br>4. Explain the role of OPEC in global oil markets.<br>5. Mention three objectives of ECOWAS.<br>6. How did the OAU contribute to African liberation movements?<br>7. List two problems facing the UN.<br>8. Explain challenges faced by ECOWAS in maintaining peace in West Africa.<br>9. How does the African Union differ from the OAU?<br>10. Why is cooperation important in international organizations?"
+      }
+    ]
+  }
+}
+
+
 ],
 
 "CRS": [
   
+  //God and creation
+  {
+  "topic": "God and Creation",
+  "notes": {
+    "title": "God, Creation and Divine Purpose",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of God in Christian Religious Studies</b>\nIn Christian Religious Studies, God is understood as the Supreme Being, the Creator of the universe, all-powerful, all-knowing, and ever-present. God is eternal, holy, loving, just, and sovereign over all creation. Christians believe in one God who reveals Himself through creation, the Bible, and His relationship with humanity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Attributes of God</b>\nThe Bible describes God through various attributes:\n- <b>Omnipotence:</b> God is all-powerful (Genesis 18:14).\n- <b>Omniscience:</b> God knows all things (Psalm 139:1–6).\n- <b>Omnipresence:</b> God is everywhere at all times (Jeremiah 23:23–24).\n- <b>Holiness:</b> God is morally pure and separate from sin (Isaiah 6:3).\n- <b>Love:</b> God shows unconditional love to humanity (1 John 4:8).\n- <b>Justice:</b> God judges fairly and punishes wrongdoing (Psalm 89:14)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Meaning of Creation</b>\nCreation refers to God’s act of bringing the universe, living and non-living things into existence. According to the Bible, God created the world out of nothing by His word. The creation story is recorded mainly in Genesis chapters 1 and 2."
+      },
+      {
+        "type": "text",
+        "data": "<b>The First Account of Creation (Genesis 1:1 – 2:4a)</b>\nThe first creation account describes creation in six days:\n- Day 1: Creation of light.\n- Day 2: Creation of the sky.\n- Day 3: Creation of land, seas, and vegetation.\n- Day 4: Creation of the sun, moon, and stars.\n- Day 5: Creation of birds and sea creatures.\n- Day 6: Creation of animals and human beings.\nGod rested on the seventh day, blessing and sanctifying it. This account emphasizes God’s power, order, and authority."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Second Account of Creation (Genesis 2:4b–25)</b>\nThe second account focuses on the creation of man. God formed man from the dust of the ground and breathed into him the breath of life. God created woman from man’s rib as a companion. This account emphasizes the special position of human beings and their relationship with God."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Position and Responsibilities of Human Beings</b>\nHuman beings were created in the image and likeness of God. They were given dominion over the earth and charged with responsibilities such as:\n- Caring for and managing the environment.\n- Obeying God’s commands.\n- Living in fellowship with God.\n- Maintaining moral purity and holiness."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Fall of Man (Genesis 3)</b>\nThe fall of man refers to Adam and Eve’s disobedience to God by eating the forbidden fruit. They were tempted by the serpent and chose to disobey God’s instruction. This act introduced sin into the world and broke the perfect relationship between God and humanity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Consequences of the Fall</b>\nThe fall of man resulted in several consequences:\n- Separation between God and humanity.\n- Introduction of sin, suffering, and death.\n- Hard labour and pain.\n- Loss of innocence.\n- Expulsion from the Garden of Eden."
+      },
+      {
+        "type": "text",
+        "data": "<b>God’s Continued Love and Care for Humanity</b>\nDespite human disobedience, God continued to show love and concern for humanity. He provided clothing for Adam and Eve, promised a future redeemer, and continued to guide human history towards salvation."
+      },
+      {
+        "type": "text",
+        "data": "<b>God’s Covenant with Noah</b>\nAfter the flood, God made a covenant with Noah, promising never again to destroy the world with flood. The rainbow was given as a sign of this covenant. This shows God’s mercy, faithfulness, and commitment to preserving life."
+      },
+      {
+        "type": "text",
+        "data": "<b>God’s Covenant with Abraham</b>\nGod called Abraham and made a covenant with him, promising:\n- A great nation.\n- Numerous descendants.\n- A land for his people.\n- Blessings to all nations through him.\nAbraham’s faith and obedience made him the father of faith."
+      },
+      {
+        "type": "text",
+        "data": "<b>Divine Purpose of Creation</b>\nGod created the world for specific purposes:\n- To reveal His glory and power.\n- To have fellowship with humanity.\n- To establish order and harmony.\n- To allow humans to worship and serve Him.\n- To fulfill His plan of salvation."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons and Moral Teachings</b>\n- Obedience to God brings blessings.\n- Disobedience leads to consequences.\n- God is loving and forgiving.\n- Human beings must care for God’s creation.\n- Faith and trust in God are essential."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Creation:</b> God’s act of bringing the universe into existence.\n<b>Fall:</b> Humanity’s first act of disobedience against God.\n<b>Covenant:</b> A sacred agreement between God and humans.\n<b>Image of God:</b> The special nature of human beings reflecting God’s character."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Describe the first account of creation.\n2. Explain the second account of creation.\n3. What responsibilities did God give to human beings?\n4. Narrate the fall of man and its consequences.\n5. How did God show love to humanity after the fall?\n6. Explain God’s covenant with Noah.\n7. State the promises God made to Abraham.\n8. Mention five lessons from the creation story."
+      }
+    ]
+  }
+},
+
+  //the patriach - Abraham
+
+  {
+  "topic": "The Patriarchs (Part 1)",
+  "notes": {
+    "title": "Abraham: Call, Covenant, Faith and Obedience",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Patriarchs</b>\nPatriarchs are the early founding fathers of the nation of Israel. They are individuals through whom God established His covenant relationship with the Israelites. The major patriarchs are Abraham, Isaac, Jacob, and Joseph."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Call of Abraham (Genesis 12:1–9)</b>\nGod called Abraham (formerly Abram) to leave his country, kindred, and father’s house to a land that God would show him. This call required complete trust and obedience. Abraham obeyed God and departed with his wife Sarah and his nephew Lot."
+      },
+      {
+        "type": "text",
+        "data": "<b>Promises Made to Abraham</b>\nGod made several promises to Abraham:\n- He would make Abraham a great nation.\n- Abraham’s name would be great.\n- God would bless those who bless Abraham.\n- All nations of the earth would be blessed through him.\nThese promises reveal God’s long-term plan for humanity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Abraham’s Journey of Faith</b>\nAbraham’s life was marked by faith and trust in God. He journeyed through unfamiliar lands relying on God’s guidance. Despite challenges such as famine and childlessness, Abraham continued to believe in God’s promises."
+      },
+      {
+        "type": "text",
+        "data": "<b>God’s Covenant with Abraham (Genesis 15 & 17)</b>\nGod established a covenant with Abraham, promising him descendants as numerous as the stars and the possession of the land of Canaan. God changed Abram’s name to Abraham, meaning “father of many nations,” and Sarai’s name to Sarah. Circumcision was given as the sign of this covenant."
+      },
+      {
+        "type": "text",
+        "data": "<b>Birth of Isaac</b>\nDespite their old age, God fulfilled His promise by giving Abraham and Sarah a son, Isaac. This demonstrated that God’s promises are fulfilled in His own time and not by human effort."
+      },
+      {
+        "type": "text",
+        "data": "<b>Abraham’s Test of Faith (Genesis 22)</b>\nGod tested Abraham by commanding him to sacrifice his son Isaac. Abraham obeyed without hesitation, showing complete faith in God. God stopped him and provided a ram for sacrifice. This event highlights Abraham’s absolute obedience and trust."
+      },
+      {
+        "type": "text",
+        "data": "<b>Abraham as a Model of Faith</b>\nAbraham is described as the father of faith because of his willingness to trust and obey God even when the instructions were difficult. His faith serves as an example for believers."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from the Life of Abraham</b>\n- Obedience to God brings blessings.\n- Faith requires trust even without full understanding.\n- God fulfills His promises at the right time.\n- True faith involves sacrifice.\n- God rewards loyalty and obedience."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Patriarch:</b> A founding father of Israel.\n<b>Covenant:</b> A sacred agreement between God and humans.\n<b>Faith:</b> Complete trust and confidence in God.\n<b>Circumcision:</b> The sign of God’s covenant with Abraham."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Who are the patriarchs?\n2. Describe the call of Abraham.\n3. List the promises God made to Abraham.\n4. Explain God’s covenant with Abraham.\n5. Why is Abraham called the father of faith?\n6. Narrate the sacrifice of Isaac.\n7. Mention five lessons from the life of Abraham."
+      }
+    ]
+  }
+},
+
+  //the patriach - 
+  
+  {
+  "topic": "The Patriarchs (Part 2)",
+  "notes": {
+    "title": "Isaac, Jacob and Joseph: God’s Guidance and Leadership",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Isaac as a Patriarch</b>\nIsaac was the son of Abraham and Sarah and the child of promise. He represented the continuation of God’s covenant with Abraham. Isaac’s life reflects obedience, patience, and trust in God."
+      },
+      {
+        "type": "text",
+        "data": "<b>God’s Covenant with Isaac</b>\nGod renewed His covenant with Isaac, promising him numerous descendants and the land of Canaan. God assured Isaac of His presence and protection, showing that divine promises are transferable through generations."
+      },
+      {
+        "type": "text",
+        "data": "<b>Isaac’s Character and Achievements</b>\nIsaac demonstrated qualities such as:\n- Obedience to God.\n- Peacefulness and patience.\n- Faith in God’s promises.\nHe avoided conflict and trusted God to fight his battles, especially in disputes over wells."
+      },
+      {
+        "type": "text",
+        "data": "<b>Jacob as a Patriarch</b>\nJacob, the son of Isaac and Rebekah, was chosen by God to carry on the covenant. Although he initially displayed deceitful behaviour, God transformed him through various life experiences."
+      },
+      {
+        "type": "text",
+        "data": "<b>Jacob’s Encounter with God (Bethel – Genesis 28)</b>\nJacob had a dream in which he saw a ladder reaching from earth to heaven with angels ascending and descending. God reaffirmed His covenant with Jacob, promising him land, descendants, and divine protection."
+      },
+      {
+        "type": "text",
+        "data": "<b>Jacob’s Transformation (Genesis 32)</b>\nJacob wrestled with an angel and was renamed Israel, meaning “one who struggles with God.” This marked a turning point in his life and symbolized spiritual growth and transformation."
+      },
+      {
+        "type": "text",
+        "data": "<b>Joseph as a Patriarch</b>\nJoseph, the son of Jacob, played a major role in preserving the family of Israel. Though betrayed by his brothers, Joseph remained faithful to God and rose to prominence in Egypt."
+      },
+      {
+        "type": "text",
+        "data": "<b>Joseph in Egypt</b>\nJoseph was sold into slavery but remained righteous. He resisted temptation in Potiphar’s house and later interpreted dreams in prison. His faithfulness led to his promotion as the second-in-command in Egypt."
+      },
+      {
+        "type": "text",
+        "data": "<b>Joseph’s Leadership and Forgiveness</b>\nJoseph used his position to save Egypt and surrounding nations from famine. He forgave his brothers, demonstrating love, mercy, and reconciliation. He recognized God’s hand in his suffering."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from the Lives of Isaac, Jacob and Joseph</b>\n- God remains faithful to His covenant.\n- God can transform human weaknesses.\n- Faithfulness brings divine promotion.\n- Forgiveness promotes unity.\n- God can turn evil intentions into good."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Patriarch:</b> A founding father of Israel.\n<b>Covenant:</b> God’s sacred promise to His people.\n<b>Transformation:</b> Positive change in character through divine encounter.\n<b>Providence:</b> God’s guidance and care over human affairs."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Explain God’s covenant with Isaac.\n2. Describe Jacob’s encounter with God at Bethel.\n3. What was the significance of Jacob’s new name?\n4. Narrate Joseph’s experiences in Egypt.\n5. How did Joseph demonstrate leadership and forgiveness?\n6. Mention five lessons from the lives of Isaac, Jacob and Joseph."
+      }
+    ]
+  }
+},
+
+  //moses and the exodus
+  
+  {
+  "topic": "Moses and the Exodus (Part 1):",
+  "notes": {
+    "title": "Moses: Call, Leadership and the Deliverance of Israel",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Background to the Exodus</b>\nThe Israelites settled in Egypt during the time of Joseph. Over time, they increased greatly in number, which caused fear among the Egyptians. A new Pharaoh arose who did not know Joseph and subjected the Israelites to severe oppression and forced labour."
+      },
+      {
+        "type": "text",
+        "data": "<b>Birth and Early Life of Moses (Exodus 2)</b>\nMoses was born during a time when Pharaoh ordered that all male Hebrew children be killed. His mother hid him for three months and later placed him in a basket on the River Nile. He was found and adopted by Pharaoh’s daughter and raised in the Egyptian palace."
+      },
+      {
+        "type": "text",
+        "data": "<b>Moses’ Flight to Midian</b>\nAs an adult, Moses killed an Egyptian who was beating a Hebrew slave. When Pharaoh sought to kill him, Moses fled to Midian. There, he lived as a shepherd and married Zipporah, the daughter of Jethro."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Call of Moses (Exodus 3)</b>\nGod called Moses at Mount Horeb through a burning bush that was not consumed. God revealed Himself as the God of Abraham, Isaac, and Jacob and commissioned Moses to lead the Israelites out of Egypt."
+      },
+      {
+        "type": "text",
+        "data": "<b>God’s Name and Promise</b>\nGod revealed His name as “I AM WHO I AM,” signifying His eternal and self-existent nature. God assured Moses of His presence and power and promised to deliver Israel from bondage."
+      },
+      {
+        "type": "text",
+        "data": "<b>Moses’ Reluctance and God’s Assurance</b>\nMoses expressed fear and doubt, citing his inability to speak well. God reassured him, appointed Aaron as his spokesman, and gave signs to confirm divine authority."
+      },
+      {
+        "type": "text",
+        "data": "<b>Confrontation with Pharaoh</b>\nMoses and Aaron confronted Pharaoh, demanding the release of the Israelites. Pharaoh refused and increased the Israelites’ suffering, demonstrating human pride and resistance to God’s will."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Ten Plagues of Egypt</b>\nGod sent ten plagues upon Egypt to demonstrate His power and compel Pharaoh to release the Israelites. These plagues included turning water into blood, frogs, lice, flies, pestilence, boils, hail, locusts, darkness, and the death of the firstborn."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Passover (Exodus 12)</b>\nGod instructed the Israelites to slaughter a lamb and smear its blood on their doorposts. The angel of death passed over homes marked with blood. This event symbolized salvation, obedience, and divine protection."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Exodus from Egypt</b>\nAfter the final plague, Pharaoh allowed the Israelites to leave Egypt. The Exodus marked God’s decisive act of deliverance and the fulfillment of His promise to Abraham."
+      },
+      {
+        "type": "text",
+        "data": "<b>Crossing of the Red Sea</b>\nPharaoh pursued the Israelites, but God miraculously parted the Red Sea, allowing the Israelites to cross on dry ground. The Egyptian army was destroyed when the waters returned."
+      },
+      {
+        "type": "text",
+        "data": "<b>Significance of the Exodus</b>\nThe Exodus demonstrates God’s power, faithfulness, and concern for the oppressed. It established Israel as a free nation under God and remains a central event in Israel’s history."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from the Call and Leadership of Moses</b>\n- God hears the cry of the oppressed.\n- God chooses and empowers leaders.\n- Obedience brings deliverance.\n- God is more powerful than human authority.\n- Faith requires courage and trust in God."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Exodus:</b> The departure of the Israelites from Egypt.\n<b>Passover:</b> The event marking Israel’s deliverance from death.\n<b>Deliverance:</b> Freedom from bondage or oppression.\n<b>Calling:</b> Divine appointment to a specific task."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Describe the condition of the Israelites in Egypt.\n2. Narrate the birth and early life of Moses.\n3. Explain the call of Moses.\n4. Why was Moses reluctant to accept God’s call?\n5. List the ten plagues of Egypt.\n6. Explain the significance of the Passover.\n7. Describe the crossing of the Red Sea.\n8. State five lessons from the leadership of Moses."
+      }
+    ]
+  }
+},
+
+//moses and the exodus
+
+{
+  "topic": "Moses and the Exodus (Part 2):",
+  "notes": {
+    "title": "Moses: Covenant at Sinai, the Law and Wilderness Experience",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Journey to Mount Sinai</b>\nAfter crossing the Red Sea, the Israelites journeyed through the wilderness toward Mount Sinai. During this period, God guided them with a pillar of cloud by day and a pillar of fire by night, showing His constant presence and protection."
+      },
+      {
+        "type": "text",
+        "data": "<b>God’s Provision in the Wilderness</b>\nDespite complaints and lack of faith, God provided food and water for the Israelites. He supplied manna from heaven, quails for meat, and water from the rock, demonstrating His care and patience."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Covenant at Mount Sinai (Exodus 19)</b>\nAt Mount Sinai, God entered into a covenant with the Israelites. He promised to make them a chosen people, a kingdom of priests, and a holy nation, on the condition of obedience to His commands."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Ten Commandments (Exodus 20)</b>\nGod gave Moses the Ten Commandments as the foundation of Israel’s moral and religious life. The commandments regulate human relationship with God and with fellow humans."
+      },
+      {
+        "type": "text",
+        "data": "<b>Summary of the Ten Commandments</b>\nThe commandments include:\n- Worship of one God.\n- Prohibition of idols.\n- Reverence for God’s name.\n- Observance of the Sabbath.\n- Honour for parents.\n- Prohibition of murder, adultery, stealing, lying, and coveting."
+      },
+      {
+        "type": "text",
+        "data": "<b>Purpose and Importance of the Law</b>\nThe law was given to guide the Israelites in righteous living, promote justice, maintain order, and preserve their relationship with God. It also distinguished Israel from other nations."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worship and Holiness</b>\nGod instructed the Israelites on proper worship, including the building of the tabernacle. Holiness was required because God is holy and desired a pure relationship with His people."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Golden Calf Incident (Exodus 32)</b>\nWhile Moses was on Mount Sinai, the Israelites made a golden calf and worshipped it. This act of idolatry broke the covenant and angered God, though Moses interceded on their behalf."
+      },
+      {
+        "type": "text",
+        "data": "<b>Moses as an Intercessor</b>\nMoses pleaded with God to forgive the Israelites after their disobedience. His intercession saved the nation from destruction and showed his role as a mediator between God and the people."
+      },
+      {
+        "type": "text",
+        "data": "<b>Renewal of the Covenant</b>\nDespite Israel’s sin, God renewed the covenant with them, revealing His mercy and willingness to forgive when people repent."
+      },
+      {
+        "type": "text",
+        "data": "<b>Leadership Qualities of Moses</b>\nMoses displayed humility, patience, obedience, courage, and selflessness. He placed the interest of the people above his own and remained faithful to God."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from the Covenant and Wilderness Experience</b>\n- Obedience is essential to maintaining relationship with God.\n- God is patient and forgiving.\n- Complaining shows lack of faith.\n- God desires holiness in worship.\n- True leadership involves sacrifice and intercession."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Covenant:</b> A sacred agreement between God and His people.\n<b>Law:</b> God’s commands guiding moral and religious conduct.\n<b>Tabernacle:</b> A portable place of worship.\n<b>Intercession:</b> Pleading on behalf of others."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Describe God’s provision for the Israelites in the wilderness.\n2. Explain the covenant at Mount Sinai.\n3. State the Ten Commandments.\n4. Discuss the importance of the law to the Israelites.\n5. What led to the golden calf incident?\n6. How did Moses act as an intercessor?\n7. Mention five leadership qualities of Moses.\n8. State five lessons from Israel’s wilderness experience."
+      }
+    ]
+  }
+},
+
+
+//leadership in isreal
+
+{
+  "topic": "Leadership in Israel",
+  "notes": {
+    "title": "Leadership in Israel: Joshua and the Period of the Judges",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Leadership in Israel</b>\nLeadership in Israel refers to the divine appointment of individuals chosen by God to guide, protect, judge, and deliver the Israelites. Leadership was not based on heredity or ambition alone but on God’s call and empowerment. Leaders served as instruments through whom God carried out His purposes for His people."
+      },
+      {
+        "type": "text",
+        "data": "<b>Joshua as a Leader (Joshua 1:1–9)</b>\nJoshua was chosen by God to succeed Moses and lead the Israelites into the Promised Land. God encouraged Joshua to be strong and courageous and promised to be with him as He was with Moses. Joshua’s leadership was rooted in obedience to God’s law."
+      },
+      {
+        "type": "text",
+        "data": "<b>Conquest and Settlement of Canaan (Joshua 6–11)</b>\nUnder Joshua’s leadership, the Israelites conquered key cities such as Jericho (Joshua 6). Victory was achieved through faith and obedience rather than military strength. After the conquest, the land was divided among the twelve tribes of Israel (Joshua 13–21)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Joshua’s Covenant Renewal (Joshua 24)</b>\nBefore his death, Joshua gathered the Israelites at Shechem and reminded them of God’s faithfulness. He challenged them to choose whom they would serve, declaring, “As for me and my house, we will serve the Lord” (Joshua 24:15). This reaffirmed Israel’s commitment to God."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Period of the Judges</b>\nAfter Joshua’s death, Israel entered the period of the Judges. This era was marked by a recurring cycle of sin, punishment, repentance, and deliverance (Judges 2:11–19). God raised judges as military leaders and administrators to rescue Israel from oppression."
+      },
+      {
+        "type": "text",
+        "data": "<b>Deborah as a Judge (Judges 4–5)</b>\nDeborah was both a prophetess and a judge in Israel. She demonstrated wisdom, courage, and faith. Under her leadership, Israel defeated the Canaanite army led by Sisera. Deborah’s leadership highlights the role of women in God’s plan."
+      },
+      {
+        "type": "text",
+        "data": "<b>Gideon as a Deliverer (Judges 6–8)</b>\nGideon was called by God to deliver Israel from the Midianites. Despite his initial fear and doubt, God empowered him. With only 300 men, Gideon defeated the Midianite army, showing that victory comes from reliance on God, not numbers."
+      },
+      {
+        "type": "text",
+        "data": "<b>Samson as a Judge (Judges 13–16)</b>\nSamson was chosen by God before birth as a Nazirite. God gave him supernatural strength to fight Israel’s enemies, the Philistines. However, Samson’s moral weakness and disobedience eventually led to his downfall, though God used his final act to defeat Israel’s enemies."
+      },
+      {
+        "type": "text",
+        "data": "<b>Characteristics of Leadership during the Judges</b>\n- Leadership was divinely appointed.\n- Leaders emerged during times of crisis.\n- Leadership combined political, military, and religious roles.\n- Success depended on obedience to God.\n- Disobedience led to national suffering."
+      },
+      {
+        "type": "text",
+        "data": "<b>Problems of Leadership during the Period of Judges</b>\n- Moral decline among the people.\n- Lack of centralized authority.\n- Frequent disobedience to God’s laws.\n- Influence of foreign religions.\n- Repeated cycles of sin and repentance."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from Leadership in Israel</b>\n- God chooses leaders according to His purpose.\n- Obedience brings success and victory.\n- Disobedience leads to failure.\n- God can use anyone regardless of weakness.\n- Leadership requires faith, courage, and humility."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Judge:</b> A leader raised by God to deliver Israel.\n<b>Deliverer:</b> One who rescues people from oppression.\n<b>Covenant:</b> God’s sacred agreement with Israel.\n<b>Conquest:</b> The act of taking control of land by force."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\nJoshua 1:1–9; Joshua 6; Joshua 24; Judges 2:11–19; Judges 4–5; Judges 6–8; Judges 13–16."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Describe Joshua’s leadership qualities.\n2. Explain the conquest and settlement of Canaan.\n3. What lessons can be learnt from Joshua’s covenant renewal?\n4. Describe the cycle of events during the period of the Judges.\n5. Discuss Deborah’s role as a judge in Israel.\n6. Explain how Gideon defeated the Midianites.\n7. Why did Samson fail as a leader?\n8. State five lessons from leadership in Israel."
+      }
+    ]
+  }
+},
+
+//monachy in isreal - Saul
+
+{
+  "topic": "The Monarchy in Israel (Part 1): Saul",
+  "notes": {
+    "title": "Saul: The First King of Israel",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Monarchy in Israel</b>\nMonarchy refers to the system of government in which Israel was ruled by a single king. God established monarchy to unify the twelve tribes and lead them in obedience, worship, and conquest, after the period of Judges."
+      },
+      {
+        "type": "text",
+        "data": "<b>Saul’s Rise to Kingship (1 Samuel 9–10)</b>\nSaul was from the tribe of Benjamin. God chose Saul through the prophet Samuel to be the first king of Israel. He was anointed by Samuel and publicly accepted by the people. Saul’s leadership began with promise and divine favor."
+      },
+      {
+        "type": "text",
+        "data": "<b>Saul’s Leadership and Achievements</b>\n- Military victories over the Ammonites and other enemies (1 Samuel 11).\n- Establishment of a centralized government.\n- Strengthening national unity and tribal cooperation.\n- Demonstrated humility and fear of God early in his reign."
+      },
+      {
+        "type": "text",
+        "data": "<b>Disobedience and Failures of Saul (1 Samuel 13–15)</b>\nSaul failed to fully obey God’s instructions, such as sparing King Agag and keeping spoils of war. This disobedience led God to reject him as king. Saul also struggled with jealousy, particularly toward David, which undermined his leadership."
+      },
+      {
+        "type": "text",
+        "data": "<b>Saul’s Jealousy of David (1 Samuel 18–19)</b>\nAfter David defeated Goliath, the people praised David more than Saul. Saul’s jealousy led him to repeatedly attempt to kill David, showing how personal insecurity can compromise leadership."
+      },
+      {
+        "type": "text",
+        "data": "<b>Death of Saul (1 Samuel 31)</b>\nSaul died in battle against the Philistines at Mount Gilboa. His reign ended tragically due to disobedience, fear, and failure to trust God fully."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from Saul’s Life</b>\n- Obedience to God is essential for success.\n- Pride and jealousy can destroy leadership.\n- God’s favor can be withdrawn due to disobedience.\n- True leadership requires humility and integrity.\n- Trusting God is better than relying on human judgment."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Monarchy:</b> Rule by a king.\n<b>Anointing:</b> God’s act of choosing and empowering a leader.\n<b>Obedience:</b> Faithful compliance with God’s commands.\n<b>Jealousy:</b> Envy that leads to destructive behavior."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\n1 Samuel 9–10; 11; 13–15; 18–19; 31."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Explain why Israel demanded a king.\n2. Describe Saul’s rise to kingship.\n3. Mention Saul’s achievements as king.\n4. Discuss Saul’s disobedience and its consequences.\n5. How did Saul show jealousy toward David?\n6. Narrate the death of Saul.\n7. List five lessons from Saul’s leadership.\n8. Define monarchy and anointing in the context of Israel."
+      }
+    ]
+  }
+},
+
+//David and solomon
+
+{
+  "topic": "The Monarchy in Israel (Part 2): David and Solomon",
+  "notes": {
+    "title": "David and Solomon: Leadership, Faith and Wisdom",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>David’s Rise to Kingship (1 Samuel 16–17)</b>\nDavid, the youngest son of Jesse, was chosen by God and anointed by Samuel while still a shepherd. God looked at David’s heart rather than appearance (1 Samuel 16:7). He gained fame by defeating Goliath, the Philistine giant, through faith and God-given courage (1 Samuel 17)."
+      },
+      {
+        "type": "text",
+        "data": "<b>David as a Leader and King</b>\nDavid united the twelve tribes, established Jerusalem as the capital, and expanded Israel’s territory. He was known for his courage, faith in God, strategic military skills, and devotion to worship (2 Samuel 5:1–12; 2 Samuel 6:1–23)."
+      },
+      {
+        "type": "text",
+        "data": "<b>David’s Challenges and Failures</b>\nDespite his faith, David sinned, notably in the case of Bathsheba and Uriah (2 Samuel 11). He faced internal rebellion from his son Absalom (2 Samuel 15–18). However, David repented sincerely, showing that even a godly leader is fallible but can be restored through humility and confession (Psalm 51)."
+      },
+      {
+        "type": "text",
+        "data": "<b>David’s Legacy</b>\nDavid is remembered as a man after God’s own heart. He prepared Israel spiritually and politically for Solomon’s reign. He composed psalms that express worship, lamentation, and thanksgiving (1 Chronicles 28:2–10)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Solomon’s Rise to Kingship (1 Kings 1–3)</b>\nSolomon, David’s son, succeeded him as king. Early in his reign, Solomon demonstrated humility and wisdom by asking God for discernment to govern Israel effectively (1 Kings 3:5–14). God granted him unparalleled wisdom, wealth, and honour."
+      },
+      {
+        "type": "text",
+        "data": "<b>Achievements of Solomon</b>\n- Construction of the Temple in Jerusalem (1 Kings 6).\n- Expansion of Israel’s trade and wealth (1 Kings 10:14–29).\n- Administration and organization of the kingdom (1 Kings 4).\n- Promotion of peace and diplomacy.\n- Writing proverbs, songs, and wisdom literature (Proverbs, Ecclesiastes, Song of Solomon)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Solomon’s Failures</b>\nDespite wisdom, Solomon’s heart turned away from God in later years. He married foreign women who led him into idolatry, which eventually caused division in the kingdom after his death (1 Kings 11:1–13)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from David and Solomon</b>\n- God values the heart and faithfulness in leaders.\n- Courage and obedience lead to success.\n- Repentance restores leaders who fail.\n- Wisdom is essential for effective governance.\n- Pride and disobedience can undermine even the most gifted leader."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Anointing:</b> God’s act of choosing and empowering a king.\n<b>Wisdom:</b> God-given ability to make right decisions.\n<b>Repentance:</b> Sincere turning from sin back to God.\n<b>Temple:</b> The sacred dwelling place of God in Jerusalem."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\n1 Samuel 16–17; 2 Samuel 5:1–12; 2 Samuel 11; 2 Samuel 15–18; Psalm 51; 1 Chronicles 28:2–10; 1 Kings 1–3; 1 Kings 6; 1 Kings 10; 1 Kings 11:1–13; Proverbs; Ecclesiastes; Song of Solomon."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Describe how David became king.\n2. Discuss David’s achievements as a leader.\n3. Explain David’s failures and how he sought restoration.\n4. Describe Solomon’s request for wisdom and its importance.\n5. Mention five major achievements of Solomon.\n6. Discuss Solomon’s failures.\n7. State five lessons from the lives of David and Solomon.\n8. Define anointing, wisdom, and repentance in the context of Israel’s monarchy."
+      }
+    ]
+  }
+},
+
+
+//prophets and social justice
+
+{
+  "topic": "Prophets and Social Justice",
+  "notes": {
+    "title": "Prophets: God’s Messengers for Justice and Righteousness",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Prophets</b>\nProphets are individuals chosen by God to communicate His messages, warn against sin, and call people to repentance. They serve as God’s spokespersons, guiding leaders and communities toward justice, obedience, and righteousness."
+      },
+      {
+        "type": "text",
+        "data": "<b>Elijah: Prophet of God’s Power (1 Kings 17–19)</b>\nElijah was called to confront idolatry and injustice during King Ahab’s reign. He performed miracles, including raising the widow’s son (1 Kings 17:17–24), challenging the prophets of Baal on Mount Carmel (1 Kings 18:20–40), and praying for rain to end drought (1 Kings 18:41–45). Elijah demonstrated courage, faith, and reliance on God."
+      },
+      {
+        "type": "text",
+        "data": "<b>Elisha: Prophet of Miracles and Compassion (2 Kings 2–6)</b>\nElisha succeeded Elijah and performed many miracles: healing Naaman of leprosy (2 Kings 5), multiplying food, and protecting Israel from enemies. He emphasized God’s care for the vulnerable and the importance of faith in divine guidance."
+      },
+      {
+        "type": "text",
+        "data": "<b>Amos: Prophet of Social Justice (Amos 1–9)</b>\nAmos preached during Israel’s prosperity, condemning exploitation, corruption, and neglect of the poor (Amos 5:11–15). He reminded the people that true worship is inseparable from justice, honesty, and righteousness (Amos 5:24)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Isaiah: Prophet of Hope and Messiah (Isaiah 1–12)</b>\nIsaiah called Judah to repentance and warned against idolatry (Isaiah 1:2–20). He prophesied the coming of the Messiah and the establishment of God’s kingdom (Isaiah 9:6–7; 11:1–10). Isaiah emphasized God’s holiness, justice, and salvation plan."
+      },
+      {
+        "type": "text",
+        "data": "<b>Jeremiah: Prophet of Warning and Restoration (Jeremiah 1–29)</b>\nJeremiah warned Judah of impending judgment due to disobedience and idolatry (Jeremiah 1:4–10; 7:1–15). Despite persecution, he faithfully delivered God’s messages, encouraging repentance and promising restoration after exile (Jeremiah 29:10–14)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Characteristics of Prophets</b>\n- Chosen and empowered by God.\n- Courageous in confronting kings and corrupt systems.\n- Advocates of justice, righteousness, and compassion.\n- Faithful in delivering both warnings and hope.\n- Dependence on God for guidance and strength."
+      },
+      {
+        "type": "text",
+        "data": "<b>Role of Prophets in Society</b>\n- Call people to repentance and obedience.\n- Advocate for the poor, oppressed, and marginalized.\n- Warn against idolatry and moral corruption.\n- Provide hope and encouragement for the future.\n- Ensure leaders govern according to God’s principles."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from the Prophets</b>\n- God’s justice requires ethical living.\n- Courage is essential to speak truth to power.\n- Faith and reliance on God empower leaders and followers.\n- True worship is shown through action and social responsibility.\n- Obedience to God brings blessing, disobedience leads to judgment."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Prophet:</b> God’s chosen messenger.\n<b>Social Justice:</b> Fair treatment of all members of society.\n<b>Idolatry:</b> Worship of false gods or materialism.\n<b>Repentance:</b> Turning away from sin and returning to God."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\n1 Kings 17–19; 2 Kings 2–6; Amos 1–9; Isaiah 1–12; Jeremiah 1–29."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define a prophet and their role in Israel.\n2. Discuss Elijah’s ministry and miracles.\n3. Explain how Elisha demonstrated God’s compassion.\n4. What were Amos’ main messages about social justice?\n5. Describe Isaiah’s prophecy about the Messiah.\n6. How did Jeremiah warn Judah and promise restoration?\n7. List five characteristics of prophets.\n8. State five lessons from the lives of the prophets."
+      }
+    ]
+  }
+},
+
+//babylonian exile
+
+{
+  "topic": "Exile, Return, and Reforms (Part 1): Babylonian Exile",
+  "notes": {
+    "title": "Babylonian Exile: Causes, Experience, and Lessons",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Meaning of Exile</b>\nExile refers to the forced removal of a people from their homeland. In Israel’s history, the Babylonian Exile occurred when God allowed Judah to be conquered and taken captive due to persistent disobedience and idolatry."
+      },
+      {
+        "type": "text",
+        "data": "<b>Causes of the Babylonian Exile (2 Kings 24–25)</b>\n- Persistent idolatry and worship of foreign gods.\n- Disobedience to God’s covenant.\n- Corruption and injustice among leaders and people.\n- Ignoring the messages of prophets such as Jeremiah.\n- Failure to heed God’s warnings."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Exile Experience (Daniel 1–6; Jeremiah 29:4–7)</b>\nThe Israelites were taken to Babylon, losing their land, temple, and freedom. Leaders like Daniel, Shadrach, Meshach, and Abednego maintained faith in God and were honored for their obedience. Even in exile, the Israelites were encouraged to pray, work, and live peacefully (Jeremiah 29:4–7)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Significance of the Exile</b>\n- Highlighted the consequences of disobedience to God.\n- Strengthened faith among the righteous in captivity.\n- Preserved Israelite identity through obedience and worship.\n- Led to reflection, repentance, and preparation for restoration."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from the Babylonian Exile</b>\n- Disobedience leads to consequences.\n- Faithfulness preserves hope in difficult times.\n- Prayer and obedience are vital even in exile.\n- God remains sovereign over nations and history.\n- God’s mercy allows restoration after judgment."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Exile:</b> Forced removal from one’s homeland.\n<b>Idolatry:</b> Worship of false gods.\n<b>Obedience:</b> Faithful adherence to God’s commands.\n<b>Restoration:</b> Return to God’s favor and homeland."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\n2 Kings 24–25; Daniel 1–6; Jeremiah 29:4–7."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Explain what exile means.\n2. Mention four causes of the Babylonian Exile.\n3. Describe the experience of the Israelites in Babylon.\n4. What lessons can be learned from the Exile?\n5. Why was the exile significant in Israel’s history?\n6. Define exile, idolatry, and restoration."
+      }
+    ]
+  }
+},
+
+{
+  "topic": "Exile, Return, and Reforms (Part 2): Ezra, Nehemiah, and Restoration",
+  "notes": {
+    "title": "Return and Reforms: Rebuilding the Nation and Worship",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>The Return from Exile (Ezra 1:1–11)</b>\nAfter 70 years in Babylon, King Cyrus of Persia allowed the Israelites to return to Jerusalem. They were permitted to rebuild the temple and restore worship. This return fulfilled God’s promise and marked a new chapter in Israel’s history."
+      },
+      {
+        "type": "text",
+        "data": "<b>Rebuilding the Temple (Ezra 3–6)</b>\nUnder the leadership of Zerubbabel, the Israelites rebuilt the altar and the temple. Despite opposition from neighboring peoples, they completed the temple, which became the center of worship and spiritual renewal."
+      },
+      {
+        "type": "text",
+        "data": "<b>Ezra: Spiritual Reforms (Ezra 7–10)</b>\nEzra, a priest and scribe, led a spiritual revival. He taught the law, encouraged repentance, and reinstated proper worship. Ezra emphasized obedience to God’s covenant and separation from foreign influences."
+      },
+      {
+        "type": "text",
+        "data": "<b>Nehemiah: Political and Social Reforms (Nehemiah 1–6)</b>\nNehemiah rebuilt the walls of Jerusalem, restored security, and strengthened governance. He organized the people, addressed social injustice, and encouraged covenant renewal. His reforms were practical, spiritual, and political."
+      },
+      {
+        "type": "text",
+        "data": "<b>Significance of the Reforms</b>\n- Restoration of Jerusalem and its worship practices.\n- Renewal of Israel’s commitment to God.\n- Strengthened unity and identity of the people.\n- Encouraged obedience to God’s law and social justice."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from Ezra and Nehemiah</b>\n- Obedience to God leads to restoration.\n- Leadership combines spiritual, social, and practical responsibilities.\n- Faithfulness in adversity brings national revival.\n- Reform requires courage, planning, and reliance on God.\n- God rewards commitment to His covenant."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Restoration:</b> Renewal of spiritual, social, and political life.\n<b>Reforms:</b> Changes to restore obedience and justice.\n<b>Covenant Renewal:</b> Recommitment to God’s laws.\n<b>Spiritual Revival:</b> Renewal of worship, faith, and obedience."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\nEzra 1–10; Nehemiah 1–6."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Describe the return of the Israelites from Babylon.\n2. Explain how the temple was rebuilt.\n3. Discuss Ezra’s spiritual reforms.\n4. What were Nehemiah’s contributions to political and social reforms?\n5. State five lessons from Ezra and Nehemiah.\n6. Define restoration, reforms, and covenant renewal."
+      }
+    ]
+  }
+},
+
+
+//life of christ
+
+{
+  "topic": "Life and Teachings of Jesus Christ (Part 1): Birth and Early Ministry",
+  "notes": {
+    "title": "Jesus Christ: Birth, Early Life, and Ministry",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nJesus Christ is the central figure of Christianity, regarded as the Son of God and the promised Messiah. His life, teachings, miracles, and example provide a model for moral living, leadership, and faith. Understanding His early life and ministry is essential for grasping His purpose and message."
+      },
+      {
+        "type": "text",
+        "data": "<b>Birth of Jesus Christ (Matthew 1:18–25; Luke 2:1–20)</b>\nJesus was born in Bethlehem to Mary, a virgin, through the Holy Spirit, fulfilling the prophecy of Isaiah 7:14. His birth was humble, in a manger, yet significant as angels announced it to shepherds, symbolizing God’s care for all, especially the poor and marginalized. The Magi visited Him, bringing gifts of gold, frankincense, and myrrh, highlighting His kingship, divinity, and future sacrifice. The birth of Jesus marked the beginning of God’s plan to redeem humanity from sin."
+      },
+      {
+        "type": "text",
+        "data": "<b>Early Life of Jesus (Luke 2:41–52)</b>\nJesus grew in wisdom, stature, and favor with God and men. Even as a child, He showed remarkable understanding of Scripture. At age 12, He stayed behind in the temple while His parents returned home, astonishing the teachers with His knowledge (Luke 2:46–47). This event reveals His early awareness of His divine mission and the importance of spiritual learning. His upbringing emphasized obedience, respect for God’s law, and humility."
+      },
+      {
+        "type": "text",
+        "data": "<b>Baptism of Jesus (Matthew 3:13–17)</b>\nJesus was baptized by John the Baptist in the Jordan River, marking the official start of His public ministry. Baptism signified identification with humanity, humility, and commitment to God’s will. During the baptism, the heavens opened, the Spirit of God descended like a dove, and a voice declared, 'This is my beloved Son, in whom I am well pleased.' This divine affirmation confirmed His identity and authority."
+      },
+      {
+        "type": "text",
+        "data": "<b>Temptation in the Wilderness (Matthew 4:1–11; Luke 4:1–13)</b>\nJesus spent forty days in the wilderness fasting and praying. Satan tempted Him to misuse His power for personal gain, test God, and gain worldly authority. Jesus resisted each temptation by quoting Scripture, demonstrating His obedience, moral integrity, and reliance on God. This event emphasizes the importance of spiritual preparation, self-discipline, and using God’s Word to overcome challenges."
+      },
+      {
+        "type": "text",
+        "data": "<b>Calling of the Disciples (Matthew 4:18–22; Luke 5:1–11)</b>\nJesus began gathering followers, starting with ordinary fishermen: Peter, Andrew, James, and John. He called them to leave their livelihoods and follow Him, promising to make them 'fishers of men.' This demonstrates that leadership in God’s kingdom requires commitment, faith, and willingness to serve others. The disciples’ call also highlights the importance of mentorship and spiritual formation in ministry."
+      },
+      {
+        "type": "text",
+        "data": "<b>Early Ministry and Preaching (Matthew 4:23–25; Luke 4:14–15)</b>\nJesus traveled through Galilee, teaching in synagogues, proclaiming the kingdom of God, and healing the sick. His message emphasized repentance, faith, love, humility, and service. He drew large crowds, and people were amazed by His authority and compassion. His ministry challenged social norms, uplifted the oppressed, and demonstrated God’s care for humanity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Miracles as Signs of God’s Kingdom</b>\nJesus performed miracles to reveal God’s power and compassion. Examples include:\n- Healing the blind, deaf, and lame (Matthew 9:27–31; John 9:1–12)\n- Casting out demons (Mark 1:23–26)\n- Feeding thousands with a few loaves and fishes (Matthew 14:13–21)\n- Calming storms (Mark 4:35–41)\n- Raising the dead (John 11:38–44)\nMiracles demonstrated that God’s kingdom was breaking into human experience, and faith in Him brought restoration and hope."
+      },
+      {
+        "type": "text",
+        "data": "<b>Use of Parables (Matthew 13; Luke 15)</b>\nJesus taught using parables—simple stories with deep spiritual truths. Parables such as the Sower, the Good Samaritan, and the Prodigal Son illustrated God’s love, forgiveness, and expectations for righteous living. Parables made spiritual lessons relatable, memorable, and applicable to daily life, teaching about mercy, justice, and faithfulness."
+      },
+      {
+        "type": "text",
+        "data": "<b>Characteristics of Jesus’ Early Ministry</b>\n- Compassion for the poor, sick, and oppressed.\n- Authority in teaching and interpreting Scripture.\n- Use of miracles to demonstrate God’s power.\n- Commitment to obedience and faith.\n- Emphasis on repentance, humility, and service."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from Jesus’ Early Life and Ministry</b>\n- God’s plan works through humble beginnings.\n- Obedience to God is foundational for leadership.\n- Faith empowers individuals to face challenges.\n- Compassion and service should guide actions.\n- Teaching and example are key methods of influence.\n- Spiritual preparation, prayer, and reliance on God are essential for effective ministry."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Messiah:</b> God’s anointed savior.\n<b>Baptism:</b> Ritual of repentance and dedication.\n<b>Disciples:</b> Followers and students of Jesus.\n<b>Parables:</b> Stories conveying spiritual truths.\n<b>Miracles:</b> Supernatural acts demonstrating God’s power.\n<b>Kingdom of God:</b> God’s rule over hearts, lives, and nations."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\nMatthew 1:18–25; Luke 2:1–20, 2:41–52; Matthew 3:13–17; Matthew 4:1–11; Luke 4:1–13; Matthew 4:18–22; Luke 5:1–11; Matthew 4:23–25; Mark 5:21–43; John 9:1–12; Matthew 13; Luke 15."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Describe the birth of Jesus and its significance.\n2. Explain the importance of Jesus’ early life in shaping His mission.\n3. Discuss the significance of His baptism.\n4. What lessons can be learned from Jesus’ temptation in the wilderness?\n5. Explain the calling of the disciples and its importance.\n6. Describe the main features of Jesus’ early ministry.\n7. How did miracles and parables reveal God’s kingdom?\n8. List five lessons from Jesus’ early life and ministry."
+      }
+    ]
+  }
+},
+
+//life teaching of christ and death
+
+{
+  "topic": "Life and Teachings of Jesus Christ (Part 2): Teachings, Death, and Resurrection",
+  "notes": {
+    "title": "Jesus Christ: Teachings, Crucifixion, Resurrection, and Lessons",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nThe teachings, crucifixion, and resurrection of Jesus Christ form the foundation of Christian faith. They provide moral guidance, demonstrate God’s love, and show the path to salvation. Understanding these events is critical for spiritual formation and practical application in life."
+      },
+      {
+        "type": "text",
+        "data": "<b>Major Teachings of Jesus Christ</b>\nJesus taught ethical, spiritual, and social principles that guide believers. His teachings emphasized love, forgiveness, humility, and justice (Matthew 5–7; Luke 6:20–49). He challenged hypocrisy, encouraged repentance, and called people to personal transformation and obedience to God’s will."
+      },
+      {
+        "type": "text",
+        "data": "<b>The Sermon on the Mount (Matthew 5–7)</b>\nThis sermon contains key ethical teachings, including:\n- Beatitudes: Blessed are the poor in spirit, meek, merciful, pure in heart, etc. (Matthew 5:3–12)\n- Love for enemies and turning the other cheek (Matthew 5:38–48)\n- Prayer, fasting, and reliance on God (Matthew 6:5–18)\n- The Golden Rule: Treat others as you would like to be treated (Matthew 7:12)\n- Warnings against hypocrisy and judging others (Matthew 7:1–6)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Parables and Their Messages</b>\nJesus used parables to communicate profound spiritual truths in relatable ways. Key examples include:\n- The Good Samaritan: Love and compassion for all, regardless of social boundaries (Luke 10:25–37)\n- The Prodigal Son: God’s forgiveness and joy over repentance (Luke 15:11–32)\n- The Sower: Different responses to God’s word (Matthew 13:1–23)\n- The Lost Sheep: God’s concern for the lost (Luke 15:1–7)\n- The Mustard Seed: Growth of God’s kingdom from small beginnings (Matthew 13:31–32)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Miracles During Ministry</b>\nJesus’ miracles were signs of God’s power and love. They included healing the sick, casting out demons, controlling nature, and raising the dead (Mark 2:1–12; John 11:38–44; Matthew 14:13–21). Miracles confirmed His divine authority, inspired faith, and demonstrated compassion for human suffering."
+      },
+      {
+        "type": "text",
+        "data": "<b>Opposition and Arrest (John 11:45–57; Matthew 26:1–16)</b>\nReligious leaders opposed Jesus because His teachings challenged their authority and exposed hypocrisy. Judas Iscariot betrayed Him for thirty pieces of silver. Jesus was arrested in Gethsemane, showing the fulfillment of prophecy and the necessity of His sacrifice."
+      },
+      {
+        "type": "text",
+        "data": "<b>Crucifixion of Jesus Christ (Matthew 27:32–56; Luke 23:26–49)</b>\nJesus was tried, condemned, and crucified at Golgotha. He bore the sins of humanity, fulfilling God’s plan of salvation. His death emphasized obedience, love, and forgiveness, as He prayed for His persecutors (Luke 23:34). The crucifixion demonstrated the ultimate act of self-sacrifice and redemption."
+      },
+      {
+        "type": "text",
+        "data": "<b>Resurrection and Ascension (Matthew 28:1–20; Acts 1:9–11)</b>\nThree days after His crucifixion, Jesus rose from the dead, defeating sin and death. The resurrection validated His divine identity and fulfilled prophecy (Psalm 16:10; Isaiah 53:10–11). He appeared to His disciples, taught them, and commissioned them to spread the gospel (Matthew 28:19–20). He later ascended to heaven, promising the Holy Spirit to empower believers."
+      },
+      {
+        "type": "text",
+        "data": "<b>Significance of Death and Resurrection</b>\n- Provides salvation and forgiveness for sins.\n- Confirms Jesus as the Son of God and Messiah.\n- Demonstrates God’s love and justice.\n- Gives hope of eternal life.\n- Empowers believers to live righteous lives and serve others."
+      },
+      {
+        "type": "text",
+        "data": "<b>Characteristics of Jesus’ Teachings</b>\n- Emphasis on love, mercy, and justice.\n- Use of relatable stories and parables.\n- Demonstration of God’s power through miracles.\n- Call to repentance, humility, and obedience.\n- Integration of spiritual and practical guidance."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from Jesus’ Teachings, Death, and Resurrection</b>\n- Love and forgiveness are central to moral life.\n- True leadership involves service and humility.\n- Obedience to God leads to blessing, even in trials.\n- Faith empowers individuals to overcome challenges.\n- Sacrifice can bring redemption and hope.\n- God’s kingdom requires both spiritual and practical action."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Crucifixion:</b> Jesus’ execution on the cross for humanity’s sins.\n<b>Resurrection:</b> Jesus rising from the dead, defeating death.\n<b>Parables:</b> Stories teaching spiritual truths.\n<b>Miracles:</b> Supernatural acts revealing God’s power.\n<b>Kingdom of God:</b> God’s rule over hearts and lives.\n<b>Salvation:</b> Deliverance from sin and eternal separation from God."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\nMatthew 5–7; Luke 6:20–49; Luke 10:25–37; Luke 15:11–32; Matthew 13; Mark 2:1–12; John 11:38–44; Matthew 14:13–21; John 11:45–57; Matthew 26:1–16; Matthew 27:32–56; Luke 23:26–49; Matthew 28:1–20; Acts 1:9–11."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Discuss the major teachings of Jesus Christ.\n2. Explain the importance of the Sermon on the Mount.\n3. How do parables teach spiritual truths? Give examples.\n4. Describe the miracles of Jesus and their significance.\n5. What led to Jesus’ arrest and crucifixion?\n6. Explain the significance of the resurrection.\n7. List five lessons from Jesus’ teachings, death, and resurrection.\n8. Define crucifixion, resurrection, parables, miracles, and salvation."
+      }
+    ]
+  }
+},
+
+
+//parables of christ
+
+{
+  "topic": "Parables of Jesus",
+  "notes": {
+    "title": "Parables of Jesus: Teachings and Lessons",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nParables are short, simple stories told by Jesus to teach spiritual and moral lessons. They use everyday life examples to explain deeper truths about the Kingdom of God, ethical behavior, and proper conduct of life. Parables are important for understanding Jesus’ teaching methods and the principles of Christian living."
+      },
+      {
+        "type": "text",
+        "data": "<b>Meaning and Purpose of Parables</b>\n- <b>Meaning:</b> A parable is a story, allegory, or analogy that conveys a moral or spiritual lesson.\n- <b>Purpose:</b> To reveal truths about God’s Kingdom, correct attitudes, promote repentance, teach ethical values, and challenge listeners to think and reflect (Matthew 13:10–17)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Features of Jesus’ Parables</b>\n- Based on everyday life and familiar situations.\n- Simple, brief, and memorable.\n- Use metaphors and symbolism.\n- Carry moral or spiritual lessons.\n- Often provoke reflection and self-examination.\n- Sometimes conceal meaning from those unwilling to understand (Matthew 13:13–15)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Major Parables and Their Lessons</b>\n1. <b>The Parable of the Sower</b> (Matthew 13:3–9)\n   - <b>Lesson:</b> Reception of God’s Word varies. Some reject it, some accept superficially, others receive it fully and bear fruit.\n2. <b>The Parable of the Good Samaritan</b> (Luke 10:25–37)\n   - <b>Lesson:</b> True love for neighbor transcends race, religion, and social boundaries.\n3. <b>The Parable of the Prodigal Son</b> (Luke 15:11–32)\n   - <b>Lesson:</b> God’s forgiveness and mercy are available to all who repent.\n4. <b>The Parable of the Talents</b> (Matthew 25:14–30)\n   - <b>Lesson:</b> Christians must use their gifts and resources responsibly for God’s glory.\n5. <b>The Parable of the Lost Sheep</b> (Luke 15:3–7)\n   - <b>Lesson:</b> God cares deeply for every individual and seeks the lost.\n6. <b>The Parable of the Rich Fool</b> (Luke 12:16–21)\n   - <b>Lesson:</b> Material wealth is temporary; spiritual wealth and readiness for God’s Kingdom are essential.\n7. <b>The Parable of the Workers in the Vineyard</b> (Matthew 20:1–16)\n   - <b>Lesson:</b> God’s grace is generous and not based on human merit.\n8. <b>The Parable of the Mustard Seed</b> (Matthew 13:31–32)\n   - <b>Lesson:</b> God’s Kingdom starts small but grows into something great and influential."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from Parables</b>\n- Emphasize love, mercy, forgiveness, and justice.\n- Promote ethical behavior and personal responsibility.\n- Encourage faith, humility, and obedience to God.\n- Teach about God’s Kingdom and His expectations.\n- Highlight consequences of sin and rewards of righteousness.\n- Challenge social norms and prejudices to promote equality."
+      },
+      {
+        "type": "text",
+        "data": "<b>Application in Christian Life</b>\n- Christians should apply the teachings of parables in daily life.\n- Use resources, talents, and opportunities wisely for God’s service.\n- Show mercy and love to all people regardless of background.\n- Seek forgiveness and forgive others.\n- Live a life of faith, ethical conduct, and readiness for God’s Kingdom."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Parable:</b> A short story with moral or spiritual lessons.\n<b>Repentance:</b> Turning away from sin and returning to God.\n<b>Kingdom of God:</b> God’s reign in the hearts of believers and the world.\n<b>Mercy:</b> Compassion and forgiveness shown to the undeserving.\n<b>Faith:</b> Trust and belief in God.\n<b>Obedience:</b> Compliance with God’s commands."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\nMatthew 13:3–9, 13:10–17, 13:31–32, 25:14–30; Luke 10:25–37, 12:16–21, 15:3–32; Mark 4:1–20"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define a parable and explain its purpose in Jesus’ ministry.\n2. Outline the key features of Jesus’ parables.\n3. Describe any four parables of Jesus and their lessons.\n4. How do the parables teach moral and spiritual lessons?\n5. Explain the relevance of parables in Christian daily life.\n6. Define and explain the terms: parable, repentance, Kingdom of God, mercy, faith, obedience.\n7. How do the parables reveal God’s character and expectations of His followers?"
+      }
+    ]
+  }
+},
+
+
+//miracles of christ
+
+{
+  "topic": "Miracles of Jesus",
+  "notes": {
+    "title": "Miracles of Jesus: Significance and Lessons",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nMiracles of Jesus are extraordinary events that demonstrate His divine power, authority, and compassion. They reveal God’s presence, confirm Jesus as the Son of God, and teach moral, spiritual, and ethical lessons. Miracles strengthened the faith of believers and drew attention to the message of God’s Kingdom."
+      },
+      {
+        "type": "text",
+        "data": "<b>Meaning and Nature of Miracles</b>\n- <b>Meaning:</b> A miracle is a supernatural act performed by God or through God’s agent that cannot be explained by natural laws.\n- <b>Nature:</b> Miracles of Jesus were signs of divine intervention, often addressing human needs, demonstrating authority over nature, sickness, and evil (John 2:11; Matthew 9:6)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Purpose of Jesus’ Miracles</b>\n- To reveal Jesus’ divinity and authority.\n- To confirm His teachings and the coming of God’s Kingdom.\n- To demonstrate God’s compassion for humanity.\n- To strengthen the faith of His followers.\n- To challenge disbelief and opposition (Mark 2:10–12; Luke 7:22)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Types of Miracles and Examples</b>\n1. <b>Healing Miracles:</b> Jesus healed the sick to show God’s mercy and power.\n   - Healing a blind man (John 9:1–7)\n   - Healing a leper (Matthew 8:2–3)\n   - Healing a paralytic (Mark 2:1–12)\n2. <b>Nature Miracles:</b> Control over natural elements to demonstrate divine authority.\n   - Calming the storm (Mark 4:35–41)\n   - Feeding the 5,000 (Matthew 14:13–21)\n   - Walking on water (Matthew 14:22–33)\n3. <b>Exorcisms:</b> Casting out evil spirits to show power over Satan.\n   - Healing a demon-possessed man (Mark 5:1–20)\n   - Healing a mute possessed man (Matthew 9:32–33)\n4. <b>Raising the Dead:</b> Demonstrating power over life and death.\n   - Raising Jairus’ daughter (Mark 5:21–43)\n   - Raising Lazarus (John 11:1–44)\n5. <b>Provision Miracles:</b> Providing physical needs to teach trust and God’s care.\n   - Feeding the 4,000 (Matthew 15:32–39)\n   - Water into wine at Cana (John 2:1–11)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from the Miracles of Jesus</b>\n- Demonstrates God’s love and compassion for humanity.\n- Strengthens faith and encourages trust in God.\n- Reveals Jesus’ authority over sickness, nature, and evil.\n- Shows that God is concerned with both spiritual and physical needs.\n- Teaches humility and dependence on God.\n- Calls for repentance and recognition of God’s power.\n- Encourages believers to help others and act with compassion."
+      },
+      {
+        "type": "text",
+        "data": "<b>Application in Christian Life</b>\n- Trust God during trials and challenges.\n- Pray for healing, guidance, and provision.\n- Show compassion to the sick, needy, and oppressed.\n- Obey God’s commands and recognize His power in everyday life.\n- Strengthen faith through reflection on Jesus’ miracles.\n- Witness to others about God’s power and love."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Miracle:</b> Supernatural act demonstrating divine power.\n<b>Faith:</b> Complete trust and confidence in God.\n<b>Compassion:</b> Deep sympathy leading to action to help others.\n<b>Divine Authority:</b> God-given power over nature, sickness, and evil.\n<b>Exorcism:</b> Casting out evil spirits.\n<b>Provision:</b> God’s supply for human needs."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\nMatthew 8:2–3, 9:6, 14:13–21, 15:32–39; Mark 2:1–12, 4:35–41, 5:1–20; Luke 7:22, 8:22–25; John 2:1–11, 9:1–7, 11:1–44"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define a miracle and explain its purpose in Jesus’ ministry.\n2. Outline the types of miracles performed by Jesus with examples.\n3. Discuss the lessons Christians learn from Jesus’ miracles.\n4. How do miracles demonstrate Jesus’ authority and divine nature?\n5. Explain how the miracles of Jesus strengthen faith.\n6. Define and explain the terms: miracle, faith, compassion, divine authority, exorcism, provision.\n7. How can Christians apply the lessons from Jesus’ miracles in daily life?"
+      }
+    ]
+  }
+},
+
+
+//discipleship 
+
+{
+  "topic": "Discipleship",
+  "notes": {
+    "title": "Discipleship: Following Jesus and Living His Teachings",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nDiscipleship is the process of following Jesus Christ, learning from His teachings, and imitating His life in daily conduct. It involves commitment, obedience, spiritual growth, and active participation in spreading God’s Kingdom. Discipleship is essential for personal salvation and building a strong Christian community."
+      },
+      {
+        "type": "text",
+        "data": "<b>Meaning and Nature of Discipleship</b>\n- <b>Meaning:</b> A disciple is a learner or follower of a teacher. In Christianity, it refers to someone who follows Jesus, observes His teachings, and applies them in life.\n- <b>Nature:</b> Discipleship involves learning, practicing moral and spiritual values, bearing witness, and serving others (Matthew 28:19–20; Luke 9:23)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Call to Discipleship</b>\n- Jesus called individuals to follow Him personally, regardless of social status or background (Matthew 4:18–22).\n- Discipleship requires:\n  - Denying self (Luke 9:23)\n  - Taking up the cross daily (Matthew 16:24)\n  - Obedience to God’s will\n  - Commitment to spiritual growth and moral living"
+      },
+      {
+        "type": "text",
+        "data": "<b>Characteristics of a True Disciple</b>\n- Faith and trust in God\n- Humility and servant-heartedness\n- Love for God and neighbor\n- Obedience to Jesus’ teachings\n- Willingness to suffer or sacrifice for righteousness\n- Evangelism and spreading the Gospel\n- Perseverance in prayer and spiritual discipline"
+      },
+      {
+        "type": "text",
+        "data": "<b>Responsibilities of Disciples</b>\n1. <b>Learning and Applying God’s Word:</b> Study the Bible and live according to its principles.\n2. <b>Prayer and Worship:</b> Maintain close fellowship with God through prayer and worship.\n3. <b>Evangelism:</b> Share the Good News and bring others to Christ.\n4. <b>Service:</b> Help the needy, heal the sick, and act with compassion.\n5. <b>Faithful Stewardship:</b> Use talents, gifts, and resources for God’s glory.\n6. <b>Unity and Fellowship:</b> Build harmonious relationships within the Christian community."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from Discipleship</b>\n- True discipleship requires total commitment to God.\n- Christians are called to be examples of love, humility, and obedience.\n- Discipleship involves sacrifice, patience, and perseverance.\n- Following Jesus transforms personal character and society.\n- Discipleship emphasizes service, responsibility, and moral integrity.\n- Spiritual growth requires continuous learning, prayer, and reflection."
+      },
+      {
+        "type": "text",
+        "data": "<b>Application in Christian Life</b>\n- Follow Christ’s teachings in daily decisions and actions.\n- Serve others selflessly and show compassion.\n- Engage in regular prayer, worship, and Bible study.\n- Evangelize and mentor others in faith.\n- Demonstrate humility, honesty, and integrity in all areas of life.\n- Persevere through challenges, relying on God’s guidance."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Discipleship:</b> Following Jesus and living according to His teachings.\n<b>Faith:</b> Trust and confidence in God’s promises.\n<b>Obedience:</b> Following God’s commands.\n<b>Evangelism:</b> Sharing the Good News with others.\n<b>Service:</b> Helping and caring for others.\n<b>Stewardship:</b> Responsible use of resources and talents for God’s glory."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\nMatthew 4:18–22; 9:9; 16:24; 28:19–20; Luke 9:23; John 8:31–32; Acts 2:42–47"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define discipleship and explain its importance in Christianity.\n2. Outline the characteristics of a true disciple.\n3. Discuss the responsibilities of a Christian disciple.\n4. Explain the lessons Christians can learn from discipleship.\n5. How can discipleship be applied in everyday life?\n6. Define and explain the terms: discipleship, faith, obedience, evangelism, service, stewardship.\n7. Why is commitment necessary for effective discipleship?"
+      }
+    ]
+  }
+},
+
+
+//early churches
+
+{
+  "topic": "Early Church and Apostolic Missions",
+  "notes": {
+    "title": "The Early Church: Growth, Mission, and Key Apostolic Teachings",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nThe early church was established after the ascension of Jesus Christ. It represents the spread of the gospel through the apostles, the growth of Christian communities, and the establishment of church practices and teachings. Understanding the early church is vital for appreciating Christian history and principles of mission and discipleship."
+      },
+      {
+        "type": "text",
+        "data": "<b>Pentecost and the Coming of the Holy Spirit (Acts 2:1–41)</b>\nOn the day of Pentecost, the Holy Spirit descended on the apostles, empowering them to preach boldly and perform miracles. They spoke in different tongues, enabling people from various nations to understand the gospel. Peter delivered a powerful sermon, calling people to repentance, and about 3,000 were baptized that day. This event marked the birth of the Christian church."
+      },
+      {
+        "type": "text",
+        "data": "<b>Characteristics of the Early Church (Acts 2:42–47)</b>\nThe early believers exhibited:\n- Devotion to the apostles’ teaching.\n- Fellowship and communal living.\n- Prayer and worship.\n- Sharing of possessions and care for the needy.\n- Growth in numbers as God added new believers daily."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Apostles and Their Missions</b>\n- <b>Peter:</b> Preached in Jerusalem and to Jews, performed miracles, and helped establish church leadership (Acts 3–5; 10:34–48).\n- <b>Paul (Saul of Tarsus):</b> Missionary to the Gentiles, traveled extensively, planted churches, and wrote epistles explaining Christian faith (Acts 9–28; Romans–Philemon).\n- <b>John:</b> Focused on spiritual teachings, love, and endurance, wrote letters and Revelation (John 1–21; 1–3 John; Revelation 1–22).\n- <b>Barnabas:</b> Companion of Paul, encouraged believers, and supported missionary work (Acts 4:36–37; 13:1–14:28)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Growth and Expansion of the Church</b>\nThe church grew through preaching, miracles, and the guidance of the Holy Spirit. Early Christians faced persecution but remained steadfast, spreading the gospel across Judea, Samaria, and beyond (Acts 8–12). The inclusion of Gentiles was a significant milestone, showing that the message of Jesus was for all nations (Acts 10–11)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Persecution and Challenges</b>\nThe early church faced opposition from Jewish leaders and Roman authorities. Stephen, the first Christian martyr, was stoned for his faith (Acts 7). Peter and Paul were imprisoned and threatened, but their courage and reliance on God encouraged believers to remain faithful. Persecution helped strengthen the church and spread Christianity to new regions."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Teachings of the Apostles</b>\n- Salvation through faith in Jesus Christ (Acts 4:12).\n- Baptism as initiation into the church (Acts 2:38).\n- Love, forgiveness, and fellowship as essential practices (1 John 4:7–12; Acts 2:44–47).\n- Endurance in trials and persecution (2 Timothy 3:12).\n- The role of the Holy Spirit in guiding, empowering, and sustaining believers (Acts 1:8; John 14:26)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from the Early Church and Apostolic Missions</b>\n- Faith and courage can overcome opposition.\n- Unity and fellowship strengthen the community.\n- Spiritual guidance from God is essential for mission.\n- Commitment to teaching, prayer, and service ensures growth.\n- God’s message is universal, inclusive of all nations.\n- Perseverance in the face of challenges leads to spiritual maturity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Pentecost:</b> The coming of the Holy Spirit upon the apostles.\n<b>Missionary:</b> One who spreads the gospel.\n<b>Persecution:</b> Oppression or harm for religious belief.\n<b>Baptism:</b> Ritual of initiation and repentance.\n<b>Fellowship:</b> Community life and mutual support among believers.\n<b>Holy Spirit:</b> God’s presence guiding and empowering the church."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\nActs 1:1–11; Acts 2:1–47; Acts 3–12; Acts 13–28; 1 John 4:7–12; 2 Timothy 3:12; John 14:26."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Explain the significance of Pentecost.\n2. Describe the characteristics of the early church.\n3. Discuss the missionary work of Peter and Paul.\n4. How did the early church grow despite persecution?\n5. State five key teachings of the apostles.\n6. Mention five lessons from the early church.\n7. Define Pentecost, missionary, persecution, baptism, fellowship, and Holy Spirit.\n8. How was the inclusion of Gentiles significant for the early church?"
+      }
+    ]
+  }
+},
+
+//paul and his teachings
+
+{
+  "topic": "Paul and His Teachings",
+  "notes": {
+    "title": "Paul and His Teachings: Missionary Work and Christian Doctrine",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nPaul, formerly known as Saul of Tarsus, was a key figure in the early Christian church. His missionary journeys, letters, and teachings greatly shaped Christian doctrine and practice. Paul’s life demonstrates the power of God’s grace and the importance of spreading the Gospel to all nations."
+      },
+      {
+        "type": "text",
+        "data": "<b>Conversion of Saul to Paul</b>\n- Saul was a persecutor of Christians (Acts 8:1–3).\n- On the road to Damascus, he encountered the risen Jesus and was blinded (Acts 9:1–9).\n- God restored his sight, and Saul became Paul, a devoted follower of Christ.\n- <b>Lesson:</b> God’s grace can transform anyone; repentance leads to new life (Acts 9:17–18)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Missionary Journeys of Paul</b>\n1. <b>First Journey:</b> Cyprus and Asia Minor (Acts 13–14)\n   - Preached to Jews and Gentiles.\n   - Established churches.\n2. <b>Second Journey:</b> Macedonia and Greece (Acts 15:36–18:22)\n   - Strengthened existing churches.\n   - Spread the Gospel to Europe.\n3. <b>Third Journey:</b> Ephesus, Macedonia, and Greece (Acts 18:23–21:17)\n   - Deepened teaching.\n   - Trained leaders.\n4. <b>Final Journey to Rome:</b> Preached while imprisoned (Acts 27–28)\n   - Demonstrated perseverance and faith despite hardship."
+      },
+      {
+        "type": "text",
+        "data": "<b>Teachings of Paul</b>\n1. <b>Justification by Faith:</b> Salvation comes through faith in Jesus, not by works (Romans 3:28).\n2. <b>Grace:</b> God’s unmerited favor brings salvation (Ephesians 2:8–9).\n3. <b>Unity in Christ:</b> All believers, Jews and Gentiles, are one in Christ (Galatians 3:28).\n4. <b>Love:</b> Christians must live in love, patience, and kindness (1 Corinthians 13).\n5. <b>Christian Conduct:</b> Moral living, honesty, humility, and service (Romans 12:1–2).\n6. <b>Spiritual Gifts:</b> Use talents and gifts for the common good (1 Corinthians 12:4–11).\n7. <b>Hope of Resurrection:</b> Believers will be raised and live eternally with God (1 Corinthians 15).\n8. <b>Perseverance:</b> Christians should endure trials faithfully (2 Timothy 4:7)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from Paul’s Life and Teachings</b>\n- God’s grace transforms lives, no matter past sins.\n- Faith, love, and obedience are central to Christian living.\n- Perseverance in the face of persecution strengthens faith.\n- Evangelism and teaching are essential responsibilities of believers.\n- Unity among Christians promotes strength and growth of the church.\n- Moral living and service reflect God’s Kingdom on earth."
+      },
+      {
+        "type": "text",
+        "data": "<b>Application in Christian Life</b>\n- Live by faith and trust in God’s grace.\n- Demonstrate love, humility, and moral integrity.\n- Share the Gospel and mentor others in faith.\n- Use spiritual gifts and resources to serve the community.\n- Persevere through challenges, trusting God’s plan.\n- Promote unity and reconciliation within the Christian community."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Conversion:</b> Turning from sin to follow God.\n<b>Justification:</b> Being made right with God through faith.\n<b>Grace:</b> God’s unmerited favor.\n<b>Faith:</b> Trust and confidence in God.\n<b>Evangelism:</b> Sharing the message of Jesus.\n<b>Spiritual Gifts:</b> Talents given by God for service.\n<b>Perseverance:</b> Continued faithfulness under trial."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\nActs 9:1–18; 13:1–14:28; 15:36–18:22; Romans 3:28; Ephesians 2:8–9; Galatians 3:28; 1 Corinthians 12:4–11, 15:1–58; 1 Corinthians 13; Romans 12:1–2; 2 Timothy 4:7"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Describe the conversion of Saul and its significance.\n2. Outline the missionary journeys of Paul and their impact.\n3. Discuss the key teachings of Paul.\n4. What lessons can Christians learn from Paul’s life and teachings?\n5. How can Paul’s teachings be applied in daily Christian life?\n6. Define and explain the terms: conversion, justification, grace, faith, evangelism, spiritual gifts, perseverance.\n7. Why is Paul considered a key figure in the spread of Christianity?"
+      }
+    ]
+  }
+},
+
+
+//christain values 
+
+{
+  "topic": "Key Christian Values and Practices",
+  "notes": {
+    "title": "Christian Values and Practices: Living Faithfully",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nChristian values and practices are essential principles and actions that guide believers in living according to God’s will. They shape moral behavior, social interaction, and spiritual growth. Understanding these values helps believers cultivate a life of obedience, service, and righteousness."
+      },
+      {
+        "type": "text",
+        "data": "<b>Prayer (Matthew 6:5–15; Philippians 4:6–7)</b>\nPrayer is communication with God through praise, thanksgiving, confession, and supplication. Jesus taught the Lord’s Prayer as a model, emphasizing humility, forgiveness, and reliance on God. Prayer strengthens faith, provides guidance, and brings peace in times of difficulty."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worship (John 4:23–24; Psalm 95:6–7)</b>\nWorship involves honoring God through songs, praise, prayers, and service. True worship is spiritual, heartfelt, and aligned with God’s truth. Worship nurtures a relationship with God, expresses gratitude, and fosters community among believers."
+      },
+      {
+        "type": "text",
+        "data": "<b>Bible Reading and Study (2 Timothy 3:16–17; Joshua 1:8)</b>\nRegular reading and study of the Bible equips believers with wisdom, guidance, and moral discernment. Scripture provides instructions for righteous living, teaches about God’s character, and strengthens faith in daily challenges."
+      },
+      {
+        "type": "text",
+        "data": "<b>Obedience and Moral Conduct (Romans 12:1–2; Ephesians 4:25–32)</b>\nChristian ethics emphasize honesty, integrity, humility, love, forgiveness, and respect for others. Obedience to God includes following His commandments, practicing good citizenship, and avoiding sin. Moral conduct demonstrates the authenticity of one’s faith."
+      },
+      {
+        "type": "text",
+        "data": "<b>Fellowship and Community Service (Acts 2:42–47; Galatians 6:9–10)</b>\nBelievers are called to support, encourage, and serve one another. Fellowship includes sharing possessions, helping the needy, and participating in communal worship. Community service reflects Christ’s love and promotes social harmony."
+      },
+      {
+        "type": "text",
+        "data": "<b>Love and Forgiveness (1 Corinthians 13; Colossians 3:12–14)</b>\nLove is central to Christian values. Believers are encouraged to love God, neighbors, and even enemies. Forgiveness restores relationships and demonstrates God’s grace. Practicing love and forgiveness fosters peace, reconciliation, and spiritual maturity."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evangelism and Discipleship (Matthew 28:19–20; Acts 1:8)</b>\nChristians are called to share the gospel, make disciples, and mentor others in faith. Evangelism spreads the message of salvation, while discipleship nurtures spiritual growth, accountability, and obedience to God’s teachings."
+      },
+      {
+        "type": "text",
+        "data": "<b>Stewardship and Responsibility (1 Peter 4:10; Luke 16:10–12)</b>\nChristians are stewards of God’s resources, talents, and time. Responsible stewardship involves using gifts for service, caring for the environment, supporting the needy, and living faithfully in all areas of life."
+      },
+      {
+        "type": "text",
+        "data": "<b>Significance of Christian Values and Practices</b>\n- Strengthen personal relationship with God.\n- Promote moral and ethical living.\n- Foster peace, love, and unity in society.\n- Equip believers to serve and lead effectively.\n- Guide decisions, behavior, and interactions with others.\n- Prepare believers for eternal life and spiritual growth."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from Christian Values and Practices</b>\n- Prayer and worship nurture spiritual life.\n- Obedience and ethical conduct demonstrate authentic faith.\n- Love and forgiveness build harmonious relationships.\n- Fellowship and service strengthen the church community.\n- Evangelism and discipleship ensure continuity of the faith.\n- Stewardship reflects responsibility and accountability before God."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Prayer:</b> Communication with God.\n<b>Worship:</b> Honor and reverence to God.\n<b>Fellowship:</b> Community life and mutual support.\n<b>Evangelism:</b> Sharing the gospel.\n<b>Discipleship:</b> Training and mentoring in faith.\n<b>Stewardship:</b> Responsible management of God’s gifts.\n<b>Forgiveness:</b> Letting go of resentment and showing grace."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\nMatthew 6:5–15; John 4:23–24; 2 Timothy 3:16–17; Romans 12:1–2; Acts 2:42–47; 1 Corinthians 13; Colossians 3:12–14; Matthew 28:19–20; 1 Peter 4:10; Luke 16:10–12."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Explain the importance of prayer and worship in a Christian’s life.\n2. How does Bible study guide moral living?\n3. Discuss the role of obedience and ethical conduct.\n4. What is the significance of fellowship and community service?\n5. Explain the importance of love and forgiveness.\n6. Describe evangelism and discipleship.\n7. What does stewardship involve?\n8. List five lessons from Christian values and practices.\n9. Define prayer, worship, fellowship, evangelism, discipleship, stewardship, and forgiveness."
+      }
+    ]
+  }
+},
+
+//christain ethics
+
+{
+  "topic": "Christian Ethics and Social Issues",
+  "notes": {
+    "title": "Christian Ethics and Social Issues: Principles for Moral Living",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Introduction</b>\nChristian ethics refers to the moral principles and values that guide the conduct of believers. Social issues are challenges affecting individuals and communities, such as poverty, corruption, inequality, and injustice. Understanding Christian ethics equips believers to make moral decisions and contribute positively to society."
+      },
+      {
+        "type": "text",
+        "data": "<b>Meaning and Importance of Christian Ethics</b>\n- <b>Meaning:</b> The study and practice of right conduct based on the teachings of Jesus and the Bible.\n- <b>Importance:</b> Guides moral behavior, promotes justice, love, and honesty, and ensures harmonious relationships within the family, community, and society (Romans 12:9–21)."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Principles of Christian Ethics</b>\n1. <b>Love:</b> Christians are called to love God and neighbor (Matthew 22:36–40).\n2. <b>Honesty:</b> Truthfulness in all aspects of life (Proverbs 12:22).\n3. <b>Justice:</b> Fairness, equality, and protection of the vulnerable (Micah 6:8).\n4. <b>Forgiveness:</b> Letting go of resentment and reconciling (Matthew 6:14–15).\n5. <b>Humility:</b> Serving others without pride (Philippians 2:3–4).\n6. <b>Compassion:</b> Caring for the poor, sick, and needy (Matthew 25:34–40).\n7. <b>Obedience to God:</b> Following divine commandments as a guide for moral conduct."
+      },
+      {
+        "type": "text",
+        "data": "<b>Christian Response to Social Issues</b>\n1. <b>Marriage and Family Life:</b>\n   - Uphold Christian marriage principles (Genesis 2:24; Ephesians 5:22–33).\n   - Promote strong family relationships, respect, and responsibilities.\n2. <b>Sexual Morality:</b>\n   - Avoid adultery, fornication, and immorality (1 Corinthians 6:18–20).\n   - Promote chastity, fidelity, and respect.\n3. <b>Wealth and Poverty:</b>\n   - Use wealth responsibly, share with the needy (Acts 2:44–45).\n   - Avoid greed and exploitation.\n4. <b>Leadership and Obedience:</b>\n   - Leaders should be just, accountable, and servant-hearted (Romans 13:1–7).\n   - Citizens should respect lawful authority.\n5. <b>Social Justice and Equality:</b>\n   - Fight corruption, oppression, and discrimination.\n   - Promote fairness and equal opportunities for all.\n6. <b>Peace and Conflict Resolution:</b>\n   - Promote reconciliation, forgiveness, and peaceful coexistence (Matthew 5:9).\n   - Resolve disputes through dialogue and understanding."
+      },
+      {
+        "type": "text",
+        "data": "<b>Lessons from Christian Ethics</b>\n- Moral living is central to Christian faith.\n- Love, honesty, justice, and humility guide personal and communal conduct.\n- Believers have a responsibility to care for the vulnerable and fight injustice.\n- Ethical decisions promote harmony, peace, and societal progress.\n- Christian ethics prepares individuals for service, leadership, and responsible citizenship."
+      },
+      {
+        "type": "text",
+        "data": "<b>Application in Christian Life</b>\n- Practice honesty, integrity, and fairness in all activities.\n- Show compassion and help the needy in your community.\n- Uphold moral standards in marriage, family, and society.\n- Serve as a role model and advocate for justice and equality.\n- Promote peace, forgiveness, and reconciliation in conflicts.\n- Be accountable for personal actions and decisions."
+      },
+      {
+        "type": "text",
+        "data": "<b>Key Terms</b>\n<b>Christian Ethics:</b> Moral principles guiding Christian conduct.\n<b>Social Issues:</b> Challenges affecting individuals or communities.\n<b>Justice:</b> Fairness and protection of the vulnerable.\n<b>Compassion:</b> Sympathy leading to helping others.\n<b>Forgiveness:</b> Letting go of resentment.\n<b>Obedience:</b> Following God’s commandments.\n<b>Peace:</b> Harmony and absence of conflict."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scriptural References</b>\nMatthew 5:9; 6:14–15; 22:36–40; Philippians 2:3–4; Ephesians 5:22–33; Romans 12:9–21; Acts 2:44–45; Micah 6:8; 1 Corinthians 6:18–20; Romans 13:1–7; Matthew 25:34–40"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions</b>\n1. Define Christian ethics and explain its importance in personal and societal life.\n2. Discuss the key principles of Christian ethics with examples.\n3. Explain how Christians should respond to social issues such as poverty, injustice, and corruption.\n4. How do Christian ethics guide family life and sexual morality?\n5. Describe how peace and conflict resolution can be achieved according to Christian ethics.\n6. Define and explain the terms: Christian ethics, social issues, justice, compassion, forgiveness, obedience, peace.\n7. How can a Christian apply ethical principles in daily life and community service?"
+      }
+    ]
+  }
+}
+
+
 ],
 
 "Economics": []

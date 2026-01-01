@@ -1,133 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aplus Tutors | Login</title>
-  <link rel="stylesheet" href="student-login.css">
-  <style>
-    .password-container {
-      position: relative;
-    }
-    .toggle-password {
-      position: absolute;
-      right: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-      background: none;
-      border: none;
-      cursor: pointer;
-      font-size: 1em;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aplus Tutors | Login</title>
+<link rel="stylesheet" href="student-login.css">
+<style>
+  .password-container { position: relative; }
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  #email, #department, #role, .password-container input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  #errorMessage { color: red; margin-top: 10px; }
 
-    #fullName,
-    #department,
-    .password-container input {
-      width: 100%;
-      box-sizing: border-box;
-      padding: 10px;
-      font-size: 1em;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      margin-bottom: 10px;
-    }
-  </style>
+  /* Loading animation */
+  #loading {
+    text-align: center;
+    margin: 20px 0;
+    display: none; /* Hidden by default */
+  }
+  #loading span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background: #8B0000;
+    border-radius: 50%;
+    animation: bounce 0.6s infinite alternate;
+  }
+  #loading span:nth-child(2) { animation-delay: 0.2s; }
+  #loading span:nth-child(3) { animation-delay: 0.4s; }
+  @keyframes bounce { to { transform: translateY(-10px); } }
+</style>
 </head>
 <body class="login-body">
-  <div class="login-container">
-    <h1 class="title">Welcome to <span>Aplus Tutors</span></h1>
-    <p class="subtitle">Empowering learners through technology</p>
+<div class="login-container">
+  <h1 class="title">Welcome to <span>Aplus Tutors</span></h1>
+  <p class="subtitle">Empowering learners through technology</p>
 
-    <form id="loginForm">
-      <input type="text" id="fullName" placeholder="Full Name" required>
+  <form id="loginForm">
+    <input type="email" id="email" placeholder="Email" required>
 
-      <!-- Department Selector -->
-      <select id="department" required>
-        <option value="">Select Department</option>
-        <option value="Science">Science</option>
-        <option value="Art">Art</option>
-        <option value="Commercial">Commercial</option>
-      </select>
+    <select id="role" required>
+      <option value="">Select Role</option>
+      <option value="Admin">Admin</option>
+      <option value="Teacher">Teacher</option>
+      <option value="Student">Student</option>
+    </select>
 
-      <div class="password-container">
-        <input type="password" id="password" placeholder="Password" required>
-        <button type="button" class="toggle-password" title="Show/Hide Password">👁️</button>
-      </div>
+    <select id="department">
+      <option value="">Select Department</option>
+      <option value="Science">Science</option>
+      <option value="Art">Art</option>
+      <option value="Commercial">Commercial</option>
+    </select>
 
-      <button type="submit" class="btn">Login</button>
-    </form>
+    <div class="password-container">
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="button" class="toggle-password" title="Show/Hide Password">👁️</button>
+    </div>
 
-    <p id="errorMessage"></p>
+    <button type="submit" class="btn">Login</button>
+  </form>
+
+  <!-- Loading indicator -->
+  <div id="loading">
+    <span></span><span></span><span></span>
   </div>
 
-  <script src="data.js"></script>
-  <script>
-    // Show/Hide Password
-    const togglePasswordBtn = document.querySelector('.toggle-password');
-    const passwordInput = document.getElementById('password');
+  <p id="errorMessage"></p>
+</div>
 
-    togglePasswordBtn.addEventListener('click', () => {
-      if (passwordInput.type === "password") {
-        passwordInput.type = "text";
-        togglePasswordBtn.textContent = "🙈";
-      } else {
-        passwordInput.type = "password";
-        togglePasswordBtn.textContent = "👁️";
-      }
-    });
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
+import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-auth.js";
+import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js";
 
-    // Auto-login if already logged in
-    window.onload = () => {
-      const user = JSON.parse(localStorage.getItem("loggedInUser"));
-      if (user) {
-        window.location.href = "dashboard.html";
-      }
+// Firebase config
+const firebaseConfig = {
+  apiKey: "AIzaSyBSr__wqMxY_IL7LXsO9P1LpJDiDAQNsmE",
+  authDomain: "aplus-tutors-765bf.firebaseapp.com",
+  projectId: "aplus-tutors-765bf",
+  storageBucket: "aplus-tutors-765bf.app",
+  messagingSenderId: "387214060287",
+  appId: "1:387214060287:web:d6213f9c2624f029c0baca",
+  measurementId: "G-41V5ZZDH1V"
+};
 
-      // Prefill department if stored previously
-      const savedDept = localStorage.getItem("userDepartment");
-      if (savedDept) {
-        document.getElementById("department").value = savedDept;
-      }
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
+
+// Allowed admin emails
+const allowedAdmins = ["olaboredejames2021@gmail.com"]; // replace with your actual admin emails
+
+// Toggle password visibility
+const togglePasswordBtn = document.querySelector('.toggle-password');
+const passwordInput = document.getElementById('password');
+togglePasswordBtn.addEventListener('click', () => {
+  if (passwordInput.type === "password") {
+    passwordInput.type = "text";
+    togglePasswordBtn.textContent = "🙈";
+  } else {
+    passwordInput.type = "password";
+    togglePasswordBtn.textContent = "👁️";
+  }
+});
+
+// Auto-fill department if saved
+window.onload = () => {
+  const user = JSON.parse(localStorage.getItem("loggedInUser"));
+  if (user) {
+    if (user.role === "Admin") window.location.href = "admin.html";
+    else window.location.href = "dashboard.html";
+  }
+  const savedDept = localStorage.getItem("userDepartment");
+  if (savedDept) document.getElementById("department").value = savedDept;
+};
+
+// Handle login
+const form = document.getElementById("loginForm");
+const loadingEl = document.getElementById("loading");
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const error = document.getElementById("errorMessage");
+  error.textContent = "";
+
+  // Show loading
+  loadingEl.style.display = "block";
+
+  const email = document.getElementById("email").value.trim();
+  const password = document.getElementById("password").value.trim();
+  const department = document.getElementById("department").value;
+  const role = document.getElementById("role").value;
+
+  // Check if Admin role is allowed
+  if (role === "Admin" && !allowedAdmins.includes(email)) {
+    error.textContent = "⚠️ You are not authorized to log in as Admin.";
+    loadingEl.style.display = "none";
+    return;
+  }
+
+  // Validation: department required only for non-admin
+  if (role !== "Admin" && !department) {
+    error.textContent = "Please select a department.";
+    loadingEl.style.display = "none";
+    return;
+  }
+
+  try {
+    const userCredential = await signInWithEmailAndPassword(auth, email, password);
+    const user = userCredential.user;
+
+    const loggedUser = {
+      email: user.email,
+      uid: user.uid,
+      role,
+      department: role === "Admin" ? "N/A" : department
     };
+    localStorage.setItem("loggedInUser", JSON.stringify(loggedUser));
+    if (role !== "Admin") localStorage.setItem("userDepartment", department);
 
-    // Handle login
-    const form = document.getElementById("loginForm");
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-
-      const fullName = document.getElementById("fullName").value.trim();
-      const password = document.getElementById("password").value.trim();
-      const department = document.getElementById("department").value;
-      const error = document.getElementById("errorMessage");
-
-      const user = registeredUsers.find(
-        u => u.fullName.toLowerCase() === fullName.toLowerCase() && u.password === password
-      );
-
-      if (user) {
-
-        // Save chosen department separately
-        localStorage.setItem("userDepartment", department);
-
-        // Attach department to logged-in user
-        const updatedUser = { ...user, department };
-        localStorage.setItem("loggedInUser", JSON.stringify(updatedUser));
-
-        window.location.href = "dashboard.html";
-
-      } else {
-        error.textContent = "Invalid credentials or unregistered user.";
-      }
+    // Track login event
+    await addDoc(collection(db, "events"), {
+      user: loggedUser.email,
+      department: loggedUser.department,
+      role,
+      event: "login_success",
+      timestamp: serverTimestamp()
     });
 
-    function logout() {
-      localStorage.removeItem("loggedInUser");
-      window.location.href = "index.html";
-    }
+    // Redirect
+    if (role === "Admin") window.location.href = "admin.html";
+    else window.location.href = "dashboard.html";
 
-    function goTo(page) {
-      window.location.href = page;
-    }
-  </script>
+  } catch (err) {
+    console.error(err);
+    error.textContent = "Invalid email or password.";
+
+    await addDoc(collection(db, "events"), {
+      user: email,
+      department: role === "Admin" ? "N/A" : department,
+      role,
+      event: "login_failure",
+      timestamp: serverTimestamp()
+    });
+  } finally {
+    // Hide loading
+    loadingEl.style.display = "none";
+  }
+});
+</script>
 </body>
 </html>

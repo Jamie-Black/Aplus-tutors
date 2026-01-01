@@ -11,7 +11,7 @@
 </head>
 <body>
   <header class="header">
-    <h1 id="greeting" class="greeting"></h1>
+    <h1 class="greeting">My Subject Quizzes</h1>
   </header>
 
   <main class="quiz-container">
@@ -53,195 +53,203 @@
 
   <footer>
     <div>
-        <a style="width: fit-content; margin-bottom:20px;" class="primary-button" href="dashboard.html">Back to Dashboard</a>
-     </div>
+      <a style="width: fit-content; margin-bottom:20px;" class="primary-button" href="dashboard.html">Back to Dashboard</a>
+    </div>
     <p>&copy; 2021 Aplus Tutors</p>
   </footer>
 
+  <!-- Include Firebase and quiz data -->
+  <script src="firebase-init.js"></script>
   <script src="quizdata.js"></script>
 
-<script>
-// --- Department to Subjects Mapping ---
+  <!-- Main Quiz Script -->
+  <script>
+    // --- Get logged-in user ---
+    const loggedUser = JSON.parse(localStorage.getItem("loggedInUser"));
+    if (!loggedUser) {
+      alert("Please log in to access quizzes.");
+      window.location.href = "index.html";
+    }
 
-// --- Get logged-in user ---
-const loggedUser = JSON.parse(localStorage.getItem("loggedInUser"));
-if (!loggedUser) {
-  alert("Please log in to access quizzes.");
-  window.location.href = "index.html";
-}
+    // --- Quiz State ---
+    const studentInfo = {
+      name: loggedUser.fullName,
+      email: loggedUser.email,
+      department: loggedUser.department,
+      subject: "",
+      topic: ""
+    };
 
-// --- Greeting ---
-const hours = new Date().getHours();
-let greetingText = hours < 12 ? "Good morning" : hours < 18 ? "Good afternoon" : "Good evening";
-document.getElementById("greeting").textContent = `${greetingText}, ${loggedUser.fullName}!`;
+    let activeQuestions = [];
+    let userAnswers = [];
+    let score = 0;
 
-// --- Student Info & Quiz State ---
-let studentInfo = {
-  name: loggedUser.fullName,
-  email: loggedUser.email,
-  subject: "",
-  topic: ""
-};
+    const topicScreen = document.getElementById('topic-screen');
+    const quizScreen = document.getElementById('quiz-screen');
+    const resultScreen = document.getElementById('result-screen');
+    const topicList = document.getElementById('topic-list');
+    const questionsArea = document.getElementById('questions-area');
+    const submitButton = document.getElementById('submit-quiz');
 
-let activeQuestions = [];
-let score = 0;
-let userAnswers = [];
+    // --- Filter subjects by department ---
+    const allowedSubjects = departmentSubjects[loggedUser.department] || [];
 
-const topicScreen = document.getElementById('topic-screen');
-const quizScreen = document.getElementById('quiz-screen');
-const resultScreen = document.getElementById('result-screen');
-const topicList = document.getElementById('topic-list');
-const questionsArea = document.getElementById('questions-area');
-const submitButton = document.getElementById('submit-quiz');
+    window.onload = () => {
+      if (!window.quizData) {
+        topicList.innerHTML = "<p style='color:red;'>Error: quizData is missing. Check quizdata.js.</p>";
+        return;
+      }
+      loadTopics();
+      submitButton.addEventListener('click', handleSubmitQuiz);
+    };
 
-// --- Filter subjects by department ---
-const allowedSubjects = departmentSubjects[loggedUser.department] || [];
+    function loadTopics() {
+      topicList.innerHTML = '';
+      const quizResults = JSON.parse(localStorage.getItem('quizResults')) || [];
 
-// ✅ Load topics after page load
-window.onload = () => {
-  if (typeof quizData === 'undefined') {
-    console.error("❌ quizData is missing. Ensure quizdata.js is loaded.");
-    topicList.innerHTML = "<p style='color:red;'>Error loading quizzes. Check quizdata.js file.</p>";
-    return;
-  }
-  loadTopics();
-  submitButton.addEventListener('click', handleSubmitQuiz);
-};
+      for (const subject in quizData) {
+        if (!allowedSubjects.includes(subject)) continue;
 
-// --- Load Topics Function ---
-function loadTopics() {
-  topicList.innerHTML = '';
-  const quizResults = JSON.parse(localStorage.getItem('quizResults')) || [];
+        const subjectDiv = document.createElement('div');
+        subjectDiv.classList.add('subject-section');
 
-  for (const subject in quizData) {
-    if (!allowedSubjects.includes(subject)) continue; // Only allowed subjects
+        const subjectHeader = document.createElement('div');
+        subjectHeader.classList.add('subject-header');
+        subjectHeader.innerHTML = `<h3>${subject}</h3><span class="toggle-icon">+</span>`;
+        subjectDiv.appendChild(subjectHeader);
 
-    const subjectDiv = document.createElement('div');
-    subjectDiv.classList.add('subject-section');
+        const topicsContainer = document.createElement('div');
+        topicsContainer.classList.add('topics-container');
+        topicsContainer.style.display = 'none';
 
-    const subjectHeader = document.createElement('div');
-    subjectHeader.classList.add('subject-header');
-    subjectHeader.innerHTML = `<h3>${subject}</h3><span class="toggle-icon">+</span>`;
-    subjectDiv.appendChild(subjectHeader);
+        quizData[subject].forEach(topicObj => {
+          const topicCard = document.createElement('div');
+          topicCard.classList.add('topic-card');
 
-    const topicsContainer = document.createElement('div');
-    topicsContainer.classList.add('topics-container');
-    topicsContainer.style.display = 'none';
+          const resultsForTopic = quizResults.filter(
+            r => r.name === studentInfo.name &&
+                 r.subject === subject &&
+                 r.topic === topicObj.topic
+          );
 
-    quizData[subject].forEach(topicObj => {
-      const topicCard = document.createElement('div');
-      topicCard.classList.add('topic-card');
+          let badge = '';
+          let percentageDisplay = '';
+          if (resultsForTopic.length > 0) {
+            const latestAttempt = resultsForTopic[resultsForTopic.length - 1];
+            badge = latestAttempt.percentage === 100 ? '🏆' : '⚡';
+            percentageDisplay = ` (${latestAttempt.percentage}%)`;
+          }
 
-      const resultsForTopic = quizResults.filter(
-        r => r.name === studentInfo.name &&
-             r.subject === subject &&
-             r.topic === topicObj.topic
-      );
+          topicCard.innerHTML = `
+            <h4>${topicObj.topic} ${badge}${percentageDisplay}</h4>
+            <p><strong>Questions:</strong> ${topicObj.questions.length}</p>
+            <button class="primary-button start-btn">Start Quiz</button>
+          `;
 
-      let badge = '';
-      let percentageDisplay = '';
-      if (resultsForTopic.length > 0) {
-        const latestAttempt = resultsForTopic[resultsForTopic.length - 1];
-        badge = latestAttempt.percentage === 100 ? '🏆' : '⚡';
-        percentageDisplay = ` (${latestAttempt.percentage}%)`;
+          topicCard.querySelector('.start-btn').addEventListener('click', () => {
+            startQuiz(subject, topicObj.topic);
+            if (typeof trackEvent === "function") {
+              trackEvent(studentInfo, "quiz_start", { subject, topic: topicObj.topic });
+            }
+          });
+
+          topicsContainer.appendChild(topicCard);
+        });
+
+        subjectHeader.addEventListener('click', () => {
+          const isVisible = topicsContainer.style.display === 'block';
+          topicsContainer.style.display = isVisible ? 'none' : 'block';
+          subjectHeader.querySelector('.toggle-icon').textContent = isVisible ? '+' : '−';
+        });
+
+        subjectDiv.appendChild(topicsContainer);
+        topicList.appendChild(subjectDiv);
       }
 
-      topicCard.innerHTML = `
-        <h4>${topicObj.topic} ${badge}${percentageDisplay}</h4>
-        <p><strong>Questions:</strong> ${topicObj.questions.length}</p>
-        <button class="primary-button start-btn">Start Quiz</button>
-      `;
+      if (topicList.children.length === 0) {
+        topicList.innerHTML = "<p style='text-align:center; color:red;'>No quizzes available for your department.</p>";
+      }
+    }
 
-      topicCard.querySelector('.start-btn').addEventListener('click', () => {
-        startQuiz(subject, topicObj.topic);
+    function startQuiz(subject, topic) {
+      studentInfo.subject = subject;
+      studentInfo.topic = topic;
+
+      const topicData = quizData[subject].find(t => t.topic === topic);
+      activeQuestions = topicData.questions;
+      userAnswers = Array(activeQuestions.length).fill(null);
+
+      topicScreen.classList.remove('active');
+      quizScreen.classList.add('active');
+
+      renderQuiz(activeQuestions);
+    }
+
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function renderQuiz(questions) {
+      document.getElementById('quiz-title').textContent = `${studentInfo.subject} - ${studentInfo.topic}`;
+      questionsArea.innerHTML = '';
+
+      questions.forEach((q, i) => {
+        const div = document.createElement('div');
+        div.classList.add('question-block');
+        const shuffledOptions = shuffleArray([...q.options]);
+        div.innerHTML = `
+          <p class="question-number">Question ${i + 1} of ${questions.length}</p>
+          <p class="question-text">${q.q}</p>
+          <div class="options-group">
+            ${shuffledOptions.map(opt => `<label><input type="radio" name="question-${i}" value="${opt}"> ${opt}</label>`).join('')}
+          </div>
+        `;
+        questionsArea.appendChild(div);
       });
 
-      topicsContainer.appendChild(topicCard);
-    });
+      submitButton.style.display = 'block';
+      if (typeof MathJax !== 'undefined') MathJax.typesetPromise([questionsArea]);
+    }
 
-    subjectHeader.addEventListener('click', () => {
-      const isVisible = topicsContainer.style.display === 'block';
-      topicsContainer.style.display = isVisible ? 'none' : 'block';
-      subjectHeader.querySelector('.toggle-icon').textContent = isVisible ? '+' : '−';
-    });
+    function handleSubmitQuiz() {
+      score = 0;
+      let allAnswered = true;
 
-    subjectDiv.appendChild(topicsContainer);
-    topicList.appendChild(subjectDiv);
-  }
+      activeQuestions.forEach((q, i) => {
+        const selectedInput = document.querySelector(`input[name="question-${i}"]:checked`);
+        const selected = selectedInput ? selectedInput.value : null;
+        userAnswers[i] = selected;
+        if (!selected) allAnswered = false;
+        else if (selected === q.answer) score++;
+      });
 
-  if (topicList.children.length === 0) {
-    topicList.innerHTML = "<p style='text-align:center; color:red;'>No quizzes available for your department.</p>";
-  }
-}
+      if (!allAnswered) {
+        alert("Please answer all questions before submitting.");
+        return;
+      }
 
-// --- Start Quiz ---
-function startQuiz(subject, topic) {
-  studentInfo.subject = subject;
-  studentInfo.topic = topic;
-  const topicData = quizData[subject].find(t => t.topic === topic);
-  activeQuestions = topicData.questions;
-  userAnswers = Array(activeQuestions.length).fill(null);
+      const percentValue = ((score / activeQuestions.length) * 100).toFixed(0);
+      displayResults(`${score} / ${activeQuestions.length}`, percentValue);
 
-  topicScreen.classList.remove('active');
-  quizScreen.classList.add('active');
-  renderQuiz(activeQuestions);
-}
+      if (typeof trackEvent === "function") {
+        trackEvent(studentInfo, "quiz_submission", { score, total: activeQuestions.length, percentage: Number(percentValue) });
+      }
+    }
 
-// --- Render Quiz Questions ---
-function renderQuiz(questions) {
-  document.getElementById('quiz-title').textContent = `${studentInfo.subject} - ${studentInfo.topic}`;
-  questionsArea.innerHTML = '';
+    function displayResults(scoreText, percentValue) {
+      document.getElementById('result-name').textContent = studentInfo.name;
+      document.getElementById('result-subject').textContent = studentInfo.subject;
+      document.getElementById('result-topic').textContent = studentInfo.topic;
+      document.getElementById('result-score').textContent = scoreText;
+      document.getElementById('result-percentage').textContent = percentValue;
 
-  questions.forEach((q, i) => {
-    const div = document.createElement('div');
-    div.classList.add('question-block');
-    div.innerHTML = `
-      <p class="question-number">Question ${i + 1} of ${questions.length}</p>
-      <p class="question-text">${q.q}</p>
-      <div class="options-group">
-        ${q.options.map(opt => `<label><input type="radio" name="question-${i}" value="${opt}"> ${opt}</label>`).join('')}
-      </div>
-    `;
-    questionsArea.appendChild(div);
-  });
-
-  submitButton.style.display = 'block';
-  if (typeof MathJax !== 'undefined') MathJax.typesetPromise([questionsArea]);
-}
-
-// --- Submit Quiz ---
-function handleSubmitQuiz() {
-  score = 0;
-  let allAnswered = true;
-
-  activeQuestions.forEach((q, i) => {
-    const selectedInput = document.querySelector(`input[name="question-${i}"]:checked`);
-    const selected = selectedInput ? selectedInput.value : null;
-    userAnswers[i] = selected;
-    if (!selected) allAnswered = false;
-    else if (selected === q.answer) score++;
-  });
-
-  if (!allAnswered) {
-    alert("Please answer all questions before submitting.");
-    return;
-  }
-
-  const percentValue = ((score / activeQuestions.length) * 100).toFixed(0);
-  displayResults(`${score} / ${activeQuestions.length}`, percentValue);
-}
-
-// --- Display Results ---
-function displayResults(scoreText, percentValue) {
-  document.getElementById('result-name').textContent = studentInfo.name;
-  document.getElementById('result-subject').textContent = studentInfo.subject;
-  document.getElementById('result-topic').textContent = studentInfo.topic;
-  document.getElementById('result-score').textContent = scoreText;
-  document.getElementById('result-percentage').textContent = percentValue;
-
-  const adminEmail = "your.admin.email@example.com";
-  const subjectLine = `Quiz Results: ${studentInfo.subject} - ${studentInfo.topic}`;
-  const body = `
+      const adminEmail = "your.admin.email@example.com";
+      const subjectLine = `Quiz Results: ${studentInfo.subject} - ${studentInfo.topic}`;
+      const body = `
 Dear Aplus Tutors,
 
 Here is my quiz result:
@@ -254,91 +262,86 @@ Percentage: ${percentValue}%
 Regards,
 `.trim();
 
-  document.getElementById('email-button').href =
-    `mailto:${studentInfo.email}?cc=${adminEmail}&subject=${encodeURIComponent(subjectLine)}&body=${encodeURIComponent(body)}`;
+      document.getElementById('email-button').href =
+        `mailto:${studentInfo.email}?cc=${adminEmail}&subject=${encodeURIComponent(subjectLine)}&body=${encodeURIComponent(body)}`;
 
-  quizScreen.classList.remove('active');
-  resultScreen.classList.add('active');
+      quizScreen.classList.remove('active');
+      resultScreen.classList.add('active');
 
-  const quizResults = JSON.parse(localStorage.getItem('quizResults')) || [];
-  quizResults.push({
-    name: studentInfo.name,
-    email: studentInfo.email,
-    subject: studentInfo.subject,
-    topic: studentInfo.topic,
-    score: score,
-    total: activeQuestions.length,
-    percentage: Number(percentValue),
-    date: new Date().toLocaleString(),
-    answers: userAnswers
-  });
-  localStorage.setItem('quizResults', JSON.stringify(quizResults));
+      const quizResults = JSON.parse(localStorage.getItem('quizResults')) || [];
+      quizResults.push({
+        ...studentInfo,
+        score,
+        total: activeQuestions.length,
+        percentage: Number(percentValue),
+        date: new Date().toLocaleString(),
+        answers: userAnswers
+      });
+      localStorage.setItem('quizResults', JSON.stringify(quizResults));
 
-  addResultButtons();
-}
+      addResultButtons();
+    }
 
-// --- Result Buttons ---
-function addResultButtons() {
-  if (!document.querySelector('.retake-btn')) {
-    const retakeBtn = document.createElement('button');
-    retakeBtn.textContent = "Retake Quiz";
-    retakeBtn.className = "secondary-button retake-btn";
-    retakeBtn.onclick = () => {
+    function addResultButtons() {
+      if (!document.querySelector('.retake-btn')) {
+        const retakeBtn = document.createElement('button');
+        retakeBtn.textContent = "Retake Quiz";
+        retakeBtn.className = "secondary-button retake-btn";
+        retakeBtn.onclick = () => {
+          resultScreen.classList.remove('active');
+          startQuiz(studentInfo.subject, studentInfo.topic);
+        };
+        resultScreen.appendChild(retakeBtn);
+      }
+
+      if (!document.querySelector('.dashboard-btn')) {
+        const dashboardBtn = document.createElement('button');
+        dashboardBtn.textContent = "Back to Dashboard";
+        dashboardBtn.className = "secondary-button dashboard-btn";
+        dashboardBtn.onclick = () => window.location.href = "dashboard.html";
+        resultScreen.appendChild(dashboardBtn);
+      }
+
+      if (!document.querySelector('.show-correction-btn')) {
+        const correctionBtn = document.createElement('button');
+        correctionBtn.textContent = "View Correction";
+        correctionBtn.className = "show-correction-btn";
+        correctionBtn.onclick = showCorrection;
+        resultScreen.appendChild(correctionBtn);
+      }
+    }
+
+    function showCorrection() {
       resultScreen.classList.remove('active');
-      startQuiz(studentInfo.subject, studentInfo.topic);
-    };
-    resultScreen.appendChild(retakeBtn);
-  }
+      const correctionScreen = document.getElementById('correction-screen');
+      const correctionArea = document.getElementById('correction-area');
+      correctionArea.innerHTML = '';
+      correctionScreen.classList.add('active');
 
-  if (!document.querySelector('.dashboard-btn')) {
-    const dashboardBtn = document.createElement('button');
-    dashboardBtn.textContent = "Back to Dashboard";
-    dashboardBtn.className = "secondary-button dashboard-btn";
-    dashboardBtn.onclick = () => window.location.href = "dashboard.html";
-    resultScreen.appendChild(dashboardBtn);
-  }
+      activeQuestions.forEach((q, i) => {
+        const selected = userAnswers[i];
+        const questionDiv = document.createElement('div');
+        questionDiv.classList.add('correction-question');
 
-  if (!document.querySelector('.show-correction-btn')) {
-    const correctionBtn = document.createElement('button');
-    correctionBtn.textContent = "View Correction";
-    correctionBtn.className = "show-correction-btn";
-    correctionBtn.onclick = showCorrection;
-    resultScreen.appendChild(correctionBtn);
-  }
-}
+        let optionsHTML = '';
+        q.options.forEach(opt => {
+          let className = '';
+          if (opt === q.answer) className = 'correct';
+          else if (opt === selected && opt !== q.answer) className = 'wrong';
+          optionsHTML += `<p class="${className}">${opt}</p>`;
+        });
 
-// --- Show Correction ---
-function showCorrection() {
-  resultScreen.classList.remove('active');
-  const correctionScreen = document.getElementById('correction-screen');
-  const correctionArea = document.getElementById('correction-area');
-  correctionArea.innerHTML = '';
-  correctionScreen.classList.add('active');
+        questionDiv.innerHTML = `
+          <p><strong>Q${i + 1}:</strong> ${q.q}</p>
+          ${optionsHTML}
+          <p><em>Your Answer:</em> ${selected || 'Not Answered'}</p>
+          <p><em>Correct Answer:</em> ${q.answer}</p>
+        `;
+        correctionArea.appendChild(questionDiv);
+      });
 
-  activeQuestions.forEach((q, i) => {
-    const selected = userAnswers[i];
-    const questionDiv = document.createElement('div');
-    questionDiv.classList.add('correction-question');
-
-    let optionsHTML = '';
-    q.options.forEach(opt => {
-      let className = '';
-      if (opt === q.answer) className = 'correct';
-      else if (opt === selected && opt !== q.answer) className = 'wrong';
-      optionsHTML += `<p class="${className}">${opt}</p>`;
-    });
-
-    questionDiv.innerHTML = `
-      <p><strong>Q${i + 1}:</strong> ${q.q}</p>
-      ${optionsHTML}
-      <p><em>Your Answer:</em> ${selected || 'Not Answered'}</p>
-      <p><em>Correct Answer:</em> ${q.answer}</p>
-    `;
-    correctionArea.appendChild(questionDiv);
-  });
-
-  if (typeof MathJax !== 'undefined') MathJax.typesetPromise([correctionArea]);
-}
-</script>
+      if (typeof MathJax !== 'undefined') MathJax.typesetPromise([correctionArea]);
+    }
+  </script>
 </body>
 </html>

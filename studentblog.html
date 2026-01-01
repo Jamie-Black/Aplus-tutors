@@ -7,100 +7,237 @@
   <title>Aplus Tutors | Blog</title>
   <link rel="stylesheet" href="blog.css">
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      color: white;
+      padding: 30px;
+      background-color: #8D0000;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .blog-container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .blog-posts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .blog-headline {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .blog-headline:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .blog-headline h2 {
+      margin: 0 0 10px 0;
+      color: #8D0000;
+      font-size: 1.2rem;
+    }
+
+    .blog-headline p {
+      margin: 0;
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    .blog-viewer {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      z-index: 2000;
+      overflow-y: auto;
+    }
+
+    .blog-viewer.active {
+      display: flex;
+    }
+
+    .viewer-content {
+      background: white;
+      border-radius: 12px;
+      max-width: 800px;
+      width: 100%;
+      padding: 30px;
+      position: relative;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      animation: fadeIn 0.3s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .close-viewer {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      font-size: 28px;
+      cursor: pointer;
+      color: #8D0000;
+      font-weight: bold;
+    }
+
+    .viewer-content img {
+      width: 100%;
+      max-height: 350px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .viewer-content h2 {
+      margin: 0 0 10px 0;
+      color: #8D0000;
+    }
+
+    .viewer-content p.meta {
+      margin: 0 0 20px 0;
+      font-size: 0.85rem;
+      color: #777;
+    }
+
+    .viewer-content p#viewer-body {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    footer {
+      color: white;
+      width: 100%;
+      background-color: #8D0000;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+    footer a {
+      text-decoration: none;
+      background-color: indianred;
+      padding: 8px 15px;
+      color: white;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    footer a:hover {
+      background-color: #b22222;
+    }
+
+    footer p {
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 
 <body>
-  
-  <header style="
-       color: white; 
-       padding: 30px; 
-       background-color: #8D0000;
-       border-bottom-left-radius: 30px;
-       border-bottom-right-radius: 30px;
-       text-align: center;
-       position: sticky;
-       top: 0;
-       ">
+
+  <header>
     <h1>Aplus Tutors Blog</h1>
   </header>
-  
-  <div class="blog-container" >
-    
-    <div id="blog-posts" class="blog-posts">
-    </div>
-    
-  </div>
-  <div style="
-      color: white;
-      width: 100%;
-      background-color:#8D0000;
-      text-align:center;
-      padding:20px;
-      margin-top:50px;
-  ">
-    <a style="
-      text-decoration: none;
-      background-color: indianred;
-      padding: 7px;
-      color: white;
-      margin-top: 10px;
-    "
-    href="dashboard.html">Back to Dashboard</a>
-    <p style="margin-top: 30px;">&copy;2021 Aplus tutors</p>
+
+  <div class="blog-container">
+    <div id="blog-posts" class="blog-posts"></div>
   </div>
 
-<script src="blogdata.js"></script>
+  <footer>
+    <a href="dashboard.html">Back to Dashboard</a>
+    <p>&copy; 2021 Aplus Tutors</p>
+  </footer>
 
-<script>
-const blogPostsContainer = document.getElementById('blog-posts');
+  <script src="blogdata.js"></script>
+  <script>
+    const blogPostsContainer = document.getElementById('blog-posts');
 
-// Check if there are posts
-if (!blogPosts || blogPosts.length === 0) {
-  const noPosts = document.createElement('p');
-  noPosts.textContent = "No posts available.";
-  noPosts.classList.add('no-posts');
-  blogPostsContainer.appendChild(noPosts);
-} else {
-  blogPosts.forEach((post, index) => {
-    // Headline item
-    const postHeadline = document.createElement('div');
-    postHeadline.classList.add('blog-headline');
-    postHeadline.innerHTML = `<h2>${post.title}</h2><p>${post.date} | ${post.category}</p>`;
-    postHeadline.addEventListener('click', () => openPost(index));
-    blogPostsContainer.appendChild(postHeadline);
-  });
-}
+    if (!blogPosts || blogPosts.length === 0) {
+      const noPosts = document.createElement('p');
+      noPosts.textContent = "No posts available.";
+      noPosts.classList.add('no-posts');
+      blogPostsContainer.appendChild(noPosts);
+    } else {
+      blogPosts.forEach((post, index) => {
+        const postHeadline = document.createElement('div');
+        postHeadline.classList.add('blog-headline');
+        postHeadline.innerHTML = `
+          <h2>${post.title}</h2>
+          <p>${post.date} | ${post.category}</p>
+        `;
+        postHeadline.addEventListener('click', () => openPost(index));
+        blogPostsContainer.appendChild(postHeadline);
+      });
+    }
 
-// Create the full post viewer (overlay)
-const viewer = document.createElement('div');
-viewer.classList.add('blog-viewer');
-viewer.innerHTML = `
-  <div class="viewer-content">
-    <span class="close-viewer">&times;</span>
-    <img id="viewer-img" src="" alt="">
-    <h2 id="viewer-title"></h2>
-    <p class="meta" id="viewer-meta"></p>
-    <p id="viewer-body"></p>
-  </div>
-`;
-document.body.appendChild(viewer);
+    const viewer = document.createElement('div');
+    viewer.classList.add('blog-viewer');
+    viewer.innerHTML = `
+      <div class="viewer-content">
+        <span class="close-viewer">&times;</span>
+        <img id="viewer-img" src="">
+        <h2 id="viewer-title"></h2>
+        <p class="meta" id="viewer-meta"></p>
+        <p id="viewer-body"></p>
+      </div>
+    `;
+    document.body.appendChild(viewer);
 
-// Function to open post
-function openPost(index) {
-  const post = blogPosts[index];
-  document.getElementById('viewer-img').src = post.image;
-  document.getElementById('viewer-title').textContent = post.title;
-  document.getElementById('viewer-meta').textContent = `By ${post.author} on ${post.date} | ${post.category}`;
-  document.getElementById('viewer-body').textContent = post.content;
-  viewer.classList.add('active');
-  document.body.style.overflow = 'hidden';
-}
+    function openPost(index) {
+      const post = blogPosts[index];
+      document.getElementById('viewer-img').src = post.image;
+      document.getElementById('viewer-title').textContent = post.title;
+      document.getElementById('viewer-meta').textContent = `By ${post.author} on ${post.date} | ${post.category}`;
+      document.getElementById('viewer-body').textContent = post.content;
 
-// Close post
-viewer.querySelector('.close-viewer').addEventListener('click', () => {
-  viewer.classList.remove('active');
-  document.body.style.overflow = 'auto';
-});
-</script>
+      viewer.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    viewer.querySelector('.close-viewer').addEventListener('click', () => {
+      viewer.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    });
+  </script>
 </body>
+
 </html>
