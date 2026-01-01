@@ -4,137 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aplus Tutors | Admin Dashboard</title>
-
-<style>
-:root {
-  --primary: #8B0000;
-  --secondary: #f9f9f9;
-  --text: #333;
-  --card-bg: #fff;
-  --shadow: rgba(0,0,0,0.1);
-}
-
-body {
-  margin: 0;
-  font-family: "Segoe UI", Arial, sans-serif;
-  background: var(--secondary);
-  color: var(--text);
-}
-
-header {
-  background: var(--primary);
-  color: #fff;
-  padding: 16px 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 2px 6px var(--shadow);
-}
-
-header h1 { margin: 0; font-size: 1.6rem; }
-
-main { padding: 20px; max-width: 1200px; margin: 0 auto; }
-
-.stats {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-
-.stat-card {
-  flex: 1 1 180px;
-  background: var(--card-bg);
-  border-radius: 12px;
-  padding: 16px;
-  text-align: center;
-  box-shadow: 0 4px 10px var(--shadow);
-  transition: transform 0.2s;
-}
-
-.stat-card:hover { transform: translateY(-3px); }
-
-.stat-card h3 {
-  margin: 0 0 10px;
-  font-size: 1rem;
-  color: var(--primary);
-}
-
-.stat-card p {
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin: 0;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  background: var(--card-bg);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px var(--shadow);
-  margin-bottom: 20px;
-}
-
-th, td { padding: 12px 10px; text-align: left; }
-th { background: var(--primary); color: #fff; }
-tr:nth-child(even) { background: #f2f2f2; }
-
-footer {
-  background: var(--primary);
-  color: #fff;
-  padding: 14px 0;
-  text-align: center;
-}
-
-footer button {
-  background: #fff;
-  color: var(--primary);
-  border: none;
-  padding: 8px 16px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
-  margin-top: 8px;
-}
-
-footer button:hover { opacity: 0.9; }
-
-#loading {
-  text-align: center;
-  margin: 30px 0;
-}
-
-#loading span {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin: 0 5px;
-  background: var(--primary);
-  border-radius: 50%;
-  animation: bounce 0.6s infinite alternate;
-}
-
-#loading span:nth-child(2) { animation-delay: 0.2s; }
-#loading span:nth-child(3) { animation-delay: 0.4s; }
-
-@keyframes bounce { to { transform: translateY(-10px); } }
-
-button.load-more {
-  background: var(--primary);
-  color: #fff;
-  border: none;
-  padding: 10px 18px;
-  border-radius: 6px;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto 30px;
-  font-weight: bold;
-  transition: opacity 0.2s;
-}
-
-button.load-more:hover { opacity: 0.9; }
-</style>
+<link rel="stylesheet" href="admin.css">
 </head>
 <body>
 
@@ -155,7 +25,8 @@ button.load-more:hover { opacity: 0.9; }
     <span></span><span></span><span></span>
   </div>
 
-  <section>
+<section>
+  <div class="table-wrapper">
     <table>
       <thead>
         <tr>
@@ -168,8 +39,9 @@ button.load-more:hover { opacity: 0.9; }
       </thead>
       <tbody id="eventsTableBody"></tbody>
     </table>
-    <button class="load-more" id="loadMoreBtn">Load More</button>
-  </section>
+  </div>
+</section>
+
 </main>
 
 <footer>
@@ -290,4 +162,4 @@ listenEvents();
 </script>
 
 </body>
-</html>
+  </html>
