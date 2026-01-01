@@ -1,253 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Aplus Tutors | Admin Panel</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aplus Tutors | Admin Dashboard</title>
 
-  <link rel="stylesheet" href="cbt.css" />
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+:root {
+  --primary: #8B0000;
+  --secondary: #f9f9f9;
+  --text: #333;
+  --card-bg: #fff;
+  --shadow: rgba(0,0,0,0.1);
+}
 
-  <style>
-    body { font-family: Arial, sans-serif; background:#fff; color:#111; margin:20px; }
-    header { display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; }
-    h1 { color:crimson; margin:0; }
-    .card-row { display:flex; gap:12px; margin-bottom:18px; flex-wrap:wrap; }
-    .card { background:black; color:white; padding:12px 16px; border-radius:8px; min-width:160px; box-shadow:0 2px 8px rgba(0,0,0,0.12); }
-    .card strong { display:block; font-size:18px; color:crimson; }
-    #table-wrap { margin-top:10px; }
-    table { width:100%; border-collapse:collapse; }
-    th, td { padding:8px 10px; border:1px solid #ddd; text-align:left; }
-    th { background:crimson; color:white; }
-    #controls { margin-top:12px; display:flex; gap:10px; align-items:center; }
-    button { padding:8px 12px; border-radius:6px; border:none; cursor:pointer; }
-    .btn-primary { background:crimson; color:white; }
-    .btn-danger { background:#333; color:white; }
-    .small { padding:6px 8px; font-size:13px; }
-    #login-panel { max-width:480px; margin:120px auto; padding:20px; border-radius:8px; box-shadow:0 4px 18px rgba(0,0,0,0.12); }
-    label{display:block;margin:8px 0 6px;}
-    input[type="password"]{width:100%;padding:8px;border-radius:5px;border:1px solid #ccc;}
-    .hidden { display:none; }
-    footer { margin-top:30px; color:#666; font-size:13px; }
-  </style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: var(--secondary);
+  color: var(--text);
+}
+
+header {
+  background: var(--primary);
+  color: #fff;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px var(--shadow);
+}
+
+header h1 { margin: 0; font-size: 1.6rem; }
+
+main { padding: 20px; max-width: 1200px; margin: 0 auto; }
+
+.stats {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  flex: 1 1 180px;
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 10px var(--shadow);
+  transition: transform 0.2s;
+}
+
+.stat-card:hover { transform: translateY(-3px); }
+
+.stat-card h3 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  color: var(--primary);
+}
+
+.stat-card p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px var(--shadow);
+  margin-bottom: 20px;
+}
+
+th, td { padding: 12px 10px; text-align: left; }
+th { background: var(--primary); color: #fff; }
+tr:nth-child(even) { background: #f2f2f2; }
+
+footer {
+  background: var(--primary);
+  color: #fff;
+  padding: 14px 0;
+  text-align: center;
+}
+
+footer button {
+  background: #fff;
+  color: var(--primary);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+footer button:hover { opacity: 0.9; }
+
+#loading {
+  text-align: center;
+  margin: 30px 0;
+}
+
+#loading span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background: var(--primary);
+  border-radius: 50%;
+  animation: bounce 0.6s infinite alternate;
+}
+
+#loading span:nth-child(2) { animation-delay: 0.2s; }
+#loading span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes bounce { to { transform: translateY(-10px); } }
+
+button.load-more {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 30px;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+button.load-more:hover { opacity: 0.9; }
+</style>
 </head>
 <body>
 
-  <div id="login-panel">
-    <h2 style="color:crimson">Aplus Tutors — Admin Access</h2>
-    <p>Enter admin key to view attempts and reports.</p>
-    <label for="admin-key">Admin Key</label>
-    <input id="admin-key" type="password" placeholder="Enter admin key">
-    <div style="margin-top:10px;">
-      <button id="admin-login" class="btn-primary">Unlock Admin Panel</button>
-    </div>
-    <p id="login-error" style="color:red; display:none; margin-top:8px;"></p>
+<header>
+  <h1>📊 Admin Dashboard</h1>
+  <div>Welcome, <strong id="adminName"></strong></div>
+</header>
+
+<main>
+  <section class="stats">
+    <div class="stat-card"><h3>Total Logins</h3><p id="totalLogins">0</p></div>
+    <div class="stat-card"><h3>Successful Logins</h3><p id="successLogins">0</p></div>
+    <div class="stat-card"><h3>Failed Logins</h3><p id="failedLogins">0</p></div>
+    <div class="stat-card"><h3>Currently Online</h3><p id="activeUsers">0</p></div>
+  </section>
+
+  <div id="loading">
+    <span></span><span></span><span></span>
   </div>
 
-  <div id="admin-app" class="hidden">
-    <header>
-      <h1>Aplus Tutors — Admin</h1>
-      <div>
-        <button id="download-report" class="btn-primary">Download PDF</button>
-        <button id="download-csv" class="small">Download CSV</button>
-        <button id="clear-data" class="btn-danger">Clear All Attempts</button>
-      </div>
-    </header>
+  <section>
+    <table>
+      <thead>
+        <tr>
+          <th>Date/Time</th>
+          <th>Email</th>
+          <th>Department</th>
+          <th>Role</th>
+          <th>Event</th>
+        </tr>
+      </thead>
+      <tbody id="eventsTableBody"></tbody>
+    </table>
+    <button class="load-more" id="loadMoreBtn">Load More</button>
+  </section>
+</main>
 
-    <div class="card-row">
-      <div class="card">
-        <div>Total Attempts</div>
-        <strong id="total-attempts">0</strong>
-        <div style="font-size:12px;color:#eee">All recorded tests</div>
-      </div>
-      <div class="card">
-        <div>Average Score</div>
-        <strong id="avg-score">0%</strong>
-        <div style="font-size:12px;color:#eee">Across all attempts</div>
-      </div>
-      <div class="card">
-        <div>Best Score</div>
-        <strong id="best-score">0%</strong>
-        <div style="font-size:12px;color:#eee">Top attempt</div>
-      </div>
-    </div>
+<footer>
+  &copy; 2026 Aplus Tutors
+  <br>
+  <button id="logoutBtn">Logout</button>
+</footer>
 
-    <section id="charts">
-      <canvas id="subjectChart" style="max-width:800px;"></canvas>
-    </section>
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
+import { getFirestore, collection, query, orderBy, onSnapshot } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js";
 
-    <div id="table-wrap">
-      <h3 style="color:crimson">Attempts</h3>
-      <table id="attempts-table">
-        <thead>
-          <tr><th>Date</th><th>Name</th><th>Email</th><th>Subjects</th><th>Score (%)</th></tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
+// --- Firebase config ---
+const firebaseConfig = {
+  apiKey: "AIzaSyBSr__wqMxY_IL7LXsO9P1LpJDiDAQNsmE",
+  authDomain: "aplus-tutors-765bf.firebaseapp.com",
+  projectId: "aplus-tutors-765bf",
+  storageBucket: "aplus-tutors-765bf.app",
+  messagingSenderId: "387214060287",
+  appId: "1:387214060287:web:d6213f9c2624f029c0baca",
+  measurementId: "G-41V5ZZDH1V"
+};
 
-    <footer>Local admin panel — data comes from users' browsers (localStorage). Clearing data removes it for this browser only.</footer>
-  </div>
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
-  <script>
-    // Admin key that you requested:
-    const ADMIN_KEY = "@lordkronos4045";
+// --- Check logged in user role ---
+const loggedUser = JSON.parse(localStorage.getItem("loggedInUser") || "null");
 
-    const loginPanel = document.getElementById("login-panel");
-    const adminApp = document.getElementById("admin-app");
-    const adminLoginBtn = document.getElementById("admin-login");
-    const adminKeyInput = document.getElementById("admin-key");
-    const loginError = document.getElementById("login-error");
+if (!loggedUser || loggedUser.role !== "Admin") {
+  alert("Access denied: Admins only");
+  window.location.href = "student-login.html";
+} else {
+  document.getElementById("adminName").textContent = loggedUser.email;
+}
 
-    adminLoginBtn.onclick = () => {
-      const key = adminKeyInput.value;
-      if (key === ADMIN_KEY) {
-        loginPanel.classList.add("hidden");
-        adminApp.classList.remove("hidden");
-        loadAndRender();
-      } else {
-        loginError.style.display = "block";
-        loginError.textContent = "Incorrect key.";
-      }
-    };
+// --- DOM Elements ---
+const totalEl = document.getElementById("totalLogins");
+const successEl = document.getElementById("successLogins");
+const failEl = document.getElementById("failedLogins");
+const activeEl = document.getElementById("activeUsers");
+const tbody = document.getElementById("eventsTableBody");
+const loadingEl = document.getElementById("loading");
 
-    // Load attempts from localStorage key 'cbtAttempts'
-    function loadAttempts() {
-      const raw = localStorage.getItem("cbtAttempts");
-      if (!raw) return [];
-      try { return JSON.parse(raw); } catch (e) { console.error("Invalid cbtAttempts JSON", e); return []; }
-    }
+// --- Real-time events listener ---
+let eventsData = [];
 
-    function loadAndRender() {
-      const attempts = loadAttempts();
-      // Summary
-      document.getElementById("total-attempts").textContent = attempts.length;
+function listenEvents() {
+  const q = query(collection(db, "events"), orderBy("timestamp", "desc"));
+  onSnapshot(q, snapshot => {
+    eventsData = snapshot.docs.map(doc => {
+      const data = doc.data();
+      return {
+        email: data.user || "Unknown",
+        department: data.department || "Unknown",
+        role: data.role || "Unknown",
+        event: data.event || "Unknown",
+        timestamp: data.timestamp?.toDate?.()?.toISOString() || null
+      };
+    });
 
-      let overallSum = 0;
-      let best = 0;
-      attempts.forEach(a => {
-        const p = parseFloat(a.overallPercent) || 0;
-        overallSum += p;
-        if (p > best) best = p;
-      });
-      const avg = attempts.length ? (overallSum / attempts.length).toFixed(1) : 0;
-      document.getElementById("avg-score").textContent = `${avg}%`;
-      document.getElementById("best-score").textContent = `${best}%`;
+    renderTable();
+    renderStats();
+    loadingEl.style.display = "none";
+  }, err => {
+    console.error("Error fetching events:", err);
+    alert("⚠️ Could not fetch events. Check Firestore rules.");
+    loadingEl.style.display = "none";
+  });
+}
 
-      // Table
-      const tbody = document.querySelector("#attempts-table tbody");
-      tbody.innerHTML = "";
-      attempts.slice().reverse().forEach(a => {
-        const tr = document.createElement("tr");
-        tr.innerHTML = `<td>${a.date}</td>
-                        <td>${escapeHtml(a.name)}</td>
-                        <td>${escapeHtml(a.email || "")}</td>
-                        <td>${a.subjectStats ? a.subjectStats.map(s=>s.subject).join(", ") : ""}</td>
-                        <td>${a.overallPercent}%</td>`;
-        tbody.appendChild(tr);
-      });
+// --- Render table ---
+function renderTable() {
+  tbody.innerHTML = "";
+  eventsData.forEach(ev => {
+    const ts = ev.timestamp ? new Date(ev.timestamp).toLocaleString() : "Unknown";
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${ts}</td>
+      <td>${ev.email}</td>
+      <td>${ev.department}</td>
+      <td>${ev.role}</td>
+      <td>${ev.event}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
 
-      // Chart: average percent by subject
-      const subjectAgg = {}; // { subj: {sum: x, count: y} }
-      attempts.forEach(a => {
-        if (!a.subjectStats) return;
-        a.subjectStats.forEach(s => {
-          if (!subjectAgg[s.subject]) subjectAgg[s.subject] = { sum: 0, count: 0 };
-          subjectAgg[s.subject].sum += parseFloat(s.percent) || 0;
-          subjectAgg[s.subject].count += 1;
-        });
-      });
-      const labels = [];
-      const data = [];
-      for (const subj in subjectAgg) {
-        labels.push(subj);
-        const avgSub = subjectAgg[subj].count ? (subjectAgg[subj].sum / subjectAgg[subj].count) : 0;
-        data.push(parseFloat(avgSub.toFixed(1)));
-      }
+// --- Render stats ---
+function renderStats() {
+  const total = eventsData.length;
+  const success = eventsData.filter(e => e.event === "login_success").length;
+  const failure = eventsData.filter(e => e.event === "login_failure").length;
 
-      renderSubjectChart(labels, data);
-    }
+  const now = new Date();
+  const active = eventsData.filter(e => {
+    if (!e.timestamp) return false;
+    const ts = new Date(e.timestamp);
+    return e.event === "login_success" && ts > new Date(now - 15 * 60000);
+  }).length;
 
-    let subjectChartInstance = null;
-    function renderSubjectChart(labels, data) {
-      const ctx = document.getElementById("subjectChart").getContext("2d");
-      if (subjectChartInstance) subjectChartInstance.destroy();
-      subjectChartInstance = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels,
-          datasets: [{ label: 'Average % by Subject', data, backgroundColor: labels.map(()=> 'rgba(220,20,60,0.8)') }]
-        },
-        options: {
-          scales: { y: { beginAtZero: true, max: 100 } }
-        }
-      });
-    }
+  totalEl.textContent = total;
+  successEl.textContent = success;
+  failEl.textContent = failure;
+  activeEl.textContent = active;
+}
 
-    // Download PDF
-    document.getElementById("download-report").onclick = () => {
-      const { jsPDF } = window.jspdf;
-      const doc = new jsPDF();
-      const attempts = loadAttempts();
-      doc.setFontSize(16);
-      doc.text("Aplus Tutors — Attempts Report", 14, 16);
-      doc.setFontSize(11);
-      let y = 26;
-      if (!attempts.length) {
-        doc.text("No attempts found.", 14, y);
-      } else {
-        attempts.forEach((a, i) => {
-          if (y > 270) { doc.addPage(); y = 20; }
-          doc.text(`${i+1}. ${a.date} — ${a.name} — ${a.overallPercent}%`, 14, y);
-          y += 6;
-          if (a.subjectStats && a.subjectStats.length) {
-            a.subjectStats.forEach(s => {
-              if (y > 270) { doc.addPage(); y = 20; }
-              doc.text(`   • ${s.subject}: ${s.correct}/${s.total} (${s.percent}%)`, 18, y);
-              y += 6;
-            });
-          }
-          y += 6;
-        });
-      }
-      doc.save("AplusTutors_Attempts_Report.pdf");
-    };
+// --- Logout ---
+document.getElementById("logoutBtn").addEventListener("click", () => {
+  localStorage.removeItem("loggedInUser");
+  localStorage.removeItem("userDepartment");
+  alert("You have been logged out.");
+  window.location.href = "student-login.html";
+});
 
-    // Download CSV
-    document.getElementById("download-csv").onclick = () => {
-      const attempts = loadAttempts();
-      const rows = [["date","name","email","subject","subject_correct","subject_total","subject_percent","overallPercent"]];
-      attempts.forEach(a => {
-        if (a.subjectStats && a.subjectStats.length) {
-          a.subjectStats.forEach(s => {
-            rows.push([a.date, a.name, a.email || "", s.subject, s.correct, s.total, s.percent, a.overallPercent]);
-          });
-        } else {
-          rows.push([a.date, a.name, a.email || "", "", "","","", a.overallPercent]);
-        }
-      });
-      const csv = rows.map(r => r.map(v => `"${String(v).replace(/"/g,'""')}"`).join(",")).join("\n");
-      const blob = new Blob([csv], { type: "text/csv" });
-      const a = document.createElement("a");
-      a.href = URL.createObjectURL(blob);
-      a.download = "aplus_attempts.csv";
-      a.click();
-    };
+// --- Start listening ---
+listenEvents();
+</script>
 
-    // Clear data (confirm)
-    document.getElementById("clear-data").onclick = () => {
-      if (!confirm("This will remove all attempts stored in localStorage for this browser. Continue?")) return;
-      localStorage.removeItem("cbtAttempts");
-      loadAndRender();
-      alert("All attempts cleared (for this browser).");
-    };
-
-    function escapeHtml(str) {
-      return String(str || "").replace(/[&<>"'`=\/]/g, function(s) {
-        return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;','/':'\\/','=':'&#61;','`':'&#96;'} )[s];
-      });
-    }
-  </script>
 </body>
 </html>

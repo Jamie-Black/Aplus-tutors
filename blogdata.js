@@ -2,6 +2,51 @@
 
 const blogPosts = [
     {
+  id: 1,
+  title: "2026 JAMB UTME Registration Guidelines and Important Dates",
+  author: "Joint Admissions and Matriculation Board (JAMB)",
+  date: "2026-01-31",
+  content: "The Joint Admissions and Matriculation Board (JAMB) has released official guidelines for the 2026 Unified Tertiary Matriculation Examination (UTME). Registration for the examination is expected to begin in late January 2026 and close in early March 2026. All candidates are required to register strictly at JAMB-accredited Computer-Based Test (CBT) centres across Nigeria. <br><br>Before registration, candidates must obtain a valid National Identification Number (NIN) and generate a JAMB profile code using their unique phone number. During registration, biometric data including fingerprints and facial capture will be collected to ensure examination integrity. <br><br>The UTME examination itself is scheduled to take place between late April and early May 2026. Candidates will be informed of their examination date, time, and centre through the reprinting of their examination slips. JAMB has emphasized that candidates should adhere strictly to all instructions to avoid disqualification.",
+  category: "JAMB 2026",
+  image: "https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg"
+},
+    {
+  id: 2,
+  title: "2026 JAMB Registration Fees and Cost Breakdown Explained",
+  author: "Joint Admissions and Matriculation Board (JAMB)",
+  date: "2026-01-31",
+  content: "JAMB has officially announced the approved registration fees for the 2026 UTME and Direct Entry examinations. Candidates registering for the UTME without participating in the mock examination are required to pay ₦7,200. Those who choose to participate in the optional mock UTME are required to pay ₦8,200. <br><br>The registration fee covers several components including the JAMB application fee, the compulsory reading text, CBT centre service charges, and administrative costs. Direct Entry candidates are required to pay ₦5,700, which excludes mock examination participation. <br><br>JAMB has warned candidates against making payments through unauthorized agents or individuals, stressing that all payments should be made only through approved banks, online platforms, or accredited CBT centres to avoid fraud and registration errors.",
+  category: "JAMB 2026",
+  image: "https://images.pexels.com/photos/4145356/pexels-photo-4145356.jpeg"
+},
+    {
+  id: 3,
+  title: "Requirements and Eligibility Criteria for 2026 JAMB Candidates",
+  author: "Joint Admissions and Matriculation Board (JAMB)",
+  date: "2026-02-01",
+  content: "To be eligible for participation in the 2026 JAMB UTME or Direct Entry examination, candidates must meet specific requirements. The most important requirement is possession of a valid National Identification Number (NIN), which is mandatory for profile creation and registration. <br><br>Candidates must also provide accurate personal information including full name, date of birth, state of origin, and passport photograph during registration. O’Level results from WAEC, NECO, or NABTEB are required, although candidates awaiting results are permitted to register with the option to upload their results later. <br><br>JAMB has emphasized that each candidate must use a unique phone number that has not been previously used for JAMB registration, as this phone number becomes permanently linked to the candidate’s profile.",
+  category: "JAMB 2026",
+  image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg"
+},
+    {
+  id: 4,
+  title: "Compulsory Use of English Novel for the 2026 UTME",
+  author: "Joint Admissions and Matriculation Board (JAMB)",
+  date: "2026-02-05",
+  content: "For the 2026 UTME Use of English examination, JAMB has prescribed the novel titled The Lekki Headmaster by Kabir Alabi Garba as the compulsory reading text. Candidates are expected to study the novel thoroughly, as questions will be drawn from it to assess comprehension, character analysis, themes, and moral lessons. <br><br>Questions based on the novel may appear in objective, interpretative, or contextual forms. JAMB has advised candidates to avoid selective reading, as any part of the novel may be tested during the examination. Proper understanding of the text can significantly improve a candidate’s overall UTME score.",
+  category: "JAMB 2026",
+  image: "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg"
+},
+    {
+  id: 5,
+  title: "Mandatory Admission Status Declaration for 2026 JAMB Registration",
+  author: "Joint Admissions and Matriculation Board (JAMB)",
+  date: "2026-02-10",
+  content: "JAMB has introduced a mandatory admission status declaration for all candidates registering for the 2026 UTME. During the registration process, candidates are required to declare whether they have previously been offered admission into any tertiary institution. This policy is designed to improve transparency, prevent multiple admissions, and enhance the effectiveness of the Central Admissions Processing System (CAPS). <br><br>JAMB has warned that failure to declare an existing admission status or providing false information may lead to disqualification or complications during the admission process. Candidates are therefore advised to provide accurate and honest information during registration.",
+  category: "JAMB 2026",
+  image: "https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg"
+},
+    {
   id: 2,
   title: "5 Ways Artificial Intelligence is Transforming Education",
   author: "Olaborede James",

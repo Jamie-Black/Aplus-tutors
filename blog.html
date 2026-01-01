@@ -7,6 +7,7 @@
   <title>Aplus Tutors | Blog</title>
   <link rel="stylesheet" href="blog.css">
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -91,12 +92,107 @@
 
 <script src="blogdata.js"></script>
 <script src="script.js"></script>
-
 <script src="data.js"></script>
+
 <script>
 const blogPostsContainer = document.getElementById('blog-posts');
 
-// Check if there are posts
+// Load likes
+let likes = JSON.parse(localStorage.getItem('blogLikes')) || {};
+function saveLikes() {
+  localStorage.setItem('blogLikes', JSON.stringify(likes));
+}
+
+// Load comments
+let comments = JSON.parse(localStorage.getItem('blogComments')) || {};
+function saveComments() {
+  localStorage.setItem('blogComments', JSON.stringify(comments));
+}
+
+// ---------- LIKE BUTTON ----------
+function createLikeButton(postId) {
+  const likeBtn = document.createElement('button');
+  likeBtn.classList.add('like-btn');
+
+  const count = likes[postId] || 0;
+  let liked = localStorage.getItem(`liked_${postId}`) === "true";
+
+  likeBtn.innerHTML = `
+    <span class="heart">${liked ? "❤️" : "🤍"}</span>
+    <span class="like-count">${count}</span>
+  `;
+
+  likeBtn.addEventListener('click', () => {
+    liked = !liked;
+    localStorage.setItem(`liked_${postId}`, liked);
+
+    if (liked) likes[postId] = (likes[postId] || 0) + 1;
+    else likes[postId] = Math.max(0, (likes[postId] || 0) - 1);
+
+    likeBtn.querySelector(".heart").textContent = liked ? "❤️" : "🤍";
+    likeBtn.querySelector(".like-count").textContent = likes[postId];
+
+    saveLikes();
+  });
+
+  return likeBtn;
+}
+
+
+
+// ---------- COMMENT SECTION ----------
+function createCommentSection(postId) {
+  const wrapper = document.createElement('div');
+  wrapper.classList.add('comment-section');
+
+  wrapper.innerHTML = `
+    <h3>Comments</h3>
+    <div class="comment-list" id="comments-${postId}"></div>
+
+    <div class="comment-box">
+      <textarea id="comment-input-${postId}" placeholder="Write a comment..."></textarea>
+      <button onclick="addComment(${postId})">Post Comment</button>
+    </div>
+  `;
+
+  return wrapper;
+}
+
+// Add comment
+function addComment(postId) {
+  const input = document.getElementById(`comment-input-${postId}`);
+  const text = input.value.trim();
+  if (text === "") return;
+
+  if (!comments[postId]) comments[postId] = [];
+
+  comments[postId].push({
+    text: text,
+    time: new Date().toLocaleString()
+  });
+
+  saveComments();
+  input.value = "";
+  loadComments(postId);
+}
+
+// Load comments into viewer
+function loadComments(postId) {
+  const listDiv = document.getElementById(`comments-${postId}`);
+  listDiv.innerHTML = "";
+
+  const postComments = comments[postId] || [];
+  postComments.forEach(c => {
+    const div = document.createElement("div");
+    div.classList.add("comment-item");
+    div.innerHTML = `<p>${c.text}</p><small>${c.time}</small>`;
+    listDiv.appendChild(div);
+  });
+}
+
+
+
+// ---------- BLOG HEADLINES ----------
 if (!blogPosts || blogPosts.length === 0) {
   const noPosts = document.createElement('p');
   noPosts.textContent = "No posts available.";
@@ -104,41 +200,65 @@ if (!blogPosts || blogPosts.length === 0) {
   blogPostsContainer.appendChild(noPosts);
 } else {
   blogPosts.forEach((post, index) => {
-    // Headline item
     const postHeadline = document.createElement('div');
     postHeadline.classList.add('blog-headline');
-    postHeadline.innerHTML = `<h2>${post.title}</h2><p>${post.date} | ${post.category}</p>`;
+    postHeadline.innerHTML = `
+      <h2>${post.title}</h2>
+      <p>${post.date} | ${post.category}</p>
+    `;
+
     postHeadline.addEventListener('click', () => openPost(index));
+
+    postHeadline.appendChild(createLikeButton(index));
+
     blogPostsContainer.appendChild(postHeadline);
   });
 }
 
-// Create the full post viewer (overlay)
+
+
+// ---------- FULL POST VIEWER ----------
 const viewer = document.createElement('div');
 viewer.classList.add('blog-viewer');
 viewer.innerHTML = `
   <div class="viewer-content">
     <span class="close-viewer">&times;</span>
-    <img id="viewer-img" src="" alt="">
+    <img id="viewer-img" src="">
     <h2 id="viewer-title"></h2>
     <p class="meta" id="viewer-meta"></p>
     <p id="viewer-body"></p>
+    <div id="viewer-like"></div>
+    <div id="viewer-comments"></div>
   </div>
 `;
 document.body.appendChild(viewer);
 
-// Function to open post
+
+// OPEN POST
 function openPost(index) {
   const post = blogPosts[index];
+
   document.getElementById('viewer-img').src = post.image;
   document.getElementById('viewer-title').textContent = post.title;
   document.getElementById('viewer-meta').textContent = `By ${post.author} on ${post.date} | ${post.category}`;
   document.getElementById('viewer-body').textContent = post.content;
+
+  // Load Like Button
+  const viewerLikeDiv = document.getElementById('viewer-like');
+  viewerLikeDiv.innerHTML = "";
+  viewerLikeDiv.appendChild(createLikeButton(index));
+
+  // Load Comment Section
+  const viewerCommentDiv = document.getElementById('viewer-comments');
+  viewerCommentDiv.innerHTML = "";
+  viewerCommentDiv.appendChild(createCommentSection(index));
+  loadComments(index);
+
   viewer.classList.add('active');
   document.body.style.overflow = 'hidden';
 }
 
-// Close post
+// CLOSE VIEWER
 viewer.querySelector('.close-viewer').addEventListener('click', () => {
   viewer.classList.remove('active');
   document.body.style.overflow = 'auto';

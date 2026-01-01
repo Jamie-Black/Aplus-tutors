@@ -31,7 +31,7 @@ const registeredUsers = [
 // subject data
 
 const subjectsData = [
-  /*
+  
     {
         id: 1,
         title: "Physics",
@@ -49,7 +49,7 @@ const subjectsData = [
         ],
         whatsappNumber: "2349152769294" 
     },
-    */
+    
 ];
 
 

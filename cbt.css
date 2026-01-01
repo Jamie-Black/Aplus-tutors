@@ -306,7 +306,52 @@ main {
   border-radius: 10px;
   margin: 10px 0;
   text-align: left;
+  line-height: 1.5rem;
 }
+
+  /* Improved Subject Select */
+#subject-select {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  border: 2px solid #8B1414; /* Aplus Tutors crimson */
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#subject-select:focus {
+  border-color: #222;
+  box-shadow: 0 0 5px rgba(139, 20, 20, 0.5);
+}
+
+#subject-select option {
+  padding: 8px;
+  font-size: 15px;
+  color: #222;
+}
+
+/* Optional: make multiple selection more visually appealing */
+#subject-select[multiple] {
+  height: 120px;
+  overflow-y: auto;
+}
+    /* Correction image sizing */
+    .correction-image {
+      max-width: 300px; 
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px 0;
+    }
+    /* Optional: hide question image by default */
+    #question-image.hidden {
+      display: none;
+    }
 
 .user-answer.correct { color: green; }
 .user-answer.wrong { color: red; }
