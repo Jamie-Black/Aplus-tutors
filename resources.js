@@ -1,31 +1,23 @@
 const resources = [
  {
-    title: "Lamlad Mathematics",
-    description: "Complete WAEC/JAMB Mathematics with lots of solved questions (PDF).",
+    title: "WAEC English Objective 2010-2015",
+    description: "Complete lamlad mathematics for Senior secondary schools.",
     type: "free",
     format: "pdf",
-    link: "",
-    preview: "/SSCE UTME-Lamlad s SSCE   UTME Biology-GAO Arawomo AI Akinpelu-2004-(Learnc.pdf",
+    link: "./waec-_-english.pdf",
+    preview: "./waec-_-english.pdf",
   }, 
-  {
-    title: "Mathematics Video Lecture: Algebra Simplified",
-    description: "Step-by-step explanation of algebraic equations.",
-    type: "paid",
-    format: "video",
-    price: 1500,
-    preview: "videos/algebra_intro.mp4",
-    whatsapp: "2348012345678",
-  },
+  
   {
     title: "English Literature Notes",
     description: "Comprehensive WAEC Literature notes and summaries.",
     type: "free",
     format: "pdf",
-    link: "resources/lit_notes.pdf",
+    link: "",
     preview: "",
   },
   {
-    title: "Chemistry Diagrams Pack",
+    title: "Chemistry WAEC past question",
     description: "High-quality Chemistry illustrations for revision.",
     type: "paid",
     format: "image",

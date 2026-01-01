@@ -3,219 +3,41 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aplus Tutors | Progress Tracker</title>
+<title>Aplus Tutors | Unified Progress Dashboard</title>
+
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
 
-<style>
-/* ===== Global Styles ===== */
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #f4f4f8;
-  color: #222;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background: linear-gradient(90deg, #8B0000, #a50000);
-  color: #fff;
-  padding: 25px 20px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-header h1 {
-  margin: 0;
-  font-size: 1.8rem;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-}
-
-.tabs {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 20px 15px;
-  gap: 10px;
-  justify-content: center;
-}
-
-.tab {
-  flex: 1 1 120px;
-  padding: 12px 10px;
-  background-color: #fff;
-  border: 2px solid #8B0000;
-  color: #8B0000;
-  font-weight: 600;
-  cursor: pointer;
-  border-radius: 8px;
-  text-align: center;
-  transition: all 0.3s;
-  min-width: 100px;
-}
-
-.tab:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.tab.active {
-  background-color: #8B0000;
-  color: #fff;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-
-.content-section {
-  display: none;
-  padding: 15px 15px 30px 15px;
-}
-
-.content-section.active {
-  display: block;
-}
-
-.summary-container {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-  justify-content: center;
-}
-
-.summary-card {
-  flex: 1 1 150px;
-  background: #fff;
-  border-left: 6px solid #8B0000;
-  padding: 15px;
-  border-radius: 10px;
-  text-align: center;
-  min-width: 140px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.summary-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-}
-
-.summary-card h3 {
-  margin: 0 0 8px 0;
-  font-size: 0.9rem;
-  color: #555;
-}
-
-.summary-card p {
-  margin: 0;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #222;
-}
-
-.table-wrapper {
-  width: 100%;
-  overflow-x: auto;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  margin-bottom: 25px;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-}
-
-table th, table td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: center;
-  font-size: 0.85rem;
-  word-wrap: break-word;
-}
-
-table th {
-  background-color: #8B0000;
-  color: #fff;
-  font-weight: 600;
-}
-
-table tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-table tr:hover {
-  background-color: #ffe6e6;
-}
-
-.chart-container {
-  margin-bottom: 30px;
-  width: 100%;
-  height: 300px;
-}
-
-.chart-container canvas {
-  width: 100% !important;
-  height: 100% !important;
-}
-
-footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 15px 10px;
-  gap: 10px;
-  background-color: #222;
-}
-
-footer button {
-  flex: 1 1 180px;
-  padding: 12px;
-  border: none;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-  color: #fff;
-  background-color: #8B0000;
-  transition: all 0.3s;
-}
-
-footer button:hover {
-  background-color: #a50000;
-}
-
-/* Responsive */
-@media(min-width: 768px){
-  .tab { flex: 1; }
-  .summary-card { flex: 1; }
-  footer button { flex: 1 auto; }
-}
-</style>
+<link rel="stylesheet" href="progress.css">
 </head>
 
 <body>
+
 <header>
-  <h1>📊 My Progress Tracker</h1>
-  <p style="color:#ffe6e6;margin-top:5px;">Keep track of your study, quizzes, and CBT performance</p>
+  <h1>📊 My Progress Dashboard</h1>
+  <p style="color:#ffe6e6;margin-top:5px;">
+    All your study, quizzes, and CBT records in one place
+  </p>
 </header>
 
 <main>
+
   <div class="tabs">
     <button class="tab active" onclick="showSection('study')">Study</button>
     <button class="tab" onclick="showSection('quiz')">Quizzes</button>
     <button class="tab" onclick="showSection('cbt')">CBT Tests</button>
   </div>
 
-  <!-- STUDY SECTION -->
+  <!-- ================= STUDY ================= -->
   <section id="studySection" class="content-section active">
-    <h2>Study Progress</h2>
+    <h2>Study Progress (Grouped by Subject)</h2>
+
     <div class="summary-container" id="studySummary"></div>
+
     <div class="table-wrapper">
       <table id="studyTable">
         <thead>
           <tr>
-            <th>Subject</th>
             <th>Topic</th>
             <th>Progress</th>
             <th>Status</th>
@@ -226,13 +48,16 @@ footer button:hover {
     </div>
   </section>
 
-  <!-- QUIZ SECTION -->
+  <!-- ================= QUIZ ================= -->
   <section id="quizSection" class="content-section">
-    <h2>Quiz Records</h2>
+    <h2>Quizzes</h2>
+
     <div class="summary-container" id="quizSummary"></div>
+
     <div class="chart-container">
       <canvas id="quizChart"></canvas>
     </div>
+
     <div class="table-wrapper">
       <table id="quizTable">
         <thead>
@@ -249,18 +74,21 @@ footer button:hover {
     </div>
   </section>
 
-  <!-- CBT SECTION -->
+  <!-- ================= CBT ================= -->
   <section id="cbtSection" class="content-section">
-    <h2>CBT Records</h2>
+    <h2>CBT Tests</h2>
+
     <div class="summary-container" id="cbtSummary"></div>
+
     <div class="chart-container">
       <canvas id="cbtChart"></canvas>
     </div>
+
     <div class="table-wrapper">
       <table id="cbtTable">
         <thead>
           <tr>
-            <th>Subject</th>
+            <th>Subject(s)</th>
             <th>Score</th>
             <th>Total</th>
             <th>Percentage</th>
@@ -271,170 +99,215 @@ footer button:hover {
       </table>
     </div>
   </section>
+
 </main>
 
 <footer>
   <button onclick="clearAllRecords()">Clear All Records</button>
   <button onclick="downloadPDF()">Download PDF</button>
+
+  <a href="dashboard.html"
+     style="flex:1 1 180px;padding:12px;border:none;border-radius:8px;
+            font-weight:bold;text-align:center;color:white;
+            background-color:#8B0000;text-decoration:none;
+            display:flex;justify-content:center;align-items:center;">
+    Back to Dashboard
+  </a>
 </footer>
 
-<!-- Include this in your Progress page, after studydata.js -->
+<!-- STUDY DATA -->
 <script src="studydata.js"></script>
+
 <script>
-// ===== Tabs =====
+/* ================= AUTH ================= */
+const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
+if (!loggedInUser) location.href = "student-login.html";
+
+const user = loggedInUser;
+const userDept = user?.department;
+
+/* ================= TABS ================= */
 function showSection(type){
-  document.querySelectorAll(".content-section").forEach(sec=>sec.classList.remove("active"));
-  document.querySelectorAll(".tab").forEach(tab=>tab.classList.remove("active"));
-  if(type==='study'){ 
-    document.getElementById("studySection").classList.add("active"); 
-    document.querySelectorAll(".tab")[0].classList.add("active"); 
-  }
-  if(type==='quiz'){ 
-    document.getElementById("quizSection").classList.add("active"); 
-    document.querySelectorAll(".tab")[1].classList.add("active"); 
-  }
-  if(type==='cbt'){ 
-    document.getElementById("cbtSection").classList.add("active"); 
-    document.querySelectorAll(".tab")[2].classList.add("active"); 
-  }
+  document.querySelectorAll(".content-section").forEach(s => s.classList.remove("active"));
+  document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+  document.getElementById(type + "Section").classList.add("active");
+  document.querySelectorAll(".tab")[["study","quiz","cbt"].indexOf(type)].classList.add("active");
 }
 
-// ===== User & Data =====
-const user = JSON.parse(localStorage.getItem("loggedInUser"));
-if(!user){ window.location.href="index.html"; }
-
-// Load study data from studydata.js or localStorage fallback
-const storedStudyData = window.studyData || JSON.parse(localStorage.getItem("studyData") || "{}");
-const studyDataKeys = Object.keys(storedStudyData);
-
+/* ================= STORAGE ================= */
 const completedTopics = JSON.parse(localStorage.getItem("aplus_completed_topics_v2") || "{}");
-const topicProgress = JSON.parse(localStorage.getItem("aplus_topic_progress_v2") || {});
+const topicProgress  = JSON.parse(localStorage.getItem("aplus_topic_progress_v2") || "{}");
 
-const quizResults = JSON.parse(localStorage.getItem("quizResults") || []).filter(q=>q.email===user.email);
-const cbtResults = JSON.parse(localStorage.getItem("cbtResults") || []).filter(c=>c.email===user.email);
+const quizzes = JSON.parse(localStorage.getItem("quizResults") || "[]")
+  .filter(q => !q.email || q.email === user.email);
 
-// ===== Render Study Table & Summary =====
+const cbts = JSON.parse(localStorage.getItem("cbtResults") || "[]")
+  .filter(c => !c.email || c.email === user.email);
+
+/* ================= STUDY (FIXED & MATCHES STUDY PAGE) ================= */
 function renderStudy() {
-  const studyTable = document.querySelector("#studyTable tbody");
-  studyTable.innerHTML = "";
+  const tbody = document.querySelector("#studyTable tbody");
+  tbody.innerHTML = "";
 
-  let totalTopics = 0, completedCount = 0;
+  let subjects = [];
+  let total = 0;
+  let completed = 0;
 
-  studyDataKeys.forEach(sub => {
-    const topics = storedStudyData[sub] || [];
-    topics.forEach(t => {
-      totalTopics++;
-      const key = `${sub}||${t.topic}`;
-      const done = completedTopics[key] || false;
-      if(done) completedCount++;
+  // 🔑 EXACT SAME LOGIC AS STUDY PAGE
+  if (userDept && window.departmentSubjects && departmentSubjects[userDept]) {
+    subjects = departmentSubjects[userDept].filter(
+      sub => Array.isArray(studyData[sub])
+    );
+  } else {
+    subjects = Object.keys(studyData);
+  }
 
-      studyTable.innerHTML += `<tr>
-        <td>${sub}</td>
-        <td>${t.topic}</td>
-        <td>${topicProgress[key] || 0}%</td>
-        <td>${done ? "✅ Completed" : "⏳ In Progress"}</td>
-      </tr>`;
-    });
-  });
-
-  const studySummary = document.getElementById("studySummary");
-  studySummary.innerHTML = `
-    <div class="summary-card"><h3>Total Topics</h3><p>${totalTopics}</p></div>
-    <div class="summary-card"><h3>Completed</h3><p>${completedCount}</p></div>
-    <div class="summary-card"><h3>Overall Progress</h3><p>${totalTopics ? Math.round((completedCount/totalTopics)*100)+"%" : "0%"}</p></div>
-  `;
-}
-
-// ===== Render Quiz & CBT Summary =====
-function renderSummary(records, containerId, type){
-  const container = document.getElementById(containerId);
-  if(records.length===0){ 
-    container.innerHTML="<p style='color:#666'>No records available yet.</p>"; 
+  if (!subjects.length) {
+    document.getElementById("studySummary").innerHTML =
+      "<p style='color:#666'>No study data available</p>";
     return;
   }
-  const percents = records.map(r=>parseFloat(r.percentage)||0);
-  const average = (percents.reduce((sum,p)=>sum+p,0)/records.length).toFixed(1);
-  const best = Math.max(...percents);
-  const worst = Math.min(...percents);
-  container.innerHTML=`
-    <div class="summary-card"><h3>Total ${type}s</h3><p>${records.length}</p></div>
-    <div class="summary-card"><h3>Average Score</h3><p>${average}%</p></div>
-    <div class="summary-card"><h3>Best</h3><p>${best}%</p></div>
-    <div class="summary-card"><h3>Lowest</h3><p>${worst}%</p></div>
+
+  subjects.forEach(subject => {
+    const topics = studyData[subject] || [];
+    if (!topics.length) return;
+
+    tbody.innerHTML += `
+      <tr class="subject-group-row">
+        <td colspan="3"><strong>${subject}</strong></td>
+      </tr>
+    `;
+
+    topics.forEach(t => {
+      const topicTitle = t.topic;
+      const key = `${subject}||${topicTitle}`;
+
+      total++;
+      if (completedTopics[key]) completed++;
+
+      tbody.innerHTML += `
+        <tr class="${completedTopics[key] ? 'completed-row' : ''}">
+          <td>${topicTitle}</td>
+          <td>${topicProgress[key] || 0}%</td>
+          <td>${completedTopics[key] ? '✅ Completed' : '⏳ In Progress'}</td>
+        </tr>
+      `;
+    });
+  });
+
+  document.getElementById("studySummary").innerHTML = `
+    <div class="summary-card"><h3>Total Topics</h3><p>${total}</p></div>
+    <div class="summary-card"><h3>Completed</h3><p>${completed}</p></div>
+    <div class="summary-card"><h3>Overall</h3>
+      <p>${total ? Math.round((completed / total) * 100) : 0}%</p>
+    </div>
   `;
 }
 
-// ===== Render Quiz Table =====
-function renderQuiz() {
-  const quizTable = document.querySelector("#quizTable tbody");
-  quizTable.innerHTML = "";
-  quizResults.forEach(q=>{
-    quizTable.innerHTML+=`<tr>
-      <td>${q.topic||q.title}</td>
-      <td>${q.score}</td>
-      <td>${q.total}</td>
-      <td>${q.percentage}%</td>
-      <td>${q.date}</td>
-    </tr>`;
-  });
-  renderSummary(quizResults,"quizSummary","Quiz");
+/* ================= QUIZ ================= */
+function renderQuiz(){
+  const tbody = document.querySelector("#quizTable tbody");
+  tbody.innerHTML = "";
 
-  if(quizResults.length>0){
-    new Chart(document.getElementById("quizChart"),{
-      type:"bar",
-      data:{
-        labels:quizResults.map(q=>q.topic||q.title),
-        datasets:[{
-          label:"Quiz %",
-          data:quizResults.map(q=>parseFloat(q.percentage)||0),
-          backgroundColor:"rgba(139,20,20,0.6)",
-          borderColor:"crimson",
-          borderWidth:1
-        }]
-      },
-      options:{ responsive:true, maintainAspectRatio:false, scales:{y:{beginAtZero:true,max:100}} }
-    });
-  }
+  quizzes.forEach(q => {
+    tbody.innerHTML += `
+      <tr>
+        <td>${q.topic || q.title}</td>
+        <td>${q.score}</td>
+        <td>${q.total}</td>
+        <td>${q.percentage}%</td>
+        <td>${q.date}</td>
+      </tr>
+    `;
+  });
+
+  renderSummary(quizzes, "quizSummary", "Quiz");
 }
 
-// ===== Render CBT Table =====
-function renderCBT() {
-  const cbtTable = document.querySelector("#cbtTable tbody");
-  cbtTable.innerHTML = "";
-  cbtResults.forEach(c=>{
-    cbtTable.innerHTML+=`<tr>
-      <td>${c.subject}</td>
-      <td>${c.score}</td>
-      <td>${c.total}</td>
-      <td>${c.percentage}%</td>
-      <td>${c.date}</td>
-    </tr>`;
-  });
-  renderSummary(cbtResults,"cbtSummary","CBT");
+/* ================= CBT ================= */
+function renderCBT(){
+  const tbody = document.querySelector("#cbtTable tbody");
+  tbody.innerHTML = "";
 
-  if(cbtResults.length>0){
-    new Chart(document.getElementById("cbtChart"),{
-      type:"line",
-      data:{
-        labels:cbtResults.map(c=>c.subject),
-        datasets:[{
-          label:"CBT %",
-          data:cbtResults.map(c=>parseFloat(c.percentage)||0),
-          borderColor:"crimson",
-          backgroundColor:"rgba(139,20,20,0.3)",
-          borderWidth:2,
-          tension:0.4,
-          fill:true
-        }]
-      },
-      options:{ responsive:true, maintainAspectRatio:false, scales:{y:{beginAtZero:true,max:100}} }
-    });
-  }
+  cbts.forEach(c => {
+    tbody.innerHTML += `
+      <tr>
+        <td>${c.subjects || "Unknown"}</td>
+        <td>${c.score}</td>
+        <td>${c.total}</td>
+        <td>${c.percentage}%</td>
+        <td>${c.date}</td>
+      </tr>
+    `;
+  });
+
+  renderSummary(cbts, "cbtSummary", "CBT");
 }
 
-// ===== Clear All Records =====
+/* ================= SUMMARY ================= */
+function renderSummary(records, containerId, type){
+  const box = document.getElementById(containerId);
+  if (!records.length) {
+    box.innerHTML = "<p style='color:#666'>No records yet</p>";
+    return;
+  }
+
+  const p = records.map(r => parseFloat(r.percentage) || 0);
+  box.innerHTML = `
+    <div class="summary-card"><h3>Total ${type}s</h3><p>${records.length}</p></div>
+    <div class="summary-card"><h3>Average</h3><p>${(p.reduce((a,b)=>a+b,0)/p.length).toFixed(1)}%</p></div>
+    <div class="summary-card"><h3>Best</h3><p>${Math.max(...p)}%</p></div>
+    <div class="summary-card"><h3>Lowest</h3><p>${Math.min(...p)}%</p></div>
+  `;
+}
+
+/* ================= CHARTS ================= */
+let quizChartInstance, cbtChartInstance;
+
+function renderQuizChart(){
+  if (!quizzes.length) return;
+  if (quizChartInstance) quizChartInstance.destroy();
+
+  quizChartInstance = new Chart(
+    document.getElementById("quizChart"),
+    {
+      type: "bar",
+      data: {
+        labels: quizzes.map((_, i) => `Quiz ${i + 1}`),
+        datasets: [{
+          label: "Percentage",
+          data: quizzes.map(q => q.percentage),
+          backgroundColor: "#8B0000"
+        }]
+      }
+    }
+  );
+}
+
+function renderCBTChart(){
+  if (!cbts.length) return;
+  if (cbtChartInstance) cbtChartInstance.destroy();
+
+  cbtChartInstance = new Chart(
+    document.getElementById("cbtChart"),
+    {
+      type: "line",
+      data: {
+        labels: cbts.map((_, i) => `CBT ${i + 1}`),
+        datasets: [{
+          label: "Percentage",
+          data: cbts.map(c => c.percentage),
+          borderColor: "#8B0000",
+          fill: false
+        }]
+      }
+    }
+  );
+}
+
+/* ================= CLEAR ================= */
 function clearAllRecords(){
-  if(confirm("Clear all records?")){
+  if (confirm("Clear all records?")) {
     localStorage.removeItem("quizResults");
     localStorage.removeItem("cbtResults");
     localStorage.removeItem("aplus_completed_topics_v2");
@@ -443,47 +316,50 @@ function clearAllRecords(){
   }
 }
 
-// ===== Download PDF =====
+/* ================= PDF ================= */
 function downloadPDF(){
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
-  doc.setFontSize(16);
-  doc.text(`Progress Report`, 10, 15);
-  let y=25;
-  doc.setFontSize(12);
 
-  // Study
-  doc.text("Study Progress",10,y); y+=6;
-  document.querySelectorAll("#studyTable tbody tr").forEach(r=>{
-    const cells = Array.from(r.children).map(c=>c.textContent).join(" | ");
-    doc.text(cells,10,y); y+=6;
-  });
-  y+=5;
+  let y = 15;
+  doc.setFontSize(18);
+  doc.text("Aplus Tutors – Progress Report", 10, y);
 
-  // Quiz
-  doc.text("Quiz Records",10,y); y+=6;
-  document.querySelectorAll("#quizTable tbody tr").forEach(r=>{
-    const cells = Array.from(r.children).map(c=>c.textContent).join(" | ");
-    doc.text(cells,10,y); y+=6;
-    if(y>270){ doc.addPage(); y=10; }
-  });
-  y+=5;
+  doc.setFontSize(11);
+  y += 10;
+  doc.text(`Student: ${user.fullName}`, 10, y);
+  y += 6;
+  doc.text(`Department: ${user.department}`, 10, y);
 
-  // CBT
-  doc.text("CBT Records",10,y); y+=6;
-  document.querySelectorAll("#cbtTable tbody tr").forEach(r=>{
-    const cells = Array.from(r.children).map(c=>c.textContent).join(" | ");
-    doc.text(cells,10,y); y+=6;
-    if(y>270){ doc.addPage(); y=10; }
-  });
+  function addTable(title, id){
+    y += 10;
+    doc.setFontSize(14);
+    doc.text(title, 10, y);
+    y += 6;
+    doc.setFontSize(10);
 
-  doc.save(`Progress_Report.pdf`);
+    document.querySelectorAll(`#${id} tbody tr`).forEach(r => {
+      const text = Array.from(r.children).map(c => c.textContent).join(" | ");
+      doc.text(text, 10, y);
+      y += 6;
+      if (y > 280) { doc.addPage(); y = 15; }
+    });
+  }
+
+  addTable("Study Progress", "studyTable");
+  addTable("Quiz Records", "quizTable");
+  addTable("CBT Records", "cbtTable");
+
+  doc.save("Aplus_Progress_Report.pdf");
 }
 
-// ===== INIT =====
+/* ================= INIT ================= */
 renderStudy();
 renderQuiz();
 renderCBT();
+renderQuizChart();
+renderCBTChart();
 </script>
+
 </body>
 </html>

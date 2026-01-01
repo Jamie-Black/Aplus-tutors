@@ -1157,432 +1157,388 @@ const departmentSubjects = {
     ],
     
     English: [
-      {
-        topic: "Grammar",
-        questions: [
-  {
-    q: "Which of the following sentences is correct?",
-    options: ["He go to school everyday.", "He goes to school every day.", "He going to school every day.", "He gone to school every day."],
-    answer: "He goes to school every day."
-  },
-  {
-    q: "Identify the verb in this sentence: 'The boy ran quickly.'",
-    options: ["boy", "ran", "quickly", "the"],
-    answer: "ran"
-  },
-  {
-    q: "Choose the correct sentence:",
-    options: ["She don’t like apples.", "She doesn’t likes apples.", "She doesn’t like apples.", "She not like apples."],
-    answer: "She doesn’t like apples."
-  },
-  {
-    q: "What part of speech is the word 'beautiful'?",
-    options: ["Noun", "Adjective", "Verb", "Adverb"],
-    answer: "Adjective"
-  },
-  {
-    q: "Choose the correct form: 'Neither the teacher nor the students ___ happy.'",
-    options: ["is", "are", "were", "be"],
-    answer: "are"
-  },
-  {
-    q: "Identify the tense: 'I have been studying for hours.'",
-    options: ["Simple present", "Present perfect continuous", "Past perfect", "Past continuous"],
-    answer: "Present perfect continuous"
-  },
-  {
-    q: "Choose the correct pronoun: 'Everyone must do ___ best.'",
-    options: ["their", "his or her", "his", "its"],
-    answer: "his or her"
-  },
-  {
-    q: "Select the correct form: 'She sings better than ___.’",
-    options: ["me", "I", "myself", "mine"],
-    answer: "I"
-  },
-  {
-    q: "Which is a compound sentence?",
-    options: ["He came, but she left.", "Although he came, she left.", "He came after she left.", "He came when she left."],
-    answer: "He came, but she left."
-  },
-  {
-    q: "Identify the correct plural: 'Crisis'",
-    options: ["Crisises", "Crisis", "Crises", "Crisess"],
-    answer: "Crises"
-  },
-  {
-    q: "Which is a question tag for: 'You are coming,'",
-    options: ["aren’t you?", "isn’t you?", "don’t you?", "won’t you?"],
-    answer: "aren’t you?"
-  },
-  {
-    q: "Choose the correct sentence:",
-    options: ["She has eat her food.", "She have eaten her food.", "She has eaten her food.", "She has eating her food."],
-    answer: "She has eaten her food."
-  },
-  {
-    q: "Which sentence is in passive voice?",
-    options: ["The boy kicked the ball.", "The ball was kicked by the boy.", "The boy was kicking the ball.", "The ball kicks the boy."],
-    answer: "The ball was kicked by the boy."
-  },
-  {
-    q: "Identify the adverb in: 'He spoke softly to her.'",
-    options: ["He", "spoke", "softly", "her"],
-    answer: "softly"
-  },
-  {
-    q: "Choose the correct conjunction: 'She failed ___ she did not study.'",
-    options: ["because", "although", "so", "if"],
-    answer: "because"
-  },
-  {
-    q: "Choose the correct article: '___ honest man deserves respect.'",
-    options: ["A", "An", "The", "No article"],
-    answer: "An"
-  },
-  {
-    q: "Pick the correct preposition: 'He is afraid ___ snakes.'",
-    options: ["from", "of", "by", "with"],
-    answer: "of"
-  },
-  {
-    q: "Select the correct comparative form: 'good'",
-    options: ["gooder", "more good", "better", "best"],
-    answer: "better"
-  },
-  {
-    q: "Choose the correct phrase: 'He was accused ___ theft.'",
-    options: ["of", "for", "with", "by"],
-    answer: "of"
-  },
-  {
-    q: "Which is the correct order: adjective sequence?",
-    options: ["A red small car", "A small red car", "A car small red", "A car red small"],
-    answer: "A small red car"
-  }
-    ]
-      },
       
-      {
-        topic: "Vocabulary",
-        questions: [
-  {
-    q: "Choose the word that means the same as 'generous':",
-    options: ["stingy", "kind", "cruel", "selfish"],
-    answer: "kind"
+//part of speech   
+{ 
+  topic: "Part of speech", 
+  questions: [
+{ 
+  q: "Identify the part of speech of the underlined word: The committee issued a <u>comprehensive</u> report on the crisis.",
+  options: ["Adjective", "Adverb", "Noun", "Verb"],
+  answer: "Adjective"
   },
-  {
-    q: "Select the opposite of 'victory':",
-    options: ["win", "battle", "defeat", "success"],
-    answer: "defeat"
+{ 
+  q: "State the type of verb: The new policy <u>appears</u> ineffective.", 
+  options: ["Action", "Linking", "Auxiliary", "Transitive"], 
+  answer: "Linking" 
+  
+},
+{ 
+  q: "Identify the type of adjective: The <u>first</u> batch of candidates has arrived.", 
+  options: ["Numeral", "Quantitative", "Descriptive", "Demonstrative"], 
+  answer: "Numeral" 
+  
+},
+{ 
+  q: "Identify the type of adverb: The system failed <u>abruptly</u> during the trial.", 
+  options: ["Manner", "Time", "Place", "Frequency"],
+  answer: "Manner" 
+  
+},
+{ 
+  q: "What type of conjunction is used? Not only was he late, but he was also unprepared.", 
+  options: ["Coordinating", "Subordinating", "Correlative", "None of the above"], 
+  answer: "Correlative"
   },
-  {
-    q: "Which of the following is a synonym of 'diligent'?",
-    options: ["lazy", "hardworking", "careless", "tired"],
-    answer: "hardworking"
+{ 
+  q: "Identify the preposition and explain its function: The files were stored <u>within</u> the restricted archive.", 
+  options: ["Within (showing location)", "Within (showing time)", "Within (showing manner)", "Within (showing purpose)"], 
+  answer: "Within (showing location)" 
+  
+},
+{
+  q: "Rewrite the sentence and replace the noun with a suitable pronoun: The female investigator interviewed the suspects.", 
+  options: ["He interviewed them.", "She interviewed them.", "They interviewed them.", "It interviewed them."], 
+  answer: "He interviewed them."
   },
-  {
-    q: "The word 'benevolent' means:",
-    options: ["kind-hearted", "angry", "selfish", "rude"],
-    answer: "kind-hearted"
+{ 
+  q: "Identify the part of speech of the underlined word: She walked <u>beneath</u> the collapsed structure with extreme caution.", 
+  options: ["Preposition", "Adverb", "Conjunction", "Interjection"], 
+  answer: "Preposition" 
+  
+},
+{
+  q: "Identify the type of noun: The <u>integrity</u> of the team is crucial to their success.", 
+  options: ["Abstract", "Common", "Proper", "Collective"], 
+  answer: "Abstract" 
+  
+},
+{ 
+  q: "Classify the verb: The manager <u>has</u> approved the proposal.", 
+  options: ["Action", "Linking", "Auxiliary", "Transitive"], 
+  answer: "Auxiliary" 
+  
+},
+{ 
+  q: "Identify the type of adjective: The <u>rigorous</u> analysis revealed several flaws.", 
+  options: ["Descriptive", "Quantitative", "Demonstrative", "Possessive"],
+  answer: "Descriptive" 
+  
+},
+{ 
+  q: "Identify the type of adverb: The team worked <u>efficiently</u> to meet the deadline.", 
+  options: ["Manner", "Time", "Place", "Frequency"], 
+  answer: "Manner" 
+  
+},
+{ 
+  q: "What type of conjunction is used? Although it was raining, the game continued.",
+  options: ["Coordinating", "Subordinating", "Correlative", "None of the above"], 
+  answer: "Subordinating" 
+  
+},
+{ 
+  q: "Identify the preposition: The hotel is located <u>near</u> the city centre.", 
+  options: ["Near (showing location)", "Near (showing time)", "Near (showing manner)", "Near (showing purpose)"],
+  answer: "Near (showing location)"
+  
+},
+{ 
+  q: "Identify the part of speech of the underlined word: The <u>volatile</u> reaction caused widespread damage.", 
+  options: ["Adjective", "Adverb", "Noun", "Verb"], 
+  answer: "Adjective"
   },
-  {
-    q: "Choose the antonym of 'ancient':",
-    options: ["modern", "old", "historic", "aged"],
-    answer: "modern"
-  },
-  {
-    q: "Pick the synonym of 'fragile':",
-    options: ["strong", "delicate", "tough", "solid"],
-    answer: "delicate"
-  },
-  {
-    q: "Select the correct meaning of 'conceal':",
-    options: ["reveal", "hide", "expose", "show"],
-    answer: "hide"
-  },
-  {
-    q: "The opposite of 'temporary' is:",
-    options: ["brief", "permanent", "short", "lasting"],
-    answer: "permanent"
-  },
-  {
-    q: "Find the synonym of 'courageous':",
-    options: ["fearful", "brave", "timid", "weak"],
-    answer: "brave"
-  },
-  {
-    q: "Which word means 'to forgive completely'?",
-    options: ["pardon", "ignore", "condemn", "punish"],
-    answer: "pardon"
-  },
-  {
-    q: "Choose the correct opposite of 'scarce':",
-    options: ["rare", "plenty", "few", "limited"],
-    answer: "plenty"
-  },
-  {
-    q: "Pick the word that means 'looking forward to something':",
-    options: ["anticipation", "regret", "surprise", "fear"],
-    answer: "anticipation"
-  },
-  {
-    q: "The opposite of 'humble' is:",
-    options: ["modest", "proud", "quiet", "gentle"],
-    answer: "proud"
-  },
-  {
-    q: "Choose the synonym of 'assist':",
-    options: ["help", "hinder", "delay", "oppose"],
-    answer: "help"
-  },
-  {
-    q: "Select the antonym of 'expand':",
-    options: ["increase", "enlarge", "contract", "stretch"],
-    answer: "contract"
-  },
-  {
-    q: "Which of these is the synonym of 'sincere'?",
-    options: ["false", "genuine", "fake", "deceptive"],
-    answer: "genuine"
-  },
-  {
-    q: "Pick the antonym of 'joyful':",
-    options: ["happy", "sad", "excited", "cheerful"],
-    answer: "sad"
-  },
-  {
-    q: "The word 'vivid' means:",
-    options: ["clear", "dark", "dim", "blurred"],
-    answer: "clear"
-  },
-  {
-    q: "Select the opposite of 'polite':",
-    options: ["rude", "respectful", "courteous", "gentle"],
-    answer: "rude"
-  },
-  {
-    q: "Choose the synonym of 'terminate':",
-    options: ["begin", "start", "end", "continue"],
-    answer: "end"
-  }
-    ]
-      },
-      
-      {
-       topic: "Comprehension",
-       questions: [
-      {
-    q: "The main idea of a passage is usually found in the:",
-    options: ["introduction", "middle", "conclusion", "title"],
-    answer: "introduction"
-  },
-  {
-    q: "The writer’s attitude toward a subject is called the:",
-    options: ["theme", "tone", "mood", "style"],
-    answer: "tone"
-  },
-  {
-    q: "A summary should contain:",
-    options: ["all examples", "only main points", "every detail", "figures of speech"],
-    answer: "only main points"
-  },
-  {
-    q: "What should you do first before answering comprehension questions?",
-    options: ["Read the questions first", "Read the passage carefully", "Guess the answers", "Highlight random words"],
-    answer: "Read the passage carefully"
-  },
-  {
-    q: "If a passage describes a sad event, its mood is likely:",
-    options: ["happy", "cheerful", "sorrowful", "joyous"],
-    answer: "sorrowful"
-  },
-  {
-    q: "The purpose of a comprehension passage may be to:",
-    options: ["entertain", "inform", "persuade", "all of the above"],
-    answer: "all of the above"
-  },
-  {
-    q: "What is implied meaning?",
-    options: ["Meaning stated directly", "Hidden or suggested meaning", "The title of a passage", "Literal meaning"],
-    answer: "Hidden or suggested meaning"
-  },
-  {
-    q: "Which of these best describes 'context clues'?",
-    options: ["Hints around an unknown word", "Definition of a word", "A dictionary meaning", "Author’s opinion"],
-    answer: "Hints around an unknown word"
-  },
-  {
-    q: "In a comprehension, the 'author’s purpose' refers to:",
-    options: ["the length of the text", "why the author wrote it", "the main character", "the summary"],
-    answer: "why the author wrote it"
-  },
-  {
-    q: "An inference means:",
-    options: ["guessing without evidence", "a logical conclusion based on facts", "copying the text", "summarizing the passage"],
-    answer: "a logical conclusion based on facts"
-  },
-  {
-    q: "When a passage compares two things, it is showing:",
-    options: ["contrast", "similarity", "opposition", "difference"],
-    answer: "similarity"
-  },
-  {
-    q: "The word ‘explicit’ means:",
-    options: ["clearly stated", "hidden", "complex", "figurative"],
-    answer: "clearly stated"
-  },
-  {
-    q: "‘The boy was as brave as a lion’ is an example of:",
-    options: ["metaphor", "simile", "hyperbole", "personification"],
-    answer: "simile"
-  },
-  {
-    q: "A narrative passage mainly:",
-    options: ["describes", "tells a story", "explains", "argues"],
-    answer: "tells a story"
-  },
-  {
-    q: "The word ‘summary’ means:",
-    options: ["to lengthen a text", "to restate the main ideas briefly", "to explain every word", "to rewrite in detail"],
-    answer: "to restate the main ideas briefly"
-  },
-  {
-    q: "If the author uses emotional words, he aims to:",
-    options: ["entertain", "persuade", "inform", "summarize"],
-    answer: "persuade"
-  },
-  {
-    q: "The phrase ‘according to the passage’ means:",
-    options: ["your opinion", "writer’s words", "title of the story", "summary only"],
-    answer: "writer’s words"
-  },
-  {
-    q: "Which of these is NOT a comprehension skill?",
-    options: ["Summarizing", "Memorizing", "Inferring", "Predicting"],
-    answer: "Memorizing"
-  },
-  {
-    q: "When you restate information in your own words, you:",
-    options: ["summarize", "paraphrase", "quote", "copy"],
-    answer: "paraphrase"
-  },
-  {
-    q: "A passage that provides facts and figures aims to:",
-    options: ["entertain", "inform", "persuade", "criticize"],
-    answer: "inform"
-  }
-    ]
-       },
-       
-      {
-       topic: "Lexis and Structure",
-       questions: [
-  {
-    q: "Choose the correct word: 'He congratulated me ___ my success.'",
-    options: ["for", "on", "about", "of"],
-    answer: "on"
-  },
-  {
-    q: "Select the correct option: 'Neither Ade nor Bola ___ gone.'",
-    options: ["have", "has", "is", "are"],
-    answer: "has"
-  },
-  {
-    q: "Choose the correct form: 'She prefers tea ___ coffee.'",
-    options: ["than", "to", "from", "over"],
-    answer: "to"
-  },
-  {
-    q: "Pick the correct option: 'The man ___ car was stolen is here.'",
-    options: ["whose", "who", "which", "that"],
-    answer: "whose"
-  },
-  {
-    q: "Fill in the blank: 'The students were divided ___ groups.'",
-    options: ["into", "in", "to", "among"],
-    answer: "into"
-  },
-  {
-    q: "Choose the correct structure: 'It’s high time you ___ home.'",
-    options: ["go", "goes", "went", "going"],
-    answer: "went"
-  },
-  {
-    q: "Pick the correct preposition: 'He depends ___ his father.'",
-    options: ["on", "in", "to", "by"],
-    answer: "on"
-  },
-  {
-    q: "Choose the right phrase: 'No sooner had he arrived ___ it began to rain.'",
-    options: ["when", "than", "that", "then"],
-    answer: "than"
-  },
-  {
-    q: "Complete the sentence: 'He did it ___ purpose.'",
-    options: ["in", "with", "on", "by"],
-    answer: "on"
-  },
-  {
-    q: "Select the correct word: 'He is used ___ sleeping early.'",
-    options: ["to", "for", "with", "at"],
-    answer: "to"
-  },
-  {
-    q: "Fill in the blank: 'She is fond ___ dancing.'",
-    options: ["of", "for", "with", "to"],
-    answer: "of"
-  },
-  {
-    q: "Choose the right word: 'He is capable ___ doing better.'",
-    options: ["to", "for", "of", "in"],
-    answer: "of"
-  },
-  {
-    q: "Pick the correct phrase: 'He was accused ___ stealing.'",
-    options: ["of", "for", "by", "with"],
-    answer: "of"
-  },
-  {
-    q: "Choose the right option: 'She insisted ___ going.'",
-    options: ["to", "on", "for", "with"],
-    answer: "on"
-  },
-  {
-    q: "Select the correct expression: 'He has no interest ___ politics.'",
-    options: ["on", "in", "to", "for"],
-    answer: "in"
-  },
-  {
-    q: "Choose the best structure: 'He apologized ___ being rude.'",
-    options: ["for", "of", "with", "about"],
-    answer: "for"
-  },
-  {
-    q: "Pick the correct usage: 'They arrived ___ the airport on time.'",
-    options: ["at", "in", "to", "by"],
-    answer: "at"
-  },
-  {
-    q: "Select the right phrase: 'He congratulated her ___ her wedding.'",
-    options: ["at", "on", "in", "about"],
-    answer: "on"
-  },
-  {
-    q: "Choose the correct expression: 'She succeeded ___ convincing them.'",
-    options: ["in", "at", "to", "on"],
-    answer: "in"
-  },
-  {
-    q: "Pick the right word: 'The boy was accused ___ theft.'",
-    options: ["of", "at", "to", "by"],
-    answer: "of"
-  }
-    ]
-       }
+{ 
+  q: "Classify the verb: The new employee <u>seems</u> confident.", 
+  options: ["Action", "Linking", "Auxiliary", "Transitive"], 
+  answer: "Linking" 
+  
+},
+{ 
+  q: "Identify the type of pronoun: <u>Who</u> is responsible for the project?", 
+  options: ["Interrogative", "Demonstrative", "Relative", "Indefinite"], 
+  answer: "Interrogative" 
+  
+},
+{ 
+  q: "Identify the type of interjection: <u>Wow</u>, what a beautiful view!", 
+  options: ["Joy", "Sorrow", "Surprise", "None of the above"], 
+  answer: "Surprise" 
+  
+},
+{ 
+  q: "Identify the type of pronoun: <u>Who</u> will oversee the project now that the co-ordinator has resigned?", 
+  options: ["Interrogative", "Demonstrative", "Relative", "Indefinite"],
+  answer: "Interrogative" 
+  
+},
+{ 
+  q: "Identify the verb in this sentence: What a beautiful view i had of the tower!",
+  options: ["view", "had", "tower", "beautiful"], 
+  answer: "had" 
+  
+}
+] },
+
+//tenses
+
+{ topic: "Tenses", questions: [
+{ q: "Identify the tense and aspect of the sentence: The research team _______ (work) on the project for the past three years.", options: ["has been working", "have been working", "had been working", "will have been working"], answer: "has been working" },
+{ q: "Correct the tense error: By the time I arrived, they _______ (finish) the meeting.", options: ["finished", "had finished", "have finished", "will finish"], answer: "had finished" },
+{ q: "Fill in the blank with the correct form of the verb: She _______ (study) at the university for five years by next year.", options: ["will have been studying", "will study", "will be studying", "studies"], answer: "will have been studying" },
+{ q: "Identify the tense and aspect: The company _______ (announce) a major restructuring plan last month.", options: ["announced", "has announced", "had announced", "announces"], answer: "announced" },
+{ q: "Change the sentence to future perfect: They will complete the project by the end of the week.", options: ["They will have completed the project by the end of the week.", "They will be completing the project by the end of the week.", "They will complete the project by the end of the week.", "They have completed the project by the end of the week."], answer: "They will have completed the project by the end of the week." },
+{ q: "Identify the tense error and correct it: She go to the library every day.", options: ["goes", "went", "going", "gone"], answer: "goes" },
+{ q: "Fill in the blank with the correct form of the verb: By next year, they _______ (work) together for ten years.", options: ["will have been working", "will work", "will be working", "have been working"], answer: "will have been working" },
+{ q: "Identify the tense and aspect: The manager _______ (be) in the office since morning.", options: ["has been", "is", "was", "had been"], answer: "has been" },
+{ q: "Correct the tense error: I _______ (finish) my homework before I went to bed.", options: ["finished", "had finished", "have finished", "will finish"], answer: "had finished" },
+{ q: "Change the sentence to past perfect continuous: They were working on the project when the power went out.", options: ["They had been working on the project when the power went out.", "They have been working on the project when the power went out.", "They will have been working on the project when the power went out.", "They are working on the project when the power went out."], answer: "They had been working on the project when the power went out." },
+{ q: "Identify the tense and aspect: By the time she arrives, we _______ (finish) the report.", options: ["will have finished", "will finish", "finish", "have finished"], answer: "will have finished" },
+{ q: "Fill in the blank with the correct form of the verb: The company _______ (operate) in Nigeria for over 20 years.", options: ["has been operating", "operates", "is operating", "will operate"], answer: "has been operating" },
+{ q: "Correct the tense error: She have been studying English for five years.", options: ["has been studying", "have studied", "is studying", "studies"], answer: "has been studying" },
+{ q: "Identify the tense and aspect: They _______ (live) in Lagos for ten years before they moved to Abuja.", options: ["had lived", "lived", "have lived", "were living"], answer: "had lived" },
+{ q: "Change the sentence to future continuous: She will be writing the report tomorrow.", options: ["She will be writing the report tomorrow.", "She is writing the report tomorrow.", "She writes the report tomorrow.", "She will write the report tomorrow."], answer: "She will be writing the report tomorrow." },
+{ q: "Identify the tense error and correct it: He _______ (go) to the store yesterday.", options: ["went", "goes", "going", "gone"], answer: "went" },
+{ q: "Fill in the blank with the correct form of the verb: By next month, I _______ (study) English for three years.", options: ["will have been studying", "will study", "will be studying", "study"], answer: "will have been studying" },
+{ q: "Identify the tense and aspect: The students _______ (write) their exams when the fire alarm went off.", options: ["were writing", "wrote", "have written", "had written"], answer: "were writing" },
+{ q: "Correct the tense error: She _______ (be) a teacher for ten years.", options: ["has been", "is", "was", "had been"], answer: "has been" },
+{ q: "Change the sentence to present perfect: They started the project two weeks ago.", options: ["They have started the project two weeks ago.", "They started the project two weeks ago.", "They have been working on the project for two weeks.", "They are working on the project for two weeks."], answer: "They have been working on the project for two weeks." }
+] },
+
+//sentence structure
+
+{ topic: "Sentence Structure", questions: [
+{ q: "Identify the main clause and subordinate clause: She left the laboratory <u>because the chemicals became unstable</u>.", options: ["Main: She left the laboratory, Subordinate: because the chemicals became unstable", "Main: because the chemicals became unstable, Subordinate: She left the laboratory", "Main: She left, Subordinate: because the chemicals became unstable", "Main: the chemicals became unstable, Subordinate: She left the laboratory"], answer: "Main: She left the laboratory, Subordinate: because the chemicals became unstable" },
+{ q: "Rewrite this fragment as a complete sentence: <u>While the meeting was in progress</u>.", options: ["While the meeting was in progress, the chairman arrived.", "The meeting was in progress.", "While the meeting was happening.", "The meeting started while the progress was ongoing."], answer: "While the meeting was in progress, the chairman arrived." },
+{ q: "Identify the type of sentence: The students revised for hours, but they still felt unprepared.", options: ["Simple", "Compound", "Complex", "Compound-Complex"], answer: "Compound" },
+{ q: "Break this sentence into phrase types: The newly elected president addressed the nation in an emotional tone.", options: ["The newly elected president (Noun Phrase), addressed (Verb Phrase), the nation (Noun Phrase), in an emotional tone (Prepositional Phrase)", "The newly elected president (Noun Phrase), addressed the nation (Verb Phrase), in an emotional tone (Adverbial Phrase)", "The newly elected president (Noun Phrase), addressed (Verb Phrase), the nation (Noun Phrase), in an emotional tone (Adjective Phrase)", "The newly elected president (Noun Phrase), addressed the nation (Verb Phrase), in an emotional tone (Prepositional Phrase)"], answer: "The newly elected president (Noun Phrase), addressed (Verb Phrase), the nation (Noun Phrase), in an emotional tone (Prepositional Phrase)" },
+{ q: "Correct the run-on: The generator failed the lights went out immediately.", options: ["The generator failed, the lights went out immediately.", "The generator failed; the lights went out immediately.", "The generator failed, and the lights went out immediately.", "The generator failed. The lights went out immediately."], answer: "The generator failed; the lights went out immediately." },
+{ q: "Identify the noun clause: <i>What he observed during the experiment</u> shocked everyone.", options: ["What he observed during the experiment", "shocked everyone", "during the experiment", "he observed"], answer: "What he observed during the experiment" },
+{ q: "Classify the sentence: Although the child was exhausted, he continued reading, and he eventually finished the novel.", options: ["Simple", "Compound", "Complex", "Compound-Complex"], answer: "Compound-Complex" },
+{ q: "Identify the adjective clause in the sentence: The officer <u>who investigated the case</u> submitted the final report.", options: ["who investigated the case", "The officer", "submitted the final report", "The officer who investigated the case"], answer: "who investigated the case" },
+{ q: "Rewrite using a compound sentence: The rain stopped. We continued the match.", options: ["The rain stopped, and we continued the match.", "The rain stopped, so we continued the match.", "The rain stopped; we continued the match.", "The rain stopped, but we continued the match."], answer: "The rain stopped, and we continued the match." },
+{ q: "Point out the misplaced modifier and correct it: She almost drove her children to school every day.", options: ["She drove her children to school almost every day.", "She almost drove her children to school.", "She drove almost her children to school every day.", "She drove her children almost to school every day."], answer: "She drove her children to school almost every day." },
+{ q: "Identify the type of sentence: The sun rises in the east.", options: ["Simple", "Compound", "Complex", "Compound-Complex"], answer: "Simple" },
+{ q: "Identify the phrase type: <u>Under the bridge</u> is a good place to hide.", options: ["Noun Phrase", "Verb Phrase", "Prepositional Phrase", "Adverbial Phrase"], answer: "Prepositional Phrase" },
+{ q: "Correct the comma splice: The project was difficult, we completed it.", options: ["The project was difficult; we completed it.", "The project was difficult, but we completed it.", "The project was difficult. We completed it.", "The project was difficult, and we completed it."], answer: "The project was difficult, but we completed it." },
+{ q: "Identify the subordinate clause: I will go to the party <u>if I finish my work</u>.", options: ["if I finish my work", "I will go to the party", "I finish my work", "to the party"], answer: "if I finish my work" },
+{ q: "Classify the sentence: The teacher asked the students to write an essay.", options: ["Simple", "Compound", "Complex", "Compound-Complex"], answer: "Simple" },
+{ q: "Identify the type of phrase: <u>Running quickly</u>, he caught the bus.", options: ["Noun Phrase", "Verb Phrase", "Adverbial Phrase", "Participial Phrase"], answer: "Participial Phrase" },
+{ q: "Correct the sentence fragment: <u>Because I forgot my phone</u>.", options: ["Because I forgot my phone, I couldn't call you.", "I forgot my phone.", "Because I forgot.", "I forgot because of my phone."], answer: "Because I forgot my phone, I couldn't call you." },
+{ q: "Identify the main clause: <u>Although she was tired</u>, she continued working.", options: ["Although she was tired", "she continued working", "she was tired", "she continued"], answer: "she continued working" },
+{ q: "Rewrite the sentence using a complex sentence: The students were happy. They received their results.", options: ["The students were happy because they received their results.", "The students were happy, and they received their results.", "The students were happy; they received their results.", "The students were happy, but they received their results."], answer: "The students were happy because they received their results." },
+{ q: "Identify the type of sentence: The company has offices in Lagos and Abuja.", options: ["Simple", "Compound", "Complex", "Compound-Complex"], answer: "Simple" }
+] },
+
+//concord
+
+{ topic: "Concord", 
+questions: [
+{ 
+  q: "Choose the correct verb: Neither the engineers nor the contractor _______ available.", 
+  options: ["was", "were", "is", "are"], 
+  answer: "was" 
+  
+},
+{ 
+  q: "Identify the subject: There are several factors affecting the result.",
+  options: ["There", "factors", "result", "several factors"], 
+  answer: "several factors" 
+  
+},
+{ 
+  q: "Correct the error: The list of candidates <u>were</u> displayed.", 
+  options: ["was", "were", "is", "are"], 
+  answer: "was" 
+  
+},
+{ 
+  q: "Select the correct verb: Each of the students _______ submitted.", options: ["has", "have", "is", "are"], answer: "has" 
+  
+},
+{ 
+  q: "Rewrite correctly: The committee are divided in their opinion.", 
+  options: ["The committee is divided in its opinion.", "The committee are divided in its opinion.", "The committee is divided in their opinion.", "The committee are divided in opinion."], 
+  answer: "The committee is divided in its opinion." 
+  
+},
+{ 
+  q: "Which option best completes: The equipment _______ damaged.", 
+  options: ["were", "was", "been", "have"],
+  answer: "were" 
+  
+},
+{ 
+  q: "Choose the correct option: Twenty litres of fuel _______ enough.",
+  options: ["is", "are", "was", "were"], 
+  answer: "is" 
+  
+},
+{ 
+  q: "Complete: Either Ade or his friends _______ wrong.", 
+  options: ["is", "are", "was", "were"], 
+  answer: "are" 
+
+},
+{ 
+  q: "State why this is wrong: The United States <u>are</u> powerful.", 
+  options: ["The United States is a singular noun", "The United States is a plural noun", "The United States are powerful is correct", "The United States is always plural"],
+  answer: "The United States is a singular noun"
+  
+},
+{ 
+  q: "Supply the correct verb: All of the water _______ polluted.", 
+  options: ["is", "are", "was", "were"], 
+  answer: "is" 
+  
+},
+{ 
+  q: "Identify the correct sentence:", 
+  options: ["The team are playing well.", "The team is playing well.", "The team play well.", "The team playing well."],
+  answer: "The team is playing well." 
+  
+},
+{
+  q: "Choose the correct verb: The news _______ encouraging.", 
+  options: ["is", "are", "was", "were"], 
+  answer: "is" 
+  
+},
+{ 
+  q: "Correct the error: The scissors <u>is</u> sharp.", 
+  options: ["is", "are", "was", "were"], 
+  answer: "are" 
+  
+},
+{ q: "Select the correct verb: The manager, along with the employees, <u>(is/are)</u> attending the meeting.", options: ["is", "are", "was", "were"], answer: "is" },
+{ q: "Identify the agreement error: The majority of the students <u>was</u> present.", options: ["was", "were", "is", "are"], answer: "was" },
+{ q: "Choose the correct option: <u>(Has/Have)</u> either of the candidates been informed?", options: ["Has", "Have", "Is", "Are"], answer: "Has" },
+{ q: "Correct this: The police <u>is</u> investigating the case.", options: ["is", "are", "was", "were"], answer: "are" },
+{ q: "Identify the subject-verb agreement: The committee <u>(has/have)</u> made a decision.", options: ["has", "have", "is", "are"], answer: "has" },
+{ q: "Select the correct verb: Mathematics <u>(is/are)</u> a difficult subject.", options: ["is", "are", "was", "were"], answer: "is" },
+{ q: "Rewrite correctly: The staff are attending the workshop.", options: ["The staff is attending the workshop.", "The staff are attending the workshop.", "The staff attends the workshop.", "The staff attended the workshop."], answer: "The staff are attending the workshop." }
+] },
+
+//active and passive
+
+{ topic: "Active and Passive Voice", questions: [
+{ q: "Change to passive: The drivers obey the rules.", options: ["The rules are obeyed by the drivers.", "The rules were obeyed by the drivers.", "The rules are being obeyed by the drivers.", "The rules will be obeyed by the drivers."], answer: "The rules are obeyed by the drivers." },
+{ q: "Rewrite in active: The food was eaten by the children.", options: ["The children ate the food.", "The children eat the food.", "The children are eating the food.", "The children will eat the food."], answer: "The children ate the food." },
+{ q: "Change to passive: They are building a house.", options: ["A house is being built by them.", "A house was built by them.", "A house is built by them.", "A house will be built by them."], answer: "A house is being built by them." },
+{ q: "Identify the voice: The case will be handled by the judge.", options: ["Active", "Passive", "Both", "None"], answer: "Passive" },
+{ q: "Change to active: The prize was awarded to him.", options: ["They awarded him the prize.", "They award him the prize.", "They are awarding him the prize.", "They will award him the prize."], answer: "They awarded him the prize." },
+{ q: "Rewrite in passive: Someone stole my bag.", options: ["My bag was stolen.", "My bag is stolen.", "My bag is being stolen.", "My bag will be stolen."], answer: "My bag was stolen." },
+{ q: "Correct this: The work is being do by them.", options: ["The work is being done by them.", "The work is being did by them.", "The work is being doing by them.", "The work is being does by them."], answer: "The work is being done by them." },
+{ q: "Change to active: The announcement will be made soon.", options: ["They will make the announcement soon.", "They make the announcement soon.", "They are making the announcement soon.", "They made the announcement soon."], answer: "They will make the announcement soon." },
+{ q: "Rewrite correctly: The letter <u>wrote</u> by Ade.", options: ["The letter was wrote by Ade.", "The letter was written by Ade.", "The letter is written by Ade.", "The letter will be written by Ade."], answer: "The letter was written by Ade." },
+{ q: "Change to passive: She has finished the assignment.", options: ["The assignment has been finished by her.", "The assignment was finished by her.", "The assignment is finished by her.", "The assignment will be finished by her."], answer: "The assignment has been finished by her." },
+{ q: "Identify the voice: The new policy has been implemented by the management.", options: ["Active", "Passive", "Both", "None"], answer: "Passive" },
+{ q: "Change to active: The ball was thrown by John.", options: ["John threw the ball.", "John throws the ball.", "John is throwing the ball.", "John will throw the ball."], answer: "John threw the ball." },
+{ q: "Rewrite in passive: They are conducting an investigation.", options: ["An investigation is being conducted by them.", "An investigation was conducted by them.", "An investigation is conducted by them.", "An investigation will be conducted by them."], answer: "An investigation is being conducted by them." },
+{ q: "Change to passive: The teacher is teaching the students.", options: ["The students are being taught by the teacher.", "The students were taught by the teacher.", "The students are taught by the teacher.", "The students will be taught by the teacher."], answer: "The students are being taught by the teacher." },
+{ q: "Identify the error: The book was write by a famous author.", options: ["write", "written", "writes", "writing"], answer: "write" },
+{ q: "Change to active: The new employee was trained by the HR department.", options: ["The HR department trained the new employee.", "The HR department trains the new employee.", "The HR department is training the new employee.", "The HR department will train the new employee."], answer: "The HR department trained the new employee." },
+{ q: "Rewrite in passive: The company will launch a new product next month.", options: ["A new product will be launched by the company next month.", "A new product is launched by the company next month.", "A new product is being launched by the company next month.", "A new product was launched by the company next month."], answer: "A new product will be launched by the company next month." },
+{ q: "Change to passive: The chef is preparing the meal.", options: ["The meal is being prepared by the chef.", "The meal was prepared by the chef.", "The meal is prepared by the chef.", "The meal will be prepared by the chef."], answer: "The meal is being prepared by the chef." },
+{ q: "Identify the voice: The package will be delivered tomorrow.", options: ["Active", "Passive", "Both", "None"], answer: "Passive" },
+{ q: "Change to active: The research paper was written by the team.", options: ["The team wrote the research paper.", "The team writes the research paper.", "The team is writing the research paper.", "The team will write the research paper."], answer: "The team wrote the research paper." }
+] },
+
+//direct and indirect speech
+
+{ topic: "Direct and Indirect Speech", questions: [
+{ q: "Change to indirect: He said, 'I know the answer.'", options: ["He said that he knew the answer.", "He said that he knows the answer.", "He said that I knew the answer.", "He said that I know the answer."], answer: "He said that he knew the answer." },
+{ q: "Change to direct: She said that she was happy.", options: ["She said, 'I am happy.'", "She said, 'I was happy.'", "She said, 'She was happy.'", "She said, 'I have been happy.'" ], answer: "She said, 'I am happy.'" },
+{ q: "Report the question: 'When did you arrive?' she asked.", options: ["She asked when did I arrive.", "She asked when I arrived.", "She asked when I had arrived.", "She asked when I have arrived."], answer: "She asked when I arrived." },
+{ q: "Change to indirect: The teacher said, 'Work hard.'", options: ["The teacher said to work hard.", "The teacher told to work hard.", "The teacher advised to work hard.", "The teacher told us to work hard."], answer: "The teacher told us to work hard." },
+{ q: "Change to direct: He asked me where I lived.", options: ["He asked, 'Where do you live?'", "He asked, 'Where are you living?'", "He asked, 'Where did I live?'", "He asked, 'Where I lived?'" ], answer: "He asked, 'Where do you live?'" },
+{ q: "Report the request: 'Please wait for me,' she said.", options: ["She requested me to wait for her.", "She told me to wait for her.", "She asked me to wait for her.", "She begged me to wait for her."], answer: "She requested me to wait for her." },
+{ q: "Correct this: He told that to go home.", options: ["He told me to go home.", "He said to go home.", "He told go home.", "He told that go home."], answer: "He told me to go home." },
+{ q: "Change to indirect: 'Do you understand?' he asked.", options: ["He asked if I understood.", "He asked if I understand.", "He asked do I understand.", "He asked if I had understood."], answer: "He asked if I understood." },
+{ q: "Rewrite in direct: She said that she had finished the task.", options: ["She said, 'I have finished the task.'", "She said, 'I finished the task.'", "She said, 'I had finished the task.'", "She said, 'She had finished the task.'" ], answer: "She said, 'I have finished the task.'" },
+{ q: "Change to indirect: He said, 'I can swim.'", options: ["He said that he could swim.", "He said that he can swim.", "He said that I could swim.", "He said that he will swim."], answer: "He said that he could swim." },
+{ q: "Identify the error: She said that she go to the market.", options: ["go", "went", "goes", "gone"], answer: "go" },
+{ q: "Change to indirect: 'I am going to Lagos tomorrow,' he said.", options: ["He said that he was going to Lagos the next day.", "He said that he is going to Lagos tomorrow.", "He said that he will go to Lagos tomorrow.", "He said that he went to Lagos tomorrow."], answer: "He said that he was going to Lagos the next day." },
+{ q: "Report the question: 'Are you coming?' she asked.", options: ["She asked if I was coming.", "She asked if I am coming.", "She asked are you coming.", "She asked if I come."], answer: "She asked if I was coming." },
+{ q: "Change to direct: He asked me to help him.", options: ["He said, 'Help me.'", "He said, 'Please help me.'", "He said, 'You help me.'", "He said, 'I need help.'" ], answer: "He said, 'Please help me.'" },
+{ q: "Identify the correct sentence:", options: ["She said that she will come.", "She said that she would come.", "She said that she came.", "She said that she is coming."], answer: "She said that she would come." },
+{ q: "Change to indirect: 'I have been studying,' she said.", options: ["She said that she had been studying.", "She said that she has been studying.", "She said that she is studying.", "She said that she was studying."], answer: "She said that she had been studying." },
+{ q: "Report the command: 'Stand up!' the teacher said.", options: ["The teacher told us to stand up.", "The teacher said to stand up.", "The teacher asked us to stand up.", "The teacher ordered us to stand up."], answer: "The teacher told us to stand up." },
+{ q: "Change to direct: He said that he would visit me.", options: ["He said, 'I will visit you.'", "He said, 'I would visit you.'", "He said, 'He would visit me.'", "He said, 'I will visit him.'" ], answer: "He said, 'I will visit you.'" },
+{ q: "Identify the error: He said that he can to come.", options: ["can", "could", "come", "to come"], answer: "to come" },
+{ q: "Change to indirect: 'Where are you going?' she asked.", options: ["She asked where I was going.", "She asked where I am going.", "She asked where are you going.", "She asked where I go."], answer: "She asked where I was going." }
+] },
+
+//vocabulary and word usage
+
+{ topic: "Vocabulary and Word Usage", questions: [
+{ q: "Give a synonym of 'terminate'.", options: ["End", "Start", "Continue", "Pause"], answer: "End" },
+{ q: "Choose the most suitable antonym of 'scarce'.", options: ["Abundant", "Rare", "Limited", "Plenty"], answer: "Abundant" },
+{ q: "Identify the homophone of 'pear'.", options: ["Pair", "Pare", "Pearl", "Paire"], answer: "Pair" },
+{ q: "Select the correct word: The bag is too <u>(loose/lose)</u>.", options: ["Loose", "Lose", "Loss", "Lost"], answer: "Loose" },
+{ q: "What does the idiom 'once in a blue moon' mean?", options: ["Very often", "Rarely", "Sometimes", "Always"], answer: "Rarely" },
+{ q: "Form the noun from 'decide'.", options: ["Decision", "Decide", "Decisive", "Deciding"], answer: "Decision" },
+{ q: "Choose the correct phrasal verb: Please <u>(look after/look for)</u> the children.", options: ["Look after", "Look for", "Look at", "Look up"], answer: "Look after" },
+{ q: "Identify the context clue: The fortress was impregnable; no enemy could enter it.", options: ["Definition", "Example", "Contrast", "Inference"], answer: "Definition" },
+{ q: "Choose the appropriate register for banking: withdrawal or admission?", options: ["Withdrawal", "Admission", "Transaction", "Deposit"], answer: "Withdrawal" },
+{ q: "Correct the usage: He is capable <u>to do</u> it.", options: ["To do", "Of doing", "In doing", "For doing"], answer: "Of doing" },
+{ q: "Identify the synonym of 'happy'.", options: ["Joyful", "Sad", "Angry", "Tired"], answer: "Joyful" },
+{ q: "Choose the antonym of 'big'.", options: ["Small", "Large", "Huge", "Gigantic"], answer: "Small" },
+{ q: "What does the phrasal verb 'give up' mean?", options: ["Stop trying", "Continue", "Start", "Pause"], answer: "Stop trying" },
+{ q: "Identify the homograph: lead (to guide) / lead (metal)", options: ["Lead", "Guide", "Metal", "To"], answer: "Lead" },
+{ q: "Select the correct word: The teacher <u>(advised/adviced)</u> me to study.", options: ["Advised", "Adviced", "Advice", "Advises"], answer: "Advised" },
+{ q: "Form the adjective from 'beauty'.", options: ["Beautiful", "Beautify", "Beautious", "Beauteous"], answer: "Beautiful" },
+{ q: "What does the idiom 'break a leg' mean?", options: ["Good luck", "Bad luck", "Get injured", "Be careful"], answer: "Good luck" },
+{ q: "Choose the correct register: The doctor will <u>(prescribe/prescription)</u> the medicine.", options: ["Prescribe", "Prescription", "Prescribes", "Prescribing"], answer: "Prescribe" },
+{ q: "Identify the context clue: The weather was inclement; it was raining heavily.", options: ["Definition", "Example", "Contrast", "Inference"], answer: "Inference" },
+{ q: "Correct the sentence: She is interested <u>in</u> politics.", options: ["In", "On", "At", "About"], answer: "In" }
+] },
+
+//lexis and structure
+
+{ topic: "Lexis and Structure", questions: [
+{ q: "Correct the error: She <u>go</u> to school every day.", options: ["goes", "went", "going", "gone"], answer: "goes" },
+{ q: "Choose the correct preposition: We arrived ___ the airport on time.", options: ["at", "in", "on", "to"], answer: "at" },
+{ q: "Transform into passive: The teacher praised the students.", options: ["The students were praised by the teacher.", "The students are praised by the teacher.", "The students were praising the teacher.", "The students praised the teacher."], answer: "The students were praised by the teacher." },
+{ q: "Fill in the blank with correct form: He made a good ___ (decide/decision).", options: ["decision", "decide", "decisive", "deciding"], answer: "decision" },
+{ q: "Identify and correct the confusing word: He accepted everyone <u>excepted</u> John.", options: ["except", "accept", "accepted", "accepting"], answer: "except" },
+{ q: "Rewrite correctly: I don’t need no help.", options: ["I don’t need any help.", "I need no help.", "I don’t need help.", "I need any help."], answer: "I don’t need any help." },
+{ q: "Combine using a relative clause: I met a woman. She teaches French.", options: ["I met a woman who teaches French.", "I met a woman whom teaches French.", "I met a woman which teaches French.", "I met a woman that teach French."], answer: "I met a woman who teaches French." },
+{ q: "Transform to interrogative: They have completed their assignment.", options: ["Have they completed their assignment?", "Do they have completed their assignment?", "They have completed their assignment?", "Have they completing their assignment?"], answer: "Have they completed their assignment?" },
+{ q: "Correct the modifier: I <u>almost</u> read ten books last month.", options: ["I read almost ten books last month.", "I almost read ten books.", "I read ten books almost last month.", "I read ten books last month almost."], answer: "I read almost ten books last month." },
+{ q: "Fill in the blank with correct conjunction: ___ it was raining, we went to the market.", options: ["Although", "Because", "So", "If"], answer: "Although" },
+{ q: "Identify the correct sentence:", options: ["She is good in Math.", "She is good at Math.", "She is good on Math.", "She is good with Math."], answer: "She is good at Math." },
+{ q: "Choose the correct word: The <u>(affect/effect)</u> of the rain was obvious.", options: ["affect", "effect", "affects", "effects"], answer: "effect" },
+{ q: "Transform into passive: They are building a house.", options: ["A house is being built by them.", "A house was built by them.", "A house is built by them.", "A house will be built by them."], answer: "A house is being built by them." },
+{ q: "Correct the error: He don’t need no money.", options: ["He doesn’t need any money.", "He need no money.", "He doesn’t need no money.", "He need any money."], answer: "He doesn’t need any money." },
+{ q: "Fill in the blank: She is interested ___ politics.", options: ["in", "on", "at", "about"], answer: "in" },
+{ q: "Identify the correct sentence:", options: ["The news are shocking.", "The news is shocking.", "The news were shocking.", "The news been shocking."], answer: "The news is shocking." },
+{ 
+  q: "Choose the correct phrasal verb: Please ______ the children.", 
+  options: ["look after", "look for", "look at", "look up"], 
+  answer: "look after" 
+},
+{ 
+  q: "Transform to negative: She is happy.", 
+  options: ["She is not happy.", "She is unhappy.", "She isn’t happy.", "She not happy."], 
+  answer: "She is not happy." 
+},
+
+{ 
+  q: "Correct the sentence: He is capable <u>to do</u> it.", 
+  options: ["to do", "of doing", "in doing", "for doing"], 
+  answer: "of doing" 
+  
+}
+]
+}
+
     ],
   
     Physics: [
+      
+      //introduction to physics
+      
       {
         topic: "Introduction to Physics",
         questions: [
@@ -1688,6 +1644,8 @@ const departmentSubjects = {
   }
         ]
       },
+      
+      //fundamental and derived units
       
       {
         topic: "Fundamental and derived quantities.",
@@ -1795,6 +1753,8 @@ const departmentSubjects = {
         ]
       },
       
+      //motion
+      
       {
         topic:"Motion",
         questions: [
@@ -1901,6 +1861,7 @@ const departmentSubjects = {
         ]
       },
       
+      //newton laws of motion
       {
         topic: "Newtons law of motion",
         questions: [
@@ -2006,6 +1967,7 @@ const departmentSubjects = {
   }
         ]
       }
+      
     ],
   
     Chemistry: [
@@ -2472,7 +2434,7 @@ const departmentSubjects = {
     
     Biology: [
       {
-    topic: "Introduction to Biology",
+    topic: "Biology as a science",
     questions: [
       {
         q: "Biology is best defined as the study of —",
@@ -2811,7 +2773,7 @@ const departmentSubjects = {
   
   //tissue and supportive system
   
-  {
+      {
     topic: "Tissues and Supportive System 1",
     questions: [
       {
@@ -2917,7 +2879,7 @@ const departmentSubjects = {
     ]
   },
   
-  {
+      {
     topic: "Tissues and Supportive System 2",
     questions: [
       {
@@ -4221,6 +4183,7 @@ const departmentSubjects = {
       }
     ]
   },
+  
   {
     "topic": "Energy Transformation in Nature 2",
     "questions": [
@@ -4476,6 +4439,7 @@ const departmentSubjects = {
       }
     ]
   },
+  
   {
     "topic": "Gaseous Exchange and Respiration 2",
     "questions": [
@@ -4601,6 +4565,116 @@ const departmentSubjects = {
       }
     ]
   },
+  
+  //sense organ
+  
+  {
+  "topic": "Sense Organs",
+  "questions": [
+    {
+      "q": "The organ responsible for vision in humans is the —",
+      "options": ["Eye", "Ear", "Nose", "Skin"],
+      "answer": "Eye"
+    },
+    {
+      "q": "The part of the eye that controls the amount of light entering is the —",
+      "options": ["Cornea", "Iris", "Retina", "Lens"],
+      "answer": "Iris"
+    },
+    {
+      "q": "The light-sensitive layer of the eye where images are formed is the —",
+      "options": ["Cornea", "Lens", "Retina", "Sclera"],
+      "answer": "Retina"
+    },
+    {
+      "q": "Which part of the ear is responsible for detecting sound vibrations?",
+      "options": ["Cochlea", "Eustachian tube", "Auditory canal", "Semicircular canals"],
+      "answer": "Cochlea"
+    },
+    {
+      "q": "The semicircular canals of the ear help in maintaining —",
+      "options": ["Hearing", "Balance", "Vision", "Smell"],
+      "answer": "Balance"
+    },
+    {
+      "q": "The taste buds are located mainly on the —",
+      "options": ["Tongue", "Roof of mouth", "Teeth", "Pharynx"],
+      "answer": "Tongue"
+    },
+    {
+      "q": "The olfactory receptors responsible for smell are located in the —",
+      "options": ["Nasal cavity", "Tongue", "Throat", "Larynx"],
+      "answer": "Nasal cavity"
+    },
+    {
+      "q": "Which type of skin receptor detects pressure and vibration?",
+      "options": ["Meissner's corpuscles", "Pacinian corpuscles", "Thermoreceptors", "Nociceptors"],
+      "answer": "Pacinian corpuscles"
+    },
+    {
+      "q": "The lens of the eye changes shape during focusing through the action of the —",
+      "options": ["Ciliary muscles", "Iris", "Cornea", "Retina"],
+      "answer": "Ciliary muscles"
+    },
+    {
+      "q": "The condition in which the eye cannot focus on distant objects is called —",
+      "options": ["Myopia", "Hyperopia", "Astigmatism", "Presbyopia"],
+      "answer": "Myopia"
+    },
+    {
+      "q": "The transparent, curved structure at the front of the eye that refracts light is the —",
+      "options": ["Cornea", "Lens", "Sclera", "Retina"],
+      "answer": "Cornea"
+    },
+    {
+      "q": "The part of the ear that equalizes air pressure between the middle ear and the atmosphere is the —",
+      "options": ["Eustachian tube", "Cochlea", "Auricle", "Semicircular canals"],
+      "answer": "Eustachian tube"
+    },
+    {
+      "q": "Which part of the retina contains the highest concentration of photoreceptors for sharp vision?",
+      "options": ["Fovea centralis", "Blind spot", "Macula lutea", "Optic disc"],
+      "answer": "Fovea centralis"
+    },
+    {
+      "q": "The auditory ossicles of the middle ear include —",
+      "options": ["Malleus, Incus, Stapes", "Cochlea, Malleus, Incus", "Stapes, Cochlea, Semicircular canals", "Malleus, Stapes, Cochlea"],
+      "answer": "Malleus, Incus, Stapes"
+    },
+    {
+      "q": "Which type of photoreceptor in the eye is sensitive to dim light?",
+      "options": ["Rods", "Cones", "Bipolar cells", "Ganglion cells"],
+      "answer": "Rods"
+    },
+    {
+      "q": "Which photoreceptors are responsible for color vision?",
+      "options": ["Cones", "Rods", "Ganglion cells", "Amacrine cells"],
+      "answer": "Cones"
+    },
+    {
+      "q": "The outer ear that collects sound waves is called the —",
+      "options": ["Auricle", "Cochlea", "Pinna", "Eardrum"],
+      "answer": "Auricle"
+    },
+    {
+      "q": "The organ responsible for detecting equilibrium and movement in the inner ear is the —",
+      "options": ["Semicircular canals", "Cochlea", "Auditory canal", "Eustachian tube"],
+      "answer": "Semicircular canals"
+    },
+    {
+      "q": "The sense organ responsible for detecting touch, pain, and temperature is the —",
+      "options": ["Skin", "Eye", "Ear", "Tongue"],
+      "answer": "Skin"
+    },
+    {
+      "q": "The area of the tongue most sensitive to sweetness is at the —",
+      "options": ["Tip", "Sides", "Back", "Middle"],
+      "answer": "Tip"
+    }
+  ]
+},
+
+  //
   
   //economical management 
   
@@ -4729,6 +4803,7 @@ const departmentSubjects = {
       }
     ]
   },
+  
   {
     "topic": "Energy Transformation in Nature 2",
     "questions": [
@@ -6491,6 +6566,4826 @@ const departmentSubjects = {
   }
       ]
     },
+    ],
+    
+    Literature: [
+      //introduction to literature 
+      {
+  "topic": "Introduction to Literature",
+  "questions": [
+    {
+      "q": "What is literature?",
+      "options": [
+        "A collection of laws and regulations",
+        "Written or spoken material considered to have artistic or intellectual value",
+        "A set of scientific experiments",
+        "A guide for political governance"
+      ],
+      "answer": "Written or spoken material considered to have artistic or intellectual value"
+    },
+    {
+      "q": "Which of the following BEST describes the scope of literature?",
+      "options": [
+        "Only novels and plays",
+        "All forms of written and oral artistic expression",
+        "Only poems",
+        "Only historical documents"
+      ],
+      "answer": "All forms of written and oral artistic expression"
+    },
+    {
+      "q": "Which of these is a major function of literature?",
+      "options": [
+        "To entertain, educate, and inform",
+        "To make laws",
+        "To build infrastructure",
+        "To enforce discipline"
+      ],
+      "answer": "To entertain, educate, and inform"
+    },
+    {
+      "q": "Oral literature is primarily transmitted through:",
+      "options": [
+        "Printed books",
+        "The internet",
+        "Speech and performance",
+        "Television"
+      ],
+      "answer": "Speech and performance"
+    },
+    {
+      "q": "Prose is a form of literature that:",
+      "options": [
+        "Is written in ordinary language without metrical structure",
+        "Follows strict rhyme and rhythm",
+        "Is always fictional",
+        "Can only be performed on stage"
+      ],
+      "answer": "Is written in ordinary language without metrical structure"
+    },
+    {
+      "q": "Poetry differs from prose in that it:",
+      "options": [
+        "Is always longer than prose",
+        "Uses rhythm, rhyme, and figurative language",
+        "Contains only factual information",
+        "Does not use imagery"
+      ],
+      "answer": "Uses rhythm, rhyme, and figurative language"
+    },
+    {
+      "q": "Drama is a form of literature that:",
+      "options": [
+        "Is meant to be performed by actors on a stage",
+        "Is only read silently",
+        "Contains no dialogue",
+        "Cannot convey emotion"
+      ],
+      "answer": "Is meant to be performed by actors on a stage"
+    },
+    {
+      "q": "An epic is best described as:",
+      "options": [
+        "A short humorous story",
+        "A long narrative poem celebrating heroic deeds",
+        "A type of song",
+        "A legal document"
+      ],
+      "answer": "A long narrative poem celebrating heroic deeds"
+    },
+    {
+      "q": "Which of the following is a key characteristic of fiction?",
+      "options": [
+        "It tells a story that is imaginary or invented",
+        "It only reports historical facts",
+        "It is written in verse",
+        "It always has a moral lesson"
+      ],
+      "answer": "It tells a story that is imaginary or invented"
+    },
+    {
+      "q": "Literature can be categorized based on:",
+      "options": [
+        "Form, content, and purpose",
+        "Age of the author",
+        "Price of the book",
+        "Number of pages"
+      ],
+      "answer": "Form, content, and purpose"
+    },
+    {
+      "q": "Which of the following is an example of non-fiction literature?",
+      "options": [
+        "Biography",
+        "Novel",
+        "Short story",
+        "Drama"
+      ],
+      "answer": "Biography"
+    },
+    {
+      "q": "Folk tales, myths, and legends belong to which category of literature?",
+      "options": [
+        "Oral literature",
+        "Modern prose",
+        "Scientific literature",
+        "Technical writing"
+      ],
+      "answer": "Oral literature"
+    },
+    {
+      "q": "Literature contributes to society by:",
+      "options": [
+        "Promoting culture and values",
+        "Providing free food",
+        "Building roads",
+        "Creating laws"
+      ],
+      "answer": "Promoting culture and values"
+    },
+    {
+      "q": "A short story is characterized by:",
+      "options": [
+        "Focusing on a single theme and a few characters",
+        "Being hundreds of pages long",
+        "Always using rhyme",
+        "Being performed on stage"
+      ],
+      "answer": "Focusing on a single theme and a few characters"
+    },
+    {
+      "q": "Satire in literature is used to:",
+      "options": [
+        "Expose and criticize human vices using humor",
+        "Only entertain without any message",
+        "Confuse the audience",
+        "Provide historical facts"
+      ],
+      "answer": "Expose and criticize human vices using humor"
+    },
+    {
+      "q": "Which of these is an important skill for studying literature?",
+      "options": [
+        "Critical thinking and interpretation",
+        "Only memorizing facts",
+        "Performing physical exercises",
+        "Learning multiple languages quickly"
+      ],
+      "answer": "Critical thinking and interpretation"
+    },
+    {
+      "q": "An author’s style refers to:",
+      "options": [
+        "The distinctive way they express ideas in writing",
+        "The cover design of their book",
+        "Their height and age",
+        "The length of their work"
+      ],
+      "answer": "The distinctive way they express ideas in writing"
+    },
+    {
+      "q": "Which of these BEST defines theme in literature?",
+      "options": [
+        "The central idea or message of a literary work",
+        "The name of the main character",
+        "The type of font used in a book",
+        "The place where the story was written"
+      ],
+      "answer": "The central idea or message of a literary work"
+    },
+    {
+      "q": "Symbolism in literature is when:",
+      "options": [
+        "Objects or actions represent ideas beyond their literal meaning",
+        "Authors only write long sentences",
+        "Events happen randomly without meaning",
+        "Stories have no characters"
+      ],
+      "answer": "Objects or actions represent ideas beyond their literal meaning"
+    },
+    {
+      "q": "Which of the following is NOT a purpose of literature?",
+      "options": [
+        "To inform, entertain, and educate",
+        "To reflect society",
+        "To preserve culture",
+        "To enforce taxes"
+      ],
+      "answer": "To enforce taxes"
+    }
+  ]
+},
+
+      //literary devices
+      {
+  "topic": "Literary Devices (Example-Based)",
+  "questions": [
+    {
+      "q": "Read the sentence: 'Her eyes sparkled like diamonds in the sunlight.' Which literary device is used?",
+      "options": [
+        "Metaphor",
+        "Simile",
+        "Personification",
+        "Hyperbole"
+      ],
+      "answer": "Simile"
+    },
+    {
+      "q": "Read the passage: 'The wind howled through the night, rattling the windows and doors.' Identify the literary device.",
+      "options": [
+        "Personification",
+        "Alliteration",
+        "Oxymoron",
+        "Irony"
+      ],
+      "answer": "Personification"
+    },
+    {
+      "q": "In the line: 'Time is a thief that steals our moments,' the literary device is:",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Hyperbole",
+        "Onomatopoeia"
+      ],
+      "answer": "Metaphor"
+    },
+    {
+      "q": "Which device is illustrated in: 'I’ve told you a million times not to be late!'?",
+      "options": [
+        "Hyperbole",
+        "Irony",
+        "Personification",
+        "Metonymy"
+      ],
+      "answer": "Hyperbole"
+    },
+    {
+      "q": "Read this line from a poem: 'The golden sun dipped below the horizon, painting the sky with fire.' Identify the device.",
+      "options": [
+        "Imagery",
+        "Simile",
+        "Alliteration",
+        "Oxymoron"
+      ],
+      "answer": "Imagery"
+    },
+    {
+      "q": "In the sentence: 'The pen is mightier than the sword,' the device is:",
+      "options": [
+        "Synecdoche",
+        "Metonymy",
+        "Personification",
+        "Irony"
+      ],
+      "answer": "Metonymy"
+    },
+    {
+      "q": "From the passage: 'The classroom was a zoo today with students running everywhere,' identify the literary device.",
+      "options": [
+        "Metaphor",
+        "Simile",
+        "Paradox",
+        "Foreshadowing"
+      ],
+      "answer": "Metaphor"
+    },
+    {
+      "q": "Which device is used here: 'Bitter-sweet memories of childhood came flooding back.'?",
+      "options": [
+        "Oxymoron",
+        "Hyperbole",
+        "Alliteration",
+        "Euphemism"
+      ],
+      "answer": "Oxymoron"
+    },
+    {
+      "q": "Identify the literary device in: 'The bees buzzed angrily around the hive.'",
+      "options": [
+        "Onomatopoeia",
+        "Personification",
+        "Simile",
+        "Metaphor"
+      ],
+      "answer": "Onomatopoeia"
+    },
+    {
+      "q": "In the line: 'Peter picked a peck of pickled peppers,' the device is:",
+      "options": [
+        "Alliteration",
+        "Assonance",
+        "Hyperbole",
+        "Oxymoron"
+      ],
+      "answer": "Alliteration"
+    },
+    {
+      "q": "Which literary device is used: 'The mellow wedding bells rang throughout the hall'?",
+      "options": [
+        "Assonance",
+        "Alliteration",
+        "Metaphor",
+        "Euphemism"
+      ],
+      "answer": "Assonance"
+    },
+    {
+      "q": "Read this example: 'Dark clouds loomed over the village, hinting at the troubles ahead.' The device is:",
+      "options": [
+        "Foreshadowing",
+        "Flashback",
+        "Irony",
+        "Personification"
+      ],
+      "answer": "Foreshadowing"
+    },
+    {
+      "q": "In the sentence: 'He remembered the summer of 2010 when he first learned to swim,' the device used is:",
+      "options": [
+        "Flashback",
+        "Foreshadowing",
+        "Metaphor",
+        "Irony"
+      ],
+      "answer": "Flashback"
+    },
+    {
+      "q": "Which device is illustrated here: 'Less is more in the art of writing.'?",
+      "options": [
+        "Paradox",
+        "Oxymoron",
+        "Alliteration",
+        "Hyperbole"
+      ],
+      "answer": "Paradox"
+    },
+    {
+      "q": "Identify the device in: 'He passed away peacefully in his sleep.'",
+      "options": [
+        "Euphemism",
+        "Sarcasm",
+        "Irony",
+        "Personification"
+      ],
+      "answer": "Euphemism"
+    },
+    {
+      "q": "Read the sentence: 'Nice job on the essay,' he said, after seeing the mistakes everywhere. The device is:",
+      "options": [
+        "Sarcasm",
+        "Hyperbole",
+        "Metonymy",
+        "Personification"
+      ],
+      "answer": "Sarcasm"
+    },
+    {
+      "q": "Which device is used here: 'Making fun of corrupt politicians is a common theme in cartoons.'?",
+      "options": [
+        "Satire",
+        "Euphemism",
+        "Oxymoron",
+        "Alliteration"
+      ],
+      "answer": "Satire"
+    },
+    {
+      "q": "From the line: 'The alarm clock screamed at me this morning,' the device is:",
+      "options": [
+        "Personification",
+        "Onomatopoeia",
+        "Simile",
+        "Hyperbole"
+      ],
+      "answer": "Personification"
+    },
+    {
+      "q": "Read: 'All hands on deck for the ship’s departure.' The device is:",
+      "options": [
+        "Synecdoche",
+        "Metonymy",
+        "Oxymoron",
+        "Paradox"
+      ],
+      "answer": "Synecdoche"
+    },
+    {
+      "q": "In the passage: 'The crown has decided to raise taxes,' the device is:",
+      "options": [
+        "Metonymy",
+        "Synecdoche",
+        "Personification",
+        "Irony"
+      ],
+      "answer": "Metonymy"
+    }
+  ]
+},
+
+//drama
+
+{
+  "topic": "Drama",
+  "questions": [
+    {
+      "q": "Which of the following BEST defines drama?",
+      "options": [
+        "A story meant to be read silently",
+        "Literature intended for performance by actors on stage",
+        "A poem with a fixed rhyme scheme",
+        "A factual report of events"
+      ],
+      "answer": "Literature intended for performance by actors on stage"
+    },
+    {
+      "q": "Which element of drama is responsible for the story’s central conflict?",
+      "options": [
+        "Characters",
+        "Plot",
+        "Setting",
+        "Dialogue"
+      ],
+      "answer": "Plot"
+    },
+    {
+      "q": "In drama, the place and time in which the action occurs is called:",
+      "options": [
+        "Plot",
+        "Setting",
+        "Theme",
+        "Conflict"
+      ],
+      "answer": "Setting"
+    },
+    {
+      "q": "The words spoken by characters in a play are known as:",
+      "options": [
+        "Dialogue",
+        "Monologue",
+        "Stage directions",
+        "Narration"
+      ],
+      "answer": "Dialogue"
+    },
+    {
+      "q": "A speech delivered by a character alone on stage, revealing thoughts and feelings, is called:",
+      "options": [
+        "Dialogue",
+        "Monologue",
+        "Soliloquy",
+        "Aside"
+      ],
+      "answer": "Monologue"
+    },
+    {
+      "q": "When a character speaks directly to the audience without other characters hearing, it is called:",
+      "options": [
+        "Monologue",
+        "Soliloquy",
+        "Aside",
+        "Narration"
+      ],
+      "answer": "Aside"
+    },
+    {
+      "q": "Which type of drama is intended to provoke laughter while exposing human weaknesses?",
+      "options": [
+        "Tragedy",
+        "Comedy",
+        "Historical drama",
+        "Melodrama"
+      ],
+      "answer": "Comedy"
+    },
+    {
+      "q": "A play in which the main character experiences suffering or downfall is called:",
+      "options": [
+        "Comedy",
+        "Tragedy",
+        "Satire",
+        "Farce"
+      ],
+      "answer": "Tragedy"
+    },
+    {
+      "q": "A short, humorous play often exaggerating situations is known as:",
+      "options": [
+        "Farce",
+        "Tragedy",
+        "Historical drama",
+        "Melodrama"
+      ],
+      "answer": "Farce"
+    },
+    {
+      "q": "A dramatic work that focuses on exciting, sensational events and emotions is called:",
+      "options": [
+        "Melodrama",
+        "Comedy",
+        "Tragedy",
+        "Farce"
+      ],
+      "answer": "Melodrama"
+    },
+    {
+      "q": "In the dialogue: 'I cannot leave this place until the truth is revealed,' the part of drama being highlighted is:",
+      "options": [
+        "Conflict",
+        "Setting",
+        "Stage directions",
+        "Narrator"
+      ],
+      "answer": "Conflict"
+    },
+    {
+      "q": "Which of the following is NOT a feature of drama?",
+      "options": [
+        "Dialogue",
+        "Stage directions",
+        "Narrator",
+        "Rhyme scheme"
+      ],
+      "answer": "Rhyme scheme"
+    },
+    {
+      "q": "A play depicting historical events with artistic interpretation is called:",
+      "options": [
+        "Comedy",
+        "Historical drama",
+        "Farce",
+        "Tragedy"
+      ],
+      "answer": "Historical drama"
+    },
+    {
+      "q": "The underlying message or central idea of a play is called:",
+      "options": [
+        "Theme",
+        "Plot",
+        "Conflict",
+        "Setting"
+      ],
+      "answer": "Theme"
+    },
+    {
+      "q": "Which dramatic element guides actors on actions, gestures, and movements on stage?",
+      "options": [
+        "Stage directions",
+        "Dialogue",
+        "Conflict",
+        "Theme"
+      ],
+      "answer": "Stage directions"
+    },
+    {
+      "q": "When a character struggles against another character, nature, society, or self, it is called:",
+      "options": [
+        "Conflict",
+        "Theme",
+        "Plot",
+        "Setting"
+      ],
+      "answer": "Conflict"
+    },
+    {
+      "q": "Read the line from a play: 'The storm rages outside as John vows to save his family.' Which dramatic element is illustrated?",
+      "options": [
+        "Setting",
+        "Plot",
+        "Theme",
+        "Dialogue"
+      ],
+      "answer": "Setting"
+    },
+    {
+      "q": "A play where the storyline leads to a moral lesson while amusing the audience is typically:",
+      "options": [
+        "Comedy",
+        "Tragedy",
+        "Melodrama",
+        "Farce"
+      ],
+      "answer": "Comedy"
+    },
+    {
+      "q": "Which type of drama exaggerates absurd situations for comedic effect?",
+      "options": [
+        "Farce",
+        "Tragedy",
+        "Historical drama",
+        "Melodrama"
+      ],
+      "answer": "Farce"
+    },
+    {
+      "q": "In drama, 'acts' and 'scenes' are primarily used to:",
+      "options": [
+        "Organize the play into sections",
+        "Describe characters’ thoughts",
+        "Provide rhyming patterns",
+        "Give background history"
+      ],
+      "answer": "Organize the play into sections"
+    }
+  ]
+},
+
+//prose
+
+{
+  "topic": "Prose",
+  "questions": [
+    {
+      "q": "Read the passage: 'Ama ran across the dusty field, clutching her books tightly. She knew the exam results would change everything.' Which element of prose is being highlighted?",
+      "options": [
+        "Plot",
+        "Setting",
+        "Theme",
+        "Conflict"
+      ],
+      "answer": "Plot"
+    },
+    {
+      "q": "In the sentence: 'The old man had eyes like burning coals, always watching and judging,' the author is using which technique?",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Personification",
+        "Irony"
+      ],
+      "answer": "Simile"
+    },
+    {
+      "q": "Which of these BEST defines characterization in prose?",
+      "options": [
+        "The way the author develops and presents characters",
+        "The sequence of events in a story",
+        "The moral of the story",
+        "The use of rhyme and rhythm"
+      ],
+      "answer": "The way the author develops and presents characters"
+    },
+    {
+      "q": "Read: 'The village square was alive with laughter and chatter, the scent of roasted corn filling the air.' Which element is being described?",
+      "options": [
+        "Setting",
+        "Conflict",
+        "Plot",
+        "Theme"
+      ],
+      "answer": "Setting"
+    },
+    {
+      "q": "When a narrator tells the story using 'I', it is called:",
+      "options": [
+        "First-person narration",
+        "Third-person narration",
+        "Omniscient narration",
+        "Objective narration"
+      ],
+      "answer": "First-person narration"
+    },
+    {
+      "q": "Which type of conflict is shown here: 'John struggled with his own fear before stepping onto the stage'?",
+      "options": [
+        "Man vs. Self",
+        "Man vs. Man",
+        "Man vs. Society",
+        "Man vs. Nature"
+      ],
+      "answer": "Man vs. Self"
+    },
+    {
+      "q": "Read the passage: 'The river roared angrily after the storm, sweeping everything in its path.' This is an example of:",
+      "options": [
+        "Personification",
+        "Metaphor",
+        "Hyperbole",
+        "Simile"
+      ],
+      "answer": "Personification"
+    },
+    {
+      "q": "The central idea or message of a story is called its:",
+      "options": [
+        "Theme",
+        "Plot",
+        "Setting",
+        "Character"
+      ],
+      "answer": "Theme"
+    },
+    {
+      "q": "In the story: 'The greedy merchant refused to share his wealth and lost everything in the end,' the lesson or moral is derived from the story’s:",
+      "options": [
+        "Theme",
+        "Plot",
+        "Conflict",
+        "Dialogue"
+      ],
+      "answer": "Theme"
+    },
+    {
+      "q": "Which narrative technique allows readers to know the thoughts and feelings of all characters?",
+      "options": [
+        "Omniscient narration",
+        "First-person narration",
+        "Objective narration",
+        "Limited narration"
+      ],
+      "answer": "Omniscient narration"
+    },
+    {
+      "q": "In the passage: 'She screamed as the shadows crept along the walls, her heart pounding like a drum,' the phrase 'heart pounding like a drum' is an example of:",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Personification",
+        "Foreshadowing"
+      ],
+      "answer": "Simile"
+    },
+    {
+      "q": "Which element of prose involves the **sequence of events** from beginning to end?",
+      "options": [
+        "Plot",
+        "Setting",
+        "Characterization",
+        "Theme"
+      ],
+      "answer": "Plot"
+    },
+    {
+      "q": "In the story: 'Ayo knew everyone would laugh if he failed the test, and that thought kept him awake all night,' the conflict type is:",
+      "options": [
+        "Man vs. Society",
+        "Man vs. Self",
+        "Man vs. Nature",
+        "Man vs. Man"
+      ],
+      "answer": "Man vs. Self"
+    },
+    {
+      "q": "A story told by someone outside the events of the story, using 'he' or 'she', is called:",
+      "options": [
+        "Third-person narration",
+        "First-person narration",
+        "Omniscient narration",
+        "Stream of consciousness"
+      ],
+      "answer": "Third-person narration"
+    },
+    {
+      "q": "In the passage: 'The marketplace buzzed with activity; traders shouted, children ran about, and the smell of fresh bread wafted through the air,' the author is focusing on:",
+      "options": [
+        "Setting",
+        "Plot",
+        "Characterization",
+        "Conflict"
+      ],
+      "answer": "Setting"
+    },
+    {
+      "q": "Which term describes the struggle between a character and an outside force such as nature, society, or another character?",
+      "options": [
+        "External conflict",
+        "Internal conflict",
+        "Theme",
+        "Characterization"
+      ],
+      "answer": "External conflict"
+    },
+    {
+      "q": "Read the sentence: 'Despite his small size, the boy’s courage towered over everyone.' The author uses which technique?",
+      "options": [
+        "Hyperbole",
+        "Simile",
+        "Metaphor",
+        "Personification"
+      ],
+      "answer": "Hyperbole"
+    },
+    {
+      "q": "Which of these BEST explains indirect characterization?",
+      "options": [
+        "The author shows a character’s traits through actions, speech, or thoughts",
+        "The author directly tells what the character is like",
+        "The author describes only the setting",
+        "The author reveals the theme of the story"
+      ],
+      "answer": "The author shows a character’s traits through actions, speech, or thoughts"
+    },
+    {
+      "q": "A story that uses everyday life and ordinary characters to explore moral or social lessons is called:",
+      "options": [
+        "Realistic prose",
+        "Fantasy",
+        "Science fiction",
+        "Historical fiction"
+      ],
+      "answer": "Realistic prose"
+    },
+    {
+      "q": "When an author hints at events that will occur later in the story, it is called:",
+      "options": [
+        "Foreshadowing",
+        "Flashback",
+        "Conflict",
+        "Theme"
+      ],
+      "answer": "Foreshadowing"
+    }
+  ]
+},
+
+//poetry
+{
+  "topic": "Poetry (Including Types)",
+  "questions": [
+    {
+      "q": "Read the stanza: 'O Captain! my Captain! our fearful trip is done; The ship has weathered every rack, the prize we sought is won.' This poem mourns the death of a leader. Which type of poetry is it?",
+      "options": [
+        "Elegy",
+        "Sonnet",
+        "Ballad",
+        "Pastoral"
+      ],
+      "answer": "Elegy"
+    },
+    {
+      "q": "Which type of poem tells a story in verse, often with a repeated refrain and simple language?",
+      "options": [
+        "Ballad",
+        "Sonnet",
+        "Elegy",
+        "Dirge"
+      ],
+      "answer": "Ballad"
+    },
+    {
+      "q": "A 14-line poem with a fixed rhyme scheme, often exploring love or philosophy, is called:",
+      "options": [
+        "Sonnet",
+        "Pastoral",
+        "Elegy",
+        "Limerick"
+      ],
+      "answer": "Sonnet"
+    },
+    {
+      "q": "Read the passage: 'Beneath the golden sun, shepherds tended flocks in the green fields, while lovers wandered by the brook.' Which type of poetry is this?",
+      "options": [
+        "Pastoral",
+        "Ballad",
+        "Elegy",
+        "Sonnet"
+      ],
+      "answer": "Pastoral"
+    },
+    {
+      "q": "Which type of poem is a short song or lyric expressing grief, often for the dead?",
+      "options": [
+        "Dirge",
+        "Sonnet",
+        "Ballad",
+        "Pastoral"
+      ],
+      "answer": "Dirge"
+    },
+    {
+      "q": "A poem mourning someone’s death and reflecting on mortality is a(n):",
+      "options": [
+        "Elegy",
+        "Ballad",
+        "Sonnet",
+        "Pastoral"
+      ],
+      "answer": "Elegy"
+    },
+    {
+      "q": "Identify the type of poem: 'Two households, both alike in dignity, in fair Verona, where we lay our scene.'",
+      "options": [
+        "Sonnet",
+        "Ballad",
+        "Pastoral",
+        "Elegy"
+      ],
+      "answer": "Sonnet"
+    },
+    {
+      "q": "Which type of poem typically idealizes rural life and nature?",
+      "options": [
+        "Pastoral",
+        "Elegy",
+        "Ballad",
+        "Dirge"
+      ],
+      "answer": "Pastoral"
+    },
+    {
+      "q": "The poem: 'Lay thee down, sweet Rose, thy leaves are faded now' mourns the fading of a loved one. The type is:",
+      "options": [
+        "Elegy",
+        "Ballad",
+        "Sonnet",
+        "Pastoral"
+      ],
+      "answer": "Elegy"
+    },
+    {
+      "q": "A narrative poem recounting adventures, often sung, is called:",
+      "options": [
+        "Ballad",
+        "Sonnet",
+        "Elegy",
+        "Dirge"
+      ],
+      "answer": "Ballad"
+    },
+    {
+      "q": "Which type of poetry emphasizes formal structure, rhythm, and rhyme, and often reflects on love or philosophical ideas?",
+      "options": [
+        "Sonnet",
+        "Pastoral",
+        "Ballad",
+        "Dirge"
+      ],
+      "answer": "Sonnet"
+    },
+    {
+      "q": "Identify the type: 'Slowly, the drumbeat echoed through the village, mourning the loss of our beloved chief.'",
+      "options": [
+        "Dirge",
+        "Sonnet",
+        "Ballad",
+        "Pastoral"
+      ],
+      "answer": "Dirge"
+    },
+    {
+      "q": "Read: 'The river flows gently through the meadow, as the shepherd hums his tune.' This poem celebrates rural life. It is an example of:",
+      "options": [
+        "Pastoral",
+        "Elegy",
+        "Sonnet",
+        "Ballad"
+      ],
+      "answer": "Pastoral"
+    },
+    {
+      "q": "A poem that tells a story about love, heroism, or adventure in simple language, often with a refrain, is:",
+      "options": [
+        "Ballad",
+        "Elegy",
+        "Sonnet",
+        "Dirge"
+      ],
+      "answer": "Ballad"
+    },
+    {
+      "q": "Which type of poetry is solemn, reflective, and typically written in honor of someone who has died?",
+      "options": [
+        "Elegy",
+        "Dirge",
+        "Sonnet",
+        "Ballad"
+      ],
+      "answer": "Elegy"
+    },
+    {
+      "q": "Read the line: 'Death, be not proud, though some have called thee mighty and dreadful.' This is an example of a poem that reflects on mortality. Its type is:",
+      "options": [
+        "Elegy",
+        "Sonnet",
+        "Ballad",
+        "Dirge"
+      ],
+      "answer": "Elegy"
+    },
+    {
+      "q": "A poem that is sung at funerals to express grief is called:",
+      "options": [
+        "Dirge",
+        "Sonnet",
+        "Ballad",
+        "Pastoral"
+      ],
+      "answer": "Dirge"
+    },
+    {
+      "q": "Which type of poem idealizes the simplicity and peace of rural life and nature?",
+      "options": [
+        "Pastoral",
+        "Sonnet",
+        "Ballad",
+        "Elegy"
+      ],
+      "answer": "Pastoral"
+    },
+    {
+      "q": "The famous poem by Wordsworth beginning with 'I wandered lonely as a cloud...' is primarily an example of which type?",
+      "options": [
+        "Pastoral",
+        "Elegy",
+        "Ballad",
+        "Sonnet"
+      ],
+      "answer": "Pastoral"
+    },
+    {
+      "q": "Which poem type often includes moral lessons or warnings while telling a story in verse form?",
+      "options": [
+        "Ballad",
+        "Sonnet",
+        "Elegy",
+        "Dirge"
+      ],
+      "answer": "Ballad"
+    }
+  ]
+},
+
+//Anthony and Cleopatra 
+{
+  "topic": "Shakespeare — Anthony and Cleopatra",
+  "questions": [
+    {
+      "q": "Who are the main protagonists in Shakespeare's *Anthony and Cleopatra*?",
+      "options": [
+        "Antony and Cleopatra",
+        "Romeo and Juliet",
+        "Hamlet and Ophelia",
+        "Macbeth and Lady Macbeth"
+      ],
+      "answer": "Antony and Cleopatra"
+    },
+    {
+      "q": "Which Roman general is a key character and rival to Antony in the play?",
+      "options": [
+        "Octavius Caesar",
+        "Brutus",
+        "Cassius",
+        "Pompey"
+      ],
+      "answer": "Octavius Caesar"
+    },
+    {
+      "q": "Read the line: 'My salad days, when I was green in judgment.' Who speaks this line, reflecting on past inexperience?",
+      "options": [
+        "Cleopatra",
+        "Enobarbus",
+        "Antony",
+        "Caesar"
+      ],
+      "answer": "Cleopatra"
+    },
+    {
+      "q": "Which theme is prominent in Antony and Cleopatra, shown by their struggle between duty and love?",
+      "options": [
+        "Conflict between love and duty",
+        "Revenge",
+        "Friendship",
+        "Greed and ambition"
+      ],
+      "answer": "Conflict between love and duty"
+    },
+    {
+      "q": "The famous line by Enobarbus: 'Age cannot wither her, nor custom stale her infinite variety' refers to:",
+      "options": [
+        "Cleopatra’s charm and beauty",
+        "Caesar’s ambition",
+        "Antony’s bravery",
+        "Octavia’s wisdom"
+      ],
+      "answer": "Cleopatra’s charm and beauty"
+    },
+    {
+      "q": "Which city serves as the primary setting for the love and political conflict in the play?",
+      "options": [
+        "Alexandria",
+        "Rome",
+        "Athens",
+        "Sparta"
+      ],
+      "answer": "Alexandria"
+    },
+    {
+      "q": "The struggle between Antony and Caesar is primarily an example of:",
+      "options": [
+        "Man vs. Man",
+        "Man vs. Nature",
+        "Man vs. Self",
+        "Man vs. Society"
+      ],
+      "answer": "Man vs. Man"
+    },
+    {
+      "q": "Which character provides comic relief but also acts as a loyal friend to Antony?",
+      "options": [
+        "Enobarbus",
+        "Charmian",
+        "Pompey",
+        "Octavia"
+      ],
+      "answer": "Enobarbus"
+    },
+    {
+      "q": "The play shows Cleopatra’s political astuteness and charm. Which literary technique is most evident when her speeches persuade Antony?",
+      "options": [
+        "Rhetorical appeal",
+        "Foreshadowing",
+        "Irony",
+        "Alliteration"
+      ],
+      "answer": "Rhetorical appeal"
+    },
+    {
+      "q": "Which of the following is NOT a theme in *Anthony and Cleopatra*?",
+      "options": [
+        "Love and passion",
+        "Political intrigue",
+        "Ambition and power",
+        "Time travel"
+      ],
+      "answer": "Time travel"
+    },
+    {
+      "q": "Read the line: 'Let Rome in Tiber melt, and the wide arch of the ranged empire fall!' Antony declares this. Which theme does it illustrate?",
+      "options": [
+        "Conflict between love and duty",
+        "Friendship",
+        "Revenge",
+        "Ambition"
+      ],
+      "answer": "Conflict between love and duty"
+    },
+    {
+      "q": "Which event triggers Antony’s ultimate downfall?",
+      "options": [
+        "His defeat at the Battle of Actium",
+        "Cleopatra’s death",
+        "Caesar’s assassination",
+        "Pompey’s betrayal"
+      ],
+      "answer": "His defeat at the Battle of Actium"
+    },
+    {
+      "q": "How does Cleopatra die in the play?",
+      "options": [
+        "By the bite of an asp",
+        "Poisoning Antony",
+        "By drowning",
+        "In battle"
+      ],
+      "answer": "By the bite of an asp"
+    },
+    {
+      "q": "Enobarbus deserts Antony after seeing his forces weakened. This is an example of:",
+      "options": [
+        "Foreshadowing Antony’s defeat",
+        "Comic relief",
+        "Hyperbole",
+        "Metaphor"
+      ],
+      "answer": "Foreshadowing Antony’s defeat"
+    },
+    {
+      "q": "Which character serves as a foil to Antony, representing duty, strategy, and restraint?",
+      "options": [
+        "Caesar",
+        "Pompey",
+        "Enobarbus",
+        "Octavia"
+      ],
+      "answer": "Caesar"
+    },
+    {
+      "q": "Cleopatra’s elaborate speeches and manipulation of Antony highlight which feature of drama?",
+      "options": [
+        "Characterization",
+        "Setting",
+        "Conflict",
+        "Plot"
+      ],
+      "answer": "Characterization"
+    },
+    {
+      "q": "The play blends political conflict and romantic tragedy. This makes *Anthony and Cleopatra* an example of:",
+      "options": [
+        "Tragic drama",
+        "Comedy",
+        "Farce",
+        "Melodrama"
+      ],
+      "answer": "Tragic drama"
+    },
+    {
+      "q": "Which scene emphasizes the tension between Antony’s loyalty to Rome and love for Cleopatra?",
+      "options": [
+        "His meeting with Caesar after Actium",
+        "The battle with Pompey",
+        "Cleopatra’s coronation",
+        "Enobarbus’s banquets"
+      ],
+      "answer": "His meeting with Caesar after Actium"
+    },
+    {
+      "q": "The line by Cleopatra: 'Give me my robe, put on my crown; I have immortal longings in me.' Highlights:",
+      "options": [
+        "Her regal dignity and acceptance of death",
+        "Her fear of Antony",
+        "Her betrayal",
+        "Her humor"
+      ],
+      "answer": "Her regal dignity and acceptance of death"
+    },
+    {
+      "q": "The love affair between Antony and Cleopatra ultimately illustrates which universal theme?",
+      "options": [
+        "The tension between personal desire and public duty",
+        "The importance of wealth",
+        "The need for revenge",
+        "The power of friendship"
+      ],
+      "answer": "The tension between personal desire and public duty"
+    }
+  ]
+},
+
+//an inspector calls
+
+{
+  "topic": "An Inspector Calls",
+  "questions": [
+    {
+      "q": "Who is the mysterious visitor who interrogates the Birling family?",
+      "options": [
+        "Inspector Goole",
+        "Mr. Birling",
+        "Gerald Croft",
+        "Eric Birling"
+      ],
+      "answer": "Inspector Goole"
+    },
+    {
+      "q": "The play is set in which time period?",
+      "options": [
+        "1912, before the First World War",
+        "1929, during the Great Depression",
+        "1945, after the Second World War",
+        "1939, beginning of the Second World War"
+      ],
+      "answer": "1912, before the First World War"
+    },
+    {
+      "q": "Which character is engaged to Sheila Birling?",
+      "options": [
+        "Gerald Croft",
+        "Eric Birling",
+        "Inspector Goole",
+        "Mr. Birling"
+      ],
+      "answer": "Gerald Croft"
+    },
+    {
+      "q": "The line: 'We are members of one body. We are responsible for each other.' Illustrates which theme?",
+      "options": [
+        "Social responsibility",
+        "Greed",
+        "Love",
+        "Ambition"
+      ],
+      "answer": "Social responsibility"
+    },
+    {
+      "q": "Which character is revealed to have had a secret affair with Eva Smith/Daisy Renton?",
+      "options": [
+        "Gerald Croft",
+        "Mr. Birling",
+        "Inspector Goole",
+        "Eric Birling"
+      ],
+      "answer": "Gerald Croft"
+    },
+    {
+      "q": "Mr. Birling’s speeches about business, prosperity, and the impossibility of war reflect:",
+      "options": [
+        "Dramatic irony",
+        "Foreshadowing",
+        "Personification",
+        "Symbolism"
+      ],
+      "answer": "Dramatic irony"
+    },
+    {
+      "q": "Which character steals money from the Birling family’s business?",
+      "options": [
+        "Eric Birling",
+        "Mr. Birling",
+        "Inspector Goole",
+        "Gerald Croft"
+      ],
+      "answer": "Eric Birling"
+    },
+    {
+      "q": "Sheila Birling’s change in attitude after the Inspector’s visit illustrates:",
+      "options": [
+        "Character development",
+        "Foreshadowing",
+        "Symbolism",
+        "Hyperbole"
+      ],
+      "answer": "Character development"
+    },
+    {
+      "q": "Read the line: 'Public men, Mr. Birling, have responsibilities as well as privileges.' This reflects which theme?",
+      "options": [
+        "Social responsibility",
+        "Love and marriage",
+        "Wealth and status",
+        "Youth and rebellion"
+      ],
+      "answer": "Social responsibility"
+    },
+    {
+      "q": "The use of a single setting (the Birlings’ dining room) throughout the play is an example of:",
+      "options": [
+        "Unity of place",
+        "Foreshadowing",
+        "Flashback",
+        "Symbolism"
+      ],
+      "answer": "Unity of place"
+    },
+    {
+      "q": "The mysterious nature of Inspector Goole, who may not be a real police inspector, serves to:",
+      "options": [
+        "Convey Priestley’s message about morality and responsibility",
+        "Provide comic relief",
+        "Introduce romance",
+        "Show historical facts"
+      ],
+      "answer": "Convey Priestley’s message about morality and responsibility"
+    },
+    {
+      "q": "Which character represents the older generation’s complacency and self-interest?",
+      "options": [
+        "Mr. Birling",
+        "Sheila Birling",
+        "Eric Birling",
+        "Inspector Goole"
+      ],
+      "answer": "Mr. Birling"
+    },
+    {
+      "q": "The line: 'We don’t live alone. We are members of one body. We are responsible for each other.' is repeated to emphasize:",
+      "options": [
+        "The play’s central theme of social responsibility",
+        "The romantic subplot",
+        "The comedy elements",
+        "The historical setting"
+      ],
+      "answer": "The play’s central theme of social responsibility"
+    },
+    {
+      "q": "Which character attempts to maintain appearances and protect the family’s reputation at all costs?",
+      "options": [
+        "Mrs. Birling",
+        "Sheila Birling",
+        "Inspector Goole",
+        "Gerald Croft"
+      ],
+      "answer": "Mrs. Birling"
+    },
+    {
+      "q": "Read the passage: 'I speak as a hard-headed business man.' This is Mr. Birling. What literary device is being used when the audience knows WWI will occur shortly after 1912?",
+      "options": [
+        "Dramatic irony",
+        "Foreshadowing",
+        "Personification",
+        "Alliteration"
+      ],
+      "answer": "Dramatic irony"
+    },
+    {
+      "q": "The play’s emphasis on the moral failings of each character serves to illustrate:",
+      "options": [
+        "The consequences of neglecting social responsibility",
+        "The importance of romantic love",
+        "The power of wealth",
+        "The inevitability of war"
+      ],
+      "answer": "The consequences of neglecting social responsibility"
+    },
+    {
+      "q": "Sheila’s reaction to Eva Smith’s death demonstrates:",
+      "options": [
+        "Empathy and moral awareness",
+        "Greed and selfishness",
+        "Romantic interest",
+        "Ignorance of society"
+      ],
+      "answer": "Empathy and moral awareness"
+    },
+    {
+      "q": "Which character is the moral centre of the play, urging the others to take responsibility for their actions?",
+      "options": [
+        "Inspector Goole",
+        "Mr. Birling",
+        "Gerald Croft",
+        "Mrs. Birling"
+      ],
+      "answer": "Inspector Goole"
+    },
+    {
+      "q": "The play ends with a twist regarding the Inspector’s identity. This is an example of:",
+      "options": [
+        "Suspense",
+        "Irony",
+        "Foreshadowing",
+        "Personification"
+      ],
+      "answer": "Suspense"
+    },
+    {
+      "q": "The underlying message of the play is best described as:",
+      "options": [
+        "Moral responsibility and social conscience",
+        "The pursuit of wealth",
+        "Romantic love conquers all",
+        "Historical accuracy"
+      ],
+      "answer": "Moral responsibility and social conscience"
+    }
+  ]
+},
+
+//a man for all seasons
+
+{
+  "topic": "A Man for All Seasons",
+  "questions": [
+    {
+      "q": "Who is the protagonist of *A Man for All Seasons*, known for his moral integrity?",
+      "options": [
+        "Sir Thomas More",
+        "King Henry VIII",
+        "Thomas Cromwell",
+        "Richard Rich"
+      ],
+      "answer": "Sir Thomas More"
+    },
+    {
+      "q": "Which character pressures More to endorse King Henry VIII’s divorce from Catherine of Aragon?",
+      "options": [
+        "Thomas Cromwell",
+        "Duke of Norfolk",
+        "Richard Rich",
+        "Chapman"
+      ],
+      "answer": "Thomas Cromwell"
+    },
+    {
+      "q": "The line: 'I die the king’s good servant—but God’s first.' reflects which theme?",
+      "options": [
+        "Moral integrity and conscience",
+        "Ambition",
+        "Political deceit",
+        "Romantic love"
+      ],
+      "answer": "Moral integrity and conscience"
+    },
+    {
+      "q": "Which character betrays More to gain personal advantage and power?",
+      "options": [
+        "Richard Rich",
+        "Duke of Norfolk",
+        "Chapman",
+        "King Henry VIII"
+      ],
+      "answer": "Richard Rich"
+    },
+    {
+      "q": "The central conflict in the play is primarily between:",
+      "options": [
+        "Conscience and authority",
+        "Love and friendship",
+        "Wealth and poverty",
+        "War and peace"
+      ],
+      "answer": "Conscience and authority"
+    },
+    {
+      "q": "Which historical period does the play depict?",
+      "options": [
+        "The reign of King Henry VIII in 16th century England",
+        "The Victorian Era",
+        "Elizabethan Era",
+        "The English Civil War"
+      ],
+      "answer": "The reign of King Henry VIII in 16th century England"
+    },
+    {
+      "q": "More refuses to sign the Act of Supremacy, which declares the king the head of the Church of England. This illustrates:",
+      "options": [
+        "Conflict between conscience and political pressure",
+        "Greed for wealth",
+        "Romantic interest",
+        "Desire for revenge"
+      ],
+      "answer": "Conflict between conscience and political pressure"
+    },
+    {
+      "q": "Which character is loyal to More and offers support but cannot prevent his downfall?",
+      "options": [
+        "Duke of Norfolk",
+        "Thomas Cromwell",
+        "Richard Rich",
+        "King Henry VIII"
+      ],
+      "answer": "Duke of Norfolk"
+    },
+    {
+      "q": "The title *A Man for All Seasons* refers to:",
+      "options": [
+        "More’s unwavering integrity and adaptability to circumstances",
+        "The weather in England",
+        "A seasonal festival",
+        "Cromwell’s political maneuvers"
+      ],
+      "answer": "More’s unwavering integrity and adaptability to circumstances"
+    },
+    {
+      "q": "The trial and execution of More highlight which dramatic technique used by Bolt?",
+      "options": [
+        "Suspense and moral dilemma",
+        "Comic relief",
+        "Romantic subplot",
+        "Foreshadowing only"
+      ],
+      "answer": "Suspense and moral dilemma"
+    },
+    {
+      "q": "Which character embodies political cunning and manipulation in the play?",
+      "options": [
+        "Thomas Cromwell",
+        "Sir Thomas More",
+        "Richard Rich",
+        "Duke of Norfolk"
+      ],
+      "answer": "Thomas Cromwell"
+    },
+    {
+      "q": "Read the line: 'When statesmen forsake their conscience, they pave the way for tyranny.' This illustrates:",
+      "options": [
+        "Bolt’s emphasis on moral responsibility",
+        "Romantic love",
+        "Historical accuracy",
+        "Tragic irony"
+      ],
+      "answer": "Bolt’s emphasis on moral responsibility"
+    },
+    {
+      "q": "Richard Rich’s rise to power despite betraying More highlights which theme?",
+      "options": [
+        "Corruption and ambition",
+        "Love and loyalty",
+        "Conscience",
+        "Generosity"
+      ],
+      "answer": "Corruption and ambition"
+    },
+    {
+      "q": "More’s interactions with his family, particularly his daughter Margaret, illustrate:",
+      "options": [
+        "The human side of moral integrity",
+        "Political strategy",
+        "Comic relief",
+        "Historical research"
+      ],
+      "answer": "The human side of moral integrity"
+    },
+    {
+      "q": "The play’s climax, where More is executed, serves to:",
+      "options": [
+        "Emphasize the consequences of staying true to conscience",
+        "Introduce a love story",
+        "Provide humor",
+        "Show historical chronology"
+      ],
+      "answer": "Emphasize the consequences of staying true to conscience"
+    },
+    {
+      "q": "Bolt uses the character of Thomas More to contrast with which figure in the play?",
+      "options": [
+        "Thomas Cromwell",
+        "Duke of Norfolk",
+        "Richard Rich",
+        "King Henry VIII"
+      ],
+      "answer": "Thomas Cromwell"
+    },
+    {
+      "q": "Which literary device is used in More’s final words: 'I die the king’s good servant—but God’s first'?",
+      "options": [
+        "Antithesis",
+        "Metaphor",
+        "Alliteration",
+        "Foreshadowing"
+      ],
+      "answer": "Antithesis"
+    },
+    {
+      "q": "The play emphasizes the idea that integrity:",
+      "options": [
+        "Is more valuable than political power",
+        "Can be easily compromised",
+        "Is irrelevant in politics",
+        "Depends on wealth"
+      ],
+      "answer": "Is more valuable than political power"
+    },
+    {
+      "q": "The tension between personal beliefs and societal pressure in the play illustrates:",
+      "options": [
+        "A universal moral conflict",
+        "Romantic tension",
+        "Historical triviality",
+        "Comic irony"
+      ],
+      "answer": "A universal moral conflict"
+    },
+    {
+      "q": "Bolt’s play is classified as which genre?",
+      "options": [
+        "Historical drama",
+        "Comedy",
+        "Tragic romance",
+        "Farce"
+      ],
+      "answer": "Historical drama"
+    }
+  ]
+},
+
+//once upon an elephant
+
+{
+  "topic": "Once Upon an Elephant",
+  "questions": [
+    {
+      "q": "What is the central theme of *Once Upon an Elephant*?",
+      "options": [
+        "The destruction of forests",
+        "The tyranny and corruption of power",
+        "Romantic love",
+        "Adventure in the wild"
+      ],
+      "answer": "The tyranny and corruption of power"
+    },
+    {
+      "q": "In the play, the character Ajanaku symbolizes:",
+      "options": [
+        "A wise leader",
+        "A tyrant whose rule harms the people",
+        "A comic relief figure",
+        "A gentle caretaker"
+      ],
+      "answer": "A tyrant whose rule harms the people"
+    },
+    {
+      "q": "Which literary technique is heavily used to criticize bad leadership in the play?",
+      "options": [
+        "Satire",
+        "Romantic imagery",
+        "Epic simile",
+        "Hyperbole alone"
+      ],
+      "answer": "Satire"
+    },
+    {
+      "q": "The title *Once Upon an Elephant* is a metaphor for:",
+      "options": [
+        "A peaceful kingdom",
+        "An oppressive and overbearing ruler",
+        "A forest animal adventure",
+        "A historical battle"
+      ],
+      "answer": "An oppressive and overbearing ruler"
+    },
+    {
+      "q": "What role do the chiefs and Serubawon play in Ajanaku’s rise to power?",
+      "options": [
+        "They oppose his ambition",
+        "They help him seize the throne through betrayal",
+        "They flee the village",
+        "They serve as moral guides"
+      ],
+      "answer": "They help him seize the throne through betrayal"
+    },
+    {
+      "q": "What dramatic device is used when characters comment on events through traditional songs or chants?",
+      "options": [
+        "Chorus",
+        "Aside",
+        "Flashback",
+        "Soliloquy"
+      ],
+      "answer": "Chorus"
+    },
+    {
+      "q": "Which character most clearly foreshadows Ajanaku’s downfall?",
+      "options": [
+        "Iya Agba",
+        "Odejimi",
+        "Odegbami",
+        "Ogundele"
+      ],
+      "answer": "Iya Agba"
+    },
+    {
+      "q": "The horrific Ijedodo ritual in the play serves primarily to:",
+      "options": [
+        "Provide comic relief",
+        "Underscore the brutal misuse of tradition for power",
+        "Celebrate cultural rites",
+        "Introduce a romantic subplot"
+      ],
+      "answer": "Underscore the brutal misuse of tradition for power"
+    },
+    {
+      "q": "Which motif reappears to show how traditional beliefs are distorted by corrupt leaders?",
+      "options": [
+        "Proverbs and folklore",
+        "Animal fables only",
+        "Weather changes",
+        "Dream sequences"
+      ],
+      "answer": "Proverbs and folklore"
+    },
+    {
+      "q": "How does the play portray the ordinary people under Ajanaku’s rule?",
+      "options": [
+        "As empowered and free",
+        "As oppressed and suffering",
+        "As wealthy traders",
+        "As indifferent to leadership"
+      ],
+      "answer": "As oppressed and suffering"
+    },
+    {
+      "q": "Which dramatic technique is used when background singers repeat refrains that reinforce meaning?",
+      "options": [
+        "Chorus",
+        "Stage directions",
+        "Flashback",
+        "Monologue"
+      ],
+      "answer": "Chorus"
+    },
+    {
+      "q": "The character of Serubawon in the play mainly represents:",
+      "options": [
+        "A loyal and honest advisor",
+        "An opportunist who fuels tyranny",
+        "A tragic hero",
+        "A mysterious outsider"
+      ],
+      "answer": "An opportunist who fuels tyranny"
+    },
+    {
+      "q": "The downfall of Ajanaku best illustrates which moral lesson?",
+      "options": [
+        "No tyrant, no matter how powerful, is permanent",
+        "Power always brings happiness",
+        "Tradition must never be questioned",
+        "The strongest always survive"
+      ],
+      "answer": "No tyrant, no matter how powerful, is permanent"
+    },
+    {
+      "q": "Which theme in the play highlights how leaders misuse justice for self‑interest?",
+      "options": [
+        "Corruption and abuse of power",
+        "Romantic love",
+        "Economic prosperity",
+        "Scientific progress"
+      ],
+      "answer": "Corruption and abuse of power"
+    },
+    {
+      "q": "In the play’s critique, the elephant imagery most closely relates to:",
+      "options": [
+        "Gentle helping",
+        "Overbearing political might",
+        "Playful exploration",
+        "Mythical adventure"
+      ],
+      "answer": "Overbearing political might"
+    },
+    {
+      "q": "Which device is employed when background characters reflect on or comment about the main action?",
+      "options": [
+        "Chorus",
+        "Personification",
+        "Foreshadowing",
+        "Alliteration"
+      ],
+      "answer": "Chorus"
+    },
+    {
+      "q": "Which character challenges traditional rites when they are wrongly applied?",
+      "options": [
+        "Ogundele",
+        "Ajanaku",
+        "Serubawon",
+        "Odejimi"
+      ],
+      "answer": "Ogundele"
+    },
+    {
+      "q": "The play’s use of Yoruba folklore and proverbs primarily serves to:",
+      "options": [
+        "Ground the drama in African cultural context and critique social issues",
+        "Serve as comic relief",
+        "Describe wildlife",
+        "Explain scientific phenomena"
+      ],
+      "answer": "Ground the drama in African cultural context and critique social issues"
+    },
+    {
+      "q": "The eventual collapse of Ajanaku’s reign signifies:",
+      "options": [
+        "The triumph of despotic rule",
+        "The inevitability of accountability for power abuses",
+        "A celebration of dictatorship",
+        "Victory for tradition without justice"
+      ],
+      "answer": "The inevitability of accountability for power abuses"
+    }
+  ]
+},
+
+//the marriage of anansewa
+
+{
+  "topic": "The Marriage of Anansewa",
+  "questions": [
+    {
+      "q": "Who is the father whose schemes drive the action in *The Marriage of Anansewa*?",
+      "options": [
+        "Ananse",
+        "Akwasi",
+        "Chief‑Who‑Is‑Chief",
+        "Miss Christie"
+      ],
+      "answer": "Ananse"
+    },
+    {
+      "q": "What motivates Ananse’s plan to marry off his daughter to wealthy suitors?",
+      "options": [
+        "Poverty and ambition",
+        "Romantic love",
+        "Fear of tradition",
+        "Religious belief"
+      ],
+      "answer": "Poverty and ambition"
+    },
+    {
+      "q": "In the play, Ananse tricks multiple chiefs by:",
+      "options": [
+        "Sending each a photo of his daughter and inviting them to propose without telling them about the others",
+        "Abandoning them in the forest",
+        "Asking them to fight for her hand",
+        "Making fake wedding rings"
+      ],
+      "answer": "Sending each a photo of his daughter and inviting them to propose without telling them about the others"
+    },
+    {
+      "q": "Which theme deals with the way marriage becomes like a business transaction in the play?",
+      "options": [
+        "Marriage as a transaction",
+        "Childhood and innocence",
+        "War and peace",
+        "Heroism"
+      ],
+      "answer": "Marriage as a transaction"
+    },
+    {
+      "q": "Anansewa initially protests her father’s plans because she feels she is being treated like:",
+      "options": [
+        "An object or commodity",
+        "A queen",
+        "A storyteller",
+        "A servant"
+      ],
+      "answer": "An object or commodity"
+    },
+    {
+      "q": "Which character in the play serves as the voice of traditional storytelling and guides the audience through the action?",
+      "options": [
+        "The Narrator/Storyteller",
+        "Miss Christie",
+        "Chief‑Who‑Is‑Chief",
+        "Anansewa"
+      ],
+      "answer": "The Narrator/Storyteller"
+    },
+    {
+      "q": "The use of songs, dances, and direct audience address in *The Marriage of Anansewa* reflects the dramatic form known as:",
+      "options": [
+        "Anansegoro",
+        "Tragedy",
+        "Melodrama",
+        "Epic theatre"
+      ],
+      "answer": "Anansegoro"
+    },
+    {
+      "q": "Which theme explores the conflict between generational expectations and a young woman’s autonomy?",
+      "options": [
+        "Parental control vs individual freedom",
+        "War and victory",
+        "Nature’s power",
+        "Religious devotion"
+      ],
+      "answer": "Parental control vs individual freedom"
+    },
+    {
+      "q": "The play satirizes greed and materialism by showing how Ananse’s schemes exploit:",
+      "options": [
+        "Traditional marriage customs for personal gain",
+        "Religious ceremonies",
+        "School examinations",
+        "Local festivals"
+      ],
+      "answer": "Traditional marriage customs for personal gain"
+    },
+    {
+      "q": "Anansewa’s eventual agreement to marry Chief‑Who‑Is‑Chief illustrates:",
+      "options": [
+        "Love and sincerity prevailing over mere material wealth",
+        "Her complete submission without question",
+        "Her fear of her father",
+        "A rejection of marriage altogether"
+      ],
+      "answer": "Love and sincerity prevailing over mere material wealth"
+    },
+    {
+      "q": "Which device is used when the Narrator breaks the fourth wall to speak directly to the audience?",
+      "options": [
+        "Direct address",
+        "Irony",
+        "Flashback",
+        "Foreshadowing"
+      ],
+      "answer": "Direct address"
+    },
+    {
+      "q": "Ananse uses the traditional ceremony of bride price to:",
+      "options": [
+        "Extract gifts and wealth from the chiefs",
+        "Celebrate his daughter’s education",
+        "Lead a protest",
+        "Sing traditional songs"
+      ],
+      "answer": "Extract gifts and wealth from the chiefs"
+    },
+    {
+      "q": "The theme of female empowerment in the play is shown when Anansewa:",
+      "options": [
+        "Takes part in decisions about her marriage",
+        "Runs away from home",
+        "Refuses to speak at all",
+        "Becomes a storyteller"
+      ],
+      "answer": "Takes part in decisions about her marriage"
+    },
+    {
+      "q": "What is the effect of Ananse’s deception on the plot?",
+      "options": [
+        "It creates comic tension and social critique",
+        "It ends the play suddenly",
+        "It leads to tragedy",
+        "It introduces supernatural events"
+      ],
+      "answer": "It creates comic tension and social critique"
+    },
+    {
+      "q": "The play’s critique of marriage customs primarily exposes:",
+      "options": [
+        "How culture can be manipulated for selfish gain",
+        "The beauty of all traditions unchanged",
+        "The horrors of war",
+        "The need for modern technology"
+      ],
+      "answer": "How culture can be manipulated for selfish gain"
+    },
+    {
+      "q": "Which theme highlights the tension between tradition and changing modern ideas?",
+      "options": [
+        "Tradition vs modernity",
+        "Nature vs nurture",
+        "Childhood vs adulthood",
+        "Faith vs reason"
+      ],
+      "answer": "Tradition vs modernity"
+    },
+    {
+      "q": "The title ‘*The Marriage of Anansewa*’ symbolically refers to:",
+      "options": [
+        "The cultural complexities of marriage in Ghanaian society",
+        "A heroic battle",
+        "A tragic loss of life",
+        "A ghost story"
+      ],
+      "answer": "The cultural complexities of marriage in Ghanaian society"
+    },
+    {
+      "q": "The comic style of the play, despite its social critique, is best described as:",
+      "options": [
+        "Satirical comedy",
+        "Romantic comedy",
+        "Tragedy",
+        "Melodrama"
+      ],
+      "answer": "Satirical comedy"
+    },
+    {
+      "q": "Ananse’s success in outwitting the chiefs suggests what about the role of wit in the play?",
+      "options": [
+        "Cleverness can be a tool for survival but raises moral questions",
+        "Strength alone is the most important",
+        "Love is irrelevant",
+        "Violence is essential"
+      ],
+      "answer": "Cleverness can be a tool for survival but raises moral questions"
+    }
+  ]
+},
+
+
+//to kill a mocking bird
+
+{
+  "topic": "To Kill a Mockingbird",
+  "questions": [
+    {
+      "q": "Who is the narrator of *To Kill a Mockingbird*?",
+      "options": [
+        "Scout Finch",
+        "Atticus Finch",
+        "Jem Finch",
+        "Dill Harris"
+      ],
+      "answer": "Scout Finch"
+    },
+    {
+      "q": "Which character serves as a moral guide and defends Tom Robinson in court?",
+      "options": [
+        "Atticus Finch",
+        "Boo Radley",
+        "Bob Ewell",
+        "Calpurnia"
+      ],
+      "answer": "Atticus Finch"
+    },
+    {
+      "q": "Tom Robinson is accused of:",
+      "options": [
+        "Raping Mayella Ewell",
+        "Stealing money",
+        "Setting fire to a house",
+        "Kidnapping Scout"
+      ],
+      "answer": "Raping Mayella Ewell"
+    },
+    {
+      "q": "The Finch children’s neighbor, mysterious and reclusive, is:",
+      "options": [
+        "Boo Radley",
+        "Tom Robinson",
+        "Dill Harris",
+        "Bob Ewell"
+      ],
+      "answer": "Boo Radley"
+    },
+    {
+      "q": "Which theme is central to the novel, highlighted through the trial of Tom Robinson?",
+      "options": [
+        "Racial injustice and prejudice",
+        "Romantic love",
+        "War and peace",
+        "Wealth and greed"
+      ],
+      "answer": "Racial injustice and prejudice"
+    },
+    {
+      "q": "Scout’s father, Atticus Finch, teaches her to:",
+      "options": [
+        "Empathize with others and fight for justice",
+        "Avoid school",
+        "Ignore social issues",
+        "Seek revenge"
+      ],
+      "answer": "Empathize with others and fight for justice"
+    },
+    {
+      "q": "Read the line: 'You never really understand a person until you consider things from his point of view.' This illustrates which literary device?",
+      "options": [
+        "Theme and moral lesson",
+        "Irony",
+        "Foreshadowing",
+        "Alliteration"
+      ],
+      "answer": "Theme and moral lesson"
+    },
+    {
+      "q": "The town in which the novel is set is:",
+      "options": [
+        "Maycomb, Alabama",
+        "Monroeville",
+        "Atlanta, Georgia",
+        "Memphis, Tennessee"
+      ],
+      "answer": "Maycomb, Alabama"
+    },
+    {
+      "q": "The children’s fascination with Boo Radley primarily serves to explore:",
+      "options": [
+        "Prejudice, fear, and the loss of innocence",
+        "Romantic love",
+        "Political conflict",
+        "Economic hardship"
+      ],
+      "answer": "Prejudice, fear, and the loss of innocence"
+    },
+    {
+      "q": "Which character represents the evils of racism and ignorance in the novel?",
+      "options": [
+        "Bob Ewell",
+        "Atticus Finch",
+        "Calpurnia",
+        "Dill Harris"
+      ],
+      "answer": "Bob Ewell"
+    },
+    {
+      "q": "Scout’s first-grade teacher is frustrated with her ability to read. This event highlights:",
+      "options": [
+        "Conflict between institutional expectations and individual abilities",
+        "Racial injustice",
+        "Romantic tension",
+        "Historical commentary"
+      ],
+      "answer": "Conflict between institutional expectations and individual abilities"
+    },
+    {
+      "q": "Atticus’s defense of Tom Robinson demonstrates:",
+      "options": [
+        "Courage and moral integrity",
+        "Ignorance and fear",
+        "Greed",
+        "Indifference"
+      ],
+      "answer": "Courage and moral integrity"
+    },
+    {
+      "q": "The mockingbird is a symbol of:",
+      "options": [
+        "Innocence and harmlessness",
+        "Greed",
+        "Violence",
+        "Ignorance"
+      ],
+      "answer": "Innocence and harmlessness"
+    },
+    {
+      "q": "Boo Radley saves Scout and Jem from an attack. This event illustrates:",
+      "options": [
+        "The theme of compassion and human goodness",
+        "Romantic love",
+        "Racial injustice",
+        "Political corruption"
+      ],
+      "answer": "The theme of compassion and human goodness"
+    },
+    {
+      "q": "Which character is the moral conscience of the novel?",
+      "options": [
+        "Atticus Finch",
+        "Scout Finch",
+        "Bob Ewell",
+        "Dill Harris"
+      ],
+      "answer": "Atticus Finch"
+    },
+    {
+      "q": "Read the passage: 'It’s a sin to kill a mockingbird.' What does it metaphorically warn against?",
+      "options": [
+        "Harming innocent and good people",
+        "Punishing criminals",
+        "Breaking laws",
+        "Revenge"
+      ],
+      "answer": "Harming innocent and good people"
+    },
+    {
+      "q": "Scout, Jem, and Dill’s attempts to see Boo Radley primarily illustrate:",
+      "options": [
+        "Childhood curiosity and innocence",
+        "Political activism",
+        "Moral failure",
+        "Romantic adventure"
+      ],
+      "answer": "Childhood curiosity and innocence"
+    },
+    {
+      "q": "The verdict in Tom Robinson’s trial is:",
+      "options": [
+        "Guilty, despite evidence proving innocence",
+        "Not guilty",
+        "Dismissed",
+        "Hung jury"
+      ],
+      "answer": "Guilty, despite evidence proving innocence"
+    },
+    {
+      "q": "Harper Lee uses the children’s perspective to:",
+      "options": [
+        "Expose social prejudice while retaining innocence",
+        "Offer historical accuracy",
+        "Provide romantic comedy",
+        "Introduce political satire"
+      ],
+      "answer": "Expose social prejudice while retaining innocence"
+    },
+    {
+      "q": "A major lesson from the novel is:",
+      "options": [
+        "The importance of empathy and fighting injustice",
+        "Wealth guarantees happiness",
+        "Revenge solves conflicts",
+        "Ignorance is strength"
+      ],
+      "answer": "The importance of empathy and fighting injustice"
+    }
+  ]
+},
+
+
+    ],
+    
+    Government: [
+      {
+  "topic": "Meaning, Scope and Functions of Government",
+  "questions": [
+    {
+      "q": "What is government?",
+      "options": ["A group of friends managing society", "The machinery and institutions through which a state is ruled or controlled", "An association for entertainment", "A private business organization"],
+      "answer": "The machinery and institutions through which a state is ruled or controlled"
+    },
+    {
+      "q": "Which of the following BEST describes the scope of government?",
+      "options": ["The areas, activities, and responsibilities covered by government", "The number of citizens in a state", "Only the president’s duties", "Only taxation"],
+      "answer": "The areas, activities, and responsibilities covered by government"
+    },
+    {
+      "q": "Government as an institution of the state refers to:",
+      "options": ["Family members living together", "The body of persons and institutions that make and enforce laws", "A political party", "A voluntary organization"],
+      "answer": "The body of persons and institutions that make and enforce laws"
+    },
+    {
+      "q": "Which of these is NOT part of the scope of government?",
+      "options": ["Maintenance of law and order", "Provision of social amenities", "Preparation of food for households", "Protection of lives and property"],
+      "answer": "Preparation of food for households"
+    },
+    {
+      "q": "Which of the following is a major purpose of government?",
+      "options": ["To create disorder", "To maintain peace, order, and stability", "To encourage corruption", "To abolish laws"],
+      "answer": "To maintain peace, order, and stability"
+    },
+    {
+      "q": "The body responsible for making laws in a country is the:",
+      "options": ["Executive", "Legislature", "Judiciary", "Police force"],
+      "answer": "Legislature"
+    },
+    {
+      "q": "Which arm of government interprets the law?",
+      "options": ["The Executive", "The Judiciary", "The Legislature", "The Civil service"],
+      "answer": "The Judiciary"
+    },
+    {
+      "q": "Government helps to protect the rights of citizens by:",
+      "options": ["Providing armed robbers", "Making and enforcing laws", "Banning education", "Removing security agencies"],
+      "answer": "Making and enforcing laws"
+    },
+    {
+      "q": "Which of the following is NOT a function of government?",
+      "options": ["Provision of security", "Administration of justice", "Economic planning", "Planning family size for citizens"],
+      "answer": "Planning family size for citizens"
+    },
+    {
+      "q": "Government as a process refers to:",
+      "options": ["The activities involved in governing", "A political party’s meeting", "Only elections", "Public holidays"],
+      "answer": "The activities involved in governing"
+    },
+    {
+      "q": "Which of these is a political function of government?",
+      "options": ["Repairing mobile phones", "Conducting elections", "Cooking for citizens", "Making movies"],
+      "answer": "Conducting elections"
+    },
+    {
+      "q": "A major economic function of government is:",
+      "options": ["Taxation and budgeting", "Teaching only mathematics", "Building private businesses", "Importing only luxury goods"],
+      "answer": "Taxation and budgeting"
+    },
+    {
+      "q": "A social function of government is to:",
+      "options": ["Provide healthcare and education", "Encourage crime", "Ban public transport", "Promote hunger"],
+      "answer": "Provide healthcare and education"
+    },
+    {
+      "q": "Who is responsible for implementing and enforcing laws?",
+      "options": ["Executive", "Legislature", "Judiciary", "Civil society"],
+      "answer": "Executive"
+    },
+    {
+      "q": "One reason why government is necessary is:",
+      "options": ["To ensure lawlessness", "To maintain social order", "To create confusion", "To increase crime"],
+      "answer": "To maintain social order"
+    },
+    {
+      "q": "The term 'state' refers to:",
+      "options": ["A group of villages", "A politically organized body of people occupying a definite territory with government", "A school building", "A church group"],
+      "answer": "A politically organized body of people occupying a definite territory with government"
+    },
+    {
+      "q": "The civil service belongs to which arm of government?",
+      "options": ["Judiciary", "Executive", "Legislature", "Private sector"],
+      "answer": "Executive"
+    },
+    {
+      "q": "Which of the following is an example of government maintaining law and order?",
+      "options": ["Establishing police and courts", "Encouraging riots", "Banning rules", "Ignoring crimes"],
+      "answer": "Establishing police and courts"
+    },
+    {
+      "q": "What is one importance of government to citizens?",
+      "options": ["Protection of fundamental human rights", "Teaching only personal lessons", "Increasing tribal conflict", "Promoting injustice"],
+      "answer": "Protection of fundamental human rights"
+    },
+    {
+      "q": "The arm of government that resolves disputes is the:",
+      "options": ["Executive", "Judiciary", "Legislature", "Police force"],
+      "answer": "Judiciary"
+    }
+  ]
+},
+
+{
+  "topic": "Basic Concepts of Government",
+  "questions": [
+    {
+      "q": "What is power in government?",
+      "options": ["The ability to dance well", "The capacity to influence or control the behaviour of others", "A type of electricity", "A form of entertainment"],
+      "answer": "The capacity to influence or control the behaviour of others"
+    },
+    {
+      "q": "Authority refers to:",
+      "options": ["Power without legitimacy", "The legitimate right to exercise power", "Any form of punishment", "The ability to sing loudly"],
+      "answer": "The legitimate right to exercise power"
+    },
+    {
+      "q": "Legitimacy in government means:",
+      "options": ["People willingly accept the government’s right to rule", "A government that rules secretly", "A government that uses only force", "Citizens ignoring laws"],
+      "answer": "People willingly accept the government’s right to rule"
+    },
+    {
+      "q": "Which of the following best describes sovereignty?",
+      "options": ["The power of traditional rulers only", "Absolute power of a state to rule itself without external control", "A shared power between neighbours", "The influence of religious leaders"],
+      "answer": "Absolute power of a state to rule itself without external control"
+    },
+    {
+      "q": "A state must possess all the following EXCEPT:",
+      "options": ["Population", "Territory", "Government", "Sports stadium"],
+      "answer": "Sports stadium"
+    },
+    {
+      "q": "Which of these is NOT a feature of a state?",
+      "options": ["Sovereignty", "Government", "Defined territory", "Multiple football clubs"],
+      "answer": "Multiple football clubs"
+    },
+    {
+      "q": "Nation refers to:",
+      "options": ["People who share common identity, culture, history, and language", "Only people living in a small village", "A group of tourists", "A company with many branches"],
+      "answer": "People who share common identity, culture, history, and language"
+    },
+    {
+      "q": "What is the main difference between a state and a nation?",
+      "options": ["A state has sovereignty; a nation may not", "A nation has a constitution; a state does not", "A state has no government", "A nation must be large"],
+      "answer": "A state has sovereignty; a nation may not"
+    },
+    {
+      "q": "What is political culture?",
+      "options": ["The way people dress", "The set of attitudes, beliefs, and values that people have about politics", "Holiday traditions", "Cultural dances only"],
+      "answer": "The set of attitudes, beliefs, and values that people have about politics"
+    },
+    {
+      "q": "Political socialization is the process by which:",
+      "options": ["People learn about politics and develop political attitudes", "People learn farming techniques", "New holidays are created", "People learn sports"],
+      "answer": "People learn about politics and develop political attitudes"
+    },
+    {
+      "q": "Which of the following is an agent of political socialization?",
+      "options": ["Schools and educational institutions", "Animals", "Weather", "Foreign currencies"],
+      "answer": "Schools and educational institutions"
+    },
+    {
+      "q": "Citizenship means:",
+      "options": ["Belonging to a political party", "Legal membership of a state", "Owning a passport of any country", "Being a tourist"],
+      "answer": "Legal membership of a state"
+    },
+    {
+      "q": "Political participation involves:",
+      "options": ["Taking part in political activities such as voting", "Buying goods in the market", "Reading novels", "Travelling abroad"],
+      "answer": "Taking part in political activities such as voting"
+    },
+    {
+      "q": "Which of these is an example of political participation?",
+      "options": ["Voting in elections", "Watching football", "Cooking at home", "Selling in the market"],
+      "answer": "Voting in elections"
+    },
+    {
+      "q": "State sovereignty can be classified into:",
+      "options": ["Internal and external sovereignty", "Large and small sovereignty", "Public and private sovereignty", "Legal and illegal sovereignty"],
+      "answer": "Internal and external sovereignty"
+    },
+    {
+      "q": "What is the meaning of constitutionalism?",
+      "options": ["Respect for the constitution and limitation of government powers", "Disobeying rules", "Using police to control everything", "Ignoring human rights"],
+      "answer": "Respect for the constitution and limitation of government powers"
+    },
+    {
+      "q": "Political power can be obtained in all the following ways EXCEPT:",
+      "options": ["Election", "Inheritance", "Coercion or force", "Cooking"],
+      "answer": "Cooking"
+    },
+    {
+      "q": "The rule of law refers to:",
+      "options": ["Government must obey the law and all citizens are equal before the law", "Government officials can do anything they want", "Only rich people obey the law", "Judges make laws secretly"],
+      "answer": "Government must obey the law and all citizens are equal before the law"
+    },
+    {
+      "q": "Nationalism can be defined as:",
+      "options": ["Love and loyalty to one's nation", "Hatred for government", "Desire to travel abroad", "Love for foreign culture"],
+      "answer": "Love and loyalty to one's nation"
+    },
+    {
+      "q": "Which of these is NOT an element of the state?",
+      "options": ["Government", "Territory", "Population", "Religion"],
+      "answer": "Religion"
+    }
+  ]
+},
+
+{
+  "topic": "Systems of Government and Economic Systems",
+  "questions": [
+    {
+      "q": "What is a system of government?",
+      "options": ["A type of musical instrument", "The way a country is politically organized and governed", "A method of farming", "A type of school administration"],
+      "answer": "The way a country is politically organized and governed"
+    },
+    {
+      "q": "Which of the following is a feature of a unitary system of government?",
+      "options": ["Power is shared equally among regions", "Power is concentrated in a central authority", "State governments are stronger than the central government", "There is no central government"],
+      "answer": "Power is concentrated in a central authority"
+    },
+    {
+      "q": "A federal system of government is characterized by:",
+      "options": ["Complete power for the central government", "Division of powers between central and component units", "Only local governments having power", "A government without a constitution"],
+      "answer": "Division of powers between central and component units"
+    },
+    {
+      "q": "Which of the following countries operates a federal system of government?",
+      "options": ["France", "Nigeria", "Ghana", "Kenya"],
+      "answer": "Nigeria"
+    },
+    {
+      "q": "Confederal system of government means:",
+      "options": ["A weak central government and strong regional governments", "Strong central government", "Only one level of government", "No government at all"],
+      "answer": "A weak central government and strong regional governments"
+    },
+    {
+      "q": "Which of these is an advantage of a federal system?",
+      "options": ["Uniform laws for all regions", "Promotion of local autonomy", "Centralized dictatorship", "Less representation"],
+      "answer": "Promotion of local autonomy"
+    },
+    {
+      "q": "Which is a disadvantage of a unitary system?",
+      "options": ["Duplication of functions", "Slow decision-making", "Over-centralization of power", "Weak central authority"],
+      "answer": "Over-centralization of power"
+    },
+    {
+      "q": "In a presidential system of government:",
+      "options": ["The president is both head of state and head of government", "The president is ceremonial only", "The prime minister leads the government", "Courts make government policies"],
+      "answer": "The president is both head of state and head of government"
+    },
+    {
+      "q": "A parliamentary system of government is also called:",
+      "options": ["Cabinet system", "Confederal system", "Unitary system", "Imperial system"],
+      "answer": "Cabinet system"
+    },
+    {
+      "q": "In a parliamentary system, the prime minister emerges from:",
+      "options": ["The army", "The ruling political party in parliament", "The judiciary", "The civil service"],
+      "answer": "The ruling political party in parliament"
+    },
+    {
+      "q": "Which of the following is an advantage of the presidential system?",
+      "options": ["Fusion of powers", "Clear separation of powers", "No fixed tenure", "Prime minister controls the president"],
+      "answer": "Clear separation of powers"
+    },
+    {
+      "q": "Which is a disadvantage of the parliamentary system?",
+      "options": ["Unstable government due to frequent votes of no confidence", "Too much separation of powers", "Too slow decision-making", "No accountability"],
+      "answer": "Unstable government due to frequent votes of no confidence"
+    },
+    {
+      "q": "What is an economic system?",
+      "options": ["A country's method of producing, distributing, and consuming goods and services", "A type of political party", "The process of electing leaders", "A type of school exam"],
+      "answer": "A country's method of producing, distributing, and consuming goods and services"
+    },
+    {
+      "q": "Which of the following is a feature of capitalism?",
+      "options": ["Government owns all means of production", "Private ownership of property and businesses", "No competition allowed", "Prices controlled only by government"],
+      "answer": "Private ownership of property and businesses"
+    },
+    {
+      "q": "Socialism is based on:",
+      "options": ["Private ownership of factories", "Government ownership and control of major means of production", "Free market economy", "Absence of planning"],
+      "answer": "Government ownership and control of major means of production"
+    },
+    {
+      "q": "A mixed economic system combines features of:",
+      "options": ["Capitalism and socialism", "Democracy and monarchy", "Feudalism and communism", "Unitary and federal systems"],
+      "answer": "Capitalism and socialism"
+    },
+    {
+      "q": "Communism advocates:",
+      "options": ["Classless society and common ownership of resources", "Private property", "Competition among individuals", "Only traditional leadership"],
+      "answer": "Classless society and common ownership of resources"
+    },
+    {
+      "q": "A disadvantage of capitalism is:",
+      "options": ["Competition", "Encouragement of innovation", "Possibility of income inequality", "Consumer choice"],
+      "answer": "Possibility of income inequality"
+    },
+    {
+      "q": "Which is an advantage of socialism?",
+      "options": ["Elimination of exploitation", "High level of inequality", "Weak government control", "Absence of social welfare"],
+      "answer": "Elimination of exploitation"
+    },
+    {
+      "q": "Traditional economic system is based on:",
+      "options": ["Customs, beliefs, and age-long practices", "Advanced technology", "Heavy government control", "Large-scale industries"],
+      "answer": "Customs, beliefs, and age-long practices"
+    }
+  ]
+},
+
+{
+  "topic": "Forms of Government",
+  "questions": [
+    {
+      "q": "What are forms of government?",
+      "options": ["Ways citizens pay tax", "The structure through which political power is organized and exercised in a state", "Types of schools in a country", "Methods of farming"],
+      "answer": "The structure through which political power is organized and exercised in a state"
+    },
+    {
+      "q": "Democracy is a form of government where:",
+      "options": ["Power belongs to one person", "People rule directly or through elected representatives", "The army controls the state", "Religious leaders make all decisions"],
+      "answer": "People rule directly or through elected representatives"
+    },
+    {
+      "q": "Which of the following is a key feature of democracy?",
+      "options": ["Suppression of opposition", "Free and fair elections", "Government by one family", "No rule of law"],
+      "answer": "Free and fair elections"
+    },
+    {
+      "q": "Autocracy refers to:",
+      "options": ["Rule by many people", "Rule by a single individual with absolute power", "Rule by elected representatives", "Government by religious leaders"],
+      "answer": "Rule by a single individual with absolute power"
+    },
+    {
+      "q": "A government ruled by a king or queen is called:",
+      "options": ["Democracy", "Oligarchy", "Monarchy", "Plutocracy"],
+      "answer": "Monarchy"
+    },
+    {
+      "q": "Which type of monarchy allows the monarch limited or no powers?",
+      "options": ["Absolute monarchy", "Constitutional monarchy", "Military monarchy", "Feudal monarchy"],
+      "answer": "Constitutional monarchy"
+    },
+    {
+      "q": "In an absolute monarchy:",
+      "options": ["The king’s powers are limited by a constitution", "The king has total and unrestricted power", "People elect their leaders", "The judiciary is supreme"],
+      "answer": "The king has total and unrestricted power"
+    },
+    {
+      "q": "Oligarchy is a system where:",
+      "options": ["One person rules", "A small group of people rule", "Every citizen rules directly", "Religious leaders rule"],
+      "answer": "A small group of people rule"
+    },
+    {
+      "q": "A government ruled by the wealthy or upper class is called:",
+      "options": ["Theocracy", "Plutocracy", "Democracy", "Aristocracy"],
+      "answer": "Plutocracy"
+    },
+    {
+      "q": "Theocracy is a form of government where:",
+      "options": ["Religious leaders govern based on religious laws", "Soldiers control the state", "The rich rule all institutions", "Kings rule forever"],
+      "answer": "Religious leaders govern based on religious laws"
+    },
+    {
+      "q": "Which form of government is based on military control?",
+      "options": ["Democracy", "Military rule", "Theocracy", "Monarchy"],
+      "answer": "Military rule"
+    },
+    {
+      "q": "Aristocracy refers to rule by:",
+      "options": ["The common people", "The noble or privileged class", "The military", "Foreigners"],
+      "answer": "The noble or privileged class"
+    },
+    {
+      "q": "Which of the following is a characteristic of dictatorship?",
+      "options": ["Respect for human rights", "Absolute power by one leader", "Freedom of the press", "Regular free elections"],
+      "answer": "Absolute power by one leader"
+    },
+    {
+      "q": "Which system allows citizens to vote directly on issues?",
+      "options": ["Indirect democracy", "Direct democracy", "Military rule", "Aristocracy"],
+      "answer": "Direct democracy"
+    },
+    {
+      "q": "Indirect democracy is also known as:",
+      "options": ["Representative democracy", "Absolute democracy", "Autocracy", "Theocracy"],
+      "answer": "Representative democracy"
+    },
+    {
+      "q": "Which form of government combines both elected officials and monarchy?",
+      "options": ["Oligarchy", "Constitutional monarchy", "Theocracy", "Military rule"],
+      "answer": "Constitutional monarchy"
+    },
+    {
+      "q": "A totalitarian government is one that:",
+      "options": ["Allows complete freedom of speech", "Controls every aspect of citizens’ lives", "Runs only the army", "Encourages opposition parties"],
+      "answer": "Controls every aspect of citizens’ lives"
+    },
+    {
+      "q": "Which of these is NOT a democratic feature?",
+      "options": ["Rule of law", "Regular elections", "Freedom of speech", "Suppression of opposition"],
+      "answer": "Suppression of opposition"
+    },
+    {
+      "q": "The type of government where no single individual or group has absolute power, and institutions operate independently is called:",
+      "options": ["Democracy", "Totalitarianism", "Autocracy", "Feudalism"],
+      "answer": "Democracy"
+    },
+    {
+      "q": "Which of the following is an advantage of democracy?",
+      "options": ["Promotes popular participation", "Suppresses opposition", "Concentrates power in one person", "Removes citizen rights"],
+      "answer": "Promotes popular participation"
+    }
+  ]
+},
+
+{
+  "topic": "Organs of Government",
+  "questions": [
+    {
+      "q": "What are the three main organs of government?",
+      "options": ["Police, Army, Navy", "Legislature, Executive, Judiciary", "Family, School, Church", "Ministers, Governors, Chiefs"],
+      "answer": "Legislature, Executive, Judiciary"
+    },
+    {
+      "q": "Which organ of government is responsible for making laws?",
+      "options": ["Executive", "Judiciary", "Legislature", "Police"],
+      "answer": "Legislature"
+    },
+    {
+      "q": "The executive organ of government is responsible for:",
+      "options": ["Enforcing laws", "Interpreting laws", "Making laws", "Judging election results"],
+      "answer": "Enforcing laws"
+    },
+    {
+      "q": "The judiciary's main function is to:",
+      "options": ["Make laws", "Implement policies", "Interpret laws and settle disputes", "Collect taxes"],
+      "answer": "Interpret laws and settle disputes"
+    },
+    {
+      "q": "Which arm of government is led by the president or prime minister?",
+      "options": ["Legislature", "Executive", "Judiciary", "Civil service"],
+      "answer": "Executive"
+    },
+    {
+      "q": "Which of the following is a function of the legislature?",
+      "options": ["Execution of laws", "Law-making", "Judicial review", "Enforcement of court judgments"],
+      "answer": "Law-making"
+    },
+    {
+      "q": "Bicameral legislature refers to:",
+      "options": ["One chamber of parliament", "Two chambers of parliament", "Three chambers of parliament", "Military-controlled parliament"],
+      "answer": "Two chambers of parliament"
+    },
+    {
+      "q": "Nigeria operates a ______ legislature.",
+      "options": ["Unicameral", "Bicameral", "Feudal", "Aristocratic"],
+      "answer": "Bicameral"
+    },
+    {
+      "q": "What are the two houses of the Nigerian National Assembly?",
+      "options": ["Upper House and Lower House", "Senate and House of Representatives", "Council of Chiefs and National Council", "House of Lords and House of Commons"],
+      "answer": "Senate and House of Representatives"
+    },
+    {
+      "q": "Which arm of government has the power to veto bills?",
+      "options": ["Legislature", "Executive", "Judiciary", "Citizens"],
+      "answer": "Executive"
+    },
+    {
+      "q": "Judicial independence means:",
+      "options": ["Judges are controlled by the executive", "Judges can interpret laws without fear or favor", "Judges are elected by politicians", "The judiciary makes laws alone"],
+      "answer": "Judges can interpret laws without fear or favor"
+    },
+    {
+      "q": "Which of the following is a function of the executive?",
+      "options": ["Approving budgets", "Executing laws and maintaining peace", "Conducting court trials", "Interpreting the constitution"],
+      "answer": "Executing laws and maintaining peace"
+    },
+    {
+      "q": "Who is the head of the judiciary in Nigeria?",
+      "options": ["Attorney-General", "President", "Chief Justice of Nigeria", "Inspector General of Police"],
+      "answer": "Chief Justice of Nigeria"
+    },
+    {
+      "q": "A unicameral legislature has:",
+      "options": ["Two houses", "Only one house", "Three houses", "No house"],
+      "answer": "Only one house"
+    },
+    {
+      "q": "Checks and balances among the organs of government helps to:",
+      "options": ["Concentrate power in one arm", "Prevent abuse of power", "Remove separation of powers", "Give the military more authority"],
+      "answer": "Prevent abuse of power"
+    },
+    {
+      "q": "Which arm of government can declare a law unconstitutional?",
+      "options": ["Legislature", "Executive", "Judiciary", "Electoral Commission"],
+      "answer": "Judiciary"
+    },
+    {
+      "q": "Who prepares and presents the national budget?",
+      "options": ["Legislature", "Executive", "Judiciary", "Civil society"],
+      "answer": "Executive"
+    },
+    {
+      "q": "Oversight functions over ministries and agencies are performed by:",
+      "options": ["Judiciary", "Executive", "Legislature", "Police"],
+      "answer": "Legislature"
+    },
+    {
+      "q": "Which organ can impeach the president?",
+      "options": ["Judiciary alone", "Legislature", "Executive council", "Police service"],
+      "answer": "Legislature"
+    },
+    {
+      "q": "The organ that ensures justice, protects rights, and interprets the constitution is:",
+      "options": ["Legislature", "Executive", "Judiciary", "Armed forces"],
+      "answer": "Judiciary"
+    }
+  ]
+},
+
+{
+  "topic": "Political Participation",
+  "questions": [
+    {
+      "q": "What is political participation?",
+      "options": ["Taking part in political activities and decision-making processes", "Joining social clubs only", "Avoiding politics completely", "Attending only sports events"],
+      "answer": "Taking part in political activities and decision-making processes"
+    },
+    {
+      "q": "Which of the following is a form of political participation?",
+      "options": ["Voting in elections", "Playing football", "Shopping at the market", "Attending concerts"],
+      "answer": "Voting in elections"
+    },
+    {
+      "q": "The most common form of political participation in a democracy is:",
+      "options": ["Protesting", "Campaigning", "Voting", "Petition writing"],
+      "answer": "Voting"
+    },
+    {
+      "q": "Political apathy refers to:",
+      "options": ["High political interest", "Lack of interest in political activities", "Over-participation in elections", "Supporting multiple parties at once"],
+      "answer": "Lack of interest in political activities"
+    },
+    {
+      "q": "Which of the following encourages political participation?",
+      "options": ["Voter education", "Political violence", "Electoral fraud", "High cost of elections"],
+      "answer": "Voter education"
+    },
+    {
+      "q": "Pressure groups influence government decisions mainly through:",
+      "options": ["Lobbying and advocacy", "Sports competitions", "Religious sermons", "Cultural dances"],
+      "answer": "Lobbying and advocacy"
+    },
+    {
+      "q": "Which group is responsible for educating voters and conducting elections?",
+      "options": ["The Police", "Electoral Commission", "Judiciary", "Traditional Rulers"],
+      "answer": "Electoral Commission"
+    },
+    {
+      "q": "One reason why citizens participate in politics is to:",
+      "options": ["Increase entertainment options", "Protect their interests", "Reduce population", "Create cultural festivals"],
+      "answer": "Protect their interests"
+    },
+    {
+      "q": "Running for political office is an example of:",
+      "options": ["Indirect political participation", "Direct political participation", "Passive participation", "Social participation"],
+      "answer": "Direct political participation"
+    },
+    {
+      "q": "Joining a political party is classified as:",
+      "options": ["Social participation", "Economic activity", "Political participation", "Judicial participation"],
+      "answer": "Political participation"
+    },
+    {
+      "q": "A town hall meeting is an example of:",
+      "options": ["Political participation", "Family gathering", "Festival planning", "Economic activity"],
+      "answer": "Political participation"
+    },
+    {
+      "q": "Why do some citizens fail to participate in politics?",
+      "options": ["Political apathy", "High interest in governance", "Effective leadership", "Availability of information"],
+      "answer": "Political apathy"
+    },
+    {
+      "q": "Which of these is a barrier to political participation?",
+      "options": ["Free and fair elections", "Political intimidation", "Voter education", "Democratic governance"],
+      "answer": "Political intimidation"
+    },
+    {
+      "q": "Which age group is legally allowed to vote in Nigeria?",
+      "options": ["10 years and above", "15 years and above", "18 years and above", "21 years and above"],
+      "answer": "18 years and above"
+    },
+    {
+      "q": "Participating in protests, rallies or demonstrations is a form of:",
+      "options": ["Direct political participation", "Passive participation", "Economic participation", "Judicial participation"],
+      "answer": "Direct political participation"
+    },
+    {
+      "q": "One importance of political participation is that it:",
+      "options": ["Weakens democracy", "Strengthens democracy", "Promotes dictatorship", "Discourages accountability"],
+      "answer": "Strengthens democracy"
+    },
+    {
+      "q": "Which of the following is an indirect form of political participation?",
+      "options": ["Voting", "Holding political office", "Joining a pressure group", "Running for presidency"],
+      "answer": "Joining a pressure group"
+    },
+    {
+      "q": "Citizens can participate in governance by expressing their views through:",
+      "options": ["Media and public discussions", "Sports events", "Market trading", "Family meetings"],
+      "answer": "Media and public discussions"
+    },
+    {
+      "q": "Standing as a candidate in an election is:",
+      "options": ["A right and a form of political participation", "A punishment", "A requirement for all citizens", "A military duty"],
+      "answer": "A right and a form of political participation"
+    },
+    {
+      "q": "Community development activities such as volunteering or attending meetings are examples of:",
+      "options": ["Civic participation", "Military participation", "Economic participation", "Judicial participation"],
+      "answer": "Civic participation"
+    }
+  ]
+},
+
+{
+  "topic": "Constitutions",
+  "questions": [
+    {
+      "q": "What is a constitution?",
+      "options": ["A set of religious rules", "A body of fundamental laws guiding a country", "A list of market prices", "A book of cultural traditions"],
+      "answer": "A body of fundamental laws guiding a country"
+    },
+    {
+      "q": "Which of the following describes a written constitution?",
+      "options": ["Not documented", "Found in a single, formal document", "Passed down orally", "Known only by traditional rulers"],
+      "answer": "Found in a single, formal document"
+    },
+    {
+      "q": "Which type of constitution is not written down in one document?",
+      "options": ["Rigid constitution", "Flexible constitution", "Unwritten constitution", "Unitary constitution"],
+      "answer": "Unwritten constitution"
+    },
+    {
+      "q": "A rigid constitution is:",
+      "options": ["Easy to amend", "Difficult to amend", "Not recognized by law", "Only used during elections"],
+      "answer": "Difficult to amend"
+    },
+    {
+      "q": "A constitution that can be easily amended is called:",
+      "options": ["Rigid constitution", "Flexible constitution", "Federal constitution", "Confederal constitution"],
+      "answer": "Flexible constitution"
+    },
+    {
+      "q": "Which country is known for having an unwritten constitution?",
+      "options": ["Nigeria", "United States", "Britain", "China"],
+      "answer": "Britain"
+    },
+    {
+      "q": "Which of the following is a feature of a written constitution?",
+      "options": ["It is scattered and unwritten", "It provides legal certainty", "It changes frequently without procedure", "It is based solely on customs"],
+      "answer": "It provides legal certainty"
+    },
+    {
+      "q": "The supreme law of a country is its:",
+      "options": ["Manifesto", "Constitution", "Budget", "Election timetable"],
+      "answer": "Constitution"
+    },
+    {
+      "q": "One function of a constitution is to:",
+      "options": ["Determine school fees", "Define the powers of government", "Fix market prices", "Organize sports events"],
+      "answer": "Define the powers of government"
+    },
+    {
+      "q": "The part of a constitution that lists the rights of citizens is called:",
+      "options": ["Bill of Rights", "Table of Contents", "Preamble", "Appendix"],
+      "answer": "Bill of Rights"
+    },
+    {
+      "q": "Which of the following is included in most constitutions?",
+      "options": ["Rules for cooking", "Structure of government", "Fashion guidelines", "Business advertisements"],
+      "answer": "Structure of government"
+    },
+    {
+      "q": "A constitution that divides power between central and regional governments is called:",
+      "options": ["Unitary constitution", "Federal constitution", "Flexible constitution", "Unwritten constitution"],
+      "answer": "Federal constitution"
+    },
+    {
+      "q": "Which constitution introduced federalism to Nigeria?",
+      "options": ["1963 Republican Constitution", "1946 Richards Constitution", "1954 Lyttleton Constitution", "1999 Constitution"],
+      "answer": "1954 Lyttleton Constitution"
+    },
+    {
+      "q": "The introduction of the constitution is called the:",
+      "options": ["Appendix", "Preamble", "Annex", "Body"],
+      "answer": "Preamble"
+    },
+    {
+      "q": "The 1999 Constitution of Nigeria is a:",
+      "options": ["Flexible constitution", "Rigid constitution", "Unwritten constitution", "Confederal constitution"],
+      "answer": "Rigid constitution"
+    },
+    {
+      "q": "Which body is responsible for interpreting the constitution?",
+      "options": ["Executive", "Legislature", "Judiciary", "Media"],
+      "answer": "Judiciary"
+    },
+    {
+      "q": "A constitution helps to limit:",
+      "options": ["Government powers", "Education access", "Sports participation", "Economic growth"],
+      "answer": "Government powers"
+    },
+    {
+      "q": "Which of the following is NOT a reason for having a constitution?",
+      "options": ["To safeguard citizens' rights", "To promote disorder", "To guide government actions", "To maintain law and order"],
+      "answer": "To promote disorder"
+    },
+    {
+      "q": "Judicial review means:",
+      "options": ["Courts making laws", "Courts interpreting the constitution", "Citizens voting in elections", "Ministers signing budgets"],
+      "answer": "Courts interpreting the constitution"
+    },
+    {
+      "q": "A constitution that concentrates power in one central authority is called:",
+      "options": ["Federal constitution", "Unitary constitution", "Rigid constitution", "Flexible constitution"],
+      "answer": "Unitary constitution"
+    }
+  ]
+},
+
+{
+  "topic": "Rule of Law",
+  "questions": [
+    {
+      "q": "What is the rule of law?",
+      "options": ["Government is above the law", "Nobody is above the law and all actions are guided by law", "Only leaders obey the law", "Laws apply only during elections"],
+      "answer": "Nobody is above the law and all actions are guided by law"
+    },
+    {
+      "q": "Who popularized the concept of the rule of law?",
+      "options": ["Karl Marx", "A.V. Dicey", "Aristotle", "John Locke"],
+      "answer": "A.V. Dicey"
+    },
+    {
+      "q": "Which of the following is a key principle of the rule of law?",
+      "options": ["Supremacy of the law", "Supremacy of the president", "Supremacy of the military", "Supremacy of political parties"],
+      "answer": "Supremacy of the law"
+    },
+    {
+      "q": "Equality before the law means:",
+      "options": ["Some citizens are above the law", "Rich people get special laws", "All persons are treated equally under the law", "Only politicians obey laws"],
+      "answer": "All persons are treated equally under the law"
+    },
+    {
+      "q": "Which principle ensures that government officials must act within the law?",
+      "options": ["Judicial activism", "Due process", "Checks and balances", "Parliamentary immunity"],
+      "answer": "Due process"
+    },
+    {
+      "q": "One major feature of rule of law is:",
+      "options": ["Arbitrary arrest", "Fair hearing", "Political intimidation", "Dictatorship"],
+      "answer": "Fair hearing"
+    },
+    {
+      "q": "The phrase *habeas corpus* protects citizens from:",
+      "options": ["Illegal detention", "High taxation", "Voting", "Military recruitment"],
+      "answer": "Illegal detention"
+    },
+    {
+      "q": "Rule of law helps to prevent:",
+      "options": ["Abuse of power", "Judicial independence", "Democratic participation", "Respect for rights"],
+      "answer": "Abuse of power"
+    },
+    {
+      "q": "Which body is responsible for protecting the rule of law?",
+      "options": ["The media alone", "The judiciary", "Political parties", "The armed forces"],
+      "answer": "The judiciary"
+    },
+    {
+      "q": "Which of these conditions promotes the rule of law?",
+      "options": ["Independent judiciary", "Political corruption", "Weak legal system", "Dictatorship"],
+      "answer": "Independent judiciary"
+    },
+    {
+      "q": "Which action violates the rule of law?",
+      "options": ["Fair trial", "Arbitrary arrest", "Judicial review", "Legal representation"],
+      "answer": "Arbitrary arrest"
+    },
+    {
+      "q": "One importance of the rule of law is that it:",
+      "options": ["Encourages tyranny", "Protects fundamental human rights", "Promotes political oppression", "Weakens democracy"],
+      "answer": "Protects fundamental human rights"
+    },
+    {
+      "q": "Which principle ensures that a suspect is heard before judgment?",
+      "options": ["Rule of men", "Fair hearing", "Executive privilege", "Martial law"],
+      "answer": "Fair hearing"
+    },
+    {
+      "q": "Which of these is necessary for the enforcement of the rule of law?",
+      "options": ["Corrupt judiciary", "Free press", "Political intimidation", "Electoral malpractice"],
+      "answer": "Free press"
+    },
+    {
+      "q": "Rule of law is best protected when:",
+      "options": ["The judiciary is controlled by politicians", "Courts are independent", "Leaders ignore court orders", "Citizens are denied rights"],
+      "answer": "Courts are independent"
+    },
+    {
+      "q": "What does ‘supremacy of the law’ imply?",
+      "options": ["The president can override the law", "The law is above everyone, including leaders", "Judges can ignore the law", "The military controls legal processes"],
+      "answer": "The law is above everyone, including leaders"
+    },
+    {
+      "q": "Which of the following supports the rule of law?",
+      "options": ["Transparent legal system", "Biased judges", "Political bribery", "Weak constitution"],
+      "answer": "Transparent legal system"
+    },
+    {
+      "q": "Which situation reflects rule of law?",
+      "options": ["A leader jailed for corruption", "A governor exempted from laws", "Police arrest without warrant", "Court decisions ignored"],
+      "answer": "A leader jailed for corruption"
+    },
+    {
+      "q": "Which principle prevents government from making arbitrary decisions?",
+      "options": ["Separation of powers", "Electoral registration", "Political campaigns", "Manifestos"],
+      "answer": "Separation of powers"
+    },
+    {
+      "q": "One major obstacle to the rule of law is:",
+      "options": ["Judicial corruption", "Independent courts", "Human rights", "Law enforcement"],
+      "answer": "Judicial corruption"
+    }
+  ]
+},
+
+{
+  "topic": "Delegated Legislation",
+  "questions": [
+    {
+      "q": "What is delegated legislation?",
+      "options": ["Laws made directly by voters", "Laws made by bodies other than the legislature but with its authority", "Laws made only by the president", "Laws made by the judiciary"],
+      "answer": "Laws made by bodies other than the legislature but with its authority"
+    },
+    {
+      "q": "Why does parliament delegate legislative powers?",
+      "options": ["To avoid making any laws", "To save time and handle technical matters efficiently", "To weaken democracy", "To avoid responsibility"],
+      "answer": "To save time and handle technical matters efficiently"
+    },
+    {
+      "q": "Which of the following is an example of delegated legislation?",
+      "options": ["A constitutional amendment", "A minister issuing regulations", "A bill passed by parliament", "A court judgment"],
+      "answer": "A minister issuing regulations"
+    },
+    {
+      "q": "Delegated legislation is also called:",
+      "options": ["Primary legislation", "Subsidiary legislation", "Judicial legislation", "Manifesto rules"],
+      "answer": "Subsidiary legislation"
+    },
+    {
+      "q": "Which of the following bodies can make delegated legislation?",
+      "options": ["Executive bodies", "Courts only", "Traditional rulers only", "Voters only"],
+      "answer": "Executive bodies"
+    },
+    {
+      "q": "A by-law is a form of delegated legislation made by:",
+      "options": ["Local government authorities", "The president", "The military", "The judiciary"],
+      "answer": "Local government authorities"
+    },
+    {
+      "q": "Which term refers to laws made by government ministers?",
+      "options": ["Ministerial orders", "Judicial decrees", "Executive pardons", "Electoral codes"],
+      "answer": "Ministerial orders"
+    },
+    {
+      "q": "Which of the following is NOT a reason for delegated legislation?",
+      "options": ["Complexity of modern government", "Need for expert knowledge", "Flexibility and speed", "Desire to remove parliament completely"],
+      "answer": "Desire to remove parliament completely"
+    },
+    {
+      "q": "Which group monitors the use of delegated legislation?",
+      "options": ["The military", "Parliament", "Students", "Traditional leaders"],
+      "answer": "Parliament"
+    },
+    {
+      "q": "Judicial control of delegated legislation means:",
+      "options": ["Courts approve all laws", "Courts can declare delegated legislation invalid", "Courts make the laws", "Courts run the government"],
+      "answer": "Courts can declare delegated legislation invalid"
+    },
+    {
+      "q": "One advantage of delegated legislation is:",
+      "options": ["It bypasses democracy", "It allows experts to handle technical matters", "It removes parliament", "It promotes secrecy"],
+      "answer": "It allows experts to handle technical matters"
+    },
+    {
+      "q": "One disadvantage of delegated legislation is:",
+      "options": ["It speeds up law-making", "It may lead to abuse of power", "It involves experts", "It reduces parliamentary workload"],
+      "answer": "It may lead to abuse of power"
+    },
+    {
+      "q": "Which of these is a type of delegated legislation?",
+      "options": ["Statutory instruments", "Supreme court rulings", "Referendums", "Manifestos"],
+      "answer": "Statutory instruments"
+    },
+    {
+      "q": "Local government by-laws usually apply:",
+      "options": ["Nationwide", "Only within the local government's area", "Only in the capital city", "Only to foreigners"],
+      "answer": "Only within the local government's area"
+    },
+    {
+      "q": "Delegated legislation is necessary because:",
+      "options": ["Parliament cannot meet every day to make minor regulations", "It removes democratic processes", "It increases election campaigns", "It reduces the judiciary's power"],
+      "answer": "Parliament cannot meet every day to make minor regulations"
+    },
+    {
+      "q": "Which body gives the authority for delegated legislation?",
+      "options": ["Citizens directly", "Parliament", "Religious leaders", "Private companies"],
+      "answer": "Parliament"
+    },
+    {
+      "q": "One form of parliamentary control over delegated legislation is:",
+      "options": ["Judicial sentencing", "Question time and committee reviews", "Military oversight", "Public protests"],
+      "answer": "Question time and committee reviews"
+    },
+    {
+      "q": "Which type of delegated legislation is issued during emergencies?",
+      "options": ["Statutory instruments", "Orders in Council", "By-laws", "Constitutional amendments"],
+      "answer": "Orders in Council"
+    },
+    {
+      "q": "A key criticism of delegated legislation is that it:",
+      "options": ["Saves time", "Is too technical", "Lacks publicity and transparency", "Is always approved by parliament"],
+      "answer": "Lacks publicity and transparency"
+    },
+    {
+      "q": "Delegated legislation is supervised by the judiciary through:",
+      "options": ["Judicial review", "Election monitoring", "Budget approval", "Public debates"],
+      "answer": "Judicial review"
+    }
+  ]
+},
+
+{
+  "topic": "Separation of Powers",
+  "questions": [
+    {
+      "q": "What is separation of powers?",
+      "options": ["Combining all government powers in one body", "Dividing government powers among separate arms", "Giving all power to the judiciary", "Allowing citizens to make all laws"],
+      "answer": "Dividing government powers among separate arms"
+    },
+    {
+      "q": "Who popularized the modern concept of separation of powers?",
+      "options": ["A.V. Dicey", "Montesquieu", "Karl Marx", "John Locke"],
+      "answer": "Montesquieu"
+    },
+    {
+      "q": "How many arms of government are recognized under separation of powers?",
+      "options": ["Two", "Three", "Four", "Five"],
+      "answer": "Three"
+    },
+    {
+      "q": "Which of these is NOT an arm of government?",
+      "options": ["Legislature", "Executive", "Judiciary", "Military"],
+      "answer": "Military"
+    },
+    {
+      "q": "Separation of powers aims to prevent:",
+      "options": ["Checks and balances", "Abuse of power", "Judicial independence", "Democratic elections"],
+      "answer": "Abuse of power"
+    },
+    {
+      "q": "The legislature is responsible for:",
+      "options": ["Interpreting laws", "Making laws", "Executing laws", "Conducting elections"],
+      "answer": "Making laws"
+    },
+    {
+      "q": "Which organ of government enforces laws?",
+      "options": ["Judiciary", "Executive", "Legislature", "Civil society"],
+      "answer": "Executive"
+    },
+    {
+      "q": "The judiciary's main function is to:",
+      "options": ["Execute laws", "Interpret laws", "Make laws", "Conduct national census"],
+      "answer": "Interpret laws"
+    },
+    {
+      "q": "Which principle works alongside separation of powers?",
+      "options": ["Federalism", "Checks and balances", "Monarchy", "Communism"],
+      "answer": "Checks and balances"
+    },
+    {
+      "q": "Checks and balances refers to:",
+      "options": ["Removing all government limits", "Each arm monitoring the others to prevent abuse", "One arm having full power", "The military controlling the government"],
+      "answer": "Each arm monitoring the others to prevent abuse"
+    },
+    {
+      "q": "Which of these is an example of checks and balances?",
+      "options": ["President vetoing a bill", "Courts making laws", "Legislature conducting military operations", "Executive interpreting the constitution"],
+      "answer": "President vetoing a bill"
+    },
+    {
+      "q": "A system where one person holds legislative, executive, and judicial power is called:",
+      "options": ["Democracy", "Totalitarianism", "Republic", "Federalism"],
+      "answer": "Totalitarianism"
+    },
+    {
+      "q": "Why is separation of powers important in a democracy?",
+      "options": ["It strengthens dictatorship", "It ensures no single arm becomes too powerful", "It removes constitutional rights", "It abolishes elections"],
+      "answer": "It ensures no single arm becomes too powerful"
+    },
+    {
+      "q": "Which arm of government can declare an executive action unconstitutional?",
+      "options": ["Legislature", "Judiciary", "Executive", "Civil society"],
+      "answer": "Judiciary"
+    },
+    {
+      "q": "Which arm approves the national budget?",
+      "options": ["Executive", "Judiciary", "Legislature", "Police"],
+      "answer": "Legislature"
+    },
+    {
+      "q": "In a presidential system, the president belongs to the:",
+      "options": ["Legislature", "Judiciary", "Executive", "Electoral commission"],
+      "answer": "Executive"
+    },
+    {
+      "q": "The power to impeach the president lies with the:",
+      "options": ["Judiciary", "Executive", "Legislature", "Police"],
+      "answer": "Legislature"
+    },
+    {
+      "q": "Judicial independence supports separation of powers by:",
+      "options": ["Allowing judges to act without external influence", "Putting judges under executive control", "Letting judges make laws", "Combining courts with legislature"],
+      "answer": "Allowing judges to act without external influence"
+    },
+    {
+      "q": "Which constitution introduced clear separation of powers in Nigeria?",
+      "options": ["1999 Constitution", "1946 Richards Constitution", "1960 Independence Constitution", "1954 Lyttleton Constitution"],
+      "answer": "1999 Constitution"
+    },
+    {
+      "q": "A system where the arms of government closely overlap is called:",
+      "options": ["Fusion of powers", "Constitutionalism", "Judicial review", "Bicameral system"],
+      "answer": "Fusion of powers"
+    }
+  ]
+},
+
+{
+  "topic": "Citizenship",
+  "questions": [
+    {
+      "q": "What is citizenship?",
+      "options": ["Membership of a political party", "Legal membership of a state with rights and duties", "Being rich and influential", "Living in a country temporarily"],
+      "answer": "Legal membership of a state with rights and duties"
+    },
+    {
+      "q": "Which of the following is a way of acquiring citizenship by birth?",
+      "options": ["Being born in a country to citizen parents", "Marrying a citizen", "Applying after 10 years", "Winning a lottery"],
+      "answer": "Being born in a country to citizen parents"
+    },
+    {
+      "q": "Citizenship by descent means:",
+      "options": ["Born in a country automatically", "Citizenship through parentage even if born abroad", "Being granted citizenship by government award", "Buying citizenship"],
+      "answer": "Citizenship through parentage even if born abroad"
+    },
+    {
+      "q": "Which of these is an example of citizenship by registration?",
+      "options": ["A foreign woman marrying a citizen and applying", "A child born to citizen parents", "A person born abroad to non-citizen parents", "An immigrant refusing to apply for citizenship"],
+      "answer": "A foreign woman marrying a citizen and applying"
+    },
+    {
+      "q": "Naturalization as a method of acquiring citizenship requires:",
+      "options": ["Long-term residence and good character", "Being born in the country", "Having wealthy parents", "Winning an election"],
+      "answer": "Long-term residence and good character"
+    },
+    {
+      "q": "Honorary citizenship is usually given to:",
+      "options": ["Foreigners with exceptional contributions", "Children born in the country", "Political party members", "Immigrants who refuse to naturalize"],
+      "answer": "Foreigners with exceptional contributions"
+    },
+    {
+      "q": "Nigeria allows dual citizenship for:",
+      "options": ["Citizens by birth", "Naturalized citizens only", "All foreigners", "Anyone living in Nigeria temporarily"],
+      "answer": "Citizens by birth"
+    },
+    {
+      "q": "A citizen can lose citizenship by:",
+      "options": ["Renunciation, denaturalization, or fraud", "Being rich", "Owning property abroad", "Voting in elections"],
+      "answer": "Renunciation, denaturalization, or fraud"
+    },
+    {
+      "q": "Which of the following is a right of a citizen?",
+      "options": ["Right to vote", "Right to rule others", "Right to evade taxes", "Right to ignore laws"],
+      "answer": "Right to vote"
+    },
+    {
+      "q": "A citizen has the duty to:",
+      "options": ["Obey laws, pay taxes, and defend the nation", "Ignore national rules", "Disregard public property", "Break the law if convenient"],
+      "answer": "Obey laws, pay taxes, and defend the nation"
+    },
+    {
+      "q": "One quality of a good citizen is:",
+      "options": ["Respect for authority and laws", "Refusing to vote", "Avoiding civic duties", "Being apathetic to national issues"],
+      "answer": "Respect for authority and laws"
+    },
+    {
+      "q": "Which of these is an example of civic participation by a citizen?",
+      "options": ["Voting in elections", "Traveling abroad", "Buying property", "Watching sports events"],
+      "answer": "Voting in elections"
+    },
+    {
+      "q": "Citizenship by marriage is classified as:",
+      "options": ["Citizenship by registration", "Citizenship by descent", "Naturalization", "Birthright citizenship"],
+      "answer": "Citizenship by registration"
+    },
+    {
+      "q": "Denaturalization occurs when:",
+      "options": ["A citizen obtained naturalization fraudulently or acts against the state", "A child is born to citizen parents", "A citizen votes", "A citizen travels abroad"],
+      "answer": "A citizen obtained naturalization fraudulently or acts against the state"
+    },
+    {
+      "q": "Which of the following is NOT a right of a citizen?",
+      "options": ["Freedom of expression", "Right to life", "Right to break the law", "Freedom of association"],
+      "answer": "Right to break the law"
+    },
+    {
+      "q": "One obligation of citizens is to:",
+      "options": ["Promote national unity", "Ignore national laws", "Disobey government", "Evade taxes"],
+      "answer": "Promote national unity"
+    },
+    {
+      "q": "A child born abroad to Nigerian parents can become a citizen by:",
+      "options": ["Descent", "Naturalization", "Honorary citizenship", "Marriage"],
+      "answer": "Descent"
+    },
+    {
+      "q": "Which of the following allows a foreigner to apply for Nigerian citizenship after many years of residence?",
+      "options": ["Naturalization", "Birthright citizenship", "Honorary citizenship", "Dual citizenship"],
+      "answer": "Naturalization"
+    },
+    {
+      "q": "Respecting the rights of others is an example of:",
+      "options": ["A citizen’s duty", "A citizen’s privilege", "A government duty", "Optional behavior"],
+      "answer": "A citizen’s duty"
+    },
+    {
+      "q": "Which of these actions may lead to loss of naturalized citizenship?",
+      "options": ["Fraud in application", "Voting in elections", "Obeying laws", "Paying taxes"],
+      "answer": "Fraud in application"
+    }
+  ]
+},
+
+{
+  "topic": "Political Parties",
+  "questions": [
+    {
+      "q": "What is a political party?",
+      "options": ["A group of social workers", "A group of people with common interests seeking to gain political power", "A religious organization", "A labor union"],
+      "answer": "A group of people with common interests seeking to gain political power"
+    },
+    {
+      "q": "Which of the following is a function of political parties?",
+      "options": ["Run schools", "Organize sporting events", "Form government and provide opposition", "Conduct religious ceremonies"],
+      "answer": "Form government and provide opposition"
+    },
+    {
+      "q": "Political parties help in:",
+      "options": ["Judging court cases", "Mobilizing voters and promoting political awareness", "Collecting taxes", "Printing currency"],
+      "answer": "Mobilizing voters and promoting political awareness"
+    },
+    {
+      "q": "One way political parties contribute to democracy is by:",
+      "options": ["Supporting only the ruling party", "Providing alternative policies and candidates", "Ignoring elections", "Controlling the judiciary"],
+      "answer": "Providing alternative policies and candidates"
+    },
+    {
+      "q": "A party that holds power in government is called the:",
+      "options": ["Ruling party", "Opposition party", "Minor party", "Interest group"],
+      "answer": "Ruling party"
+    },
+    {
+      "q": "The party that criticizes and challenges the ruling party is called:",
+      "options": ["Opposition party", "Ruling party", "Minor party", "Judiciary"],
+      "answer": "Opposition party"
+    },
+    {
+      "q": "Which type of party system has only one political party?",
+      "options": ["Two-party system", "One-party system", "Multiparty system", "Coalition system"],
+      "answer": "One-party system"
+    },
+    {
+      "q": "A country with many political parties competing in elections has a:",
+      "options": ["Multiparty system", "One-party system", "Two-party system", "No-party system"],
+      "answer": "Multiparty system"
+    },
+    {
+      "q": "Which of these is a characteristic of a good political party?",
+      "options": ["Encourages violence", "Excludes citizens from participation", "Promotes national unity and represents diverse interests", "Ignores the constitution"],
+      "answer": "Promotes national unity and represents diverse interests"
+    },
+    {
+      "q": "Political parties are important because they:",
+      "options": ["Print money", "Recruit candidates and organize elections", "Control the army", "Pass laws alone"],
+      "answer": "Recruit candidates and organize elections"
+    },
+    {
+      "q": "Which type of party system does Nigeria operate?",
+      "options": ["Two-party system", "No-party system", "Multiparty system", "One-party system"],
+      "answer": "Multiparty system"
+    },
+    {
+      "q": "Minor political parties are sometimes called:",
+      "options": ["Coalitions", "Ruling parties", "Small or third parties", "Major parties"],
+      "answer": "Small or third parties"
+    },
+    {
+      "q": "Coalition government usually happens when:",
+      "options": ["The judiciary rules", "Military intervenes", "No single party wins a majority in elections", "Only one party contests"],
+      "answer": "No single party wins a majority in elections"
+    },
+    {
+      "q": "Political parties help in law-making by:",
+      "options": ["Presenting party policies and members in the legislature", "Conducting elections alone", "Printing laws", "Judging disputes"],
+      "answer": "Presenting party policies and members in the legislature"
+    },
+    {
+      "q": "Which of these is NOT a function of political parties?",
+      "options": ["Judging court cases", "Organizing elections", "Educating citizens politically", "Forming government"],
+      "answer": "Judging court cases"
+    },
+    {
+      "q": "A party formed to represent a specific group or region is called a:",
+      "options": ["Regional or sectional party", "National party", "Ruling party", "Opposition party"],
+      "answer": "Regional or sectional party"
+    },
+    {
+      "q": "The primary aim of political parties is to:",
+      "options": ["Build factories", "Win political power and govern", "Conduct religious activities", "Run schools"],
+      "answer": "Win political power and govern"
+    },
+    {
+      "q": "Political parties promote democracy by:",
+      "options": ["Encouraging political participation and debate", "Controlling the judiciary", "Restricting elections", "Ignoring the constitution"],
+      "answer": "Encouraging political participation and debate"
+    },
+    {
+      "q": "The party that is not in government is expected to:",
+      "options": ["Criticize the ruling party and provide alternative policies", "Run schools", "Form a military government", "Print currency"],
+      "answer": "Criticize the ruling party and provide alternative policies"
+    },
+    {
+      "q": "Which of the following is an example of a multiparty system advantage?",
+      "options": ["It reduces elections", "It allows voters to choose from a variety of options", "It promotes dictatorship", "It removes democracy"],
+      "answer": "It allows voters to choose from a variety of options"
+    }
+  ]
+},
+
+{
+  "topic": "Pressure Groups",
+  "questions": [
+    {
+      "q": "What is a pressure group?",
+      "options": ["A group of people seeking to influence government policies without contesting elections", "A political party contesting elections", "A group of military officials", "A community social club"],
+      "answer": "A group of people seeking to influence government policies without contesting elections"
+    },
+    {
+      "q": "Which of the following is a main function of pressure groups?",
+      "options": ["Influencing government policy", "Printing money", "Forming government", "Judging court cases"],
+      "answer": "Influencing government policy"
+    },
+    {
+      "q": "Pressure groups differ from political parties because they:",
+      "options": ["Do not aim to form government", "Always win elections", "Control the judiciary", "Write constitutions"],
+      "answer": "Do not aim to form government"
+    },
+    {
+      "q": "An example of a professional pressure group is:",
+      "options": ["Nigerian Bar Association (NBA)", "All Progressives Congress (APC)", "Supreme Court", "Local sports club"],
+      "answer": "Nigerian Bar Association (NBA)"
+    },
+    {
+      "q": "Which type of pressure group represents the interests of workers?",
+      "options": ["Trade unions", "Political parties", "Judiciary", "Religious organizations"],
+      "answer": "Trade unions"
+    },
+    {
+      "q": "Business associations, such as the Nigerian Employers’ Consultative Association (NECA), are examples of:",
+      "options": ["Economic pressure groups", "Religious pressure groups", "Social clubs", "Political parties"],
+      "answer": "Economic pressure groups"
+    },
+    {
+      "q": "Methods employed by pressure groups include:",
+      "options": ["Lobbying, demonstrations, petitions", "Printing money", "Running elections", "Judging disputes"],
+      "answer": "Lobbying, demonstrations, petitions"
+    },
+    {
+      "q": "One disadvantage of pressure groups is that they:",
+      "options": ["May cause conflict or misuse influence", "Always obey the constitution", "Run schools", "Control the judiciary"],
+      "answer": "May cause conflict or misuse influence"
+    },
+    {
+      "q": "Pressure groups are important because they:",
+      "options": ["Ensure government listens to public opinion", "Form government", "Print laws", "Control the military"],
+      "answer": "Ensure government listens to public opinion"
+    },
+    {
+      "q": "Which of the following is a social pressure group?",
+      "options": ["Non-governmental organizations (NGOs)", "Supreme Court", "Political parties", "Trade unions"],
+      "answer": "Non-governmental organizations (NGOs)"
+    },
+    {
+      "q": "Factors that militate against the success of pressure groups include:",
+      "options": ["Lack of funds, poor organization, government hostility", "Winning elections easily", "Printing laws", "Judicial approval of all demands"],
+      "answer": "Lack of funds, poor organization, government hostility"
+    },
+    {
+      "q": "Which of these is a political pressure group?",
+      "options": ["Campaign for Democracy (CD)", "NBA", "NECA", "Red Cross"],
+      "answer": "Campaign for Democracy (CD)"
+    },
+    {
+      "q": "Pressure groups promote democracy by:",
+      "options": ["Educating the public and representing interests", "Controlling the military", "Printing currency", "Judging court cases"],
+      "answer": "Educating the public and representing interests"
+    },
+    {
+      "q": "An interest group based on religion is an example of:",
+      "options": ["Religious pressure group", "Economic pressure group", "Professional pressure group", "Social pressure group"],
+      "answer": "Religious pressure group"
+    },
+    {
+      "q": "A professional body can influence government policy through:",
+      "options": ["Lobbying and providing expert advice", "Running elections", "Printing laws", "Controlling the judiciary"],
+      "answer": "Lobbying and providing expert advice"
+    },
+    {
+      "q": "Which of the following is NOT a function of pressure groups?",
+      "options": ["Forming government", "Influencing public policy", "Educating members", "Monitoring government actions"],
+      "answer": "Forming government"
+    },
+    {
+      "q": "Which method of pressure group activity involves organizing public protests?",
+      "options": ["Demonstrations", "Lobbying", "Petitions", "Professional training"],
+      "answer": "Demonstrations"
+    },
+    {
+      "q": "Trade unions usually represent the interests of:",
+      "options": ["Workers", "Judges", "Business owners", "Religious leaders"],
+      "answer": "Workers"
+    },
+    {
+      "q": "A pressure group can succeed if it is:",
+      "options": ["Well-funded, organized, and credible", "Ignored by the public", "Poorly organized", "Against the law always"],
+      "answer": "Well-funded, organized, and credible"
+    },
+    {
+      "q": "Pressure groups can influence legislation by:",
+      "options": ["Lobbying lawmakers and presenting research", "Printing currency", "Running courts", "Winning elections directly"],
+      "answer": "Lobbying lawmakers and presenting research"
+    }
+  ]
+},
+
+{
+  "topic": "Public Opinion",
+  "questions": [
+    {
+      "q": "What is public opinion?",
+      "options": ["The collective views and attitudes of citizens on issues", "The decision of the government alone", "A court ruling", "An opinion of a single politician"],
+      "answer": "The collective views and attitudes of citizens on issues"
+    },
+    {
+      "q": "Public opinion is important because it:",
+      "options": ["Guides government policies and decisions", "Controls the judiciary", "Prints laws", "Runs elections"],
+      "answer": "Guides government policies and decisions"
+    },
+    {
+      "q": "Which of the following can shape public opinion?",
+      "options": ["Media, education, and religious leaders", "Military forces", "Courts alone", "Factories"],
+      "answer": "Media, education, and religious leaders"
+    },
+    {
+      "q": "Opinion polls are used to:",
+      "options": ["Measure the views of the public on specific issues", "Print laws", "Control the judiciary", "Conduct elections"],
+      "answer": "Measure the views of the public on specific issues"
+    },
+    {
+      "q": "Public opinion influences government by:",
+      "options": ["Pressuring leaders to respond to citizens’ needs", "Printing currency", "Judging court cases", "Ignoring citizens"],
+      "answer": "Pressuring leaders to respond to citizens’ needs"
+    },
+    {
+      "q": "One limitation of public opinion is that it:",
+      "options": ["May be uninformed or biased", "Always controls government fully", "Prints laws directly", "Runs courts"],
+      "answer": "May be uninformed or biased"
+    },
+    {
+      "q": "A strong public opinion can lead to:",
+      "options": ["Policy changes and government reforms", "Military dictatorship", "Judges making laws", "Printing currency"],
+      "answer": "Policy changes and government reforms"
+    },
+    {
+      "q": "Public opinion differs from political participation because it:",
+      "options": ["Does not involve directly voting or contesting elections", "Always wins elections", "Forms government directly", "Controls the army"],
+      "answer": "Does not involve directly voting or contesting elections"
+    },
+    {
+      "q": "Which institution often measures public opinion through surveys?",
+      "options": ["Research organizations and polling agencies", "Supreme Court", "Political parties alone", "Military councils"],
+      "answer": "Research organizations and polling agencies"
+    },
+    {
+      "q": "Media plays a role in public opinion by:",
+      "options": ["Educating citizens and shaping views", "Printing laws", "Running elections", "Judging disputes"],
+      "answer": "Educating citizens and shaping views"
+    },
+    {
+      "q": "Public opinion can be influenced by:",
+      "options": ["Peer groups, community leaders, and NGOs", "Printing money", "Courts alone", "Military exercises"],
+      "answer": "Peer groups, community leaders, and NGOs"
+    },
+    {
+      "q": "Government sometimes ignores public opinion because it:",
+      "options": ["May conflict with policy priorities or national interest", "Always wants to follow citizens", "Prints laws from public opinion", "Runs elections based on opinion polls"],
+      "answer": "May conflict with policy priorities or national interest"
+    },
+    {
+      "q": "Public opinion is considered effective when:",
+      "options": ["It is informed, organized, and persistent", "It is uninformed and random", "It ignores laws", "It controls the judiciary"],
+      "answer": "It is informed, organized, and persistent"
+    },
+    {
+      "q": "Which of the following is NOT a source of public opinion?",
+      "options": ["Media", "Education", "Religious institutions", "Military exercises"],
+      "answer": "Military exercises"
+    },
+    {
+      "q": "Pressure from public opinion can prevent:",
+      "options": ["Unpopular government decisions", "Free elections", "Printing of laws", "Judicial review"],
+      "answer": "Unpopular government decisions"
+    },
+    {
+      "q": "The role of NGOs in public opinion is to:",
+      "options": ["Educate citizens and advocate for issues", "Print currency", "Run elections", "Control courts"],
+      "answer": "Educate citizens and advocate for issues"
+    },
+    {
+      "q": "Public opinion is expressed through:",
+      "options": ["Petitions, protests, and surveys", "Judges alone", "Printing laws", "Military action"],
+      "answer": "Petitions, protests, and surveys"
+    },
+    {
+      "q": "An uninformed public opinion may result in:",
+      "options": ["Misguided policies and decisions", "Better governance automatically", "Military control", "Judicial independence"],
+      "answer": "Misguided policies and decisions"
+    },
+    {
+      "q": "Public opinion in a democracy ensures that:",
+      "options": ["Government remains accountable to the people", "Military controls the state", "Courts make all policies", "Political parties are banned"],
+      "answer": "Government remains accountable to the people"
+    },
+    {
+      "q": "Which of the following is a way citizens express public opinion?",
+      "options": ["Voting, petitions, and demonstrations", "Printing currency", "Judges issuing rulings", "Military interventions"],
+      "answer": "Voting, petitions, and demonstrations"
+    }
+  ]
+},
+
+{
+  "topic": "Franchise",
+  "questions": [
+    {
+      "q": "What is franchise in government?",
+      "options": ["Membership in a political party", "The right to vote in elections", "A legal license to drive", "The ability to run a business"],
+      "answer": "The right to vote in elections"
+    },
+    {
+      "q": "Who can vote in Nigeria’s elections?",
+      "options": ["Anyone living in Nigeria", "Children above 12", "Foreign residents", "Citizens aged 18 and above"],
+      "answer": "Citizens aged 18 and above"
+    },
+    {
+      "q": "Voting rights based on age, citizenship, and registration is called:",
+      "options": ["Franchise", "Judicial review", "Pressure group activity", "Separation of powers"],
+      "answer": "Franchise"
+    },
+    {
+      "q": "Universal adult suffrage means:",
+      "options": ["Voting only for property owners", "Only rich people can vote", "Only males can vote", "All adults of voting age can vote regardless of gender, race, or religion"],
+      "answer": "All adults of voting age can vote regardless of gender, race, or religion"
+    },
+    {
+      "q": "A citizen may be denied the right to vote if they:",
+      "options": ["Own property", "Have been declared legally insane or convicted of serious crimes", "Pay taxes", "Attend school"],
+      "answer": "Have been declared legally insane or convicted of serious crimes"
+    },
+    {
+      "q": "Why is franchise important in a democracy?",
+      "options": ["It allows citizens to participate in choosing their leaders", "It prints laws automatically", "It controls the judiciary", "It appoints military officers"],
+      "answer": "It allows citizens to participate in choosing their leaders"
+    },
+    {
+      "q": "Voter registration is necessary because it:",
+      "options": ["Confirms eligibility and prevents electoral fraud", "Controls the courts", "Automatically allows foreigners to vote", "Prints currency"],
+      "answer": "Confirms eligibility and prevents electoral fraud"
+    },
+    {
+      "q": "The right to vote is also called:",
+      "options": ["Referendum", "Suffrage", "Lobbying", "Petition"],
+      "answer": "Suffrage"
+    },
+    {
+      "q": "Which of these is a limitation on franchise?",
+      "options": ["Being educated", "Age restriction, mental incapacity, criminal record", "Owning property", "Attending religious events"],
+      "answer": "Age restriction, mental incapacity, criminal record"
+    },
+    {
+      "q": "Compulsory voter education helps in:",
+      "options": ["Informing citizens about their voting rights and responsibilities", "Judicial appointments", "Printing currency", "Controlling the military"],
+      "answer": "Informing citizens about their voting rights and responsibilities"
+    },
+    {
+      "q": "The minimum voting age in Nigeria is:",
+      "options": ["21 years", "16 years", "18 years", "25 years"],
+      "answer": "18 years"
+    },
+    {
+      "q": "One condition for franchise is that a citizen must be:",
+      "options": ["Registered to vote", "Male only", "Rich", "University graduate"],
+      "answer": "Registered to vote"
+    },
+    {
+      "q": "Disenfranchisement refers to:",
+      "options": ["Winning an election", "Running a political party", "The loss or denial of the right to vote", "Judicial review"],
+      "answer": "The loss or denial of the right to vote"
+    },
+    {
+      "q": "Voting in secret ensures that:",
+      "options": ["Only property owners vote", "The government chooses for citizens", "Voters can choose freely without intimidation", "Only men vote"],
+      "answer": "Voters can choose freely without intimidation"
+    },
+    {
+      "q": "Franchise encourages democracy because it:",
+      "options": ["Empowers citizens to influence government policies", "Controls the army", "Runs the judiciary", "Prints laws automatically"],
+      "answer": "Empowers citizens to influence government policies"
+    },
+    {
+      "q": "Which of the following is NOT a condition for franchise in Nigeria?",
+      "options": ["Being of voting age", "Being a citizen", "Owning property", "Being a registered voter"],
+      "answer": "Owning property"
+    },
+    {
+      "q": "Active participation in elections reflects:",
+      "options": ["Lobbying", "Exercise of franchise", "Judicial review", "Membership in a pressure group"],
+      "answer": "Exercise of franchise"
+    },
+    {
+      "q": "Voting in multiple constituencies illegally is:",
+      "options": ["Electoral fraud", "A right of franchise", "Judicial review", "Petitioning"],
+      "answer": "Electoral fraud"
+    },
+    {
+      "q": "Franchise is limited in some countries by:",
+      "options": ["Property ownership only", "Language spoken", "Age, mental capacity, and criminal convictions", "Height and weight"],
+      "answer": "Age, mental capacity, and criminal convictions"
+    },
+    {
+      "q": "The exercise of franchise promotes:",
+      "options": ["Legitimacy of government and political accountability", "Military dictatorship", "Judicial control of policies", "Property registration"],
+      "answer": "Legitimacy of government and political accountability"
+    }
+  ]
+},
+
+{
+  "topic": "Electoral System",
+  "questions": [
+    {
+      "q": "What is an electoral system?",
+      "options": ["A method by which votes are cast and counted to elect representatives", "A type of political party", "A government department", "A social club"],
+      "answer": "A method by which votes are cast and counted to elect representatives"
+    },
+    {
+      "q": "Which of the following is a type of electoral system?",
+      "options": ["Proportional representation", "Separation of powers", "Judicial review", "Pressure groups"],
+      "answer": "Proportional representation"
+    },
+    {
+      "q": "First-past-the-post system means:",
+      "options": ["The candidate with the highest number of votes wins", "Votes are shared equally among all candidates", "The government chooses the winner", "Judges select the candidate"],
+      "answer": "The candidate with the highest number of votes wins"
+    },
+    {
+      "q": "Proportional representation ensures that:",
+      "options": ["Seats are allocated based on the percentage of votes each party receives", "The candidate with the fewest votes wins", "Voting is restricted to males", "Judges decide the election"],
+      "answer": "Seats are allocated based on the percentage of votes each party receives"
+    },
+    {
+      "q": "Universal suffrage in elections means:",
+      "options": ["All adult citizens have the right to vote", "Only property owners vote", "Voting is only for men", "Only military officers vote"],
+      "answer": "All adult citizens have the right to vote"
+    },
+    {
+      "q": "Which body conducts elections in Nigeria?",
+      "options": ["Independent National Electoral Commission (INEC)", "Supreme Court", "Police Force", "Nigerian Bar Association (NBA)"],
+      "answer": "Independent National Electoral Commission (INEC)"
+    },
+    {
+      "q": "Secret ballot in elections ensures that:",
+      "options": ["Voters can choose freely without intimidation", "The government picks for citizens", "Only men vote", "Property owners vote first"],
+      "answer": "Voters can choose freely without intimidation"
+    },
+    {
+      "q": "A major advantage of the electoral system is that it:",
+      "options": ["Provides a fair and organized method to choose leaders", "Controls the judiciary", "Prints laws automatically", "Runs schools"],
+      "answer": "Provides a fair and organized method to choose leaders"
+    },
+    {
+      "q": "One limitation of an electoral system could be:",
+      "options": ["Electoral fraud and manipulation", "Printing laws", "Military appointments", "Judicial review"],
+      "answer": "Electoral fraud and manipulation"
+    },
+    {
+      "q": "Which type of electoral system is used for presidential elections in Nigeria?",
+      "options": ["Majority system", "Proportional representation", "Lot system", "Consensus system"],
+      "answer": "Majority system"
+    },
+    {
+      "q": "Which of these is a feature of proportional representation?",
+      "options": ["Seats are distributed according to votes received by each party", "Only one candidate can run", "The judiciary chooses the winner", "Military intervenes in voting"],
+      "answer": "Seats are distributed according to votes received by each party"
+    },
+    {
+      "q": "Direct election means:",
+      "options": ["Voters directly choose their representatives", "Judges select leaders", "Leaders are appointed by the military", "Government decides who votes"],
+      "answer": "Voters directly choose their representatives"
+    },
+    {
+      "q": "Indirect election refers to:",
+      "options": ["Elected representatives choose office holders on behalf of citizens", "Voters choose directly", "Judges select candidates", "Military decides leaders"],
+      "answer": "Elected representatives choose office holders on behalf of citizens"
+    },
+    {
+      "q": "A secret ballot helps prevent:",
+      "options": ["Intimidation and vote-buying", "Judicial review", "Printing of laws", "Military control of elections"],
+      "answer": "Intimidation and vote-buying"
+    },
+    {
+      "q": "Electoral campaigns are important because they:",
+      "options": ["Inform citizens about candidates and policies", "Print laws", "Control courts", "Run the military"],
+      "answer": "Inform citizens about candidates and policies"
+    },
+    {
+      "q": "Electoral malpractices include:",
+      "options": ["Rigging, vote buying, and intimidation", "Judges writing laws", "Printing money", "Military parades"],
+      "answer": "Rigging, vote buying, and intimidation"
+    },
+    {
+      "q": "Voter turnout refers to:",
+      "options": ["The percentage of registered voters who cast their votes", "The number of political parties", "Seats in the legislature", "Judges in court"],
+      "answer": "The percentage of registered voters who cast their votes"
+    },
+    {
+      "q": "The main purpose of an electoral system is to:",
+      "options": ["Translate votes into representation", "Print currency", "Control schools", "Manage the military"],
+      "answer": "Translate votes into representation"
+    },
+    {
+      "q": "A fair electoral system helps in:",
+      "options": ["Strengthening democracy and ensuring legitimacy of government", "Judicial appointments", "Printing laws", "Running the army"],
+      "answer": "Strengthening democracy and ensuring legitimacy of government"
+    },
+    {
+      "q": "Which of the following ensures transparency in elections?",
+      "options": ["Independent monitoring and election observers", "Judges writing policies", "Military interference", "Only one political party"],
+      "answer": "Independent monitoring and election observers"
+    }
+  ]
+},
+
+{
+  "topic": "Elections",
+  "questions": [
+    {
+      "q": "What is an election?",
+      "options": ["A process by which citizens choose leaders or decide on issues", "A military parade", "A judicial review session", "A social gathering"],
+      "answer": "A process by which citizens choose leaders or decide on issues"
+    },
+    {
+      "q": "Free and fair elections mean:",
+      "options": ["All eligible citizens can vote without coercion and the results reflect voters’ choice", "The government appoints winners", "Only the military votes", "Judges select leaders"],
+      "answer": "All eligible citizens can vote without coercion and the results reflect voters’ choice"
+    },
+    {
+      "q": "Secret ballot in elections ensures:",
+      "options": ["Voters can make choices privately without intimidation", "Government chooses for voters", "Only men vote", "Voting is done publicly"],
+      "answer": "Voters can make choices privately without intimidation"
+    },
+    {
+      "q": "One requirement to vote in Nigeria is:",
+      "options": ["Being a registered voter", "Owning property", "Being over 25", "Having a university degree"],
+      "answer": "Being a registered voter"
+    },
+    {
+      "q": "Direct elections involve:",
+      "options": ["Voters choosing their representatives directly", "Judges appointing officials", "Military selecting leaders", "Government assigning representatives"],
+      "answer": "Voters choosing their representatives directly"
+    },
+    {
+      "q": "Indirect elections mean:",
+      "options": ["Elected representatives vote on behalf of citizens", "Voters choose directly", "Military selects leaders", "Judges conduct elections"],
+      "answer": "Elected representatives vote on behalf of citizens"
+    },
+    {
+      "q": "A by-election is held when:",
+      "options": ["A seat becomes vacant between general elections", "The entire country votes again", "Judges are replaced", "Military officers resign"],
+      "answer": "A seat becomes vacant between general elections"
+    },
+    {
+      "q": "Electoral fraud includes:",
+      "options": ["Rigging, vote-buying, and intimidation", "Judges making laws", "Printing currency", "Campaigning legally"],
+      "answer": "Rigging, vote-buying, and intimidation"
+    },
+    {
+      "q": "Campaigning in elections is important because it:",
+      "options": ["Informs voters about candidates and policies", "Controls the judiciary", "Prints laws", "Runs schools"],
+      "answer": "Informs voters about candidates and policies"
+    },
+    {
+      "q": "Voter turnout refers to:",
+      "options": ["The percentage of registered voters who actually vote", "Number of candidates contesting", "Seats in the legislature", "Judges in court"],
+      "answer": "The percentage of registered voters who actually vote"
+    },
+    {
+      "q": "Majority system in elections means:",
+      "options": ["A candidate must get more than half the votes to win", "Votes are shared equally among all candidates", "Judges select winners", "Military intervenes in voting"],
+      "answer": "A candidate must get more than half the votes to win"
+    },
+    {
+      "q": "Proportional representation in elections ensures:",
+      "options": ["Seats are allocated according to the percentage of votes each party receives", "Only the winner takes all seats", "Judges decide winners", "Military appoints representatives"],
+      "answer": "Seats are allocated according to the percentage of votes each party receives"
+    },
+    {
+      "q": "Electoral malpractice can be prevented by:",
+      "options": ["Independent election monitoring and strict laws", "Judges writing policies", "Military controlling polling", "Ignoring voter education"],
+      "answer": "Independent election monitoring and strict laws"
+    },
+    {
+      "q": "Election petitions are used to:",
+      "options": ["Challenge results believed to be unfair", "Vote in multiple constituencies", "Control the army", "Print laws"],
+      "answer": "Challenge results believed to be unfair"
+    },
+    {
+      "q": "Voting by proxy means:",
+      "options": ["Someone votes on behalf of an eligible voter", "Judges vote for citizens", "The military votes instead of civilians", "Candidates vote for themselves only"],
+      "answer": "Someone votes on behalf of an eligible voter"
+    },
+    {
+      "q": "An independent electoral commission ensures:",
+      "options": ["Free, fair, and transparent elections", "Government appoints winners", "Judges select candidates", "Only one party contests"],
+      "answer": "Free, fair, and transparent elections"
+    },
+    {
+      "q": "Elections are necessary in democracy because they:",
+      "options": ["Allow citizens to choose leaders and hold them accountable", "Print laws automatically", "Control the judiciary", "Run the military"],
+      "answer": "Allow citizens to choose leaders and hold them accountable"
+    },
+    {
+      "q": "Electoral observers help by:",
+      "options": ["Monitoring elections to ensure fairness", "Printing currency", "Judges ruling in favor of candidates", "Military enforcing results"],
+      "answer": "Monitoring elections to ensure fairness"
+    },
+    {
+      "q": "One challenge of elections in some countries is:",
+      "options": ["Low voter turnout and electoral fraud", "Judges writing laws", "Campaigning legally", "Printing currency"],
+      "answer": "Low voter turnout and electoral fraud"
+    },
+    {
+      "q": "A fair election promotes:",
+      "options": ["Legitimacy of government and political stability", "Military dictatorship", "Judicial control of policies", "Property registration"],
+      "answer": "Legitimacy of government and political stability"
+    }
+  ]
+},
+
+{
+  "topic": "Public Administration",
+  "questions": [
+    {
+      "q": "What is public administration?",
+      "options": ["The process of implementing government policies and managing public affairs", "A private business operation", "A political party activity", "Judicial law-making"],
+      "answer": "The process of implementing government policies and managing public affairs"
+    },
+    {
+      "q": "Which of the following is a key function of public administration?",
+      "options": ["Policy implementation", "Judicial review", "Political campaigning", "Military training"],
+      "answer": "Policy implementation"
+    },
+    {
+      "q": "The civil service is part of public administration because it:",
+      "options": ["Carries out day-to-day government operations", "Elects political leaders", "Prints currency", "Conducts military exercises"],
+      "answer": "Carries out day-to-day government operations"
+    },
+    {
+      "q": "Who formulates policies in public administration?",
+      "options": ["Elected officials and policymakers", "Judges alone", "Military generals", "Pressure groups only"],
+      "answer": "Elected officials and policymakers"
+    },
+    {
+      "q": "Public administration is necessary because it:",
+      "options": ["Ensures efficient delivery of government services", "Controls the judiciary", "Prints laws automatically", "Runs private companies"],
+      "answer": "Ensures efficient delivery of government services"
+    },
+    {
+      "q": "One characteristic of public administration is that it is:",
+      "options": ["Goal-oriented and organized", "Random and informal", "Judicial-only", "Military-only"],
+      "answer": "Goal-oriented and organized"
+    },
+    {
+      "q": "A major challenge in public administration is:",
+      "options": ["Corruption and bureaucratic inefficiency", "Judges making laws", "Voting in secret", "Printing currency"],
+      "answer": "Corruption and bureaucratic inefficiency"
+    },
+    {
+      "q": "Which of the following is an example of public administration?",
+      "options": ["Managing a public hospital", "Owning a private store", "Voting in elections", "Forming a political party"],
+      "answer": "Managing a public hospital"
+    },
+    {
+      "q": "Bureaucracy in public administration refers to:",
+      "options": ["Structured organization with rules and hierarchy", "Random decision-making", "Military command only", "Judicial review process"],
+      "answer": "Structured organization with rules and hierarchy"
+    },
+    {
+      "q": "Public administration ensures accountability by:",
+      "options": ["Monitoring and evaluating government programs", "Printing laws", "Controlling schools", "Conducting military drills"],
+      "answer": "Monitoring and evaluating government programs"
+    },
+    {
+      "q": "Policy evaluation in public administration helps to:",
+      "options": ["Assess the effectiveness of programs and make improvements", "Appoint judges", "Control the army", "Run private businesses"],
+      "answer": "Assess the effectiveness of programs and make improvements"
+    },
+    {
+      "q": "Decentralization in public administration means:",
+      "options": ["Distributing authority and decision-making to local governments", "Centralizing all powers in the president", "Judges controlling policies", "Military intervention in governance"],
+      "answer": "Distributing authority and decision-making to local governments"
+    },
+    {
+      "q": "Public administration is closely linked to:",
+      "options": ["Political science and governance", "Printing currency", "Military exercises", "Private business only"],
+      "answer": "Political science and governance"
+    },
+    {
+      "q": "Merit system in public administration means:",
+      "options": ["Appointments are based on qualifications and competence", "Appointments are based on favoritism", "Judges appoint staff", "Military selects employees"],
+      "answer": "Appointments are based on qualifications and competence"
+    },
+    {
+      "q": "Transparency in public administration promotes:",
+      "options": ["Public trust and accountability", "Judicial control of policies", "Military oversight", "Printing laws"],
+      "answer": "Public trust and accountability"
+    },
+    {
+      "q": "Public administration can be classified into:",
+      "options": ["Central, state, and local administration", "Military-only administration", "Judicial-only administration", "Private business administration"],
+      "answer": "Central, state, and local administration"
+    },
+    {
+      "q": "Efficiency in public administration means:",
+      "options": ["Achieving goals with minimal resources and time", "Printing laws automatically", "Military intervention", "Judicial review only"],
+      "answer": "Achieving goals with minimal resources and time"
+    },
+    {
+      "q": "One of the principles of public administration is:",
+      "options": ["Equity and fairness in service delivery", "Judges making laws", "Military appointments", "Political party loyalty only"],
+      "answer": "Equity and fairness in service delivery"
+    },
+    {
+      "q": "Public administration differs from politics because it:",
+      "options": ["Focuses on implementing policies rather than making them", "Runs elections", "Prints currency", "Conducts court trials"],
+      "answer": "Focuses on implementing policies rather than making them"
+    },
+    {
+      "q": "Ethics in public administration is important to:",
+      "options": ["Ensure integrity, accountability, and public confidence", "Control the judiciary", "Run the military", "Print laws automatically"],
+      "answer": "Ensure integrity, accountability, and public confidence"
+    }
+  ]
+},
+
+{
+  "topic": "Public Corporations and Local Government",
+  "questions": [
+    {
+      "q": "What is a public corporation?",
+      "options": ["A political party", "A military division", "A government-owned organization that provides goods or services", "A private company"],
+      "answer": "A government-owned organization that provides goods or services"
+    },
+    {
+      "q": "Which of the following is a characteristic of a public corporation?",
+      "options": ["Judges controlling decisions", "Government ownership", "Political campaigning", "Profit-driven private ownership"],
+      "answer": "Government ownership"
+    },
+    {
+      "q": "Local government is:",
+      "options": ["A military-controlled body", "A private company", "The administration of a local area by elected representatives", "A political party branch"],
+      "answer": "The administration of a local area by elected representatives"
+    },
+    {
+      "q": "The main purpose of public corporations is to:",
+      "options": ["Provide essential services to the public", "Control the judiciary", "Conduct elections", "Run political campaigns"],
+      "answer": "Provide essential services to the public"
+    },
+    {
+      "q": "Which of the following is an example of a public corporation in Nigeria?",
+      "options": ["Judicial council", "Private banks", "Nigerian National Petroleum Corporation (NNPC)", "Political party office"],
+      "answer": "Nigerian National Petroleum Corporation (NNPC)"
+    },
+    {
+      "q": "Local governments are created to:",
+      "options": ["Bring governance closer to the people", "Print laws automatically", "Control national security", "Run federal elections only"],
+      "answer": "Bring governance closer to the people"
+    },
+    {
+      "q": "A key source of revenue for local governments is:",
+      "options": ["Taxes, fees, and government grants", "Foreign aid only", "Judicial fines", "Military funding"],
+      "answer": "Taxes, fees, and government grants"
+    },
+    {
+      "q": "Public corporations are usually managed by:",
+      "options": ["Boards of directors appointed by the government", "Military officers", "Judges only", "Political party members"],
+      "answer": "Boards of directors appointed by the government"
+    },
+    {
+      "q": "One challenge of public corporations is:",
+      "options": ["Voting irregularities", "Bureaucracy and inefficiency", "Military control", "Judges making laws"],
+      "answer": "Bureaucracy and inefficiency"
+    },
+    {
+      "q": "Local government council is usually headed by a:",
+      "options": ["Military General", "President", "Chief Justice", "Chairman or Mayor"],
+      "answer": "Chairman or Mayor"
+    },
+    {
+      "q": "Public corporations differ from private companies because they:",
+      "options": ["Elect government officials", "Run elections", "Are owned and funded by the government", "Seek maximum profit only"],
+      "answer": "Are owned and funded by the government"
+    },
+    {
+      "q": "Local government functions include:",
+      "options": ["Provision of primary education, health, and sanitation services", "Printing currency", "Running national defense", "Judicial review"],
+      "answer": "Provision of primary education, health, and sanitation services"
+    },
+    {
+      "q": "The appointment of staff in public corporations is usually based on:",
+      "options": ["Merit and competence", "Political favoritism", "Military selectivity", "Judicial decree only"],
+      "answer": "Merit and competence"
+    },
+    {
+      "q": "Public corporations are accountable to:",
+      "options": ["The government and citizens", "Private shareholders", "Military leaders", "Judges only"],
+      "answer": "The government and citizens"
+    },
+    {
+      "q": "One benefit of local government is that it:",
+      "options": ["Controls national currency", "Prints national laws", "Ensures citizen participation in governance", "Runs courts"],
+      "answer": "Ensures citizen participation in governance"
+    },
+    {
+      "q": "Public corporations can face inefficiency due to:",
+      "options": ["Political interference and corruption", "Military control", "Judges making policies", "Printing money"],
+      "answer": "Political interference and corruption"
+    },
+    {
+      "q": "Local governments are financed by:",
+      "options": ["Private company donations", "Military budget only", "Local taxes, state allocations, and federal grants", "Judges' salaries"],
+      "answer": "Local taxes, state allocations, and federal grants"
+    },
+    {
+      "q": "Autonomy of public corporations means they:",
+      "options": ["Operate independently within government guidelines", "Print laws", "Elect judges", "Control local armies"],
+      "answer": "Operate independently within government guidelines"
+    },
+    {
+      "q": "Decentralization in local government ensures:",
+      "options": ["The president controls everything", "Military supervises local councils", "Decision-making is closer to the people", "Judges appoint local officials"],
+      "answer": "Decision-making is closer to the people"
+    },
+    {
+      "q": "Public corporations are important because they:",
+      "options": ["Provide essential services and promote economic development", "Run political campaigns", "Elect the president", "Control the judiciary"],
+      "answer": "Provide essential services and promote economic development"
+    }
+  ]
+},
+
+{
+  "topic": "Pre-Colonial Administration",
+  "questions": [
+    {
+      "q": "Pre-colonial administration refers to:",
+      "options": ["Systems of governance before colonial rule", "Colonial government structures", "Modern federal administration", "Judicial-only governance"],
+      "answer": "Systems of governance before colonial rule"
+    },
+    {
+      "q": "In Yoruba pre-colonial administration, the king is called:",
+      "options": ["Oba", "Sarki", "Eze", "Alhaji"],
+      "answer": "Oba"
+    },
+    {
+      "q": "The Yoruba king was assisted by:",
+      "options": ["Chiefs and council of elders", "Military generals only", "Judges", "Political party leaders"],
+      "answer": "Chiefs and council of elders"
+    },
+    {
+      "q": "In Hausa pre-colonial administration, the ruler is known as:",
+      "options": ["Sarki", "Oba", "Eze", "Alhaji"],
+      "answer": "Sarki"
+    },
+    {
+      "q": "The Hausa emir was assisted by:",
+      "options": ["District heads and council of ministers", "Obas and chiefs", "Igbo elders", "Judges only"],
+      "answer": "District heads and council of ministers"
+    },
+    {
+      "q": "The Igbo pre-colonial system was mostly:",
+      "options": ["Acephalous, without centralized kingship", "Monarchical with a king", "Military dictatorship", "Judicial-based"],
+      "answer": "Acephalous, without centralized kingship"
+    },
+    {
+      "q": "Igbo communities were governed by:",
+      "options": ["Council of elders and age grades", "Sarki and ministers", "Oba and chiefs", "Military rulers"],
+      "answer": "Council of elders and age grades"
+    },
+    {
+      "q": "One feature of Yoruba administration was:",
+      "options": ["Hierarchical system with clear authority", "Acephalous governance", "Judicial-only power", "Military-only control"],
+      "answer": "Hierarchical system with clear authority"
+    },
+    {
+      "q": "A feature of Hausa administration included:",
+      "options": ["Centralized emirate system", "Council of elders only", "Acephalous village councils", "Military rule only"],
+      "answer": "Centralized emirate system"
+    },
+    {
+      "q": "The Igbo system promoted:",
+      "options": ["Democratic decision-making through elders and groups", "Absolute monarchy", "Military dictatorship", "Colonial administration"],
+      "answer": "Democratic decision-making through elders and groups"
+    },
+    {
+      "q": "In Yoruba kingdoms, the chiefs were responsible for:",
+      "options": ["Advising the Oba and administering provinces", "Military campaigns only", "Judicial rulings only", "Printing laws"],
+      "answer": "Advising the Oba and administering provinces"
+    },
+    {
+      "q": "Hausa district heads were responsible for:",
+      "options": ["Local administration and tax collection", "Leading religious ceremonies only", "Printing laws", "Judicial review only"],
+      "answer": "Local administration and tax collection"
+    },
+    {
+      "q": "Age grades in Igbo communities helped to:",
+      "options": ["Organize labor and maintain order", "Elect kings", "Collect national taxes", "Control military campaigns"],
+      "answer": "Organize labor and maintain order"
+    },
+    {
+      "q": "The Yoruba king had spiritual authority as well as:",
+      "options": ["Political authority", "Judicial control only", "Military dictatorship only", "Age-grade leadership"],
+      "answer": "Political authority"
+    },
+    {
+      "q": "Hausa emirs derived authority from:",
+      "options": ["Islamic and traditional laws", "Military appointments only", "Oba councils", "Judges only"],
+      "answer": "Islamic and traditional laws"
+    },
+    {
+      "q": "Igbo communities relied on consensus for:",
+      "options": ["Community decisions and conflict resolution", "Military campaigns", "Printing laws", "Electing a king"],
+      "answer": "Community decisions and conflict resolution"
+    },
+    {
+      "q": "In Yoruba administration, the Ogboni society had the role of:",
+      "options": ["Advising on traditional and spiritual matters", "Collecting taxes only", "Military leadership only", "Running courts exclusively"],
+      "answer": "Advising on traditional and spiritual matters"
+    },
+    {
+      "q": "Hausa emirate councils included:",
+      "options": ["Ministers, palace officials, and nobles", "Council of elders only", "Igbo age grades", "Obas and chiefs"],
+      "answer": "Ministers, palace officials, and nobles"
+    },
+    {
+      "q": "Igbo pre-colonial administration lacked:",
+      "options": ["Centralized kingship", "Community decision-making", "Age-grade systems", "Council of elders"],
+      "answer": "Centralized kingship"
+    },
+    {
+      "q": "A similarity between Yoruba and Hausa systems was that:",
+      "options": ["They both had centralized leadership structures", "They both were acephalous", "Neither had councils", "Both were purely democratic with no ruler"],
+      "answer": "They both had centralized leadership structures"
+    }
+  ]
+},
+
+
+{
+  "topic": "Colonial Administration",
+  "questions": [
+    {
+      "q": "Colonial administration refers to:",
+      "options": ["The system of governance imposed by colonial powers", "Traditional local governance before colonial rule", "Modern democratic administration", "Military rule by indigenous leaders"],
+      "answer": "The system of governance imposed by colonial powers"
+    },
+    {
+      "q": "The British system of colonial administration in Nigeria was characterized by:",
+      "options": ["Indirect rule through local rulers", "Direct rule by elected officials", "French assimilation policy", "Military dictatorship"],
+      "answer": "Indirect rule through local rulers"
+    },
+    {
+      "q": "Indirect rule allowed the British to:",
+      "options": ["Use existing local institutions to govern", "Appoint all local officials directly", "Merge colonies with neighboring countries", "Abolish traditional authorities completely"],
+      "answer": "Use existing local institutions to govern"
+    },
+    {
+      "q": "One feature of indirect rule was:",
+      "options": ["Preservation of local customs under colonial oversight", "Centralized judicial control by the British only", "Abolition of all local chiefs", "Direct election of governors by locals"],
+      "answer": "Preservation of local customs under colonial oversight"
+    },
+    {
+      "q": "A reason for introducing indirect rule was:",
+      "options": ["It was cost-effective and minimized resistance", "To completely remove local rulers", "To enforce French language", "To militarize villages"],
+      "answer": "It was cost-effective and minimized resistance"
+    },
+    {
+      "q": "An advantage of indirect rule was:",
+      "options": ["It reduced administrative costs and used local knowledge", "It eliminated local traditions", "It centralized all power in the British governor", "It made all citizens vote directly for governors"],
+      "answer": "It reduced administrative costs and used local knowledge"
+    },
+    {
+      "q": "A disadvantage of indirect rule was:",
+      "options": ["It could strengthen authoritarian local rulers", "It increased local democracy", "It gave total power to elected councils", "It abolished the military completely"],
+      "answer": "It could strengthen authoritarian local rulers"
+    },
+    {
+      "q": "The French system of colonial administration included:",
+      "options": ["Assimilation and association policies", "Indirect rule only", "Military rule exclusively", "Democratic local councils like in Nigeria"],
+      "answer": "Assimilation and association policies"
+    },
+    {
+      "q": "The policy of assimilation aimed to:",
+      "options": ["Make colonies adopt French culture and laws", "Strengthen traditional rulers", "Follow British indirect rule", "Promote Igbo age-grade systems"],
+      "answer": "Make colonies adopt French culture and laws"
+    },
+    {
+      "q": "The policy of association allowed:",
+      "options": ["Local customs to continue under French supervision", "Full French citizenship for all locals", "Direct election of French governors", "Military-only governance"],
+      "answer": "Local customs to continue under French supervision"
+    },
+    {
+      "q": "A similarity between British and French colonial systems was:",
+      "options": ["Both aimed to control colonies efficiently", "Both completely abolished local traditions", "Both introduced direct democracy", "Both gave full independence immediately"],
+      "answer": "Both aimed to control colonies efficiently"
+    },
+    {
+      "q": "One main difference between British and French colonial administration was:",
+      "options": ["British used indirect rule; French used assimilation/association", "British abolished local rulers; French left them fully in power", "British introduced universal suffrage; French did not", "French used age grades; British did not"],
+      "answer": "British used indirect rule; French used assimilation/association"
+    },
+    {
+      "q": "Indirect rule often relied on:",
+      "options": ["Existing chiefs and traditional institutions", "Elected local councils only", "French-appointed governors", "Military governors exclusively"],
+      "answer": "Existing chiefs and traditional institutions"
+    },
+    {
+      "q": "French assimilation required:",
+      "options": ["Colonial subjects to adopt French culture and language", "Preservation of all local customs", "Indirect rule like in Nigeria", "Military administration only"],
+      "answer": "Colonial subjects to adopt French culture and language"
+    },
+    {
+      "q": "Association under French rule meant:",
+      "options": ["Allowing local customs but maintaining French authority", "Replacing all chiefs with French officials", "Direct local elections", "Total independence from France"],
+      "answer": "Allowing local customs but maintaining French authority"
+    },
+    {
+      "q": "Indirect rule sometimes failed because:",
+      "options": ["Some local rulers became oppressive and corrupt", "It gave full democracy to all locals", "It reduced taxes excessively", "It abolished all traditional practices immediately"],
+      "answer": "Some local rulers became oppressive and corrupt"
+    },
+    {
+      "q": "British indirect rule was popular in:",
+      "options": ["Northern Nigeria with existing emirs", "Southern Nigeria only", "French colonies in West Africa", "Igbo acephalous societies exclusively"],
+      "answer": "Northern Nigeria with existing emirs"
+    },
+    {
+      "q": "A key feature of French colonial rule was:",
+      "options": ["Attempt to transform locals into French citizens", "Indirect rule like the British", "Military-only governance", "Age-grade administration"],
+      "answer": "Attempt to transform locals into French citizens"
+    },
+    {
+      "q": "Colonial administration impacted Nigeria by:",
+      "options": ["Creating centralized structures and influencing local governance", "Eliminating all traditional customs immediately", "Promoting French culture in the north only", "Removing taxes completely"],
+      "answer": "Creating centralized structures and influencing local governance"
+    },
+    {
+      "q": "Indirect rule allowed the British to:",
+      "options": ["Control large territories with few officials", "Give full independence to colonies", "Implement French culture", "Establish military-only governments"],
+      "answer": "Control large territories with few officials"
+    }
+  ]
+},
+
+{
+  "topic": "Nationalism",
+  "questions": [
+    {
+      "q": "Nationalism in government refers to:",
+      "options": ["Loyalty and devotion to one's nation", "Colonial domination by foreign powers", "Global cooperation above national interest", "Local community service only"],
+      "answer": "Loyalty and devotion to one's nation"
+    },
+    {
+      "q": "A key factor that fueled nationalism in Nigeria was:",
+      "options": ["Colonial oppression and exploitation", "Peaceful coexistence with colonial rulers", "Abundant natural resources without taxation", "Local trade agreements"],
+      "answer": "Colonial oppression and exploitation"
+    },
+    {
+      "q": "Nationalist movements often aimed to:",
+      "options": ["Achieve self-rule and independence", "Strengthen colonial control", "Promote only local trade", "Focus solely on cultural festivals"],
+      "answer": "Achieve self-rule and independence"
+    },
+    {
+      "q": "The main ideology of Nigerian nationalism was:",
+      "options": ["Self-determination and unity", "Monarchism and loyalty to colonial rulers", "Tribalism and regional supremacy", "International socialism exclusively"],
+      "answer": "Self-determination and unity"
+    },
+    {
+      "q": "One method used by nationalists to promote independence was:",
+      "options": ["Organizing protests and political campaigns", "Following colonial directives strictly", "Focusing on individual wealth accumulation", "Ignoring government policies"],
+      "answer": "Organizing protests and political campaigns"
+    },
+    {
+      "q": "Prominent Nigerian nationalists included:",
+      "options": ["Nnamdi Azikiwe, Obafemi Awolowo, Ahmadu Bello", "Queen Victoria, Lord Lugard, Cecil Rhodes", "Julius Nyerere, Kwame Nkrumah, Patrice Lumumba", "None of the above"],
+      "answer": "Nnamdi Azikiwe, Obafemi Awolowo, Ahmadu Bello"
+    },
+    {
+      "q": "The impact of nationalism in Nigeria led to:",
+      "options": ["Independence in 1960", "Stronger colonial control", "Isolation from international affairs", "Decline in political participation"],
+      "answer": "Independence in 1960"
+    },
+    {
+      "q": "Regionalism affected Nigerian nationalism by:",
+      "options": ["Creating divisions among ethnic groups", "Strengthening national unity immediately", "Eliminating colonial influence", "Focusing only on trade policies"],
+      "answer": "Creating divisions among ethnic groups"
+    },
+    {
+      "q": "A challenge faced by nationalists in Nigeria was:",
+      "options": ["Ethnic rivalry and lack of unity", "Abundant financial resources", "Complete support from colonial rulers", "No opposition from local chiefs"],
+      "answer": "Ethnic rivalry and lack of unity"
+    },
+    {
+      "q": "The role of political parties in nationalism was to:",
+      "options": ["Mobilize citizens for self-governance", "Support colonial government policies", "Focus exclusively on trade development", "Promote only traditional rituals"],
+      "answer": "Mobilize citizens for self-governance"
+    },
+    {
+      "q": "Nationalism in Nigeria was influenced by:",
+      "options": ["Western education and awareness of rights", "Isolation from international events", "Exclusive focus on agriculture", "Traditional leadership only"],
+      "answer": "Western education and awareness of rights"
+    },
+    {
+      "q": "One effect of nationalism on Nigerian society was:",
+      "options": ["Growth of political consciousness", "Decline in literacy rates", "Increased colonial exploitation", "Reduction in local governance structures"],
+      "answer": "Growth of political consciousness"
+    },
+    {
+      "q": "Nationalists often used the press to:",
+      "options": ["Educate citizens and criticize colonial policies", "Promote colonial propaganda", "Publish only religious content", "Avoid political topics entirely"],
+      "answer": "Educate citizens and criticize colonial policies"
+    },
+    {
+      "q": "The ultimate goal of Nigerian nationalism was:",
+      "options": ["Full independence and sovereignty", "Stronger colonial administration", "Exclusive regional control", "Isolation from world affairs"],
+      "answer": "Full independence and sovereignty"
+    },
+    {
+      "q": "A similarity between Nigerian and other African nationalist movements was that:",
+      "options": ["They aimed to end colonial rule", "They focused on supporting European governance", "They discouraged political activism", "They avoided mass mobilization"],
+      "answer": "They aimed to end colonial rule"
+    },
+    {
+      "q": "Nationalism promoted unity by:",
+      "options": ["Encouraging collective identity above ethnic divisions", "Emphasizing regional differences only", "Limiting political participation", "Following colonial directives strictly"],
+      "answer": "Encouraging collective identity above ethnic divisions"
+    },
+    {
+      "q": "Nationalist leaders were often educated in:",
+      "options": ["Western schools and universities", "Colonial military academies only", "Traditional village schools only", "Apprenticeships in farming"],
+      "answer": "Western schools and universities"
+    },
+    {
+      "q": "Economic factors that fueled nationalism included:",
+      "options": ["Exploitation of resources and unfair taxation", "Abundant wealth without contribution", "No foreign trade involvement", "Local festivals"],
+      "answer": "Exploitation of resources and unfair taxation"
+    },
+    {
+      "q": "Nationalism can be described as:",
+      "options": ["A movement to assert national identity and independence", "A colonial administrative policy", "An international trade agreement", "A religious organization"],
+      "answer": "A movement to assert national identity and independence"
+    },
+    {
+      "q": "The role of youth movements in nationalism was to:",
+      "options": ["Organize protests, rallies, and political awareness campaigns", "Maintain colonial order", "Focus only on traditional rites", "Ignore political issues"],
+      "answer": "Organize protests, rallies, and political awareness campaigns"
+    }
+  ]
+},
+
+
+{
+  "topic": "Constitutional Development in Nigeria",
+  "questions": [
+    {
+      "q": "Constitutional development in Nigeria refers to:",
+      "options": ["The gradual evolution of laws and governance structures", "Building physical government offices", "Only traditional rule by chiefs", "Military-only governance"],
+      "answer": "The gradual evolution of laws and governance structures"
+    },
+    {
+      "q": "The Clifford Constitution of 1922 introduced:",
+      "options": ["Nigerians into legislative councils", "Full independence", "Military governance", "Regional autonomy with no legislative input"],
+      "answer": "Nigerians into legislative councils"
+    },
+    {
+      "q": "One feature of the Richards Constitution of 1946 was:",
+      "options": ["Regional representation without full self-government", "Immediate independence", "Centralized military rule", "Direct election of all governors"],
+      "answer": "Regional representation without full self-government"
+    },
+    {
+      "q": "The Macpherson Constitution of 1951 provided for:",
+      "options": ["Greater regional autonomy and elected representatives", "Centralized colonial rule only", "Military dictatorship", "Elimination of local councils"],
+      "answer": "Greater regional autonomy and elected representatives"
+    },
+    {
+      "q": "The Lyttleton Constitution of 1954 established:",
+      "options": ["A federation of regions with a central government", "Absolute monarchy", "Acephalous communities only", "A single-party military state"],
+      "answer": "A federation of regions with a central government"
+    },
+    {
+      "q": "One main aim of the 1960 Independence Constitution was to:",
+      "options": ["Grant full sovereignty to Nigeria", "Increase colonial control", "Establish military rule", "Promote only regional chiefs"],
+      "answer": "Grant full sovereignty to Nigeria"
+    },
+    {
+      "q": "The 1963 Republican Constitution achieved:",
+      "options": ["Nigeria became a republic with a president", "Return to colonial governance", "Centralized monarchy", "Elimination of regional governments"],
+      "answer": "Nigeria became a republic with a president"
+    },
+    {
+      "q": "The 1979 Constitution is known for:",
+      "options": ["Introducing a presidential system of government", "Reverting to colonial council rule", "Only allowing military leadership", "Replacing all regions with provinces"],
+      "answer": "Introducing a presidential system of government"
+    },
+    {
+      "q": "The 1999 Constitution established:",
+      "options": ["The current Fourth Republic and democratic governance", "Military dictatorship permanently", "Only regional councils", "Colonial-style legislative councils"],
+      "answer": "The current Fourth Republic and democratic governance"
+    },
+    {
+      "q": "Constitutional developments in Nigeria were influenced by:",
+      "options": ["Pressure from nationalists and regional demands", "Only traditional chiefs", "Exclusive foreign trade agreements", "Religious practices only"],
+      "answer": "Pressure from nationalists and regional demands"
+    },
+    {
+      "q": "A major feature of Nigeria's 1954 Constitution was:",
+      "options": ["Creation of a federal system with autonomous regions", "Centralized colonial administration", "Elimination of traditional rulers", "Exclusive military governance"],
+      "answer": "Creation of a federal system with autonomous regions"
+    },
+    {
+      "q": "The Richards Constitution faced criticism because:",
+      "options": ["It did not give full self-government to Nigerians", "It allowed immediate independence", "It abolished all local councils", "It created a military dictatorship"],
+      "answer": "It did not give full self-government to Nigerians"
+    },
+    {
+      "q": "The Macpherson Constitution encouraged:",
+      "options": ["Political party formation and regional representation", "Military-only rule", "Complete colonial dominance", "Only local festivals"],
+      "answer": "Political party formation and regional representation"
+    },
+    {
+      "q": "The 1960 Constitution provided for:",
+      "options": ["A parliamentary system with a prime minister", "Military dictatorship", "Traditional rulers only", "No legislative council"],
+      "answer": "A parliamentary system with a prime minister"
+    },
+    {
+      "q": "One effect of constitutional development was:",
+      "options": ["Progressive self-rule leading to independence", "Permanent colonial administration", "Elimination of all elections", "Decline in political awareness"],
+      "answer": "Progressive self-rule leading to independence"
+    },
+    {
+      "q": "The transition from colonial constitutions to the 1960 Constitution showed:",
+      "options": ["Gradual transfer of power to Nigerians", "Immediate military takeover", "Centralized foreign governance", "Elimination of regional councils"],
+      "answer": "Gradual transfer of power to Nigerians"
+    },
+    {
+      "q": "The 1979 Constitution differed from previous ones by:",
+      "options": ["Adopting a presidential system similar to the USA", "Maintaining parliamentary colonial rule", "Giving total power to regions", "Eliminating the presidency"],
+      "answer": "Adopting a presidential system similar to the USA"
+    },
+    {
+      "q": "The 1999 Constitution aimed to:",
+      "options": ["Restore democracy after military rule", "Strengthen military authority", "Eliminate elections", "Return to colonial rule"],
+      "answer": "Restore democracy after military rule"
+    },
+    {
+      "q": "Constitutional development in Nigeria helped to:",
+      "options": ["Define powers between central and regional governments", "Remove all traditional rulers", "Promote only military authority", "Eliminate political parties"],
+      "answer": "Define powers between central and regional governments"
+    },
+    {
+      "q": "A similarity between colonial and post-independence constitutions is that:",
+      "options": ["Both established legislative structures", "Both ignored regional representation", "Both eliminated political parties", "Both gave full independence immediately"],
+      "answer": "Both established legislative structures"
+    }
+  ]
+},
+
+{
+  "topic": "Nigerian Federalism",
+  "questions": [
+    {
+      "q": "Federalism in Nigeria refers to:",
+      "options": ["A system of government where power is shared between central and regional governments", "Complete centralized government control", "Exclusive local governance", "Military dictatorship only"],
+      "answer": "A system of government where power is shared between central and regional governments"
+    },
+    {
+      "q": "One key feature of Nigerian federalism is:",
+      "options": ["Division of powers between federal and state governments", "Total power to local councils", "Exclusive power to traditional rulers", "No separation of powers"],
+      "answer": "Division of powers between federal and state governments"
+    },
+    {
+      "q": "Federalism in Nigeria was influenced by:",
+      "options": ["Ethnic, cultural, and regional diversity", "Complete cultural homogeneity", "Colonial military rule only", "Religious uniformity"],
+      "answer": "Ethnic, cultural, and regional diversity"
+    },
+    {
+      "q": "The Nigerian federation was formally established in:",
+      "options": ["1954", "1960", "1979", "1999"],
+      "answer": "1954"
+    },
+    {
+      "q": "The 1954 Lyttleton Constitution contributed to federalism by:",
+      "options": ["Creating autonomous regions under a central government", "Eliminating regional representation", "Giving absolute power to the central government", "Establishing military governance only"],
+      "answer": "Creating autonomous regions under a central government"
+    },
+    {
+      "q": "One advantage of federalism is:",
+      "options": ["It allows local governments to manage local affairs effectively", "It centralizes all decision-making", "It eliminates regional autonomy", "It prevents political participation"],
+      "answer": "It allows local governments to manage local affairs effectively"
+    },
+    {
+      "q": "A disadvantage of Nigerian federalism is:",
+      "options": ["Ethnic and regional tensions can arise", "All regions are completely united", "It eliminates central authority", "It prevents elections"],
+      "answer": "Ethnic and regional tensions can arise"
+    },
+    {
+      "q": "In Nigerian federalism, the central government is also called:",
+      "options": ["The Federal Government", "State Council", "Regional Assembly", "Local Government Council"],
+      "answer": "The Federal Government"
+    },
+    {
+      "q": "States in Nigeria are responsible for:",
+      "options": ["Managing local affairs such as education and health", "Only foreign relations", "Military campaigns only", "Printing national laws exclusively"],
+      "answer": "Managing local affairs such as education and health"
+    },
+    {
+      "q": "Federalism helps Nigeria to:",
+      "options": ["Accommodate diverse ethnic and cultural groups", "Eliminate all local governance", "Prevent regional elections", "Centralize all judicial power"],
+      "answer": "Accommodate diverse ethnic and cultural groups"
+    },
+    {
+      "q": "The 1979 Constitution strengthened federalism by:",
+      "options": ["Clearly defining powers between federal and state governments", "Eliminating state autonomy", "Allowing only military rule", "Reducing political representation"],
+      "answer": "Clearly defining powers between federal and state governments"
+    },
+    {
+      "q": "Revenue allocation in federalism refers to:",
+      "options": ["Sharing resources between federal and state governments", "Exclusive foreign trade", "Military funding only", "Traditional rulers’ income"],
+      "answer": "Sharing resources between federal and state governments"
+    },
+    {
+      "q": "Federalism allows states to:",
+      "options": ["Pass laws relevant to their local needs", "Ignore federal laws entirely", "Control international trade alone", "Command military operations"],
+      "answer": "Pass laws relevant to their local needs"
+    },
+    {
+      "q": "A challenge of Nigerian federalism is:",
+      "options": ["Calls for secession by aggrieved regions", "Total unity without disputes", "No elections at state level", "Complete elimination of political parties"],
+      "answer": "Calls for secession by aggrieved regions"
+    },
+    {
+      "q": "The principle of federalism in Nigeria ensures:",
+      "options": ["Balance of power between central and regional governments", "Absolute power of one region", "Elimination of political parties", "Centralized monarchy"],
+      "answer": "Balance of power between central and regional governments"
+    },
+    {
+      "q": "Federalism in Nigeria differs from a unitary system because:",
+      "options": ["Power is shared between central and regional authorities", "Power is entirely centralized", "Regions have no legislative power", "Only local councils exist"],
+      "answer": "Power is shared between central and regional authorities"
+    },
+    {
+      "q": "One effect of federalism is:",
+      "options": ["Encourages regional development and self-governance", "Eliminates all local government structures", "Prevents elections", "Ensures only one ethnic group rules"],
+      "answer": "Encourages regional development and self-governance"
+    },
+    {
+      "q": "Ethnic diversity in Nigeria makes federalism important because:",
+      "options": ["It accommodates different groups within one nation", "It eliminates regional representation", "It prevents democratic governance", "It centralizes all authority in one region"],
+      "answer": "It accommodates different groups within one nation"
+    },
+    {
+      "q": "Federalism in Nigeria is also meant to:",
+      "options": ["Prevent domination by a single region", "Ensure only central government rules", "Promote colonial interests", "Limit elections"],
+      "answer": "Prevent domination by a single region"
+    },
+    {
+      "q": "A similarity between federalism and constitutional development is that:",
+      "options": ["Both define powers and responsibilities in government", "Both eliminate elections", "Both establish military rule", "Both ignore regional representation"],
+      "answer": "Both define powers and responsibilities in government"
+    }
+  ]
+},
+
+
+
     ]
         
   };
