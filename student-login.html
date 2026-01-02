@@ -32,7 +32,7 @@
   #loading {
     text-align: center;
     margin: 20px 0;
-    display: none; /* Hidden by default */
+    display: none;
   }
   #loading span {
     display: inline-block;
@@ -48,6 +48,7 @@
   @keyframes bounce { to { transform: translateY(-10px); } }
 </style>
 </head>
+
 <body class="login-body">
 <div class="login-container">
   <h1 class="title">Welcome to <span>Aplus Tutors</span></h1>
@@ -72,13 +73,12 @@
 
     <div class="password-container">
       <input type="password" id="password" placeholder="Password" required>
-      <button type="button" class="toggle-password" title="Show/Hide Password">👁️</button>
+      <button type="button" class="toggle-password">👁️</button>
     </div>
 
     <button type="submit" class="btn">Login</button>
   </form>
 
-  <!-- Loading indicator -->
   <div id="loading">
     <span></span><span></span><span></span>
   </div>
@@ -106,58 +106,87 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-// Allowed admin emails
-const allowedAdmins = ["olaboredejames2021@gmail.com"]; // replace with your actual admin emails
+// Allowed emails
+const allowedAdmins = ["olaboredejames2021@gmail.com"];
+const allowedTeachers = [
+  "olaboredejames2021@gmail.com",
+  "teacher1@aplusstutors.com",
+  "teacher2@aplusstutors.com"
+];
 
 // Toggle password visibility
-const togglePasswordBtn = document.querySelector('.toggle-password');
-const passwordInput = document.getElementById('password');
-togglePasswordBtn.addEventListener('click', () => {
-  if (passwordInput.type === "password") {
-    passwordInput.type = "text";
-    togglePasswordBtn.textContent = "🙈";
+const togglePasswordBtn = document.querySelector(".toggle-password");
+const passwordInput = document.getElementById("password");
+togglePasswordBtn.addEventListener("click", () => {
+  passwordInput.type = passwordInput.type === "password" ? "text" : "password";
+  togglePasswordBtn.textContent = passwordInput.type === "password" ? "👁️" : "🙈";
+});
+
+// Role ↔ Department UX logic
+const roleSelect = document.getElementById("role");
+const departmentSelect = document.getElementById("department");
+
+// Hide department initially
+departmentSelect.style.display = "none";
+departmentSelect.disabled = true;
+
+roleSelect.addEventListener("change", () => {
+  const role = roleSelect.value;
+
+  if (role === "Admin") {
+    departmentSelect.value = "";
+    departmentSelect.disabled = true;
+    departmentSelect.style.display = "none";
+  } else if (role === "Teacher" || role === "Student") {
+    departmentSelect.disabled = false;
+    departmentSelect.style.display = "block";
   } else {
-    passwordInput.type = "password";
-    togglePasswordBtn.textContent = "👁️";
+    departmentSelect.style.display = "none";
   }
 });
 
-// Auto-fill department if saved
+// Auto redirect if logged in
 window.onload = () => {
   const user = JSON.parse(localStorage.getItem("loggedInUser"));
-  if (user) {
-    if (user.role === "Admin") window.location.href = "admin.html";
-    else window.location.href = "dashboard.html";
+  if (!user) return;
+
+  if (user.role === "Admin") {
+    window.location.href = "admin.html";
+  } else if (user.role === "Teacher") {
+    window.location.href = "teacher-dashboard.html";
+  } else {
+    window.location.href = "dashboard.html";
   }
-  const savedDept = localStorage.getItem("userDepartment");
-  if (savedDept) document.getElementById("department").value = savedDept;
 };
 
 // Handle login
 const form = document.getElementById("loginForm");
 const loadingEl = document.getElementById("loading");
+
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
   const error = document.getElementById("errorMessage");
   error.textContent = "";
-
-  // Show loading
   loadingEl.style.display = "block";
 
   const email = document.getElementById("email").value.trim();
   const password = document.getElementById("password").value.trim();
-  const department = document.getElementById("department").value;
-  const role = document.getElementById("role").value;
+  const department = departmentSelect.value;
+  const role = roleSelect.value;
 
-  // Check if Admin role is allowed
   if (role === "Admin" && !allowedAdmins.includes(email)) {
-    error.textContent = "⚠️ You are not authorized to log in as Admin.";
+    error.textContent = "⚠️ You are not authorized to login as Admin.";
     loadingEl.style.display = "none";
     return;
   }
 
-  // Validation: department required only for non-admin
-  if (role !== "Admin" && !department) {
+  if (role === "Teacher" && !allowedTeachers.includes(email)) {
+    error.textContent = "⚠️ You are not authorized to log in as Teacher.";
+    loadingEl.style.display = "none";
+    return;
+  }
+
+  if ((role === "Teacher" || role === "Student") && !department) {
     error.textContent = "Please select a department.";
     loadingEl.style.display = "none";
     return;
@@ -173,10 +202,10 @@ form.addEventListener("submit", async (e) => {
       role,
       department: role === "Admin" ? "N/A" : department
     };
+
     localStorage.setItem("loggedInUser", JSON.stringify(loggedUser));
     if (role !== "Admin") localStorage.setItem("userDepartment", department);
 
-    // Track login event
     await addDoc(collection(db, "events"), {
       user: loggedUser.email,
       department: loggedUser.department,
@@ -185,23 +214,17 @@ form.addEventListener("submit", async (e) => {
       timestamp: serverTimestamp()
     });
 
-    // Redirect
-    if (role === "Admin") window.location.href = "admin.html";
-    else window.location.href = "dashboard.html";
+    if (role === "Admin") {
+      window.location.href = "admin.html";
+    } else if (role === "Teacher") {
+      window.location.href = "teacher-dashboard.html";
+    } else {
+      window.location.href = "dashboard.html";
+    }
 
   } catch (err) {
-    console.error(err);
     error.textContent = "Invalid email or password.";
-
-    await addDoc(collection(db, "events"), {
-      user: email,
-      department: role === "Admin" ? "N/A" : department,
-      role,
-      event: "login_failure",
-      timestamp: serverTimestamp()
-    });
   } finally {
-    // Hide loading
     loadingEl.style.display = "none";
   }
 });

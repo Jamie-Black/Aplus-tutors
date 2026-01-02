@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Aplus Tutors | Teacher Dashboard</title>
+
+<style>
+:root {
+  --primary: #8B0000;
+  --bg: #f4f4f4;
+  --card: #ffffff;
+  --text: #333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Header */
+header {
+  background: var(--primary);
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.2rem;
+}
+
+header button {
+  background: #fff;
+  color: var(--primary);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Container */
+.container {
+  padding: 20px;
+}
+
+/* Profile Card */
+.profile {
+  background: var(--card);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.profile h2 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+/* Cards Grid */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card h3 {
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8rem;
+  color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>👨‍🏫 Teacher Dashboard</h1>
+  <button onclick="logout()">Logout</button>
+</header>
+
+<div class="container">
+
+  <div class="profile">
+    <h2 id="teacherEmail">Email:</h2>
+    <p id="teacherDept">Department:</p>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h3>📚 My Classes</h3>
+      <p>View and manage your assigned classes.</p>
+    </div>
+
+    <div class="card">
+      <h3>📝 Upload Assignments</h3>
+      <p>Create and upload assignments for students.</p>
+    </div>
+
+    <div class="card">
+      <h3>📊 Student Progress</h3>
+      <p>Track student performance and activity.</p>
+    </div>
+
+    <div class="card">
+      <h3>💬 Announcements</h3>
+      <p>Send announcements to your students.</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Aplus Tutors · Teacher Portal
+</footer>
+
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
+import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js";
+
+// Firebase config (same project)
+const firebaseConfig = {
+  apiKey: "AIzaSyBSr__wqMxY_IL7LXsO9P1LpJDiDAQNsmE",
+  authDomain: "aplus-tutors-765bf.firebaseapp.com",
+  projectId: "aplus-tutors-765bf",
+  storageBucket: "aplus-tutors-765bf.app",
+  messagingSenderId: "387214060287",
+  appId: "1:387214060287:web:d6213f9c2624f029c0baca"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+// 🔒 AUTH CHECK
+const user = JSON.parse(localStorage.getItem("loggedInUser"));
+
+if (!user || user.role !== "Teacher") {
+  window.location.href = "login.html";
+}
+
+// Display teacher info
+document.getElementById("teacherEmail").textContent = `Email: ${user.email}`;
+document.getElementById("teacherDept").textContent = `Department: ${user.department}`;
+
+// Log dashboard visit
+await addDoc(collection(db, "events"), {
+  user: user.email,
+  role: user.role,
+  department: user.department,
+  event: "teacher_dashboard_visit",
+  timestamp: serverTimestamp()
+});
+
+// Logout
+window.logout = async () => {
+  await addDoc(collection(db, "events"), {
+    user: user.email,
+    role: user.role,
+    department: user.department,
+    event: "logout",
+    timestamp: serverTimestamp()
+  });
+
+  localStorage.removeItem("loggedInUser");
+  window.location.href = "student-login.html";
+};
+</script>
+
+</body>
+</html>
