@@ -145,15 +145,18 @@ const cbts = JSON.parse(localStorage.getItem("cbtResults") || "[]")
   .filter(c => !c.email || c.email === user.email);
 
 /* ================= STUDY (FIXED & MATCHES STUDY PAGE) ================= */
+
+
+/* ================= STUDY (COMPLETED ONLY + DEPT AWARE) ================= */
 function renderStudy() {
   const tbody = document.querySelector("#studyTable tbody");
   tbody.innerHTML = "";
 
   let subjects = [];
-  let total = 0;
-  let completed = 0;
+  let totalTopics = 0;
+  let completedCount = 0;
 
-  // 🔑 EXACT SAME LOGIC AS STUDY PAGE
+  // ✅ Subjects based on user department
   if (userDept && window.departmentSubjects && departmentSubjects[userDept]) {
     subjects = departmentSubjects[userDept].filter(
       sub => Array.isArray(studyData[sub])
@@ -172,34 +175,55 @@ function renderStudy() {
     const topics = studyData[subject] || [];
     if (!topics.length) return;
 
+    // count all topics (for summary)
+    totalTopics += topics.length;
+
+    // get only completed topics
+    const completedTopicsInSubject = topics.filter(t => {
+      const key = `${subject}||${t.topic}`;
+      return completedTopics[key];
+    });
+
+    if (!completedTopicsInSubject.length) return; // 🔑 skip subject if none completed
+
+    // subject header
     tbody.innerHTML += `
       <tr class="subject-group-row">
         <td colspan="3"><strong>${subject}</strong></td>
       </tr>
     `;
 
-    topics.forEach(t => {
-      const topicTitle = t.topic;
-      const key = `${subject}||${topicTitle}`;
-
-      total++;
-      if (completedTopics[key]) completed++;
+    completedTopicsInSubject.forEach(t => {
+      const key = `${subject}||${t.topic}`;
+      completedCount++;
 
       tbody.innerHTML += `
-        <tr class="${completedTopics[key] ? 'completed-row' : ''}">
-          <td>${topicTitle}</td>
-          <td>${topicProgress[key] || 0}%</td>
-          <td>${completedTopics[key] ? '✅ Completed' : '⏳ In Progress'}</td>
+        <tr class="completed-row">
+          <td>${t.topic}</td>
+          <td>${topicProgress[key] || 100}%</td>
+          <td>✅ Completed</td>
         </tr>
       `;
     });
   });
 
+  const percent = totalTopics
+    ? Math.round((completedCount / totalTopics) * 100)
+    : 0;
+
+  // ✅ Summary cards
   document.getElementById("studySummary").innerHTML = `
-    <div class="summary-card"><h3>Total Topics</h3><p>${total}</p></div>
-    <div class="summary-card"><h3>Completed</h3><p>${completed}</p></div>
-    <div class="summary-card"><h3>Overall</h3>
-      <p>${total ? Math.round((completed / total) * 100) : 0}%</p>
+    <div class="summary-card">
+      <h3>Total Topics</h3>
+      <p>${totalTopics}</p>
+    </div>
+    <div class="summary-card">
+      <h3>Completed</h3>
+      <p>${completedCount}</p>
+    </div>
+    <div class="summary-card">
+      <h3>Percentage</h3>
+      <p>${percent}%</p>
     </div>
   `;
 }
@@ -362,4 +386,4 @@ renderCBTChart();
 </script>
 
 </body>
-</html>
+  </html>
