@@ -1,15 +1,16 @@
 const assignments = [
-  /*
+  
   {
     department: "Science",       // Department of the student
     subject: "Biology",          // Subject
-    topic: "Cell Structure",     // Topic/title of the assignment
+    topic: "Classification of living things",     // Topic/title of the assignment
     content: [                   // The questions or tasks
-      "Explain the structure of a plant cell.",
-      "Draw and label an animal cell."
+      "Read notes on classification of living things including kingdom monera and kingdom protista.",
+      "Study diagrams of: amoeba, paramecium and euglena."
     ],
-    deadline: "2025-11-20"       // Deadline in YYYY-MM-DD format
+    deadline: "2026-01-14"       // Deadline in YYYY-MM-DD format
   },
+  /*
   {
     department: "Art",
     subject: "Literature",
