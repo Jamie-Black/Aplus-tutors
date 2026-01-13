@@ -1289,97 +1289,117 @@ window.studyData = {
 "Mathematics": [
   
 //numbers and basic arithmetic operations 
-  {
+{
   "topic": "Basic Arithmetic Operations",
   "notes": {
     "title": "Numbers and Arithmetic Operations",
     "content": [
+
       {
         "type": "text",
-        "data": "Numbers are the foundation of mathematics. Senior secondary students must understand integers, fractions, decimals, percentages, and negative numbers, as these appear frequently in WAEC and JAMB questions."
+        "data": "Numbers are the foundation of mathematics. Senior Secondary students must understand integers, fractions, decimals, percentages, and negative numbers, as these appear frequently in WAEC and JAMB examinations."
       },
+
       {
         "type": "text",
-        "data": "Types of Numbers:\n1. Natural Numbers: 1, 2, 3, ...\n2. Whole Numbers: 0, 1, 2, 3, ...\n3. Integers: ..., -3, -2, -1, 0, 1, 2, 3, ...\n4. Fractions: 1/2, 3/4, 7/8\n5. Decimals: 0.5, 0.75, 1.25\n6. Rational Numbers: numbers that can be expressed as a fraction a/b\n7. Irrational Numbers: numbers that cannot be expressed as fractions, e.g., √2, π"
+        "data": "<b>Types of Numbers</b>\nNatural Numbers: $1, 2, 3, \\dots$\nWhole Numbers: $0, 1, 2, 3, \\dots$\nIntegers: $\\dots, -3, -2, -1, 0, 1, 2, 3, \\dots$\nFractions: $\\frac{1}{2}, \\frac{3}{4}, \\frac{7}{8}$\nDecimals: $0.5, 0.75, 1.25$\nRational Numbers: Numbers that can be written as $\\frac{a}{b}$ where $b \\neq 0$\nIrrational Numbers: Numbers that cannot be written as fractions, e.g. $\\sqrt{2}, \\pi$"
       },
+
       {
         "type": "text",
-        "data": "Advanced Arithmetic Operations:\n• Addition and Subtraction: Include negative numbers and decimals.\n• Multiplication and Division: Include large numbers, fractions, and decimals.\n• Order of Operations (BODMAS/BIDMAS): Brackets → Orders → Division → Multiplication → Addition → Subtraction."
+        "data": "<b>Arithmetic Operations</b>\nArithmetic operations include addition, subtraction, multiplication, and division involving whole numbers, fractions, decimals, and negative numbers. The order of operations follows BODMAS: Brackets, Orders, Division, Multiplication, Addition, Subtraction."
       },
+
       {
         "type": "text",
-        "data": "Worked Example 1:\nEvaluate 25 + 12 × (6 - 4) ÷ 2\nStep 1: Brackets: 6 - 4 = 2 → 25 + 12 × 2 ÷ 2\nStep 2: Multiplication/Division left to right: 12 × 2 = 24 → 24 ÷ 2 = 12\nStep 3: Addition: 25 + 12 = 37\nFinal Answer: 37"
+        "data": "<b>Worked Example 1</b>\nEvaluate $25 + 12 \\times (6 - 4) \\div 2$\n$(6 - 4) = 2$\n$12 \\times 2 = 24$\n$24 \\div 2 = 12$\n$25 + 12 = 37$\nFinal Answer: $37$"
       },
+
       {
         "type": "text",
-        "data": "<b>Number bases</b>\n<b>1. Conversation from other bases to base ten/denary</b>\nWorked example 1:\nConvert 215<sub>six</sub> to a number in base ten\n<b>Solution:</b>\n215<sub>six</sub> = (2 × 6²) + (1 × 6¹) + (5 × 6⁰)\n = (2 × 36) + (1 × 6) + (5 × 1)\n = 72 + 6 + 5\n = 83<sub>ten</sub> "
+        "data": "<b>Number Bases</b>\n<b>1. Conversion from Other Bases to Base Ten (Denary)</b>\n<b>Worked Example 2</b>\nConvert $215_6$ to base ten.\n$215_6 = (2 \\times 6^2) + (1 \\times 6^1) + (5 \\times 6^0)$\n$= 72 + 6 + 5$\n$= 83_{10}$"
       },
+
       {
         "type": "text",
-        "data": "Worked example 2:\nConvert 1101<sub>two</sub> to a number in base ten\n<b>Solution:</b>\n1101<sub>two</sub> = (1 × 2³) + (1 × 2²) + (0 × 2¹) + (1 × 2⁰)\n = (1 × 8) + (1 × 4) + (0 × 2) + (1 × 1)\n = 8 + 4 + 0 + 1\n = 13<sub>ten</sub> "
+        "data": "<b>Worked Example 3</b>\nConvert $1101_2$ to base ten.\n$1101_2 = (1 \\times 2^3) + (1 \\times 2^2) + (0 \\times 2^1) + (1 \\times 2^0)$\n$= 8 + 4 + 0 + 1$\n$= 13_{10}$"
       },
+
       {
         "type": "text",
-        "data": "<b>2. Conversation from base ten to other bases</b>\nWorked example 1:\nConvert 11<sub>ten</sub> to a number in base two\n<b>Solution:</b>\n11<sub>ten</sub> = 1011<sub>two</sub>\nSee workings below:"
+        "data": "<b>2. Conversion from Base Ten to Other Bases</b>\n<b>Worked Example 4</b>\nConvert $11_{10}$ to base two.\n$11_{10} = 1011_2$"
       },
+
       {
-        type: "image",
-        data: "./Screenshot_20251216-180440.png"
+        "type": "image",
+        "data": "./Screenshot_20251216-180440.png"
       },
+
       {
         "type": "text",
-        "data": "Worked example 2:\nConvert 31<sub>ten</sub> to a binary number\n<b>Solution:</b>\n31<sub>ten</sub> = 11111<sub>two</sub>\nSee workings below:"
+        "data": "<b>Worked Example 5</b>\nConvert $31_{10}$ to base two.\n$31_{10} = 11111_2$"
       },
+
       {
-        type: "image",
-        data: "./Screenshot_20251216-180609.png"
+        "type": "image",
+        "data": "./Screenshot_20251216-180609.png"
       },
+
       {
         "type": "text",
-        "data": "<b>3. Conversation from one base to another</b>\nWorked example 1:\nConvert 132<sub>five</sub> to a number in base two\n<b>Solution:</b>\nConvert to base ten first\n132<sub>five</sub> = (1 × 5²) + (3 × 5¹) + (2 × 5⁰)\n = (1 × 25) + (3 × 5) + (2 × 1)\n = 25 + 15 + 2\n = 42<sub>ten</sub> \nConvert to base two\n132<sub>five</sub> = 101010<sub>two</sub>\nSee workings below:"
+        "data": "<b>3. Conversion from One Base to Another</b>\n<b>Worked Example 6</b>\nConvert $132_5$ to base two.\n$132_5 = (1 \\times 5^2) + (3 \\times 5^1) + (2 \\times 5^0)$\n$= 25 + 15 + 2$\n$= 42_{10}$\n$42_{10} = 101010_2$"
       },
+
       {
-        type: "image",
-        data: "./Screenshot_20251216-180836.png"
-      },      
-      {
-        type: "text",
-        data: "<b>4. Addition and subtraction of number bases</b>\nWorked example 1:\nEvaluate the following:\na. 213<sub>four</sub> + 322<sub>four</sub>\nb. 343<sub>five</sub> + 144<sub>five</sub>\nc. 413<sub>five</sub> — 344<sub>five</sub>\n<b>Solution:</b>"
+        "type": "image",
+        "data": "./Screenshot_20251216-180836.png"
       },
-      {
-        type: "image",
-        data: "./Screenshot_20251216-193013_1.png"
-      },
-      //multiplication of number base
-      {
-        type: "text",
-        data: "<b>5. Multiplication of number base</b>\nWorked examples\na. Multiply 2102<sub>three</sub> by 122<sub>three</sub>\nb. 115<sub>six</sub> by 11<sub>six</sub>\n<b>Solution:</b>"
-      },
-      
-      {
-        type: "image",
-        data: "./Screenshot_20251216-195537.png"
-      },
-      //Division of number base 
-      {
-        type: "text",
-        data: "<b>Division of number bases</b>\nWorked examples:\nSimplify the following:\na. 112<sub>three</sub> ÷ 21<sub>three</sub>\nb. 114<sub>seven</sub> ÷ 15<sub>three</sub>\n<b>Solution:</b>\na. Converting to base ten,\n112<sub>three</sub> = (1 × 3²) + (1 × 3¹) + (2 × 3⁰) = 14<sub>ten</sub>\n21<sub>three</sub> = (2 × 3¹) + (1 × 3⁰) = 7<sub>ten</sub>\n14<sub>ten</sub> ÷ 7<sub>ten</sub>\n= 2<sub>ten</sub>\nConvert back to base three, = 2<sub>three</sub>\nb. Converting to base ten,\n114<sub>seven</sub> = (1 × 7²) + (1 × 7¹) + (4 × 7⁰) = 60<sub>ten</sub>\n15<sub>seven</sub> = (1 × 7¹) + (5 × 7⁰) = 12<sub>ten</sub>\n= 60<sub>ten</sub> ÷ 12<sub>ten</sub>\n= 5<sub>ten</sub>\nConvert back to base seven, = 5<sub>seven</sub>"
-      },
-      {
-        type: "text",
-        data: "<b>Determination of unknown base</b>\nWorked examples:\n1. Given that 21<sub>n</sub> = 13<sub>ten</sub>, find the value of n.\n<b>Solution:</b>\nConvert to base ten, \n (2 × n¹) + (1 × n⁰) = 13\n 2n + 1 = 13\n2n = 13 – 1\n2n = 12\nn = 6"
-      },
-      {
-        type: "text",
-        data: "2. If 123<sub>y</sub> = 83<sub>ten</sub>, find the value of y.\n<b>Solution:</b>\nConvert to base ten, \n(1 × y²) + (2 × y¹) + (3 × y⁰) = 83\n y² + 2y + 3 = 83\ny² + 2y - 80 = 0\nFactorising, (y - 8)(y + 10) = 0\ny = 8 or y -10\ntherefore y = 8 since a base "
-      },
+
       {
         "type": "text",
-        "data": "<b>Practice questions</b>\n1. If 134<sub>y</sub> = 8<sub>ten</sub>, find the value of y. [y = 2]\n2. Given that 133<sub>y</sub> = 43<sub>seven</sub>, find the value of y. [y = 4]\n3. Evaluate (111<sub>two</sub> + 101<sub>two</sub>)(111<sub>two</sub> - 101<sub>two</sub>) [11000<sub>two</sub>]\n4. Find x such that 312<sub>four</sub> + 52<sub>x</sub> = 96<sub>ten</sub>. [x = 8]\n5. Given that 111<sub>two</sub> × 111<sub>two</sub> = N<sub>two</sub>. [N = 110001<sub>two</sub>]\n6. If 2A<sub>16</sub> = 52<sub>8</sub>, find the value of A. [A = 2]\n7. Convert 123<sub>5</sub> to base 3. [2102<sub>3</sub>]\n8. Solve for x: 123<sub>x</sub> = 83<sub>ten</sub>. [x = 8]\n9. Find the value of y: 211<sub>y</sub> = 110<sub>3</sub>. [y = 5]\n10. Evaluate: 101<sub>2</sub> × 12<sub>3</sub> in base 4. [132<sub>4</sub>]\n11. If 25<sub>x</sub> = 21<sub>10</sub>, find x. [x = 8]\n12. Convert 37<sub>8</sub> to base 5. [120<sub>5</sub>]\n13. Solve for x: 3x2<sub>5</sub> = 212<sub>4</sub>. [x = 4]\n14. Find y: 12<sub>y</sub> = 10<sub>5</sub>. [y = 3]\n15. Evaluate: 1111<sub>2</sub> + 222<sub>3</sub> in base 10. [30]"
-      }
+        "data": "<b>4. Addition and Subtraction of Number Bases</b>\n<b>Worked Example 7</b>\nEvaluate:\n(a) $213_4 + 322_4$\n(b) $343_5 + 144_5$\n(c) $413_5 - 344_5$"
+      },
+
+      {
+        "type": "image",
+        "data": "./Screenshot_20251216-193013_1.png"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>5. Multiplication of Number Bases</b>\n<b>Worked Example 8</b>\nEvaluate:\n(a) $2102_3 \\times 122_3$\n(b) $115_6 \\times 11_6$"
+      },
+
+      {
+        "type": "image",
+        "data": "./Screenshot_20251216-195537.png"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Division of Number Bases</b>\n<b>Worked Example 9</b>\n(a) $112_3 \\div 21_3$\n$112_3 = 14_{10}$, $21_3 = 7_{10}$\n$14_{10} \\div 7_{10} = 2_{10} = 2_3$\n(b) $114_7 \\div 15_7$\n$114_7 = 60_{10}$, $15_7 = 12_{10}$\n$60_{10} \\div 12_{10} = 5_{10} = 5_7$"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Determination of Unknown Base</b>\n<b>Worked Example 10</b>\nIf $21_n = 13_{10}$:\n$2n + 1 = 13$\n$2n = 12$\n$n = 6$"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Worked Example 11</b>\nIf $123_y = 83_{10}$:\n$y^2 + 2y + 3 = 83$\n$y^2 + 2y - 80 = 0$\n$(y - 8)(y + 10) = 0$\n$y = 8$"
+      },
+
+      {
+  "type": "text",
+  "data": "<b>Practice / Evaluation Questions</b><br>Answer the following questions and show all your workings. Correct answers are provided in square brackets for self-check.<br><br>1. Solve for $y$: $134_y = 8_{10}$ [y = 2]<br>2. Solve for $y$: $133_y = 43_7$ [y = 4]<br>3. Evaluate: $(111_2 + 101_2)(111_2 - 101_2)$ [11000_2]<br>4. Solve for $x$: $312_4 + 52_x = 96_{10}$ [x = 8]<br>5. Multiply: $111_2 \\times 111_2$ [110001_2]<br>6. Solve for $A$: $2A_{16} = 52_8$ [A = 2]<br>7. Convert to base 3: $123_5$ [2102_3]<br>8. Solve for $x$: $123_x = 83_{10}$ [x = 8]<br>9. Solve for $y$: $211_y = 110_3$ [y = 5]<br>10. Evaluate in base 4: $101_2 \\times 12_3$ [132_4]<br>11. Solve for $x$: $25_x = 21_{10}$ [x = 8]<br>12. Convert to base 5: $37_8$ [120_5]<br>13. Solve for $x$: $3x2_5 = 212_4$ [x = 4]<br>14. Solve for $y$: $12_y = 10_5$ [y = 3]<br>15. Evaluate in base ten: $1111_2 + 222_3$ [30]"
+}
+
     ]
   }
 },
+
+
 
 //ratio, rate and averages 
   {
@@ -1429,331 +1449,429 @@ window.studyData = {
 
 //indices
 
-  {
+{
   "topic": "Indices",
   "notes": {
-    "title": "Indices and standard form",
+    "title": "Indices and Standard Form",
     "content": [
       {
         "type": "text",
-        "data": "Indices (also called powers or exponents) are used to express repeated multiplication. If a is a number and n is a positive integer, a<sup>n</sup> means multiplying a by itself n times."
+        "data": "Indices (also called powers or exponents) are used to express repeated multiplication. If $a$ is a number and $n$ is a positive integer, $a^n$ means multiplying $a$ by itself $n$ times."
       },
       {
         "type": "text",
-        "data": "<b>Laws of Indices:</b>\n1. a<sup>m</sup> × a<sup>n</sup> = a<sup>m+n</sup>\n2. a<sup>m</sup> ÷ a<sup>n</sup> = a<sup>m-n</sup>\n3. (a<sup>m</sup>)<sup>n</sup> = a<sup>m×n</sup>\n4. (ab)<sup>n</sup> = a<sup>n</sup> × b<sup>n</sup>\n5. (a/b)<sup>n</sup> = a<sup>n</sup> / b<sup>n</sup>\n6. a<sup>0</sup> = 1 (for a ≠ 0)\n7. a<sup>-n</sup> = 1/a<sup>n</sup>\n8. a<sup><sup>x</sup>/<sub>y</sub></sup> = (y√a)<sup>x</sup>"
+        "data": "<b>Laws of Indices:</b><br>1. $a^m \\times a^n = a^{m+n}$<br>2. $a^m \\div a^n = a^{m-n}$<br>3. $(a^m)^n = a^{m \\times n}$<br>4. $(ab)^n = a^n \\times b^n$<br>5. $(\\frac{a}{b})^n = \\frac{a^n}{b^n}$<br>6. $a^0 = 1$ (for $a \\neq 0$)<br>7. $a^{-n} = \\frac{1}{a^n}$<br>8. $a^{x/y} = \\sqrt[y]{a^x}$"
       },
       {
         "type": "text",
-        "data": "<b>Multiplication and division of indices</b>\n<b>Worked Example 1:</b>\nSimplify: 2<sup>3</sup> × 2<sup>4</sup> ÷ 2<sup>2</sup>\n<b>Solution:</b>\nUsing law of indices, = 2<sup>3+4</sup> ÷ 2<sup>2</sup>\n = 2<sup>7</sup> ÷ 2<sup>2</sup>\n = 2<sup>7-2</sup> \n= 2<sup>5</sup>\n = 32"
+        "data": "<b>Multiplication and Division of Indices</b><br><b>Worked Example 1:</b><br>Simplify: $2^3 \\times 2^4 \\div 2^2$<br><b>Solution:</b><br>$2^3 \\times 2^4 \\div 2^2$<br>$= 2^{3+4} \\div 2^2$  (using $a^m \\times a^n = a^{m+n}$)<br>$= 2^7 \\div 2^2$<br>$= 2^{7-2}$  (using $a^m \\div a^n = a^{m-n}$)<br>$= 2^5$<br>$= 32$"
       },
       {
         "type": "text",
-        "data": "<b>Worked Example 2:</b>\nSimplify: (3<sup>2</sup>)<sup>4</sup>\n<b>Solution:</b>\n Multiply the exponents, 3<sup>2×4</sup>\n = 3<sup>8</sup>\n= 6561"
+        "data": "<b>Worked Example 2:</b><br>Simplify: $(3^2)^4$<br><b>Solution:</b><br>$(3^2)^4$<br>$= 3^{2 \\times 4}$  (using $(a^m)^n = a^{m \\times n}$)<br>$= 3^8$<br>$= 6561$"
       },
       {
         "type": "text",
-        "data": "<b>Worked Example 3:</b>\nSimplify: (5<sup>2</sup>)<sup>-3</sup>\n<b>Solution:</b>\n Multiply the exponents, 5<sup>2×-3</sup>\n = 5<sup>-6</sup>\n= <sup>1</sup>/<sub>5<sup>6</sup></sub>"
+        "data": "<b>Worked Example 3:</b><br>Simplify: $(5^2)^{-3}$<br><b>Solution:</b><br>$(5^2)^{-3}$<br>$= 5^{2 \\times -3}$<br>$= 5^{-6}$<br>$= \\frac{1}{5^6}$"
       },
       {
         "type": "text",
-        "data": "<b>Negative exponents</b>\n<b>Worked Example 4:</b>\nSimplify: 7<sup>-3</sup>\n <b>Solution:</b>\nUsing law of ndices, <sup>1</sup>/<sub>7<sup>3</sup></sub>\n = <sup>1</sup>/<sub>7×7×7</sub>\n = <sup>1</sup>/<sub>343</sub>"
+        "data": "<b>Negative Exponents</b><br><b>Worked Example 4:</b><br>Simplify: $7^{-3}$<br><b>Solution:</b><br>$7^{-3}$<br>$= \\frac{1}{7^3}$<br>$= \\frac{1}{7 \\times 7 \\times 7}$<br>$= \\frac{1}{343}$"
       },
       {
         "type": "text",
-        "data": "<b>Worked Example 5:</b>\nSimplify: (3<sup>2</sup>)<sup>-2</sup> × 3<sup>-1</sup>\n <b>Solution:</b>\nUsing law of indices, 3<sup>2×-2</sup> × 3<sup>-1</sup>\n = 3<sup>-4</sup> × 3<sup>-1</sup>\n = 3<sup>-4 + -1</sup>\n = 3<sup>-5</sup>\n = <sup>1</sup>/<sub>3<sup>5</sup></sub>\n = <sup>1</sup>/<sub>243</sub>"
-      },
-      
-      {
-        "type": "text",
-        "data": "<b>Fractional exponent</b>\n<b>Worked Example 6:</b>\nSimplify: <sup>(3<sup>2</sup>)<sup>3</sup> × 3<sup>2</sup></sup>/<sub>(3<sup>-3</sup>)<sup>2</sup></sub>\n<b>Solution:</b>\nUsing law of indices, <sup>3<sup>2×3</sup></sup> × <sup>3<sup>2</sup></sup>/<sub>3<sup>-3×2</sup></sub>\n = <sup>3<sup>6</sup> × 3<sup>2</sup></sup>/<sub>3<sup>-6</sup></sub>\n = 3<sup>6</sup> × 3<sup>2-(-6)</sup>\n = 3<sup>6</sup> × 3<sup>8</sup>\n = 3<sup>6+8</sup>\n = 3<sup>14</sup>"
+        "data": "<b>Worked Example 5:</b><br>Simplify: $(3^2)^{-2} \\times 3^{-1}$<br><b>Solution:</b><br>$(3^2)^{-2} \\times 3^{-1}$<br>$= 3^{2 \\times -2} \\times 3^{-1}$<br>$= 3^{-4} \\times 3^{-1}$<br>$= 3^{-5}$<br>$= \\frac{1}{3^5}$<br>$= \\frac{1}{243}$"
       },
       {
         "type": "text",
-        "data": "<b>Worked Example 7:</b>\nSimplify: 32<sup><sup>2</sup>/<sub>5</sub></sup>\n<b>Solution:</b>\n Express as index, 2<sup>5</sup> × <sup><sup>2</sup>/<sub>5</sub></sup>\n = 2<sup>2</sup>\n= 4"
-      },
-      
-      {
-        "type": "text",
-        "data": "<b>Exponential Equations</b>\n<b>Worked Example 8:</b>\nSolve: 3<sup>2x</sup> = 27\n<b>Solution:</b>\n3<sup>2x</sup> = 3<sup>3</sup>\n2x = 3\nx = <sup>3</sup>/<sub>2</sub>"
+        "data": "<b>Fractional Exponent</b><br><b>Worked Example 6:</b><br>Simplify: $\\frac{(3^2)^3 \\times 3^2}{(3^{-3})^2}$<br><b>Solution:</b><br>$\\frac{(3^2)^3 \\times 3^2}{(3^{-3})^2}$<br>$= \\frac{3^{2 \\times 3} \\times 3^2}{3^{-3 \\times 2}}$<br>$= \\frac{3^6 \\times 3^2}{3^{-6}}$<br>$= 3^6 \\times 3^{2 - (-6)}$<br>$= 3^6 \\times 3^8$<br>$= 3^{14}$"
       },
       {
         "type": "text",
-        "data": "<b>Worked Example 9:</b>\nSolve: 5<sup>2x-1</sup> = 125\n<b>Solution:</b>\n5<sup>2x-1</sup> = 5<sup>3</sup>\n2x - 1 = 3\n2x = 4\nx = <sup>4</sup>/<sub>2</sub>\nx = 2"
+        "data": "<b>Worked Example 7:</b><br>Simplify: $32^{2/5}$<br><b>Solution:</b><br>$32^{2/5}$<br>$= (2^5)^{2/5}$<br>$= 2^{5 \\times 2/5}$<br>$= 2^2$<br>$= 4$"
       },
-      
-      {
-          "type": "text",
-          "data": "<b>Simultaneous Exponential Equations</b>\n<b>Worked Example 10:</b>\nSolve:\n5<sup>x</sup> × 5<sup>2y</sup> = 5<sup>7</sup>\n3<sup>x</sup> ÷ 3<sup>2y</sup> = 27\n<b>Solution:</b>\n5<sup>x + 2y</sup> = 5<sup>7</sup>\nx + 2y = 7 ... (i)\n3<sup>x - 2y</sup> = 3<sup>3</sup>\nx - 2y = 3 ... (ii)\nAdd equation (i) and (ii): 2x = 10\nx = 5\nSub x = 5 into (i): 5 + 2y = 7\n2y = 2\ny = 1\n∴ x = 5, y = 1"
-      },
-      
-      {
-         type: "text",
-         data: "<b>Standard form</b>\nA number is expressed in standard form as a × 10<sup>n</sup> where 1 ≤ a < 10 and n is an integer."
-      },
-     {
-         type: "text",
-         data: "<b>Worked examples</b>\n1. Express the following in standard form\na. 7890100 = 7.8901 × 10<sup>6</sup>\nb. 0.00513 = 5.13 × 10<sup>-3</sup>\nc. 0.2 = 2 × 10<sup>-1</sup>\nd. 0.0000207 = 2.07 × 10<sup>-5</sup>\ne. 40 = 4 × 10<sup>1</sup>"
-      },
-    
       {
         "type": "text",
-        "data": "<b>Evaluation Questions:</b>\n1. Simplify: 3<sup>4</sup> × 3<sup>-2</sup> [3<sup>2</sup> = 9]\n2. Simplify: (2<sup>3</sup> × 4<sup>2</sup>) ÷ 8 [2<sup>4</sup> = 16]\n3. Evaluate: (5<sup>2</sup>)<sup>3</sup> ÷ 5<sup>4</sup> [5<sup>2</sup> = 25]\n4. Simplify: (3/5)<sup>2</sup> × (5/3)<sup>3</sup> [5/3]\n5. Simplify: 10<sup>0</sup> × 10<sup>5</sup> ÷ 10<sup>2</sup> [10<sup>3</sup> = 1000]\n6. Solve: 2<sup>x</sup> × 2<sup>3</sup> = 2<sup>7</sup> [x = 4]\n7. Solve for x: (x + 1)<sup>5</sup> = 243 [x + 1 = 3, x = 2]\n8. Simplify: (x<sup>2</sup> y<sup>3</sup>)<sup>2</sup> [x<sup>4</sup>y<sup>6</sup>]\n9. Simplify: 7<sup>-2</sup> × 7<sup>5</sup> ÷ 7<sup>3</sup> [7<sup>0</sup> = 1]\n10. Simplify: (2<sup>3</sup> × 3<sup>2</sup>)<sup>2</sup> [2<sup>6</sup> × 3<sup>4</sup> = 64 × 81 = 5184]\n11. Solve the equation: 4<sup>2-x</sup> × 16<sup>x+1</sup>=64 [x = 0]\n12. Find x when 25<sup>x</sup> = 1 [x = 0]\n13. If 8<sup>x</sup> = 2√2 Find the value of x [x = 1/2]\n14. Find the value of m and n: 2<sup>m+n</sup> = 2<sup>6</sup>, 2<sup>5m+n</sup> = 2<sup>2</sup> [m = -1, n = 7]\n15. Find the value of x when 5<sup>x²+2</sup> = 5<sup>-3x</sup> [x = -1, x = -2]"
-}
-        ]
+        "data": "<b>Exponential Equations</b><br><b>Worked Example 8:</b><br>Solve: $3^{2x} = 27$<br><b>Solution:</b><br>$3^{2x} = 27$<br>$= 3^3$<br>So, $2x = 3$<br>$x = \\frac{3}{2}$"
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Example 9:</b><br>Solve: $5^{2x-1} = 125$<br><b>Solution:</b><br>$5^{2x-1} = 125$<br>$= 5^3$<br>So, $2x - 1 = 3$<br>$2x = 4$<br>$x = 2$"
+      },
+      {
+        "type": "text",
+        "data": "<b>Simultaneous Exponential Equations</b><br><b>Worked Example 10:</b><br>Solve:<br>$5^x \\times 5^{2y} = 5^7$<br>$3^x \\div 3^{2y} = 27$<br><b>Solution:</b><br>Equation 1: $5^{x+2y} = 5^7 \\Rightarrow x + 2y = 7 \\quad (i)$<br>Equation 2: $3^{x-2y} = 3^3 \\Rightarrow x - 2y = 3 \\quad (ii)$<br>Add (i) and (ii): $2x = 10 \\Rightarrow x = 5$<br>Substitute $x = 5$ into (i): $5 + 2y = 7$<br>$2y = 2$<br>$y = 1$<br>∴ $x = 5, y = 1$"
+      },
+      {
+        "type": "text",
+        "data": "<b>Standard Form</b><br>A number is expressed in standard form as $a \\times 10^n$ where $1 \\le a < 10$ and $n$ is an integer."
+      },
+      {
+        "type": "text",
+        "data": "<b>Worked Examples</b><br>1. Express in standard form:<br>a. 7890100 = $7.8901 \\times 10^6$<br>b. 0.00513 = $5.13 \\times 10^{-3}$<br>c. 0.2 = $2 \\times 10^{-1}$<br>d. 0.0000207 = $2.07 \\times 10^{-5}$<br>e. 40 = $4 \\times 10^1$<br>f. 123000 = $1.23 \\times 10^5$<br>g. 0.00089 = $8.9 \\times 10^{-4}$<br>h. 5600000 = $5.6 \\times 10^6$<br>i. 0.072 = $7.2 \\times 10^{-2}$<br>j. 900 = $9 \\times 10^2$"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions:</b><br>1. Simplify: $3^4 \\times 3^{-2}$ [$3^2 = 9$]<br>2. Simplify: $(2^3 \\times 4^2) \\div 8$ [$2^4 = 16$]<br>3. Evaluate: $(5^2)^3 \\div 5^4$ [$5^2 = 25$]<br>4. Simplify: $(\\frac{3}{5})^2 \\times (\\frac{5}{3})^3$ [$\\frac{5}{3}$]<br>5. Simplify: $10^0 \\times 10^5 \\div 10^2$ [$10^3 = 1000$]<br>6. Solve: $2^x \\times 2^3 = 2^7$ [$x = 4$]<br>7. Solve for $x$: $(x+1)^5 = 243$ [$x+1 = 3, x=2$]<br>8. Simplify: $(x^2 y^3)^2$ [$x^4 y^6$]<br>9. Simplify: $7^{-2} \\times 7^5 \\div 7^3$ [$7^0 = 1$]<br>10. Simplify: $(2^3 \\times 3^2)^2$ [$2^6 \\times 3^4 = 64 \\times 81 = 5184$]<br>11. Solve: $4^{2-x} \\times 16^{x+1} = 64$ [$x = 0$]<br>12. Find $x$ when $25^x = 1$ [$x=0$]<br>13. If $8^x = 2\\sqrt{2}$, find $x$ [$x=\\frac{1}{2}$]<br>14. Find $m$ and $n$: $2^{m+n} = 2^6$, $2^{5m+n} = 2^2$ [$m=-1, n=7$]<br>15. Solve: $5^{x^2+2} = 5^{-3x}$ [$x=-1, x=-2$]"
       }
+    ]
+  }
 },
+
 
 //logarithms 
 
-  {
+{
   "topic": "Logarithms",
   "notes": {
-    "title": " Logarithms",
+    "title": "Logarithms",
     "content": [
+
       {
         "type": "text",
-        "data": "A logarithm is the power to which a number (base) must be raised to get another number. If a<sup>x</sup> = b, then log<sub>a</sub>(b) = x, where a > 0 and a ≠ 1."
+        "data": "A logarithm is the power to which a number (base) must be raised to get another number. If $a^x = b$, then $\\log_a b = x$, where $a > 0$ and $a \\neq 1$."
       },
+
       {
         "type": "text",
-        "data": "<b>Laws of Logarithms:</b>\n1. log<sub>a</sub>(xy) = log<sub>a</sub>(x) + log<sub>a</sub>(y)\n2. log<sub>a</sub>(x ÷ y) = log<sub>a</sub>(x) - log<sub>a</sub>(y)\n3. log<sub>a</sub>(x<sup>n</sup>) = n × log<sub>a</sub>(x)\n4. log<sub>a</sub>(a) = 1, log<sub>a</sub>(1) = 0\n5. log<sub>a</sub>(b) = log<sub>c</sub>(b) ÷ log<sub>c</sub>(a)\n6. If a<sup>x</sup> = N, then log<sub>a</sub>N = x"
+        "data": "<b>Laws of Logarithms:</b><br>1) $\\log_a(xy) = \\log_a x + \\log_a y$<br>2) $\\log_a \\frac{x}{y} = \\log_a x - \\log_a y$<br>3) $\\log_a (x^n) = n × \\log_a x$<br>4) $\\log_a a = 1$, $\\log_a 1 = 0$<br>5) $\\log_a b = \\frac{\\log_c b}{\\log_c a}$<br>6) If $a^x = N$, then $\\log_a N = x$"
       },
+
       {
         "type": "text",
-        "data": "<b>Worked Examples</b>\n1. Simplify: log<sub>3</sub>27\n<b>Solution</b>\nLet log<sub>3</sub>27 = x\n then 3<sup>x</sup> = 27 = 3<sup>3</sup>\nx = 3"
+        "data": "<b>Worked Example 1</b><br>Simplify: $\\log_3 27$<br>Step 1: Let $\\log_3 27 = x$<br>Step 2: Then $3^x = 27$<br>Step 3: Express 27 as a power of 3: $3^x = 3^3$<br>Step 4: Equate powers: $x = 3$"
       },
+
       {
         "type": "text",
-        "data": "2. Simplify: log<sub>4</sub>8\n<b>Solution</b>\nLet log<sub>4</sub>8 = x\n then 4<sup>x</sup> = 8\n(2<sup>2</sup>)<sup>x</sup> = 2<sup>3</sup>\n2<sup>2x</sup> = 2<sup>3</sup>\n2x = 3\n x = <sup>3</sup>/<sub>2</sub>\n x = 1 <sup>1</sup>/<sub>2</sub>"
+        "data": "<b>Worked Example 2</b><br>Simplify: $\\log_4 8$<br>Step 1: Let $\\log_4 8 = x$<br>Step 2: Then $4^x = 8$<br>Step 3: Express in base 2: $(2^2)^x = 2^3$<br>Step 4: Simplify exponent: $2^{2x} = 2^3$<br>Step 5: Equate powers: $2x = 3$<br>Step 6: Solve: $x = \\frac{3}{2} = 1.5$"
       },
+
       {
         "type": "text",
-        "data": "3. Simplify: log7 + 2log2 - log280\n<b>Solution</b>\n =  log7 + log2² - log280\n = log7 + log4  log280\n = log(<sup>7 × 4</sup>/<sub>280</sub>)\n = log<sup>1</sup>/<sub>10</sub>\n = log10<sup>-1</sup>\n = -1log10\n = -1"
+        "data": "<b>Worked Example 3</b><br>Simplify: $\\log 7 + 2\\log 2 - \\log 280$<br>Step 1: Apply law $\\log(x^n) = n \\log x$: $\\log 7 + \\log 2^2 - \\log 280$<br>Step 2: Simplify power: $\\log 7 + \\log 4 - \\log 280$<br>Step 3: Combine logs: $\\log \\frac{7 × 4}{280}$<br>Step 4: Multiply numerator: $\\log \\frac{28}{280}$<br>Step 5: Simplify fraction: $\\log \\frac{1}{10}$<br>Step 6: Express as power of 10: $\\log 10^{-1}$<br>Step 7: Apply definition: $-1 × \\log 10 = -1$"
       },
+
       {
         "type": "text",
-        "data": "4. Given that log<sub>10</sub>2 = 0.3010 and log<sub>10</sub>3 = 0.4771, evaluate: \na log<sub>10</sub>9\nb. log<sub>10</sub>12\nc. log<sub>10</sub>15"
+        "data": "<b>Worked Example 4</b><br>Given $\\log_{10}2 = 0.3010$ and $\\log_{10}3 = 0.4771$, evaluate:<br>a) $\\log_{10} 9$<br>Step 1: Express as power: $\\log_{10} 9 = \\log_{10} 3^2$<br>Step 2: Apply power rule: $2 × \\log_{10}3$<br>Step 3: Substitute: $2 × 0.4771$<br>Step 4: Multiply: $0.9542$<br><br>b) $\\log_{10} 12$<br>Step 1: Factor: $\\log_{10} 12 = \\log_{10} (4 × 3)$<br>Step 2: Apply product rule: $\\log_{10} 4 + \\log_{10} 3$<br>Step 3: Express 4 as $2^2$: $\\log_{10} 2^2 + \\log_{10} 3$<br>Step 4: Apply power rule: $2 \\log_{10} 2 + \\log_{10} 3$<br>Step 5: Substitute values: $2(0.3010) + 0.4771$<br>Step 6: Multiply: $0.6020 + 0.4771 = 1.0791$<br><br>c) $\\log_{10} 15$<br>Step 1: Factor: $\\log_{10} 15 = \\log_{10} (30/2)$<br>Step 2: Apply quotient rule: $\\log_{10} 30 - \\log_{10} 2$<br>Step 3: Factor 30: $\\log_{10} (3 × 10) - \\log_{10} 2$<br>Step 4: Apply product rule: $\\log_{10} 3 + \\log_{10} 10 - \\log_{10} 2$<br>Step 5: Substitute: $0.4771 + 1 - 0.3010$<br>Step 6: Final value: $1.1761$"
       },
-      {
-        type: "text",
-        data: "<b>Solution</b>\na. log<sub>10</sub>9 = log<sub>10</sub>3² = 2log<sub>10</sub>3\n= since log<sub>10</sub>3 = 0.4771\n= then 2 × 0.4771 = 0.9542\n\nb. log<sub>10</sub>12 = log<sub>10</sub>(4 × 3) = log<sub>10</sub>4 + log<sub>10</sub>3 \n= log<sub>10</sub>2<sup>2</sup> + log<sub>10</sub>3\n= 2log<sub>10</sub>2 + log<sub>10</sub>3\n= since log<sub>10</sub>3 = 0.4771 and log<sub>10</sub>2 = 0.3010\n= then 2 × 0.3010 + 0.4771 = \n= 0.6020 + 0.4771\n= 1.0791\n"
-      },
-      {
-        type: "text",
-        data: "c. log<sub>10</sub>15 = log<sub>10</sub>(30 ÷ 2) = log<sub>10</sub>30 - log<sub>10</sub>2\n= log<sub>10</sub>(3 × 10) - log<sub>10</sub>2\n= log<sub>10</sub>3 + log<sub>10</sub>10 - log<sub>10</sub>2\n= since log<sub>10</sub>3 = 0.4771 and log<sub>10</sub>2 = 0.3010\n= then 0.4771 + 1 - 0.3010 \n= 1.4771 - 0.3010\n= 1.1761\n"
-      },
+
       {
         "type": "text",
-        "data": "5. Find the value of x given that log<sub>10</sub>x + log<sub>10</sub>(x + 3) = 1\n<b>Solution</b>\nthen, log<sub>10</sub>x × (x + 3)\n log<sub>10</sub>x(x + 3) = log<sub>10</sub>10\nthen, x² + 3x = 10\nx² + 3x - 10 = 0\n(x + 5)(x - 2) = 0\nx = -5 or x = 2"
+        "data": "<b>Worked Example 5</b><br>Find $x$ given $\\log_{10} x + \\log_{10} (x+3) = 1$<br>Step 1: Apply product rule: $\\log_{10} [x(x+3)] = 1$<br>Step 2: Simplify: $\\log_{10} (x^2 + 3x) = \\log_{10} 10$<br>Step 3: Equate arguments: $x^2 + 3x = 10$<br>Step 4: Rearrange: $x^2 + 3x - 10 = 0$<br>Step 5: Factorize: $(x+5)(x-2) = 0$<br>Step 6: Solve: $x = -5$ or $x = 2$<br>Step 7: Since log of negative is undefined, $x = 2$"
       },
-      
+
       {
-        "type": "text",
-        "data": "<b>Practice Questions:</b>\n1. Simplify: log5 + log6\n2. Simplify: log<sub>10</sub>√60\n3. Evaluate log350 - log7 + log2\n4. Express the following as logarithm of single number; 2 - 2log5\n5.Solve log<sub>10</sub>(2x+1) - log<sub>10</sub>(3x-2) = 1\n6. Given that log<sub>10</sub>2 = 0.3010 and log<sub>10</sub>3 = 0.4771 and log<sub>10</sub>7 = 0.8451, evaluate: \na. log<sub>10</sub>8\nb. log<sub>10</sub>40\nc. log<sub>10</sub>√60\n7. Evaluate log<sub>10</sub>√35 + log<sub>10</sub>√2 - log<sub>10</sub>√7\n8. Solve for x in: 6log(x+4) = log64"
-    }
+  "type": "text",
+  "data": "<b>Practice Questions:</b><br>1) Simplify: $\\log 5 + \\log 6$ [ $\\log 30$ ]<br>2) Simplify: $\\log_{10} \\sqrt{60}$ [ $\\frac{1}{2} \\log_{10} 60 \\approx 0.889$ ]<br>3) Evaluate: $\\log 350 - \\log 7 + \\log 2$ [ $\\log 100 = 2$ ]<br>4) Express as a single logarithm: $2 - 2\\log 5$ [ $\\log 100 - \\log 25 = \\log 4$ ]<br>5) Solve: $\\log_{10} (2x+1) - \\log_{10} (3x-2) = 1$ [ $x = 3$ ]<br>6) Given $\\log_{10}2 = 0.3010$, $\\log_{10}3 = 0.4771$, $\\log_{10}7 = 0.8451$, evaluate:<br> a) $\\log_{10} 8$ [ $0.903$ ]<br> b) $\\log_{10} 40$ [ $1.602$ ]<br> c) $\\log_{10} \\sqrt{60}$ [ $0.889$ ]<br>7) Evaluate: $\\log_{10} \\sqrt{35} + \\log_{10} \\sqrt{2} - \\log_{10} \\sqrt{7}$ [ $0.5$ ]<br>8) Solve for $x$: $6\\log(x+4) = \\log 64$ [ $x = 2$ ]"
+}
+
     ]
   }
 },
 
 //surds
 
-  { 
+{
   "topic": "Surds",
   "notes": {
-    "title": "Surds",
+    "title": "Surds: Rules, Operations, and Rationalization",
     "content": [
+
       {
         "type": "text",
-        "data": "A surd is a root that cannot be simplified to remove the radical. Surds are used to represent irrational numbers exactly, e.g., √2, √3, 2√5."
+        "data": "Surds are expressions containing roots (usually square roots) that cannot be simplified into rational numbers. They are common in JAMB and WAEC questions."
       },
+
       {
         "type": "text",
-        "data": "If a and b are real (positive) numbers, then\n• √ab = √a × √b\n• √<sup>a</sup>/<sub>b</sub> = <sup>√a</sup>/<sub>√b</sub>\n• Expressions in which both the numerator and denominator contains surds are simplified by rationalizing the denominator. This is done by multiplying both numerator and denominator by the same factor\n• The difference of two squares:\na²-b² = (a+b)(a-b) is often found useful in solving problems on surd."
+        "data": "<b>1. Surd Rules</b><br>1) $\\sqrt{a} \\times \\sqrt{b} = \\sqrt{ab}$<br>2) $\\frac{\\sqrt{a}}{\\sqrt{b}} = \\sqrt{\\frac{a}{b}}$<br>3) $\\sqrt{a^2} = |a|$<br>4) $\\sqrt[n]{a^n} = a$ (if n is even and a ≥ 0)"
       },
+
       {
         "type": "text",
-        "data": "<b>Worked Examples</b>\n1. Simplify: √50\nSolution:\n√50 = √25 × √2 = 5 × √2\n = 5√2"
+        "data": "<b>2. Addition and Subtraction of Surds</b><br>Only like surds (same radicand) can be added or subtracted.<br>1) $a\\sqrt{c} + b\\sqrt{c} = (a+b)\\sqrt{c}$<br>2) $a\\sqrt{c} - b\\sqrt{c} = (a-b)\\sqrt{c}$"
       },
+
       {
         "type": "text",
-        "data":"2. Simplify: 3√8 + 5√2\nSolution: \n3√8 + 5√2 = 3 × (√4 × √2) + 5√2 \n= 3 × 2 × √2 + 5√2\n= 6√2 + 5√2\n11√2"
+        "data": "<b>Worked Example 1</b><br>Simplify: $3\\sqrt{2} + 5\\sqrt{2}$<br>Step 1: $3\\sqrt{2} + 5\\sqrt{2}$<br>Step 2: Combine coefficients: $(3+5)\\sqrt{2}$<br>Step 3: $8\\sqrt{2}$"
       },
+
       {
         "type": "text",
-        "data": "3. Simplify: √6 × √24 = √144 = 12"
+        "data": "<b>Worked Example 2</b><br>Simplify: $7\\sqrt{3} - 2\\sqrt{3}$<br>Step 1: $7\\sqrt{3} - 2\\sqrt{3}$<br>Step 2: Combine coefficients: $(7-2)\\sqrt{3}$<br>Step 3: $5\\sqrt{3}$"
       },
+
       {
         "type": "text",
-        "data": "Worked Example 4 — Rationalizing Denominator:\nSimplify: 5 / √3 → multiply numerator and denominator by √3 → 5√3 / 3"
+        "data": "<b>3. Multiplication of Surds</b><br>1) $\\sqrt{a} \\times \\sqrt{b} = \\sqrt{ab}$<br>2) $(a\\sqrt{b})(c\\sqrt{d}) = (ac)\\sqrt{bd}$"
       },
+
       {
         "type": "text",
-        "data": "Worked Example 5 — Advanced Problem:\nSimplify: (2√3 + √12) × (√3 - 1)\nStep 1: Simplify √12 = 2√3 → expression becomes (2√3 + 2√3)(√3 - 1) = 4√3(√3 - 1)\nStep 2: Multiply: 4√3 × √3 - 4√3 × 1 = 12 - 4√3\nFinal Answer: 12 - 4√3"
+        "data": "<b>Worked Example 3</b><br>Simplify: $\\sqrt{3} \\times \\sqrt{12}$<br>Step 1: $\\sqrt{3} \\times \\sqrt{12}$<br>Step 2: Multiply under the square root: $\\sqrt{3 \\times 12}$<br>Step 3: $\\sqrt{36}$<br>Step 4: $6$"
       },
+
       {
-        "type": "image",
-        "data": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Square_root.svg/640px-Square_root.svg.png"
+        "type": "text",
+        "data": "<b>Worked Example 4</b><br>Simplify: $(2\\sqrt{3})(5\\sqrt{2})$<br>Step 1: $(2\\sqrt{3})(5\\sqrt{2})$<br>Step 2: Multiply coefficients: $(2 \\times 5)\\sqrt{3 \\times 2}$<br>Step 3: $10\\sqrt{6}$"
       },
+
+      {
+        "type": "text",
+        "data": "<b>4. Division of Surds</b><br>1) $\\frac{\\sqrt{a}}{\\sqrt{b}} = \\sqrt{\\frac{a}{b}}$<br>2) $\\frac{a\\sqrt{c}}{b\\sqrt{d}} = \\frac{a}{b} \\sqrt{\\frac{c}{d}}$"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Worked Example 5</b><br>Simplify: $\\frac{\\sqrt{50}}{\\sqrt{2}}$<br>Step 1: $\\frac{\\sqrt{50}}{\\sqrt{2}}$<br>Step 2: Apply division rule: $\\sqrt{\\frac{50}{2}}$<br>Step 3: $\\sqrt{25}$<br>Step 4: $5$"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Worked Example 6</b><br>Simplify: $\\frac{3\\sqrt{6}}{2\\sqrt{3}}$<br>Step 1: $\\frac{3\\sqrt{6}}{2\\sqrt{3}}$<br>Step 2: Separate coefficients: $\\frac{3}{2} \\times \\frac{\\sqrt{6}}{\\sqrt{3}}$<br>Step 3: Apply division of surds: $\\frac{3}{2} \\times \\sqrt{\\frac{6}{3}}$<br>Step 4: Simplify inside root: $\\frac{3}{2} \\times \\sqrt{2}$<br>Step 5: $\\frac{3\\sqrt{2}}{2}$"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>5. Rationalization of Surds</b><br>Rationalization is the process of removing a surd from the denominator.<br>1) $\\frac{1}{\\sqrt{a}} = \\frac{\\sqrt{a}}{a}$<br>2) $\\frac{1}{a + \\sqrt{b}} = \\frac{a - \\sqrt{b}}{a^2 - b}$"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Worked Example 7</b><br>Rationalize: $\\frac{1}{\\sqrt{5}}$<br>Step 1: $\\frac{1}{\\sqrt{5}}$<br>Step 2: Multiply numerator and denominator by $\\sqrt{5}$: $\\frac{1 \\times \\sqrt{5}}{\\sqrt{5} \\times \\sqrt{5}}$<br>Step 3: $\\frac{\\sqrt{5}}{5}$"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Worked Example 8</b><br>Rationalize: $\\frac{3}{2 + \\sqrt{3}}$<br>Step 1: $\\frac{3}{2 + \\sqrt{3}}$<br>Step 2: Multiply numerator and denominator by conjugate: $\\frac{3 \\times (2 - \\sqrt{3})}{(2 + \\sqrt{3})(2 - \\sqrt{3})}$<br>Step 3: Simplify denominator: $(2+\\sqrt{3})(2-\\sqrt{3}) = 4 - 3 = 1$<br>Step 4: Multiply numerator: $3(2 - \\sqrt{3})$<br>Step 5: $6 - 3\\sqrt{3}$"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>6. Conjugates</b><br>The conjugate of $a + \\sqrt{b}$ is $a - \\sqrt{b}$. It is used in rationalization and simplification.<br>1) $(a + \\sqrt{b})(a - \\sqrt{b}) = a^2 - b$"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Worked Example 9</b><br>Simplify: $(3 + \\sqrt{2})(3 - \\sqrt{2})$<br>Step 1: $(3 + \\sqrt{2})(3 - \\sqrt{2})$<br>Step 2: Apply conjugate rule: $3^2 - (\\sqrt{2})^2$<br>Step 3: $9 - 2$<br>Step 4: $7$"
+      },
+
       {
   "type": "text",
-  "data": "Evaluation Questions:\n1. Simplify: √72\n2. Simplify: √18 + 2√8\n3. Multiply: √5 × √20\n4. Rationalize: 7 / √2\n5. Simplify: (3√2 + √8) × (√2 - 1)\n6. Simplify: √50 ÷ √2\n7. Simplify: 5√3 - 2√12 + √27\n8. Multiply and simplify: (√2 + √3)(√2 - √3)\n9. Rationalize: 3 / (2 + √5)\n10. Simplify: √8 × √18 ÷ √2"
+  "data": "<b>Practice / Evaluation Questions</b><br>Answer the following. Answers are provided in square brackets.<br><br>1. Simplify: $5\\sqrt{3} + 2\\sqrt{3}$ <span style='color:gray;'>[Ans: $7\\sqrt{3}$]</span><br>2. Simplify: $7\\sqrt{5} - 3\\sqrt{5}$ <span style='color:gray;'>[Ans: $4\\sqrt{5}$]</span><br>3. Multiply: $\\sqrt{6} \\times \\sqrt{24}$ <span style='color:gray;'>[Ans: $12$]</span><br>4. Multiply: $(3\\sqrt{2})(4\\sqrt{5})$ <span style='color:gray;'>[Ans: $12\\sqrt{10}$]</span><br>5. Divide: $\\frac{\\sqrt{32}}{\\sqrt{2}}$ <span style='color:gray;'>[Ans: $4$]</span><br>6. Divide: $\\frac{5\\sqrt{18}}{3\\sqrt{2}}$ <span style='color:gray;'>[Ans: $5\\sqrt{2}$]</span><br>7. Rationalize: $\\frac{1}{\\sqrt{7}}$ <span style='color:gray;'>[Ans: $\\frac{\\sqrt{7}}{7}$]</span><br>8. Rationalize: $\\frac{4}{3 + \\sqrt{2}}$ <span style='color:gray;'>[Ans: $\\frac{4(3 - \\sqrt{2})}{7}$]</span><br>9. Simplify using conjugates: $(5 + \\sqrt{3})(5 - \\sqrt{3})$ <span style='color:gray;'>[Ans: $22$]</span><br>10. Solve for $x$: $2 + \\sqrt{x} = 5$ <span style='color:gray;'>[Ans: $x = 9$]</span>"
 }
+
     ]
   }
 },
 
 //set theory and venn diagram
-  {
-  "topic": "Set Theory and Venn Diagrams",
+ 
+ {
+  "topic": "Sets",
   "notes": {
-    "title": "Advanced Set Theory and Venn Diagrams for SSS Students",
+    "title": "Sets",
     "content": [
+
       {
         "type": "text",
-        "data": "A set is a collection of well-defined objects, called elements. Sets are fundamental in mathematics and used to organize data, describe relationships, and solve problems."
+        "data": "A <b>set</b> is a well-defined collection of distinct objects, called <b>elements</b> or <b>members</b>. Sets are usually represented by capital letters and their elements by small letters.<br><br>Example:<br>$A = \\{1, 2, 3, 4\\}$<br>Here, $1 \\in A$ and $5 \\notin A$."
       },
+
       {
         "type": "text",
-        "data": "Types of Sets:\n1. Finite Set – has a countable number of elements, e.g., A = {1, 2, 3, 4}\n2. Infinite Set – elements are uncountable, e.g., B = {1, 2, 3, ...}\n3. Empty/Null Set – contains no elements, e.g., Ø\n4. Singleton Set – contains only one element, e.g., C = {5}\n5. Subset – A ⊆ B means every element of A is in B\n6. Universal Set – contains all elements under consideration, usually denoted U"
+        "data": "<b>Methods of Describing a Set</b><br>1) <b>Roster (Listing) Method:</b> Elements are listed in braces.<br>$A = \\{2, 4, 6, 8\\}$<br><br>2) <b>Set-Builder Method:</b> Elements are described using a rule.<br>$A = \\{x : x = 2n, n \\in \\mathbb{N}, 1 \\le n \\le 4\\}$"
       },
+
       {
         "type": "text",
-        "data": "Set Operations:\n• Union (A ∪ B) – all elements in A or B or both\n• Intersection (A ∩ B) – all elements common to A and B\n• Difference (A - B) – elements in A but not in B\n• Complement (A') – all elements not in A, within the universal set U"
+        "data": "<b>Types of Sets</b><br>• <b>Empty (Null) Set:</b> A set with no elements, denoted by $\\emptyset$ or $\\{\\}$<br>• <b>Singleton Set:</b> A set with exactly one element<br>• <b>Finite Set:</b> A set with a limited number of elements<br>• <b>Infinite Set:</b> A set with unlimited elements<br>• <b>Universal Set:</b> The set containing all elements under consideration, denoted by $U$"
       },
+
       {
         "type": "text",
-        "data": "Worked Example 1 — Union and Intersection:\nLet A = {1, 2, 3, 4}, B = {3, 4, 5, 6}\nFind A ∪ B and A ∩ B\nSolution:\nA ∪ B = {1, 2, 3, 4, 5, 6}\nA ∩ B = {3, 4}"
+        "data": "<b>Subsets</b><br>A set $A$ is a subset of $B$ if every element of $A$ is also an element of $B$. This is written as $A \\subseteq B$.<br><br>If $A \\subseteq B$ but $A \\neq B$, then $A$ is a <b>proper subset</b> of $B$, written as $A \\subset B$."
       },
+
       {
         "type": "text",
-        "data": "Worked Example 2 — Difference and Complement:\nLet U = {1,2,3,4,5,6,7,8,9}, A = {2,4,6,8}\nFind A' and U - A\nSolution:\nA' = {1,3,5,7,9}  (elements in U not in A)\nU - A = {1,3,5,7,9}  (same as A')"
+        "data": "<b>Worked Example 1</b><br>Let $A = \\{1, 2\\}$ and $B = \\{1, 2, 3, 4\\}$. Determine whether $A \\subseteq B$.<br><br>Step 1: List elements of $A$: $1, 2$<br>Step 2: Check if they are all in $B$<br>Step 3: Since $1, 2 \\in B$,<br><br><b>Conclusion:</b> $A \\subseteq B$"
       },
+
       {
         "type": "text",
-        "data": "Worked Example 3 — Venn Diagram Problem:\nIn a class of 50 students:\n• 30 study Mathematics\n• 25 study Physics\n• 15 study both Mathematics and Physics\nFind the number of students who study only Mathematics, only Physics, and neither subject.\nSolution:\nOnly Mathematics = 30 - 15 = 15\nOnly Physics = 25 - 15 = 10\nBoth subjects = 15\nTotal students in either or both = 15 + 10 + 15 = 40\nStudents who study neither = 50 - 40 = 10"
+        "data": "<b>Number of Subsets</b><br>If a set has $n$ elements, then the number of subsets is given by:<br>$$2^n$$"
       },
+
       {
         "type": "text",
-        "data": "Worked Example 4 — Multiple Set Venn Diagram:\nLet U = {1,2,3,4,5,6,7,8,9,10}\nA = {1,2,3,4}, B = {3,4,5,6}, C = {1,5,7,9}\nFind A ∪ B ∪ C and A ∩ B ∩ C\nSolution:\nA ∪ B ∪ C = {1,2,3,4,5,6,7,9}\nA ∩ B ∩ C = {} (empty set, no element common to all)"
+        "data": "<b>Worked Example 2</b><br>Find the number of subsets of the set $A = \\{a, b, c, d\\}$.<br><br>Step 1: Count elements: $n = 4$<br>Step 2: Apply formula: $2^n = 2^4$<br>Step 3: Calculate: $2^4 = 16$<br><br><b>Answer:</b> The set has 16 subsets."
       },
+
       {
         "type": "text",
-        "data": "Applications of Set Theory:\n• Organizing data in statistics\n• Solving problems in probability\n• Analyzing logical relationships\n• Used in computer science for databases and search operations"
+        "data": "<b>Operations on Sets</b><br>Let $A$ and $B$ be sets.<br><br>• <b>Union:</b> $A \\cup B$ is the set of elements in $A$ or $B$ or both.<br>• <b>Intersection:</b> $A \\cap B$ is the set of elements common to both $A$ and $B$.<br>• <b>Difference:</b> $A - B$ is the set of elements in $A$ but not in $B$."
       },
-      {
-        "type": "image",
-        "data": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Venn_diagram_3_sets.svg/640px-Venn_diagram_3_sets.svg.png"
-      },
+
       {
         "type": "text",
-        "data": "Evaluation Questions:\n1. Let A = {2,4,6,8}, B = {3,4,5,6}. Find A ∪ B and A ∩ B.\n2. If U = {1,2,3,4,5,6,7,8}, A = {1,3,5,7}, B = {2,3,6,7}, find A' and B'.\n3. In a survey, 40 students like football, 25 like basketball, and 10 like both. Find how many like only football, only basketball, and neither if total students = 50.\n4. Let A = {1,2,3}, B = {2,3,4}, C = {3,4,5}. Find A ∪ B ∪ C and A ∩ B ∩ C.\n5. Draw a Venn diagram for two sets: A = {1,2,3,4}, B = {3,4,5,6}.\n6. Let U = {1-10}, A = {1,2,3,4}, B = {3,4,5,6}, C = {2,5,7,9}. Find A ∪ B ∪ C and A ∩ B ∩ C.\n7. Find the number of elements in A ∪ B if n(A) = 8, n(B) = 6, n(A ∩ B) = 3.\n8. A class has 60 students. 35 like English, 25 like Literature, 15 like both. How many like only English, only Literature, and neither?\n9. If A ⊆ B and B ⊆ C, prove that A ⊆ C.\n10. In a school, 20 students play football, 15 play basketball, 10 play both, and total students = 40. How many play neither?"
+        "data": "<b>Worked Example 3</b><br>Let $A = \\{1, 2, 3, 4\\}$ and $B = \\{3, 4, 5, 6\\}$. Find:<br><br>a) $A \\cup B$<br>$= \\{1, 2, 3, 4, 5, 6\\}$<br><br>b) $A \\cap B$<br>$= \\{3, 4\\}$<br><br>c) $A - B$<br>$= \\{1, 2\\}$"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Complement of a Set</b><br>The complement of a set $A$, denoted by $A'$, is the set of all elements in the universal set $U$ that are not in $A$.<br><br>That is:<br>$$A' = U - A$$"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4</b><br>Let $U = \\{1,2,3,4,5,6,7,8\\}$ and $A = \\{2,4,6\\}$. Find $A'$.<br><br>Step 1: Identify elements in $U$<br>Step 2: Remove elements of $A$<br><br>$A' = \\{1,3,5,7,8\\}$"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Venn Diagrams</b><br>Venn diagrams are pictorial representations of sets using closed curves. They are useful for solving problems involving two or three sets, especially in examinations."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Worked Example 5</b><br>In a class of 40 students, 25 offer Mathematics, 18 offer Physics, and 10 offer both subjects. How many offer neither subject?<br><br>Step 1: Use formula:<br>$n(M \\cup P) = n(M) + n(P) - n(M \\cap P)$<br><br>Step 2: Substitute values:<br>$n(M \\cup P) = 25 + 18 - 10 = 33$<br><br>Step 3: Find those who offer neither:<br>$40 - 33 = 7$<br><br><b>Answer:</b> 7 students offer neither subject."
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Laws of Sets</b><br>1) $A \\cup A = A$<br>2) $A \\cap A = A$<br>3) $A \\cup \\emptyset = A$<br>4) $A \\cap \\emptyset = \\emptyset$<br>5) $A \\cup U = U$<br>6) $A \\cap U = A$<br>7) $(A')' = A$"
+      },
+
+      {
+        "type": "text",
+        "data": "<b>Practice Questions:</b><br>1) List all subsets of $\\{a, b, c\\}$<br>2) If $A = \\{1,3,5,7\\}$ and $B = \\{3,6,7,8\\}$, find:<br>a) $A \\cup B$<br>b) $A \\cap B$<br>c) $A - B$<br>3) If $U = \\{1,2,3,4,5,6,7,8,9\\}$ and $A = \\{2,3,5,7\\}$, find $A'$<br>4) How many subsets does a set with 6 elements have? [ $64$ ]<br>5) In a group of 50 students, 30 like Football, 20 like Basketball and 12 like both. How many like neither sport? [ $12$ ]<br>6) If $A \\subseteq B$ and $n(A)=4$, $n(B)=9$, find the number of elements in $B - A$ [ $5$ ]"
       }
+
     ]
   }
 },
 
 //algebraic expressions 
 
-  {
-  "topic": "Algebraic Expressions",
-  "notes": {
-    "title": "Advanced Algebraic Expressions for SSS Students",
-    "content": [
-      {
-        "type": "text",
-        "data": "Algebraic expressions are combinations of numbers, variables, and operations (addition, subtraction, multiplication, division, powers). Mastery of algebraic expressions is essential for simplifying, factoring, and solving equations."
-      },
-      {
-        "type": "text",
-        "data": "Types of Algebraic Expressions:\n1. Monomial – a single term, e.g., 3x, -5y<sup>2</sup>, 7\n2. Binomial – two terms, e.g., x + 2, 3a - 4b\n3. Trinomial – three terms, e.g., x<sup>2</sup> + 2x + 1\n4. Polynomial – more than one term, e.g., 2x<sup>3</sup> - 3x<sup>2</sup> + x - 5"
-      },
-      {
-        "type": "text",
-        "data": "Algebraic Operations:\n• Addition/Subtraction: Combine like terms (terms with the same variables and powers)\n• Multiplication: Multiply coefficients and add powers of same variable\n• Division: Divide coefficients and subtract powers of same variable\n• Expansion: Use distributive law, e.g., a(b + c) = ab + ac"
-      },
-      {
-        "type": "text",
-        "data": "Worked Example 1 — Simplifying Expressions:\nSimplify: 3x + 5x - 7 + 4\nStep 1: Combine like terms (x terms): 3x + 5x = 8x\nStep 2: Combine constants: -7 + 4 = -3\nFinal Answer: 8x - 3"
-      },
-      {
-        "type": "text",
-        "data": "Worked Example 2 — Multiplication of Monomials:\nSimplify: (3x<sup>2</sup>)(4x<sup>3</sup>)\nStep 1: Multiply coefficients: 3 × 4 = 12\nStep 2: Add powers of x: 2 + 3 = 5\nFinal Answer: 12x<sup>5</sup>"
-      },
-      {
-        "type": "text",
-        "data": "Worked Example 3 — Multiplication of Binomials (Expansion):\nSimplify: (x + 3)(x + 5)\nStep 1: Apply distributive law (FOIL method): x·x + x·5 + 3·x + 3·5\nStep 2: Simplify: x<sup>2</sup> + 5x + 3x + 15 = x<sup>2</sup> + 8x + 15\nFinal Answer: x<sup>2</sup> + 8x + 15"
-      },
-      {
-        "type": "text",
-        "data": "Worked Example 4 — Division of Monomials:\nSimplify: 12x<sup>5</sup> ÷ 3x<sup>2</sup>\nStep 1: Divide coefficients: 12 ÷ 3 = 4\nStep 2: Subtract powers of x: 5 - 2 = 3\nFinal Answer: 4x<sup>3</sup>"
-      },
-      {
-        "type": "text",
-        "data": "Applications:\n• Solving algebraic equations\n• Simplifying mathematical models in physics and chemistry\n• Calculating areas, volumes, and other formulas\n• Real-life applications in finance, engineering, and technology"
-      },
-      {
-        "type": "image",
-        "data": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Algebraic_expression_example.svg/640px-Algebraic_expression_example.svg.png"
-      },
-      {
-        "type": "text",
-        "data": "Evaluation Questions:\n1. Simplify: 5x + 7x - 3 + 9\n2. Simplify: 6a<sup>2</sup> × 4a<sup>3</sup>\n3. Expand: (x + 2)(x + 7)\n4. Simplify: 18y<sup>5</sup> ÷ 6y<sup>2</sup>\n5. Combine like terms: 3p + 4q - 5p + 2q\n6. Expand and simplify: (2x + 3)(x - 4)\n7. Multiply: (-3a<sup>2</sup>b)(4ab<sup>3</sup>)\n8. Simplify: 7x<sup>3</sup> - 2x<sup>3</sup> + 5x - 3\n9. Expand: (x + 5)<sup>2</sup>\n10. Divide: (20x<sup>4</sup>y<sup>2</sup>) ÷ (5x<sup>2</sup>y)"
-      }
-    ]
-  }
-},
+  
 
 //polynomial expression and factorization 
 
   {
-  "topic": "Polynomials and Remainder Theorem",
+  "topic": "Polynomials",
   "notes": {
-    "title": "Polynomials and Remainder Theorem",
+    "title": "Polynomials: Concepts, Operations, Theorems, and Factorization",
     "content": [
+      
       {
         "type": "text",
-        "data": "A polynomial is an algebraic expression consisting of variables (indeterminates) and coefficients, combined using addition, subtraction, multiplication, and non-negative integer exponents. Example: P(x) = 4x<sup>4</sup> − 3x<sup>3</sup> + 2x − 7."
+        "data": "A <b>polynomial</b> is an algebraic expression made up of variables, coefficients, and powers of variables, combined using addition, subtraction, and multiplication only. Polynomials are very important in WAEC and JAMB examinations."
       },
+      
       {
         "type": "text",
-        "data": "<b>Degree of a Polynomial:</b> The highest power of the variable in a polynomial. Example: P(x) = 5x<sup>5</sup> − 2x<sup>3</sup> + x − 1 has degree 5."
+        "data": "<b>1. Definition of a Polynomial</b><br>A polynomial in $x$ is an expression of the form:<br>$$a_nx^n + a_{n-1}x^{n-1} + \\dots + a_1x + a_0$$<br>where $a_n, a_{n-1}, \\dots , a_0$ are constants and $n$ is a non-negative integer."
       },
+      
       {
         "type": "text",
-        "data": "<b>Types of Polynomials:</b>\n1. Monomial: Single term (e.g., 7x<sup>3</sup>)\n2. Binomial: Two terms (e.g., x<sup>2</sup> − 5x)\n3. Trinomial: Three terms (e.g., x<sup>2</sup> + 3x − 4)\n4. Polynomial: More than three terms"
+        "data": "<b>Examples of Polynomials</b><br>1) $3x^2 + 2x - 5$<br>2) $-4x^3 + x - 7$<br>3) $5x^4 - 2x^2 + 9$"
       },
+      
       {
         "type": "text",
-        "data": "<b>Operations on Polynomials:</b>\n1. Addition/Subtraction: Combine like terms.\nExample: (3x<sup>3</sup> + 4x<sup>2</sup> − 5) + (2x<sup>3</sup> − x<sup>2</sup> + 6) = 5x<sup>3</sup> + 3x<sup>2</sup> + 1\n2. Multiplication: Use distributive property.\nExample: (x<sup>2</sup> + 2x − 3)(x − 1) = x<sup>3</sup> + x<sup>2</sup> − 5x + 3\n3. Division: Long division or synthetic division."
+        "data": "<b>Non-Examples</b><br>1) $\\frac{3}{x}$ (negative power)<br>2) $\\sqrt{x}$ (fractional power)<br>3) $2^x$ (variable in the exponent)"
       },
+      
       {
         "type": "text",
-        "data": "<b>Remainder Theorem:</b>\nIf a polynomial P(x) is divided by (x − a), then the remainder is P(a). Example: P(x) = 2x<sup>4</sup> − 3x<sup>3</sup> + x − 5 divided by (x − 2), remainder = P(2) = 2(2)<sup>4</sup> − 3(2)<sup>3</sup> + 2 − 5 = 32 − 24 + 2 − 5 = 5"
+        "data": "<b>2. Types of Polynomials</b><br>• <b>Monomial:</b> one term (e.g. $5x$)<br>• <b>Binomial:</b> two terms (e.g. $x^2 - 3$)<br>• <b>Trinomial:</b> three terms (e.g. $x^2 + 2x + 1$)"
       },
+      
       {
         "type": "text",
-        "data": "<b>Factor Theorem:</b>\nIf P(a) = 0, then (x − a) is a factor of P(x). Example: P(x) = x<sup>3</sup> − 7x + 6, P(1) = 0 → (x − 1) is a factor."
+        "data": "<b>3. Addition of Polynomials</b><br>Like terms (same variable and power) are added together."
       },
+      
       {
         "type": "text",
-        "data": "<b>Worked Examples:</b>\n1. Divide P(x) = x<sup>4</sup> − 3x<sup>3</sup> + 5x<sup>2</sup> − 2x + 4 by (x − 1) using synthetic division.\nSolution:\nCoefficients: 1, −3, 5, −2, 4\nStep 1: Bring down 1 → 1\nStep 2: Multiply by 1 → 1, add to −3 → −2\nStep 3: Multiply by 1 → −2, add to 5 → 3\nStep 4: Multiply by 1 → 3, add to −2 → 1\nStep 5: Multiply by 1 → 1, add to 4 → 5\nQuotient: x<sup>3</sup> − 2x<sup>2</sup> + 3x + 1, Remainder = 5"
+        "data": "<b>Worked Example 1</b><br>Add: $(3x^2 + 5x - 4) + (2x^2 - x + 6)$<br>Step 1: Group like terms<br>$= (3x^2 + 2x^2) + (5x - x) + (-4 + 6)$<br>Step 2: Add coefficients<br>$= 5x^2 + 4x + 2$"
       },
+      
       {
         "type": "text",
-        "data": "2. Factor completely P(x) = x<sup>3</sup> − 6x<sup>2</sup> + 11x − 6\nSolution:\nTest possible roots: ±1, ±2, ±3, ±6\nP(1) = 0 → (x − 1) is a factor\nDivide using synthetic division: x<sup>2</sup> − 5x + 6\nFactor quadratic: (x − 2)(x − 3)\nFinal factorization: P(x) = (x − 1)(x − 2)(x − 3)"
+        "data": "<b>4. Subtraction of Polynomials</b><br>Subtract by changing the signs of the second polynomial and adding."
       },
+      
       {
         "type": "text",
-        "data": "3. Determine if (x + 2) is a factor of P(x) = 2x<sup>3</sup> + 3x<sup>2</sup> − 5x − 6\nSolution:\nP(−2) = 2(−2)<sup>3</sup> + 3(−2)<sup>2</sup> − 5(−2) − 6 = −16 + 12 + 10 − 6 = 0 → Yes, (x + 2) is a factor"
+        "data": "<b>Worked Example 2</b><br>Subtract: $(4x^2 - 3x + 1) - (2x^2 + x - 5)$<br>Step 1: Change signs<br>$= 4x^2 - 3x + 1 - 2x^2 - x + 5$<br>Step 2: Group like terms<br>$= (4x^2 - 2x^2) + (-3x - x) + (1 + 5)$<br>Step 3: Simplify<br>$= 2x^2 - 4x + 6$"
       },
+      
       {
         "type": "text",
-        "data": "4. Divide P(x) = 3x<sup>4</sup> − 5x<sup>3</sup> + 2x<sup>2</sup> − x + 7 by (x − 1) using long division.\nSolution:\nStep 1: 3x<sup>4</sup> ÷ x = 3x<sup>3</sup>\nMultiply divisor: 3x<sup>3</sup>(x − 1) = 3x<sup>4</sup> − 3x<sup>3</sup>\nSubtract: (−5x<sup>3</sup> − (−3x<sup>3</sup>) = −2x<sup>3</sup>\nBring down 2x<sup>2</sup>: −2x<sup>3</sup> + 2x<sup>2</sup>\nDivide: −2x<sup>3</sup>/x = −2x<sup>2</sup>\nMultiply: −2x<sup>2</sup>(x − 1) = −2x<sup>3</sup> + 2x<sup>2</sup>\nSubtract: 0 → Bring down −x → −x ÷ x = −1\nMultiply: −1(x − 1) = −x + 1\nSubtract: 7 − 1 = 6\nQuotient: 3x<sup>3</sup> − 2x<sup>2</sup> − 1, Remainder = 6"
+        "data": "<b>5. Multiplication of Polynomials</b><br>Each term of one polynomial multiplies every term of the other."
       },
+      
       {
         "type": "text",
-        "data": "<b>Practice Questions:</b>\n1. Find the remainder when P(x) = 4x<sup>3</sup> − 3x<sup>2</sup> + 2x − 5 is divided by (x − 2) [Ans: 11]\n2. Determine if (x − 3) is a factor of P(x) = x<sup>3</sup> − 6x<sup>2</sup> + 11x − 6 [Ans: Yes]\n3. Divide P(x) = x<sup>4</sup> − 2x<sup>3</sup> + 5x<sup>2</sup> − 3x + 7 by (x − 1) [Ans: Quotient = x<sup>3</sup> − x<sup>2</sup> + 4x + 1, Remainder = 8]\n4. Factor completely P(x) = 2x<sup>3</sup> − 5x<sup>2</sup> − 4x + 3 [Ans: (2x + 1)(x − 3)(x + 1)]\n5. If P(x) = 3x<sup>4</sup> − 5x<sup>3</sup> + 2x − 1, find the remainder when divided by (x + 1) [Ans: 1]\n6. Find all linear factors of P(x) = x<sup>3</sup> − 4x<sup>2</sup> − x + 4 [Ans: (x − 4)(x − 1)(x + 1)]\n7. Use remainder theorem to find remainder of P(x) = 5x<sup>4</sup> − 2x<sup>3</sup> + x − 7 divided by (x − 2) [Ans: 29]\n8. Factor completely P(x) = x<sup>3</sup> + 6x<sup>2</sup> − 9x − 54 [Ans: (x + 9)(x − 2)(x + 3)]\n9. Divide P(x) = 2x<sup>4</sup> − 3x<sup>3</sup> + 5x − 6 by (x − 1) using synthetic division [Ans: Quotient = 2x<sup>3</sup> − x<sup>2</sup> − x + 4, Remainder = −2]\n10. If (x − 2) is a factor of P(x) = x<sup>3</sup> + ax<sup>2</sup> − 5x − 14, find a [Ans: a = 3]"
+        "data": "<b>Worked Example 3</b><br>Multiply: $(x + 3)(x + 5)$<br>Step 1: Multiply first terms: $x \\times x = x^2$<br>Step 2: Outer terms: $x \\times 5 = 5x$<br>Step 3: Inner terms: $3 \\times x = 3x$<br>Step 4: Last terms: $3 \\times 5 = 15$<br>Step 5: Add all terms<br>$= x^2 + 8x + 15$"
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Worked Example 4</b><br>Multiply: $(2x - 1)(x^2 + 3x - 4)$<br>Step 1: Multiply $2x$ by each term<br>$= 2x^3 + 6x^2 - 8x$<br>Step 2: Multiply $-1$ by each term<br>$= -x^2 - 3x + 4$<br>Step 3: Add like terms<br>$= 2x^3 + 5x^2 - 11x + 4$"
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>6. Division of Polynomials</b><br>Polynomials can be divided using long division or synthetic division."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Worked Example 5 (Long Division)</b><br>Divide: $(2x^2 + 7x + 3) \\div (x + 3)$<br>Step 1: Divide first terms: $2x^2 \\div x = 2x$<br>Step 2: Multiply: $2x(x + 3) = 2x^2 + 6x$<br>Step 3: Subtract<br>$= (2x^2 + 7x + 3) - (2x^2 + 6x)$<br>$= x + 3$<br>Step 4: Divide again: $(x + 3) \\div (x + 3) = 1$<br>Final Answer: $2x + 1$"
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>7. Remainder Theorem</b><br>If a polynomial $f(x)$ is divided by $(x - a)$, then the remainder is $f(a)$."
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Worked Example 6</b><br>Find the remainder when $f(x) = 2x^3 - 3x + 1$ is divided by $(x - 2)$<br>Step 1: Substitute $x = 2$<br>$f(2) = 2(2^3) - 3(2) + 1$<br>$= 16 - 6 + 1$<br>$= 11$<br>Remainder = $11$"
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>8. Factorization of Polynomials</b><br>Common methods include:<br>• Common factor<br>• Grouping<br>• Difference of two squares<br>• Trinomial factorization"
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Worked Example 7</b><br>Factorize: $6x^2 + 9x$<br>Step 1: Identify common factor: $3x$<br>Step 2: Factor out<br>$= 3x(2x + 3)$"
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Worked Example 8</b><br>Factorize: $x^2 + 5x + 6$<br>Step 1: Find numbers whose product is $6$ and sum is $5$<br>Step 2: Numbers are $2$ and $3$<br>Step 3: Factorize<br>$= (x + 2)(x + 3)$"
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Worked Example 9</b><br>Factorize: $x^2 - 9$<br>Step 1: Recognize difference of squares<br>$= x^2 - 3^2$<br>Step 2: Factorize<br>$= (x - 3)(x + 3)$"
+      },
+      
+      {
+        "type": "text",
+        "data": "<b>Practice / Evaluation Questions</b><br>Attempt the following. Answers are given in square brackets.<br><br>1. Add: $(2x^2 + 3x - 5) + (x^2 - x + 4)$ <span style='color:gray;'>[Ans: $3x^2 + 2x - 1$]</span><br>2. Subtract: $(5x^2 - 2x + 1) - (2x^2 + x)$ <span style='color:gray;'>[Ans: $3x^2 - 3x + 1$]</span><br>3. Multiply: $(x - 4)(x + 6)$ <span style='color:gray;'>[Ans: $x^2 + 2x - 24$]</span><br>4. Multiply: $(3x)(2x^2 - x + 1)$ <span style='color:gray;'>[Ans: $6x^3 - 3x^2 + 3x$]</span><br>5. Divide: $(x^2 + 5x + 6) \\div (x + 2)$ <span style='color:gray;'>[Ans: $x + 3$]</span><br>6. Find the remainder when $x^3 - 4x + 1$ is divided by $(x - 1)$ <span style='color:gray;'>[Ans: $-2$]</span><br>7. Factorize: $4x^2 - 16$ <span style='color:gray;'>[Ans: $4(x - 2)(x + 2)$]</span><br>8. Factorize: $x^2 - 7x + 10$ <span style='color:gray;'>[Ans: $(x - 5)(x - 2)$]</span><br>9. Simplify: $(2x + 1)^2$ <span style='color:gray;'>[Ans: $4x^2 + 4x + 1$]</span><br>10. If $f(x) = x^2 - 3x + 2$, find $f(3)$ <span style='color:gray;'>[Ans: $2$]</span>"
       }
+      
     ]
   }
 },
@@ -2857,11 +2975,11 @@ window.studyData = {
       },
       {
         "type": "image",
-        "data": "./photosynthesis_process.png"
+        "data": "./diagram-showing-process-of-photosynthesis-in-plant-free-vector.jpg"
       },
       {
         "type": "text",
-        "data": "<b>Word and Chemical Equations of Photosynthesis</b>\n\n<b>Word Equation:</b>\nCarbon dioxide + Water → Glucose + Oxygen\n\n<b>Chemical Equation:</b>\n6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂\n\nThis reaction occurs in the chloroplast and requires light energy and chlorophyll.\n\nUnderstanding the equation helps students answer JAMB questions involving reactants and products of photosynthesis."
+        "data": "<b>Chemical Equations of Photosynthesis</b>\n\n<b>Word Equation:</b>\nCarbon dioxide + Water → Glucose + Oxygen\n\n<b>Chemical Equation:</b>\n6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂\n\nThis reaction occurs in the chloroplast and requires light energy and chlorophyll.\n\nUnderstanding the equation helps students answer JAMB questions involving reactants and products of photosynthesis."
       },
       {
         "type": "text",
@@ -2869,7 +2987,7 @@ window.studyData = {
       },
       {
         "type": "image",
-        "data": "./requirements_photosynthesis.png"
+        "data": "./images (49).jpeg"
       },
       {
         "type": "text",
@@ -2885,7 +3003,7 @@ window.studyData = {
       },
       {
         "type": "image",
-        "data": "./leaf_adaptations.png"
+        "data": "."
       },
       {
         "type": "text",
@@ -2922,10 +3040,7 @@ window.studyData = {
         "type": "text",
         "data": "<b>Importance of Transport</b>\n\n• Supplies oxygen and nutrients to every cell.\n• Removes carbon dioxide and other metabolic wastes.\n• Maintains osmotic balance and pH.\n• Distributes hormones and enzymes for regulation of physiological processes.\n• Supports growth, repair, and energy production.\n• Ensures plants maintain turgidity and animals maintain blood pressure.\n• Enables plants and animals to survive and adapt to their environment."
       },
-      {
-        "type": "image",
-        "data": "./transport_overview.png"
-      },
+      
       {
         "type": "text",
         "data": "<b>Transport in Plants</b>\n\nPlants have two major transport systems: xylem and phloem.\n\n1. <b>Xylem Transport</b>\n• Xylem transports water and dissolved minerals from the roots to the leaves.\n• Composed of tracheids, vessel elements, xylem parenchyma, and fibers.\n• Water transport is passive, driven by transpiration, root pressure, and capillary action.\n\n<b>Mechanisms of Water Transport:</b>\n• <b>Root Pressure:</b> Accumulation of water in roots pushes it upwards through xylem.\n• <b>Capillary Action:</b> Adhesion and cohesion of water molecules allow water to rise in narrow xylem vessels.\n• <b>Transpiration Pull:</b> Evaporation of water from leaves creates suction, pulling water up from roots. This is the most significant mechanism.\n\n<b>Factors Affecting Water Transport:</b>\n• Light intensity – increases transpiration.\n• Temperature – higher temperatures increase evaporation.\n• Wind – removes water vapour, increasing transpiration rate.\n• Humidity – high humidity decreases transpiration.\n• Soil water content – affects root absorption."
@@ -3831,6 +3946,8 @@ window.studyData = {
   }
 },
 
+//soil biology 
+
 {
   "topic": "Soil Biology",
   "notes": {
@@ -3884,6 +4001,8 @@ window.studyData = {
   }
 },
 
+//adaptation 
+
 {
   "topic": "Adaptation",
   "notes": {
@@ -3921,6 +4040,8 @@ window.studyData = {
     ]
   }
 },
+
+// variation 
 
 {
   "topic": "Variation",
@@ -3969,6 +4090,8 @@ window.studyData = {
     ]
   }
 },
+
+//genetics and hereditary 
 
 {
   "topic": "Genetics and Heredity",
@@ -4079,6 +4202,7 @@ window.studyData = {
 },
 
 //conservation of natural resources
+
 {
   "topic": "Conservation",
   "notes": {
@@ -4209,6 +4333,7 @@ window.studyData = {
 },
 
 //microorganisms and diseases
+
 {
   "topic": "Microorganisms and Disease",
   "notes": {
@@ -4218,6 +4343,11 @@ window.studyData = {
         "type": "text",
         "data": "<b>Meaning of Microorganisms</b>\n\nMicroorganisms are tiny, microscopic organisms that are too small to be seen with the naked eye. They include bacteria, viruses, fungi, protozoa, and algae. They can be found in soil, water, air, and living organisms."
       },
+      {
+        type: "image",
+        data: "."
+      },
+      
       {
         "type": "text",
         "data": "<b>Types of Microorganisms</b>\n\n1. <b>Bacteria:</b> Single-celled prokaryotes with diverse shapes such as cocci, bacilli, and spirilla. They can be beneficial or pathogenic.\n2. <b>Viruses:</b> Non-cellular infectious agents consisting of nucleic acid (DNA or RNA) and a protein coat.\n3. <b>Fungi:</b> Eukaryotic organisms including yeasts, molds, and mushrooms. They can decompose organic matter or cause disease.\n4. <b>Protozoa:</b> Unicellular eukaryotes, often motile, such as Amoeba and Plasmodium.\n5. <b>Algae:</b> Photosynthetic eukaryotes; mostly aquatic and mostly beneficial."
@@ -4251,6 +4381,7 @@ window.studyData = {
 },
 
 //human impacts on the environment
+
 {
   "topic": "Human Impacts on the Environment",
   "notes": {

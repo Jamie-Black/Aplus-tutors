@@ -4,9 +4,39 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aplus Tutors | Admin Dashboard</title>
+
 <link rel="stylesheet" href="admin.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+/* ===== LOADER ===== */
+.loader-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(255,255,255,.9);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:9999;
+}
+.spinner{
+  width:50px;
+  height:50px;
+  border:6px solid #ddd;
+  border-top:6px solid #8B0000;
+  border-radius:50%;
+  animation:spin 1s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+</style>
 </head>
+
 <body>
+
+<!-- ===== LOADER ===== -->
+<div id="loader" class="loader-overlay">
+  <div class="spinner"></div>
+</div>
 
 <header>
   <h1>📊 Admin Dashboard</h1>
@@ -14,152 +44,267 @@
 </header>
 
 <main>
-  <section class="stats">
-    <div class="stat-card"><h3>Total Logins</h3><p id="totalLogins">0</p></div>
-    <div class="stat-card"><h3>Successful Logins</h3><p id="successLogins">0</p></div>
-    <div class="stat-card"><h3>Failed Logins</h3><p id="failedLogins">0</p></div>
-    <div class="stat-card"><h3>Currently Online</h3><p id="activeUsers">0</p></div>
-  </section>
 
-  <div id="loading">
-    <span></span><span></span><span></span>
-  </div>
+<!-- ===== STATS ===== -->
+<section class="stats">
+  <div class="stat-card"><h3>Total Events</h3><p id="totalLogins">0</p></div>
+  <div class="stat-card"><h3>Successful</h3><p id="successLogins">0</p></div>
+  <div class="stat-card"><h3>Failed</h3><p id="failedLogins">0</p></div>
+  <div class="stat-card"><h3>Active Users</h3><p id="activeUsers">0</p></div>
+</section>
 
-<section>
+<!-- ===== CHARTS ===== -->
+<section class="charts">
+  <h2>📈 Activity Analytics</h2>
+  <canvas id="dailyChart"></canvas>
+</section>
+
+<!-- ===== FILTERS ===== -->
+<section class="filters">
+  <input id="searchInput" placeholder="Search email">
+  <select id="roleFilter">
+    <option value="">All Roles</option>
+    <option>Student</option>
+    <option>Teacher</option>
+    <option>Admin</option>
+  </select>
+  <button id="exportCSV">Export CSV</button>
+</section>
+
+<!-- ===== TABLE ===== -->
+<section class="table-section">
   <div class="table-wrapper">
     <table>
       <thead>
         <tr>
-          <th>Date/Time</th>
+          <th>Date</th>
           <th>Email</th>
           <th>Department</th>
           <th>Role</th>
           <th>Event</th>
+          <th>Action</th>
         </tr>
       </thead>
       <tbody id="eventsTableBody"></tbody>
     </table>
+  </div>
+
+  <div class="pagination">
+    <button id="prevPage">Prev</button>
+    <span id="pageInfo"></span>
+    <button id="nextPage">Next</button>
   </div>
 </section>
 
 </main>
 
 <footer>
-  &copy; 2026 Aplus Tutors
-  <br>
+  &copy; 2026 Aplus Tutors <br>
   <button id="logoutBtn">Logout</button>
 </footer>
 
+<!-- ===== PROFILE MODAL ===== -->
+<div class="modal" id="profileModal">
+  <div class="modal-content">
+    <h3>User Profile</h3>
+    <div id="profileContent"></div>
+    <button onclick="closeModal()">Close</button>
+  </div>
+</div>
+
 <script type="module">
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
-import { getFirestore, collection, query, orderBy, onSnapshot } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js";
+import {
+  getFirestore, collection, query, orderBy,
+  onSnapshot, deleteDoc, doc
+} from "https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js";
 
-// --- Firebase config ---
-const firebaseConfig = {
+/* ===== FIREBASE ===== */
+const app = initializeApp({
   apiKey: "AIzaSyBSr__wqMxY_IL7LXsO9P1LpJDiDAQNsmE",
   authDomain: "aplus-tutors-765bf.firebaseapp.com",
-  projectId: "aplus-tutors-765bf",
-  storageBucket: "aplus-tutors-765bf.app",
-  messagingSenderId: "387214060287",
-  appId: "1:387214060287:web:d6213f9c2624f029c0baca",
-  measurementId: "G-41V5ZZDH1V"
-};
-
-const app = initializeApp(firebaseConfig);
+  projectId: "aplus-tutors-765bf"
+});
 const db = getFirestore(app);
 
-// --- Check logged in user role ---
-const loggedUser = JSON.parse(localStorage.getItem("loggedInUser") || "null");
+/* ===== AUTH ===== */
+const admin = JSON.parse(localStorage.getItem("loggedInUser") || "null");
+if (!admin || admin.role !== "Admin") location.href = "student-login.html";
+adminName.textContent = admin.email;
 
-if (!loggedUser || loggedUser.role !== "Admin") {
-  alert("Access denied: Admins only");
-  window.location.href = "student-login.html";
-} else {
-  document.getElementById("adminName").textContent = loggedUser.email;
-}
-
-// --- DOM Elements ---
-const totalEl = document.getElementById("totalLogins");
-const successEl = document.getElementById("successLogins");
-const failEl = document.getElementById("failedLogins");
-const activeEl = document.getElementById("activeUsers");
-const tbody = document.getElementById("eventsTableBody");
-const loadingEl = document.getElementById("loading");
-
-// --- Real-time events listener ---
+/* ===== STATE ===== */
 let eventsData = [];
+let page = 1;
+const perPage = 10;
+let dailyChart;
 
-function listenEvents() {
-  const q = query(collection(db, "events"), orderBy("timestamp", "desc"));
-  onSnapshot(q, snapshot => {
-    eventsData = snapshot.docs.map(doc => {
-      const data = doc.data();
-      return {
-        email: data.user || "Unknown",
-        department: data.department || "Unknown",
-        role: data.role || "Unknown",
-        event: data.event || "Unknown",
-        timestamp: data.timestamp?.toDate?.()?.toISOString() || null
-      };
-    });
+/* ===== REALTIME LISTENER ===== */
+const loader = document.getElementById("loader");
 
-    renderTable();
-    renderStats();
-    loadingEl.style.display = "none";
-  }, err => {
-    console.error("Error fetching events:", err);
-    alert("⚠️ Could not fetch events. Check Firestore rules.");
-    loadingEl.style.display = "none";
-  });
-}
+onSnapshot(query(collection(db,"events"), orderBy("timestamp","desc")), snap => {
+  loader.style.display = "none";
 
-// --- Render table ---
-function renderTable() {
-  tbody.innerHTML = "";
-  eventsData.forEach(ev => {
-    const ts = ev.timestamp ? new Date(ev.timestamp).toLocaleString() : "Unknown";
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td>${ts}</td>
-      <td>${ev.email}</td>
-      <td>${ev.department}</td>
-      <td>${ev.role}</td>
-      <td>${ev.event}</td>
-    `;
-    tbody.appendChild(tr);
-  });
-}
+  eventsData = snap.docs.map(d => ({
+    id: d.id,
+    ...d.data(),
+    timestamp: d.data().timestamp?.toDate() || null
+  }));
 
-// --- Render stats ---
-function renderStats() {
-  const total = eventsData.length;
-  const success = eventsData.filter(e => e.event === "login_success").length;
-  const failure = eventsData.filter(e => e.event === "login_failure").length;
-
-  const now = new Date();
-  const active = eventsData.filter(e => {
-    if (!e.timestamp) return false;
-    const ts = new Date(e.timestamp);
-    return e.event === "login_success" && ts > new Date(now - 15 * 60000);
-  }).length;
-
-  totalEl.textContent = total;
-  successEl.textContent = success;
-  failEl.textContent = failure;
-  activeEl.textContent = active;
-}
-
-// --- Logout ---
-document.getElementById("logoutBtn").addEventListener("click", () => {
-  localStorage.removeItem("loggedInUser");
-  localStorage.removeItem("userDepartment");
-  alert("You have been logged out.");
-  window.location.href = "student-login.html";
+  renderStats();
+  buildChart();
+  renderTable();
 });
 
-// --- Start listening ---
-listenEvents();
+/* ===== TABLE ===== */
+function renderTable() {
+  const search = searchInput.value.toLowerCase();
+  const role = roleFilter.value;
+
+  const filtered = eventsData.filter(e =>
+    (!search || e.user?.toLowerCase().includes(search)) &&
+    (!role || e.role === role)
+  );
+
+  const start = (page - 1) * perPage;
+  const slice = filtered.slice(start, start + perPage);
+
+  eventsTableBody.innerHTML = "";
+
+  slice.forEach(e => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${e.timestamp?.toLocaleString() || "-"}</td>
+      <td><a href="#">${e.user}</a></td>
+      <td>${e.department || "-"}</td>
+      <td>${e.role}</td>
+      <td>${e.event}</td>
+      <td><button class="danger" data-id="${e.id}">Delete</button></td>
+    `;
+    tr.querySelector("a").onclick = () => showProfile(e.user);
+    eventsTableBody.appendChild(tr);
+  });
+
+  pageInfo.textContent =
+    `Page ${page} of ${Math.max(1, Math.ceil(filtered.length / perPage))}`;
+}
+
+prevPage.onclick = () => {
+  if (page > 1) { page--; renderTable(); }
+};
+
+nextPage.onclick = () => {
+  if (page * perPage < eventsData.length) {
+    page++;
+    renderTable();
+  }
+};
+
+searchInput.oninput = roleFilter.onchange = () => {
+  page = 1;
+  renderTable();
+};
+
+/* ===== DELETE ===== */
+eventsTableBody.onclick = async e => {
+  if (e.target.classList.contains("danger")) {
+    const id = e.target.dataset.id;
+    if (!id) return;
+
+    if (confirm("Delete this log?")) {
+      try {
+        await deleteDoc(doc(db,"events",id));
+        alert("Deleted successfully");
+      } catch (err) {
+        alert("Delete failed");
+        console.error(err);
+      }
+    }
+  }
+};
+
+/* ===== CSV ===== */
+exportCSV.onclick = () => {
+  const rows = [["Date","Email","Department","Role","Event"]];
+  eventsData.forEach(e =>
+    rows.push([
+      e.timestamp?.toISOString() || "",
+      e.user, e.department || "", e.role, e.event
+    ])
+  );
+  const csv = rows.map(r => r.join(",")).join("\n");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([csv], {type:"text/csv"}));
+  a.download = "events-report.csv";
+  a.click();
+};
+
+/* ===== STATS ===== */
+function renderStats() {
+  totalLogins.textContent = eventsData.length;
+  successLogins.textContent =
+    eventsData.filter(e=>e.event==="login_success").length;
+  failedLogins.textContent =
+    eventsData.filter(e=>e.event==="login_failure").length;
+
+  activeUsers.textContent = new Set(
+    eventsData
+      .filter(e =>
+        e.event==="user_active" &&
+        e.timestamp &&
+        Date.now() - e.timestamp.getTime() < 5*60000
+      )
+      .map(e=>e.user)
+  ).size;
+}
+
+/* ===== CHART ===== */
+function buildChart() {
+  const grouped = {};
+  eventsData.forEach(e=>{
+    if(!e.timestamp) return;
+    const d = e.timestamp.toISOString().slice(0,10);
+    grouped[d] = (grouped[d] || 0) + 1;
+  });
+
+  const labels = Object.keys(grouped).slice(-7);
+  const data = labels.map(l=>grouped[l]);
+
+  dailyChart?.destroy();
+  dailyChart = new Chart(dailyChart?.canvas || document.getElementById("dailyChart"),{
+    type:"line",
+    data:{
+      labels,
+      datasets:[{
+        label:"Daily Activity",
+        data,
+        tension:.4,
+        fill:true
+      }]
+    },
+    options:{responsive:true}
+  });
+}
+
+/* ===== PROFILE ===== */
+function showProfile(email) {
+  const u = eventsData.filter(e=>e.user===email);
+  profileContent.innerHTML = `
+    <p><b>Email:</b> ${email}</p>
+    <p><b>Role:</b> ${u[0]?.role}</p>
+    <p><b>Department:</b> ${u[0]?.department || "-"}</p>
+    <p><b>Logins:</b> ${u.filter(e=>e.event==="login_success").length}</p>
+    <p><b>Last Seen:</b> ${u[0]?.timestamp?.toLocaleString()}</p>
+  `;
+  profileModal.style.display="flex";
+}
+window.closeModal=()=>profileModal.style.display="none";
+
+/* ===== LOGOUT ===== */
+logoutBtn.onclick=()=>{
+  localStorage.clear();
+  location.href="student-login.html";
+};
 </script>
 
 </body>
-  </html>
+</html>
