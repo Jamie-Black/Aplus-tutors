@@ -31905,309 +31905,7 @@ answer: 0
 },
 
 {
-  question: "Passage:\nFor years, the town depended on a single factory for survival. When it finally closed, many residents were forced to reconsider their future. Some adapted by learning new skills, while others waited endlessly for the factory to reopen, clinging to memories of better days.\n\nFrom the passage, the closure of the factory mainly led to ----",
-  options: [
-    "a division in how residents responded to change",
-    "the immediate collapse of the town",
-    "universal migration from the town",
-    "government intervention in the economy"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nFor years, the town depended on a single factory for survival. When it finally closed, many residents were forced to reconsider their future. Some adapted by learning new skills, while others waited endlessly for the factory to reopen, clinging to memories of better days.\n\nThe attitude of those who waited endlessly can best be described as ----",
-  options: ["nostalgic", "innovative", "pragmatic", "ambitious"],
-  answer: 0
-},
-{
-  question: "Passage:\nFor years, the town depended on a single factory for survival. When it finally closed, many residents were forced to reconsider their future. Some adapted by learning new skills, while others waited endlessly for the factory to reopen, clinging to memories of better days.\n\nThe passage emphasizes the importance of ----",
-  options: [
-    "adaptability in the face of change",
-    "industrial expansion",
-    "government employment",
-    "economic dependence"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nThe speaker addressed the audience with confidence, listing achievements while avoiding mention of unresolved failures. Though the words inspired applause, a few listeners sensed the careful selection behind the speech.\n\nThe phrase \"careful selection\" suggests that the speaker ----",
-  options: [
-    "deliberately omitted certain facts",
-    "spoke without preparation",
-    "lacked confidence in delivery",
-    "relied entirely on facts"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nThe speaker addressed the audience with confidence, listing achievements while avoiding mention of unresolved failures. Though the words inspired applause, a few listeners sensed the careful selection behind the speech.\n\nThe mood created among the \"few listeners\" is best described as ----",
-  options: ["skeptical", "enthusiastic", "indifferent", "celebratory"],
-  answer: 0
-},
-{
-  question: "Passage:\nThe speaker addressed the audience with confidence, listing achievements while avoiding mention of unresolved failures. Though the words inspired applause, a few listeners sensed the careful selection behind the speech.\n\nThe passage suggests that public applause does not always indicate ----",
-  options: [
-    "genuine approval",
-    "effective delivery",
-    "popular support",
-    "emotional response"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nAs the exam approached, she studied relentlessly, sacrificing leisure and rest. When success finally came, it felt quieter than expected, lacking the excitement she had imagined.\n\nThe writer implies that success ----",
-  options: [
-    "does not always bring emotional fulfillment",
-    "is meaningless without struggle",
-    "requires public recognition",
-    "is easier than anticipated"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nAs the exam approached, she studied relentlessly, sacrificing leisure and rest. When success finally came, it felt quieter than expected, lacking the excitement she had imagined.\n\nThe word \"quieter\" as used in the passage suggests ----",
-  options: [
-    "emotional restraint",
-    "physical silence",
-    "public isolation",
-    "lack of effort"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nAs the exam approached, she studied relentlessly, sacrificing leisure and rest. When success finally came, it felt quieter than expected, lacking the excitement she had imagined.\n\nThe tone of the passage is best described as ----",
-  options: ["reflective", "humorous", "hostile", "triumphant"],
-  answer: 0
-},
-{
-  question: "Passage:\nThe leader spoke repeatedly of unity, yet his decisions consistently favored a select group. Over time, the contradiction became difficult to ignore.\n\nThe passage highlights the leader’s ----",
-  options: [
-    "inconsistency between words and actions",
-    "commitment to equality",
-    "strategic leadership",
-    "political skill"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nThe leader spoke repeatedly of unity, yet his decisions consistently favored a select group. Over time, the contradiction became difficult to ignore.\n\nThe writer’s attitude towards the leader can best be described as ----",
-  options: ["critical", "admiring", "neutral", "sympathetic"],
-  answer: 0
-},
-{
-  question: "Passage:\nThe leader spoke repeatedly of unity, yet his decisions consistently favored a select group. Over time, the contradiction became difficult to ignore.\n\nThe expression \"difficult to ignore\" implies that the contradiction ----",
-  options: [
-    "was obvious",
-    "was exaggerated",
-    "was insignificant",
-    "was intentional"
-  ],
-  answer: 0
-},
-
-{
-  question: "Passage:\nFor a long time, the community believed that progress meant abandoning old customs. Roads were widened, new buildings rose quickly, and traditions were spoken of as obstacles. Yet, as the years passed, many began to feel a sense of loss they could not easily explain.\n\nFrom the passage, the community initially believed that progress required ----",
-  options: [
-    "discarding traditional practices",
-    "strengthening cultural identity",
-    "slowing down development",
-    "protecting historical sites"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nFor a long time, the community believed that progress meant abandoning old customs. Roads were widened, new buildings rose quickly, and traditions were spoken of as obstacles. Yet, as the years passed, many began to feel a sense of loss they could not easily explain.\n\nThe feeling of loss experienced later suggests that ----",
-  options: [
-    "traditions had emotional value",
-    "development failed completely",
-    "modern life became impossible",
-    "the community rejected change"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nFor a long time, the community believed that progress meant abandoning old customs. Roads were widened, new buildings rose quickly, and traditions were spoken of as obstacles. Yet, as the years passed, many began to feel a sense of loss they could not easily explain.\n\nThe tone of the passage is best described as ----",
-  options: ["regretful", "celebratory", "mocking", "indifferent"],
-  answer: 0
-},
-{
-  question: "Passage:\nHe listened patiently to every complaint, nodding in agreement, yet nothing changed after the meeting ended. Promises were made with ease, but action remained absent.\n\nThe passage suggests that the listener was ----",
-  options: [
-    "insincere",
-    "overwhelmed",
-    "misunderstood",
-    "confused"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nHe listened patiently to every complaint, nodding in agreement, yet nothing changed after the meeting ended. Promises were made with ease, but action remained absent.\n\nThe phrase \"promises were made with ease\" implies that the promises were ----",
-  options: [
-    "casual and unreliable",
-    "carefully planned",
-    "difficult to make",
-    "unexpected"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nHe listened patiently to every complaint, nodding in agreement, yet nothing changed after the meeting ended. Promises were made with ease, but action remained absent.\n\nThe writer’s attitude can best be described as ----",
-  options: ["critical", "sympathetic", "amused", "neutral"],
-  answer: 0
-},
-{
-  question: "Passage:\nShe had always imagined freedom as limitless choice, but when it finally arrived, it demanded responsibility she had never anticipated.\n\nThe passage suggests that freedom ----",
-  options: [
-    "comes with obligations",
-    "eliminates all challenges",
-    "is easily managed",
-    "requires external control"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nShe had always imagined freedom as limitless choice, but when it finally arrived, it demanded responsibility she had never anticipated.\n\nThe contrast in the passage is between ----",
-  options: [
-    "expectation and reality",
-    "youth and age",
-    "power and weakness",
-    "choice and restriction"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nShe had always imagined freedom as limitless choice, but when it finally arrived, it demanded responsibility she had never anticipated.\n\nThe tone of the passage is best described as ----",
-  options: ["reflective", "humorous", "angry", "optimistic"],
-  answer: 0
-},
-{
-  question: "Passage:\nThe book was praised widely, though few readers seemed to grasp its deeper message. Most admired the language, ignoring the warning beneath the beauty.\n\nThe passage implies that most readers focused on ----",
-  options: [
-    "style rather than meaning",
-    "the author’s background",
-    "the moral lesson",
-    "the historical context"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nThe book was praised widely, though few readers seemed to grasp its deeper message. Most admired the language, ignoring the warning beneath the beauty.\n\nThe expression \"warning beneath the beauty\" suggests that the book ----",
-  options: [
-    "contained a serious message",
-    "was unpleasant to read",
-    "lacked artistic quality",
-    "was poorly written"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nThe book was praised widely, though few readers seemed to grasp its deeper message. Most admired the language, ignoring the warning beneath the beauty.\n\nThe writer’s attitude towards the readers is best described as ----",
-  options: ["disapproving", "admiring", "indifferent", "sympathetic"],
-  answer: 0
-},
-{
-  question: "Passage:\nWith every failure, his confidence weakened, yet he continued, driven more by habit than hope.\n\nThe phrase \"habit than hope\" suggests that he continued mainly out of ----",
-  options: [
-    "routine",
-    "optimism",
-    "external pressure",
-    "ambition"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nWith every failure, his confidence weakened, yet he continued, driven more by habit than hope.\n\nThe mood of the passage is best described as ----",
-  options: ["wearied", "triumphant", "joyful", "excited"],
-  answer: 0
-},
-{
-  question: "Passage:\nWith every failure, his confidence weakened, yet he continued, driven more by habit than hope.\n\nThe passage emphasizes the effect of repeated failure on ----",
-  options: [
-    "motivation",
-    "intelligence",
-    "opportunity",
-    "discipline"
-  ],
-  answer: 0
-},
-
-{
-  question: "Passage:\nFor years, the river had been the town’s pride, supplying water, food, and livelihood. Gradually, waste from nearby factories darkened its surface, and fish became scarce. Though the change was slow, the damage was undeniable.\n\nFrom the passage, the major cause of the river’s decline was ----",
-  options: [
-    "industrial pollution",
-    "natural disaster",
-    "overpopulation",
-    "climate change"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nFor years, the river had been the town’s pride, supplying water, food, and livelihood. Gradually, waste from nearby factories darkened its surface, and fish became scarce. Though the change was slow, the damage was undeniable.\n\nThe phrase \"darkened its surface\" suggests that the river ----",
-  options: [
-    "lost its purity",
-    "became deeper",
-    "expanded in size",
-    "changed its course"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nFor years, the river had been the town’s pride, supplying water, food, and livelihood. Gradually, waste from nearby factories darkened its surface, and fish became scarce. Though the change was slow, the damage was undeniable.\n\nThe writer’s attitude towards the situation can best be described as ----",
-  options: ["concerned", "indifferent", "amused", "optimistic"],
-  answer: 0
-},
-{
-  question: "Passage:\nShe accepted the promotion with gratitude, aware that it came with expectations far heavier than the applause suggested. Celebration soon gave way to long hours and difficult decisions.\n\nThe passage implies that promotion ----",
-  options: [
-    "increases responsibility",
-    "guarantees happiness",
-    "reduces workload",
-    "ensures popularity"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nShe accepted the promotion with gratitude, aware that it came with expectations far heavier than the applause suggested. Celebration soon gave way to long hours and difficult decisions.\n\nThe phrase \"far heavier than the applause suggested\" implies that the applause ----",
-  options: [
-    "failed to reveal the challenges ahead",
-    "was insincere",
-    "was unexpected",
-    "was excessive"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nShe accepted the promotion with gratitude, aware that it came with expectations far heavier than the applause suggested. Celebration soon gave way to long hours and difficult decisions.\n\nThe tone of the passage is best described as ----",
-  options: ["realistic", "sarcastic", "humorous", "resentful"],
-  answer: 0
-},
-{
-  question: "Passage:\nThe old man spoke rarely, but when he did, people listened. His words were shaped by experience rather than enthusiasm, and they carried a quiet authority.\n\nThe passage suggests that the old man was respected mainly because of his ----",
-  options: [
-    "experience",
-    "wealth",
-    "position",
-    "education"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nThe old man spoke rarely, but when he did, people listened. His words were shaped by experience rather than enthusiasm, and they carried a quiet authority.\n\nThe expression \"quiet authority\" suggests ----",
-  options: [
-    "natural influence without force",
-    "fear among listeners",
-    "strict discipline",
-    "formal leadership"
-  ],
-  answer: 0
-},
-{
-  question: "Passage:\nThe old man spoke rarely, but when he did, people listened. His words were shaped by experience rather than enthusiasm, and they carried a quiet authority.\n\nThe mood of the passage is best described as ----",
-  options: ["respectful", "tense", "joyful", "mocking"],
-  answer: 0
-},
-{
-  question: "Passage:\nAt first, the protest attracted widespread support. However, as leaders became divided and objectives unclear, enthusiasm faded and participation declined.\n\nThe decline in the protest was mainly due to ----",
+  question: "Passage:<br>At first, the protest attracted widespread support. However, as leaders became divided and objectives unclear, enthusiasm faded and participation declined.<br><br>The decline in the protest was mainly due to ----",
   options: [
     "lack of unity among leaders",
     "government repression",
@@ -32217,7 +31915,7 @@ answer: 0
   answer: 0
 },
 {
-  question: "Passage:\nAt first, the protest attracted widespread support. However, as leaders became divided and objectives unclear, enthusiasm faded and participation declined.\n\nThe phrase \"objectives unclear\" suggests that the protest ----",
+  question: "Passage:<br>At first, the protest attracted widespread support. However, as leaders became divided and objectives unclear, enthusiasm faded and participation declined.<br><br>The phrase \"objectives unclear\" suggests that the protest ----",
   options: [
     "lacked clear direction",
     "was poorly advertised",
@@ -32227,13 +31925,13 @@ answer: 0
   answer: 0
 },
 {
-  question: "Passage:\nAt first, the protest attracted widespread support. However, as leaders became divided and objectives unclear, enthusiasm faded and participation declined.\n\nThe writer’s attitude towards the protest can best be described as ----",
+  question: "Passage:<br>At first, the protest attracted widespread support. However, as leaders became divided and objectives unclear, enthusiasm faded and participation declined.<br><br>The writer’s attitude towards the protest can best be described as ----",
   options: ["analytical", "emotional", "hostile", "celebratory"],
   answer: 0
 },
 
 {
-  question: "Passage:\nThe young writer dreamed of instant recognition, imagining applause and praise after his first publication. When the book appeared, reviews were few and sales modest. Disappointed but wiser, he returned to his desk, determined to improve his craft.\n\nFrom the passage, the writer’s initial expectation was ----",
+  question: "Passage:<br>The young writer dreamed of instant recognition, imagining applause and praise after his first publication. When the book appeared, reviews were few and sales modest. Disappointed but wiser, he returned to his desk, determined to improve his craft.<br><br>From the passage, the writer’s initial expectation was ----",
   options: [
     "immediate success",
     "gradual improvement",
@@ -32243,7 +31941,7 @@ answer: 0
   answer: 0
 },
 {
-  question: "Passage:\nThe young writer dreamed of instant recognition, imagining applause and praise after his first publication. When the book appeared, reviews were few and sales modest. Disappointed but wiser, he returned to his desk, determined to improve his craft.\n\nThe phrase \"disappointed but wiser\" suggests that the writer ----",
+  question: "Passage:<br>The young writer dreamed of instant recognition, imagining applause and praise after his first publication. When the book appeared, reviews were few and sales modest. Disappointed but wiser, he returned to his desk, determined to improve his craft.<br><br>The phrase \"disappointed but wiser\" suggests that the writer ----",
   options: [
     "learned from the experience",
     "lost interest in writing",
@@ -32253,12 +31951,13 @@ answer: 0
   answer: 0
 },
 {
-  question: "Passage:\nThe young writer dreamed of instant recognition, imagining applause and praise after his first publication. When the book appeared, reviews were few and sales modest. Disappointed but wiser, he returned to his desk, determined to improve his craft.\n\nThe tone of the passage is best described as ----",
+  question: "Passage:<br>The young writer dreamed of instant recognition, imagining applause and praise after his first publication. When the book appeared, reviews were few and sales modest. Disappointed but wiser, he returned to his desk, determined to improve his craft.<br><br>The tone of the passage is best described as ----",
   options: ["hopeful", "bitter", "mocking", "indifferent"],
   answer: 0
 },
+
 {
-  question: "Passage:\nThe manager introduced strict rules to improve efficiency. While productivity increased, morale declined as workers felt closely monitored and undervalued.\n\nThe passage suggests that the new rules ----",
+  question: "Passage:<br>The manager introduced strict rules to improve efficiency. While productivity increased, morale declined as workers felt closely monitored and undervalued.<br><br>The passage suggests that the new rules ----",
   options: [
     "had mixed effects",
     "failed completely",
@@ -32268,7 +31967,7 @@ answer: 0
   answer: 0
 },
 {
-  question: "Passage:\nThe manager introduced strict rules to improve efficiency. While productivity increased, morale declined as workers felt closely monitored and undervalued.\n\nThe decline in morale was mainly due to workers feeling ----",
+  question: "Passage:<br>The manager introduced strict rules to improve efficiency. While productivity increased, morale declined as workers felt closely monitored and undervalued.<br><br>The decline in morale was mainly due to workers feeling ----",
   options: [
     "unappreciated",
     "overworked",
@@ -32278,12 +31977,13 @@ answer: 0
   answer: 0
 },
 {
-  question: "Passage:\nThe manager introduced strict rules to improve efficiency. While productivity increased, morale declined as workers felt closely monitored and undervalued.\n\nThe writer’s attitude towards the manager’s approach is best described as ----",
+  question: "Passage:<br>The manager introduced strict rules to improve efficiency. While productivity increased, morale declined as workers felt closely monitored and undervalued.<br><br>The writer’s attitude towards the manager’s approach is best described as ----",
   options: ["balanced", "admiring", "hostile", "uncritical"],
   answer: 0
 },
+
 {
-  question: "Passage:\nShe listened to the debate carefully, weighing each argument before reaching a conclusion. Though pressured to choose quickly, she resisted haste.\n\nThe passage highlights her ----",
+  question: "Passage:<br>She listened to the debate carefully, weighing each argument before reaching a conclusion. Though pressured to choose quickly, she resisted haste.<br><br>The passage highlights her ----",
   options: [
     "thoughtfulness",
     "indecision",
@@ -32293,7 +31993,7 @@ answer: 0
   answer: 0
 },
 {
-  question: "Passage:\nShe listened to the debate carefully, weighing each argument before reaching a conclusion. Though pressured to choose quickly, she resisted haste.\n\nThe phrase \"resisted haste\" suggests that she ----",
+  question: "Passage:<br>She listened to the debate carefully, weighing each argument before reaching a conclusion. Though pressured to choose quickly, she resisted haste.<br><br>The phrase \"resisted haste\" suggests that she ----",
   options: [
     "valued careful judgment",
     "ignored the discussion",
@@ -32303,12 +32003,13 @@ answer: 0
   answer: 0
 },
 {
-  question: "Passage:\nShe listened to the debate carefully, weighing each argument before reaching a conclusion. Though pressured to choose quickly, she resisted haste.\n\nThe tone of the passage is best described as ----",
+  question: "Passage:<br>She listened to the debate carefully, weighing each argument before reaching a conclusion. Though pressured to choose quickly, she resisted haste.<br><br>The tone of the passage is best described as ----",
   options: ["calm", "tense", "emotional", "sarcastic"],
   answer: 0
 },
+
 {
-  question: "Passage:\nThe festival attracted visitors from distant towns, filling the streets with colour and music. Yet by morning, littered roads and exhausted residents remained as reminders of the celebration.\n\nThe passage presents the festival as ----",
+  question: "Passage:<br>The festival attracted visitors from distant towns, filling the streets with colour and music. Yet by morning, littered roads and exhausted residents remained as reminders of the celebration.<br><br>The passage presents the festival as ----",
   options: [
     "both enjoyable and disruptive",
     "entirely beneficial",
@@ -32318,7 +32019,7 @@ answer: 0
   answer: 0
 },
 {
-  question: "Passage:\nThe festival attracted visitors from distant towns, filling the streets with colour and music. Yet by morning, littered roads and exhausted residents remained as reminders of the celebration.\n\nThe contrast in the passage is between ----",
+  question: "Passage:<br>The festival attracted visitors from distant towns, filling the streets with colour and music. Yet by morning, littered roads and exhausted residents remained as reminders of the celebration.<br><br>The contrast in the passage is between ----",
   options: [
     "celebration and aftermath",
     "visitors and residents",
@@ -32328,277 +32029,2007 @@ answer: 0
   answer: 0
 },
 {
-  question: "Passage:\nThe festival attracted visitors from distant towns, filling the streets with colour and music. Yet by morning, littered roads and exhausted residents remained as reminders of the celebration.\n\nThe writer’s attitude towards the festival can best be described as ----",
+  question: "Passage:<br>The festival attracted visitors from distant towns, filling the streets with colour and music. Yet by morning, littered roads and exhausted residents remained as reminders of the celebration.<br><br>The writer’s attitude towards the festival can best be described as ----",
   options: ["realistic", "enthusiastic", "dismissive", "resentful"],
   answer: 0
 },
 
 {
-  question: "Poem:\nThe sun descends, a golden ball,\nShadows lengthen, night will call.\nBirds retreat to silent trees,\nWhispers travel on the breeze.\n\nFrom the poem, the speaker’s focus is mainly on ----",
+  question: "Passage:<br>The old bridge stood forgotten at the edge of the town. Once busy with traders and travelers, it now echoed only with the sound of wind and memories of better days.<br><br>The passage mainly emphasizes ----",
   options: [
-    "the transition from day to night",
-    "the life of birds",
-    "the warmth of the sun",
-    "human activity"
+    "change and neglect over time",
+    "the strength of the bridge",
+    "modern transportation",
+    "town expansion"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nThe sun descends, a golden ball,\nShadows lengthen, night will call.\nBirds retreat to silent trees,\nWhispers travel on the breeze.\n\nThe phrase \"Whispers travel on the breeze\" is an example of ----",
+  question: "Passage:<br>The old bridge stood forgotten at the edge of the town. Once busy with traders and travelers, it now echoed only with the sound of wind and memories of better days.<br><br>The phrase \"memories of better days\" suggests ----",
   options: [
-    "personification",
-    "alliteration",
-    "metaphor",
-    "hyperbole"
+    "a sense of nostalgia",
+    "future hope",
+    "economic growth",
+    "fear of collapse"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nThe sun descends, a golden ball,\nShadows lengthen, night will call.\nBirds retreat to silent trees,\nWhispers travel on the breeze.\n\nThe mood of the poem is best described as ----",
-  options: ["calm", "chaotic", "joyful", "angry"],
+  question: "Passage:<br>The old bridge stood forgotten at the edge of the town. Once busy with traders and travelers, it now echoed only with the sound of wind and memories of better days.<br><br>The tone of the passage is ----",
+  options: ["reflective", "humorous", "angry", "excited"],
   answer: 0
 },
+
 {
-  question: "Poem:\nIn the market, voices clash,\nColors swirl, a vibrant flash.\nYet amidst the noise and heat,\nSilent eyes and steady feet.\n\nFrom the poem, the poet emphasizes ----",
+  question: "Passage:<br>Despite repeated warnings, the villagers continued to farm along the riverbank. When the floods finally came, crops were destroyed and homes submerged.<br><br>The villagers’ main mistake was ----",
   options: [
-    "the contrast between chaos and stillness",
-    "the beauty of colors",
-    "the heat of the day",
-    "market transactions"
+    "ignoring advice",
+    "poor farming skills",
+    "lack of manpower",
+    "government interference"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nIn the market, voices clash,\nColors swirl, a vibrant flash.\nYet amidst the noise and heat,\nSilent eyes and steady feet.\n\nThe phrase \"Silent eyes and steady feet\" suggests ----",
+  question: "Passage:<br>Despite repeated warnings, the villagers continued to farm along the riverbank. When the floods finally came, crops were destroyed and homes submerged.<br><br>The passage teaches the lesson that ----",
   options: [
-    "calm observation in the midst of chaos",
-    "boredom of the sellers",
-    "physical exhaustion",
-    "fear of the crowd"
+    "disregarding warnings can have consequences",
+    "nature is unpredictable",
+    "farming is risky",
+    "villages should relocate"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nIn the market, voices clash,\nColors swirl, a vibrant flash.\nYet amidst the noise and heat,\nSilent eyes and steady feet.\n\nThe poet’s attitude towards the scene is ----",
-  options: ["observant", "critical", "playful", "hostile"],
+  question: "Passage:<br>Despite repeated warnings, the villagers continued to farm along the riverbank. When the floods finally came, crops were destroyed and homes submerged.<br><br>The writer’s attitude can best be described as ----",
+  options: ["critical", "sympathetic", "indifferent", "amused"],
   answer: 0
 },
+
 {
-  question: "Poem:\nRain drips on the roof above,\nA lonely tune, a song of love.\nEach drop a memory of past,\nSoftly fading, yet it lasts.\n\nThe main theme of the poem is ----",
+  question: "Passage:<br>She spoke softly, yet every word carried weight. In the noisy hall, her calm voice demanded attention without force.<br><br>The passage highlights her ----",
   options: [
-    "nostalgia and memory",
-    "weather patterns",
-    "musical sounds",
-    "romantic happiness"
+    "quiet confidence",
+    "fearfulness",
+    "physical weakness",
+    "anger"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nRain drips on the roof above,\nA lonely tune, a song of love.\nEach drop a memory of past,\nSoftly fading, yet it lasts.\n\nThe expression \"Each drop a memory of past\" is an example of ----",
+  question: "Passage:<br>She spoke softly, yet every word carried weight. In the noisy hall, her calm voice demanded attention without force.<br><br>The contrast in the passage is between ----",
   options: [
-    "metaphor",
-    "simile",
-    "alliteration",
-    "hyperbole"
+    "soft speech and strong impact",
+    "silence and fear",
+    "noise and confusion",
+    "authority and violence"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nRain drips on the roof above,\nA lonely tune, a song of love.\nEach drop a memory of past,\nSoftly fading, yet it lasts.\n\nThe mood of the poem is ----",
-  options: ["melancholic", "joyful", "angry", "triumphant"],
+  question: "Passage:<br>She spoke softly, yet every word carried weight. In the noisy hall, her calm voice demanded attention without force.<br><br>The tone of the passage is ----",
+  options: ["admiring", "sarcastic", "hostile", "mocking"],
   answer: 0
 },
+
 {
-  question: "Poem:\nThe mountain stands against the sky,\nSilent witness, centuries fly.\nRivers carve its rugged face,\nTime etches lines with quiet grace.\n\nFrom the poem, the mountain symbolizes ----",
+  question: "Poem:<br>The moon climbs slowly into view,<br>Painting roads in silver hue.<br>Footsteps fade, the city sleeps,<br>While silence secrets gently keeps.<br><br>The poem mainly describes ----",
   options: [
-    "endurance and permanence",
-    "geological change",
-    "human struggle",
-    "weather patterns"
-  ],
-  answer: 0
-},
-{
-  question: "Poem:\nThe mountain stands against the sky,\nSilent witness, centuries fly.\nRivers carve its rugged face,\nTime etches lines with quiet grace.\n\nThe phrase \"Silent witness\" is an example of ----",
-  options: ["personification", "metaphor", "simile", "hyperbole"],
-  answer: 0
-},
-{
-  question: "Poem:\nThe mountain stands against the sky,\nSilent witness, centuries fly.\nRivers carve its rugged face,\nTime etches lines with quiet grace.\n\nThe tone of the poem is ----",
-  options: ["reverent", "playful", "sarcastic", "critical"],
-  answer: 0
-},
-{
-  question: "Poem:\nLeaves fall softly, like whispered farewells,\nThe wind carries secrets it never tells.\nEach step on the path a fleeting trace,\nMoments vanish without a trace.\n\nThe poet’s main concern in the poem is ----",
-  options: [
-    "transience and impermanence",
-    "nature’s beauty",
-    "wind patterns",
-    "walking paths"
-  ],
-  answer: 0
-},
-{
-  question: "Poem:\nLeaves fall softly, like whispered farewells,\nThe wind carries secrets it never tells.\nEach step on the path a fleeting trace,\nMoments vanish without a trace.\n\nThe expression \"like whispered farewells\" is an example of ----",
-  options: ["simile", "metaphor", "personification", "alliteration"],
-  answer: 0
-},
-{
-  question: "Poem:\nLeaves fall softly, like whispered farewells,\nThe wind carries secrets it never tells.\nEach step on the path a fleeting trace,\nMoments vanish without a trace.\n\nThe mood of the poem is best described as ----",
-  options: ["reflective", "cheerful", "angry", "triumphant"],
-  answer: 0
-},
-{
-  question: "Poem:\nNight descends with a velvet touch,\nStars flicker gently, asking little, giving much.\nSilence spreads across the land,\nPeace rests lightly on each hand.\n\nFrom the poem, the poet emphasizes ----",
-  options: [
-    "calmness and tranquility",
-    "the dangers of night",
-    "human activity",
+    "nightfall and quietness",
+    "city traffic",
+    "loneliness",
     "fear of darkness"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nNight descends with a velvet touch,\nStars flicker gently, asking little, giving much.\nSilence spreads across the land,\nPeace rests lightly on each hand.\n\nThe phrase \"asking little, giving much\" is an example of ----",
-  options: [
-    "personification",
-    "metaphor",
-    "alliteration",
-    "hyperbole"
-  ],
+  question: "Poem:<br>The moon climbs slowly into view,<br>Painting roads in silver hue.<br>Footsteps fade, the city sleeps,<br>While silence secrets gently keeps.<br><br>The phrase \"Painting roads in silver hue\" is an example of ----",
+  options: ["imagery", "hyperbole", "simile", "paradox"],
   answer: 0
 },
 {
-  question: "Poem:\nNight descends with a velvet touch,\nStars flicker gently, asking little, giving much.\nSilence spreads across the land,\nPeace rests lightly on each hand.\n\nThe tone of the poem is ----",
-  options: ["serene", "tense", "angry", "humorous"],
+  question: "Poem:<br>The moon climbs slowly into view,<br>Painting roads in silver hue.<br>Footsteps fade, the city sleeps,<br>While silence secrets gently keeps.<br><br>The mood of the poem is ----",
+  options: ["peaceful", "tense", "joyful", "frightening"],
   answer: 0
 },
 
 {
-  question: "Poem:\nThe river bends and curves along the land,\nSilver ribbons held in Nature’s hand.\nIt hums a tune both soft and deep,\nSecrets of the mountains it will keep.\n\nFrom the poem, the river is mainly described as ----",
+  question: "Poem:<br>The clock ticks on the silent wall,<br>Marking moments, one and all.<br>Dreams are built, then swept away,<br>By hands that shape both night and day.<br><br>The main theme of the poem is ----",
   options: [
-    "beautiful and mysterious",
-    "dangerous and wild",
-    "dry and barren",
-    "polluted and dark"
+    "the passage of time",
+    "dreams and ambition",
+    "technology",
+    "human failure"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nThe river bends and curves along the land,\nSilver ribbons held in Nature’s hand.\nIt hums a tune both soft and deep,\nSecrets of the mountains it will keep.\n\nThe phrase \"Secrets of the mountains it will keep\" is an example of ----",
+  question: "Poem:<br>The clock ticks on the silent wall,<br>Marking moments, one and all.<br>Dreams are built, then swept away,<br>By hands that shape both night and day.<br><br>The clock in the poem symbolizes ----",
   options: [
-    "personification",
-    "simile",
-    "alliteration",
-    "hyperbole"
+    "time’s control over life",
+    "modern inventions",
+    "routine work",
+    "human weakness"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nThe river bends and curves along the land,\nSilver ribbons held in Nature’s hand.\nIt hums a tune both soft and deep,\nSecrets of the mountains it will keep.\n\nThe tone of the poem is ----",
-  options: ["calm", "angry", "humorous", "tense"],
+  question: "Poem:<br>The clock ticks on the silent wall,<br>Marking moments, one and all.<br>Dreams are built, then swept away,<br>By hands that shape both night and day.<br><br>The tone of the poem is ----",
+  options: ["thoughtful", "angry", "humorous", "celebratory"],
   answer: 0
 },
+
 {
-  question: "Poem:\nAutumn arrives with a golden flare,\nLeaves drift slowly through the crisp air.\nChildren’s laughter mingles with the breeze,\nMoments captured, hearts at ease.\n\nFrom the poem, the poet mainly emphasizes ----",
+  question: "Poem:<br>The child ran barefoot through the sand,<br>Laughing freely, unplanned, unmanned.<br>No weight of fear, no debt of care,<br>Just fleeting joy in open air.<br><br>The poet presents childhood as ----",
   options: [
-    "the beauty of autumn and its effect on people",
-    "the hardships of changing seasons",
-    "the work of farmers in autumn",
-    "cold and discomfort"
+    "carefree and innocent",
+    "dangerous",
+    "disciplined",
+    "lonely"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nAutumn arrives with a golden flare,\nLeaves drift slowly through the crisp air.\nChildren’s laughter mingles with the breeze,\nMoments captured, hearts at ease.\n\nThe phrase \"Leaves drift slowly through the crisp air\" is an example of ----",
+  question: "Poem:<br>The child ran barefoot through the sand,<br>Laughing freely, unplanned, unmanned.<br>No weight of fear, no debt of care,<br>Just fleeting joy in open air.<br><br>The phrase \"fleeting joy\" suggests ----",
   options: [
-    "imagery",
-    "metaphor",
-    "alliteration",
-    "hyperbole"
+    "happiness does not last forever",
+    "joy is meaningless",
+    "life is difficult",
+    "children are careless"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nAutumn arrives with a golden flare,\nLeaves drift slowly through the crisp air.\nChildren’s laughter mingles with the breeze,\nMoments captured, hearts at ease.\n\nThe mood of the poem is ----",
-  options: ["peaceful", "tense", "anxious", "angry"],
+  question: "Poem:<br>The child ran barefoot through the sand,<br>Laughing freely, unplanned, unmanned.<br>No weight of fear, no debt of care,<br>Just fleeting joy in open air.<br><br>The mood of the poem is ----",
+  options: ["joyful", "sad", "angry", "fearful"],
   answer: 0
 },
+
 {
-  question: "Poem:\nA lone tree stands against the wind,\nBattered but upright, its branches pinned.\nThrough storms it bends, yet does not fall,\nA silent lesson, embracing all.\n\nThe tree in the poem symbolizes ----",
+  question: "Poem:<br>The road stretches far beyond my sight,<br>Twisting through shadow and light.<br>Each step a question, unanswered still,<br>Each turn a test of stubborn will.<br><br>The road in the poem represents ----",
   options: [
-    "resilience and strength",
-    "loneliness",
-    "decay and weakness",
-    "fear of storms"
+    "life’s journey",
+    "physical travel",
+    "danger",
+    "nature"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nA lone tree stands against the wind,\nBattered but upright, its branches pinned.\nThrough storms it bends, yet does not fall,\nA silent lesson, embracing all.\n\nThe phrase \"A silent lesson\" is an example of ----",
+  question: "Poem:<br>The road stretches far beyond my sight,<br>Twisting through shadow and light.<br>Each step a question, unanswered still,<br>Each turn a test of stubborn will.<br><br>The tone of the poem is ----",
+  options: ["reflective", "comic", "carefree", "hostile"],
+  answer: 0
+},
+{
+  question: "Poem:<br>The road stretches far beyond my sight,<br>Twisting through shadow and light.<br>Each step a question, unanswered still,<br>Each turn a test of stubborn will.<br><br>The poet’s attitude towards the journey is ----",
+  options: ["determined", "fearful", "indifferent", "playful"],
+  answer: 0
+},
+
+{
+  question: "Passage:<br>The town square buzzed with excitement as preparations for the celebration intensified. Yet beneath the laughter and music, tensions lingered among rival groups.<br><br>The passage mainly suggests that the celebration ----",
   options: [
-    "personification",
-    "simile",
-    "alliteration",
-    "hyperbole"
+    "masked underlying conflict",
+    "was poorly organized",
+    "failed to attract interest",
+    "ended too early"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nA lone tree stands against the wind,\nBattered but upright, its branches pinned.\nThrough storms it bends, yet does not fall,\nA silent lesson, embracing all.\n\nThe poet’s attitude towards the tree is ----",
-  options: ["admiring", "critical", "dismissive", "fearful"],
-  answer: 0
-},
-{
-  question: "Poem:\nEvening falls with a gentle sigh,\nThe city hums as lights climb high.\nWindows glow, stories unfold,\nMoments of joy and sorrow told.\n\nFrom the poem, the poet mainly highlights ----",
+  question: "Passage:<br>The town square buzzed with excitement as preparations for the celebration intensified. Yet beneath the laughter and music, tensions lingered among rival groups.<br><br>The word \"lingered\" implies that the tensions ----",
   options: [
-    "human life and its daily rhythms",
-    "the dangers of the city",
-    "nighttime crimes",
-    "architecture and design"
+    "remained unresolved",
+    "were imaginary",
+    "quickly disappeared",
+    "were exaggerated"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nEvening falls with a gentle sigh,\nThe city hums as lights climb high.\nWindows glow, stories unfold,\nMoments of joy and sorrow told.\n\nThe phrase \"Moments of joy and sorrow told\" suggests ----",
+  question: "Passage:<br>The town square buzzed with excitement as preparations for the celebration intensified. Yet beneath the laughter and music, tensions lingered among rival groups.<br><br>The tone of the passage is ----",
+  options: ["cautious", "joyful", "mocking", "indifferent"],
+  answer: 0
+},
+
+{
+  question: "Passage:<br>He studied the map carefully, aware that a single wrong turn could delay the journey. Despite his confidence, doubt crept into his thoughts.<br><br>The passage highlights the traveler’s ----",
   options: [
-    "everyday life has mixed experiences",
-    "the city is dangerous",
-    "people are unhappy",
-    "there is silence at night"
+    "mixed feelings",
+    "lack of experience",
+    "fear of travel",
+    "poor preparation"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nEvening falls with a gentle sigh,\nThe city hums as lights climb high.\nWindows glow, stories unfold,\nMoments of joy and sorrow told.\n\nThe tone of the poem is ----",
-  options: ["observant", "critical", "angry", "humorous"],
-  answer: 0
-},
-{
-  question: "Poem:\nTime moves quietly, unseen yet known,\nMarking paths where seeds are sown.\nLessons learned and forgotten too,\nMoments of old give rise to new.\n\nThe main theme of the poem is ----",
+  question: "Passage:<br>He studied the map carefully, aware that a single wrong turn could delay the journey. Despite his confidence, doubt crept into his thoughts.<br><br>The phrase \"doubt crept\" suggests that uncertainty ----",
   options: [
-    "the passage of time and continuity",
-    "agriculture and farming",
-    "memory and forgetfulness",
-    "nature and growth"
+    "gradually appeared",
+    "was overwhelming",
+    "was ignored",
+    "was intentional"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nTime moves quietly, unseen yet known,\nMarking paths where seeds are sown.\nLessons learned and forgotten too,\nMoments of old give rise to new.\n\nThe expression \"unseen yet known\" is an example of ----",
+  question: "Passage:<br>He studied the map carefully, aware that a single wrong turn could delay the journey. Despite his confidence, doubt crept into his thoughts.<br><br>The writer’s attitude is best described as ----",
+  options: ["realistic", "sarcastic", "hostile", "carefree"],
+  answer: 0
+},
+
+{
+  question: "Passage:<br>The teacher’s disappointment was clear, though her words remained gentle. She hoped the warning would inspire change rather than fear.<br><br>The teacher’s main intention was to ----",
   options: [
-    "paradox",
-    "simile",
-    "personification",
-    "hyperbole"
+    "encourage improvement",
+    "punish the students",
+    "express anger",
+    "avoid responsibility"
   ],
   answer: 0
 },
 {
-  question: "Poem:\nTime moves quietly, unseen yet known,\nMarking paths where seeds are sown.\nLessons learned and forgotten too,\nMoments of old give rise to new.\n\nThe mood of the poem is ----",
-  options: ["thoughtful", "cheerful", "tense", "angry"],
+  question: "Passage:<br>The teacher’s disappointment was clear, though her words remained gentle. She hoped the warning would inspire change rather than fear.<br><br>The contrast in the passage is between ----",
+  options: [
+    "emotion and expression",
+    "anger and silence",
+    "authority and weakness",
+    "success and failure"
+  ],
   answer: 0
 },
+{
+  question: "Passage:<br>The teacher’s disappointment was clear, though her words remained gentle. She hoped the warning would inspire change rather than fear.<br><br>The tone of the passage is ----",
+  options: ["concerned", "threatening", "mocking", "indifferent"],
+  answer: 0
+},
+
+{
+  question: "Poem:<br>The wind knocks softly on the door,<br>Stories whispered, nothing more.<br>Curtains dance in quiet delight,<br>Greeting gently the falling night.<br><br>The poem mainly describes ----",
+  options: [
+    "a calm evening atmosphere",
+    "fear of isolation",
+    "approaching danger",
+    "human loneliness"
+  ],
+  answer: 0
+},
+{
+  question: "Poem:<br>The wind knocks softly on the door,<br>Stories whispered, nothing more.<br>Curtains dance in quiet delight,<br>Greeting gently the falling night.<br><br>The phrase \"wind knocks softly\" is an example of ----",
+  options: ["personification", "simile", "hyperbole", "paradox"],
+  answer: 0
+},
+{
+  question: "Poem:<br>The wind knocks softly on the door,<br>Stories whispered, nothing more.<br>Curtains dance in quiet delight,<br>Greeting gently the falling night.<br><br>The mood of the poem is ----",
+  options: ["peaceful", "tense", "sad", "angry"],
+  answer: 0
+},
+
+{
+  question: "Poem:<br>The fire flickers, bold yet brief,<br>A dancing flame of hope and grief.<br>It warms the cold, then fades to smoke,<br>A silent end to words unspoke.<br><br>The fire in the poem symbolizes ----",
+  options: [
+    "temporary emotions",
+    "destruction",
+    "celebration",
+    "anger"
+  ],
+  answer: 0
+},
+{
+  question: "Poem:<br>The fire flickers, bold yet brief,<br>A dancing flame of hope and grief.<br>It warms the cold, then fades to smoke,<br>A silent end to words unspoke.<br><br>The phrase \"bold yet brief\" suggests that the fire is ----",
+  options: [
+    "strong but short-lived",
+    "dangerous",
+    "uncontrolled",
+    "permanent"
+  ],
+  answer: 0
+},
+{
+  question: "Poem:<br>The fire flickers, bold yet brief,<br>A dancing flame of hope and grief.<br>It warms the cold, then fades to smoke,<br>A silent end to words unspoke.<br><br>The tone of the poem is ----",
+  options: ["melancholic", "joyful", "humorous", "celebratory"],
+  answer: 0
+},
+
+{
+  question: "Poem:<br>The bell rings loud across the yard,<br>A signal clear, a sudden guard.<br>Dreams are paused, routines resume,<br>Order rises from the gloom.<br><br>The bell mainly represents ----",
+  options: [
+    "authority and structure",
+    "fear and punishment",
+    "celebration",
+    "confusion"
+  ],
+  answer: 0
+},
+{
+  question: "Poem:<br>The bell rings loud across the yard,<br>A signal clear, a sudden guard.<br>Dreams are paused, routines resume,<br>Order rises from the gloom.<br><br>The phrase \"Dreams are paused\" implies ----",
+  options: [
+    "interruption of freedom",
+    "loss of ambition",
+    "sleep",
+    "failure"
+  ],
+  answer: 0
+},
+{
+  question: "Poem:<br>The bell rings loud across the yard,<br>A signal clear, a sudden guard.<br>Dreams are paused, routines resume,<br>Order rises from the gloom.<br><br>The mood of the poem is ----",
+  options: ["controlled", "chaotic", "fearful", "joyful"],
+  answer: 0
+},
+
+{
+  question: "Poem:<br>The farmer waits beneath the sky,<br>Eyes raised as the clouds drift by.<br>Hope is sown in fields of dust,<br>Faith held firm in nature’s trust.<br><br>The poem mainly focuses on ----",
+  options: [
+    "hope and patience",
+    "wealth and success",
+    "scientific farming",
+    "fear of drought"
+  ],
+  answer: 0
+},
+{
+  question: "Poem:<br>The farmer waits beneath the sky,<br>Eyes raised as the clouds drift by.<br>Hope is sown in fields of dust,<br>Faith held firm in nature’s trust.<br><br>The phrase \"Hope is sown\" is an example of ----",
+  options: ["metaphor", "simile", "alliteration", "hyperbole"],
+  answer: 0
+},
+{
+  question: "Poem:<br>The farmer waits beneath the sky,<br>Eyes raised as the clouds drift by.<br>Hope is sown in fields of dust,<br>Faith held firm in nature’s trust.<br><br>The tone of the poem is ----",
+  options: ["hopeful", "despairing", "angry", "mocking"],
+  answer: 0
+},
+
+{
+  question: "Poem:<br>The mirror shows a stranger’s face,<br>Lines of time no hand can erase.<br>Eyes that question who I am,<br>Caught between the now and then.<br><br>The poem explores the theme of ----",
+  options: [
+    "identity and aging",
+    "fear of mirrors",
+    "physical beauty",
+    "self-confidence"
+  ],
+  answer: 0
+},
+{
+  question: "Poem:<br>The mirror shows a stranger’s face,<br>Lines of time no hand can erase.<br>Eyes that question who I am,<br>Caught between the now and then.<br><br>The phrase \"Lines of time\" refers to ----",
+  options: [
+    "signs of aging",
+    "written history",
+    "destiny",
+    "memories"
+  ],
+  answer: 0
+},
+{
+  question: "Poem:<br>The mirror shows a stranger’s face,<br>Lines of time no hand can erase.<br>Eyes that question who I am,<br>Caught between the now and then.<br><br>The mood of the poem is ----",
+  options: ["reflective", "playful", "angry", "cheerful"],
+  answer: 0
+},
+
+{
+  question: "Poem:<br>The path grows narrow, steep, and slow,<br>Yet onward feet refuse to go low.<br>Each breath a promise, quietly made,<br>That strength endures though hope may fade.<br><br>The poet emphasizes ----",
+  options: [
+    "perseverance",
+    "fear of failure",
+    "physical weakness",
+    "external support"
+  ],
+  answer: 0
+},
+{
+  question: "Poem:<br>The path grows narrow, steep, and slow,<br>Yet onward feet refuse to go low.<br>Each breath a promise, quietly made,<br>That strength endures though hope may fade.<br><br>The tone of the poem is ----",
+  options: ["determined", "fearful", "indifferent", "mocking"],
+  answer: 0
+},
+{
+  question: "Poem:<br>The path grows narrow, steep, and slow,<br>Yet onward feet refuse to go low.<br>Each breath a promise, quietly made,<br>That strength endures though hope may fade.<br><br>The poet’s attitude is best described as ----",
+  options: ["resolute", "despairing", "carefree", "humorous"],
+  answer: 0
+},
+
+{
+  question: "Passage:<br>Mr Birling spoke confidently about the future, dismissing the possibility of war and insisting that business prosperity was guaranteed.<br><br>Mr Birling’s attitude in the passage shows that he is ----",
+  options: [
+    "overconfident and short-sighted",
+    "fearful and cautious",
+    "humble and thoughtful",
+    "uncertain and confused"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>Mr Birling spoke confidently about the future, dismissing the possibility of war and insisting that business prosperity was guaranteed.<br><br>The passage mainly highlights Mr Birling’s ----",
+  options: [
+    "ignorance of reality",
+    "sense of responsibility",
+    "respect for tradition",
+    "political awareness"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>Mr Birling spoke confidently about the future, dismissing the possibility of war and insisting that business prosperity was guaranteed.<br><br>The dramatic irony in the passage lies in the fact that ----",
+  options: [
+    "the audience knows his predictions are wrong",
+    "Mr Birling is deliberately lying",
+    "the characters disagree with him",
+    "the Inspector supports his view"
+  ],
+  answer: 0
+},
+
+{
+  question: "Passage:<br>The Inspector spoke calmly but firmly, stressing that every individual is responsible for others and that actions have consequences.<br><br>The Inspector’s statement emphasizes the theme of ----",
+  options: [
+    "social responsibility",
+    "personal ambition",
+    "family loyalty",
+    "economic competition"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>The Inspector spoke calmly but firmly, stressing that every individual is responsible for others and that actions have consequences.<br><br>The tone of the Inspector’s speech can best be described as ----",
+  options: [
+    "authoritative",
+    "mocking",
+    "apologetic",
+    "uncertain"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>The Inspector spoke calmly but firmly, stressing that every individual is responsible for others and that actions have consequences.<br><br>The Inspector mainly serves as a symbol of ----",
+  options: [
+    "moral conscience",
+    "law enforcement",
+    "political power",
+    "social class"
+  ],
+  answer: 0
+},
+
+{
+  question: "Passage:<br>Sheila reacted with shock and guilt when she realized her role in Eva Smith’s suffering, openly accepting responsibility for her actions.<br><br>Sheila’s reaction shows that she is ----",
+  options: [
+    "capable of moral growth",
+    "naturally weak",
+    "afraid of punishment",
+    "insincere"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>Sheila reacted with shock and guilt when she realized her role in Eva Smith’s suffering, openly accepting responsibility for her actions.<br><br>Sheila’s response contrasts sharply with that of ----",
+  options: [
+    "Mr Birling",
+    "the Inspector",
+    "Eva Smith",
+    "Edna"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>Sheila reacted with shock and guilt when she realized her role in Eva Smith’s suffering, openly accepting responsibility for her actions.<br><br>The passage mainly highlights the theme of ----",
+  options: [
+    "remorse and accountability",
+    "romantic disappointment",
+    "class struggle",
+    "gender inequality"
+  ],
+  answer: 0
+},
+
+{
+  question: "Passage:<br>Gerald admitted his relationship with Eva Smith but attempted to justify his actions as acts of kindness rather than exploitation.<br><br>Gerald’s justification suggests that he is ----",
+  options: [
+    "partially self-deceptive",
+    "completely dishonest",
+    "morally enlightened",
+    "indifferent to Eva"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>Gerald admitted his relationship with Eva Smith but attempted to justify his actions as acts of kindness rather than exploitation.<br><br>The passage reveals Gerald’s main weakness as ----",
+  options: [
+    "lack of full responsibility",
+    "fear of authority",
+    "financial instability",
+    "emotional coldness"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>Gerald admitted his relationship with Eva Smith but attempted to justify his actions as acts of kindness rather than exploitation.<br><br>The tone of the passage is best described as ----",
+  options: [
+    "defensive",
+    "hostile",
+    "humorous",
+    "sympathetic"
+  ],
+  answer: 0
+},
+
+{
+  question: "Passage:<br>Eric spoke with visible distress as he confessed his involvement with Eva Smith, acknowledging his wrongdoing and lack of control.<br><br>Eric’s confession mainly shows his ----",
+  options: [
+    "moral awareness",
+    "desire for approval",
+    "fear of authority",
+    "emotional weakness"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>Eric spoke with visible distress as he confessed his involvement with Eva Smith, acknowledging his wrongdoing and lack of control.<br><br>The phrase \"lack of control\" suggests ----",
+  options: [
+    "irresponsibility",
+    "deliberate cruelty",
+    "calculated actions",
+    "maturity"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>Eric spoke with visible distress as he confessed his involvement with Eva Smith, acknowledging his wrongdoing and lack of control.<br><br>Eric’s reaction is similar to Sheila’s because both ----",
+  options: [
+    "accept responsibility",
+    "deny blame",
+    "blame society",
+    "reject guilt"
+  ],
+  answer: 0
+},
+
+{
+  question: "Passage:<br>Mrs Birling refused to accept any blame for Eva Smith’s death and remained convinced of her own moral superiority.<br><br>Mrs Birling’s attitude reflects her ----",
+  options: [
+    "class prejudice",
+    "sense of justice",
+    "maternal care",
+    "moral sensitivity"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>Mrs Birling refused to accept any blame for Eva Smith’s death and remained convinced of her own moral superiority.<br><br>The irony in Mrs Birling’s position is that ----",
+  options: [
+    "she condemns her own son unknowingly",
+    "she is secretly compassionate",
+    "she supports the Inspector",
+    "she understands Eva’s suffering"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>Mrs Birling refused to accept any blame for Eva Smith’s death and remained convinced of her own moral superiority.<br><br>The passage mainly criticizes ----",
+  options: [
+    "upper-class hypocrisy",
+    "parental authority",
+    "female ambition",
+    "legal systems"
+  ],
+  answer: 0
+},
+
+{
+  question: "Passage:<br>The Inspector warned that unless people learned to care for one another, they would be taught their lesson through suffering and tragedy.<br><br>This warning reinforces the play’s central message about ----",
+  options: [
+    "collective responsibility",
+    "personal freedom",
+    "economic success",
+    "political leadership"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>The Inspector warned that unless people learned to care for one another, they would be taught their lesson through suffering and tragedy.<br><br>The tone of the Inspector’s warning is ----",
+  options: [
+    "prophetic",
+    "humorous",
+    "casual",
+    "indifferent"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>The Inspector warned that unless people learned to care for one another, they would be taught their lesson through suffering and tragedy.<br><br>The warning foreshadows ----",
+  options: [
+    "future social conflict",
+    "personal reconciliation",
+    "romantic separation",
+    "financial collapse"
+  ],
+  answer: 0
+},
+
+{
+  question: "Passage:<br>After the Inspector’s departure, the older characters attempted to dismiss the events as a hoax, while the younger ones remained disturbed.<br><br>The contrast in reactions highlights the difference between ----",
+  options: [
+    "generations",
+    "social classes",
+    "genders",
+    "occupations"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>After the Inspector’s departure, the older characters attempted to dismiss the events as a hoax, while the younger ones remained disturbed.<br><br>The younger characters’ response shows their ----",
+  options: [
+    "moral sensitivity",
+    "fear of scandal",
+    "obedience to authority",
+    "immaturity"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>After the Inspector’s departure, the older characters attempted to dismiss the events as a hoax, while the younger ones remained disturbed.<br><br>The passage reinforces the theme of ----",
+  options: [
+    "change versus tradition",
+    "wealth and poverty",
+    "love and betrayal",
+    "crime and punishment"
+  ],
+  answer: 0
+},
+
+{
+  question: "Passage:<br>The final telephone call announced that a young woman had died and that a police inspector was on his way.<br><br>The ending of the play is best described as ----",
+  options: [
+    "dramatic and ironic",
+    "humorous",
+    "predictable",
+    "romantic"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>The final telephone call announced that a young woman had died and that a police inspector was on his way.<br><br>The effect of this ending is to ----",
+  options: [
+    "reinforce the moral lesson",
+    "create sympathy for Mr Birling",
+    "resolve all conflicts",
+    "reduce tension"
+  ],
+  answer: 0
+},
+{
+  question: "Passage:<br>The final telephone call announced that a young woman had died and that a police inspector was on his way.<br><br>The ending suggests that ----",
+  options: [
+    "responsibility cannot be escaped",
+    "the Inspector was a fraud",
+    "justice is meaningless",
+    "the family is united"
+  ],
+  answer: 0
+},
+
+  {
+    "question": "Passage:<br>Mr Birling proudly described himself as a hard-headed businessman who believed that a man must mind his own business and look after himself.<br><br>Mr Birling’s statement reveals his belief in ----",
+    "options": [
+      "individualism",
+      "socialism",
+      "collective welfare",
+      "moral duty"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Mr Birling proudly described himself as a hard-headed businessman who believed that a man must mind his own business and look after himself.<br><br>The passage reflects Priestley’s criticism of ----",
+    "options": [
+      "capitalist ideology",
+      "youthful rebellion",
+      "family loyalty",
+      "female independence"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Mr Birling proudly described himself as a hard-headed businessman who believed that a man must mind his own business and look after himself.<br><br>The tone of Mr Birling’s speech is ----",
+    "options": [
+      "self-satisfied",
+      "apologetic",
+      "fearful",
+      "sympathetic"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>Sheila admitted that she felt ashamed of her behavior and accepted that her jealousy had caused Eva Smith serious harm.<br><br>Sheila’s admission shows that she ----",
+    "options": [
+      "accepts moral responsibility",
+      "seeks approval",
+      "fears punishment",
+      "rejects blame"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Sheila admitted that she felt ashamed of her behavior and accepted that her jealousy had caused Eva Smith serious harm.<br><br>The passage emphasizes Sheila’s ----",
+    "options": [
+      "personal growth",
+      "emotional weakness",
+      "social arrogance",
+      "class prejudice"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Sheila admitted that she felt ashamed of her behavior and accepted that her jealousy had caused Eva Smith serious harm.<br><br>Sheila’s response contrasts most clearly with ----",
+    "options": [
+      "Mrs Birling",
+      "Eric",
+      "Edna",
+      "Eva Smith"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>Gerald argued that he had rescued Daisy Renton from a difficult situation and insisted that he had treated her well.<br><br>Gerald’s argument suggests that he is ----",
+    "options": [
+      "trying to justify himself",
+      "completely innocent",
+      "morally superior",
+      "emotionally detached"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Gerald argued that he had rescued Daisy Renton from a difficult situation and insisted that he had treated her well.<br><br>The passage mainly exposes Gerald’s ----",
+    "options": [
+      "limited sense of responsibility",
+      "financial insecurity",
+      "hatred for authority",
+      "lack of empathy"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Gerald argued that he had rescued Daisy Renton from a difficult situation and insisted that he had treated her well.<br><br>The tone of Gerald’s speech can best be described as ----",
+    "options": [
+      "defensive",
+      "hostile",
+      "indifferent",
+      "mocking"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>Eric spoke angrily about his parents’ refusal to accept blame, insisting that what they did mattered regardless of consequences.<br><br>Eric’s anger shows his ----",
+    "options": [
+      "moral awakening",
+      "desire for control",
+      "fear of disgrace",
+      "emotional instability"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Eric spoke angrily about his parents’ refusal to accept blame, insisting that what they did mattered regardless of consequences.<br><br>The passage highlights the theme of ----",
+    "options": [
+      "responsibility versus denial",
+      "romantic conflict",
+      "economic ambition",
+      "family loyalty"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Eric spoke angrily about his parents’ refusal to accept blame, insisting that what they did mattered regardless of consequences.<br><br>Eric’s reaction is similar to Sheila’s because both ----",
+    "options": [
+      "accept responsibility",
+      "defend capitalism",
+      "reject the Inspector",
+      "deny guilt"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>Mrs Birling spoke confidently about her role in charity work and dismissed Eva Smith’s request for help as irresponsible.<br><br>Mrs Birling’s attitude reveals her ----",
+    "options": [
+      "class prejudice",
+      "genuine kindness",
+      "maternal concern",
+      "moral awareness"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Mrs Birling spoke confidently about her role in charity work and dismissed Eva Smith’s request for help as irresponsible.<br><br>The irony in the passage lies in the fact that ----",
+    "options": [
+      "she condemns her own son unknowingly",
+      "she secretly regrets her action",
+      "she supports Eva financially",
+      "she understands Eva’s suffering"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Mrs Birling spoke confidently about her role in charity work and dismissed Eva Smith’s request for help as irresponsible.<br><br>The passage criticizes ----",
+    "options": [
+      "upper-class hypocrisy",
+      "parental discipline",
+      "female ambition",
+      "legal authority"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>The Inspector calmly reminded the family that their actions had led step by step to Eva Smith’s death.<br><br>The Inspector’s method of investigation is best described as ----",
+    "options": [
+      "systematic",
+      "violent",
+      "confusing",
+      "emotional"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>The Inspector calmly reminded the family that their actions had led step by step to Eva Smith’s death.<br><br>The passage reinforces the idea that ----",
+    "options": [
+      "everyone shares responsibility",
+      "the law is ineffective",
+      "wealth brings immunity",
+      "youth is reckless"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>The Inspector calmly reminded the family that their actions had led step by step to Eva Smith’s death.<br><br>The Inspector mainly serves as Priestley’s ----",
+    "options": [
+      "moral voice",
+      "comic relief",
+      "historical narrator",
+      "political leader"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>After the Inspector left, Mr Birling laughed with relief and dismissed the evening’s events as nonsense.<br><br>Mr Birling’s reaction shows his ----",
+    "options": [
+      "refusal to change",
+      "sense of guilt",
+      "fear of punishment",
+      "moral growth"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>After the Inspector left, Mr Birling laughed with relief and dismissed the evening’s events as nonsense.<br><br>The passage highlights the theme of ----",
+    "options": [
+      "denial versus responsibility",
+      "love and betrayal",
+      "youthful rebellion",
+      "social harmony"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>After the Inspector left, Mr Birling laughed with relief and dismissed the evening’s events as nonsense.<br><br>This reaction contrasts most sharply with that of ----",
+    "options": [
+      "Sheila",
+      "Gerald",
+      "Edna",
+      "Mr Birling himself"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>The final telephone rang sharply, announcing that a young woman had died and a police inspector was on his way.<br><br>The sudden telephone call creates a sense of ----",
+    "options": [
+      "dramatic tension",
+      "comic relief",
+      "romantic closure",
+      "emotional comfort"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>The final telephone rang sharply, announcing that a young woman had died and a police inspector was on his way.<br><br>The ending suggests that ----",
+    "options": [
+      "responsibility cannot be avoided",
+      "the family is innocent",
+      "the Inspector was imaginary",
+      "justice is unnecessary"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>The final telephone rang sharply, announcing that a young woman had died and a police inspector was on his way.<br><br>The effect of this ending is to ----",
+    "options": [
+      "reinforce the moral lesson",
+      "remove all tension",
+      "justify Mr Birling",
+      "celebrate wealth"
+    ],
+    "answer": 0
+  },
+  
+  [
+  {
+    "question": "Passage:<br>Antony declared that his heart was tied to Cleopatra and that Rome held little attraction for him compared to her presence.<br><br>Antony’s statement shows that he is ----",
+    "options": [
+      "emotionally conflicted",
+      "politically ambitious",
+      "strategically cautious",
+      "indifferent to love"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Antony declared that his heart was tied to Cleopatra and that Rome held little attraction for him compared to her presence.<br><br>The passage highlights the theme of ----",
+    "options": [
+      "love versus duty",
+      "fate and destiny",
+      "honour and revenge",
+      "war and peace"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Antony declared that his heart was tied to Cleopatra and that Rome held little attraction for him compared to her presence.<br><br>The tone of Antony’s words is ----",
+    "options": [
+      "passionate",
+      "mocking",
+      "indifferent",
+      "calculating"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>Cleopatra playfully mocked Antony, testing his devotion while displaying her charm and intelligence.<br><br>Cleopatra’s behaviour suggests that she is ----",
+    "options": [
+      "manipulative and confident",
+      "weak and submissive",
+      "fearful and insecure",
+      "emotionally detached"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Cleopatra playfully mocked Antony, testing his devotion while displaying her charm and intelligence.<br><br>The passage presents Cleopatra mainly as ----",
+    "options": [
+      "a powerful and charismatic figure",
+      "a passive lover",
+      "a tragic victim",
+      "a foolish ruler"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Cleopatra playfully mocked Antony, testing his devotion while displaying her charm and intelligence.<br><br>The tone of the passage can best be described as ----",
+    "options": [
+      "playful",
+      "hostile",
+      "solemn",
+      "bitter"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>Philo complained that Antony had abandoned his military discipline and allowed love to weaken his sense of honour.<br><br>Philo’s complaint reflects the Roman value of ----",
+    "options": [
+      "discipline",
+      "luxury",
+      "romance",
+      "pleasure"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Philo complained that Antony had abandoned his military discipline and allowed love to weaken his sense of honour.<br><br>The passage criticizes Antony for ----",
+    "options": [
+      "neglecting his duties",
+      "lacking intelligence",
+      "fearing his enemies",
+      "betraying Cleopatra"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Philo complained that Antony had abandoned his military discipline and allowed love to weaken his sense of honour.<br><br>The tone of Philo’s words is ----",
+    "options": [
+      "disapproving",
+      "admiring",
+      "humorous",
+      "sympathetic"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>Octavius Caesar spoke sternly about Antony’s behavior, emphasizing order, discipline, and responsibility to Rome.<br><br>Caesar’s speech portrays him as ----",
+    "options": [
+      "cold and disciplined",
+      "emotional and impulsive",
+      "romantic and idealistic",
+      "playful and sarcastic"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Octavius Caesar spoke sternly about Antony’s behavior, emphasizing order, discipline, and responsibility to Rome.<br><br>The passage highlights the contrast between ----",
+    "options": [
+      "Rome and Egypt",
+      "love and friendship",
+      "youth and age",
+      "strength and weakness"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Octavius Caesar spoke sternly about Antony’s behavior, emphasizing order, discipline, and responsibility to Rome.<br><br>Caesar mainly represents ----",
+    "options": [
+      "political control",
+      "romantic freedom",
+      "emotional passion",
+      "personal loyalty"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>Antony agreed to marry Octavia in an attempt to restore peace and political balance.<br><br>Antony’s decision shows his attempt to ----",
+    "options": [
+      "reconcile duty with politics",
+      "abandon Cleopatra completely",
+      "deceive Caesar permanently",
+      "escape responsibility"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Antony agreed to marry Octavia in an attempt to restore peace and political balance.<br><br>The marriage to Octavia symbolizes ----",
+    "options": [
+      "political compromise",
+      "true romantic love",
+      "personal freedom",
+      "moral weakness"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Antony agreed to marry Octavia in an attempt to restore peace and political balance.<br><br>The tone of the passage is ----",
+    "options": [
+      "pragmatic",
+      "joyful",
+      "mocking",
+      "tragic"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>Cleopatra reacted with jealousy and anger upon hearing of Antony’s marriage to Octavia.<br><br>Cleopatra’s reaction reveals her ----",
+    "options": [
+      "emotional intensity",
+      "political indifference",
+      "strategic patience",
+      "moral restraint"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Cleopatra reacted with jealousy and anger upon hearing of Antony’s marriage to Octavia.<br><br>The passage emphasizes the theme of ----",
+    "options": [
+      "love and jealousy",
+      "honour and loyalty",
+      "war and conquest",
+      "fate and destiny"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Cleopatra reacted with jealousy and anger upon hearing of Antony’s marriage to Octavia.<br><br>The tone of Cleopatra’s reaction is ----",
+    "options": [
+      "violent and passionate",
+      "calm and accepting",
+      "humorous",
+      "detached"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>Antony followed Cleopatra’s ship during the naval battle, abandoning his forces to defeat.<br><br>Antony’s action demonstrates his ----",
+    "options": [
+      "fatal weakness",
+      "military brilliance",
+      "strategic intelligence",
+      "sense of honour"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Antony followed Cleopatra’s ship during the naval battle, abandoning his forces to defeat.<br><br>The passage shows how Antony’s love leads to ----",
+    "options": [
+      "political ruin",
+      "moral strength",
+      "military victory",
+      "personal discipline"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Antony followed Cleopatra’s ship during the naval battle, abandoning his forces to defeat.<br><br>The tone of the passage is ----",
+    "options": [
+      "tragic",
+      "comic",
+      "celebratory",
+      "hopeful"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>Believing Cleopatra to be dead, Antony resolved to take his own life rather than live in shame.<br><br>Antony’s decision reflects his sense of ----",
+    "options": [
+      "honour",
+      "cowardice",
+      "indifference",
+      "confusion"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Believing Cleopatra to be dead, Antony resolved to take his own life rather than live in shame.<br><br>The passage reinforces the tragic theme of ----",
+    "options": [
+      "honour and downfall",
+      "ambition and success",
+      "power and control",
+      "betrayal and revenge"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Believing Cleopatra to be dead, Antony resolved to take his own life rather than live in shame.<br><br>The tone of the passage is ----",
+    "options": [
+      "despairing",
+      "humorous",
+      "indifferent",
+      "optimistic"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>Cleopatra chose death rather than be paraded as a trophy in Rome, embracing a noble end.<br><br>Cleopatra’s choice presents her as ----",
+    "options": [
+      "dignified and proud",
+      "fearful and helpless",
+      "confused and weak",
+      "submissive and obedient"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Cleopatra chose death rather than be paraded as a trophy in Rome, embracing a noble end.<br><br>The passage highlights the theme of ----",
+    "options": [
+      "honour versus humiliation",
+      "love and jealousy",
+      "political ambition",
+      "military conquest"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>Cleopatra chose death rather than be paraded as a trophy in Rome, embracing a noble end.<br><br>The tone of the passage is ----",
+    "options": [
+      "heroic",
+      "mocking",
+      "casual",
+      "fearful"
+    ],
+    "answer": 0
+  },
+
+  {
+    "question": "Passage:<br>At the end of the play, Caesar reflected on the deaths of Antony and Cleopatra with measured respect.<br><br>Caesar’s reaction shows his ----",
+    "options": [
+      "political maturity",
+      "deep affection",
+      "personal guilt",
+      "emotional weakness"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>At the end of the play, Caesar reflected on the deaths of Antony and Cleopatra with measured respect.<br><br>The ending suggests that ----",
+    "options": [
+      "greatness survives defeat",
+      "love is meaningless",
+      "power always corrupts",
+      "Rome has failed"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Passage:<br>At the end of the play, Caesar reflected on the deaths of Antony and Cleopatra with measured respect.<br><br>The effect of the ending is to ----",
+    "options": [
+      "emphasize tragic nobility",
+      "reduce dramatic tension",
+      "celebrate political victory",
+      "mock the lovers"
+    ],
+    "answer": 0
+  },
+  
+  {
+  question: "Who narrates the events in Harper Lee’s To Kill a Mockingbird?",
+  options: ["Jem Finch", "Scout Finch", "Atticus Finch", "Dill Harris"],
+  answer: 1
+},
+{
+  question: "The town where the story of To Kill a Mockingbird takes place is called?",
+  options: ["Monroeville", "Maycomb", "Montgomery", "Finchville"],
+  answer: 1
+},
+{
+  question: "Scout Finch’s older brother in To Kill a Mockingbird is?",
+  options: ["Dill", "Jem", "Boo", "Walter"],
+  answer: 1
+},
+{
+  question: "What profession does Atticus Finch practice in To Kill a Mockingbird?",
+  options: ["Teacher", "Doctor", "Lawyer", "Judge"],
+  answer: 2
+},
+{
+  question: "Arthur 'Boo' Radley is feared by children in To Kill a Mockingbird because?",
+  options: ["He threatens them", "Rumors of him being dangerous", "He steals things", "He insults Atticus"],
+  answer: 1
+},
+{
+  question: "Calpurnia, in To Kill a Mockingbird, takes Scout and Jem to which place?",
+  options: ["Court", "School", "Church", "Market"],
+  answer: 2
+},
+{
+  question: "Scout learns an important lesson about empathy in To Kill a Mockingbird by?",
+  options: ["Fighting back", "Standing in someone else's shoes", "Ignoring others", "Judging quickly"],
+  answer: 1
+},
+{
+  question: "Who is falsely accused of raping Mayella Ewell in To Kill a Mockingbird?",
+  options: ["Bob Ewell", "Tom Robinson", "Atticus Finch", "Link Deas"],
+  answer: 1
+},
+{
+  question: "In To Kill a Mockingbird, what disability affects Tom Robinson?",
+  options: ["Blindness", "Deafness", "Injured left arm", "Limp"],
+  answer: 2
+},
+{
+  question: "The character of Bob Ewell in To Kill a Mockingbird primarily represents?",
+  options: ["Justice", "Racial prejudice", "Education", "Kindness"],
+  answer: 1
+},
+{
+  question: "During the trial in To Kill a Mockingbird, who serves as Tom Robinson’s defense attorney?",
+  options: ["Judge Taylor", "Atticus Finch", "Heck Tate", "Link Deas"],
+  answer: 1
+},
+{
+  question: "What is the symbolic meaning of the mockingbird in To Kill a Mockingbird?",
+  options: ["Freedom", "Innocence", "Courage", "Power"],
+  answer: 1
+},
+{
+  question: "Which two characters are considered symbolic ‘mockingbirds’ in the novel?",
+  options: ["Scout and Jem", "Atticus and Calpurnia", "Tom Robinson and Boo Radley", "Bob and Mayella Ewell"],
+  answer: 2
+},
+{
+  question: "Who attacks Jem and Scout near the end of To Kill a Mockingbird?",
+  options: ["Tom Robinson", "Bob Ewell", "Boo Radley", "Walter Cunningham"],
+  answer: 1
+},
+{
+  question: "The rabid dog incident in To Kill a Mockingbird highlights which of Atticus’s traits?",
+  options: ["Fear", "Courage and responsibility", "Anger", "Weakness"],
+  answer: 1
+},
+{
+  question: "Standing on Boo Radley’s porch helps Scout realize what lesson in To Kill a Mockingbird?",
+  options: ["Fear is powerful", "Perspective matters", "Violence is necessary", "Justice always wins"],
+  answer: 1
+},
+{
+  question: "The title To Kill a Mockingbird emphasizes which key theme?",
+  options: ["Justice is blind", "Evil must be punished", "Innocence should be protected", "Children must obey elders"],
+  answer: 2
+},
+{
+  question: "Jem’s broken arm in To Kill a Mockingbird symbolizes?",
+  options: ["Punishment", "Growth and change", "Failure", "Fear"],
+  answer: 1
+},
+{
+  question: "How does Scout change by the end of To Kill a Mockingbird?",
+  options: ["Becomes stronger physically", "Gains moral understanding", "Excels academically", "Develops leadership skills"],
+  answer: 1
+},
+{
+  question: "What stops the mob from harming Tom Robinson in To Kill a Mockingbird?",
+  options: ["Police arrival", "Scout’s innocence and words", "Court order", "Atticus’s warning"],
+  answer: 1
+},
+
+{
+  question: "Which character in To Kill a Mockingbird is the Finch children’s neighbor and friend during summers?",
+  options: ["Dill Harris", "Boo Radley", "Walter Cunningham", "Bob Ewell"],
+  answer: 0
+},
+{
+  question: "In To Kill a Mockingbird, who teaches Scout and Jem about the value of honesty and respect for others?",
+  options: ["Atticus Finch", "Calpurnia", "Aunt Alexandra", "Miss Maudie"],
+  answer: 1
+},
+{
+  question: "What motivates Bob Ewell’s hostility in To Kill a Mockingbird?",
+  options: ["His poverty and pride", "Political ambitions", "Religious beliefs", "Education"],
+  answer: 0
+},
+{
+  question: "In To Kill a Mockingbird, which character is described as a kind, reclusive figure who ultimately saves the children?",
+  options: ["Boo Radley", "Tom Robinson", "Atticus Finch", "Dill Harris"],
+  answer: 0
+},
+{
+  question: "In To Kill a Mockingbird, why does Atticus Finch shoot the rabid dog himself?",
+  options: ["To protect his family", "To demonstrate skill and responsibility", "He enjoys hunting", "The sheriff is absent"],
+  answer: 1
+},
+{
+  question: "Which character in To Kill a Mockingbird delivers a heartfelt plea for justice in court?",
+  options: ["Atticus Finch", "Judge Taylor", "Heck Tate", "Bob Ewell"],
+  answer: 0
+},
+{
+  question: "How does Scout react when she meets Boo Radley in To Kill a Mockingbird?",
+  options: ["She screams in fear", "She shows curiosity and kindness", "She attacks him", "She ignores him"],
+  answer: 1
+},
+{
+  question: "In To Kill a Mockingbird, why does Aunt Alexandra insist on Scout behaving like a lady?",
+  options: ["To please Atticus", "To maintain family reputation", "To impress the neighbors", "To prepare for school"],
+  answer: 1
+},
+{
+  question: "Which theme is highlighted through the trial of Tom Robinson in To Kill a Mockingbird?",
+  options: ["Childhood innocence", "Racial prejudice and injustice", "Love and friendship", "Economic inequality"],
+  answer: 1
+},
+{
+  question: "How does the community view Atticus Finch during Tom Robinson’s trial in To Kill a Mockingbird?",
+  options: ["With admiration and respect", "With hatred and suspicion", "With indifference", "As unimportant"],
+  answer: 0
+},
+{
+  question: "In To Kill a Mockingbird, which character represents the voice of morality and fairness in Maycomb?",
+  options: ["Scout Finch", "Atticus Finch", "Bob Ewell", "Dill Harris"],
+  answer: 1
+},
+{
+  question: "What lesson about human nature does Scout learn from her interactions with different Maycomb residents in To Kill a Mockingbird?",
+  options: ["Everyone is inherently good", "People are complex and prejudiced", "Society is fair", "Children are always innocent"],
+  answer: 1
+},
+{
+  question: "Which event in To Kill a Mockingbird exposes the social hierarchy and prejudice in Maycomb?",
+  options: ["The rabid dog incident", "The trial of Tom Robinson", "Scout starting school", "The Halloween pageant"],
+  answer: 1
+},
+{
+  question: "In To Kill a Mockingbird, why is the character of Calpurnia important?",
+  options: ["She is a strict disciplinarian", "She bridges the racial divide and guides the children", "She teaches Scout how to read", "She gossips with neighbors"],
+  answer: 1
+},
+{
+  question: "Who narrates the courtroom events in To Kill a Mockingbird from a child’s perspective?",
+  options: ["Jem Finch", "Scout Finch", "Dill Harris", "Atticus Finch"],
+  answer: 1
+},
+{
+  question: "In To Kill a Mockingbird, why does Scout fight at school?",
+  options: ["To defend Jem", "Because of insults about Atticus", "To show bravery", "To impress Dill"],
+  answer: 1
+},
+{
+  question: "Which character in To Kill a Mockingbird is a symbol of courage and moral conviction?",
+  options: ["Atticus Finch", "Bob Ewell", "Dill Harris", "Boo Radley"],
+  answer: 0
+},
+{
+  question: "In To Kill a Mockingbird, what role does Miss Maudie play in the children’s understanding of their father?",
+  options: ["She criticizes Atticus", "She explains his principles and kindness", "She encourages mischief", "She teaches them school subjects"],
+  answer: 1
+},
+{
+  question: "Which character in To Kill a Mockingbird is considered a social outcast yet performs a heroic act?",
+  options: ["Boo Radley", "Bob Ewell", "Dill Harris", "Tom Robinson"],
+  answer: 0
+},
+{
+  question: "What motivates Scout’s empathy and growth in To Kill a Mockingbird?",
+  options: ["Her friendship with Dill", "Her father’s teachings and experiences with Boo and Tom", "Her schooling", "The neighborhood gossip"],
+  answer: 1
+},
+{
+  question: "In To Kill a Mockingbird, the Ewells are best described as representing?",
+  options: ["Poverty, ignorance, and racism", "Law and order", "Compassion", "Education and refinement"],
+  answer: 0
+},
+{
+  question: "How is justice portrayed in To Kill a Mockingbird through the trial?",
+  options: ["It is fair and balanced", "It is influenced by prejudice and social bias", "It is quick and decisive", "It is ignored completely"],
+  answer: 1
+},
+{
+  question: "Which lesson does Scout learn by observing the town of Maycomb in To Kill a Mockingbird?",
+  options: ["Society is perfect", "People have both good and bad qualities", "Adults are always right", "Children are more mature than adults"],
+  answer: 1
+},
+{
+  question: "In To Kill a Mockingbird, why does Jem destroy Mrs. Dubose’s camellia flowers?",
+  options: ["Out of anger at her insults", "For fun", "To play a prank", "By accident"],
+  answer: 0
+},
+{
+  question: "Who teaches Scout and Jem about courage by example in To Kill a Mockingbird?",
+  options: ["Mrs. Dubose", "Atticus Finch", "Bob Ewell", "Miss Maudie"],
+  answer: 1
+},
+{
+  question: "In To Kill a Mockingbird, what does Boo Radley leave in the tree knot-hole for the children?",
+  options: ["Money and letters", "Toys and trinkets", "Food", "Books"],
+  answer: 1
+},
+{
+  question: "Which theme is explored through Tom Robinson’s wrongful conviction in To Kill a Mockingbird?",
+  options: ["Childhood innocence", "Racial injustice and prejudice", "Family loyalty", "Romantic love"],
+  answer: 1
+},
+{
+  question: "In To Kill a Mockingbird, Scout’s first day at school reveals?",
+  options: ["Her love for learning", "The rigid nature of the education system and social expectations", "Her academic brilliance", "Her friendship with Walter Cunningham"],
+  answer: 1
+},
+{
+  question: "Who interrupts the mob outside the jail in To Kill a Mockingbird?",
+  options: ["Scout Finch", "Jem Finch", "Atticus Finch", "Dill Harris"],
+  answer: 0
+},
+{
+  question: "In To Kill a Mockingbird, how is Mayella Ewell’s loneliness depicted?",
+  options: ["She spends time with friends", "She is isolated and abused by her father", "She is admired by neighbors", "She has no feelings"],
+  answer: 1
+},
+{
+  question: "How does Scout prevent violence during the mob scene in To Kill a Mockingbird?",
+  options: ["By calling the police", "By speaking to the mob with innocence", "By running away", "By threatening them"],
+  answer: 1
+},
+{
+  question: "Who narrates the moral lessons and growth of children in To Kill a Mockingbird?",
+  options: ["Atticus Finch", "Scout Finch", "Jem Finch", "Miss Maudie"],
+  answer: 1
+},
+{
+  question: "In To Kill a Mockingbird, how does Boo Radley ultimately interact with the children?",
+  options: ["He attacks them", "He gifts them objects and saves them from danger", "He ignores them", "He exposes their secrets"],
+  answer: 1
+},
+{
+  question: "In To Kill a Mockingbird, what does the Halloween pageant symbolize?",
+  options: ["Community unity and childhood innocence", "Violence", "Racial tension", "Education"],
+  answer: 0
+},
+{
+  question: "What lesson about morality does Atticus emphasize in To Kill a Mockingbird?",
+  options: ["Might makes right", "Empathy and justice", "Obedience without question", "Revenge is necessary"],
+  answer: 1
+},
+{
+  question: "Which character in To Kill a Mockingbird faces prejudice despite innocence?",
+  options: ["Bob Ewell", "Tom Robinson", "Jem Finch", "Dill Harris"],
+  answer: 1
+},
+{
+  question: "Scout learns about human nature and kindness from which character in To Kill a Mockingbird?",
+  options: ["Bob Ewell", "Miss Maudie", "Mayella Ewell", "Walter Cunningham"],
+  answer: 1
+},
+{
+  question: "In To Kill a Mockingbird, the Finch family is respected in Maycomb primarily because of?",
+  options: ["Their wealth", "Atticus Finch’s morality and integrity", "Their land", "Their education"],
+  answer: 1
+},
+{
+  question: "Who is a symbol of innocence that suffers due to prejudice in To Kill a Mockingbird?",
+  options: ["Scout Finch", "Tom Robinson", "Dill Harris", "Boo Radley"],
+  answer: 1
+},
+{
+  question: "In To Kill a Mockingbird, which character challenges societal norms and expectations?",
+  options: ["Scout Finch", "Bob Ewell", "Atticus Finch", "Jem Finch"],
+  answer: 2
+},
+{
+  question: "What does Jem learn about courage from Mrs. Dubose in To Kill a Mockingbird?",
+  options: ["It is physical strength", "It is overcoming personal battles despite fear", "It is fighting others", "It is always public"],
+  answer: 1
+},
+{
+  question: "How does Harper Lee use the character of Boo Radley in To Kill a Mockingbird?",
+  options: ["As a villain", "To show the impact of rumors and isolation", "For comic relief", "As a teacher"],
+  answer: 1
+},
+{
+  question: "Which aspect of Maycomb society is highlighted by the children’s interactions in To Kill a Mockingbird?",
+  options: ["Economic prosperity", "Racial and social divisions", "Religious unity", "Political stability"],
+  answer: 1
+},
+{
+  question: "In To Kill a Mockingbird, the trial of Tom Robinson ultimately teaches about?",
+  options: ["Justice prevailing", "Prejudice and injustice", "Political maneuvering", "Childhood innocence"],
+  answer: 1
+},
+{
+  question: "Scout’s growth in To Kill a Mockingbird is best seen through her ability to?",
+  options: ["Read faster than Jem", "Understand people’s perspectives and act with empathy", "Win arguments", "Fight physically"],
+  answer: 1
+},
+{
+  question: "Which character in To Kill a Mockingbird represents moral guidance for Scout and Jem?",
+  options: ["Atticus Finch", "Bob Ewell", "Miss Maudie", "Dill Harris"],
+  answer: 0
+},
+{
+  question: "The title To Kill a Mockingbird serves as a metaphor for?",
+  options: ["Punishing criminals", "Destroying innocence and goodness", "Winning justice", "Childhood games"],
+  answer: 1
+},
+
+{
+  question: "Who is the central character in So the Path Does Not Die by Pede Hollist?",
+  options: ["Cammy", "Fina", "Sheku", "Bayo"],
+  answer: 1
+},
+{
+  question: "Fina’s disrupted female initiation in So the Path Does Not Die most directly leads to?",
+  options: ["Her academic success", "Her family moving to Freetown", "Her marriage to Jemal", "Her friendship with Mawaf"],
+  answer: 1
+},
+{
+  question: "Which theme is strongly highlighted in So the Path Does Not Die through Fina’s life experiences?",
+  options: ["Political rebellion", "Cultural identity and belonging", "Economic theory", "Urban planning"],
+  answer: 1
+},
+{
+  question: "Where does Fina relocate after leaving Sierra Leone in So the Path Does Not Die?",
+  options: ["United Kingdom", "United States of America", "Canada", "France"],
+  answer: 1
+},
+{
+  question: "Which societal issue forms a major conflict in So the Path Does Not Die?",
+  options: ["Environmental pollution", "Female genital mutilation (FGM)", "Class struggle", "Technological change"],
+  answer: 1
+},
+{
+  question: "Fina in So the Path Does Not Die believes her struggles are linked to?",
+  options: ["Her education abroad", "Her failed initiation", "Her wealth", "Her friendship with Cammy"],
+  answer: 1
+},
+{
+  question: "Fina in So the Path Does Not Die ultimately decides to advocate for?",
+  options: ["Economic reforms", "War-traumatized children", "Traditional rites", "Housing development"],
+  answer: 1
+},
+{
+  question: "Which character in So the Path Does Not Die represents traditional pressure on Fina to undergo initiation?",
+  options: ["Amadu", "Baramusu", "Cammy", "Bayo"],
+  answer: 1
+},
+{
+  question: "What cultural practice is depicted as both traditional and harmful in So the Path Does Not Die?",
+  options: ["Blood feuds", "Arranged marriage", "Female circumcision", "Foot binding"],
+  answer: 2
+},
+{
+  question: "Fina in So the Path Does Not Die struggles to reconcile?",
+  options: ["Her scholarship and career", "Her African roots and Western life", "Her art and family", "Her religion and politics"],
+  answer: 1
+},
+{
+  question: "Which character’s death is a catalyst for Fina’s return to Sierra Leone in So the Path Does Not Die?",
+  options: ["Cammy’s father", "Baramusu", "Fina’s mother", "Her mentor"],
+  answer: 2
+},
+{
+  question: "Fina’s abusive marriage in So the Path Does Not Die is to whom?",
+  options: ["Cammy", "Jemal", "Sheku", "Aman"],
+  answer: 1
+},
+{
+  question: "Which setting does So the Path Does Not Die begin in?",
+  options: ["Koidu", "Freetown", "Talaba Village", "New York"],
+  answer: 2
+},
+{
+  question: "Fina’s foster guardian after her father’s death in So the Path Does Not Die is?",
+  options: ["Pa Heddle", "Aman", "Cammy", "Mawaf"],
+  answer: 0
+},
+{
+  question: "Which theme is explored through Fina’s experiences with racial and ethnic discrimination in So the Path Does Not Die?",
+  options: ["Classism", "Diaspora challenges", "Environmentalism", "Urban decay"],
+  answer: 1
+},
+{
+  question: "Fina hopes to find upon returning to her homeland in So the Path Does Not Die?",
+  options: ["Her lost wealth", "Her grandmother Baramusu", "Her academic degree", "Her old school friends"],
+  answer: 1
+},
+{
+  question: "The title So the Path Does Not Die metaphorically refers to?",
+  options: ["Preserving harmful customs", "Keeping traditions and identity alive while transforming them", "Fleeing cultural obligations", "Ending all traditions"],
+  answer: 1
+},
+{
+  question: "Who challenges Fina’s cultural ideals in So the Path Does Not Die?",
+  options: ["Her father", "Cammy", "Her classmates", "Her boss"],
+  answer: 1
+},
+{
+  question: "Which event symbolizes Fina’s cultural conflict in So the Path Does Not Die?",
+  options: ["Her high school graduation", "Her disrupted FGM initiation", "Her job promotion", "Her first trip abroad"],
+  answer: 1
+},
+{
+  question: "Which theme in So the Path Does Not Die deals with Fina’s sense of belonging?",
+  options: ["Modernity vs tradition", "Death and mourning", "Cultural identity and belonging", "Sports and leisure"],
+  answer: 2
+},
+{
+  question: "What role does education play in Fina’s journey in So the Path Does Not Die?",
+  options: ["A source of alienation and empowerment", "Irrelevant to her goals", "A minor subplot", "Only family expectations"],
+  answer: 0
+},
+{
+  question: "So the Path Does Not Die highlights which challenge faced by immigrants?",
+  options: ["Language barriers only", "Cultural dislocation and identity struggle", "No struggle at all", "Excessive wealth"],
+  answer: 1
+},
+{
+  question: "Which character in So the Path Does Not Die is seen as supportive of Fina’s empowerment?",
+  options: ["Jemal", "Bayo", "Fina’s mother", "Memuna"],
+  answer: 1
+},
+{
+  question: "Why do Fina’s parents leave Talaba Village in So the Path Does Not Die?",
+  options: ["To seek better jobs", "Because of the community’s reaction to the interrupted initiation", "To pursue education", "To travel for leisure"],
+  answer: 1
+},
+{
+  question: "The narrative structure of So the Path Does Not Die is told from?",
+  options: ["First-person diary", "Third-person omniscient", "Diary letters", "Unreliable narrator"],
+  answer: 1
+},
+{
+  question: "Which practice is debated between modern and traditional views in So the Path Does Not Die?",
+  options: ["Marriage customs", "Female circumcision", "Funeral rites", "Festivals"],
+  answer: 1
+},
+{
+  question: "Fina’s adopted daughter in So the Path Does Not Die is named?",
+  options: ["Dimusu-Celeste", "Mawaf", "Nobuo", "Baramusu"],
+  answer: 1
+},
+{
+  question: "Fina experiences trauma from what in So the Path Does Not Die?",
+  options: ["War only", "Her failed initiation and subsequent assaults", "Financial loss only", "Natural disaster"],
+  answer: 1
+},
+{
+  question: "Which character complicates Fina’s wedding plans in So the Path Does Not Die?",
+  options: ["Sheku", "Jemal", "Bayo", "Aman"],
+  answer: 1
+},
+{
+  question: "Which place symbolizes traditional homeland in So the Path Does Not Die?",
+  options: ["Freetown", "Talaba village", "New York", "London"],
+  answer: 1
+},
+{
+  question: "Which relationship highlights cultural misunderstandings in So the Path Does Not Die?",
+  options: ["Fina and Cammy", "Fina and her father", "Fina and Mawaf", "Fina and Bayo"],
+  answer: 0
+},
+{
+  question: "Fina’s ultimate contribution by the end of So the Path Does Not Die is?",
+  options: ["Becoming a successful athlete", "Advocating for war-traumatized children and finding reconciliation", "Returning to Talaba to reignite tradition", "Starting a business"],
+  answer: 1
+},
+{
+  question: "Which theme addresses bodily autonomy in So the Path Does Not Die?",
+  options: ["Identity", "Female empowerment and body politics", "Romantic love", "Economics"],
+  answer: 1
+},
+{
+  question: "Which setting contrasts tradition with modernity in So the Path Does Not Die?",
+  options: ["The forest alone", "America and Sierra Leone", "Only Freetown", "Only Talaba"],
+  answer: 1
+},
+{
+  question: "Fina’s experience in Crowther College represents what in So the Path Does Not Die?",
+  options: ["Academic comfort", "Ethnic and racial discrimination within diaspora", "Medical breakthrough", "Sports achievement"],
+  answer: 1
+},
+{
+  question: "Which character highlights transnational identity struggles in So the Path Does Not Die?",
+  options: ["Her boss only", "Cammy", "Baramusu only", "Pa Heddle only"],
+  answer: 1
+},
+{
+  question: "Which major event symbolizes Fina confronting her past in So the Path Does Not Die?",
+  options: ["Her first job", "Visiting Talaba and seeking her grandmother", "Her college graduation", "Her birthday party"],
+  answer: 1
+},
+{
+  question: "Which conflict reflects the broader immigrant experience in So the Path Does Not Die?",
+  options: ["Language translation issues", "Cultural identity vs assimilation", "Traffic problems", "Weather differences"],
+  answer: 1
+},
+{
+  question: "Who provides Fina with early schooling after her father’s death in So the Path Does Not Die?",
+  options: ["Cammy", "Pa Heddle", "Her mother only", "Her grandmother from afar"],
+  answer: 1
+},
+{
+  question: "What motivates Fina to return to her home country in So the Path Does Not Die?",
+  options: ["Business investment", "Need for closure and belonging", "Vacation plans", "Religious pilgrimage"],
+  answer: 1
+},
+{
+  question: "Which concept is explored through Fina’s dual experiences in Sierra Leone and America in So the Path Does Not Die?",
+  options: ["Pure tradition only", "Cultural hybridity and struggle", "Unchanging cultural norms", "Uniform identity"],
+  answer: 1
+},
+
+{
+  question: "Which village does So the Path Does Not Die begin in?",
+  options: ["Freetown", "Koidu", "Talaba", "Maryland"],
+  answer: 2
+},
+{
+  question: "What leads Fina’s family to leave Talaba in So the Path Does Not Die?",
+  options: ["Civil war", "Interrupted initiation ceremony", "Flooding", "Loss of cattle"],
+  answer: 1
+},
+{
+  question: "In So the Path Does Not Die, what disease causes Amadu’s death?",
+  options: ["Tetanus", "Malaria", "Tuberculosis", "Cholera"],
+  answer: 0
+},
+{
+  question: "Fina faces ethnic discrimination at Crowther College in So the Path Does Not Die because she is?",
+  options: ["Christian", "Fula/Fulani", "Wealthy", "Foreign exchange student"],
+  answer: 1
+},
+{
+  question: "In So the Path Does Not Die, Fina drops out of college after being assaulted by whom?",
+  options: ["Her professor", "Kizzy", "Cammy", "Isa"],
+  answer: 1
+},
+{
+  question: "Fina moves to which country to build her career in So the Path Does Not Die?",
+  options: ["Canada", "United Kingdom", "United States of America", "France"],
+  answer: 2
+},
+{
+  question: "Which theme in So the Path Does Not Die highlights the struggle between tradition and modernity?",
+  options: ["Environmentalism", "Female Genital Mutilation conflict", "Sports culture", "Technology adoption"],
+  answer: 1
+},
+{
+  question: "In So the Path Does Not Die, Fina believes her problems stem from?",
+  options: ["Her wealth", "Interrupted FGM initiation", "College grades", "Her children"],
+  answer: 1
+},
+{
+  question: "Who is Fina’s Trinidadian fiancé in So the Path Does Not Die?",
+  options: ["Bayo", "Cammy", "Sheku", "Jemal"],
+  answer: 1
+},
+{
+  question: "In So the Path Does Not Die, what profession does Cammy have?",
+  options: ["Engineer", "Lawyer", "Surgeon", "Teacher"],
+  answer: 2
+},
+{
+  question: "So the Path Does Not Die uses Fina’s journey to explore which broad theme?",
+  options: ["Technology advancement", "Cultural identity and belonging", "World politics", "Sportsmanship"],
+  answer: 1
+},
+{
+  question: "Which character supports Fina’s empowerment and later marries Bayo in So the Path Does Not Die?",
+  options: ["Isa", "Memuna", "Aman", "Edna"],
+  answer: 2
+},
+{
+  question: "In So the Path Does Not Die, Fina continues to help which family member despite challenges?",
+  options: ["Her sister Isa", "Her brother", "Her mother only", "Her aunt"],
+  answer: 0
+},
+{
+  question: "Which theme of So the Path Does Not Die deals with discrimination Fina faces in the USA?",
+  options: ["Materialism", "Racial and ethnic discrimination", "Sports rivalry", "Weather differences"],
+  answer: 1
+},
+{
+  question: "In So the Path Does Not Die, where does Fina first work in the United States?",
+  options: ["Customer care job", "Hospital nurse", "Bank teller", "Restaurant chef"],
+  answer: 0
+},
+{
+  question: "Which event in So the Path Does Not Die prevents Fina’s wedding to Cammy?",
+  options: ["Her flight delay", "Her ex‑husband Jemal’s appearance", "Cammy’s travel ban", "Weather issues"],
+  answer: 1
+},
+{
+  question: "Fina’s first husband in So the Path Does Not Die is named?",
+  options: ["Kizzy", "Jemal", "Bayo", "Sheku"],
+  answer: 1
+},
+{
+  question: "In So the Path Does Not Die, Fina adopts which war‑affected girl?",
+  options: ["Memuna", "Mawaf", "Dimusu‑Celeste", "Mama Yegbe"],
+  answer: 1
+},
+{
+  question: "The civil war in Sierra Leone impacts Fina’s life by?",
+  options: ["Strengthening her wealth only", "Destroying Talaba and affecting identity", "Making her indifferent", "Improving family ties"],
+  answer: 1
+},
+{
+  question: "In So the Path Does Not Die, Mama Yegbe is described as?",
+  options: ["Young woman", "Blind old woman", "Fina’s cousin", "Cammy’s aunt"],
+  answer: 1
+},
+{
+  question: "Which setting in So the Path Does Not Die contrasts traditional and modern life?",
+  options: ["Talaba and Freetown", "Only Talaba", "Only Maryland", "New York"],
+  answer: 0
+},
+{
+  question: "So the Path Does Not Die depicts Fina’s struggle with?",
+  options: ["Finding wealth", "Cultural alienation and belonging", "Becoming famous", "Winning a competition"],
+  answer: 1
+},
+{
+  question: "Which theme in So the Path Does Not Die critiques patriarchal structures?",
+  options: ["Gender and female empowerment", "Sports culture", "Economic theory", "Technology use"],
+  answer: 0
+},
+{
+  question: "In So the Path Does Not Die, Fina’s return to Sierra Leone symbolizes?",
+  options: ["Escape from responsibilities", "Search for belonging and reconciliation", "Avoiding family", "Earning money"],
+  answer: 1
+},
+{
+  question: "Which character in So the Path Does Not Die is linked to war trauma?",
+  options: ["Mawaf", "Cammy", "Bayo", "Isa"],
+  answer: 0
+},
+{
+  question: "Fina’s interrupted FGM initiation in So the Path Does Not Die was stopped by?",
+  options: ["Her grandmother", "Her father", "Her mother", "Her brother"],
+  answer: 1
+},
+{
+  question: "Which theme in So the Path Does Not Die explores the role of women?",
+  options: ["Sports", "Female empowerment and autonomy", "Technology adoption", "Travel adventure"],
+  answer: 1
+},
+{
+  question: "In So the Path Does Not Die, what challenge does Fina face in her foster home?",
+  options: ["Financial problems only", "Feeling like an outsider", "Winning competitions", "Fame issues"],
+  answer: 1
+},
+{
+  question: "Which location in So the Path Does Not Die becomes synonymous with Fina’s roots?",
+  options: ["Freetown", "Talaba village", "Maryland", "London"],
+  answer: 1
+},
+{
+  question: "In So the Path Does Not Die, Fina’s mother’s burial reveals?",
+  options: ["Strict traditional burial timing", "No burial rites", "A festival", "A wedding ceremony"],
+  answer: 0
+},
+{
+  question: "Which theme in So the Path Does Not Die highlights trauma and healing?",
+  options: ["Human rights and justice", "Trauma and healing", "Sports and leisure", "Technology effects"],
+  answer: 1
+},
+{
+  question: "The climax in So the Path Does Not Die revolves around conflicts between Fina and?",
+  options: ["Her sister only", "Cammy over cultural views", "Bayo alone", "Her cousin"],
+  answer: 1
+},
+{
+  question: "Which event in So the Path Does Not Die shows Fina confronting her past?",
+  options: ["Her university graduation", "Her visit to Talaba and meeting Mawaf", "Buying a house", "Winning a prize"],
+  answer: 1
+},
+{
+  question: "In So the Path Does Not Die, who helps Fina find work initially in America?",
+  options: ["Meredith Frank", "Cammy", "Her father", "Aman"],
+  answer: 0
+},
+{
+  question: "Which theme of So the Path Does Not Die reflects on identity in two cultures?",
+  options: ["Material wealth", "Cultural identity and duality", "Sports competition", "Weather differences"],
+  answer: 1
+},
+{
+  question: "In So the Path Does Not Die, Fina splits her life between America and?",
+  options: ["Canada", "Sierra Leone", "Nigeria only", "France"],
+  answer: 1
+},
+{
+  question: "So the Path Does Not Die frames Fina’s story as a?",
+  options: ["Romantic comedy", "Bildungsroman", "Science fiction", "Historical account"],
+  answer: 1
+},
+{
+  question: "Which character in So the Path Does Not Die represents change from tradition?",
+  options: ["Baramusu", "Cammy", "Amadu", "Pa Heddle"],
+  answer: 1
+},
+{
+  question: "In So the Path Does Not Die, Fina’s major work at the end involves?",
+  options: ["Politics", "Helping war‑traumatized children", "Winning a competition", "Writing a book"],
+  answer: 1
+},
+{
+  question: "Which conflict in So the Path Does Not Die symbolizes identity struggle?",
+  options: ["Sport rivalry", "Tradition versus autonomy", "Fashion competition", "Travel choices"],
+  answer: 1
+},
+{
+  question: "Fina’s mindset change by the end of So the Path Does Not Die shows?",
+  options: ["Rejection of home completely", "Acceptance and bridging of cultures", "Desire to leave again", "Regret of everything"],
+  answer: 1
+},
+{
+  question: "Which character in So the Path Does Not Die becomes part of Fina’s chosen family?",
+  options: ["Mawaf", "Kizzy", "Lincoln Scraps", "Sidibe"],
+  answer: 0
+},
+{
+  question: "In So the Path Does Not Die, cultural values are depicted as?",
+  options: ["Static and unchanging", "Influential and complex", "Unimportant", "Only Western"],
+  answer: 1
+},
+{
+  question: "Which social issue does So the Path Does Not Die primarily critique?",
+  options: ["Environmental pollution", "Female genital mutilation and cultural norms", "Sports ethics", "Technology dependence"],
+  answer: 1
+},
+
+
+  
+]
 
 
     ],

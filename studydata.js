@@ -13359,13 +13359,571 @@ window.studyData = {
 
 ],
 
-"Economics": []
+"Economics": [
+  {
+  "topic": "Nature and Scope of Economics",
+  "notes": {
+    "title": "Comprehensive Guide to Nature and Scope of Economics for JAMB",
+    "content": [
+      {
+        "type": "text",
+        "data": "<b>Definition:</b>\nEconomics is the social science that studies how individuals, firms, and governments make choices to satisfy unlimited human wants using limited resources. It focuses on the production, distribution, and consumption of goods and services. Economics explains why resources are scarce, how people allocate them, and how society can maximize welfare. It helps us understand human behavior in financial and non-financial decision-making, and it is essential for planning both personal finances and national economic policies."
+      },
+      {
+        "type": "text",
+        "data": "<b>Nature of Economics:</b>\n1. <b>Social Science:</b> Economics studies human behavior and interactions concerning the allocation of scarce resources. It looks at how people make choices and respond to incentives.\n2. <b>Science:</b> Economics uses observation, measurement, and logical reasoning to analyze economic activities. It relies on models, statistics, and empirical data to explain and predict outcomes.\n3. <b>Practical Discipline:</b> Economics addresses everyday problems such as unemployment, inflation, poverty, and resource management. It provides tools for solving real-life economic issues.\n4. <b>Dynamic and Changing:</b> Economics evolves over time as societies, technologies, and policies change. For example, digital currencies and e-commerce have introduced new economic behaviors.\n5. <b>Decision-Making Science:</b> Economics is about making choices due to scarcity. Individuals, businesses, and governments must prioritize limited resources to meet multiple competing wants. Every decision has consequences."
+      },
+      {
+        "type": "text",
+        "data": "<b>Scope of Economics:</b>\nThe scope of Economics refers to the areas or branches that it covers to study economic activities and solve problems. The main branches include:\n1. <b>Microeconomics:</b> Focuses on individual units such as households, firms, and markets. It examines demand and supply, consumer behavior, cost of production, pricing, and market structures. For example, microeconomics explains why a baker decides the price of bread or why consumers buy more of one product when its price falls.\n2. <b>Macroeconomics:</b> Focuses on the economy as a whole. Topics include national income, inflation, unemployment, money supply, fiscal and monetary policies. For example, macroeconomics analyzes why the national unemployment rate rises or why inflation increases.\n3. <b>Public Economics:</b> Studies government roles in the economy, including taxation, expenditure, regulation, and budgeting. It explains how governments intervene to stabilize the economy and provide public goods.\n4. <b>International Economics:</b> Focuses on trade between countries, exchange rates, balance of payments, and international policies. It helps explain why some countries export more than they import or how tariffs affect prices.\n5. <b>Development Economics:</b> Focuses on strategies to improve living standards, increase production, and reduce poverty in developing countries. For example, policies to improve education and infrastructure in Nigeria.\n6. <b>Environmental Economics:</b> Studies how resources are used, how economic activities affect the environment, and strategies for sustainable development. For example, evaluating the economic cost of pollution and deforestation."
+      },
+      {
+        "type": "text",
+        "data": "<b>Basic Economic Problems:</b>\nBecause resources are scarce while human wants are unlimited, every society faces four basic economic problems:\n1. <b>What to Produce?</b> Deciding which goods and services should be produced to satisfy the most urgent wants. For instance, should the government invest more in healthcare or education?\n2. <b>How to Produce?</b> Determining the method of production—labor-intensive (using more workers) or capital-intensive (using machines). For example, should a farm use tractors or rely on manual labor?\n3. <b>For Whom to Produce?</b> Deciding how goods and services are distributed among people in society. Should food be equally distributed, or based on ability to pay?\n4. <b>How to Achieve Economic Growth?</b> Strategies to increase production and improve standards of living. This involves investing in infrastructure, technology, and human capital."
+      },
+      {
+        "type": "text",
+        "data": "<b>Economic Systems and Their Role:</b>\nEconomic systems determine how societies organize production, distribution, and consumption:\n- <b>Traditional Economy:</b> Decisions are based on customs, traditions, and cultural practices. Example: Some rural Nigerian villages.\n- <b>Command Economy:</b> Government decides what, how, and for whom to produce. Example: North Korea.\n- <b>Market Economy:</b> Decisions are made by individuals and firms through supply and demand. Prices guide resource allocation. Example: USA.\n- <b>Mixed Economy:</b> Combines market forces and government intervention. Example: Nigeria.\nThe type of economic system affects how the basic economic problems are addressed and how resources are allocated efficiently."
+      },
+      {
+        "type": "text",
+        "data": "<b>Importance of Studying the Nature and Scope of Economics:</b>\n- Helps understand how societies manage resources efficiently.\n- Guides individuals and businesses in making informed financial and production decisions.\n- Explains government policies and their impact on inflation, employment, and growth.\n- Prepares students for advanced economic studies and competitive exams like JAMB.\n- Helps in analyzing real-life economic issues like unemployment, poverty, taxation, and trade."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation Questions:</b>\n<b>1. Define economics and explain why it is called a social science.</b>\n<b>2. List and explain the five characteristics of the nature of economics.</b>\n<b>3. Distinguish between microeconomics and macroeconomics with examples.</b>\n<b>4. Identify the basic economic problems every society faces and explain each with examples.</b>\n<b>5. Describe the four main economic systems and explain how each solves the basic economic problems.</b>\n<b>6. Explain the importance of studying the nature and scope of economics.</b>\n<b>7. Discuss the relationship between scarcity, choice, and opportunity cost in decision-making.</b>\n<b>8. Give real-life examples of how economic concepts apply to daily life in Nigeria.</b>"
+      }
+    ]
+  }
+}
+],
+
+"lekki_headmaster": [
+  
+{
+  "topic": "The Lekki Headmaster – Chapter One",
+  "notes": {
+    "title": "Chapter One Summary and Objective Questions",
+    "content": [
+      {
+        "type": "text",
+        "data": "The story opens at Stardom Schools, a highly respected private school located in Lekki, Lagos. The school is known for its discipline, structure, and strong academic reputation. Students assemble as usual for the morning assembly, a routine event that reflects order and authority within the school. The environment is calm and organised, with teachers and students expecting the normal proceedings led by the headmaster."
+      },
+      {
+        "type": "text",
+        "data": "Mr. Bepo Adewale, the headmaster of Stardom Schools, is introduced as a confident, charismatic, and well-respected leader. He is admired for his motivational speeches, firm control of the school, and professional appearance. His presence normally commands respect and reassures both staff and students. However, on this particular morning, his appearance and behaviour immediately suggest that something is wrong."
+      },
+      {
+        "type": "text",
+        "data": "As Mr. Bepo approaches the podium, observers notice that he looks withdrawn and emotionally burdened. His usual confidence is absent, and his body language reflects inner turmoil. Teachers who know him well sense that this is unusual, but no one expects the dramatic turn the assembly is about to take."
+      },
+      {
+        "type": "text",
+        "data": "When Mr. Bepo begins to speak, his voice trembles and his words come out disjointed. He struggles to maintain composure and suddenly breaks down, crying openly in front of the entire school. The assembly is thrown into confusion as students watch in shock and teachers struggle to understand what could cause such a strong and disciplined man to lose control publicly."
+      },
+      {
+        "type": "text",
+        "data": "The emotional breakdown completely disrupts the structured atmosphere of Stardom Schools. The students are frightened and confused, while the teachers are deeply concerned. The moment exposes the vulnerability of a man who is usually seen as a symbol of authority and strength, challenging the idea that leaders are emotionally invulnerable."
+      },
+      {
+        "type": "text",
+        "data": "Recognising the seriousness of the situation, the Vice Principal, Mrs. Grace Apeh, quickly intervenes. She escorts Mr. Bepo away from the podium and takes control of the assembly. Her calm and professional handling of the situation helps prevent disorder, although the emotional impact of the incident remains."
+      },
+      {
+        "type": "text",
+        "data": "After the assembly, concern spreads among the school staff and management. Colleagues try to speak with Mr. Bepo to understand the cause of his distress, but he offers no clear explanation. He repeatedly assures them that he will be fine, even though his behaviour suggests deep emotional struggle."
+      },
+      {
+        "type": "text",
+        "data": "News of the incident spreads quickly beyond the school environment. Parents become aware of the breakdown, and rumours begin to circulate. Some people suspect health issues, others suggest professional pressure, while many believe that the problem lies in Mr. Bepo’s personal or family life."
+      },
+      {
+        "type": "text",
+        "data": "The narrative subtly reveals that Mr. Bepo’s wife lives abroad in London. Attempts to contact her are unsuccessful, which strengthens suspicions that emotional loneliness, marital strain, or separation may be contributing factors to his condition. This detail hints at the personal sacrifices and emotional costs associated with professional success."
+      },
+      {
+        "type": "text",
+        "data": "The chapter ends without revealing the true cause of Mr. Bepo’s emotional collapse. Instead, it leaves readers with a sense of mystery and anticipation. Mr. Bepo is presented as a man standing at a critical turning point, and the chapter sets the foundation for future revelations about his past, his choices, and the consequences of his decisions."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation questions</b>\n1. The setting of Chapter One of *The Lekki Headmaster* is A. a public school in Ikorodu B. a private school in Lekki C. a boarding school in Ibadan D. a mission school in Abeokuta\n2. Stardom Schools is best described as a school known for A. indiscipline and freedom B. strict punishment C. discipline and academic excellence D. sports and entertainment\n3. Mr. Bepo Adewale is the A. class teacher B. school counsellor C. proprietor D. headmaster\n4. Mr. Bepo is generally admired because of his A. wealth and influence B. strict punishments C. confidence and leadership D. political connections\n5. What unusual behaviour does Mr. Bepo display during the assembly? A. He arrives late B. He forgets his speech C. He breaks down and cries D. He scolds the students\n6. The immediate reaction of the students to Mr. Bepo’s behaviour is A. excitement B. laughter C. shock and confusion D. anger\n7. Who takes control of the assembly after the headmaster’s breakdown? A. The school nurse B. Mrs. Grace Apeh C. The senior prefect D. A visiting official\n8. Mrs. Grace Apeh is the A. school counsellor B. class teacher C. vice principal D. school proprietor\n9. Mr. Bepo’s emotional breakdown suggests that A. leaders are always weak B. authority figures have no emotions C. leadership carries emotional burdens D. discipline causes failure\n10. After the assembly, Mr. Bepo’s colleagues describe him as A. clear and cheerful B. aggressive and angry C. calm and confident D. vague and emotionally distant\n11. One major reason rumours spread quickly is because A. parents witnessed the event B. the school is poorly managed C. the incident was public and unusual D. teachers encouraged gossip\n12. Mr. Bepo’s wife is said to be living A. in Abuja B. in Canada C. in London D. in Accra\n13. The failure to reach Mr. Bepo’s wife increases suspicion of A. financial fraud B. marital or emotional problems C. school closure D. political pressure\n14. The author ends Chapter One without revealing the cause of the breakdown in order to A. confuse readers B. reduce the story length C. create suspense D. criticize leadership\n15. The overall mood created at the end of Chapter One can best be described as A. joyful B. humorous C. mysterious D. celebratory"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "The Lekki Headmaster – Chapter Two",
+  "notes": {
+    "title": "Chapter Two Summary and Objective Questions",
+    "content": [
+      {
+        "type": "text",
+        "data": "Chapter Two picks up immediately after the emotional breakdown of Mr. Bepo Adewale during the morning assembly. The once orderly and disciplined atmosphere of Stardom Schools has been disrupted. Students whisper nervously among themselves, their usual morning energy subdued by confusion and concern. Teachers exchange uneasy glances, sensing that something serious has occurred, and the hum of the school is tinged with tension."
+      },
+      {
+        "type": "text",
+        "data": "Mr. Bepo is quickly escorted to his office by senior staff. On the way, he walks slowly, his posture heavy, and his face etched with worry. Teachers who have worked with him for years notice that his usual confident stride is absent. In the office, senior staff attempt to engage him in conversation, asking if he is unwell or if any incident triggered his emotional display. Mr. Bepo remains silent for long moments, staring out the window as though lost in thought, offering only vague assurances that he is fine."
+      },
+      {
+        "type": "text",
+        "data": "The management team holds an emergency discussion about the implications of the breakdown. They worry about how this event could affect the school's public image and the confidence of parents. Rumours are already beginning to circulate among staff and students. While some suggest that the breakdown might be due to work pressure or a hidden health problem, others speculate about personal matters, including marital or family issues. The chapter shows how a single public incident can ripple through an entire institution."
+      },
+      {
+        "type": "text",
+        "data": "As the day progresses, teachers attempt to conduct lessons but find it difficult to focus. Students, distracted and preoccupied, are unusually noisy and less responsive in class. The school environment, once characterised by strict discipline and smooth routines, feels fragile. The narrative emphasises how the emotional state of one leader can influence the mood, productivity, and overall harmony of a large organization."
+      },
+      {
+        "type": "text",
+        "data": "Attention gradually shifts to Mr. Bepo’s personal life. Staff begin to recall that his wife lives abroad, which adds a layer of concern. Colleagues speculate that the breakdown may be influenced by loneliness, separation from his spouse, or personal pressures that have accumulated over time. This insight reveals the human side of a leader who is normally seen as a symbol of authority and resilience."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation questions</b>\nMr. Bepo spends much of the day alone in his office, reflecting silently on the demands of his role and the sacrifices he has made to maintain Stardom Schools’ reputation. He considers his achievements and the long hours he has devoted to the school, acknowledging that his personal life has often been neglected. The narrative portrays him as a man wrestling with the tension between professional responsibility and private emotional needs."
+      },
+      {
+        "type": "text",
+        "data": "Despite concern from colleagues and senior management, Mr. Bepo refuses to seek professional or medical help. His pride and desire to maintain an image of strength prevent him from revealing vulnerability to others. The chapter subtly underscores the emotional burden that often accompanies leadership and positions of authority."
+      },
+      {
+        "type": "text",
+        "data": "By the end of the chapter, Stardom Schools continues to operate, but the atmosphere remains tense. Students and teachers alike are aware of the unusual event and its potential repercussions. Mr. Bepo’s emotional state remains a mystery, leaving both the school community and the reader anticipating further developments. The chapter emphasizes that his breakdown is not just a singular emotional moment but the beginning of a larger personal and institutional challenge that will unfold in the following chapters."
+      },
+      {
+        "type": "text",
+        "data": "1. The atmosphere in Stardom Schools after the assembly can best be described as A. festive and cheerful B. tense and uneasy C. relaxed and calm D. disorganized and chaotic\n2. Mr. Bepo is escorted to A. the staff room B. his office C. the school clinic D. the principal’s residence\n3. How does Mr. Bepo react to staff inquiries? A. He explains everything clearly B. He avoids giving clear answers C. He becomes angry D. He resigns immediately\n4. What is a major concern of the school management in this chapter? A. Financial audits B. The school’s reputation C. Student uniform compliance D. Cafeteria operations\n5. How do teachers manage lessons after the incident? A. They focus normally B. They are distracted and uneasy C. They cancel classes D. They enforce stricter discipline\n6. How do students behave after the headmaster’s breakdown? A. Calm and attentive B. Distracted and anxious C. Playful and noisy D. Indifferent\n7. Why do staff suspect Mr. Bepo’s personal life is involved? A. He often misses work B. His wife lives abroad C. He has financial problems D. He has conflicts with students\n8. Mr. Bepo’s refusal to seek help suggests A. Pride and fear of appearing weak B. Confidence and joy C. Ignorance of mental health D. Anger at colleagues\n9. What effect does Mr. Bepo’s emotional state have on the school? A. Improves discipline B. Affects the entire institution C. Has no impact D. Motivates students\n10. By the end of Chapter Two, the main issue surrounding Mr. Bepo is A. He has resigned B. His condition remains unresolved C. He has recovered fully D. He has been suspended"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "The Lekki Headmaster – Chapter Three",
+  "notes": {
+    "title": "Chapter Three Summary and Objective Questions",
+    "content": [
+      {
+        "type": "text",
+        "data": "Chapter Three shifts the focus to Mr. Bepo Adewale’s inner world and the beginning of his personal struggle after the public breakdown. Although he resumes work, his behaviour is noticeably different. He appears distracted during staff meetings, quiet in the corridors, and withdrawn from normal interactions with teachers and students. His usual charisma and confidence are replaced by an air of contemplation and subtle tension."
+      },
+      {
+        "type": "text",
+        "data": "Teachers continue to notice the change in Mr. Bepo’s behaviour. Senior staff hold quiet discussions about whether he should be advised to take leave, fearing that prolonged stress could harm both him and the school. There is a delicate balance between concern for his wellbeing and fear of destabilizing the institution. The chapter emphasizes the complexities of leadership, where personal issues of a leader can have organizational consequences."
+      },
+      {
+        "type": "text",
+        "data": "Mr. Bepo spends long periods alone in his office, staring out of the window and reflecting on the pressures of his role. He thinks about the sacrifices he made to build Stardom Schools into a leading institution, often prioritizing work over personal relationships. His loneliness is made more poignant by the absence of his wife, who lives abroad, and this separation weighs heavily on his emotional state."
+      },
+      {
+        "type": "text",
+        "data": "The chapter explores his internal conflict between maintaining a strong public image and acknowledging his personal vulnerabilities. Mr. Bepo recalls moments from his past, including personal regrets and unspoken disappointments, which reveal a man struggling with the cost of professional success. These reflections provide the reader with insight into the emotional burden he carries as a leader."
+      },
+      {
+        "type": "text",
+        "data": "Within the school, the students and staff continue to notice subtle changes. Students are quieter than usual, while some teachers adopt a more cautious approach in their interactions with him. Although outward discipline is maintained, the narrative highlights that the emotional climate of a school can be influenced profoundly by the wellbeing of its headmaster."
+      },
+      {
+        "type": "text",
+        "data": "By the end of Chapter Three, Mr. Bepo’s emotional struggle is firmly established. He continues to perform his professional duties, but it is clear that unresolved personal issues and long-term stress are affecting him. The chapter builds tension by showing that this is not a momentary crisis but part of a larger, unfolding personal and institutional challenge that will be explored further in the coming chapters."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation questions</b>\n1. Mr. Bepo’s behaviour after returning to work can best be described as A. lively and energetic B. withdrawn and distracted C. aggressive and confrontational D. carefree and relaxed\n2. Why do senior staff consider advising Mr. Bepo to take leave? A. To allow students more freedom B. Fear of destabilising the school C. To give teachers more authority D. To celebrate his achievements\n3. Mr. Bepo’s reflections reveal that he has A. balanced work and personal life perfectly B. neglected personal relationships for career success C. avoided responsibilities D. prioritized leisure over work\n4. His thoughts about his wife suggest A. marital tension and loneliness B. strong emotional support C. financial disputes D. rivalry at work\n5. The chapter presents Mr. Bepo’s emotional crisis as A. a sudden accident B. the result of long-term pressure C. due to student misbehaviour D. caused by a health problem\n6. How do students react to Mr. Bepo’s change in behaviour? A. They are disruptive and noisy B. They are quieter and cautious C. They are indifferent D. They openly mock him\n7. Teachers respond to Mr. Bepo’s emotional state by A. ignoring him B. approaching him aggressively C. being cautious and concerned D. resigning from their duties\n8. Which theme is emphasized in this chapter? A. Success without effort B. Loneliness in leadership C. Student rebellion D. Financial management\n9. By the end of Chapter Three, it is clear that Mr. Bepo’s struggle A. has been resolved B. is ongoing and unresolved C. is imaginary D. will disappear naturally\n10. The main purpose of Chapter Three is A. to introduce new characters B. to deepen understanding of Mr. Bepo’s internal conflict C. to describe school facilities D. to resolve the central mystery"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "The Lekki Headmaster – Chapter Four",
+  "notes": {
+    "title": "Chapter Four Summary and Objective Questions",
+    "content": [
+      {
+        "type": "text",
+        "data": "Chapter Four explores the mounting tension within Stardom Schools as Mr. Bepo’s emotional state continues to affect both staff and students. The school functions, but the usual sense of order and discipline is fragile. Teachers try to maintain professionalism, but whispers in corridors and staff rooms reflect growing anxiety and concern over the headmaster’s wellbeing."
+      },
+      {
+        "type": "text",
+        "data": "In his office, Mr. Bepo spends long periods in reflection, often gazing out of the window at the school grounds below. His thoughts dwell on the responsibilities of leadership, the sacrifices he has made for Stardom Schools, and the personal cost of maintaining a strong public image. The narrative highlights his inner conflict between appearing strong and acknowledging his emotional vulnerabilities."
+      },
+      {
+        "type": "text",
+        "data": "The chapter also provides more insight into Mr. Bepo’s personal life. He recalls conversations with his wife, who lives abroad, and reflects on the growing emotional distance between them. This separation, compounded by his dedication to work, has left him feeling isolated. The chapter portrays him as a man torn between personal longing and professional responsibility."
+      },
+      {
+        "type": "text",
+        "data": "Teachers and senior staff continue to monitor his behaviour, concerned that his condition could influence the school’s reputation and affect students’ learning. There is discussion about the possibility of involving a counselor or recommending a short leave, but Mr. Bepo’s pride and insistence on maintaining control prevent any direct intervention."
+      },
+      {
+        "type": "text",
+        "data": "Students, sensing the tension, behave differently. Some are cautious around the headmaster, while others whisper about the unusual changes they notice. The chapter demonstrates how leadership and emotional wellbeing at the top ripple through an entire institution, affecting everyone from staff to students."
+      },
+      {
+        "type": "text",
+        "data": "By the end of the chapter, it is clear that Mr. Bepo’s struggle is not limited to one incident; it is an ongoing process influenced by long-standing pressures, personal sacrifices, and emotional isolation. The chapter builds suspense, hinting that future developments will force him to confront these challenges more directly."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation questions</b>\n1. How is the atmosphere in Stardom Schools described in Chapter Four? A. Calm and disciplined B. Fragile and tense C. Joyful and lively D. Chaotic and noisy\n2. Where does Mr. Bepo spend most of his time reflecting? A. Staff room B. School garden C. His office D. Classroom\n3. What internal conflict is Mr. Bepo experiencing? A. Balancing finances and staff demands B. Appearing strong while acknowledging vulnerability C. Choosing between schools to manage D. Deciding on a new curriculum\n4. What aspect of his personal life is emphasized in this chapter? A. Relationship with his children B. Separation and emotional distance from his wife C. Conflicts with friends D. Past academic failures\n5. Why do staff consider involving a counselor or suggesting leave? A. To reduce workload B. Concern for his wellbeing and school reputation C. To punish him D. To reorganize the school\n6. How do students react to Mr. Bepo’s emotional state? A. They are noisy and disruptive B. They are cautious and observant C. They ignore him completely D. They openly confront him\n7. Which theme is strongly highlighted in this chapter? A. Leadership and emotional vulnerability B. Financial mismanagement C. Academic competition D. Student rebellion\n8. By the end of Chapter Four, it is clear that Mr. Bepo’s struggle is A. a single incident B. ongoing and long-term C. fully resolved D. imaginary\n9. The chapter demonstrates that a leader’s emotional wellbeing can affect A. only the headmaster B. only teachers C. the entire school community D. external school inspectors\n10. The main purpose of Chapter Four is to A. describe facilities B. introduce new characters C. deepen understanding of Mr. Bepo’s internal conflict D. explain academic policies"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "The Lekki Headmaster – Chapter Five",
+  "notes": {
+    "title": "Chapter Five Summary and Objective Questions",
+    "content": [
+      {
+        "type": "text",
+        "data": "Chapter Five highlights the continued emotional and psychological strain on Mr. Bepo Adewale, while showing how the school community adjusts to his changed behaviour. Although he is present, his interactions are minimal, and he appears deeply absorbed in thought. The narrative portrays him as a man carrying the weight of leadership along with unresolved personal conflicts, and it underscores the ripple effect of his emotional state on the school."
+      },
+      {
+        "type": "text",
+        "data": "Teachers notice that Mr. Bepo no longer visits classrooms as frequently or interacts as warmly with students. His usual motivational talks and public encouragements are absent. The absence of these familiar routines makes the staff and students uneasy, highlighting how leadership style and personal presence influence morale and discipline within the institution."
+      },
+      {
+        "type": "text",
+        "data": "The chapter provides more insight into Mr. Bepo’s personal reflections. He recalls his early years as a teacher and the sacrifices he made to rise to the position of headmaster. His thoughts reveal a man torn between pride in his achievements and regret over missed personal opportunities, including time with his wife and family. This reflection deepens the reader’s understanding of the emotional cost of professional success."
+      },
+      {
+        "type": "text",
+        "data": "The narrative also explores staff reactions in detail. Some teachers feel concerned and sympathetic, attempting to approach him cautiously. Others are wary, unsure how to interact with a headmaster who now appears fragile. These interactions reflect the complexities of authority and empathy in an institutional setting, as colleagues balance respect for leadership with genuine concern for a human being."
+      },
+      {
+        "type": "text",
+        "data": "Students, meanwhile, are perceptive of subtle changes. They notice his quietness and occasional distraction, which disrupts their sense of normalcy. While outward discipline remains, there is a noticeable tension in classrooms and corridors. The chapter emphasizes that a leader’s emotional state can influence the entire school environment, from academic focus to interpersonal interactions."
+      },
+      {
+        "type": "text",
+        "data": "By the end of Chapter Five, Mr. Bepo is portrayed as a man at a crossroads. He continues to perform his duties but internally struggles with personal isolation, pride, and emotional fatigue. The chapter sets the stage for further exploration of his internal conflicts and foreshadows moments where he may have to confront his personal and professional challenges more directly."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation questions</b>\n1. Mr. Bepo’s presence in the school in Chapter Five is best described as A. energetic and engaging B. minimal and distracted C. angry and confrontational D. cheerful and motivating\n2. How do teachers react to Mr. Bepo’s changed behaviour? A. They ignore him B. They approach him cautiously C. They openly criticize him D. They hold celebratory meetings\n3. Which of the following best captures Mr. Bepo’s personal reflections? A. Pride in achievements and regret over personal sacrifices B. Joy and satisfaction with his family life C. Frustration with students only D. Indifference to school operations\n4. How are students affected by the headmaster’s emotional state? A. They remain completely unaffected B. They notice tension and distraction C. They become disruptive and rebellious D. They ignore all school rules\n5. What theme is highlighted in Chapter Five? A. Academic rivalry B. Leadership and emotional burden C. Financial management D. Staff promotions\n6. By the end of the chapter, Mr. Bepo’s main struggle is A. resolved completely B. ongoing and internal C. caused by a health issue D. imaginary\n7. The chapter emphasizes that leadership affects A. only teachers B. only students C. the entire school environment D. external inspectors\n8. Teachers’ interactions with Mr. Bepo in this chapter demonstrate A. disrespect and rebellion B. empathy and caution C. open hostility D. indifference\n9. The narrative suggests that professional success can lead to A. complete happiness B. emotional isolation and personal sacrifice C. no challenges D. instant recognition\n10. The main purpose of Chapter Five is to A. deepen understanding of Mr. Bepo’s internal struggle B. describe school events only C. introduce new students D. outline the academic curriculum"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "The Lekki Headmaster – Chapter Six",
+  "notes": {
+    "title": "Chapter Six Summary and Objective Questions",
+    "content": [
+      {
+        "type": "text",
+        "data": "Chapter Six focuses on the growing emotional tension within Stardom Schools as Mr. Bepo Adewale continues to grapple with his internal conflicts. His public composure has returned somewhat, but privately he is deeply troubled. The chapter explores the duality of his role: maintaining the appearance of a disciplined, authoritative headmaster while internally managing loneliness, stress, and unresolved personal issues."
+      },
+      {
+        "type": "text",
+        "data": "Teachers notice subtle signs of strain in his interactions. He is less communicative, occasionally distracted during meetings, and often retreats to his office without explanation. This change affects the smooth functioning of the school, as staff are unsure how to approach him and whether to intervene. The chapter emphasizes the delicate balance between authority and vulnerability in leadership."
+      },
+      {
+        "type": "text",
+        "data": "The narrative gives more insight into Mr. Bepo’s personal reflections. He thinks about the sacrifices he made to achieve professional success, including neglecting his marriage and personal life. Memories of family events he missed, arguments avoided, and moments of emotional support withheld from his spouse amplify his feelings of guilt and loneliness. This internal struggle highlights the human cost of ambition and dedication."
+      },
+      {
+        "type": "text",
+        "data": "The chapter also examines the reactions of the staff. Some express quiet concern, trying to check on him without overstepping professional boundaries. Others are unsure whether to respect his privacy or intervene. These interactions illustrate the complexities of empathy in a workplace setting, especially when dealing with a figure of authority."
+      },
+      {
+        "type": "text",
+        "data": "Students remain observant, noticing the subtle changes in his mood and demeanor. Some become more cautious, while others whisper among themselves about the unusual situation. The chapter underscores how a leader’s emotional state can influence the culture and emotional climate of an entire institution, affecting both learning and interpersonal dynamics."
+      },
+      {
+        "type": "text",
+        "data": "By the end of Chapter Six, Mr. Bepo’s struggle is established as a long-term, ongoing internal conflict. He continues to fulfill his duties, but the narrative conveys that his emotional burdens and personal sacrifices are far from resolved. The chapter sets up the next phase of the story, hinting that future events will force him to confront both his personal vulnerabilities and professional responsibilities more directly."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation questions</b>\n1. How is Mr. Bepo’s public composure described in Chapter Six? A. Completely restored B. Partially restored but internally troubled C. Fully absent D. Unchanged from previous breakdown\n2. How do teachers perceive Mr. Bepo’s behaviour? A. Confident and motivating B. Distracted and less communicative C. Angry and harsh D. Indifferent and unaffected\n3. Which personal aspect is most highlighted in Mr. Bepo’s reflections? A. Financial planning B. Neglect of marriage and personal life C. Academic strategies D. Health concerns\n4. Staff responses to Mr. Bepo’s behaviour include A. Quiet concern and cautious interaction B. Open criticism C. Indifference D. Encouraging rebellion\n5. How do students react to the headmaster’s emotional changes? A. They are oblivious B. They notice and adjust their behaviour C. They act out D. They openly challenge him\n6. Which theme is emphasized in Chapter Six? A. Leadership and emotional vulnerability B. Academic competition C. School finances D. Staff promotions\n7. By the end of Chapter Six, Mr. Bepo’s struggle is A. Short-term and resolved B. Long-term and ongoing C. Imaginary D. Fully addressed by staff intervention\n8. The chapter suggests that leadership affects A. Only staff B. Only students C. The emotional climate of the entire school D. Only external visitors\n9. Mr. Bepo’s internal reflections highlight A. Pride without conflict B. The cost of ambition and dedication C. Ignorance of responsibilities D. Satisfaction with personal life\n10. The main purpose of Chapter Six is to A. Deepen understanding of Mr. Bepo’s internal conflict B. Introduce new students C. Describe facilities D. Outline exam schedules"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "The Lekki Headmaster – Chapter Seven",
+  "notes": {
+    "title": "Chapter Seven Summary and Objective Questions",
+    "content": [
+      {
+        "type": "text",
+        "data": "Chapter Seven explores the growing pressures on Mr. Bepo Adewale as he continues to balance his professional responsibilities with his internal emotional struggles. The school functions as usual on the surface, but a subtle tension permeates the corridors and classrooms. Teachers and students alike are aware of the unusual shift in his demeanor, which creates an atmosphere of caution and heightened awareness."
+      },
+      {
+        "type": "text",
+        "data": "Within his office, Mr. Bepo spends much of his time reflecting on the expectations placed upon him. He considers the legacy he wants to leave at Stardom Schools and the sacrifices required to maintain its reputation. The narrative emphasizes his sense of duty, illustrating the weight of responsibility that accompanies leadership, and how it often conflicts with personal happiness and emotional well-being."
+      },
+      {
+        "type": "text",
+        "data": "The chapter delves deeper into his personal life, particularly his feelings of isolation and the emotional strain caused by his wife’s absence abroad. He recalls moments from their past that now feel distant and unattainable. These reflections reveal a man torn between pride in his achievements and regret over personal sacrifices, highlighting the cost of professional success on intimate relationships."
+      },
+      {
+        "type": "text",
+        "data": "Staff members observe subtle changes in his interactions. Some approach him with caution, offering support without intruding, while others are hesitant to engage, unsure of how to respond to a headmaster who appears both vulnerable and authoritative. The narrative explores the complexities of empathy and respect within a hierarchical environment."
+      },
+      {
+        "type": "text",
+        "data": "Students, ever perceptive, notice the changes as well. Some become more disciplined, sensing the tension, while others whisper and speculate about the headmaster’s emotional state. The chapter emphasizes the ripple effect of leadership behavior on the broader school environment, including morale, academic focus, and social interactions."
+      },
+      {
+        "type": "text",
+        "data": "By the end of Chapter Seven, it is clear that Mr. Bepo’s emotional struggle is ongoing. While he continues to execute his duties with competence, the narrative reinforces that internal conflicts, personal isolation, and the pressures of leadership remain unresolved. The chapter sets the stage for further developments, suggesting that future events will challenge him to confront both his vulnerabilities and professional responsibilities more directly."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation questions</b>\n1. How is the school atmosphere described in Chapter Seven? A. Festive and lively B. Tense and cautious C. Relaxed and calm D. Chaotic and loud\n2. What dominates Mr. Bepo’s thoughts in his office? A. Student behaviour B. School finances C. Expectations, legacy, and sacrifices D. Upcoming events\n3. Which personal aspect of Mr. Bepo’s life is emphasized? A. Relationship with colleagues B. Feelings of isolation and marital separation C. Financial independence D. Health concerns\n4. How do staff members react to Mr. Bepo’s changed behavior? A. They openly criticize him B. They avoid him entirely C. They offer cautious support or hesitate to engage D. They celebrate his achievements\n5. How do students perceive the headmaster’s emotional changes? A. They notice tension and adjust their behaviour B. They are indifferent C. They openly challenge him D. They ignore all rules\n6. Which theme is most strongly highlighted in Chapter Seven? A. Leadership and emotional burden B. Student competition C. Financial management D. Examination performance\n7. By the end of Chapter Seven, Mr. Bepo’s struggle is A. Fully resolved B. Still ongoing and unresolved C. Imaginary D. Irrelevant to the story\n8. The narrative demonstrates that a leader’s emotional state affects A. Only students B. Only teachers C. The broader school environment D. Only external visitors\n9. Mr. Bepo’s reflections reveal A. Satisfaction without conflict B. Pride conflicted with regret over personal sacrifices C. Ignorance of responsibilities D. Confidence in ignoring personal issues\n10. The main purpose of Chapter Seven is to A. Expand on Mr. Bepo’s internal struggle and leadership pressures B. Introduce new school policies C. Describe the campus facilities D. Outline upcoming exams"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "The Lekki Headmaster – Chapter Eight",
+  "notes": {
+    "title": "Chapter Eight Summary and Objective Questions",
+    "content": [
+      {
+        "type": "text",
+        "data": "Chapter Eight explores the mounting tension within Stardom Schools as Mr. Bepo Adewale’s emotional state begins to subtly affect the daily life of both staff and students. While outwardly the school functions as usual, the quiet whispers, lingering glances, and cautious interactions create an undercurrent of unease. The narrative emphasizes how leadership behavior can indirectly shape the emotional climate of an entire institution."
+      },
+      {
+        "type": "text",
+        "data": "Mr. Bepo spends long hours in his office, reviewing administrative documents and reflecting on his responsibilities. He is meticulous and disciplined, yet a growing sense of fatigue and emotional strain is evident. His thoughts reveal a man grappling with the duality of leadership: maintaining authority and efficiency while coping with personal isolation and the emotional cost of sustained pressure."
+      },
+      {
+        "type": "text",
+        "data": "The chapter also delves deeper into Mr. Bepo’s personal life. Memories of his wife, who lives abroad, haunt him—conversations he longs to have, moments he has missed, and the emotional distance between them. This adds a layer of complexity to his character, showing the human vulnerability behind a public figure of authority. The narrative emphasizes the emotional sacrifice inherent in his pursuit of professional excellence."
+      },
+      {
+        "type": "text",
+        "data": "Teachers continue to navigate the delicate balance of respect and concern. Some offer subtle support, checking in privately or offering assistance with school matters. Others remain cautious, uncertain how to interact with a headmaster who displays both competence and visible vulnerability. This dynamic highlights the intricate interplay between empathy, hierarchy, and professionalism within an institutional setting."
+      },
+      {
+        "type": "text",
+        "data": "Students, perceptive as always, notice subtle shifts in the headmaster’s mood and behavior. Some respond with increased discipline, recognizing the tension, while others whisper and speculate. The chapter demonstrates that emotional cues from leadership are quickly picked up by younger observers and can influence social interactions, classroom dynamics, and overall school culture."
+      },
+      {
+        "type": "text",
+        "data": "By the end of Chapter Eight, Mr. Bepo’s internal struggle is further established as a continuing challenge. His outward professionalism masks a deep personal conflict, and the narrative leaves readers anticipating how these unresolved issues will influence his decisions and interactions in the following chapters. The chapter sets the stage for deeper explorations of vulnerability, leadership, and the human cost of authority."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation questions</b>\n1. How is the atmosphere in Stardom Schools described in Chapter Eight? A. Joyful and lively B. Quietly tense and uneasy C. Chaotic and disruptive D. Calm and unaffected\n2. Where does Mr. Bepo spend most of his time? A. In the staff room B. In his office C. In classrooms D. In the school garden\n3. What internal conflict does Mr. Bepo face? A. Choosing between schools to manage B. Balancing authority with personal emotional strain C. Resolving financial issues D. Addressing student misbehavior\n4. How does Mr. Bepo reflect on his personal life? A. Joyfully B. With regret and longing due to separation from his wife C. Indifferently D. With anger at staff\n5. How do teachers react to Mr. Bepo’s state? A. Some subtly offer support, others are cautious B. They openly criticize him C. They ignore him completely D. They celebrate his professionalism\n6. How do students respond to the headmaster’s subtle emotional changes? A. They remain indifferent B. Some respond with discipline, others whisper and speculate C. They become rebellious D. They ignore all rules\n7. Which theme is emphasized in Chapter Eight? A. Leadership, vulnerability, and emotional cost B. Academic achievement C. Financial management D. Student rebellion\n8. By the end of Chapter Eight, Mr. Bepo’s struggle is A. Fully resolved B. Ongoing and unresolved C. Imaginary D. Superficial\n9. What does the chapter suggest about the influence of leadership? A. Emotional cues from leaders affect the entire school B. Leadership affects only students C. Leadership has no impact on staff D. Leadership is irrelevant to school culture\n10. The main purpose of Chapter Eight is to A. Deepen understanding of Mr. Bepo’s internal and emotional struggles B. Introduce new facilities C. Describe school events only D. Outline examination schedules"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "The Lekki Headmaster – Chapter Nine",
+  "notes": {
+    "title": "Chapter Nine Summary and Objective Questions",
+    "content": [
+      {
+        "type": "text",
+        "data": "Chapter Nine focuses on the increasing tension within Stardom Schools as Mr. Bepo Adewale struggles to reconcile his professional duties with his emotional and personal challenges. Although he continues to fulfill his responsibilities as headmaster, subtle signs of strain are evident to both staff and students. The narrative highlights how leadership pressure, personal sacrifices, and emotional fatigue intersect to create a complex and humanized portrayal of authority."
+      },
+      {
+        "type": "text",
+        "data": "In this chapter, Mr. Bepo spends long hours reviewing school operations, lesson plans, and administrative reports. While outwardly efficient and professional, he is internally preoccupied with thoughts about his personal life, particularly his long-distance marriage. His reflections reveal a growing sense of guilt, isolation, and longing for personal connection, emphasizing the human cost of professional ambition and responsibility."
+      },
+      {
+        "type": "text",
+        "data": "Teachers continue to notice subtle changes in his behavior. He is less interactive, communicates in brief, measured tones, and occasionally retreats into silence during staff meetings. Some teachers attempt to offer assistance or check in privately, while others are hesitant, unsure how to approach a headmaster who exhibits both authority and vulnerability. This dynamic illustrates the delicate balance between professional respect and genuine empathy in institutional settings."
+      },
+      {
+        "type": "text",
+        "data": "The chapter also highlights the students’ perceptiveness. They observe changes in the headmaster’s mood, body language, and interactions. Some students respond by being more disciplined, others whisper and speculate, and a few become more cautious in their daily conduct. The narrative emphasizes the subtle ways in which a leader’s emotional state can influence the social and academic climate of an entire school."
+      },
+      {
+        "type": "text",
+        "data": "Interwoven throughout the chapter are glimpses of Mr. Bepo’s memories and reflections on past choices. He recalls the sacrifices he made to rise to his current position, the missed family moments, and the emotional distance from his wife, who lives abroad. These reflections humanize him, revealing the personal costs behind professional success, and establish the emotional depth of his character."
+      },
+      {
+        "type": "text",
+        "data": "Chapter Nine further explores the tension between public expectation and private reality. While the school depends on his leadership for order, discipline, and reputation, his internal struggles demonstrate that outward appearances of control often mask complex personal and emotional realities. The chapter underscores the psychological pressures of leadership and the vulnerability of those in positions of authority."
+      },
+      {
+        "type": "text",
+        "data": "By the end of Chapter Nine, it is evident that Mr. Bepo’s struggles are far from resolved. The chapter leaves readers with an understanding that leadership involves both responsibility and emotional cost, and that personal vulnerabilities inevitably influence professional performance. The stage is set for more dramatic developments in the following chapters, where Mr. Bepo will be confronted with challenges that test both his emotional resilience and his capacity as a leader."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation questions</b>\n1. How is the school atmosphere described in Chapter Nine? A. Relaxed and carefree B. Subtly tense and cautious C. Chaotic and noisy D. Joyful and lively\n2. Where does Mr. Bepo spend most of his reflective time? A. In the staff room B. In his office C. In the playground D. At home\n3. What personal aspect dominates Mr. Bepo’s thoughts? A. School finances B. Long-distance marriage and personal isolation C. Student behavior only D. Staff performance\n4. How do teachers react to Mr. Bepo’s changed behavior? A. Some offer support, others hesitate B. They openly criticize him C. They ignore him D. They celebrate him\n5. How do students respond to the headmaster’s emotional state? A. They notice subtle changes and adjust behavior B. They act out violently C. They are indifferent D. They challenge his authority openly\n6. Which theme is emphasized in Chapter Nine? A. Leadership pressure and emotional vulnerability B. Academic competition C. Staff promotions D. School finances\n7. By the end of Chapter Nine, Mr. Bepo’s internal struggle is A. Fully resolved B. Still ongoing and unresolved C. Imaginary D. Irrelevant to the story\n8. The chapter demonstrates that leadership affects A. Only teachers B. Only students C. Entire school environment and culture D. Only school management\n9. What do Mr. Bepo’s reflections reveal? A. Pride and satisfaction with personal life B. The human cost of ambition and leadership C. Ignorance of responsibilities D. Anger toward staff and students\n10. The main purpose of Chapter Nine is to A. Expand on Mr. Bepo’s emotional and leadership struggles B. Introduce new characters C. Describe campus facilities D. Outline academic policies"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "The Lekki Headmaster – Chapter Ten",
+  "notes": {
+    "title": "Chapter Ten Summary and Objective Questions",
+    "content": [
+      {
+        "type": "text",
+        "data": "Chapter Ten continues to explore the mounting personal and professional challenges of Mr. Bepo Adewale, the headmaster of Stardom Schools. The chapter focuses on his internal conflict as he balances the demands of running a highly disciplined, respected private school in Lekki with the emotional strain of his long-distance marriage and personal life. His role as a headmaster, which demands unwavering authority, discipline, and guidance, is contrasted with his vulnerability and longing for personal connection, emphasizing the human cost of leadership."
+      },
+      {
+        "type": "text",
+        "data": "The chapter opens with Mr. Bepo in his office, surrounded by piles of administrative reports, lesson plans, and students’ performance records. His meticulous attention to detail underscores his professionalism, but the narrative shows that behind his composed exterior lies a man wrestling with emotional fatigue. The duality of his persona — authoritative headmaster versus emotionally conflicted human being — is a central theme explored in depth."
+      },
+      {
+        "type": "text",
+        "data": "Throughout the day, Mr. Bepo’s interactions with staff reveal subtle changes in behavior. He speaks less than usual in meetings, answers questions with concise and measured responses, and occasionally retreats into contemplative silence. Some senior teachers notice this change and speculate on the reasons, while a few attempt to provide discreet support. This illustrates the delicate balance in professional environments between respecting authority and offering empathy."
+      },
+      {
+        "type": "text",
+        "data": "Students are also sensitive to Mr. Bepo’s demeanor. They notice his quiet moments, fleeting smiles, and introspective gaze. Some respond by being more disciplined, hoping to maintain his approval, while others whisper among themselves, speculating about the reason for his unusual mood. The narrative highlights how a leader’s subtle emotional cues can influence the discipline, morale, and culture of the school environment."
+      },
+      {
+        "type": "text",
+        "data": "Interwoven throughout the chapter are Mr. Bepo’s private reflections. He recalls the personal sacrifices he made to rise to his current position, the opportunities missed with his wife and family, and the isolation that comes with his professional dedication. The narrative gives a detailed account of his inner dialogue, showing both pride in his achievements and regret over lost personal moments. These reflections humanize him, emphasizing that even respected figures carry private struggles."
+      },
+      {
+        "type": "text",
+        "data": "As the day progresses, Mr. Bepo walks around the school compound, observing students and staff. He notes the enthusiasm, curiosity, and commitment of students to their studies and teachers’ efforts to nurture talent. These observations remind him of the purpose that brought him into education — shaping young minds and instilling discipline. Yet, the longing to be reunited with his wife and the pull of personal life continue to weigh heavily on him."
+      },
+      {
+        "type": "text",
+        "data": "The chapter further explores the tension between public expectation and private reality. While everyone relies on Mr. Bepo for leadership, discipline, and guidance, the narrative shows that his emotional state subtly influences the environment. It emphasizes that authority figures, no matter how competent, are not immune to personal struggles, and that leadership often involves emotional burden as well as responsibility."
+      },
+      {
+        "type": "text",
+        "data": "By the end of Chapter Ten, Mr. Bepo’s inner conflict remains unresolved, leaving readers with a clear understanding of the psychological and emotional challenges of leadership. The chapter sets the stage for the climactic decisions and personal resolutions that will follow in Chapters Eleven and Twelve, building anticipation for how he will reconcile his professional duties with personal fulfillment."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation questions</b>\n1. What is the main focus of Chapter Ten? A. Mr. Bepo’s family reunion B. Mr. Bepo’s internal conflict and professional challenges C. A student protest D. School sports competition\n2. Where is Mr. Bepo primarily located in this chapter? A. Staff room B. Classroom C. His office D. School garden\n3. What is emphasized about Mr. Bepo’s professional behavior? A. Carelessness B. Meticulous attention to detail and professionalism C. Laziness D. Recklessness\n4. How do staff members react to his changed demeanor? A. Ignore him B. Some offer discreet support, others speculate C. Criticize openly D. Celebrate him\n5. How do students respond to Mr. Bepo’s mood? A. Rebel B. Notice subtle cues and adjust behavior C. Ignore completely D. Laugh at him\n6. What personal struggle occupies Mr. Bepo’s thoughts? A. School finances B. Emotional distance from his wife and family C. Student exams D. Sports achievements\n7. What is a key theme of this chapter? A. Sports rivalry B. Authority and emotional vulnerability C. Financial planning D. Campus maintenance\n8. How does Mr. Bepo observe students and staff? A. Critically and harshly B. With appreciation and reflection C. Indifferently D. Angrily\n9. By the end of the chapter, Mr. Bepo’s internal conflict is A. Resolved completely B. Still ongoing C. Imaginary D. Minimal\n10. What does the chapter suggest about leadership? A. Leaders are always happy B. Authority figures are immune to personal struggles C. Leadership carries emotional and professional responsibility D. Leaders never reflect on personal life"
+      }
+    ]
+  }
+},
+
+
+{
+  "topic": "The Lekki Headmaster – Chapter Eleven",
+  "notes": {
+    "title": "Chapter Eleven Summary and Objective Questions",
+    "content": [
+      {
+        "type": "text",
+        "data": "Chapter Eleven, titled “Point of No Return,” marks a pivotal moment in the story of Mr. Bepo Adewale. By this point in the novel, the emotional, professional, and personal tension surrounding the headmaster has reached a critical peak. The chapter opens with Mr. Bepo deeply conflicted about whether to leave Stardom Schools and migrate to join his wife abroad or to remain in Nigeria. His thoughts are heavy and full of memories — of his time at the school, the personal sacrifices he has made, and the contrasting pull of a life abroad with his family."
+      },
+      {
+        "type": "text",
+        "data": "In the school environment, staff and students notice that something significant is about to happen. The mood in classrooms and corridors is reflective, as teachers and students sense that Mr. Bepo’s internal struggle has reached a turning point. Although he carries on with administrative duties, there is a visible distance in his interactions — a sense that his heart is divided between two worlds: the institution he has nurtured and the family he has left behind."
+      },
+      {
+        "type": "text",
+        "data": "The narrative gives insight into Mr. Bepo’s thinking as he recalls his journey from the early days of his career to this moment. He reflects on the challenges he has faced, the successes he has achieved, and the friendships he has built. Yet, underlying all these reflections is the knowledge that he has missed intimate moments with his wife and children — moments that cannot be recovered. His reflections show both pride in what he has accomplished and deep regret over what he has lost."
+      },
+      {
+        "type": "text",
+        "data": "At a staff meeting, Mr. Bepo’s behavior is calm but noticeably introspective. He listens carefully, contributes where necessary, yet avoids eye contact that might betray the turmoil in his heart. Some senior staff members interpret his quietness as thoughtful and composed, while others suspect something more personal is affecting his leadership. The narrative highlights how emotional struggles can be masked by professionalism and calm demeanor."
+      },
+      {
+        "type": "text",
+        "data": "Outside of official duties, Mr. Bepo wanders the school compound, observing the students and teachers. He watches how students collaborate, smile, and engage in learning — scenes that remind him of why he came into education in the first place. The joy and curiosity of the students tug at his emotions, reinforcing his sense of purpose and duty. Yet, the thought of reuniting with his family, whose absence has become a deep ache, continues to pull at his heart."
+      },
+      {
+        "type": "text",
+        "data": "By the end of the chapter, Mr. Bepo makes a decision — one that feels like a point of no return. He acknowledges that while his journey at Stardom Schools has shaped him and given him meaning, the time has come to reconcile his personal and professional lives. The chapter closes with a sense of resolution and emotional clarity, though it leaves readers anticipating the consequences of his choice as the story moves toward the final chapter."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation questions</b>\n1. What is the title of Chapter Eleven? A. Migration Tales B. The Enticement C. Point of No Return D. Dawn\n2. In this chapter, Mr. Bepo is most conflicted about A. His health B. Whether to leave Stardom Schools and join his family abroad C. How to manage school funds D. A student’s behavior\n3. Teachers notice that Mr. Bepo’s behaviour is A. Angry and volatile B. Calm but introspective C. Joyful and loud D. Unchanged\n4. Mr. Bepo reflects on A. His family life and career sacrifices B. Financial investments C. Sports events D. School uniforms\n5. Students’ actions in this chapter remind Mr. Bepo of A. Why he became a teacher B. Why he dislikes education C. His need for a vacation D. The need to increase salaries\n6. By the end of Chapter Eleven, Mr. Bepo’s decision is best described as A. Uncertain B. Resolved with emotional clarity C. Regressive D. Indifferent\n7. Mr. Bepo’s leadership is affected by his A. Professional achievements B. Personal emotional conflict C. School funding D. Parental complaints\n8. The mood of Chapter Eleven can best be described as A. Joyful B. Tense and reflective C. Chaotic D. Humorous\n9. The chapter shows that emotional struggles can be A. Easily ignored B. Masked by professionalism C. Financially solved D. Forgotten\n10. What major theme is emphasized in this chapter? A. Sports competition B. Emotional cost of leadership and life choices C. Financial mismanagement D. Student discipline"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "The Lekki Headmaster – Chapter Twelve",
+  "notes": {
+    "title": "Chapter Twelve Summary and Objective Questions",
+    "content": [
+      {
+        "type": "text",
+        "data": "Chapter Twelve, titled “Dawn,” serves as the final chapter of *The Lekki Headmaster*. It brings closure to Mr. Bepo Adewale’s internal conflict and narrates the outcome of his pivotal decision from the previous chapter. The chapter opens with a sense of anticipation and emotional resolution. The school community is aware that a significant change is on the horizon, and there is a mixture of curiosity, respect, and concern among students and staff."
+      },
+      {
+        "type": "text",
+        "data": "In this chapter, Mr. Bepo prepares for his departure from Stardom Schools. He engages deeply with final administrative responsibilities, ensuring that ongoing projects and plans are in order. His professionalism remains intact, but there is also an emotional tenderness in his interactions as he says goodbye to colleagues who have supported him and to students who have looked up to him. This part of the narrative emphasizes gratitude, respect, and legacy."
+      },
+      {
+        "type": "text",
+        "data": "The school organizes a modest farewell gathering for Mr. Bepo. Staff members and students contribute heartfelt speeches, recounting moments of his leadership, integrity, encouragement, and vision. Teachers share how his example shaped their teaching and professional principles. Students express admiration for his dedication to learning and discipline. This collective tribute illustrates the profound influence he has had on the school."
+      },
+      {
+        "type": "text",
+        "data": "In private moments, Mr. Bepo reflects on his journey — the early days of uncertainty, the triumphs and setbacks, the personal sacrifices, and the growth he experienced. He thinks particularly of his wife and family, and how reconnecting with them represents a new chapter in his personal life. These reflections convey a tone of hope, healing, and forward movement that aligns with the chapter’s title, ‘Dawn.’"
+      },
+      {
+        "type": "text",
+        "data": "Despite the emotional weight of goodbye, Mr. Bepo embraces the opportunity to reunite with his family and look toward a future that includes both personal fulfillment and continued purpose. The narrative underscores the idea that life transitions, even when difficult, can bring renewal and positive transformation. The chapter’s closing scene reflects hope, respect, and appreciation for both past service and future possibilities."
+      },
+      {
+        "type": "text",
+        "data": "By the end of Chapter Twelve, the novel draws a satisfying conclusion to Mr. Bepo’s emotional arc. The school will carry forward his legacy of discipline, integrity, and academic pursuit. The chapter leaves the reader with themes of change, resilience, and the emotional complexity of making life-altering decisions, reinforcing the novel’s overarching message about leadership, sacrifice, and personal growth."
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation questions</b>\n1. What is the title of Chapter Twelve? A. Migration Tales B. A Case of Visa Denied C. Passport Pains D. Dawn\n2. What major event happens at Stardom Schools in this chapter? A. A new principal is appointed B. A farewell gathering for Mr. Bepo C. A sports competition D. A student protest\n3. How do staff and students honor Mr. Bepo? A. By ignoring him B. By giving speeches and tributes C. By critiquing his policies D. By organizing a strike\n4. In his reflections, Mr. Bepo thinks mostly about A. Financial success B. His family and future life C. School fees D. Classroom behaviour\n5. What tone best describes the ending of Chapter Twelve? A. Happy and hopeful B. Sad and unresolved C. Angry and tense D. Humorous\n6. The chapter emphasizes which theme? A. Leadership, legacy, and renewal B. Financial management C. Student competition D. Health challenges\n7. Mr. Bepo’s departure signifies A. End of his influence B. Renewal and forward movement C. Complete failure D. Loss of direction\n8. The farewell event shows that Mr. Bepo’s impact was A. Minimal B. Respected and meaningful C. Controversial D. Forgotten\n9. By the end of the chapter, the narrative conveys A. Only sorrow B. Only disorder C. Hope and transformation D. Confusion and anger\n10. The novel concludes by highlighting A. The importance of exams B. The emotional complexity of major life decisions C. Sports achievements D. Political influence"
+      }
+    ]
+  }
+},
+
+{
+  "topic": "About the Author and the Book",
+  "notes": {
+    "title": "About the Author and the Book",
+    "content": [
+      {
+        "type": "text",
+        "data": "The novel The Lekki Headmaster was written by Kabir Alabi Garba, a Nigerian journalist, author, and storyteller. He is known for writing works that explore social issues, leadership, education, and the human experience. His storytelling style blends realism with emotional depth, making his characters relatable and impactful to readers, especially students preparing for examinations such as JAMB. (legit.ng)"
+      },
+      {
+        "type": "text",
+        "data": "The Lekki Headmaster was selected as the official reading text for the 2025 Unified Tertiary Matriculation Examination (UTME) Use of English paper by the Joint Admissions and Matriculations Board (JAMB). The book’s inclusion in the exam syllabus has made it an important text for secondary school and JAMB candidates across Nigeria. (legit.ng)"
+      },
+      {
+        "type": "text",
+        "data": "Set in Lekki, Lagos, the novel follows the life and career of Mr. Adebepo ‘Bepo’ Adewale, a dedicated headmaster who leads Stardom Schools. The story explores both his professional duties and private struggles, particularly his emotional conflict between serving his school community and reuniting with his family abroad. (myschool.ng)"
+      },
+      {
+        "type": "text",
+        "data": "Major themes in the novel include education and leadership, emotional sacrifice, migration (‘Japa’), integrity versus compromise, and social values in Nigerian society. Through the character of Mr. Bepo, the author examines the personal cost of professional ambition and the complexities of making life-defining decisions. (jamb2025.com)"
+      },
+      {
+        "type": "text",
+        "data": "Kabir Alabi Garba’s writing combines clear, engaging language with rich character development and exploration of real-world issues, making the novel both educational and thought-provoking. The author’s ability to weave personal struggles with institutional challenges resonates with readers and helps bridge literature with broader social conversations. (legit.ng)"
+      },
+      {
+        "type": "text",
+        "data": "The novel has become widely studied not only for its plot and themes but also for its lessons on leadership, resilience, and the importance of balancing personal and professional responsibilities. It is particularly valuable for students preparing for examinations, literary analysis, and class discussions on contemporary Nigerian fiction. (schoolview.com.ng)"
+      },
+      {
+        "type": "text",
+        "data": "<b>Evaluation questions</b>\n1. Who wrote The Lekki Headmaster? A. Chinua Achebe B. Chimamanda Ngozi Adichie C. Kabir Alabi Garba D. Wole Soyinka\n2. Which exam officially uses The Lekki Headmaster as a reading text? A. WAEC B. NECO C. JAMB UTME Use of English D. Post-UTME\n3. Where is the novel The Lekki Headmaster set? A. Kano B. Lekki, Lagos C. Abuja D. Port Harcourt\n4. Who is the main character of the novel? A. Mr. Johnson B. Mr. Adebepo ‘Bepo’ Adewale C. Mrs. Grace Apeh D. Mr. Audu\n5. Which of these is a major theme of the book? A. Cooking recipes B. Migration and emotional struggle C. Sports competition D. Space exploration\n6. What does the novel explore about leadership? A. That it is always easy B. The emotional cost and personal sacrifice C. It requires no effort D. It leads to instant wealth\n7. Why is the novel useful for students? A. For learning mathematics B. It offers insights into leadership, ethics, and social issues C. It is a comedy text D. It teaches science experiments\n8. The author Kabir Alabi Garba is known for writing about A. Historical wars B. Social issues and human experiences C. Fantasy worlds D. Science fiction\n9. The conflict Mr. Bepo faces in the novel mainly involves A. Choosing between class schedules B. Balancing professional duties and personal life C. Managing finances D. Winning a sports trophy\n10. The novel’s inclusion in the JAMB syllabus means that students should A. Ignore it B. Study it carefully for examination questions C. Only read summaries online D. Focus only on English grammar"
+      }
+    ]
+  }
+}
+]
 
 }
 
 
 const departmentSubjects = {
-  Science: ["Mathematics", "English", "Physics", "Chemistry", "Biology"],
-  Art: ["Mathematics", "English", "Literature", "Government", "CRS"],
-  Commercial: ["Mathematics", "English", "Economics", "Commerce", "Accounting"]
+  Science: ["Mathematics", "English", "Physics", "Chemistry", "Biology", "lekki_headmaster"],
+  Art: ["Mathematics", "English", "Literature", "Government", "CRS", "lekki_headmaster"],
+  Commercial: ["Mathematics", "English", "Economics", "Commerce", "Accounting", "lekki_headmaster"]
 };
