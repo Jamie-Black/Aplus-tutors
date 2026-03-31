@@ -9010,6 +9010,89 @@ answer: 0
     "options": ["2.0 M", "1.0 M", "0.5 M", "4.0 M"],
     "answer": 0
   },
+  
+  {
+  "question": "Ice, water and steam",
+  "options": [
+    "have the same physical properties",
+    "are different allotropes",
+    "are chemically alike",
+    "have different molar masses"
+  ],
+  "answer": 2
+},
+{
+  "question": "Changes in the physical states of a substance M are given in the scheme. w, v, u respectively are",
+  "options": [
+    "sublimation, condensation and freezing",
+    "sublimation, vaporisation and solidification",
+    "freezing, condensation and sublimation",
+    "evaporation, liquefaction and solidification"
+  ],
+  "answer": 3
+},
+{
+  "question": "The addition of water to calcium carbide results to",
+  "options": [
+    "a mixture",
+    "no change",
+    "a chemical change",
+    "a physical change"
+  ],
+  "answer": 2
+},
+{
+  "question": "At the melting point of a solid, the constituent particles",
+  "options": [
+    "acquire energy much below the average kinetic energy",
+    "vibrate vigorously and acquire energy that overcomes the attractive forces",
+    "acquire energy slightly less than the attractive forces",
+    "acquire energy equal to the attractive forces"
+  ],
+  "answer": 1
+},
+{
+  "question": "An organic solid melts between 115°C – 122°C. This indicates that the solid is",
+  "options": [
+    "pure",
+    "impure",
+    "efflorescent",
+    "hygroscopic"
+  ],
+  "answer": 1
+},
+{
+  "question": "A physical property is",
+  "options": [
+    "rusting",
+    "precipitation",
+    "neutralization",
+    "melting point"
+  ],
+  "answer": 3
+},
+{
+  "question": "An example of physical change is",
+  "options": [
+    "rusting of iron",
+    "souring of milk",
+    "burning of wood",
+    "dissolution of a salt in water"
+  ],
+  "answer": 3
+},
+{
+  "question": "What do allotropes have in common?",
+  "options": [
+    "melting point",
+    "solubility",
+    "chemical reactions",
+    "state of matter"
+  ],
+  "answer": 2
+},
+
+
   {
     "question": "Which of the following processes is used to separate a mixture of iodine and sand?",
     "options": ["Filtration", "Decantation", "Sublimation", "Evaporation"],
@@ -9941,6 +10024,254 @@ answer: 0
   "answer": 0
 },
 {
+  "question": "An ore of iron is",
+  "options": ["Bauxite", "Haematite", "Cassiterite", "Cryolite"],
+  "answer": 1
+},
+{
+  "question": "Bauxite is the chief ore of",
+  "options": ["Iron", "Copper", "Aluminium", "Zinc"],
+  "answer": 2
+},
+{
+  "question": "Cassiterite is an ore of",
+  "options": ["Iron", "Tin", "Lead", "Copper"],
+  "answer": 1
+},
+{
+  "question": "The main ore of zinc is",
+  "options": ["Zinc blende", "Haematite", "Galena", "Magnetite"],
+  "answer": 0
+},
+{
+  "question": "Galena is an ore of",
+  "options": ["Iron", "Lead", "Zinc", "Copper"],
+  "answer": 1
+},
+{
+  "question": "The process of heating ore in absence of air is called",
+  "options": ["Roasting", "Calcination", "Smelting", "Distillation"],
+  "answer": 1
+},
+{
+  "question": "Roasting is carried out in the presence of",
+  "options": ["Nitrogen", "Oxygen", "Hydrogen", "Carbon dioxide"],
+  "answer": 1
+},
+{
+  "question": "The extraction of iron is carried out in a",
+  "options": ["Converter", "Blast furnace", "Electrolytic cell", "Retort"],
+  "answer": 1
+},
+{
+  "question": "The major reducing agent in the extraction of iron is",
+  "options": ["Hydrogen", "Carbon monoxide", "Oxygen", "Nitrogen"],
+  "answer": 1
+},
+{
+  "question": "Slag formed during iron extraction is mainly",
+  "options": ["CaO", "CaSiO₃", "SiO₂", "FeO"],
+  "answer": 1
+},
+{
+  "question": "Cryolite is used in aluminium extraction to",
+  "options": ["Increase melting point", "Decrease melting point", "Act as catalyst", "Remove impurities"],
+  "answer": 1
+},
+{
+  "question": "Aluminium is extracted by",
+  "options": ["Reduction with coke", "Electrolysis", "Distillation", "Roasting"],
+  "answer": 1
+},
+{
+  "question": "The electrolyte used in aluminium extraction is",
+  "options": ["Pure alumina", "Molten cryolite with alumina", "Water", "Molten iron"],
+  "answer": 1
+},
+{
+  "question": "Copper is extracted mainly from",
+  "options": ["Malachite", "Bauxite", "Cassiterite", "Galena"],
+  "answer": 0
+},
+{
+  "question": "The process of purifying metals by electrolysis is called",
+  "options": ["Electrorefining", "Distillation", "Roasting", "Smelting"],
+  "answer": 0
+},
+{
+  "question": "Metals are good conductors of electricity because they have",
+  "options": ["Bound electrons", "Free mobile electrons", "Protons", "Neutrons"],
+  "answer": 1
+},
+{
+  "question": "The property of metals to be beaten into sheets is called",
+  "options": ["Ductility", "Malleability", "Elasticity", "Hardness"],
+  "answer": 1
+},
+{
+  "question": "The ability of metals to be drawn into wires is called",
+  "options": ["Malleability", "Ductility", "Conductivity", "Elasticity"],
+  "answer": 1
+},
+{
+  "question": "Metals generally have",
+  "options": ["Low melting points", "High melting points", "No melting point", "Variable melting points only"],
+  "answer": 1
+},
+{
+  "question": "Which of the following is not a metal?",
+  "options": ["Iron", "Copper", "Sulphur", "Zinc"],
+  "answer": 2
+},
+{
+  "question": "Alkali metals are found in group",
+  "options": ["I", "II", "III", "VII"],
+  "answer": 0
+},
+{
+  "question": "Alkaline earth metals are found in group",
+  "options": ["I", "II", "III", "VI"],
+  "answer": 1
+},
+{
+  "question": "Sodium reacts vigorously with",
+  "options": ["Air only", "Water", "Nitrogen", "Carbon dioxide"],
+  "answer": 1
+},
+{
+  "question": "The product of sodium and water reaction includes",
+  "options": ["NaCl", "NaOH", "Na₂CO₃", "Na₂SO₄"],
+  "answer": 1
+},
+{
+  "question": "Rusting of iron requires",
+  "options": ["Air only", "Water only", "Air and water", "Carbon dioxide only"],
+  "answer": 2
+},
+{
+  "question": "Rust is chemically known as",
+  "options": ["Iron oxide", "Hydrated iron(III) oxide", "Iron hydroxide", "Iron carbonate"],
+  "answer": 1
+},
+{
+  "question": "Stainless steel contains iron, carbon and",
+  "options": ["Copper", "Zinc", "Chromium", "Tin"],
+  "answer": 2
+},
+{
+  "question": "Bronze is an alloy of",
+  "options": ["Copper and zinc", "Copper and tin", "Iron and carbon", "Aluminium and copper"],
+  "answer": 1
+},
+{
+  "question": "Brass is an alloy of",
+  "options": ["Copper and zinc", "Copper and tin", "Iron and zinc", "Lead and copper"],
+  "answer": 0
+},
+{
+  "question": "Duralumin contains aluminium and",
+  "options": ["Copper, magnesium", "Zinc only", "Iron only", "Tin only"],
+  "answer": 0
+},
+{
+  "question": "An amphoteric oxide reacts with",
+  "options": ["Acids only", "Bases only", "Both acids and bases", "Neither"],
+  "answer": 2
+},
+{
+  "question": "An example of amphoteric oxide is",
+  "options": ["Na₂O", "CaO", "Al₂O₃", "CO₂"],
+  "answer": 2
+},
+{
+  "question": "A basic oxide is formed by",
+  "options": ["Metals", "Non-metals", "Gases", "Liquids"],
+  "answer": 0
+},
+{
+  "question": "A common use of copper is in",
+  "options": ["Electrical wiring", "Making glass", "Food preservation", "Painting"],
+  "answer": 0
+},
+{
+  "question": "Iron is mainly used for",
+  "options": ["Jewelry", "Construction", "Medicine", "Fuel"],
+  "answer": 1
+},
+{
+  "question": "Aluminium is used for aircraft bodies because it is",
+  "options": ["Heavy", "Light and strong", "Expensive", "Soft only"],
+  "answer": 1
+},
+{
+  "question": "Zinc is used in galvanizing iron to",
+  "options": ["Increase weight", "Prevent rusting", "Improve color", "Reduce cost"],
+  "answer": 1
+},
+{
+  "question": "The coating of iron with zinc is called",
+  "options": ["Electroplating", "Galvanizing", "Alloying", "Smelting"],
+  "answer": 1
+},
+{
+  "question": "Lead is commonly used in",
+  "options": ["Batteries", "Cooking pots", "Wiring", "Glass only"],
+  "answer": 0
+},
+{
+  "question": "The oxide of sodium is",
+  "options": ["NaO", "Na₂O", "NaO₂", "Na₂O₂"],
+  "answer": 1
+},
+{
+  "question": "Calcium oxide is commonly known as",
+  "options": ["Slaked lime", "Quicklime", "Limestone", "Gypsum"],
+  "answer": 1
+},
+{
+  "question": "Calcium hydroxide is called",
+  "options": ["Quicklime", "Slaked lime", "Limestone", "Chalk"],
+  "answer": 1
+},
+{
+  "question": "Limestone is chemically",
+  "options": ["CaO", "CaCO₃", "Ca(OH)₂", "CaSO₄"],
+  "answer": 1
+},
+{
+  "question": "The thermal decomposition of limestone produces",
+  "options": ["CaO and CO₂", "CaCO₃ and CO₂", "Ca and O₂", "CaO only"],
+  "answer": 0
+},
+{
+  "question": "Which metal reacts least with water?",
+  "options": ["Sodium", "Calcium", "Magnesium", "Copper"],
+  "answer": 3
+},
+{
+  "question": "Metals above hydrogen in electrochemical series",
+  "options": ["Do not react with acids", "Displace hydrogen from acids", "Are noble metals", "Are gases"],
+  "answer": 1
+},
+{
+  "question": "Electroplating is used to",
+  "options": ["Increase corrosion", "Decorate and protect metals", "Reduce strength", "Melt metals"],
+  "answer": 1
+},
+{
+  "question": "Which of the following is a transition metal?",
+  "options": ["Sodium", "Calcium", "Iron", "Aluminium"],
+  "answer": 2
+},
+{
+  "question": "The colour of copper (II) sulphate solution is",
+  "options": ["Green", "Blue", "Red", "Yellow"],
+  "answer": 1
+},
+
+
+
+{
   "question": "The stability of the noble gases is due to the fact that they",
   "options": [
     "have no electrons in their outermost shells",
@@ -10087,6 +10418,609 @@ answer: 0
   "options": ["AgCl", "CaSO<sub>4</sub>", "Na<sub>2</sub>CO<sub>3</sub>", "PbCl<sub>2</sub>"],
   "answer": 0
 },
+
+{
+  "question": "Which factor increases the rate of a reaction by increasing the number of collisions per unit time?",
+  "options": [
+    "Decrease in temperature",
+    "Increase in concentration",
+    "Decrease in surface area",
+    "Removal of catalyst"
+  ],
+  "answer": 1
+},
+{
+  "question": "A catalyst increases the rate of reaction by",
+  "options": [
+    "Increasing the energy of reactants",
+    "Providing an alternative pathway with lower activation energy",
+    "Increasing pressure",
+    "Changing the products formed"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which of the following factors has no effect on reaction rate?",
+  "options": [
+    "Temperature",
+    "Concentration",
+    "Color of reactants",
+    "Surface area"
+  ],
+  "answer": 2
+},
+{
+  "question": "Increasing temperature speeds up reactions because it",
+  "options": [
+    "Decreases activation energy",
+    "Increases kinetic energy of particles",
+    "Reduces collisions",
+    "Removes catalyst"
+  ],
+  "answer": 1
+},
+{
+  "question": "Powdered calcium carbonate reacts faster than lumps because of",
+  "options": [
+    "Higher density",
+    "Lower mass",
+    "Greater surface area",
+    "Lower pressure"
+  ],
+  "answer": 2
+},
+{
+  "question": "Which factor is most important in gaseous reactions?",
+  "options": [
+    "Surface area",
+    "Pressure",
+    "Color",
+    "Shape"
+  ],
+  "answer": 1
+},
+{
+  "question": "The effectiveness of a catalyst depends on",
+  "options": [
+    "Its color",
+    "Its ability to lower activation energy",
+    "Its mass only",
+    "Its boiling point"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which condition will slow down a reaction?",
+  "options": [
+    "Increase in temperature",
+    "Increase in concentration",
+    "Decrease in temperature",
+    "Addition of catalyst"
+  ],
+  "answer": 2
+},
+{
+  "question": "Increasing concentration increases rate because it",
+  "options": [
+    "Reduces energy",
+    "Increases number of effective collisions",
+    "Stops reaction",
+    "Changes equilibrium"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which of the following best describes activation energy?",
+  "options": [
+    "Energy of products",
+    "Minimum energy needed for effective collision",
+    "Total energy in system",
+    "Energy lost during reaction"
+  ],
+  "answer": 1
+},
+{
+  "question": "A catalyst is said to be specific because it",
+  "options": [
+    "Works for all reactions",
+    "Works only for particular reactions",
+    "Changes all reactants",
+    "Increases pressure"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which of the following increases rate by increasing energy of particles?",
+  "options": [
+    "Surface area",
+    "Temperature",
+    "Catalyst",
+    "Pressure"
+  ],
+  "answer": 1
+},
+{
+  "question": "In heterogeneous catalysis, the catalyst is in",
+  "options": [
+    "Same phase as reactants",
+    "Different phase from reactants",
+    "Liquid phase only",
+    "Gas phase only"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which factor increases reaction rate without being consumed?",
+  "options": [
+    "Temperature",
+    "Pressure",
+    "Catalyst",
+    "Concentration"
+  ],
+  "answer": 2
+},
+{
+  "question": "Increasing pressure affects reactions involving",
+  "options": [
+    "Solids only",
+    "Liquids only",
+    "Gases",
+    "Solutions only"
+  ],
+  "answer": 2
+},
+{
+  "question": "Which of the following will increase the rate of reaction between zinc and hydrochloric acid?",
+  "options": [
+    "Using large zinc pieces",
+    "Diluting the acid",
+    "Using powdered zinc",
+    "Lowering temperature"
+  ],
+  "answer": 2
+},
+{
+  "question": "Catalyst poisoning leads to",
+  "options": [
+    "Increase in reaction rate",
+    "Decrease in catalyst efficiency",
+    "Increase in temperature",
+    "Formation of new catalyst"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which factor affects both collision frequency and energy?",
+  "options": [
+    "Surface area",
+    "Temperature",
+    "Pressure",
+    "Concentration"
+  ],
+  "answer": 1
+},
+{
+  "question": "The rate of reaction increases when activation energy is",
+  "options": [
+    "High",
+    "Low",
+    "Constant",
+    "Zero always"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which factor is irrelevant for solid-solid reactions?",
+  "options": [
+    "Surface area",
+    "Temperature",
+    "Pressure",
+    "Catalyst"
+  ],
+  "answer": 2
+},
+{
+  "question": "An enzyme is a",
+  "options": [
+    "Metal",
+    "Salt",
+    "Biological catalyst",
+    "Acid"
+  ],
+  "answer": 2
+},
+{
+  "question": "Which of the following increases collision frequency?",
+  "options": [
+    "Low concentration",
+    "High concentration",
+    "Low pressure",
+    "Low temperature"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which factor does a catalyst NOT change?",
+  "options": [
+    "Rate of reaction",
+    "Activation energy",
+    "Equilibrium position",
+    "Reaction pathway"
+  ],
+  "answer": 2
+},
+{
+  "question": "Which condition provides the fastest reaction?",
+  "options": [
+    "Low temp, low conc",
+    "High temp, high conc",
+    "Low temp, high conc",
+    "High temp, low conc"
+  ],
+  "answer": 1
+},
+{
+  "question": "Increasing surface area affects rate by",
+  "options": [
+    "Increasing energy",
+    "Increasing collisions",
+    "Reducing pressure",
+    "Changing pathway"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which of the following is a homogeneous catalyst?",
+  "options": [
+    "Solid catalyst in gas reaction",
+    "Liquid catalyst in liquid reaction",
+    "Solid catalyst in liquid reaction",
+    "Gas catalyst in solid reaction"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which factor affects rate by changing concentration of gas molecules?",
+  "options": [
+    "Pressure",
+    "Temperature",
+    "Surface area",
+    "Catalyst"
+  ],
+  "answer": 0
+},
+{
+  "question": "Which condition reduces rate of reaction?",
+  "options": [
+    "Adding catalyst",
+    "Increasing temperature",
+    "Reducing concentration",
+    "Increasing surface area"
+  ],
+  "answer": 2
+},
+{
+  "question": "Catalysts lower activation energy by",
+  "options": [
+    "Increasing heat",
+    "Providing alternative pathway",
+    "Increasing pressure",
+    "Increasing mass"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which factor is most effective in speeding up reactions in solution?",
+  "options": [
+    "Color",
+    "Concentration",
+    "Shape",
+    "Mass"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which factor has least effect on rate?",
+  "options": [
+    "Temperature",
+    "Concentration",
+    "Surface area",
+    "Color"
+  ],
+  "answer": 3
+},
+{
+  "question": "Increasing temperature increases rate because",
+  "options": [
+    "Particles move slower",
+    "More particles have required activation energy",
+    "Collisions decrease",
+    "Energy decreases"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which factor increases effective collisions?",
+  "options": [
+    "Correct orientation",
+    "Low temperature",
+    "Low pressure",
+    "Low concentration"
+  ],
+  "answer": 0
+},
+{
+  "question": "Which of the following statements about catalysts is correct?",
+  "options": [
+    "They are used up",
+    "They increase activation energy",
+    "They speed up reactions without being consumed",
+    "They change products"
+  ],
+  "answer": 2
+},
+{
+  "question": "Which condition will increase rate the most?",
+  "options": [
+    "Low temp + catalyst",
+    "High temp + catalyst",
+    "Low conc + no catalyst",
+    "Low surface area"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which factor mainly affects rate in solid reactions?",
+  "options": [
+    "Pressure",
+    "Surface area",
+    "Volume",
+    "Density"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which factor is responsible for increased energy of particles?",
+  "options": [
+    "Pressure",
+    "Temperature",
+    "Surface area",
+    "Catalyst"
+  ],
+  "answer": 1
+},
+{
+  "question": "A decrease in concentration causes",
+  "options": [
+    "Increase in collisions",
+    "Decrease in collisions",
+    "No change",
+    "Increase in energy"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which is NOT a property of catalysts?",
+  "options": [
+    "Reusable",
+    "Specific",
+    "Consumed",
+    "Lower activation energy"
+  ],
+  "answer": 2
+},
+{
+  "question": "Increasing pressure increases rate because",
+  "options": [
+    "Particles are closer",
+    "Energy decreases",
+    "Surface area reduces",
+    "Catalyst is formed"
+  ],
+  "answer": 0
+},
+{
+  "question": "Which factor does NOT affect rate constant?",
+  "options": [
+    "Temperature",
+    "Catalyst",
+    "Concentration",
+    "Nature of reactants"
+  ],
+  "answer": 2
+},
+{
+  "question": "Which condition results in fewer effective collisions?",
+  "options": [
+    "Low temperature",
+    "High temperature",
+    "High concentration",
+    "High pressure"
+  ],
+  "answer": 0
+},
+{
+  "question": "Which factor is important for enzyme activity?",
+  "options": [
+    "pH",
+    "Color",
+    "Shape",
+    "Volume"
+  ],
+  "answer": 0
+},
+{
+  "question": "Which factor increases both collision frequency and energy?",
+  "options": [
+    "Pressure",
+    "Temperature",
+    "Surface area",
+    "Catalyst"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which condition decreases reaction rate?",
+  "options": [
+    "High temperature",
+    "Low concentration",
+    "Catalyst present",
+    "High surface area"
+  ],
+  "answer": 1
+},
+{
+  "question": "A catalyst does NOT affect",
+  "options": [
+    "Rate",
+    "Activation energy",
+    "Equilibrium constant",
+    "Reaction pathway"
+  ],
+  "answer": 2
+},
+{
+  "question": "Which is the best way to increase reaction rate in metals?",
+  "options": [
+    "Use large chunks",
+    "Use powder",
+    "Lower temperature",
+    "Dilute acid"
+  ],
+  "answer": 1
+},
+{
+  "question": "Which factor increases rate by improving particle orientation?",
+  "options": [
+    "Catalyst",
+    "Pressure",
+    "Temperature",
+    "Surface area"
+  ],
+  "answer": 0
+},
+{
+  "question": "Which factor is least important in liquid reactions?",
+  "options": [
+    "Concentration",
+    "Temperature",
+    "Surface area",
+    "Catalyst"
+  ],
+  "answer": 2
+},
+{
+  "question": "The main role of a catalyst is to",
+  "options": [
+    "Change equilibrium",
+    "Reduce activation energy",
+    "Increase concentration",
+    "Increase pressure"
+  ],
+  "answer": 1
+},
+
+  {
+    "question": "When 4.6 g of sodium reacts completely with water according to the equation 2Na + 2H2O → 2NaOH + H2, what volume of hydrogen gas is produced at standard temperature and pressure (STP)? (Na = 23, molar volume = 22.4 dm3)",
+    "options": ["2.24 dm3", "1.12 dm3", "4.48 dm3", "0.56 dm3"],
+    "answer": 1
+  },
+  {
+    "question": "Calculate the mass of calcium carbonate required to produce 11.2 dm3 of carbon dioxide at STP in the reaction CaCO3 → CaO + CO2. (CaCO3 = 100)",
+    "options": ["50 g", "100 g", "25 g", "75 g"],
+    "answer": 0
+  },
+  {
+    "question": "What volume of oxygen is required to completely burn 5.6 dm3 of methane at STP according to the equation CH4 + 2O2 → CO2 + 2H2O?",
+    "options": ["5.6 dm3", "11.2 dm3", "2.8 dm3", "22.4 dm3"],
+    "answer": 1
+  },
+  {
+    "question": "If 2.0 g of hydrogen reacts with excess nitrogen to form ammonia, calculate the mass of ammonia produced. (N = 14, H = 1)",
+    "options": ["11.3 g", "17.0 g", "34.0 g", "22.6 g"],
+    "answer": 1
+  },
+  {
+    "question": "In the reaction 2H2 + O2 → 2H2O, what volume of oxygen is needed to react completely with 10 dm3 of hydrogen at the same temperature and pressure?",
+    "options": ["5 dm3", "10 dm3", "20 dm3", "2 dm3"],
+    "answer": 0
+  },
+  {
+    "question": "Calculate the empirical formula of a compound containing 40% carbon, 6.7% hydrogen, and 53.3% oxygen.",
+    "options": ["CH2O", "C2H4O2", "CHO", "CH3O"],
+    "answer": 0
+  },
+  {
+    "question": "What is the percentage yield when 8 g of product is obtained from a reaction with a theoretical yield of 10 g?",
+    "options": ["80%", "75%", "60%", "90%"],
+    "answer": 0
+  },
+  {
+    "question": "If 24 g of magnesium reacts with excess hydrochloric acid, what volume of hydrogen gas is evolved at STP? (Mg = 24)",
+    "options": ["22.4 dm3", "11.2 dm3", "5.6 dm3", "44.8 dm3"],
+    "answer": 0
+  },
+  {
+    "question": "Calculate the concentration in mol/dm3 of a solution prepared by dissolving 5.85 g of NaCl in 500 cm3 of solution. (NaCl = 58.5)",
+    "options": ["0.1 M", "0.2 M", "0.05 M", "1.0 M"],
+    "answer": 0
+  },
+  {
+    "question": "What mass of oxygen is required to completely react with 12 g of carbon to form carbon dioxide? (C = 12, O = 16)",
+    "options": ["16 g", "32 g", "24 g", "12 g"],
+    "answer": 1
+  },
+  {
+    "question": "A mixture of gases contains 2 moles of oxygen and 3 moles of nitrogen. What is the mole fraction of oxygen?",
+    "options": ["0.4", "0.6", "0.5", "0.2"],
+    "answer": 0
+  },
+  {
+    "question": "Calculate the volume of CO2 produced when 50 cm3 of 1.0 M HCl reacts with excess CaCO3. (Molar volume = 22.4 dm3)",
+    "options": ["0.56 dm3", "1.12 dm3", "0.28 dm3", "2.24 dm3"],
+    "answer": 2
+  },
+  {
+    "question": "What is the molar mass of a gas if 0.5 moles occupy 11.2 dm3 at STP?",
+    "options": ["22.4 g/mol", "44.8 g/mol", "11.2 g/mol", "56 g/mol"],
+    "answer": 0
+  },
+  {
+    "question": "If 10 g of a metal reacts with excess oxygen to form 14 g of oxide, what is the mass of oxygen that combined?",
+    "options": ["4 g", "10 g", "14 g", "6 g"],
+    "answer": 0
+  },
+  {
+    "question": "Calculate the number of moles in 22 g of CO2. (C = 12, O = 16)",
+    "options": ["0.5 mol", "1 mol", "2 mol", "0.25 mol"],
+    "answer": 0
+  },
+  {
+    "question": "What volume of hydrogen at STP is required to reduce 16 g of copper(II) oxide? CuO + H2 → Cu + H2O (Cu = 64, O = 16)",
+    "options": ["5.6 dm3", "2.8 dm3", "11.2 dm3", "22.4 dm3"],
+    "answer": 1
+  },
+  {
+    "question": "A gas occupies 44.8 dm3 at STP. How many moles of the gas are present?",
+    "options": ["1 mol", "2 mol", "0.5 mol", "4 mol"],
+    "answer": 1
+  },
+  {
+    "question": "Calculate the mass of NaOH produced when 0.5 mol of Na reacts with water.",
+    "options": ["20 g", "40 g", "10 g", "5 g"],
+    "answer": 0
+  },
+  {
+    "question": "If 1 mole of a gas occupies 24 dm3 at room temperature, what volume will 2 moles occupy under the same conditions?",
+    "options": ["24 dm3", "48 dm3", "12 dm3", "36 dm3"],
+    "answer": 1
+  },
+  {
+    "question": "Calculate the percentage composition of oxygen in water (H2O). (H = 1, O = 16)",
+    "options": ["88.9%", "11.1%", "50%", "66.7%"],
+    "answer": 0
+  },
+  
 {
   "question": "6AgNO<sub>3</sub>(aq) + PH<sub>3</sub>(g) + 3H<sub>2</sub>O(l) → 6Ag(s) + H<sub>3</sub>PO<sub>3</sub>(aq) + 6HNO<sub>3</sub>(aq). In the reaction above, the reducing agent is",
   "options": ["HNO<sub>3</sub>(aq)", "H<sub>2</sub>O(l)", "PH<sub>3</sub>(g)", "AgNO<sub>3</sub>(aq)"],
@@ -10274,6 +11208,109 @@ answer: 0
   "options": ["Base", "Alkali", "Hydrogen", "Acid"],
   "answer": 1
 },
+
+{
+  "question": "Chlorine exists as two isotopes 35Cl and 37Cl in the ratio 3:1. Calculate the relative atomic mass of chlorine.",
+  "options": ["35.5", "36.0", "35.0", "36.5"],
+  "answer": 0
+},
+{
+  "question": "An element X has isotopes of mass numbers 24 and 26 in the ratio 3:1. What is the relative atomic mass of X?",
+  "options": ["24.5", "25.0", "25.5", "26.0"],
+  "answer": 0
+},
+{
+  "question": "A sample of an element contains 60% of isotope A (mass 10) and 40% of isotope B (mass 11). Calculate its relative atomic mass.",
+  "options": ["10.4", "10.6", "10.5", "10.2"],
+  "answer": 0
+},
+{
+  "question": "Calculate the relative molecular mass of CaCO3. (Ca = 40, C = 12, O = 16)",
+  "options": ["100", "56", "44", "84"],
+  "answer": 0
+},
+{
+  "question": "Determine the relative molecular mass of H2SO4. (H = 1, S = 32, O = 16)",
+  "options": ["96", "98", "100", "94"],
+  "answer": 1
+},
+{
+  "question": "A compound contains 40% carbon, 6.7% hydrogen, and 53.3% oxygen. Determine its empirical formula.",
+  "options": ["CH2O", "C2H4O2", "CHO", "CH3O"],
+  "answer": 0
+},
+{
+  "question": "A hydrocarbon contains 85.7% carbon and 14.3% hydrogen. Determine its empirical formula.",
+  "options": ["CH2", "CH", "C2H4", "C3H6"],
+  "answer": 0
+},
+{
+  "question": "The empirical formula of a compound is CH2 and its molar mass is 56 g/mol. Determine its molecular formula.",
+  "options": ["C2H4", "C3H6", "C4H8", "C5H10"],
+  "answer": 2
+},
+{
+  "question": "The empirical formula of a compound is CH and its relative molecular mass is 78. What is its molecular formula?",
+  "options": ["C6H6", "C3H3", "C2H2", "C4H4"],
+  "answer": 0
+},
+{
+  "question": "A compound has empirical formula NO2 and relative molecular mass 92. Determine its molecular formula. (N = 14, O = 16)",
+  "options": ["NO2", "N2O4", "N3O6", "N4O8"],
+  "answer": 1
+},
+{
+  "question": "Calculate the relative molecular mass of Al2(SO4)3. (Al = 27, S = 32, O = 16)",
+  "options": ["342", "324", "300", "360"],
+  "answer": 0
+},
+{
+  "question": "An element has isotopes 20X and 22X present in equal abundance. Calculate its relative atomic mass.",
+  "options": ["21", "20", "22", "21.5"],
+  "answer": 0
+},
+{
+  "question": "A compound contains 52.2% carbon, 13.0% hydrogen, and 34.8% oxygen. Determine its empirical formula.",
+  "options": ["C2H6O", "CH3O", "C3H8O", "C2H4O"],
+  "answer": 0
+},
+{
+  "question": "The empirical formula of a compound is C2H5 and its molar mass is 58 g/mol. Determine the molecular formula.",
+  "options": ["C2H5", "C4H10", "C3H7", "C5H12"],
+  "answer": 1
+},
+{
+  "question": "Calculate the relative molecular mass of (NH4)2SO4. (N = 14, H = 1, S = 32, O = 16)",
+  "options": ["132", "130", "120", "140"],
+  "answer": 0
+},
+{
+  "question": "An element has isotopes of mass 63 and 65 in the ratio 1:1. Calculate its relative atomic mass.",
+  "options": ["64", "63", "65", "64.5"],
+  "answer": 0
+},
+{
+  "question": "A compound contains 27.3% carbon and 72.7% oxygen. Determine its empirical formula.",
+  "options": ["CO", "CO2", "C2O", "C2O2"],
+  "answer": 1
+},
+{
+  "question": "The empirical formula of a compound is HO and its molar mass is 34 g/mol. Determine its molecular formula.",
+  "options": ["H2O2", "HO", "H2O", "H3O"],
+  "answer": 0
+},
+{
+  "question": "Calculate the relative molecular mass of Na2CO3. (Na = 23, C = 12, O = 16)",
+  "options": ["106", "84", "100", "120"],
+  "answer": 0
+},
+{
+  "question": "An element has isotopes 12X (75%) and 13X (25%). Calculate its relative atomic mass.",
+  "options": ["12.25", "12.5", "12.75", "13.0"],
+  "answer": 0
+},
+
+
 {
   "question": "The products of a neutralization reaction are",
   "options": ["acid and base", "salt and water", "salt and base", "base and salt"],
